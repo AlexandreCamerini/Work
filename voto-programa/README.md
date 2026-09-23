@@ -77,7 +77,9 @@ exercitar o fluxo e os testes.
       definido pelo próprio eleitor.
 - [x] Cálculo de afinidade transparente, testado, sem caixa-preta.
 - [x] Ranking de candidatos com breakdown por eixo e por pergunta.
-- [x] Toda posição de candidato exibida linka para a fonte primária.
+- [x] Candidatos ficam ocultos (nome/número/partido) até revelação explícita por
+      card — a decisão por conteúdo precede a identidade, mitigando viés de marca.
+- [x] Toda posição de candidato revelada linka para a fonte primária.
 - [x] Nenhum dado pessoal ou de intenção de voto é coletado ou transmitido.
 - [x] Responsivo (grid 2 colunas em mobile, 5 em desktop nas opções Likert).
 - [ ] Acessibilidade (contraste, navegação por teclado, `aria-*`) — não

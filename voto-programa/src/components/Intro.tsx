@@ -15,7 +15,11 @@ export function Intro({ onIniciar }: IntroProps) {
         <p className="font-semibold">Antes de começar</p>
         <ul className="mt-2 list-inside list-disc space-y-1">
           <li>Esta ferramenta mede afinidade de propostas, não faz recomendação de voto.</li>
-          <li>Toda posição de candidato exibida tem link para a fonte pública original.</li>
+          <li>
+            No resultado, os candidatos ficam ocultos até você decidir revelar cada um — a
+            comparação é pelo programa, não pelo nome, número ou partido.
+          </li>
+          <li>Toda posição de candidato revelada tem link para a fonte pública original.</li>
           <li>Nenhuma resposta é enviada a um servidor: o cálculo acontece no seu navegador.</li>
         </ul>
       </div>
