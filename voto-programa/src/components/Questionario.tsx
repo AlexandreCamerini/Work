@@ -3,14 +3,6 @@ import { eixos } from '../data/eixos'
 import { perguntas } from '../data/perguntas'
 import type { Importancia, Posicao, RespostaUsuario } from '../types'
 
-const OPCOES_POSICAO: { valor: Posicao; label: string }[] = [
-  { valor: -2, label: 'Discordo totalmente' },
-  { valor: -1, label: 'Discordo' },
-  { valor: 0, label: 'Neutro' },
-  { valor: 1, label: 'Concordo' },
-  { valor: 2, label: 'Concordo totalmente' },
-]
-
 const OPCOES_IMPORTANCIA: { valor: Importancia; label: string }[] = [
   { valor: 1, label: 'Pouco importante' },
   { valor: 2, label: 'Importante' },
@@ -31,7 +23,7 @@ export function Questionario({ onConcluir }: QuestionarioProps) {
 
   const totalRespondidas = Object.keys(respostas).length
 
-  function definirPosicao(perguntaId: string, posicao: Posicao) {
+  function escolherOpcao(perguntaId: string, posicao: Posicao) {
     setRespostas((atual) => ({
       ...atual,
       [perguntaId]: { perguntaId, importancia: atual[perguntaId]?.importancia ?? 2, posicao },
@@ -73,18 +65,18 @@ export function Questionario({ onConcluir }: QuestionarioProps) {
               const resposta = respostas[pergunta.id]
               return (
                 <div key={pergunta.id} className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
-                  <p className="font-medium text-slate-800">{pergunta.texto}</p>
+                  <p className="font-medium text-slate-800">{pergunta.cenario}</p>
 
-                  <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-5">
-                    {OPCOES_POSICAO.map((opcao) => (
+                  <div className="mt-3 space-y-2">
+                    {pergunta.opcoes.map((opcao) => (
                       <button
-                        key={opcao.valor}
+                        key={opcao.id}
                         type="button"
-                        onClick={() => definirPosicao(pergunta.id, opcao.valor)}
-                        className={`rounded-md border px-2 py-2 text-xs font-medium transition ${
-                          resposta?.posicao === opcao.valor
+                        onClick={() => escolherOpcao(pergunta.id, opcao.posicao)}
+                        className={`block w-full rounded-md border px-3 py-2 text-left text-sm transition ${
+                          resposta?.posicao === opcao.posicao
                             ? 'border-brand-600 bg-brand-600 text-white'
-                            : 'border-slate-300 bg-white text-slate-600 hover:border-brand-400'
+                            : 'border-slate-300 bg-white text-slate-700 hover:border-brand-400'
                         }`}
                       >
                         {opcao.label}

@@ -10,7 +10,7 @@ interface ResultadosProps {
 }
 
 const nomeEixo = new Map(eixos.map((e) => [e.id, e.nome]))
-const textoPergunta = new Map(perguntas.map((p) => [p.id, p.texto]))
+const cenarioPergunta = new Map(perguntas.map((p) => [p.id, p.cenario]))
 
 export function Resultados({ ranking, respostas, onRefazer }: ResultadosProps) {
   const respostaPorPergunta = new Map(respostas.map((r) => [r.perguntaId, r]))
@@ -87,28 +87,57 @@ function CandidatoCard({
             <span className="block font-semibold text-slate-400">Candidato oculto</span>
           )}
         </span>
-        <span className="text-2xl font-bold text-brand-600">{afinidadeGeral}%</span>
+        <span className="text-2xl font-bold text-brand-600">
+          {perguntasComparadas > 0 ? `${afinidadeGeral}%` : '—'}
+        </span>
       </button>
 
       {aberto && (
         <div className="border-t border-slate-100 p-4">
-          <p className="text-xs text-slate-500">
-            Baseado em {perguntasComparadas} pergunta(s) respondida(s) com posição cadastrada para
-            este candidato.
-          </p>
-
-          <div className="mt-3 space-y-2">
-            {resultado.porEixo.map((eixoScore) => (
-              <div key={eixoScore.eixoId} className="flex items-center justify-between text-sm">
-                <span className="text-slate-600">{nomeEixo.get(eixoScore.eixoId)}</span>
-                <span className="font-medium text-slate-800">{eixoScore.afinidade}%</span>
+          {perguntasComparadas === 0 ? (
+            <p className="text-sm text-amber-700">
+              Este candidato ainda não tem posições cadastradas no sistema — o plano de governo
+              está em curadoria. Sem dado, sem afinidade calculada.
+            </p>
+          ) : (
+            <>
+              <p className="text-xs text-slate-500">
+                Baseado em {perguntasComparadas} pergunta(s) respondida(s) com posição cadastrada
+                para este candidato.
+              </p>
+              <div className="mt-3 space-y-2">
+                {resultado.porEixo.map((eixoScore) => (
+                  <div key={eixoScore.eixoId} className="flex items-center justify-between text-sm">
+                    <span className="text-slate-600">{nomeEixo.get(eixoScore.eixoId)}</span>
+                    <span className="font-medium text-slate-800">{eixoScore.afinidade}%</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
 
           {revelado ? (
             <>
-              <p className="mt-4 text-sm">
+              <div className="mt-4 space-y-1 text-sm text-slate-600">
+                {candidato.coligacao && <p>Coligação: {candidato.coligacao}</p>}
+                {candidato.federacao && <p>Federação: {candidato.federacao}</p>}
+                {candidato.vice && <p>Vice: {candidato.vice}</p>}
+                {candidato.situacaoJudicial.status !== 'regular' && (
+                  <p className="rounded-md border border-amber-300 bg-amber-50 p-2 text-amber-900">
+                    Situação da candidatura: {candidato.situacaoJudicial.descricao}{' '}
+                    <a
+                      href={candidato.situacaoJudicial.fonteUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline"
+                    >
+                      fonte
+                    </a>
+                  </p>
+                )}
+              </div>
+
+              <p className="mt-3 text-sm">
                 <a
                   href={candidato.planoGovernoUrl}
                   target="_blank"
@@ -119,31 +148,34 @@ function CandidatoCard({
                 </a>
               </p>
 
-              <details className="mt-4">
-                <summary className="cursor-pointer text-sm font-medium text-brand-600">
-                  Ver posição pergunta a pergunta
-                </summary>
-                <ul className="mt-2 space-y-2 text-sm">
-                  {candidato.posicoes
-                    .filter((p) => respostaPorPergunta.has(p.perguntaId))
-                    .map((p) => (
-                      <li
-                        key={p.perguntaId}
-                        className="border-t border-slate-100 pt-2 first:border-t-0 first:pt-0"
-                      >
-                        <p className="text-slate-700">{textoPergunta.get(p.perguntaId)}</p>
-                        <a
-                          href={p.fonteUrl}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-xs text-brand-600 underline"
+              {perguntasComparadas > 0 && (
+                <details className="mt-4">
+                  <summary className="cursor-pointer text-sm font-medium text-brand-600">
+                    Ver posição pergunta a pergunta
+                  </summary>
+                  <ul className="mt-2 space-y-2 text-sm">
+                    {candidato.posicoes
+                      .filter((p) => respostaPorPergunta.has(p.perguntaId))
+                      .map((p) => (
+                        <li
+                          key={p.perguntaId}
+                          className="border-t border-slate-100 pt-2 first:border-t-0 first:pt-0"
                         >
-                          Fonte da posição do candidato
-                        </a>
-                      </li>
-                    ))}
-                </ul>
-              </details>
+                          <p className="text-slate-700">{cenarioPergunta.get(p.perguntaId)}</p>
+                          <p className="mt-1 text-xs italic text-slate-500">"{p.trechoFonte}"</p>
+                          <a
+                            href={p.fonteUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-xs text-brand-600 underline"
+                          >
+                            Fonte da posição do candidato
+                          </a>
+                        </li>
+                      ))}
+                  </ul>
+                </details>
+              )}
             </>
           ) : (
             <button

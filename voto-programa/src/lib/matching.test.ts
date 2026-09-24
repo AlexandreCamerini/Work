@@ -9,6 +9,12 @@ function candidato(posicoes: Candidato['posicoes']): Candidato {
     numero: '1',
     partido: 'P',
     cargo: 'Teste',
+    situacaoJudicial: {
+      status: 'regular',
+      descricao: 'Registro regular.',
+      fonteUrl: 'https://exemplo.invalid',
+      atualizadoEm: '2026-01-01',
+    },
     planoGovernoUrl: 'https://exemplo.invalid',
     posicoes,
   }
@@ -16,7 +22,7 @@ function candidato(posicoes: Candidato['posicoes']): Candidato {
 
 describe('calcularAfinidade', () => {
   it('retorna 100% quando todas as posições coincidem', () => {
-    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' }])
+    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
     const respostas: RespostaUsuario[] = [{ perguntaId: 'econ-1', posicao: 2, importancia: 2 }]
 
     const resultado = calcularAfinidade(c, respostas)
@@ -26,7 +32,7 @@ describe('calcularAfinidade', () => {
   })
 
   it('retorna 0% quando as posições são diametralmente opostas', () => {
-    const c = candidato([{ perguntaId: 'econ-1', posicao: -2, fonteUrl: 'https://x' }])
+    const c = candidato([{ perguntaId: 'econ-1', posicao: -2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
     const respostas: RespostaUsuario[] = [{ perguntaId: 'econ-1', posicao: 2, importancia: 1 }]
 
     expect(calcularAfinidade(c, respostas).afinidadeGeral).toBe(0)
@@ -34,8 +40,8 @@ describe('calcularAfinidade', () => {
 
   it('pondera pela importância declarada pelo usuário', () => {
     const c = candidato([
-      { perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' }, // concorda total
-      { perguntaId: 'econ-2', posicao: -2, fonteUrl: 'https://x' }, // discorda total
+      { perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }, // concorda total
+      { perguntaId: 'econ-2', posicao: -2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }, // discorda total
     ])
     const respostasPesoIgual: RespostaUsuario[] = [
       { perguntaId: 'econ-1', posicao: 2, importancia: 1 },
@@ -53,7 +59,7 @@ describe('calcularAfinidade', () => {
   })
 
   it('ignora perguntas sem posição cadastrada para o candidato', () => {
-    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' }])
+    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
     const respostas: RespostaUsuario[] = [
       { perguntaId: 'econ-1', posicao: 2, importancia: 2 },
       { perguntaId: 'pergunta-inexistente', posicao: -2, importancia: 3 },
@@ -67,8 +73,8 @@ describe('calcularAfinidade', () => {
 
   it('agrupa o score por eixo temático', () => {
     const c = candidato([
-      { perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' },
-      { perguntaId: 'saude-1', posicao: -2, fonteUrl: 'https://x' },
+      { perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' },
+      { perguntaId: 'saude-1', posicao: -2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' },
     ])
     const respostas: RespostaUsuario[] = [
       { perguntaId: 'econ-1', posicao: 2, importancia: 2 },
@@ -84,7 +90,7 @@ describe('calcularAfinidade', () => {
   })
 
   it('não conta perguntas sem resposta do usuário na afinidade geral', () => {
-    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' }])
+    const c = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
     const resultado = calcularAfinidade(c, [])
 
     expect(resultado.afinidadeGeral).toBe(0)
@@ -94,8 +100,8 @@ describe('calcularAfinidade', () => {
 
 describe('calcularRanking', () => {
   it('ordena candidatos do maior para o menor grau de afinidade', () => {
-    const candidatoAlinhado = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x' }])
-    const candidatoOposto = candidato([{ perguntaId: 'econ-1', posicao: -2, fonteUrl: 'https://x' }])
+    const candidatoAlinhado = candidato([{ perguntaId: 'econ-1', posicao: 2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
+    const candidatoOposto = candidato([{ perguntaId: 'econ-1', posicao: -2, fonteUrl: 'https://x', trechoFonte: 'trecho de teste' }])
     const respostas: RespostaUsuario[] = [{ perguntaId: 'econ-1', posicao: 2, importancia: 2 }]
 
     const ranking = calcularRanking([candidatoOposto, candidatoAlinhado], respostas)
