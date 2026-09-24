@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { candidatos as candidatosReais } from '../data/candidatos'
-import { aderencia as ad, evidencias as ev, quiz } from '../data'
+import { eleicoes } from '../data'
 import type { Aderencia, Candidato, Pergunta } from '../types'
 import { COBERTURA_MINIMA, calcularResultados } from './matching'
 
@@ -83,11 +82,13 @@ describe('calcularResultados', () => {
   })
 })
 
-describe('integridade dos dados publicados', () => {
+describe.each(eleicoes.map((e) => [e.id, e] as const))('integridade dos dados publicados: %s', (_id, eleicao) => {
+  const { quiz, aderencia: ad, evidencias: ev, candidatos } = eleicao
+
   it('toda opção do quiz tem avaliação para todo candidato', () => {
     for (const p of quiz.perguntas) {
       for (const o of p.opcoes) {
-        for (const c of candidatosReais) {
+        for (const c of candidatos) {
           expect(ad.itens[p.id]?.[o.id]?.[c.id], `${p.id}/${o.id}/${c.id}`).toBeDefined()
         }
       }
@@ -112,6 +113,15 @@ describe('integridade dos dados publicados', () => {
           }
         }
       }
+    }
+  })
+
+  it('toda cena tem fato com fonte e tema conhecido', () => {
+    const temas = new Set(quiz.temas.map((t) => t.id))
+    for (const p of quiz.perguntas) {
+      expect(p.fato.texto, p.id).toBeTruthy()
+      expect(p.fato.url, p.id).toMatch(/^https:\/\//)
+      expect(temas.has(p.tema), `${p.id}: tema ${p.tema}`).toBe(true)
     }
   })
 
