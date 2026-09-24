@@ -35,6 +35,8 @@ export interface Quiz {
   versao: string
   titulo: string
   eleicao: string
+  /** Completa a frase "São N ..." na abertura do quiz. */
+  descricao: string
   temas: Tema[]
   perguntas: Pergunta[]
 }
@@ -124,4 +126,36 @@ export interface Publico {
   deslocamento?: Deslocamento[]
   escola?: Escola[]
   trabalho?: Trabalho[]
+}
+
+export type StatusCompromisso = 'cumprida' | 'parcial' | 'em_andamento' | 'nao_cumprida' | 'na_contramao' | 'sem_informacao'
+
+export interface Compromisso {
+  id: string
+  tema: string
+  compromisso: string
+  trecho_promessa: string
+  fonte_promessa: { veiculo: string; url: string; data: string | null }
+  status: StatusCompromisso
+  explicacao: string
+  evidencias: { trecho: string; veiculo: string; url: string; data: string | null }[]
+}
+
+export interface Acompanhamento {
+  candidato_id: string
+  mandato: string
+  plano: { titulo: string; url: string; observacao: string }
+  metodologia: string
+  atualizado_em: string
+  compromissos: Compromisso[]
+}
+
+export interface Eleicao {
+  id: string
+  quiz: Quiz
+  aderencia: Aderencia
+  evidencias: Evidencias
+  candidatos: Candidato[]
+  /** Candidatos oficializados que ainda não estão no quiz, listados por transparência. */
+  foraDoQuiz: string[]
 }

@@ -81,7 +81,7 @@ export function Cena({ pergunta, tema, indice, total, onResponder }: CenaProps) 
             </a>
             {pergunta.consenso && (
               <p className="mt-3 text-sm font-semibold">
-                Spoiler: aqui os dois candidatos propõem coisas bem parecidas.
+                Spoiler: aqui os candidatos propõem coisas bem parecidas.
               </p>
             )}
           </aside>

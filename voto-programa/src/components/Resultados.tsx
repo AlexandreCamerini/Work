@@ -1,15 +1,13 @@
 import { useState } from 'react'
-import { outrosCandidatos } from '../data/candidatos'
 import { RESPONSAVEL } from '../config'
 import { COBERTURA_MINIMA } from '../lib/matching'
-import type { Aderencia, Evidencias, Pergunta, Resposta, Resultado } from '../types'
+import type { Eleicao, Pergunta, Resposta, Resultado } from '../types'
 
 interface ResultadosProps {
+  eleicao: Eleicao
   resultados: Resultado[]
   respostas: Resposta[]
   perguntas: Pergunta[]
-  aderencia: Aderencia
-  evidencias: Evidencias
   onRefazer: () => void
 }
 
@@ -19,7 +17,8 @@ function rotuloNota(nota: number) {
   return { texto: 'Vai em outra direção', cor: 'bg-coral text-white' }
 }
 
-export function Resultados({ resultados, respostas, perguntas, aderencia, evidencias, onRefazer }: ResultadosProps) {
+export function Resultados({ eleicao, resultados, respostas, perguntas, onRefazer }: ResultadosProps) {
+  const { aderencia, evidencias } = eleicao
   const [revelados, setRevelados] = useState<string[]>([])
   const [copiado, setCopiado] = useState(false)
   const perguntaPorId = new Map(perguntas.map((p) => [p.id, p]))
@@ -30,7 +29,7 @@ export function Resultados({ resultados, respostas, perguntas, aderencia, eviden
       .filter((r) => revelados.includes(r.candidato.id) && r.afinidade !== null)
       .map((r) => `${r.candidato.nome} ${r.afinidade}%`)
     const meu = partes.length ? `Meu resultado: ${partes.join(', ')}. ` : ''
-    return `Fiz o teste "Qual proposta combina com o seu dia a dia?" (governador RJ 2026). ${meu}Faz o seu: ${window.location.href}`
+    return `Fiz o teste "${eleicao.quiz.titulo}" (${eleicao.quiz.eleicao}). ${meu}Faz o seu: ${window.location.href}`
   })()
 
   async function copiar() {
@@ -149,11 +148,11 @@ export function Resultados({ resultados, respostas, perguntas, aderencia, eviden
 
       {consensos.length > 0 && (
         <aside className="rounded-3xl border-2 border-folha bg-white p-5">
-          <h2 className="font-display text-lg font-extrabold">Nisso os dois concordam</h2>
+          <h2 className="font-display text-lg font-extrabold">Nisso eles concordam</h2>
           <ul className="mt-2 flex flex-col gap-1 text-sm">
             {consensos.map((p) => (
               <li key={p.id}>
-                {p.pergunta} Os dois propõem{' '}
+                {p.pergunta} Todos propõem{' '}
                 {p.opcoes
                   .filter((o) => Object.values(aderencia.itens[p.id]?.[o.id] ?? {}).every((a) => (a.nota ?? 0) >= 70))
                   .map((o) => o.texto.replace(/\.$/, '').toLowerCase())
@@ -203,8 +202,11 @@ export function Resultados({ resultados, respostas, perguntas, aderencia, eviden
             nem contra. Temas prioritários valem em dobro.
           </p>
           <p>
-            Este piloto cobre os dois candidatos com maior intenção de voto. Também concorrem:{' '}
-            {outrosCandidatos.join(', ')}.
+            {eleicao.foraDoQuiz.length > 0 && (
+              <>
+                Ainda não estão neste teste (dossiê em preparação): {eleicao.foraDoQuiz.join(', ')}.
+              </>
+            )}
           </p>
           <p>
             Isto não é pesquisa eleitoral: não guardamos nem divulgamos respostas de ninguém.

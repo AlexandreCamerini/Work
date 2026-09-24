@@ -1,21 +1,23 @@
+import type { Quiz } from '../types'
+
 interface IntroProps {
+  quiz: Quiz
   totalCenas: number
   onComecar: () => void
 }
 
-export function Intro({ totalCenas, onComecar }: IntroProps) {
+export function Intro({ quiz, totalCenas, onComecar }: IntroProps) {
   return (
     <section className="mx-auto flex max-w-xl flex-col gap-6 px-4 pt-12 pb-16">
       <p className="w-fit rounded-full bg-sol px-3 py-1 text-xs font-bold uppercase tracking-wider text-tinta">
-        Governador do RJ · 1º turno em 4 de outubro
+        {quiz.eleicao} · 1º turno em 4 de outubro
       </p>
       <h1 className="font-display text-4xl leading-tight font-extrabold text-balance sm:text-5xl">
-        Qual proposta combina com o seu dia a dia?
+        {quiz.titulo}
       </h1>
       <p className="text-lg leading-relaxed text-tinta-suave">
-        São {totalCenas} situações da vida real no estado do Rio: trem parado, fila do posto,
-        rua alagada. Você escolhe o que faria mais sentido, e a gente compara com o que os
-        candidatos propõem, com a fala de cada um e o link da fonte.
+        São {totalCenas} {quiz.descricao}. Você escolhe o que faria mais sentido, e a gente
+        compara com o que os candidatos propõem, com a fala de cada um e o link da fonte.
       </p>
 
       <ul className="flex flex-wrap gap-2 text-sm font-semibold">

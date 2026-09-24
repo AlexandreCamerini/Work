@@ -2,6 +2,7 @@
   "versao": "3.0.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
+  "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
   "temas": [
     {
       "id": "seguranca",
