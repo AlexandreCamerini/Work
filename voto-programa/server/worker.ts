@@ -5,26 +5,24 @@
  * Cloudflare (a chave não é persistida por nós), anti-robô com Turnstile.
  */
 import { criarApp, lerConfig, verificadorTurnstile } from './app'
-import { SQL_PLACAR, SQL_VOTAR, type Urna } from './urna'
+import { SQL_CANDIDATO, SQL_POSICAO, type Urna } from './urna'
 
 interface Env {
   DB: D1Database
   LIMITE_VOTOS: RateLimit
-  VOTACAO_ABERTA?: string
-  VOTACAO_ABRE_EM?: string
-  PLACAR_MINIMO?: string
+  COLETA_ATIVA?: string
+  CONTAR_CANDIDATO?: string
   TURNSTILE_SITE_KEY?: string
   TURNSTILE_SECRET?: string
 }
 
 function urnaD1(db: D1Database): Urna {
   return {
-    async votar(eleicao, candidato) {
-      await db.prepare(SQL_VOTAR).bind(eleicao, candidato).run()
+    async registrarPosicao(eleicao, posicao) {
+      await db.prepare(SQL_POSICAO).bind(eleicao, posicao).run()
     },
-    async placar(eleicao) {
-      const { results } = await db.prepare(SQL_PLACAR).bind(eleicao).all<{ candidato: string; votos: number }>()
-      return Object.fromEntries(results.map((r) => [r.candidato, r.votos]))
+    async registrarCandidato(eleicao, candidato) {
+      await db.prepare(SQL_CANDIDATO).bind(eleicao, candidato).run()
     },
   }
 }

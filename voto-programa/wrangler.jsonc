@@ -18,10 +18,11 @@
   // limite por IP na borda; a Cloudflare aplica, nós não guardamos a chave
   "ratelimits": [{ "name": "LIMITE_VOTOS", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }],
   "vars": {
-    // enquete é proibida durante a campanha (Lei 9.504/97, art. 33, §5º): só ligar com aval jurídico
-    "VOTACAO_ABERTA": "false",
-    "VOTACAO_ABRE_EM": "2026-10-26",
-    "PLACAR_MINIMO": "30",
+    // grava só a posição do candidato votado no ranking de afinidade (sem dizer quem é)
+    "COLETA_ATIVA": "true",
+    // contador por candidato: desligado durante a campanha (Res. TSE 23.600/2019, art. 23);
+    // ligar só depois do 2º turno e com aval jurídico. Nunca há leitura pública.
+    "CONTAR_CANDIDATO": "false",
     "TURNSTILE_SITE_KEY": ""
   },
   // sem Workers Logs: nada de requisição (nem IP) guardado do nosso lado

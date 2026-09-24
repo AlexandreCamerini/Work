@@ -56,9 +56,9 @@ perfil (5 toques) → escolhe as cenas → afinidade = média dos pontos centrad
   ele atende (nota 70+), atende em parte (40-69) e não atende (abaixo de 40). Justificativa
   e fonte só aparecem depois do voto, porque citação e veículo entregariam quem é.
 - **Voto às cegas, depois os nomes.** A pessoa vota no "Candidato A, B…"; só então os
-  nomes aparecem, com o placar anônimo (ou o aviso de que ele está fechado).
+  nomes aparecem. Nenhum placar é mostrado.
 - **Respostas não saem do navegador.** Sem login e sem armazenar respostas. O único
-  dado enviado é o id do candidato votado, e só com a votação aberta.
+  dado enviado é a posição do candidato votado no ranking da pessoa (ver abaixo).
 
 ## Prometeu, fez?
 
@@ -75,25 +75,40 @@ plena campanha um placar que só existe para quem já governou. O build de produ
 inclui esses dados com `VITE_PUBLICAR_ACOMPANHAMENTO=true`. Os vencedores de 2026
 passam a ser acompanhados a partir da posse.
 
-## Votação anônima
+## Votação anônima, só para uso interno
 
-`server/`: API em [Hono](https://hono.dev) com três rotas (`GET /api/estado`,
-`POST /api/votos`, `GET /api/placar/:eleicao`).
+`server/`: API em [Hono](https://hono.dev) com duas rotas (`GET /api/estado`,
+`POST /api/votos`). **Não existe rota de leitura:** nenhum resultado é mostrado na página
+nem pode ser consultado pela internet.
 
-- **Só contadores.** A tabela `placar` tem uma linha por (eleição, candidato) com um
-  número. Não existe registro por voto, horário, IP, cookie ou identificador: nem quem
-  administra consegue saber quem votou em quem ou em que ordem.
-- **Contra fraude sem identificar ninguém:** lista fechada de candidatos, JSON
-  obrigatório (força preflight de CORS, que não é liberado), origem conferida, corpo de
-  até 4 KB, limite de 5 votos por minuto por IP (a chave vive só no limitador, nunca é
-  gravada), Cloudflare Turnstile opcional (sem cookie; o IP não é enviado na
-  verificação) e trava de um voto por navegador em `localStorage`. Voto online anônimo
-  não tem como ser "uma pessoa, um voto"; o placar diz isso.
-- **Placar só a partir de `PLACAR_MINIMO` votos** (padrão 30); abaixo disso, só o total.
-- **Desligada por padrão** (`VOTACAO_ABERTA=false`): durante a campanha, enquete é
-  proibida (Lei 9.504/97, art. 33, §5º, com multa). Fechada, o voto só revela os nomes,
-  não é enviado, e o placar mostra a data de `VOTACAO_ABRE_EM` (padrão 26/10/2026, dia
-  seguinte ao 2º turno). **Ligar só com parecer de advogado eleitoral.**
+- **Por quê.** A Res. TSE 23.600/2019, art. 23, §1º, define enquete como o levantamento
+  sem método científico "quando apresentados resultados que possibilitem ao eleitor
+  inferir a ordem dos candidatos". Sem resultado apresentado, o argumento é que não há
+  enquete. **Validar com advogado eleitoral** (a Lei 9.504/97, art. 33, §5º, fala em
+  "realização").
+- **O que é gravado durante a campanha** (`COLETA_ATIVA=true`): só a **posição, no ranking
+  de afinidade da pessoa, do candidato em que ela votou** (1º, 2º…), tabela
+  `posicao_voto`. Não diz quem é o candidato, então não permite inferir a ordem da
+  disputa. Serve para medir o produto: se a maioria vota no 1º ou 2º, o teste ajuda a
+  pessoa a se reconhecer nas propostas.
+- **Contador por candidato** (`CONTAR_CANDIDATO`, tabela `placar`): **desligado**. Com ele
+  desligado, o navegador nem envia o candidato, e o servidor descarta se receber. Ligar
+  só depois do 2º turno e com aval jurídico.
+- **Só contadores.** Nenhuma linha por voto, horário, IP, cookie ou identificador.
+- **Leitura só com acesso ao banco** (conta Cloudflare ou Postgres), nunca por página:
+  `npm run interno:posicoes` e, depois do 2º turno, `npm run interno:candidatos`.
+- **Regras de uso interno (combinar com a equipe):** nenhum número sai da equipe, nem
+  print, nem "mais ou menos"; vazamento transforma a coleta em enquete divulgada (multa de
+  R$ 53 mil a R$ 106 mil e ordem de remoção). Nada vai para campanha ou partido: dado de
+  intenção de voto cedido de graça pode ser visto como doação estimável em dinheiro, e
+  vinda de pessoa jurídica é proibida.
+- **Contra fraude sem identificar ninguém:** lista fechada de eleições e candidatos,
+  posição dentro do ranking, JSON obrigatório (força preflight de CORS, que não é
+  liberado), origem conferida, corpo de até 4 KB, limite de 5 votos por minuto por IP (a
+  chave vive só no limitador, nunca é gravada), Cloudflare Turnstile opcional (sem cookie;
+  o IP não é enviado na verificação) e trava de um voto por navegador em `localStorage`.
+- **Transparência:** antes de votar, a pessoa lê exatamente o que é guardado; depois,
+  "registrado de forma anônima, só para análise interna; não divulgamos resultado".
 - **Cabeçalhos de segurança** em tudo: CSP restrita a `'self'` (mais Turnstile), HSTS,
   `frame-ancestors 'none'`, `Referrer-Policy: no-referrer`. Fontes servidas pelo próprio
   site (antes vinham do Google, que recebia o IP de cada visitante). Nenhum script de
@@ -108,8 +123,8 @@ Levantamento em `pipeline/pesquisa-eleitor-rj.md` (seção 5) e
 - **IA não recomenda candidato** (Res. TSE 23.755/2026, art. 28, §1º-C da Res.
   23.610): nenhuma IA roda no site. A IA propõe cenas e notas nos bastidores; o que é
   publicado é decisão editorial revisada por uma pessoa.
-- **Enquete proibida desde 15/08/2026:** a votação anônima nasce desligada e só deve
-  abrir depois do 2º turno, com aval jurídico.
+- **Enquete proibida desde 15/08/2026:** nenhum resultado de votação é apresentado, e
+  o contador por candidato fica desligado até depois do 2º turno.
 - **Anonimato vedado** (Lei 9.504/97, art. 57-D): preencher `src/config.ts`.
 - **Sem impulsionamento pago** nem influenciador pago.
 - **Nada de conteúdo sintético novo com candidato entre 01 e 05/10.**
@@ -127,7 +142,7 @@ npm run build && npm run lint
 
 # API de votos local, no runtime da Cloudflare (workerd), com D1 local
 npx wrangler d1 migrations apply voto-programa --local
-npx wrangler dev --var VOTACAO_ABERTA:true --var PLACAR_MINIMO:1
+npx wrangler dev
 
 # pipelines com Claude (precisa de ANTHROPIC_API_KEY ou `ant auth login`)
 pip install "anthropic>=1"
@@ -170,7 +185,7 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       calibrar com um piloto contra o Critério Brasil completo.
 - [ ] **Testar as cenas com 5-10 eleitores** de perfis diferentes.
 - [ ] **Preencher o responsável** em `src/config.ts` e **validação jurídica**, inclusive
-      da votação anônima (enquete) e da data de abertura.
+      da coleta interna (tese do art. 23, §1º) e de quando ligar o contador por candidato.
 - [ ] **Termos e aviso de privacidade** na página, mesmo com dado anonimizado.
 - [ ] Acessibilidade (contraste e leitor de tela).
 
@@ -196,9 +211,10 @@ npx wrangler secret put TURNSTILE_SECRET    # opcional; TURNSTILE_SITE_KEY em "v
 npm run deploy:cloudflare
 ```
 
-Depois: domínio próprio no painel e, se a votação for aberta, `VOTACAO_ABERTA` para
-`"true"` em `wrangler.jsonc` e novo deploy.
+Depois: domínio próprio no painel. Só depois do 2º turno e com aval jurídico,
+`CONTAR_CANDIDATO` para `"true"` em `wrangler.jsonc` e novo deploy.
 
 No Railway: novo serviço a partir do repositório (raiz `voto-programa/`), plugin
-Postgres (injeta `DATABASE_URL`) e as mesmas variáveis (`VOTACAO_ABERTA`,
-`VOTACAO_ABRE_EM`, `PLACAR_MINIMO`, `TURNSTILE_*`). A tabela é criada na subida.
+Postgres (injeta `DATABASE_URL`) e as mesmas variáveis (`COLETA_ATIVA`,
+`CONTAR_CANDIDATO`, `TURNSTILE_*`). As tabelas são criadas na subida; leitura interna
+com `psql "$DATABASE_URL" -c 'SELECT * FROM posicao_voto'`.

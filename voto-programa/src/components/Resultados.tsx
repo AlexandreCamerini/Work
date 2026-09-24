@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { RESPONSAVEL } from '../config'
 import { COBERTURA_MINIMA, encaixesDoCandidato, type Encaixe, type ItemEncaixe } from '../lib/matching'
-import { lerEstado, mensagemVoto, type EstadoVotacao, type ResultadoVoto } from '../lib/votacao'
+import { lerEstado, mensagemVoto, SEM_API, type EstadoVotacao, type ResultadoVoto } from '../lib/votacao'
 import type { Eleicao, Evidencias, Pergunta, Resposta, Resultado } from '../types'
-import { EscolhaVoto, PlacarAnonimo } from './Votacao'
+import { EscolhaVoto } from './Votacao'
 
 interface ResultadosProps {
   eleicao: Eleicao
@@ -12,8 +12,6 @@ interface ResultadosProps {
   perguntas: Pergunta[]
   onRefazer: () => void
 }
-
-const ESTADO_INICIAL: EstadoVotacao = { aberta: false, abreEm: null, turnstileSiteKey: null, offline: true }
 
 const GRUPOS: { encaixe: Exclude<Encaixe, 'sem_proposta'>; titulo: string; marca: string; cor: string }[] = [
   { encaixe: 'atende', titulo: 'Atende', marca: '✓', cor: 'bg-folha text-white' },
@@ -55,7 +53,7 @@ function ItemDaLista({ item, revelado, evidencias, candidatoId }: { item: ItemEn
 
 export function Resultados({ eleicao, resultados, respostas, perguntas, onRefazer }: ResultadosProps) {
   const { aderencia, evidencias } = eleicao
-  const [estado, setEstado] = useState<EstadoVotacao>(ESTADO_INICIAL)
+  const [estado, setEstado] = useState<EstadoVotacao>(SEM_API)
   const [revelado, setRevelado] = useState(false)
   const [voto, setVoto] = useState<{ candidatoId: string | null; resultado: ResultadoVoto } | null>(null)
   const [copiado, setCopiado] = useState(false)
@@ -181,10 +179,10 @@ export function Resultados({ eleicao, resultados, respostas, perguntas, onRefaze
         )
       })}
 
-      {!revelado ? (
+      {!revelado && (
         <EscolhaVoto
           eleicaoId={eleicao.id}
-          opcoes={resultados.map((r, i) => ({ candidato: r.candidato, rotulo: rotuloAsCegas(i) }))}
+          opcoes={resultados.map((r, i) => ({ candidato: r.candidato, rotulo: rotuloAsCegas(i), posicao: i + 1 }))}
           estado={estado}
           onVotou={(candidatoId, resultado) => {
             setVoto({ candidatoId, resultado })
@@ -192,8 +190,6 @@ export function Resultados({ eleicao, resultados, respostas, perguntas, onRefaze
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         />
-      ) : (
-        <PlacarAnonimo eleicaoId={eleicao.id} candidatos={eleicao.candidatos} estado={estado} />
       )}
 
       {consensos.length > 0 && (
@@ -262,8 +258,9 @@ export function Resultados({ eleicao, resultados, respostas, perguntas, onRefaze
             )}
           </p>
           <p>
-            Isto não é pesquisa eleitoral. O voto é anônimo: guardamos só um contador por candidato,
-            sem nenhum dado de quem votou. Tabela de notas gerada em {aderencia.gerado_em}.
+            Isto não é pesquisa eleitoral e não divulgamos resultado de votação. O voto é anônimo e
+            só para análise interna: vira um contador, sem nenhum dado de quem votou. Tabela de
+            notas gerada em {aderencia.gerado_em}.
           </p>
           <p>Responsável pelo site: {RESPONSAVEL || '(a definir antes da publicação)'}</p>
         </div>

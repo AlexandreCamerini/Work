@@ -12,7 +12,9 @@
     "start": "tsx server/node.ts",
     "dev:api": "wrangler dev",
     "db:migrar": "wrangler d1 migrations apply voto-programa --remote",
-    "deploy:cloudflare": "npm run build && wrangler deploy"
+    "deploy:cloudflare": "npm run build && wrangler deploy",
+    "interno:posicoes": "wrangler d1 execute voto-programa --remote --command \"SELECT eleicao, posicao, votos FROM posicao_voto ORDER BY eleicao, posicao\"",
+    "interno:candidatos": "wrangler d1 execute voto-programa --remote --command \"SELECT eleicao, candidato, votos FROM placar ORDER BY eleicao, votos DESC\""
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",

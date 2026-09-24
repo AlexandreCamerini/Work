@@ -11,7 +11,7 @@ declare global {
 
 const SCRIPT = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
 
-/** Desafio anti-robô da Cloudflare, sem cookie de rastreamento. Só carrega com a votação aberta. */
+/** Desafio anti-robô da Cloudflare, sem cookie de rastreamento. Só carrega com a coleta de votos ligada. */
 export function Turnstile({ siteKey, onToken }: { siteKey: string; onToken: (token: string | null) => void }) {
   const alvo = useRef<HTMLDivElement>(null)
   const callback = useRef(onToken)

@@ -1,37 +1,27 @@
-import { useEffect, useState } from 'react'
-import { dataBr, enviarVoto, lerPlacar, type EstadoVotacao, type Placar, type ResultadoVoto } from '../lib/votacao'
+import { useState } from 'react'
+import { avisoVotacao, enviarVoto, type EstadoVotacao, type ResultadoVoto } from '../lib/votacao'
 import type { Candidato } from '../types'
 import { Turnstile } from './Turnstile'
 
 interface EscolhaVotoProps {
   eleicaoId: string
-  /** Na ordem do resultado, com o rótulo às cegas ("Candidato A"). */
-  opcoes: { candidato: Candidato; rotulo: string }[]
+  /** Na ordem do resultado, com o rótulo às cegas ("Candidato A") e a posição no ranking (1 = mais afinidade). */
+  opcoes: { candidato: Candidato; rotulo: string; posicao: number }[]
   estado: EstadoVotacao
   onVotou: (candidatoId: string | null, resultado: ResultadoVoto) => void
-}
-
-function avisoVotacao(estado: EstadoVotacao) {
-  if (estado.aberta) {
-    return 'Voto anônimo: só somamos +1 ao candidato escolhido. Não guardamos quem você é, de onde veio nem a hora do voto, e suas respostas não saem do aparelho.'
-  }
-  if (estado.offline) return 'Neste protótipo o voto não é enviado a lugar nenhum: ele só revela os nomes.'
-  const quando = dataBr(estado.abreEm)
-  return `Voto simbólico: durante a campanha a lei eleitoral proíbe enquetes, então seu voto não é enviado nem guardado${
-    quando ? ` e o placar só abre em ${quando}` : ''
-  }. Ele só revela os nomes.`
 }
 
 export function EscolhaVoto({ eleicaoId, opcoes, estado, onVotou }: EscolhaVotoProps) {
   const [escolha, setEscolha] = useState<string | null>(null)
   const [token, setToken] = useState<string | null>(null)
   const [enviando, setEnviando] = useState(false)
-  const exigeDesafio = estado.aberta && !!estado.turnstileSiteKey
+  const exigeDesafio = estado.coleta && !!estado.turnstileSiteKey
 
   async function confirmar() {
-    if (!escolha) return
+    const opcao = opcoes.find((o) => o.candidato.id === escolha)
+    if (!opcao) return
     setEnviando(true)
-    const resultado = await enviarVoto(estado, eleicaoId, escolha, token)
+    const resultado = await enviarVoto(estado, { eleicao: eleicaoId, posicao: opcao.posicao, candidato: opcao.candidato.id }, token)
     setEnviando(false)
     onVotou(escolha, resultado)
   }
@@ -75,78 +65,5 @@ export function EscolhaVoto({ eleicaoId, opcoes, estado, onVotou }: EscolhaVotoP
         Prefiro não votar, só quero ver os nomes
       </button>
     </section>
-  )
-}
-
-export function PlacarAnonimo({ eleicaoId, candidatos, estado }: { eleicaoId: string; candidatos: Candidato[]; estado: EstadoVotacao }) {
-  const [placar, setPlacar] = useState<Placar | null>(null)
-  const [carregou, setCarregou] = useState(false)
-
-  useEffect(() => {
-    if (!estado.aberta) return
-    let ativo = true
-    lerPlacar(eleicaoId).then((p) => {
-      if (!ativo) return
-      setPlacar(p)
-      setCarregou(true)
-    })
-    return () => {
-      ativo = false
-    }
-  }, [eleicaoId, estado.aberta])
-
-  if (!estado.aberta) {
-    const quando = dataBr(estado.abreEm)
-    return (
-      <aside className="rounded-3xl border-2 border-linha bg-white p-5">
-        <h2 className="font-display text-lg font-extrabold">Como está a votação</h2>
-        <p className="mt-1 text-sm text-tinta-suave">
-          {estado.offline
-            ? 'O placar anônimo só existe na versão publicada do site.'
-            : `Placar fechado durante a campanha, por lei${quando ? `. Abre em ${quando}` : ''}.`}
-        </p>
-      </aside>
-    )
-  }
-
-  const votos = placar?.votos
-  const ordenados = votos ? [...candidatos].sort((a, b) => (votos[b.id] ?? 0) - (votos[a.id] ?? 0)) : []
-  return (
-    <aside className="flex flex-col gap-3 rounded-3xl border-2 border-linha bg-white p-5">
-      <h2 className="font-display text-lg font-extrabold">Como está a votação anônima</h2>
-      {!carregou && <p className="text-sm text-tinta-suave">Carregando…</p>}
-      {carregou && !placar && <p className="text-sm text-tinta-suave">Placar indisponível agora.</p>}
-      {placar && !votos && (
-        <p className="text-sm text-tinta-suave">
-          {placar.total === 1 ? '1 voto' : `${placar.total} votos`} até agora. A divisão aparece a partir de {placar.minimo}.
-        </p>
-      )}
-      {placar && votos && (
-        <ul className="flex flex-col gap-2">
-          {ordenados.map((c) => {
-            const pct = placar.total ? Math.round(((votos[c.id] ?? 0) / placar.total) * 100) : 0
-            return (
-              <li key={c.id} className="flex flex-col gap-1">
-                <div className="flex justify-between text-sm font-semibold">
-                  <span>
-                    {c.nome} ({c.partido})
-                  </span>
-                  <span className="tabular-nums">{pct}%</span>
-                </div>
-                <div className="h-2 overflow-hidden rounded-full bg-linha">
-                  <div className="h-full rounded-full bg-mar" style={{ width: `${pct}%` }} />
-                </div>
-              </li>
-            )
-          })}
-        </ul>
-      )}
-      {placar && (
-        <p className="text-xs leading-relaxed text-tinta-suave">
-          {placar.total === 1 ? '1 voto' : `${placar.total} votos`}. Votação aberta na internet, de quem quis participar: não é pesquisa
-          eleitoral e não representa o eleitorado.
-        </p>
-      )}
-    </aside>
   )
 }

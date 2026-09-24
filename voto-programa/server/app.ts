@@ -3,13 +3,17 @@ import { bodyLimit } from 'hono/body-limit'
 import { ELEICOES } from './eleicoes'
 import type { Urna } from './urna'
 
+/**
+ * Nenhum resultado é divulgado: não existe rota de leitura. Enquete, pela Res. TSE 23.600/2019,
+ * art. 23, §1º, é o levantamento "quando apresentados resultados que possibilitem ao eleitor
+ * inferir a ordem dos candidatos"; aqui nada é apresentado, e durante a campanha nem se conta
+ * voto por candidato.
+ */
 export interface Config {
-  /** Coleta e placar ligados. Enquete é proibida durante a campanha (Lei 9.504/97, art. 33, §5º). */
-  votacaoAberta: boolean
-  /** Data exibida enquanto a votação estiver fechada (AAAA-MM-DD). */
-  abreEm: string | null
-  /** Abaixo disso o placar mostra só o total, não a divisão por candidato. */
-  placarMinimo: number
+  /** Recebe votos e grava a posição do candidato votado no ranking de afinidade da pessoa. */
+  coletaAtiva: boolean
+  /** Também soma +1 ao candidato. Desligado durante a campanha; ligar só após o 2º turno e com aval jurídico. */
+  contarCandidato: boolean
   turnstileSiteKey: string | null
 }
 
@@ -59,9 +63,9 @@ export function criarApp(dep: Dependencias) {
 
   app.get('/api/estado', (c) =>
     c.json({
-      aberta: dep.config.votacaoAberta,
-      abreEm: dep.config.abreEm,
-      turnstileSiteKey: dep.config.votacaoAberta ? dep.config.turnstileSiteKey : null,
+      coleta: dep.config.coletaAtiva,
+      contaCandidato: dep.config.coletaAtiva && dep.config.contarCandidato,
+      turnstileSiteKey: dep.config.coletaAtiva ? dep.config.turnstileSiteKey : null,
     }),
   )
 
@@ -69,7 +73,7 @@ export function criarApp(dep: Dependencias) {
     '/api/votos',
     bodyLimit({ maxSize: 4 * 1024, onError: (c) => c.json({ erro: 'grande_demais' }, 413) }),
     async (c) => {
-      if (!dep.config.votacaoAberta) return c.json({ erro: 'votacao_fechada' }, 403)
+      if (!dep.config.coletaAtiva) return c.json({ erro: 'coleta_desligada' }, 403)
       // outro site não vota por aqui: exige JSON (força preflight de CORS, que não liberamos)
       // e, quando o navegador informa a origem, ela tem de ser esta
       const origem = c.req.header('origin')
@@ -85,8 +89,13 @@ export function criarApp(dep: Dependencias) {
       } catch {
         return c.json({ erro: 'json_invalido' }, 400)
       }
-      const { eleicao, candidato, token } = (corpo ?? {}) as Record<string, unknown>
-      if (typeof eleicao !== 'string' || typeof candidato !== 'string' || !ELEICOES[eleicao]?.includes(candidato)) {
+      const { eleicao, posicao, candidato, token } = (corpo ?? {}) as Record<string, unknown>
+      const validos = typeof eleicao === 'string' ? ELEICOES[eleicao] : undefined
+      if (!validos || typeof eleicao !== 'string') return c.json({ erro: 'voto_invalido' }, 400)
+      if (typeof posicao !== 'number' || !Number.isInteger(posicao) || posicao < 1 || posicao > validos.length) {
+        return c.json({ erro: 'voto_invalido' }, 400)
+      }
+      if (candidato !== undefined && (typeof candidato !== 'string' || !validos.includes(candidato))) {
         return c.json({ erro: 'voto_invalido' }, 400)
       }
       if (token !== undefined && typeof token !== 'string') return c.json({ erro: 'voto_invalido' }, 400)
@@ -94,23 +103,12 @@ export function criarApp(dep: Dependencias) {
       if (!(await dep.limitar(dep.ipDe((n) => c.req.header(n))))) return c.json({ erro: 'devagar' }, 429)
       if (!(await dep.verificarHumano(token))) return c.json({ erro: 'desafio' }, 403)
 
-      await dep.urna.votar(eleicao, candidato)
+      await dep.urna.registrarPosicao(eleicao, posicao)
+      // com a contagem desligada, o candidato é descartado aqui: nunca chega ao banco
+      if (dep.config.contarCandidato && typeof candidato === 'string') await dep.urna.registrarCandidato(eleicao, candidato)
       return c.body(null, 204)
     },
   )
-
-  app.get('/api/placar/:eleicao', async (c) => {
-    const eleicao = c.req.param('eleicao')
-    const validos = ELEICOES[eleicao]
-    if (!validos) return c.json({ erro: 'eleicao_desconhecida' }, 404)
-    if (!dep.config.votacaoAberta) return c.json({ erro: 'votacao_fechada', abreEm: dep.config.abreEm }, 403)
-
-    const bruto = await dep.urna.placar(eleicao)
-    const votos = Object.fromEntries(validos.map((id) => [id, bruto[id] ?? 0]))
-    const total = Object.values(votos).reduce((a, b) => a + b, 0)
-    c.header('Cache-Control', 'public, max-age=30')
-    return c.json({ total, minimo: dep.config.placarMinimo, votos: total >= dep.config.placarMinimo ? votos : null })
-  })
 
   app.all('/api/*', (c) => c.json({ erro: 'nao_encontrado' }, 404))
   return app
@@ -136,9 +134,8 @@ export function verificadorTurnstile(segredo: string | undefined, buscar: typeof
 
 export function lerConfig(env: Record<string, string | undefined>): Config {
   return {
-    votacaoAberta: env.VOTACAO_ABERTA === 'true',
-    abreEm: env.VOTACAO_ABRE_EM || null,
-    placarMinimo: Number(env.PLACAR_MINIMO) > 0 ? Number(env.PLACAR_MINIMO) : 30,
+    coletaAtiva: env.COLETA_ATIVA === 'true',
+    contarCandidato: env.CONTAR_CANDIDATO === 'true',
     turnstileSiteKey: env.TURNSTILE_SITE_KEY || null,
   }
 }

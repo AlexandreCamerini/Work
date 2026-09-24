@@ -9,11 +9,16 @@ import { serve } from '@hono/node-server'
 import { serveStatic } from '@hono/node-server/serve-static'
 import postgres from 'postgres'
 import { criarApp, lerConfig, verificadorTurnstile } from './app'
-import { SQL_PLACAR, SQL_VOTAR, type Urna, urnaEmMemoria } from './urna'
+import { SQL_CANDIDATO, SQL_POSICAO, type Urna, urnaEmMemoria } from './urna'
 
-const SQL_TABELA = `CREATE TABLE IF NOT EXISTS placar (
-  eleicao TEXT NOT NULL, candidato TEXT NOT NULL, votos INTEGER NOT NULL DEFAULT 0,
-  PRIMARY KEY (eleicao, candidato))`
+const SQL_TABELAS = [
+  `CREATE TABLE IF NOT EXISTS placar (
+    eleicao TEXT NOT NULL, candidato TEXT NOT NULL, votos INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (eleicao, candidato))`,
+  `CREATE TABLE IF NOT EXISTS posicao_voto (
+    eleicao TEXT NOT NULL, posicao INTEGER NOT NULL, votos INTEGER NOT NULL DEFAULT 0,
+    PRIMARY KEY (eleicao, posicao))`,
+]
 
 function paraPostgres(sql: string) {
   let i = 0
@@ -22,14 +27,13 @@ function paraPostgres(sql: string) {
 
 async function urnaPostgres(url: string): Promise<Urna> {
   const sql = postgres(url, { max: 5 })
-  await sql.unsafe(SQL_TABELA)
+  for (const tabela of SQL_TABELAS) await sql.unsafe(tabela)
   return {
-    async votar(eleicao, candidato) {
-      await sql.unsafe(paraPostgres(SQL_VOTAR), [eleicao, candidato])
+    async registrarPosicao(eleicao, posicao) {
+      await sql.unsafe(paraPostgres(SQL_POSICAO), [eleicao, posicao])
     },
-    async placar(eleicao) {
-      const linhas = await sql.unsafe<{ candidato: string; votos: number }[]>(paraPostgres(SQL_PLACAR), [eleicao])
-      return Object.fromEntries(linhas.map((l) => [l.candidato, Number(l.votos)]))
+    async registrarCandidato(eleicao, candidato) {
+      await sql.unsafe(paraPostgres(SQL_CANDIDATO), [eleicao, candidato])
     },
   }
 }
