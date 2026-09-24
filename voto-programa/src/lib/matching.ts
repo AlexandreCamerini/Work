@@ -1,70 +1,47 @@
-import { eixos } from '../data/eixos'
-import { perguntas } from '../data/perguntas'
-import type { Candidato, CandidatoResultado, EixoScore, RespostaUsuario } from '../types'
+import type { Aderencia, Candidato, Motivo, Pergunta, Resposta, Resultado } from '../types'
 
-const ESCALA_MAX = 4 // distância máxima possível entre posições -2..+2
-const eixoPorPerguntaId = new Map(perguntas.map((p) => [p.id, p.eixoId]))
+/** Com menos situações comparáveis que isso, o percentual seria ruído: mostramos "sem dado". */
+export const COBERTURA_MINIMA = 3
 
-/** Afinidade 0–100 entre um conjunto de respostas do usuário e as posições de um candidato. */
-export function calcularAfinidade(
-  candidato: Candidato,
-  respostas: RespostaUsuario[],
-): CandidatoResultado {
-  const posicaoPorPergunta = new Map(candidato.posicoes.map((p) => [p.perguntaId, p]))
+const PESO_PRIORIDADE = 2
 
-  let somaPonderada = 0
-  let somaPesos = 0
-  let perguntasComparadas = 0
+/**
+ * Afinidade = média das notas de aderência das opções escolhidas, com peso dobrado
+ * nos temas que o eleitor marcou como prioridade. Opção sem proposta documentada
+ * (nota null) sai do cálculo: ausência de proposta não é discordância.
+ * Determinístico, sem IA em tempo de uso: só lê a tabela pré-calculada e revisada.
+ */
+export function calcularResultados(
+  candidatos: Candidato[],
+  perguntas: Pergunta[],
+  aderencia: Aderencia,
+  respostas: Resposta[],
+  prioridades: string[],
+): Resultado[] {
+  const temaDe = new Map(perguntas.map((p) => [p.id, p.tema]))
 
-  const acumuladorPorEixo = new Map<string, { ponderada: number; pesos: number; qtd: number }>()
+  return candidatos
+    .map((candidato) => {
+      let soma = 0
+      let pesos = 0
+      const motivos: Motivo[] = []
 
-  for (const resposta of respostas) {
-    const posicaoCandidato = posicaoPorPergunta.get(resposta.perguntaId)
-    if (!posicaoCandidato) continue
+      for (const r of respostas) {
+        const avaliacao = aderencia.itens[r.perguntaId]?.[r.opcaoId]?.[candidato.id]
+        if (!avaliacao || avaliacao.nota === null) continue
+        const peso = prioridades.includes(temaDe.get(r.perguntaId) ?? '') ? PESO_PRIORIDADE : 1
+        soma += avaliacao.nota * peso
+        pesos += peso
+        motivos.push({ perguntaId: r.perguntaId, opcaoId: r.opcaoId, avaliacao })
+      }
 
-    const distancia = Math.abs(resposta.posicao - posicaoCandidato.posicao)
-    const afinidadeItem = 1 - distancia / ESCALA_MAX
-    const peso = resposta.importancia
-
-    somaPonderada += afinidadeItem * peso
-    somaPesos += peso
-    perguntasComparadas += 1
-
-    const eixoId = eixoPorPerguntaId.get(resposta.perguntaId)
-    if (eixoId) {
-      const acumulado = acumuladorPorEixo.get(eixoId) ?? { ponderada: 0, pesos: 0, qtd: 0 }
-      acumulado.ponderada += afinidadeItem * peso
-      acumulado.pesos += peso
-      acumulado.qtd += 1
-      acumuladorPorEixo.set(eixoId, acumulado)
-    }
-  }
-
-  const porEixo: EixoScore[] = eixos
-    .map((eixo) => {
-      const acumulado = acumuladorPorEixo.get(eixo.id)
-      if (!acumulado || acumulado.pesos === 0) return null
+      const cobertura = motivos.length
       return {
-        eixoId: eixo.id,
-        afinidade: Math.round((acumulado.ponderada / acumulado.pesos) * 100),
-        perguntasRespondidas: acumulado.qtd,
+        candidato,
+        afinidade: cobertura >= COBERTURA_MINIMA ? Math.round(soma / pesos) : null,
+        cobertura,
+        motivos,
       }
     })
-    .filter((v): v is EixoScore => v !== null)
-
-  return {
-    candidato,
-    afinidadeGeral: somaPesos > 0 ? Math.round((somaPonderada / somaPesos) * 100) : 0,
-    perguntasComparadas,
-    porEixo,
-  }
-}
-
-export function calcularRanking(
-  candidatos: Candidato[],
-  respostas: RespostaUsuario[],
-): CandidatoResultado[] {
-  return candidatos
-    .map((candidato) => calcularAfinidade(candidato, respostas))
-    .sort((a, b) => b.afinidadeGeral - a.afinidadeGeral)
+    .sort((a, b) => (b.afinidade ?? -1) - (a.afinidade ?? -1))
 }

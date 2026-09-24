@@ -1,62 +1,69 @@
-/** Escala de afinidade: -2 opção mais distante do eixo ... +2 opção mais próxima. */
-export type Posicao = -2 | -1 | 0 | 1 | 2
-
-/** Peso que o eleitor dá ao tema da pergunta: 1 (pouco importante) a 3 (prioridade). */
-export type Importancia = 1 | 2 | 3
-
-export interface Eixo {
+export interface Tema {
   id: string
   nome: string
-  descricao: string
 }
 
-/** Uma reação concreta à situação, mapeada numa posição no eixo temático. */
-export interface OpcaoResposta {
+export interface Opcao {
   id: string
-  label: string
-  posicao: Posicao
+  texto: string
+  /** Direção de política pública implícita na reação; usada só pelo pipeline de aderência. */
+  preferencia: string
 }
 
-/**
- * Pergunta situacional: descreve um cenário do dia a dia (não uma afirmação
- * ideológica) e oferece reações concretas em vez de escala concordo/discordo.
- * O eleitor reconhece a situação; a tradução para posição no eixo é do produto,
- * não do eleitor.
- */
+export interface Fato {
+  texto: string
+  fonte: string
+  url: string
+}
+
 export interface Pergunta {
   id: string
-  eixoId: string
-  cenario: string
-  opcoes: OpcaoResposta[]
+  tema: string
+  /** Cena em que os candidatos têm propostas parecidas; mostrada como "nisso eles concordam". */
+  consenso?: boolean
+  cena: string
+  pergunta: string
+  opcoes: Opcao[]
+  fato: Fato
 }
 
-export interface RespostaUsuario {
-  perguntaId: string
-  posicao: Posicao
-  importancia: Importancia
+export interface Quiz {
+  versao: string
+  titulo: string
+  eleicao: string
+  temas: Tema[]
+  perguntas: Pergunta[]
 }
 
-/**
- * Posição de um candidato numa pergunta, sempre rastreável a uma fonte pública.
- * `trechoFonte` é o trecho literal do documento oficial que embasa a posição —
- * exigido para que a extração seja auditável e contestável.
- */
-export interface PosicaoCandidato {
+export interface Avaliacao {
+  /** 0-100, ou null quando o candidato não tem proposta documentada sobre o assunto. */
+  nota: number | null
+  evidencias: string[]
+  justificativa: string
+}
+
+export interface Aderencia {
+  gerado_em: string
+  modelo: string
+  revisado_por: string | null
+  versao_quiz: string
+  itens: Record<string, Record<string, Record<string, Avaliacao>>>
+}
+
+export interface Evidencia {
+  resumo: string
+  trecho: string
+  fonte: { veiculo: string; tipo: string; data: string | null; url: string }
+}
+
+export type Evidencias = Record<string, Record<string, Evidencia>>
+
+export interface Resposta {
   perguntaId: string
-  posicao: Posicao
-  fonteUrl: string
-  trechoFonte: string
+  opcaoId: string
 }
 
 export type StatusCandidatura = 'regular' | 'sub_judice' | 'indeferida'
-
-export interface SituacaoJudicial {
-  status: StatusCandidatura
-  descricao: string
-  fonteUrl: string
-  /** Data (ISO) da última checagem — status sub judice pode mudar até o pleito. */
-  atualizadoEm: string
-}
 
 export interface Candidato {
   id: string
@@ -64,25 +71,28 @@ export interface Candidato {
   numero: string
   partido: string
   cargo: string
-  /** Coligação eleitoral (aliança temporária) — distinta de federação partidária. */
   coligacao?: string
-  /** Federação partidária (fusão formal de partidos) — distinta de coligação. */
   federacao?: string
   vice?: string
-  situacaoJudicial: SituacaoJudicial
+  situacaoJudicial: {
+    status: StatusCandidatura
+    descricao: string
+    fonteUrl: string
+    atualizadoEm: string
+  }
   planoGovernoUrl: string
-  posicoes: PosicaoCandidato[]
 }
 
-export interface EixoScore {
-  eixoId: string
-  afinidade: number
-  perguntasRespondidas: number
+export interface Motivo {
+  perguntaId: string
+  opcaoId: string
+  avaliacao: Avaliacao
 }
 
-export interface CandidatoResultado {
+export interface Resultado {
   candidato: Candidato
-  afinidadeGeral: number
-  perguntasComparadas: number
-  porEixo: EixoScore[]
+  /** null quando há menos situações com evidência do que o mínimo para calcular. */
+  afinidade: number | null
+  cobertura: number
+  motivos: Motivo[]
 }

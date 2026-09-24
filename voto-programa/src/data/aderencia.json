@@ -1,0 +1,664 @@
+{
+  "gerado_em": "2026-09-24",
+  "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py",
+  "revisado_por": null,
+  "versao_quiz": "3.0.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Afirma que rescindirá contratos de concessionárias em caso de descumprimento."
+        },
+        "eduardo-paes": {
+          "nota": 10,
+          "evidencias": [
+            "p74"
+          ],
+          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p74",
+            "p73"
+          ],
+          "justificativa": "Propõe auditar contratos de concessão sem ameaçar rompê-los."
+        },
+        "douglas-ruas": {
+          "nota": 45,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Propõe cobrar as concessionárias a partir do gabinete, mas prevê rescisão em caso de descumprimento."
+        }
+      },
+      "c": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p13",
+            "p47"
+          ],
+          "justificativa": "Propõe colocar os trens no padrão do BRT e criar o programa Trem Seguro."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p42",
+            "p41"
+          ],
+          "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
+        },
+        "douglas-ruas": {
+          "nota": 30,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe tarifa social focalizada na baixa renda, e não subsídio amplo."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe tarifa social focalizada na baixa renda com responsabilidade fiscal."
+        },
+        "eduardo-paes": {
+          "nota": 35,
+          "evidencias": [
+            "p42"
+          ],
+          "justificativa": "Propõe subsídio para reduzir passagens em geral, sem focalização por renda."
+        }
+      },
+      "c": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p40",
+            "p43"
+          ],
+          "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
+        },
+        "douglas-ruas": {
+          "nota": 45,
+          "evidencias": [
+            "p44"
+          ],
+          "justificativa": "Propõe revisar e modernizar a bilhetagem única, sem mencionar retirá-la das empresas."
+        }
+      },
+      "d": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 com subsídio estadual."
+        },
+        "eduardo-paes": {
+          "nota": 45,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Declara o objetivo de reduzir tarifas, sem se comprometer com valor."
+        }
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p27",
+            "p26"
+          ],
+          "justificativa": "Defende comprar serviços da rede privada para reduzir filas."
+        },
+        "eduardo-paes": {
+          "nota": 30,
+          "evidencias": [
+            "p59",
+            "p7"
+          ],
+          "justificativa": "Propõe ampliar a rede pública com supercentros e contratação de médicos, sem mencionar compra da rede privada."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p59",
+            "p61"
+          ],
+          "justificativa": "Propõe Super Centros Regionais de Especialidades em todas as regiões."
+        },
+        "douglas-ruas": {
+          "nota": 80,
+          "evidencias": [
+            "p25"
+          ],
+          "justificativa": "Propõe Centros Integrados de Saúde em cada região, com especialistas, exames e pequenas cirurgias."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Propõe mutirão permanente de cirurgias eletivas à noite e nos fins de semana."
+        },
+        "eduardo-paes": {
+          "nota": 50,
+          "evidencias": [
+            "p60"
+          ],
+          "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p7"
+          ],
+          "justificativa": "Propõe contratar mais médicos e especialistas."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p33",
+            "p34"
+          ],
+          "justificativa": "Propõe o modelo cívico-militar em pelo menos 200 escolas estaduais."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p66",
+            "p67",
+            "p8"
+          ],
+          "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p37"
+          ],
+          "justificativa": "Propõe diagnóstico e reforço de português e matemática no contraturno."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p8",
+            "p9"
+          ],
+          "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
+        },
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio."
+        }
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p3",
+            "p4",
+            "p84"
+          ],
+          "justificativa": "Propõe a retomada de territórios como principal critério de avaliação das polícias."
+        },
+        "eduardo-paes": {
+          "nota": 70,
+          "evidencias": [
+            "p2",
+            "p29",
+            "p30"
+          ],
+          "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p31",
+            "p3"
+          ],
+          "justificativa": "Afirma que o objetivo deve ser prender, com inteligência, e não neutralizar."
+        },
+        "douglas-ruas": {
+          "nota": 50,
+          "evidencias": [
+            "p9"
+          ],
+          "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p5",
+            "p85"
+          ],
+          "justificativa": "Defende manter polícia e serviços públicos na área após as operações."
+        },
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+        }
+      },
+      "d": {
+        "douglas-ruas": {
+          "nota": 10,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe não contabilizar mortes em legítima defesa policial como letalidade violenta."
+        },
+        "eduardo-paes": {
+          "nota": 45,
+          "evidencias": [
+            "p31",
+            "p32"
+          ],
+          "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
+        }
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p22",
+            "p23"
+          ],
+          "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p1",
+            "p2"
+          ],
+          "justificativa": "Propõe convocar excedentes e elevar a PM a 60 mil agentes em quatro anos."
+        },
+        "eduardo-paes": {
+          "nota": 75,
+          "evidencias": [
+            "p34",
+            "p71",
+            "p36"
+          ],
+          "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe inteligência permanente para desarticular quadrilhas de receptação de celulares."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+        },
+        "douglas-ruas": {
+          "nota": 70,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        }
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p39"
+          ],
+          "justificativa": "Propõe monitorar agressores com tornozeleira eletrônica."
+        },
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p18",
+            "p86"
+          ],
+          "justificativa": "Propõe tornozeleira com alerta sonoro à vítima e à polícia."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p39"
+          ],
+          "justificativa": "Propõe delegacias da mulher funcionando 24 horas."
+        },
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe novas delegacias da mulher 24 horas, inclusive no interior."
+        }
+      },
+      "c": {
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p39"
+          ],
+          "justificativa": "Propõe Casas da Mulher Fluminense em todas as regiões."
+        },
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe acolhimento, apoio jurídico e psicológico, auxílio de transição e abrigos sigilosos."
+        }
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p17",
+            "p77"
+          ],
+          "justificativa": "Propõe plano de obras de contenção e macrodrenagem contra enchentes e deslizamentos."
+        },
+        "douglas-ruas": {
+          "nota": 70,
+          "evidencias": [
+            "p54"
+          ],
+          "justificativa": "Propõe continuidade da contenção de encostas e monitoramento de riscos geológicos."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p57"
+          ],
+          "justificativa": "Propõe cronograma anual e público de limpeza de canais."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p58"
+          ],
+          "justificativa": "Propõe alertas antecipados de chuva no celular do morador."
+        },
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p76"
+          ],
+          "justificativa": "Propõe centros de operações regionais com sirenes e radares."
+        }
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p75"
+          ],
+          "justificativa": "Afirma que o aumento de tarifa da concessão de água e esgoto terá de ser revisto."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p56"
+          ],
+          "justificativa": "Propõe reforçar a fiscalização das metas contratuais das concessionárias de saneamento."
+        },
+        "eduardo-paes": {
+          "nota": 60,
+          "evidencias": [
+            "p74"
+          ],
+          "justificativa": "Propõe auditar os contratos de concessão."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 85,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Afirma que rescindirá contratos de concessionárias em caso de descumprimento."
+        },
+        "eduardo-paes": {
+          "nota": 10,
+          "evidencias": [
+            "p74"
+          ],
+          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+        }
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p68"
+          ],
+          "justificativa": "Propõe o programa Meu Primeiro Emprego com aprendizagem técnica."
+        },
+        "eduardo-paes": {
+          "nota": 60,
+          "evidencias": [
+            "p12",
+            "p9"
+          ],
+          "justificativa": "Propõe qualificação profissional contínua e ensino técnico, sem programa de primeiro emprego."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p11",
+            "p52"
+          ],
+          "justificativa": "Propõe atrair indústria naval e outros setores, com Refis para estaleiros."
+        },
+        "douglas-ruas": {
+          "nota": 85,
+          "evidencias": [
+            "p65"
+          ],
+          "justificativa": "Propõe usar ICMS e outros instrumentos para atrair indústria naval e refino, com contrapartida de emprego."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p70"
+          ],
+          "justificativa": "Afirma que gerar emprego cabe ao setor privado e que o setor público deve investir em segurança."
+        },
+        "eduardo-paes": {
+          "nota": 45,
+          "evidencias": [
+            "p12",
+            "p11"
+          ],
+          "justificativa": "Atribui a geração de emprego ao setor privado, mas propõe papel ativo do estado na atração de investimentos e na qualificação."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p51"
+          ],
+          "justificativa": "Promete zerar o IPVA de motos de até 180 cilindradas."
+        },
+        "douglas-ruas": {
+          "nota": 85,
+          "evidencias": [
+            "p69"
+          ],
+          "justificativa": "Propõe benefícios de tributos para motos de até 180 cilindradas."
+        }
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p73"
+          ],
+          "justificativa": "Defende teto de gastos vinculando o aumento das despesas ao da receita."
+        },
+        "eduardo-paes": {
+          "nota": 55,
+          "evidencias": [
+            "p18"
+          ],
+          "justificativa": "Propõe reequilibrar as contas com responsabilidade fiscal, sem mencionar teto de gastos."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p73",
+            "p72"
+          ],
+          "justificativa": "Defende aprofundar auditorias em todos os contratos e criar uma secretaria de integridade."
+        },
+        "douglas-ruas": {
+          "nota": 65,
+          "evidencias": [
+            "p80",
+            "p81"
+          ],
+          "justificativa": "Propõe punir cargos fantasmas e dar transparência às obras, sem mencionar auditoria geral de contratos."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p74",
+            "p76"
+          ],
+          "justificativa": "Afirma que o plano prevê enxugamento da máquina e menor despesa de custeio."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    }
+  }
+}

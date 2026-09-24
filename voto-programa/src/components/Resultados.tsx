@@ -1,193 +1,218 @@
 import { useState } from 'react'
-import { eixos } from '../data/eixos'
-import { perguntas } from '../data/perguntas'
-import type { CandidatoResultado, RespostaUsuario } from '../types'
+import { outrosCandidatos } from '../data/candidatos'
+import { RESPONSAVEL } from '../config'
+import { COBERTURA_MINIMA } from '../lib/matching'
+import type { Aderencia, Evidencias, Pergunta, Resposta, Resultado } from '../types'
 
 interface ResultadosProps {
-  ranking: CandidatoResultado[]
-  respostas: RespostaUsuario[]
+  resultados: Resultado[]
+  respostas: Resposta[]
+  perguntas: Pergunta[]
+  aderencia: Aderencia
+  evidencias: Evidencias
   onRefazer: () => void
 }
 
-const nomeEixo = new Map(eixos.map((e) => [e.id, e.nome]))
-const cenarioPergunta = new Map(perguntas.map((p) => [p.id, p.cenario]))
-
-export function Resultados({ ranking, respostas, onRefazer }: ResultadosProps) {
-  const respostaPorPergunta = new Map(respostas.map((r) => [r.perguntaId, r]))
-
-  return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
-      <div className="mb-4 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-brand-900">Seu resultado</h1>
-        <button
-          type="button"
-          onClick={onRefazer}
-          className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 hover:border-brand-400"
-        >
-          Refazer questionário
-        </button>
-      </div>
-
-      <p className="mb-8 rounded-lg border border-brand-200 bg-brand-50 p-3 text-sm text-brand-900">
-        Os candidatos ficam ocultos até você decidir revelar cada um — assim a comparação é
-        pelo conteúdo do programa, não pelo nome, partido ou marketing.
-      </p>
-
-      <div className="space-y-4">
-        {ranking.map((resultado, indice) => (
-          <CandidatoCard
-            key={resultado.candidato.id}
-            resultado={resultado}
-            posicao={indice + 1}
-            respostaPorPergunta={respostaPorPergunta}
-          />
-        ))}
-      </div>
-
-      <p className="mt-10 text-center text-xs text-slate-400">
-        Afinidade calculada apenas entre as perguntas que você respondeu e as posições
-        cadastradas de cada candidato. Isto não é uma recomendação de voto.
-      </p>
-    </div>
-  )
+function rotuloNota(nota: number) {
+  if (nota >= 70) return { texto: 'Combina', cor: 'bg-folha text-white' }
+  if (nota >= 40) return { texto: 'Combina em parte', cor: 'bg-sol text-tinta' }
+  return { texto: 'Vai em outra direção', cor: 'bg-coral text-white' }
 }
 
-function CandidatoCard({
-  resultado,
-  posicao,
-  respostaPorPergunta,
-}: {
-  resultado: CandidatoResultado
-  posicao: number
-  respostaPorPergunta: Map<string, RespostaUsuario>
-}) {
-  const [aberto, setAberto] = useState(false)
-  const [revelado, setRevelado] = useState(false)
-  const { candidato, afinidadeGeral, perguntasComparadas } = resultado
+export function Resultados({ resultados, respostas, perguntas, aderencia, evidencias, onRefazer }: ResultadosProps) {
+  const [revelados, setRevelados] = useState<string[]>([])
+  const [copiado, setCopiado] = useState(false)
+  const perguntaPorId = new Map(perguntas.map((p) => [p.id, p]))
+  const consensos = perguntas.filter((p) => p.consenso && respostas.some((r) => r.perguntaId === p.id))
+
+  const textoCompartilhar = (() => {
+    const partes = resultados
+      .filter((r) => revelados.includes(r.candidato.id) && r.afinidade !== null)
+      .map((r) => `${r.candidato.nome} ${r.afinidade}%`)
+    const meu = partes.length ? `Meu resultado: ${partes.join(', ')}. ` : ''
+    return `Fiz o teste "Qual proposta combina com o seu dia a dia?" (governador RJ 2026). ${meu}Faz o seu: ${window.location.href}`
+  })()
+
+  async function copiar() {
+    try {
+      await navigator.clipboard.writeText(textoCompartilhar)
+      setCopiado(true)
+    } catch {
+      setCopiado(false)
+    }
+  }
 
   return (
-    <div className="rounded-lg border border-slate-200 bg-white shadow-sm">
-      <button
-        type="button"
-        onClick={() => setAberto((v) => !v)}
-        className="flex w-full items-center gap-4 p-4 text-left"
-      >
-        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-100 font-bold text-brand-700">
-          {posicao}
-        </span>
-        <span className="flex-1">
-          {revelado ? (
-            <>
-              <span className="block font-semibold text-slate-800">
-                {candidato.nome} <span className="font-normal text-slate-400">· {candidato.numero}</span>
+    <section className="mx-auto flex max-w-xl flex-col gap-6 px-4 pt-10 pb-16">
+      <header className="flex flex-col gap-2">
+        <h1 className="font-display text-3xl font-extrabold">Seu resultado</h1>
+        <p className="text-tinta-suave">
+          Os nomes estão escondidos. Olhe primeiro o quanto as propostas combinam com as suas
+          escolhas e só depois revele quem é quem.
+        </p>
+      </header>
+
+      {resultados.map((resultado, i) => {
+        const revelado = revelados.includes(resultado.candidato.id)
+        const c = resultado.candidato
+        return (
+          <article key={c.id} className="overflow-hidden rounded-3xl border-2 border-linha bg-white">
+            <div className="flex items-center gap-4 p-5">
+              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-sol font-display text-2xl font-extrabold">
+                {revelado ? c.numero : '?'}
               </span>
-              <span className="block text-sm text-slate-500">{candidato.partido}</span>
-            </>
-          ) : (
-            <span className="block font-semibold text-slate-400">Candidato oculto</span>
-          )}
-        </span>
-        <span className="text-2xl font-bold text-brand-600">
-          {perguntasComparadas > 0 ? `${afinidadeGeral}%` : '—'}
-        </span>
-      </button>
-
-      {aberto && (
-        <div className="border-t border-slate-100 p-4">
-          {perguntasComparadas === 0 ? (
-            <p className="text-sm text-amber-700">
-              Este candidato ainda não tem posições cadastradas no sistema — o plano de governo
-              está em curadoria. Sem dado, sem afinidade calculada.
-            </p>
-          ) : (
-            <>
-              <p className="text-xs text-slate-500">
-                Baseado em {perguntasComparadas} pergunta(s) respondida(s) com posição cadastrada
-                para este candidato.
-              </p>
-              <div className="mt-3 space-y-2">
-                {resultado.porEixo.map((eixoScore) => (
-                  <div key={eixoScore.eixoId} className="flex items-center justify-between text-sm">
-                    <span className="text-slate-600">{nomeEixo.get(eixoScore.eixoId)}</span>
-                    <span className="font-medium text-slate-800">{eixoScore.afinidade}%</span>
-                  </div>
-                ))}
+              <div className="min-w-0 flex-1">
+                <p className="font-display text-xl font-extrabold">
+                  {revelado ? c.nome : `Candidato ${String.fromCharCode(65 + i)}`}
+                </p>
+                <p className="text-sm text-tinta-suave">
+                  {revelado ? `${c.partido} · vice: ${c.vice}` : `com base em ${resultado.cobertura} situações`}
+                </p>
               </div>
-            </>
-          )}
+              <p className="font-display text-4xl font-extrabold text-mar tabular-nums">
+                {resultado.afinidade === null ? '—' : `${resultado.afinidade}%`}
+              </p>
+            </div>
 
-          {revelado ? (
-            <>
-              <div className="mt-4 space-y-1 text-sm text-slate-600">
-                {candidato.coligacao && <p>Coligação: {candidato.coligacao}</p>}
-                {candidato.federacao && <p>Federação: {candidato.federacao}</p>}
-                {candidato.vice && <p>Vice: {candidato.vice}</p>}
-                {candidato.situacaoJudicial.status !== 'regular' && (
-                  <p className="rounded-md border border-amber-300 bg-amber-50 p-2 text-amber-900">
-                    Situação da candidatura: {candidato.situacaoJudicial.descricao}{' '}
-                    <a
-                      href={candidato.situacaoJudicial.fonteUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline"
-                    >
-                      fonte
-                    </a>
+            {resultado.afinidade !== null && (
+              <div className="mx-5 mb-4 h-3 overflow-hidden rounded-full bg-linha">
+                <div className="h-full rounded-full bg-mar" style={{ width: `${resultado.afinidade}%` }} />
+              </div>
+            )}
+            {resultado.afinidade === null && (
+              <p className="mx-5 mb-4 text-sm text-tinta-suave">
+                Poucas situações com proposta deste candidato sobre os temas que você escolheu
+                (mínimo de {COBERTURA_MINIMA}). Sem dado suficiente, sem percentual.
+              </p>
+            )}
+
+            {!revelado ? (
+              <button
+                type="button"
+                onClick={() => setRevelados((r) => [...r, c.id])}
+                className="w-full border-t-2 border-linha bg-mar-claro px-5 py-4 font-display text-lg font-extrabold text-mar-escuro"
+              >
+                Revelar quem é
+              </button>
+            ) : (
+              <div className="flex flex-col gap-4 border-t-2 border-linha p-5">
+                {c.coligacao && <p className="text-sm text-tinta-suave">Coligação: {c.coligacao}</p>}
+                <a href={c.planoGovernoUrl} target="_blank" rel="noreferrer" className="text-sm font-semibold text-mar-escuro underline">
+                  Ler o plano de governo completo
+                </a>
+
+                <details className="group">
+                  <summary className="cursor-pointer font-display text-lg font-extrabold">
+                    Por que deu esse resultado ({resultado.motivos.length})
+                  </summary>
+                <ul className="mt-3 flex flex-col gap-4">
+                  {resultado.motivos.map((m) => {
+                    const p = perguntaPorId.get(m.perguntaId)
+                    const opcao = p?.opcoes.find((o) => o.id === m.opcaoId)
+                    const rotulo = rotuloNota(m.avaliacao.nota ?? 0)
+                    return (
+                      <li key={m.perguntaId} className="rounded-2xl bg-papel p-4">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className={`rounded-full px-2 py-0.5 text-xs font-bold ${rotulo.cor}`}>{rotulo.texto}</span>
+                          <span className="text-sm font-semibold">Você: “{opcao?.texto}”</span>
+                        </div>
+                        <p className="mt-2 text-sm">{m.avaliacao.justificativa}</p>
+                        {m.avaliacao.evidencias.map((eid) => {
+                          const ev = evidencias[c.id]?.[eid]
+                          if (!ev) return null
+                          return (
+                            <blockquote key={eid} className="mt-2 border-l-4 border-sol pl-3 text-sm italic text-tinta-suave">
+                              “{ev.trecho}”{' '}
+                              <a href={ev.fonte.url} target="_blank" rel="noreferrer" className="not-italic font-semibold text-mar-escuro underline">
+                                {ev.fonte.veiculo}
+                                {ev.fonte.data ? `, ${ev.fonte.data.split('-').reverse().join('/')}` : ''}
+                              </a>
+                            </blockquote>
+                          )
+                        })}
+                      </li>
+                    )
+                  })}
+                </ul>
+                </details>
+                {respostas.length > resultado.motivos.length && (
+                  <p className="text-sm text-tinta-suave">
+                    Em {respostas.length - resultado.motivos.length} das suas escolhas não achamos proposta
+                    deste candidato sobre o assunto, então elas não contaram nem a favor nem contra.
                   </p>
                 )}
               </div>
+            )}
+          </article>
+        )
+      })}
 
-              <p className="mt-3 text-sm">
-                <a
-                  href={candidato.planoGovernoUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-brand-600 underline"
-                >
-                  Ver plano de governo completo
-                </a>
-              </p>
-
-              {perguntasComparadas > 0 && (
-                <details className="mt-4">
-                  <summary className="cursor-pointer text-sm font-medium text-brand-600">
-                    Ver posição pergunta a pergunta
-                  </summary>
-                  <ul className="mt-2 space-y-2 text-sm">
-                    {candidato.posicoes
-                      .filter((p) => respostaPorPergunta.has(p.perguntaId))
-                      .map((p) => (
-                        <li
-                          key={p.perguntaId}
-                          className="border-t border-slate-100 pt-2 first:border-t-0 first:pt-0"
-                        >
-                          <p className="text-slate-700">{cenarioPergunta.get(p.perguntaId)}</p>
-                          <p className="mt-1 text-xs italic text-slate-500">"{p.trechoFonte}"</p>
-                          <a
-                            href={p.fonteUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="text-xs text-brand-600 underline"
-                          >
-                            Fonte da posição do candidato
-                          </a>
-                        </li>
-                      ))}
-                  </ul>
-                </details>
-              )}
-            </>
-          ) : (
-            <button
-              type="button"
-              onClick={() => setRevelado(true)}
-              className="mt-4 rounded-md border border-brand-300 px-4 py-2 text-sm font-medium text-brand-700 hover:bg-brand-50"
-            >
-              Revelar candidato
-            </button>
-          )}
-        </div>
+      {consensos.length > 0 && (
+        <aside className="rounded-3xl border-2 border-folha bg-white p-5">
+          <h2 className="font-display text-lg font-extrabold">Nisso os dois concordam</h2>
+          <ul className="mt-2 flex flex-col gap-1 text-sm">
+            {consensos.map((p) => (
+              <li key={p.id}>
+                {p.pergunta} Os dois propõem{' '}
+                {p.opcoes
+                  .filter((o) => Object.values(aderencia.itens[p.id]?.[o.id] ?? {}).every((a) => (a.nota ?? 0) >= 70))
+                  .map((o) => o.texto.replace(/\.$/, '').toLowerCase())
+                  .join('; ')}
+                .
+              </li>
+            ))}
+          </ul>
+        </aside>
       )}
-    </div>
+
+      <div className="flex flex-col gap-3 rounded-3xl bg-mar p-5 text-white">
+        <p className="font-display text-lg font-extrabold">Manda pra galera</p>
+        <p className="text-sm opacity-90">
+          {revelados.length ? 'Seu resultado vai junto na mensagem.' : 'Revele os candidatos se quiser que seu resultado vá na mensagem.'}
+        </p>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href={`https://wa.me/?text=${encodeURIComponent(textoCompartilhar)}`}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-2xl bg-sol px-5 py-3 font-bold text-tinta"
+          >
+            Compartilhar no WhatsApp
+          </a>
+          <button type="button" onClick={copiar} className="rounded-2xl border-2 border-white px-5 py-3 font-bold">
+            {copiado ? 'Copiado!' : 'Copiar texto'}
+          </button>
+        </div>
+      </div>
+
+      <button type="button" onClick={onRefazer} className="self-center text-sm font-semibold text-tinta-suave underline">
+        Refazer o teste
+      </button>
+
+      <details className="rounded-2xl border border-linha bg-white p-4 text-sm leading-relaxed text-tinta-suave">
+        <summary className="cursor-pointer font-bold text-tinta">Como funciona e o que ficou de fora</summary>
+        <div className="mt-3 flex flex-col gap-2">
+          <p>
+            Cada opção foi comparada com as propostas públicas de cada candidato (plano de governo,
+            sabatinas e entrevistas), sempre com o trecho e a fonte. A nota de cada combinação é
+            uma tabela fixa, igual para todo mundo; nenhuma IA calcula nada na hora em que você
+            responde, e suas respostas não saem do seu aparelho.
+          </p>
+          <p>
+            Quando um candidato não tem proposta sobre o assunto, a escolha não conta nem a favor
+            nem contra. Temas prioritários valem em dobro.
+          </p>
+          <p>
+            Este piloto cobre os dois candidatos com maior intenção de voto. Também concorrem:{' '}
+            {outrosCandidatos.join(', ')}.
+          </p>
+          <p>
+            Isto não é pesquisa eleitoral: não guardamos nem divulgamos respostas de ninguém.
+            Tabela de notas gerada em {aderencia.gerado_em}.
+          </p>
+          <p>Responsável pelo site: {RESPONSAVEL || '(a definir antes da publicação)'}</p>
+        </div>
+      </details>
+    </section>
   )
 }

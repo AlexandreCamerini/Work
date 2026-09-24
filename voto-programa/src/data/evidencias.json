@@ -1,0 +1,776 @@
+{
+  "douglas-ruas": {
+    "p1": {
+      "resumo": "Prevê convocar no primeiro mês de governo os aprovados excedentes em concursos das forças de segurança e fixar cronograma de novos concursos para atingir o efetivo previsto em lei.",
+      "trecho": "Então nós precisamos — e eu já me comprometi —, logo no primeiro mês de governo, convocar todos os excedentes aprovados nos concursos para todas as forças de segurança do Estado do Rio de Janeiro e estabelecer um cronograma para a realização de novos concursos.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p2": {
+      "resumo": "Propõe elevar o efetivo da Polícia Militar para 60 mil agentes em quatro anos.",
+      "trecho": "Também vamos abrir novos concursos e elevar para 60 mil o efetivo da Polícia Militar em quatro anos.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-12",
+        "url": "https://agendadopoder.com.br/ruas-propoe-novos-presidios-com-iniciativa-privada-e-unidade-de-regime-disciplinar-mais-rigoroso/"
+      }
+    },
+    "p3": {
+      "resumo": "Propõe deixar de contabilizar mortes em legítima defesa policial como letalidade violenta no sistema de metas e criar indicador de retomada de territórios como principal critério de avaliação.",
+      "trecho": "Letalidade violenta vai estar classificada como os crimes praticados pelos criminosos. Porque a legítima defesa do policial não é crime, então não tem que ser enxergada como letalidade violenta.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p4": {
+      "resumo": "Propõe criar indicador de retomada de territórios, com base no mapeamento do ISP, para avaliar comandantes e delegados pelo restabelecimento do direito de ir e vir e da liberdade econômica nas comunidades.",
+      "trecho": "Além disso, nós vamos criar um outro indicador, e esse será o principal na avaliação de desempenho dos gestores da segurança pública: a retomada dos territórios.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p5": {
+      "resumo": "Defende manter a presença policial e de serviços públicos em áreas após operações, em vez de sair no dia seguinte.",
+      "trecho": "O erro foi sair no dia seguinte. Aquela era uma grande oportunidade de fincar uma bandeira e determinar bem claro que o crime organizado não mandaria mais em nenhum palmo daquele território",
+      "fonte": {
+        "veiculo": "GP Baixada News",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://gpbaixadanews.com/douglas-ruas-promete-retomada-de-territorios-dominados-pelo-crime-e-metro-a-r-5/"
+      }
+    },
+    "p9": {
+      "resumo": "Propõe reforçar a investigação de lavagem de dinheiro e empresas de fachada de milícias e bloquear fontes de renda do crime como extorsão, gás, transporte clandestino e internet ilegal.",
+      "trecho": "Bloqueio das fontes de renda do crime: extorsão, gás, transporte clandestino, internet ilegal.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p10": {
+      "resumo": "Propõe câmeras de leitura de placas e reconhecimento facial nas principais vias, drones e scanners de carga em rodovias, portos e aeroportos.",
+      "trecho": "Drones em patrulhamento contínuo e scanners de carga nas rodovias e nas saídas de portos e aeroportos.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p15": {
+      "resumo": "Propõe trabalho permanente de inteligência para desarticular quadrilhas de receptação de celulares roubados.",
+      "trecho": "Então, faremos um trabalho permanente de inteligência para desarticular as quadrilhas de receptação. O receptador é tão criminoso quanto o ladrão. E vai para cadeia.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-12",
+        "url": "https://agendadopoder.com.br/ruas-propoe-novos-presidios-com-iniciativa-privada-e-unidade-de-regime-disciplinar-mais-rigoroso/"
+      }
+    },
+    "p18": {
+      "resumo": "Propõe tornozeleira com alerta sonoro que avisa vítima e polícia quando o agressor viola a distância fixada pela Justiça.",
+      "trecho": "Alerta de proximidade: quando o agressor violar o limite de afastamento fixado pela justiça, a tornozeleira eletrônica emitirá um alerta sonoro e acionará simultaneamente a vítima e as forças de segurança.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p19": {
+      "resumo": "Propõe novas delegacias da mulher com atendimento 24 horas, presença no interior e Patrulha Maria da Penha em todas as regiões.",
+      "trecho": "Novas unidades das delegacias da mulher, com atendimento 24 horas e presença no interior do Estado.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p20": {
+      "resumo": "Propõe acolhimento fora da delegacia, apoio jurídico e psicológico, auxílio de transição e abrigos sigilosos para mulheres ameaçadas.",
+      "trecho": "Acolhimento fora da delegacia, apoio jurídico e psicológico, capacitação e auxílio de transição, além de abrigos sigilosos para mulheres ameaçadas.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p25": {
+      "resumo": "Propõe Centros Integrados de Saúde em cada região com consulta especializada, exames de imagem e pequenas cirurgias no mesmo equipamento.",
+      "trecho": "Nós vamos levar à saúde para perto da casa das pessoas, com os Centros Integrado de Saúde em cada região, no único equipamento. O cidadão vai encontrar consulta com especialistas, exames de diagnóstico por imagem e até mesmo pequenas cirurgias",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/douglas-ruas-agenda-rj.ghtml"
+      }
+    },
+    "p26": {
+      "resumo": "Propõe mutirão permanente de cirurgias eletivas, com centros cirúrgicos à noite e nos fins de semana e contratação da rede privada.",
+      "trecho": "Mutirão permanente das cirurgias eletivas que mais travam, com centro cirúrgico funcionando à noite e no fim de semana, circuito rápido que reúne avaliação, exames e cirurgia e também através da contratação da rede privada para dar celeridade.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p27": {
+      "resumo": "Defende comprar serviços da rede privada para reduzir filas, por considerar que a rede pública não atende toda a demanda.",
+      "trecho": "Não é nada de inovador comprar serviços na rede privada para entregar aquilo que tem de melhor para o nosso povo e tirar de uma vez por todas essa espera da fila.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe implantar o modelo cívico-militar em pelo menos 200 escolas estaduais, após apresentação à comunidade escolar.",
+      "trecho": "Pretendo franquear visitas às unidades já existentes para pais, alunos e profissionais da educação conhecerem, com muito diálogo, e depois implantar esse modelo em pelo menos 200 escolas.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p34": {
+      "resumo": "Define no plano que, nas escolas cívico-militares, militar da reserva cuida da disciplina e a gestão pedagógica permanece civil.",
+      "trecho": "Escolas cívico-militares: o militar da reserva responde pela disciplina e pela ordem, a gestão pedagógica permanece civil e cada unidade assume metas de desempenho com neutralidade político-partidária como princípio inegociável de toda a rede.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p35": {
+      "resumo": "Propõe levar a Faetec para dentro das escolas e oferecer qualificação profissional a partir do primeiro ano do ensino médio.",
+      "trecho": "Nós vamos levar a Faetec para dentro das escolas. Quero antecipar esse debate, trazer a qualificação profissional para o primeiro ano do ensino médio",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p37": {
+      "resumo": "Propõe diagnóstico de todo aluno na entrada do ensino médio e reforço em português e matemática no contraturno.",
+      "trecho": "Ninguém Fica Para Atrás: diagnóstico de todo aluno na entrada do ensino médio, reforço intensivo em português e matemática no contraturno para quem está atrasado",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p41": {
+      "resumo": "Propõe ampliar o subsídio estadual para reduzir gradualmente a tarifa do metrô até R$ 5, conforme a capacidade fiscal.",
+      "trecho": "Nosso objetivo é chegar a 5 reais, mas isso deve ser um trabalho gradativo, de acordo com a possibilidade dos cofres públicos do Estado do Rio de Janeiro",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/douglas-fiscalizacao-de-contratos.ghtml"
+      }
+    },
+    "p44": {
+      "resumo": "Propõe revisar a bilhetagem única estadual com integração progressiva entre metrô, trem, barcas, BRT e ônibus intermunicipais.",
+      "trecho": "Revisão e modernização da bilhetagem única estadual, com integração progressiva entre metrô, trem, barcas, BRT e ônibus intermunicipais.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p45": {
+      "resumo": "Propõe integração tarifária com responsabilidade fiscal e tarifa social focalizada na população de baixa renda.",
+      "trecho": "Integração tarifária com responsabilidade fiscal, critérios técnicos, sustentabilidade financeira e tarifa social focalizada para a população de baixa renda.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p46": {
+      "resumo": "Afirma que acompanhará contratos de concessionárias a partir do gabinete do governador e que rescindirá contratos em caso de descumprimento.",
+      "trecho": "Não vamos ficar à mercê das agências reguladoras para que os serviços prestados pelas concessionárias sejam cumpridos. Vou trazer isso para dentro do gabinete do governador, cobrar que as agências cumpram o contrato e que as empresas prestem um serviço de qualidade. Em caso de descumprimento, vamos rescindir",
+      "fonte": {
+        "veiculo": "Diário do Rio",
+        "tipo": "noticia",
+        "data": "2026-09-16",
+        "url": "https://diariodorio.com/politica/2026/09/16/douglas-ruas-promete-metro-a-rs-5-e-cobra-melhor-servico-de-concessionarias-no-rio.html"
+      }
+    },
+    "p54": {
+      "resumo": "Propõe sistema estadual integrado de monitoramento de riscos geológicos com os municípios e continuidade de contenção de encostas.",
+      "trecho": "Prevenção de riscos geológicos: sistema estadual integrado de monitoramento e resposta com os municípios, base unificada de informações habitacionais e de risco, continuidade das tecnologias de contenção de encostas, em especial na Região Serrana e Costa Verde.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p56": {
+      "resumo": "Propõe reforçar o monitoramento das concessionárias de saneamento para cumprimento das metas de universalização, redução de perdas de água e expansão da coleta e tratamento de esgoto.",
+      "trecho": "Fortalecimento do monitoramento das concessionárias de saneamento para assegurar o cumprimento integral das metas contratuais, com prioridade à universalização dos serviços",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p57": {
+      "resumo": "Propõe cronograma anual de limpeza de canais com resultados publicados e parques alagáveis em áreas de risco.",
+      "trecho": "Cronograma anual de limpeza e desobstrução de canais, com mapeamento das áreas prioritárias, equipes permanentes e resultados publicados para acompanhamento da população.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p58": {
+      "resumo": "Propõe fortalecer o CEMADEN-RJ com alertas antecipados no celular do morador.",
+      "trecho": "Fortalecimento do CEMADEN-RJ, como centro estadual de inteligência de riscos, com alertas antecipados integrados ao celular do morador, especialmente na Região Serrana, Costa Verde e demais áreas críticas.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p65": {
+      "resumo": "Prevê usar instrumentos como ICMS, FUNDES, concessões e parcerias privadas para atrair refino, indústria naval e serviços de engenharia, com contrapartida de emprego.",
+      "trecho": "Indústria, energia e serviços de engenharia, usando instrumentos como ICMS, FUNDES, concessões e parcerias privadas com responsabilidade fiscal, contrapartida de emprego, segurança jurídica e licenciamento ágil para atrair refino leve, indústria naval, serviços de engenharia, tecnologia e novos investimentos.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p68": {
+      "resumo": "Propõe o programa Meu Primeiro Emprego com aprendizagem técnica e incentivos à contratação.",
+      "trecho": "Implantação do programa Meu Primeiro Emprego, aproximando jovens do mercado de trabalho por meio da aprendizagem técnica, incentivos à contratação, formação em tecnologia e criação de hubs regionais de inovação e empreendedorismo.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p69": {
+      "resumo": "Propõe crédito para veículos de trabalho e conversão para GNV, benefícios tributários para motos de até 180 cilindradas e incentivos para MEIs.",
+      "trecho": "RJ na Pista: crédito para aquisição ou renovação de veículos de trabalho e conversão para GNV, benefícios de tributos para motos de até 180 cilindradas, incentivos tributários para MEIs e mutirões de formalização.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p70": {
+      "resumo": "Afirma que a geração de emprego cabe ao setor privado e que o setor público deve priorizar investimentos em segurança.",
+      "trecho": "Quem tem que gerar emprego é o setor privado; o setor público é responsável pelos investimentos em segurança",
+      "fonte": {
+        "veiculo": "O Povo / Agência Estado",
+        "tipo": "noticia",
+        "data": "2026-09-11",
+        "url": "https://www.opovo.com.br/noticias/politica/2026/09/11/ruas-pl-defende-teto-de-gastos-para-o-rio-e-promete-gabinete-contra-crime-organizado.html"
+      }
+    },
+    "p73": {
+      "resumo": "Defende teto de gastos estadual que vincule o crescimento das despesas ao da receita.",
+      "trecho": "Tivemos aumento de receitas de 21% nos últimos cinco anos, mas as despesas subiram 43%. Apresentei uma proposta para ter um teto de gastos indexando o aumento das despesas ao da receita. É um princípio básico.",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-09",
+        "url": "https://extra.globo.com/politica/noticia/2026/09/douglas-ruas-busca-se-desvencilhar-de-castro-e-bacellar-e-associa-paes-a-envolvidos-com-crime-durante-sabatina.ghtml"
+      }
+    },
+    "p74": {
+      "resumo": "Afirma que o plano prevê enxugamento da máquina pública maior que o feito pelo governo interino, para ampliar investimentos.",
+      "trecho": "O nosso plano de governo prevê um enxugamento muito maior. Ainda tem muita coisa a ser cortada na máquina pública, com o objetivo sempre de abrir mais espaço no orçamento para ampliar os investimentos e garantir a qualidade dos serviços públicos para o cidadão.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p76": {
+      "resumo": "Defende máquina estadual com menor despesa de custeio e maior capacidade de investimento em infraestrutura.",
+      "trecho": "Nós podemos ter uma máquina enxuta, com menos despesa de custeio e maior capacidade de investimento em infraestrutura, que gera emprego e renda nas cidades para as pessoas",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-07-24",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/07/24/pl-lanca-douglas-ruas-como-candidato-ao-governo-do-rio-de-janeiro.ghtml"
+      }
+    },
+    "p80": {
+      "resumo": "Defende punir tanto ocupantes de cargos fantasmas quanto quem os nomeou.",
+      "trecho": "Em relação a eventuais cargos fantasmas que possam ter sido identificados, eu defendo que sejam punidos não apenas aqueles que ocupavam os cargos, mas também quem nomeou",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-03",
+        "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
+      }
+    },
+    "p81": {
+      "resumo": "Propõe plataforma pública com status, prazo, investimento e responsável técnico de cada projeto estadual.",
+      "trecho": "Plataforma pública de acompanhamento, com status de cada projeto, etapa de execução, prazo, investimento previsto, município beneficiado e responsável técnico.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p84": {
+      "resumo": "Afirma que pretende desmontar, e não administrar, o domínio territorial exercido por facções.",
+      "trecho": "Hoje nós estamos tratando apenas os sintomas. O estado do Rio de Janeiro, nos últimos anos, resolveu administrar o domínio territorial exercido pelo crime. A minha proposta é completamente diferente. Eu não quero administrar isso, eu quero desmontar o domínio do crime nesses territórios",
+      "fonte": {
+        "veiculo": "Boletim RJ",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://boletimrj.com.br/douglas-ruas-promete-retomada-de-territorios-e-marca-distancia-da-gestao-castro/"
+      }
+    },
+    "p85": {
+      "resumo": "Defende que a presença do Estado em comunidades inclua todos os serviços públicos, além das forças de segurança.",
+      "trecho": "Quando a gente fala de presença do Estado, não são só as forças de segurança. O Estado precisa se fazer presente com todos os serviços públicos a que a população que mora nessas comunidades tem direito",
+      "fonte": {
+        "veiculo": "GP Baixada News",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://gpbaixadanews.com/douglas-ruas-promete-retomada-de-territorios-dominados-pelo-crime-e-metro-a-r-5/"
+      }
+    },
+    "p86": {
+      "resumo": "Afirma que agressores de mulheres serão presos e, se soltos pela Justiça, monitorados por tornozeleira eletrônica.",
+      "trecho": "no meu governo, agressor de mulher vai para cadeia. E se a justiça soltar, nós vamos colocar uma tornozeleira eletrônica e vamos monitorar esse agressor, para que ele não mais chegue perto dessas vítimas",
+      "fonte": {
+        "veiculo": "Estadão",
+        "tipo": "debate",
+        "data": "2026-08-09",
+        "url": "https://www.estadao.com.br/politica/paes-desiste-de-debate-e-se-torna-alvo-de-ataques-homem-de-geleia-e-agressor-de-mulheres/"
+      }
+    }
+  },
+  "eduardo-paes": {
+    "p2": {
+      "resumo": "Propõe conter a expansão territorial do crime organizado e retomar territórios dominados, inclusive com ações conjuntas com as Forças Armadas e investigação financeira dos grupos.",
+      "trecho": "Estancar o crescimento territorial do crime organizado em todo o estado e retomar os territórios que hoje estão sob seu domínio, inclusive por meio de ações conjuntas com as forças armadas e de investigações que rastreiem o caminho do dinheiro desses grupos.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p3": {
+      "resumo": "Declara como compromisso enfrentar crime organizado, milícia, facções e a corrupção associada a eles, com ênfase em investigação.",
+      "trecho": "Enfrentar o crime organizado, a milícia, as facções e a corrupção que os protege, com coragem, firmeza e muita investigação.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p7": {
+      "resumo": "Propõe contratar mais médicos e especialistas e assegurar o fornecimento e a distribuição de remédios no estado.",
+      "trecho": "Contratar mais médicos e especialistas e oferecer um atendimento humanizado para as pessoas, além de assegurar o fornecimento e distribuição de remédios em todo o estado.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p8": {
+      "resumo": "Propõe expandir o ensino médio profissionalizante em tempo integral em todo o estado, alinhado às vocações econômicas regionais.",
+      "trecho": "Expandir o ensino médio profissionalizante em tempo integral em todo o estado e de acordo com as vocações econômicas de cada região, garantindo assim mais oportunidades de trabalho e acesso ao primeiro emprego para os nossos jovens",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p9": {
+      "resumo": "Propõe ampliar o ensino técnico profissionalizante em tempo integral e recuperar a rede Faetec.",
+      "trecho": "Ampliar o ensino técnico profissionalizante em tempo integral, fazer as Faetecs renascerem e recolocar nossa rede estadual de ensino entre as melhores do Brasil, como já foi no passado.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p11": {
+      "resumo": "Propõe atrair empresas e investimentos, com foco em petróleo e gás, turismo, indústria naval, agronegócio e cultura e entretenimento.",
+      "trecho": "Fazer o estado voltar a atrair empresas e investimentos, gerando emprego e renda em todas as regiões de acordo com as suas vocações, sobretudo nos setores de petróleo e gás, turismo, indústria naval, agronegócio e cultura & entretenimento.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p12": {
+      "resumo": "Propõe melhorar o ambiente de negócios, reduzir o custo de produzir no estado e manter um programa contínuo de qualificação profissional.",
+      "trecho": "Atrair novos investimentos e empresas para o estado, dinamizar o turismo em todas as regiões, promover um amplo programa de formação e qualificação profissional de forma contínua, melhorar o ambiente de negócios, reduzir o custo de produzir no Rio, para que assim, o setor privado volte a gerar oportunidades, emprego e renda para as pessoas em todo o estado.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p13": {
+      "resumo": "Propõe colocar a SuperVia no padrão do BRT do Rio, levar o BRT à Baixada, iniciar a Linha 3 do metrô e enfrentar as empresas de ônibus intermunicipais para dar transparência à bilhetagem.",
+      "trecho": "No transporte, vamos colocar a Supervia no padrão do BRT do Rio, recuperar as estradas estaduais, levar o BRT para toda a Baixada, iniciar as obras da Linha 3 do Metrô até São Gonçalo e enfrentar as empresas de ônibus intermunicipais da mesma forma que fizemos na capital, com o objetivo de garantir mais transparência na bilhetagem, e sobretudo, mais qualidade no serviço oferecido à população.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p17": {
+      "resumo": "Propõe um plano de obras contra enchentes e deslizamentos, com prioridade para Região Serrana, Costa Verde e Baixada Fluminense.",
+      "trecho": "Implantar um grande plano de obras para combater as enchentes e prevenir deslizamentos em todo o estado, com especial atenção à Região Serrana, Costa Verde e Baixada Fluminense.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p18": {
+      "resumo": "Propõe reequilibrar as finanças estaduais e recuperar a capacidade de investimento, com gestão por resultados, metas e transparência.",
+      "trecho": "Colocar as contas públicas em ordem, reequilibrar as finanças e devolver ao nosso estado a capacidade de investir, sempre com responsabilidade fiscal, gestão por resultados, metas claras com prestação de contas e transparência em cada área do governo.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p22": {
+      "resumo": "Propõe criar o Sistema Único de Segurança Fluminense, com forças municipais atuando contra roubos e furtos e no policiamento ostensivo.",
+      "trecho": "Nós vamos criar o Sistema Único de Segurança fluminense, em que as forças municipais terão papel de [combater] roubos e furtos e policiamento ostensivo",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/rj1-entrevista-eduardo-paes-candidato-do-psd-ao-governo-do-rj.ghtml"
+      }
+    },
+    "p23": {
+      "resumo": "Propõe integrar guardas municipais armadas à PM para liberar a Polícia Militar para o combate ao tráfico e a retomada de territórios.",
+      "trecho": "Um trabalho integrado dessas forças municipais de guardas municipais armadas, atuando de forma integrada com a Polícia Militar, liberando a PM para suas funções de combate ao tráfico de drogas e recuperação de territórios",
+      "fonte": {
+        "veiculo": "Folha do Aço",
+        "tipo": "noticia",
+        "data": "2026-09-12",
+        "url": "https://folhadoaco.com.br/2026/09/12/eduardo-paes-afirma-que-vai-criar-o-sistema-unico-de-seguranca-fluminense-para-integrar-as-forcas-municipais-com-as-forcas-de-seguranca-do-estado/"
+      }
+    },
+    "p29": {
+      "resumo": "Propõe triplicar o Bope, com bases no Complexo do Salgueiro (São Gonçalo) e na Baixada Fluminense.",
+      "trecho": "Vamos triplicar o tamanho do Bope, e um desses Bopes vai ser aqui dentro do Complexo de Salgueiro, pra mostrar bem que essa retomada é uma retomada pra ficar no dia seguinte. Outro Bope nós vamos fazer na Baixada Fluminense, para também retomar territórios lá",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-22",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/22/paes-faz-campanha-em-sao-goncalo-e-promete-programa-de-retomada-de-territorios.ghtml"
+      }
+    },
+    "p30": {
+      "resumo": "Afirma que a retomada de territórios começará pelo Complexo do Salgueiro, em São Gonçalo.",
+      "trecho": "Nós vamos começar a retomada de território pelo Complexo do Salgueiro, em São Gonçalo, ali entre a BR-101 e a Baía de Guanabara",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/11/eduardo-paes-participa-de-sabatina.ghtml"
+      }
+    },
+    "p31": {
+      "resumo": "Afirma que o objetivo das operações deve ser prender, com inteligência e plano de ocupação para o dia seguinte.",
+      "trecho": "Isso pressupõe inteligência. Neutralizar bandido, um marginal, não deve ser o objetivo. O objetivo deve ser prender, fazer cumprir a lei. A legítima defesa está no Código Penal, está na Constituição. Só o Estado pode neutralizar, eventualmente. O problema é você ter um plano de ocupação para o dia seguinte.",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/11/eduardo-paes-participa-de-sabatina.ghtml"
+      }
+    },
+    "p32": {
+      "resumo": "Afirma que criminosos armados com fuzil que enfrentarem agentes do Estado devem ser neutralizados, e que a retomada exige investigação e inteligência.",
+      "trecho": "Não adianta você ir retomar um território, neutralizar um monte de bandido, e tem que neutralizar! Delinquentes que aparecem com um fuzil para enfrentar um agente do Estado, a lei permite neutralizá-lo, para não usar a expressão matar aqui, ser mais gentil. Tem que neutralizar, acabou!",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-08-17",
+        "url": "https://agendadopoder.com.br/paes-defende-neutralizar-criminosos-armados-que-enfrentarem-forcas-de-seguranca/"
+      }
+    },
+    "p34": {
+      "resumo": "Propõe redistribuir e ampliar o efetivo policial segundo manchas criminais, com patrulhamento por missão dirigida.",
+      "trecho": "O que nós vamos fazer é redistribuir o nosso efetivo, ampliar efetivo a partir de manchas criminais, é o que tem que estar sendo feito aqui em São Gonçalo, tem que ter mais efetivo para esse cuidado. Desenvolver novos modelos de patrulhamento, por exemplo, com quadro de missão dirigida, o policial sabendo onde é que tá a mancha criminal, onde atuar",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-08-24",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/24/paes-promete-mais-policiais-e-novo-modelo-de-patrulhamento-se-for-eleito.ghtml"
+      }
+    },
+    "p35": {
+      "resumo": "Propõe distribuir câmeras inteligentes e barreiras digitais pelo estado, integradas aos municípios.",
+      "trecho": "Distribuir no estado inteiro câmeras, câmeras inteligentes, barreiras digitais, para que possam auxiliar as forças de segurança",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-09-04",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/04/paes-promete-expandir-sistema-de-monitoramento-e-inteligencia-para-combater-o-crime-no-rj.ghtml"
+      }
+    },
+    "p36": {
+      "resumo": "Afirma que policiais cedidos a gabinetes de deputados estaduais voltarão ao policiamento nas ruas.",
+      "trecho": "Quero avisar os deputados estaduais, todo mundo que tem um monte de PM e de policial civil no gabinete, fique atento. Vai todo mundo voltar para trabalhar nas ruas.",
+      "fonte": {
+        "veiculo": "O Globo",
+        "tipo": "entrevista",
+        "data": "2026-08-18",
+        "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/18/paes-promete-tirar-policias-de-gabinetes-da-alerj-e-colocar-nas-ruas-ninguem-quer-matar-aquela-gente-nem-pra-isso-servem.ghtml"
+      }
+    },
+    "p39": {
+      "resumo": "Propõe delegacias da mulher 24 horas, triplicar a Ronda Maria da Penha para 150 equipes, monitorar agressores com tornozeleira e criar Casas da Mulher Fluminense em todas as regiões.",
+      "trecho": "E as nossas principais propostas são: criar Delegacias de Atendimento à Mulher, com funcionamento durante 24 horas, triplicar a Ronda Maria da Penha para chegarmos a 150 equipes, trabalhar para que os agressores sejam monitorados por tornozeleira eletrônica e levar o projeto das Casas da Mulher Carioca, que serão Casas da Mulher Fluminense, para todas as regiões do estado",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "noticia",
+        "data": "2026-09-03",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7298453-violencia-contra-mulher-e-saude-veja-as-propostas-dos-candidatos-no-rj.html"
+      }
+    },
+    "p40": {
+      "resumo": "Propõe tirar a bilhetagem (RioCard) do controle das empresas de ônibus.",
+      "trecho": "A 1ª coisa nos transportes é tirar o RioCard das mãos das empresas de ônibus, como nós fizemos na cidade do Rio de Janeiro. Nós vamos acabar com essa caixa-preta. É impossível tratar de subsídio com a raposa cuidando do galinheiro",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/rj1-entrevista-eduardo-paes-candidato-do-psd-ao-governo-do-rj.ghtml"
+      }
+    },
+    "p41": {
+      "resumo": "Declara que o objetivo é reduzir as tarifas, sem definir valor.",
+      "trecho": "Desejos, todos nós temos. Vamos baixar para todos R$ 5, R$ 4,70? É óbvio que o meu objetivo é reduzir as tarifas",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/rj1-entrevista-eduardo-paes-candidato-do-psd-ao-governo-do-rj.ghtml"
+      }
+    },
+    "p42": {
+      "resumo": "Propõe subsidiar o transporte intermunicipal para reduzir passagens, com base em dados de origem e destino dos passageiros.",
+      "trecho": "Nós vamos integrar e buscar, sim, através de um subsídio, em que você tenha conhecimento de quantas pessoas são transportadas, de onde para onde, aí sim você pode subsidiar e fazer a redução das passagens",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-08-31",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/31/paes-pretende-subsidiar-transporte-intermunicipal-para-reduzir-preco-das-passagens-no-rj.ghtml"
+      }
+    },
+    "p43": {
+      "resumo": "Propõe integrar a bilhetagem em todo o estado por meio de licitação estadual.",
+      "trecho": "Olha só, nós vamos integrar a bilhetagem em todo o Estado. Isso é possível fazer. O Jaé é uma concessão, que a prefeitura do Rio tem o controle. Você tem que fazer uma licitação no governo do Estado, algo que eles nunca fizeram, porque a máfia das empresas de ônibus nunca permitiu, nunca deixou.",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-08-31",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/31/paes-pretende-subsidiar-transporte-intermunicipal-para-reduzir-preco-das-passagens-no-rj.ghtml"
+      }
+    },
+    "p47": {
+      "resumo": "Propõe criar o programa Trem Seguro, nos moldes do BRT Seguro.",
+      "trecho": "Da mesma maneira que implantamos o BRT Seguro, vamos implementar o Trem Seguro, um projeto que já se mostrou eficiente",
+      "fonte": {
+        "veiculo": "Diário do Rio",
+        "tipo": "noticia",
+        "data": "2026-09-15",
+        "url": "https://diariodorio.com/politica/2026/09/15/em-mage-eduardo-paes-promete-duplicar-ramal-saracuruna-e-criar-programa-trem-seguro.html"
+      }
+    },
+    "p51": {
+      "resumo": "Promete zerar o IPVA de motos de até 180 cilindradas em todo o estado.",
+      "trecho": "Eu vou zerar o IPVA de motos até 180 cilindradas por todo o estado do Rio de Janeiro. Vários estados do Brasil já adotaram essa medida e está na hora do Rio pensar em quem mais precisa.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "noticia",
+        "data": "2026-08-28",
+        "url": "https://agendadopoder.com.br/paes-entra-na-disputa-pelo-voto-dos-motoboys-com-ipva-zero-e-promete-novo-batalhao-da-pm-em-araruama/"
+      }
+    },
+    "p52": {
+      "resumo": "Propõe um Refis estadual para dívidas de estaleiros e estima 50 mil empregos diretos e até 250 mil indiretos.",
+      "trecho": "A primeira: o Refis para os estaleiros, com o refinanciamento das dívidas. A Prefeitura de Niterói fez isso com as dívidas que os estaleiros de Niterói tinham com o município. O ideal é que todos os municípios façam isso e o Estado fará também. Estamos falando da possibilidade de criar 50 mil empregos diretos e até 250 mil empregos indiretos.",
+      "fonte": {
+        "veiculo": "Correio da Manhã",
+        "tipo": "noticia",
+        "data": "2026-09-11",
+        "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/09/318337-eduardo-paes-promete-a-recuperacao-da-industria-naval.html"
+      }
+    },
+    "p59": {
+      "resumo": "Propõe levar Super Centros Regionais de Especialidades a todas as regiões do estado.",
+      "trecho": "Eu quero levar para todo estado, para todas as regiões: Noroeste, Norte, Centro Sul, Sul, Leste Fluminense e Baixada Fluminense, o que nós chamamos de Super Centros Regionais de Especialidades, exemplo do que a gente fez aqui na capital",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-08-25",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/25/paes-agenda-supercentros-regionais-de-especialidades.ghtml"
+      }
+    },
+    "p60": {
+      "resumo": "Estabelece como meta reduzir o tempo de espera na regulação (Sisreg) por atendimento especializado.",
+      "trecho": "Então esse é um compromisso nosso na área de saúde: diminuir tempo de fila de regulação de Sisreg, fazer com que as pessoas tenham os atendimentos adequados com especialidade",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-08-25",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/25/paes-agenda-supercentros-regionais-de-especialidades.ghtml"
+      }
+    },
+    "p61": {
+      "resumo": "Afirma que fará sete supercentros de especialidades nas regiões do estado para acabar com a fila do Sisreg.",
+      "trecho": "Vamos fazer sete supercentros pelas outras regiões do estado com especialidade para que a gente possa ver o fim da fila desse sistema de regulação, do famoso Sisreg",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "noticia",
+        "data": "2026-09-07",
+        "url": "https://agendadopoder.com.br/paes-promete-acabar-com-fila-do-sisreg-com-sete-supercentros-de-saude-no-estado/"
+      }
+    },
+    "p66": {
+      "resumo": "Propõe levar gradualmente o modelo dos Ginásios Educacionais Tecnológicos (GETs) às escolas estaduais.",
+      "trecho": "A ideia é levar esse conceito dos GETs, com muita ciência, tecnologia e matemática, para todas as escolas do Rio de Janeiro",
+      "fonte": {
+        "veiculo": "Manchete RJ",
+        "tipo": "noticia",
+        "data": "2026-09-08",
+        "url": "https://mancheterj.com/paes-promete-levar-modelo-dos-gets-para-toda-a-rede-estadual-e-tirar-rio-do-ultimo-lugar-em-aprendizagem/"
+      }
+    },
+    "p67": {
+      "resumo": "Estabelece meta de ampliar o ensino médio em tempo integral de cerca de 13% para 30%.",
+      "trecho": "Hoje o ensino médio em tempo integral do estado está em torno de 13%. Nossa meta é chegar a 30%.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301148-paes-defende-retomada-de-territorios-e-fala-em-autoridade-moral-para-reconstruir-o-rio.html"
+      }
+    },
+    "p71": {
+      "resumo": "Compromete-se a convocar excedentes já aprovados em concursos.",
+      "trecho": "Já assumi o compromisso de chamar os excedentes já aprovados nos concursos.",
+      "fonte": {
+        "veiculo": "Extra (coluna Servidor Público)",
+        "tipo": "entrevista",
+        "data": "2026-09-13",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml"
+      }
+    },
+    "p72": {
+      "resumo": "Afirma que aliados não nomearão comandantes de batalhão nem delegados e serão fiscalizados por uma secretaria de integridade.",
+      "trecho": "Vocês não vão nomear comandante de batalhão, não vão nomear delegado de polícia, não vão exercer funções de Estado, vocês serão vigiados por uma secretaria de integridade.",
+      "fonte": {
+        "veiculo": "O Globo",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://oglobo.globo.com/politica/noticia/2026/09/16/paes-diz-que-aliados-politicos-serao-vigiados-se-eleito-e-justifica-elogios-a-bacellar-e-relacao-com-cabral.ghtml"
+      }
+    },
+    "p73": {
+      "resumo": "Defende manter e aprofundar auditorias em contratos e medidas de controle e transparência.",
+      "trecho": "Auditorias em todos os contratos são medidas que devem continuar e ser aprofundadas dado o desmando que vivemos nos ultimos 8 anos",
+      "fonte": {
+        "veiculo": "CNN Brasil",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/paes-a-cnn-limpeza-da-maquina-publica-feita-por-couto-sera-aprofundada/"
+      }
+    },
+    "p74": {
+      "resumo": "Diz que não ameaçará romper contratos de concessão, mas defende auditá-los.",
+      "trecho": "eu sou mudança com segurança, com estabilidade, então a gente não vai sair ameaçando romper contrato. Agora, contratos pressupõem obrigações de ambas as partes, então você tem que auditar esses contratos",
+      "fonte": {
+        "veiculo": "CBN",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/11/paes-afirma-que-pretende-aumentar-arrecadacao-do-governo-do-rio-com-combate-a-sonegacao.ghtml"
+      }
+    },
+    "p75": {
+      "resumo": "Afirma que o aumento de tarifas da concessão de água e esgoto (antiga Cedae), sobretudo no interior, terá de ser revisto.",
+      "trecho": "Por exemplo, no caso da Cedae, da concessão de águas do Rio e tal, o que eu estou vendo é um aumento absurdo de tarifa, principalmente no interior do estado, inviabilizando o pequeno negócio na maior parte das cidades do interior do estado, isso vai ter que ser revisto.",
+      "fonte": {
+        "veiculo": "CBN",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/11/paes-afirma-que-pretende-aumentar-arrecadacao-do-governo-do-rio-com-combate-a-sonegacao.ghtml"
+      }
+    },
+    "p76": {
+      "resumo": "Propõe cinco Centros de Operações regionais, um na Região Serrana, com sirenes e radares para monitorar riscos de chuva.",
+      "trecho": "Vamos construir cinco Centros de Operações espalhados pelo estado. Um na Região Serrana para que a gente esteja permanentemente monitorando o risco, treinando a comunidade, com sirenes e radares próprios. Precisamos monitorar constantemente, observar e agir",
+      "fonte": {
+        "veiculo": "Manchete RJ",
+        "tipo": "noticia",
+        "data": "2026-09-02",
+        "url": "https://mancheterj.com/eduardo-paes-promete-cinco-centros-de-operacoes-para-monitorar-chuvas-e-prevenir-tragedias-no-rj/"
+      }
+    },
+    "p77": {
+      "resumo": "Propõe obras de contenção e macrodrenagem na Região Serrana para evitar tragédias com chuvas.",
+      "trecho": "Para que você possa ter a resiliência, para que você possa ter uma previsibilidade maior nas grandes chuvas e muita obra de contenção e macrodrenagem para evitar que tragédias como as que já aconteceram em Friburgo, já aconteceram em Teresópolis, Petrópolis, se repita.",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml"
+      }
+    }
+  }
+}

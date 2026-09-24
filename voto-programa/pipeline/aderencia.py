@@ -172,6 +172,41 @@ def discriminacao(itens: dict, pergunta: dict, candidatos: list[str]) -> float |
     return maior
 
 
+EVIDENCIAS = RAIZ / "src" / "data" / "evidencias.json"
+
+
+def exportar_evidencias(itens: dict, dossies: list[dict]) -> None:
+    """Só as propostas citadas como evidência, para o site mostrar trecho literal e fonte."""
+    usados: dict[str, set[str]] = {}
+    for por_opcao in itens.values():
+        for por_cand in por_opcao.values():
+            for cid, v in por_cand.items():
+                usados.setdefault(cid, set()).update(v["evidencias"])
+    saida: dict = {}
+    for d in dossies:
+        fontes = {f["id"]: f for f in d["fontes"]}
+        for p in d["propostas"]:
+            if p["id"] in usados.get(d["candidato_id"], set()):
+                f = fontes[p["fonte_id"]]
+                saida.setdefault(d["candidato_id"], {})[p["id"]] = {
+                    "resumo": p["resumo"],
+                    "trecho": p["trecho"],
+                    "fonte": {"veiculo": f["veiculo"], "tipo": f["tipo"], "data": f["data"], "url": f["url"]},
+                }
+    EVIDENCIAS.write_text(json.dumps(saida, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def opcoes_exclusivas(itens: dict, pergunta: dict, candidatos: list[str]) -> list[str]:
+    """Opções com evidência para só um candidato: também diferenciam, porque só um deles pontua."""
+    saida = []
+    for o in pergunta["opcoes"]:
+        por_cand = itens.get(pergunta["id"], {}).get(o["id"], {})
+        com_nota = [c for c in candidatos if por_cand.get(c, {}).get("nota") is not None]
+        if len(com_nota) == 1:
+            saida.append(o["id"])
+    return saida
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--candidato")
@@ -204,7 +239,8 @@ def main() -> None:
         encoding="utf-8",
     )
     escrever_relatorio(quiz, itens, candidatos)
-    print(f"ok: {SAIDA.relative_to(RAIZ)} e {RELATORIO.relative_to(RAIZ)}")
+    exportar_evidencias(itens, carregar_dossies(None))
+    print(f"ok: {SAIDA.relative_to(RAIZ)}, {EVIDENCIAS.relative_to(RAIZ)} e {RELATORIO.relative_to(RAIZ)}")
 
 
 def escrever_relatorio(quiz: dict, itens: dict, candidatos: list[str]) -> None:
@@ -213,8 +249,18 @@ def escrever_relatorio(quiz: dict, itens: dict, candidatos: list[str]) -> None:
         if p["id"] not in itens:
             continue
         disc = discriminacao(itens, p, candidatos)
-        alerta = " **(não diferencia candidatos: reescrever ou remover)**" if disc is not None and disc < 25 else ""
-        linhas += [f"## {p['id']}: discriminação {disc if disc is not None else 'sem dado'}{alerta}", ""]
+        exclusivas = opcoes_exclusivas(itens, p, candidatos)
+        if p.get("consenso"):
+            alerta = " (cena de consenso: baixa discriminação é esperada)"
+        elif (disc is None or disc < 25) and not exclusivas:
+            alerta = " **(não diferencia candidatos: reescrever ou remover)**"
+        else:
+            alerta = ""
+        linhas += [
+            f"## {p['id']}: discriminação {disc if disc is not None else 'sem dado'}, "
+            f"opções com evidência de um só candidato: {len(exclusivas)}{alerta}",
+            "",
+        ]
         linhas.append("| opção | " + " | ".join(candidatos) + " |")
         linhas.append("|---|" + "---|" * len(candidatos))
         for o in p["opcoes"]:

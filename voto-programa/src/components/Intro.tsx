@@ -1,36 +1,42 @@
 interface IntroProps {
-  onIniciar: () => void
+  totalCenas: number
+  onComecar: () => void
 }
 
-export function Intro({ onIniciar }: IntroProps) {
+export function Intro({ totalCenas, onComecar }: IntroProps) {
   return (
-    <div className="mx-auto max-w-2xl px-4 py-16 text-center">
-      <h1 className="text-3xl font-bold text-brand-900 sm:text-4xl">Voto por Programa</h1>
-      <p className="mt-4 text-lg text-slate-600">
-        Responda a algumas perguntas sobre temas de governo e veja qual candidato mais se
-        aproxima das suas posições — não da imagem ou do marketing de campanha.
+    <section className="mx-auto flex max-w-xl flex-col gap-6 px-4 pt-12 pb-16">
+      <p className="w-fit rounded-full bg-sol px-3 py-1 text-xs font-bold uppercase tracking-wider text-tinta">
+        Governador do RJ · 1º turno em 4 de outubro
+      </p>
+      <h1 className="font-display text-4xl leading-tight font-extrabold text-balance sm:text-5xl">
+        Qual proposta combina com o seu dia a dia?
+      </h1>
+      <p className="text-lg leading-relaxed text-tinta-suave">
+        São {totalCenas} situações da vida real no estado do Rio: trem parado, fila do posto,
+        rua alagada. Você escolhe o que faria mais sentido, e a gente compara com o que os
+        candidatos propõem, com a fala de cada um e o link da fonte.
       </p>
 
-      <div className="mt-8 rounded-lg border border-amber-300 bg-amber-50 p-4 text-left text-sm text-amber-900">
-        <p className="font-semibold">Antes de começar</p>
-        <ul className="mt-2 list-inside list-disc space-y-1">
-          <li>Esta ferramenta mede afinidade de propostas, não faz recomendação de voto.</li>
-          <li>
-            No resultado, os candidatos ficam ocultos até você decidir revelar cada um — a
-            comparação é pelo programa, não pelo nome, número ou partido.
-          </li>
-          <li>Toda posição de candidato revelada tem link para a fonte pública original.</li>
-          <li>Nenhuma resposta é enviada a um servidor: o cálculo acontece no seu navegador.</li>
-        </ul>
-      </div>
+      <ul className="flex flex-wrap gap-2 text-sm font-semibold">
+        <li className="rounded-full border border-linha bg-white px-3 py-1">Uns 3 minutos</li>
+        <li className="rounded-full border border-linha bg-white px-3 py-1">Sem cadastro</li>
+        <li className="rounded-full border border-linha bg-white px-3 py-1">Nada sai do seu celular</li>
+        <li className="rounded-full border border-linha bg-white px-3 py-1">Candidatos escondidos até o fim</li>
+      </ul>
 
       <button
         type="button"
-        onClick={onIniciar}
-        className="mt-8 rounded-md bg-brand-600 px-6 py-3 font-semibold text-white shadow-sm transition hover:bg-brand-700"
+        onClick={onComecar}
+        className="rounded-2xl bg-mar px-6 py-4 font-display text-xl font-extrabold text-white shadow-[0_4px_0_var(--color-mar-escuro)] transition active:translate-y-1 active:shadow-none"
       >
-        Começar
+        Bora começar
       </button>
-    </div>
+
+      <p className="text-xs leading-relaxed text-tinta-suave">
+        Isto não é pesquisa eleitoral nem recomendação de voto: mostra só o seu resultado,
+        comparando as suas escolhas com propostas públicas dos candidatos.
+      </p>
+    </section>
   )
 }
