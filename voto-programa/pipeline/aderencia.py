@@ -14,7 +14,7 @@ de IA acontece em tempo de uso. Rodar de novo sempre que um dossiê ou o quiz mu
 Uso:
   pip install "anthropic>=1" pydantic
   export ANTHROPIC_API_KEY=...          # ou `ant auth login`
-  python pipeline/aderencia.py [--candidato eduardo-paes] [--pergunta trem-lotado]
+  python pipeline/aderencia.py [--eleicao presidente] [--candidato eduardo-paes] [--pergunta trem-lotado]
 """
 
 from __future__ import annotations
@@ -28,15 +28,32 @@ from pathlib import Path
 import anthropic
 
 RAIZ = Path(__file__).resolve().parent.parent
-QUIZ = RAIZ / "src" / "data" / "quiz.json"
-DOSSIES = RAIZ / "pipeline" / "dossies" / "governador-rj"
-SAIDA = RAIZ / "src" / "data" / "aderencia.json"
-RELATORIO = RAIZ / "pipeline" / "relatorio-aderencia.md"
+DADOS = RAIZ / "src" / "data"
+
+ELEICOES = {
+    "governador-rj": {"cargo": "governador do Rio de Janeiro", "sufixo": ""},
+    "presidente": {"cargo": "presidente da República", "sufixo": "-presidente"},
+}
+
+
+def usar_eleicao(nome: str) -> None:
+    """Aponta os caminhos de entrada e saída para a eleição escolhida."""
+    global ELEICAO, QUIZ, DOSSIES, SAIDA, EVIDENCIAS, RELATORIO
+    sufixo = ELEICOES[nome]["sufixo"]
+    ELEICAO = nome
+    QUIZ = DADOS / f"quiz{sufixo}.json"
+    DOSSIES = RAIZ / "pipeline" / "dossies" / nome
+    SAIDA = DADOS / f"aderencia{sufixo}.json"
+    EVIDENCIAS = DADOS / f"evidencias{sufixo}.json"
+    RELATORIO = RAIZ / "pipeline" / f"relatorio-aderencia{sufixo}.md"
+
+
+usar_eleicao("governador-rj")
 
 MODELO = "claude-opus-5"
 
 INSTRUCOES = """Você é o avaliador de aderência de uma ferramenta cívica e apartidária que ajuda eleitores \
-do Rio de Janeiro a comparar suas preferências com as propostas dos candidatos a governador em 2026.
+a comparar suas preferências com as propostas dos candidatos a {cargo} em 2026.
 
 Você recebe (1) o dossiê de UM candidato, com propostas documentadas, cada uma com trecho literal e \
 fonte, e (2) uma situação do dia a dia com opções de reação do eleitor. Cada opção traz uma \
@@ -125,7 +142,7 @@ def avaliar(client: anthropic.Anthropic, dossie: dict, pergunta: dict) -> dict:
         thinking={"type": "adaptive"},
         output_config={"effort": "high", "format": {"type": "json_schema", "schema": SCHEMA}},
         system=[
-            {"type": "text", "text": INSTRUCOES},
+            {"type": "text", "text": INSTRUCOES.format(cargo=ELEICOES[ELEICAO]["cargo"])},
             # dossiê fixo por candidato: fica em cache entre as perguntas
             {"type": "text", "text": bloco_dossie(dossie), "cache_control": {"type": "ephemeral"}},
         ],
@@ -172,9 +189,6 @@ def discriminacao(itens: dict, pergunta: dict, candidatos: list[str]) -> float |
     return maior
 
 
-EVIDENCIAS = RAIZ / "src" / "data" / "evidencias.json"
-
-
 def exportar_evidencias(itens: dict, dossies: list[dict]) -> None:
     """Só as propostas citadas como evidência, para o site mostrar trecho literal e fonte."""
     usados: dict[str, set[str]] = {}
@@ -209,9 +223,11 @@ def opcoes_exclusivas(itens: dict, pergunta: dict, candidatos: list[str]) -> lis
 
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--eleicao", choices=ELEICOES, default="governador-rj")
     ap.add_argument("--candidato")
     ap.add_argument("--pergunta")
     args = ap.parse_args()
+    usar_eleicao(args.eleicao)
 
     quiz = json.loads(QUIZ.read_text(encoding="utf-8"))
     perguntas = [p for p in quiz["perguntas"] if not args.pergunta or p["id"] == args.pergunta]

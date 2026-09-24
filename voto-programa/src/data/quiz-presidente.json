@@ -1,0 +1,577 @@
+{
+  "versao": "1.0.0",
+  "titulo": "Qual proposta combina com o seu dia a dia?",
+  "eleicao": "Presidente da República 2026",
+  "descricao": "situações da vida real em todo o país: jornada de trabalho, fila do SUS, juros, celular roubado",
+  "temas": [
+    {
+      "id": "trabalho",
+      "nome": "Trabalho"
+    },
+    {
+      "id": "economia",
+      "nome": "Dinheiro e impostos"
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde"
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança"
+    },
+    {
+      "id": "educacao",
+      "nome": "Escola e faculdade"
+    },
+    {
+      "id": "energia",
+      "nome": "Luz e combustível"
+    },
+    {
+      "id": "clima",
+      "nome": "Clima e meio ambiente"
+    },
+    {
+      "id": "internet",
+      "nome": "Internet"
+    },
+    {
+      "id": "contas",
+      "nome": "Governo e gastos"
+    },
+    {
+      "id": "mulheres",
+      "nome": "Mulheres"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "escala-6x1",
+      "grupo": "jornada",
+      "tema": "trabalho",
+      "cena": "Você trabalha seis dias por semana e só folga um. No domingo, mal dá pra ver a família.",
+      "pergunta": "O que você queria pra sua jornada?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Acabar com a escala 6x1: 40 horas por semana, sem cortar salário.",
+          "preferencia": "Aprovar o fim da escala 6x1 e reduzir a jornada legal para 40 horas semanais sem redução salarial."
+        },
+        {
+          "id": "b",
+          "texto": "Poder combinar a minha jornada direto com a empresa.",
+          "preferencia": "Prevalência do negociado entre trabalhador e empresa sobre o legislado, com liberdade para escolher a própria escala."
+        },
+        {
+          "id": "c",
+          "texto": "Rever as regras que deixaram o trabalho mais precário.",
+          "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "custo-contratar",
+      "grupo": "jornada",
+      "publico": {
+        "trabalho": [
+          "empresario"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Contratar com carteira custa caro, e você pensa duas vezes antes de abrir uma vaga.",
+      "pergunta": "O que te faria contratar mais?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Reduzir o custo da folha, sem tirar direito do trabalhador.",
+          "preferencia": "Redução gradual do custo do trabalho formal sem retirada de direitos."
+        },
+        {
+          "id": "b",
+          "texto": "Contrato mais barato pro primeiro emprego e pra quem tem mais de 50.",
+          "preferencia": "Contratos com menor custo na folha para jovens em primeiro emprego e desempregados com 50 anos ou mais."
+        },
+        {
+          "id": "c",
+          "texto": "Subir o teto do MEI de R$ 81 mil pra R$ 140 mil por ano.",
+          "preferencia": "Elevar o teto de faturamento do MEI."
+        },
+        {
+          "id": "d",
+          "texto": "Fiscalizar pejotização e terceirização que precarizam.",
+          "preferencia": "Combater a pejotização fraudulenta e terceirizações precarizantes com fiscalização."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "trabalho-app",
+      "grupo": "jornada",
+      "publico": {
+        "trabalho": [
+          "autonomo"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Você roda de aplicativo dez horas por dia e, se ficar doente, não tem de onde tirar.",
+      "pergunta": "O que te daria mais segurança?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Uma lei com regra de ganho mínimo e direitos pra quem trabalha em app.",
+          "preferencia": "Regulação do trabalho por plataformas com regras de remuneração, relação de trabalho e direitos."
+        },
+        {
+          "id": "b",
+          "texto": "Previdência pra quem trabalha em app, sem sindicato no meio.",
+          "preferencia": "Proteção social e previdenciária para trabalhadores de aplicativo, sem protagonismo de dirigentes sindicais, mantendo a flexibilidade."
+        },
+        {
+          "id": "c",
+          "texto": "Contribuir pro INSS de um jeito mais flexível, quando der.",
+          "preferencia": "Mecanismos contributivos previdenciários flexíveis para trajetórias de trabalho descontínuas."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "salario-minimo",
+      "grupo": "renda",
+      "tema": "economia",
+      "cena": "Você ganha um salário mínimo e, no fim do mês, a conta não fecha.",
+      "pergunta": "O que faria mais diferença no seu bolso?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Salário mínimo subindo acima da inflação todo ano.",
+          "preferencia": "Política de reajuste do salário mínimo com ganho real anual."
+        },
+        {
+          "id": "b",
+          "texto": "Zerar o imposto da cesta básica e devolver imposto a quem ganha pouco.",
+          "preferencia": "Isenção de tributos sobre a cesta básica e devolução de impostos (cashback) para a baixa renda."
+        },
+        {
+          "id": "c",
+          "texto": "Programa de pontos: pagar conta em dia e fazer curso dá desconto e juro menor.",
+          "preferencia": "Programa voluntário que recompensa comportamentos como qualificação e adimplência com crédito, juros menores e cashback."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "imposto-renda",
+      "grupo": "renda",
+      "publico": {
+        "faixa": [
+          "misto",
+          "privado"
+        ]
+      },
+      "tema": "economia",
+      "cena": "Na declaração do imposto de renda você sente que paga imposto em tudo, do salário ao que compra.",
+      "pergunta": "O que você defenderia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Manter a isenção até R$ 5 mil e corrigir a tabela do IR todo ano.",
+          "preferencia": "Manter a isenção do IR até R$ 5 mil e reajustar a tabela para preservá-la."
+        },
+        {
+          "id": "b",
+          "texto": "Rever a reforma tributária e baixar a alíquota do novo imposto sobre consumo.",
+          "preferencia": "Revisar a reforma tributária e reduzir a alíquota do IVA e a carga sobre produção e consumo."
+        },
+        {
+          "id": "c",
+          "texto": "Acabar aos poucos com o IOF no câmbio.",
+          "preferencia": "Fim gradual do IOF sobre operações de câmbio."
+        },
+        {
+          "id": "d",
+          "texto": "Imposto maior sobre produto que faz mal à saúde.",
+          "preferencia": "Uso do Imposto Seletivo para desestimular produtos nocivos à saúde."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "juros-altos",
+      "grupo": "juros",
+      "tema": "economia",
+      "cena": "Você adiou trocar de carro ou financiar a casa porque os juros continuam altos.",
+      "pergunta": "Como o governo devia fazer os juros caírem?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Manter as regras fiscais de hoje e crescer pra dívida pesar menos.",
+          "preferencia": "Manter o arcabouço fiscal vigente, com resultado fiscal vindo do crescimento e do controle do gasto primário."
+        },
+        {
+          "id": "b",
+          "texto": "Regras novas: cortar gastos e fazer superávit pra dívida cair.",
+          "preferencia": "Substituir as regras fiscais por metas de superávit primário e redução da dívida pública, com controle de gastos dos três Poderes."
+        },
+        {
+          "id": "c",
+          "texto": "Vender imóveis da União e usar royalties num fundo pra pagar dívida.",
+          "preferencia": "Criar fundo com imóveis e ativos da União e royalties do petróleo para abater a dívida pública."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "fila-cirurgia",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "Sua mãe espera há meses por uma cirurgia pelo SUS.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "faccao-bairro",
+      "grupo": "faccao",
+      "tema": "seguranca",
+      "cena": "Em muitos bairros, uma facção manda na rua e cobra taxa até do gás.",
+      "pergunta": "O que o presidente devia fazer?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Tratar facção como terrorismo e se juntar aos EUA contra elas.",
+          "preferencia": "Classificar facções e milícias como organizações narcoterroristas e integrar coalizão internacional liderada pelos EUA contra elas."
+        },
+        {
+          "id": "b",
+          "texto": "Criar o Ministério da Segurança e mandar dinheiro pros estados combaterem o crime.",
+          "preferencia": "Criar o Ministério da Segurança Pública e financiar estados e municípios no combate ao crime organizado."
+        },
+        {
+          "id": "c",
+          "texto": "Presídio de segurança máxima pra isolar chefe de facção.",
+          "preferencia": "Ampliar presídios de segurança máxima para isolar lideranças de facções."
+        },
+        {
+          "id": "d",
+          "texto": "Polícia presente de forma permanente no bairro, sem o Exército entrar e sair.",
+          "preferencia": "Presença policial permanente nos territórios, em vez de operações de Garantia da Lei e da Ordem com as Forças Armadas."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "celular-roubado",
+      "grupo": "celular",
+      "tema": "seguranca",
+      "cena": "Levaram seu celular no ponto de ônibus. É a segunda vez este ano.",
+      "pergunta": "O que funcionaria melhor?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+          "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
+        },
+        {
+          "id": "b",
+          "texto": "Câmera com reconhecimento facial ligada no país inteiro.",
+          "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
+        },
+        {
+          "id": "c",
+          "texto": "Câmera no uniforme do policial, com padrão nacional.",
+          "preferencia": "Incentivo federal ao uso de câmeras corporais pelas polícias, com padrões nacionais."
+        },
+        {
+          "id": "d",
+          "texto": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+          "preferencia": "Dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "largar-escola",
+      "grupo": "escola",
+      "tema": "educacao",
+      "cena": "Seu filho está no ensino médio público e fala em largar a escola pra trabalhar.",
+      "pergunta": "O que segurava ele na escola?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Uma poupança mensal pra todo aluno do ensino médio público.",
+          "preferencia": "Estender o incentivo financeiro de permanência (Pé-de-Meia) a todos os alunos do ensino médio público."
+        },
+        {
+          "id": "b",
+          "texto": "Curso técnico no ensino médio, pra sair com profissão.",
+          "preferencia": "Ampliar a educação técnica no ensino médio."
+        },
+        {
+          "id": "c",
+          "texto": "Escola cívico-militar, com mais disciplina.",
+          "preferencia": "Ampliar as escolas cívico-militares."
+        },
+        {
+          "id": "d",
+          "texto": "Escola em tempo integral em toda a rede pública.",
+          "preferencia": "Escola em tempo integral em toda a rede pública."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "pagar-faculdade",
+      "grupo": "escola",
+      "publico": {
+        "escola": [
+          "particular",
+          "nenhuma"
+        ]
+      },
+      "tema": "educacao",
+      "cena": "Seu filho, ou você, quer fazer faculdade, e a dívida do financiamento assusta.",
+      "pergunta": "O que você preferia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Empréstimo que só se paga depois de empregado, proporcional ao salário.",
+          "preferencia": "Substituir o financiamento estudantil por empréstimo contingente à renda."
+        },
+        {
+          "id": "b",
+          "texto": "Mais vagas em universidade pública de graça.",
+          "preferencia": "Criar novas vagas em universidades públicas."
+        },
+        {
+          "id": "c",
+          "texto": "Voucher pra estudar em escola particular quando faltar vaga na pública.",
+          "preferencia": "Voucher educacional para matrícula em escola privada onde faltar vaga na rede pública."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "conta-luz",
+      "grupo": "energia",
+      "tema": "energia",
+      "cena": "A conta de luz não para de subir, e encher o tanque assusta.",
+      "pergunta": "O que você defenderia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Petrobras de volta à venda de combustível e mais refinaria.",
+          "preferencia": "Retorno da Petrobras à distribuição de combustíveis e ampliação do refino."
+        },
+        {
+          "id": "b",
+          "texto": "Cortar subsídios embutidos na conta de luz e baixar imposto de energia.",
+          "preferencia": "Reduzir encargos e subsídios cruzados na conta de luz (CDE) e os impostos sobre energia e combustíveis."
+        },
+        {
+          "id": "c",
+          "texto": "Liberar a extração de gás de xisto (fracking) pra ter mais gás.",
+          "preferencia": "Permitir a exploração de gás não convencional (fracking)."
+        },
+        {
+          "id": "d",
+          "texto": "Mais hidrelétrica e menos carvão.",
+          "preferencia": "Expandir a geração hidrelétrica e reduzir a produção de energia a carvão."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "enchente-seca",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Enchente num ano, seca no outro: parece que o tempo ficou mais extremo.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "video-falso",
+      "grupo": "internet",
+      "tema": "internet",
+      "cena": "Um vídeo falso viralizou no grupo da família e metade acreditou.",
+      "pergunta": "O que o governo devia fazer com as redes sociais?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Regular as plataformas pra conter mentira e discurso de ódio.",
+          "preferencia": "Regulação das redes sociais e plataformas digitais para conter desinformação e discurso de ódio."
+        },
+        {
+          "id": "b",
+          "texto": "Nenhuma regra nova: liberdade de expressão acima de tudo.",
+          "preferencia": "Extinguir estruturas estatais de combate à desinformação e revogar atos considerados censura, priorizando a liberdade de expressão."
+        },
+        {
+          "id": "c",
+          "texto": "Regras pra proteger criança nas telas e nos jogos.",
+          "preferencia": "Regular o uso de telas por faixa etária e as plataformas de jogos para proteger crianças e adolescentes."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "gasto-governo",
+      "grupo": "contas",
+      "tema": "contas",
+      "cena": "Você vê notícia de ministério demais e de emenda parlamentar bilionária.",
+      "pergunta": "O que você cobraria do próximo presidente?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Cortar pelo menos 10 ministérios e acabar com supersalário.",
+          "preferencia": "Cortar ministérios, cargos comissionados e supersalários."
+        },
+        {
+          "id": "b",
+          "texto": "Enfrentar o sistema de emendas parlamentares.",
+          "preferencia": "Reformar o sistema de emendas parlamentares ao orçamento."
+        },
+        {
+          "id": "c",
+          "texto": "Privatizar estatal onde o governo não precisa estar.",
+          "preferencia": "Retomar o programa de desestatização, avaliando caso a caso."
+        },
+        {
+          "id": "d",
+          "texto": "Manter e recuperar estatais como Correios e Petrobras.",
+          "preferencia": "Manter o controle estatal e recuperar empresas públicas como Correios e Petrobras."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    },
+    {
+      "id": "agressor-rondando",
+      "grupo": "mulheres",
+      "tema": "mulheres",
+      "consenso": true,
+      "cena": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+      "pergunta": "O que protegeria ela de verdade?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Tornozeleira no agressor, com alerta pra polícia.",
+          "preferencia": "Monitoramento de agressores por tornozeleira eletrônica com alerta às autoridades."
+        },
+        {
+          "id": "b",
+          "texto": "Casa de acolhimento e centro de atendimento à mulher perto de casa.",
+          "preferencia": "Ampliar casas e centros de atendimento e acolhimento a mulheres em situação de violência."
+        }
+      ],
+      "fato": {
+        "texto": "",
+        "fonte": "",
+        "url": ""
+      }
+    }
+  ]
+}

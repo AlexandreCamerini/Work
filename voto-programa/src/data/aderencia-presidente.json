@@ -1,0 +1,908 @@
+{
+  "gerado_em": "2026-09-24",
+  "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py --eleicao presidente",
+  "revisado_por": null,
+  "versao_quiz": "1.0.0",
+  "itens": {
+    "escala-6x1": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Afirma que atuará no Senado pelo fim da escala 6x1 e pela jornada de 40 horas sem redução salarial."
+        },
+        "flavio-bolsonaro": {
+          "nota": 20,
+          "evidencias": [
+            "p44"
+          ],
+          "justificativa": "Não se compromete com o fim da 6x1; defende que o trabalhador escolha a própria escala."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p43",
+            "p44"
+          ],
+          "justificativa": "Defende o negociado sobre o legislado e liberdade para o trabalhador fazer a própria escala."
+        },
+        "lula": {
+          "nota": 15,
+          "evidencias": [
+            "p19",
+            "p16"
+          ],
+          "justificativa": "Propõe alterar regras trabalhistas associadas à precarização e defende jornada legal de 40 horas."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe alterar regras da legislação trabalhista que induzem precarização e terceirizações fraudulentas."
+        },
+        "flavio-bolsonaro": {
+          "nota": 15,
+          "evidencias": [
+            "p43"
+          ],
+          "justificativa": "Defende flexibilizar as condições de trabalho pelo negociado sobre o legislado."
+        }
+      }
+    },
+    "custo-contratar": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p40"
+          ],
+          "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal sem retirar direitos."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p41",
+            "p42"
+          ],
+          "justificativa": "Propõe contratos com menor custo para o primeiro emprego e para desempregados com 50 anos ou mais."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe elevar o teto do MEI de R$ 81 mil para R$ 140 mil por ano."
+        },
+        "flavio-bolsonaro": {
+          "nota": 50,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe menos burocracia para abrir e formalizar empresas, sem mencionar o teto do MEI."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p18",
+            "p19"
+          ],
+          "justificativa": "Propõe combater a pejotização fraudulenta e terceirizações precarizantes."
+        },
+        "flavio-bolsonaro": {
+          "nota": 20,
+          "evidencias": [
+            "p43"
+          ],
+          "justificativa": "Defende o negociado sobre o legislado como regra das relações de trabalho."
+        }
+      }
+    },
+    "trabalho-app": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p17"
+          ],
+          "justificativa": "Propõe um sistema de proteção com regras de relação de trabalho e remuneração para trabalhadores de plataforma."
+        },
+        "flavio-bolsonaro": {
+          "nota": 40,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Promete proteção social a trabalhadores de app mantendo a flexibilidade, sem citar regras de remuneração."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe proteção social e previdenciária para trabalhadores de app sem protagonismo de dirigentes sindicais."
+        },
+        "lula": {
+          "nota": 65,
+          "evidencias": [
+            "p59"
+          ],
+          "justificativa": "Propõe incluir a previdência na regulação do trabalho por plataformas, dentro de um sistema de regras trabalhistas."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p58",
+            "p59"
+          ],
+          "justificativa": "Propõe mecanismos contributivos mais flexíveis para trajetórias de trabalho descontínuas."
+        },
+        "flavio-bolsonaro": {
+          "nota": 60,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Promete proteção previdenciária a trabalhadores de app, sem detalhar a forma de contribuição."
+        }
+      }
+    },
+    "salario-minimo": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe aumento do salário mínimo acima da inflação todo ano."
+        },
+        "flavio-bolsonaro": {
+          "nota": 45,
+          "evidencias": [
+            "p48",
+            "p49"
+          ],
+          "justificativa": "Diz que não fará economia com quem ganha o mínimo, sem se comprometer com regra de ganho real."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p7",
+            "p8"
+          ],
+          "justificativa": "Propõe zerar impostos da cesta básica e devolver imposto a quem ganha pouco."
+        },
+        "flavio-bolsonaro": {
+          "nota": 45,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe reduzir a carga de impostos sobre consumo de forma geral, sem foco na cesta básica ou na baixa renda."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p39"
+          ],
+          "justificativa": "Propõe o programa Ganha-Ganha, com crédito, juros menores e cashback para quem cumpre metas como curso e contas em dia."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "imposto-renda": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p9"
+          ],
+          "justificativa": "Diz que será preciso reajustar a tabela do IR para preservar a isenção até R$ 5 mil."
+        },
+        "flavio-bolsonaro": {
+          "nota": 75,
+          "evidencias": [
+            "p33"
+          ],
+          "justificativa": "Declara-se favorável à isenção até R$ 5 mil com compensação sem aumentar impostos, sem falar em corrigir a tabela."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe revisar a reforma tributária e reduzir a alíquota do IVA."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p123"
+          ],
+          "justificativa": "Propõe o fim gradual do IOF sobre câmbio como parte da adesão à OCDE."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Propõe usar o Imposto Seletivo para desestimular produtos nocivos à saúde."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "juros-altos": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p1",
+            "p4",
+            "p5"
+          ],
+          "justificativa": "Propõe manter o arcabouço fiscal e diz que a dívida cai em relação ao PIB com o crescimento."
+        },
+        "flavio-bolsonaro": {
+          "nota": 10,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Propõe substituir as regras fiscais atuais."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p31",
+            "p32"
+          ],
+          "justificativa": "Propõe novas regras fiscais com superávit e redução da dívida para baixar os juros."
+        },
+        "lula": {
+          "nota": 20,
+          "evidencias": [
+            "p5",
+            "p1"
+          ],
+          "justificativa": "Mantém o arcabouço e diz que a dívida cai com o crescimento, sem meta de superávit."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Anuncia fundo estimado em R$ 3 trilhões com ativos da União, parte usada para pagar a dívida."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "fila-cirurgia": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p62"
+          ],
+          "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+        },
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
+        },
+        "flavio-bolsonaro": {
+          "nota": 75,
+          "evidencias": [
+            "p61"
+          ],
+          "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias."
+        },
+        "flavio-bolsonaro": {
+          "nota": 50,
+          "evidencias": [
+            "p69"
+          ],
+          "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p59"
+          ],
+          "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "faccao-bairro": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p1",
+            "p16",
+            "p124"
+          ],
+          "justificativa": "Propõe classificar facções como narcoterroristas e integrar o Escudo das Américas."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p47",
+            "p52"
+          ],
+          "justificativa": "Propõe criar o Ministério da Segurança Pública e reforçar o programa federal contra o crime organizado com estados e municípios."
+        },
+        "flavio-bolsonaro": {
+          "nota": 65,
+          "evidencias": [
+            "p3",
+            "p11"
+          ],
+          "justificativa": "Propõe convênios com estados e dobrar o investimento federal em segurança, sem criar ministério."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 90,
+          "evidencias": [
+            "p49",
+            "p50"
+          ],
+          "justificativa": "Propõe transformar 138 presídios estaduais em segurança máxima e ampliar o sistema federal."
+        },
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p6"
+          ],
+          "justificativa": "Propõe 5 novos presídios federais de segurança máxima."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p56",
+            "p48"
+          ],
+          "justificativa": "Diz ser contra operações de GLO e defende polícia fixa nos territórios."
+        },
+        "flavio-bolsonaro": {
+          "nota": 45,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe retomada de territórios por convênios com estados, sem tratar de GLO."
+        }
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Propõe o sistema nacional de reconhecimento facial Muralha Brasileira."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p55"
+          ],
+          "justificativa": "Propõe ampliar o incentivo a câmeras corporais com padrões nacionais."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p51"
+          ],
+          "justificativa": "Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p11"
+          ],
+          "justificativa": "Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF."
+        }
+      }
+    },
+    "largar-escola": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p40"
+          ],
+          "justificativa": "Propõe estender o Pé-de-Meia a todos os alunos do ensino médio público."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p76"
+          ],
+          "justificativa": "Propõe ampliar a educação técnica no ensino médio."
+        },
+        "lula": {
+          "nota": 80,
+          "evidencias": [
+            "p43"
+          ],
+          "justificativa": "Propõe novos Institutos Federais com cursos técnicos."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p74"
+          ],
+          "justificativa": "Propõe ampliar as escolas cívico-militares."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p39"
+          ],
+          "justificativa": "Propõe escola em tempo integral em toda a rede pública."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "pagar-faculdade": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p78"
+          ],
+          "justificativa": "Propõe substituir o financiamento estudantil por empréstimo pago só após emprego, proporcional à renda."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Propõe 120 mil novas vagas em universidades."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p75"
+          ],
+          "justificativa": "Propõe voucher educacional onde faltar vaga na rede pública."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "conta-luz": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p88"
+          ],
+          "justificativa": "Defende que a Petrobras volte à distribuição de combustíveis e amplie o refino."
+        },
+        "flavio-bolsonaro": {
+          "nota": 45,
+          "evidencias": [
+            "p93"
+          ],
+          "justificativa": "Propõe foco em refino, sem retorno da Petrobras à distribuição."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p94"
+          ],
+          "justificativa": "Propõe reduzir a CDE e os subsídios na conta de luz e os impostos sobre energia."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p93"
+          ],
+          "justificativa": "Propõe permitir a exploração de gás não convencional (fracking)."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p68"
+          ],
+          "justificativa": "Propõe expandir a geração hidrelétrica e acelerar a redução do carvão."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "enchente-seca": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p63",
+            "p64"
+          ],
+          "justificativa": "Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p88"
+          ],
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p102"
+          ],
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p92"
+          ],
+          "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "video-falso": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p90"
+          ],
+          "justificativa": "Propõe avançar na regulação das redes sociais contra desinformação e discurso de ódio."
+        },
+        "flavio-bolsonaro": {
+          "nota": 5,
+          "evidencias": [
+            "p27"
+          ],
+          "justificativa": "Propõe extinguir estruturas estatais de combate à desinformação, que chama de censura."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p27",
+            "p28"
+          ],
+          "justificativa": "Propõe extinguir estruturas de combate à desinformação e revogar atos que considera censura."
+        },
+        "lula": {
+          "nota": 5,
+          "evidencias": [
+            "p90"
+          ],
+          "justificativa": "Propõe regular as plataformas digitais."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p83"
+          ],
+          "justificativa": "Propõe aprimorar o ECA Digital e regulamentar telas por faixa etária e jogos."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "gasto-governo": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p106"
+          ],
+          "justificativa": "Propõe cortar no mínimo 10 ministérios, cargos comissionados e supersalários."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p85",
+            "p86"
+          ],
+          "justificativa": "Propõe enfrentar o atual sistema de emendas parlamentares."
+        },
+        "flavio-bolsonaro": {
+          "nota": 70,
+          "evidencias": [
+            "p114"
+          ],
+          "justificativa": "Propõe mais transparência e rastreabilidade às emendas, sem mudar o sistema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p111"
+          ],
+          "justificativa": "Propõe retomar o programa de desestatização caso a caso."
+        },
+        "lula": {
+          "nota": 10,
+          "evidencias": [
+            "p87",
+            "p88"
+          ],
+          "justificativa": "Diz que não considera vender os Correios e defende ampliar a atuação da Petrobras."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p87",
+            "p88"
+          ],
+          "justificativa": "Defende recuperar os Correios e ampliar a atuação da Petrobras."
+        },
+        "flavio-bolsonaro": {
+          "nota": 35,
+          "evidencias": [
+            "p112",
+            "p111"
+          ],
+          "justificativa": "É contra privatizar a Petrobras inteira, mas propõe retomar desestatizações."
+        }
+      }
+    },
+    "agressor-rondando": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p76"
+          ],
+          "justificativa": "Propõe monitoramento de agressores por tornozeleira com alerta à polícia."
+        },
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p9"
+          ],
+          "justificativa": "Propõe monitorar com tornozeleira agressores de mulheres com medida protetiva."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p75"
+          ],
+          "justificativa": "Propõe concluir 30 Casas da Mulher Brasileira e 15 centros de referência."
+        },
+        "flavio-bolsonaro": {
+          "nota": 90,
+          "evidencias": [
+            "p17",
+            "p19"
+          ],
+          "justificativa": "Propõe Centrais da Mulher em todo o país e ampliar os espaços de acolhimento."
+        }
+      }
+    }
+  }
+}

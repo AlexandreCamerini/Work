@@ -1,0 +1,681 @@
+{
+  "candidato_id": "coronel-busnello",
+  "nome": "Coronel Busnello",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf",
+    "observacao": "Texto lido no espelho do Nexo Jornal: 'Plano de Governo | RJ – Resumo Executivo' (Partido Missão; vice Bombeiro Rafa Luz), que se declara 'edição condensada do Livro Amarelo – Plano de Governo do Rio de Janeiro'. O mesmo documento aparece no espelho da ND+ com nome de arquivo no padrão do TSE (https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002544120_01.pdf), que bate com o nº de candidatura 190002544120 (situação 'Deferido' na API do DivulgaCandContas em 24/09/2026). A versão integral do 'Livro Amarelo' não foi localizada nem lida. Não houve comparação byte a byte com o arquivo do TSE; data de protocolo não verificada. Na extração de texto do PDF, a primeira letra de alguns parágrafos se perdeu (ex.: 'etrópolis'); os trechos citados foram conferidos no texto extraído. O plano quase não traz custos; as exceções estão em 'numeros'. Em sabatinas, ele citou números que não estão no plano (contratar cerca de 18 mil agentes; reduzir secretarias de 32 para 15 a 18), mas só em paráfrase de jornalistas."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Plano de Governo | RJ – Resumo Executivo do Livro Amarelo (Missão; proposta registrada no TSE, cópia espelhada pelo Nexo)",
+      "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+      "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Ao RJ1, Busnello promete títulos de propriedade em favelas e gabinete do governador na 1ª área ocupada",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-busnello-promete-titulos-de-propriedade-em-favelas-e-gabinete-do-governador-na-1a-area-ocupada.ghtml",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f3",
+      "tipo": "noticia",
+      "titulo": "Busnello propõe 'desfavelização' com regularização fundiária (encontro da Abrasel)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/21/coronel-busnello-propoe-desfavelizacao-com-regularizacao-fundiaria-e-titulos-de-propriedade-no-rj.ghtml",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "f4",
+      "tipo": "noticia",
+      "titulo": "Busnello propõe reindustrializar São Gonçalo (agenda de campanha)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/busnello-agenda-industrializar-sao-goncalo-com-investimentos-e-renuncia-fiscal.ghtml",
+      "data": "2026-09-17"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Busnello propõe barcas entre São Gonçalo e Rio e ampliação do transporte pela Baía (agenda de campanha)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/busnello-novas-linhas-de-barcas-entre-sao-goncalo-e-rio.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f6",
+      "tipo": "entrevista",
+      "titulo": "Busnello defende a 'desfavelização' do Rio e critica proposta de Lula (Papo Antagonista)",
+      "veiculo": "O Antagonista",
+      "url": "https://oantagonista.com.br/brasil/busnello-defende-desfavelizacao-do-rio-e-critica-proposta-de-lula/",
+      "data": "2026-08-18"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Coronel Busnello (entrevista sobre educação)",
+      "veiculo": "Revistapontocom",
+      "url": "https://revista.planetapontocom.org.br/nao-categorizada/coronel-busnello",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f8",
+      "tipo": "entrevista",
+      "titulo": "Coronel Busnello, do Missão, palpitará na Segurança do Rio como governador, mas sem acumular função (coluna Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/coronel-busnello-do-missao-palpitara-na-seguranca-do-rio-como-governador-mas-sem-acumular-funcao-sozinho-nem-corno.ghtml",
+      "data": "2026-09-17"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "carreira policial / assistência jurídica",
+      "resumo": "Propõe novo plano de carreira das forças de segurança com progressão por mérito e adicional equalizado, além de assistência jurídica paga pelo Estado ao agente processado por ato em serviço (Escudo Jurídico RJ).",
+      "trecho": "Um novo Plano de Cargos, Carreiras e Salários será enviado à Assembleia Legislativa, com progressão por mérito e adicional de serviço equalizado entre PM, PC, Bombeiro e Peritos. Em paralelo, o Escudo Jurídico RJ garantirá assistência jurídica custeada pelo Estado ao agente que responder por ato praticado em serviço, no exercício da função",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "efetivo / concursos",
+      "resumo": "Promete convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano entre as três forças.",
+      "trecho": "os concursados aprovados de PMERJ e Polícia Civil serão convocados conforme já previsto em lei; e um plano permanente de concurso formará ao menos 3.500 novos profissionais por ano entre as três forças",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": ">=3.500 novos profissionais/ano"
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "inteligência / videomonitoramento",
+      "resumo": "Propõe centro de comando unificado (CIICO) integrando polícias e monitoramento municipal, com reconhecimento facial para foragidos e desaparecidos e leitura de placas.",
+      "trecho": "As informações serão unificadas pelo CIICO, integrando PM, PC, Bombeiro e monitoramento municipal pelo modelo estoniano X-Road, com reconhecimento facial para foragido e desaparecido, leitura automática de placa, alerta por inteligência artificial e câmera de zoom até 400x e sensor térmico;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios",
+      "resumo": "Propõe retomada de territórios em três fases (asfixia financeira e inteligência; intervenção; presença permanente), com pilotos na Baixada, na Capital e em São Gonçalo.",
+      "trecho": "A retomada seguirá três fases — asfixia financeira e de inteligência; intervenção judicial e operacional; e consolidação da presença estatal —, com pilotos na Baixada Fluminense, na Capital e em São Gonçalo",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "ocupação permanente",
+      "resumo": "Cada território retomado receberia Unidade de Controle Territorial permanente, com policiamento, serviços sociais e regulação de gás e transporte informais.",
+      "trecho": "Cada território retomado receberá Unidade de Controle Territorial permanente, integrando policiamento, serviços sociais e regulação de serviços informais como gás e transporte, com meta de presença contínua, e não apenas operação pontual.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "asfixia financeira das facções (entrevista)",
+      "resumo": "No RJ1, defendeu atacar financeiramente as facções e garantir ocupação permanente do Estado nas áreas recuperadas.",
+      "trecho": "Temos que destruí-las financeiramente e garantir a ocupação permanente do Estado nesses locais",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "batalhão dentro de comunidade",
+      "resumo": "Em entrevista, disse que a instalação de batalhões dentro de comunidades, como no Complexo do Alemão, é uma possibilidade na desfavelização.",
+      "trecho": "Sim, é uma possibilidade que temos na desfavelização. E, no processo de retomada dos territórios, essa modificação também é propícia a acontecer. Não em todos os lugares, mas nos que tiverem maior demanda, como no Complexo do Alemão. Ali cabe muito bem um batalhão, lá dentro.",
+      "fonte_id": "f8",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "seguranca",
+      "subtema": "policiamento de proximidade",
+      "resumo": "Propõe expandir o programa Segurança Presente para corredores fora da Região Metropolitana, com base comunitária fixa e patrulhamento a pé.",
+      "trecho": "O programa Segurança Presente será expandido para novos corredores comerciais e educacionais fora da Região Metropolitana, com base comunitária fixa por território e patrulhamento a pé como padrão operacional, não como exceção.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "seguranca",
+      "subtema": "cooperação interestadual",
+      "resumo": "Propõe agência de inteligência com Ceará e Espírito Santo (ARCO CE-RJ-ES) e operações conjuntas com estados vizinhos.",
+      "trecho": "O Estado firmará cooperação com os estados fronteiriços para operação conjunta contra tráfico e contrabando, e criará com o Ceará e o Espírito Santo a ARCO CE-RJ-ES, agência híbrida de inteligência formalizada por protocolo entre os três governadores",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "seguranca",
+      "subtema": "trabalho prisional",
+      "resumo": "Propõe o Programa Recomeço, com meta de 25% da população carcerária em trabalho remunerado até 2030.",
+      "trecho": "O Programa Recomeço organizará o trabalho prisional em dois eixos sob a Fundação Santa Cabrini — intramuros, com oficina produtiva fabricando item que o Estado hoje compra externamente e certificação profissional ao preso; e extramuros, com força-tarefa suplementar apoiando obra pública, sempre vedada a substituição de servidor efetivo —, financiado por fundo rotativo alimentado pelo ressarcimento de despesas de custódia, com meta de 25% da população carcerária em trabalho remunerado até 2030.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "De 3% para 25% dos presos em trabalho remunerado até 2030"
+    },
+    {
+      "id": "p11",
+      "tema": "seguranca",
+      "subtema": "participação / conselhos comunitários",
+      "resumo": "Compromete-se a participar mensalmente de reuniões de Conselhos Comunitários de Segurança.",
+      "trecho": "Como Governador, participarei mensalmente de reuniões dos Conselhos Comunitários de Segurança em diferentes regiões do estado, ouvindo diretamente a população, acompanhando a execução das ações e cobrando resultados das forças de segurança e dos gestores responsáveis.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Mensalmente"
+    },
+    {
+      "id": "p12",
+      "tema": "saude",
+      "subtema": "regulação / filas",
+      "resumo": "Propõe a Central de Vagas RJ, unificando regulação de leitos e fila ambulatorial (Sisreg e SER) por critério clínico, com reporte obrigatório de OSs e auditoria do TCE.",
+      "trecho": "O Governo do Estado criará a Central de Vagas RJ, unificando sob uma só governança técnica a regulação de leitos hospitalares e a fila ambulatorial hoje dividida entre SISREG e SER, com médicos reguladores operando por critério clínico e dados anonimizados, obrigação contratual de reporte em tempo real por Organizações Sociais e unidades da Fundação Saúde, penalidade automática em caso de descumprimento e auditoria trimestral do Tribunal de Contas do Estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p13",
+      "tema": "saude",
+      "subtema": "prontuário eletrônico",
+      "resumo": "Propõe prontuário eletrônico único implantado em fases: hospitais estaduais no 1º ano, UPAs e contratadas no 2º e municípios por adesão no 3º.",
+      "trecho": "O Governo do Estado implantará prontuário eletrônico único, com rastreabilidade de acesso e conformidade com a Lei Geral de Proteção de Dados, em rollout faseado — hospitais estaduais de grande porte no primeiro ano, UPAs e unidades contratadas no segundo, rede municipal por adesão voluntária no terceiro —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Em 3 anos, por fases"
+    },
+    {
+      "id": "p14",
+      "tema": "saude",
+      "subtema": "atenção básica",
+      "resumo": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família em municípios com cobertura abaixo de 60%.",
+      "trecho": "O Governo do Estado ampliará o cofinanciamento estadual de equipes de saúde da família para viabilizar 1.200 novas equipes nos municípios com cobertura abaixo de 60%, com prioridade para a Baixada Fluminense e a Zona Oeste da capital",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "1.200 novas equipes"
+    },
+    {
+      "id": "p15",
+      "tema": "saude",
+      "subtema": "Organizações Sociais / transparência",
+      "resumo": "Propõe painel público de metas das OSs, com auditoria automática para as que descumprirem metas por dois trimestres seguidos.",
+      "trecho": "O Governo do Estado lançará plataforma pública com indicadores mensais por unidade — atendimentos realizados, tempo médio de espera, taxa de infecção hospitalar e cumprimento de metas —, com auditoria compulsória automática para OS que descumprirem metas por dois trimestres consecutivos, respeitados o contraditório e a ampla defesa.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "saude",
+      "subtema": "UTI no interior",
+      "resumo": "Propõe equipar hospitais existentes com UTI adulto e neonatal nas quatro regiões de maior déficit.",
+      "trecho": "O Governo do Estado equipará hospitais já existentes — sem construção do zero — com UTI adulto e UTI neonatal nas quatro regiões de maior déficit, priorizando Noroeste, Serrana, Baixada Litorânea e Médio Paraíba",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "4 regiões"
+    },
+    {
+      "id": "p17",
+      "tema": "saude",
+      "subtema": "urgência / SAMU",
+      "resumo": "Propõe ampliar o SAMU com suporte avançado para todos os municípios acima de 15 mil habitantes e protocolo único com os Bombeiros.",
+      "trecho": "O Governo do Estado ampliará a frota de suporte avançado de vida para todos os municípios acima de 15 mil habitantes",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Municípios >15 mil hab."
+    },
+    {
+      "id": "p18",
+      "tema": "saude",
+      "subtema": "saúde materna",
+      "resumo": "Propõe o programa Mãe Fluminense com pré-natal universal, transporte materno-fetal e UTIs neonatais nas regiões de maior mortalidade infantil.",
+      "trecho": "O Governo do Estado instituirá o Mãe Fluminense em três frentes: pré-natal universal pela Estratégia de Saúde da Família, com estratificação de risco na primeira consulta; central de transporte materno-fetal permanente, integrada ao SAMU e à Central de Vagas RJ; e UTIs neonatais nas quatro regiões de maior mortalidade infantil",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "saude",
+      "subtema": "repasses aos municípios",
+      "resumo": "Promete enviar à Alerj lei com fórmula técnica obrigatória para os repasses estaduais de saúde aos municípios.",
+      "trecho": "O Governo do Estado enviará à Assembleia Legislativa, nos primeiros meses de mandato, projeto de lei que fixa fórmula técnica obrigatória de repasse",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Primeiros meses; transição de 4 anos"
+    },
+    {
+      "id": "p20",
+      "tema": "saude",
+      "subtema": "dependência química",
+      "resumo": "Propõe cooperação com a UFMG para apoiar os testes clínicos da vacina Calixcoca contra dependência de cocaína, com participação voluntária de adultos.",
+      "trecho": "O Governo do Estado firmará termo de cooperação técnica e científica com a UFMG para apoiar as etapas clínicas subsequentes da pesquisa",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "educacao",
+      "subtema": "piso do magistério / carreira",
+      "resumo": "Propõe adequar os vencimentos dos professores ao piso nacional em cronograma plurianual e enviar novo plano de carreira com progressão por mérito.",
+      "trecho": "O Governo do Estado adequará os vencimentos de todas as categorias ao piso nacional do magistério, em cronograma plurianual compatível com a Lei de Responsabilidade Fiscal, e enviará à Assembleia Legislativa novo Plano de Cargos, Carreiras e Salários com progressão vinculada a mérito e formação continuada.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "educacao",
+      "subtema": "primeiros 100 dias (entrevista)",
+      "resumo": "Em entrevista, disse que nos três primeiros meses começaria a corrigir salários até o piso, enviaria o plano de carreira e lançaria o piloto da Escola 360 em 50 CIEPs.",
+      "trecho": "Primeiro passo, nos três primeiros meses: começar a corrigir o salário do professor até o piso nacional, nas categorias mais defasadas, dentro do que a lei fiscal permite, e mandar pra Alerj um plano de carreira novo, com progressão por mérito. Ao mesmo tempo, tiro do papel o piloto do Escola 360 em 50 CIEPs e abro edital do Professor Formador nas regiões com pior IDEB.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "3 primeiros meses; 50 CIEPs"
+    },
+    {
+      "id": "p23",
+      "tema": "educacao",
+      "subtema": "gestão escolar / diretores",
+      "resumo": "Propõe seleção de diretores por prova, projeto de gestão e aprovação da comunidade, e bônus ligado a indicadores da escola.",
+      "trecho": "seleção de diretores por processo misto de prova, projeto de gestão e aprovação da comunidade escolar — com bonificação, para professores e gestores, vinculada a múltiplos indicadores de desempenho da escola, e não a critério político.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Propõe expansão das escolas cívico-militares mediante consulta pública vinculante e adesão voluntária, com meta de 25 unidades.",
+      "trecho": "O Governo do Estado instituirá protocolo estadual de expansão criteriosa para as escolas cívico-militares — seleção por vulnerabilidade social do entorno, histórico documentado de violência escolar e consulta pública prévia e vinculante, sempre de adesão voluntária das famílias, com meta de 25 unidades ao final do mandato —;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "25 unidades até 2030"
+    },
+    {
+      "id": "p25",
+      "tema": "educacao",
+      "subtema": "conectividade",
+      "resumo": "Promete internet de alta velocidade em todas as escolas estaduais até o fim do segundo ano de governo, via PPP.",
+      "trecho": "O Governo do Estado firmará parcerias público-privadas com empresas de tecnologia e telecomunicações para levar conectividade de alta velocidade a todas as escolas estaduais até o fim do segundo ano de governo",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Até o fim do 2º ano"
+    },
+    {
+      "id": "p26",
+      "tema": "educacao",
+      "subtema": "escolas abertas no fim de semana",
+      "resumo": "Propõe a Escola 360: abrir escolas estaduais, com prioridade para CIEPs, nos fins de semana e feriados como centros comunitários.",
+      "trecho": "O Governo do Estado abrirá as escolas estaduais, com prioridade para os CIEPs, nos finais de semana e feriados, como centros comunitários organizados em cinco eixos — aprendizagem, cultura, esporte, saúde e trabalho —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p27",
+      "tema": "educacao",
+      "subtema": "educação inclusiva / neurodivergentes",
+      "resumo": "Propõe equipes itinerantes (fonoaudiólogo, terapeuta ocupacional, psicólogo) para triagem anual nas escolas, com até 60 dias para início do atendimento.",
+      "trecho": "instituirá equipes multidisciplinares itinerantes — fonoaudiólogo, terapeuta ocupacional e psicólogo — para triagem anual nas escolas, com prazo máximo de 60 dias até o início do atendimento",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Até 60 dias"
+    },
+    {
+      "id": "p28",
+      "tema": "transporte",
+      "subtema": "trens / recuperação",
+      "resumo": "Propõe executar plano de recuperação dos trens com 55 novos trens, sinalização para intervalos de 6 minutos no pico e requalificação das 104 estações.",
+      "trecho": "executará o plano de recuperação física em cinco componentes: renovação de frota (55 novos trens, priorizando a Baixada Fluminense), modernização da sinalização (intervalos de 6 minutos no pico), recuperação da via permanente, atualização elétrica e requalificação das 104 estações.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "55 trens; intervalo de 6 min; 104 estações"
+    },
+    {
+      "id": "p29",
+      "tema": "transporte",
+      "subtema": "trens / contrato da Nova Via",
+      "resumo": "Diz que fiscalizará o contrato atual de operação dos trens pela Setram e preparará estudos para o ciclo seguinte.",
+      "trecho": "Como o contrato de operação já foi definido por leilão judicial, caberá o nosso governo fiscalizar rigorosamente, pela SETRAM, o cumprimento das metas do novo contrato",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "transporte",
+      "subtema": "barcas / transporte aquaviário",
+      "resumo": "Propõe novas rotas de ferry-boats e catamarãs com terminais em São Gonçalo, Duque de Caxias, Magé e Ilha do Governador, via concessão ou PPP.",
+      "trecho": "O Governo do Estado implantará novas rotas aquaviárias mistas — ferry-boats para carga e passageiros e catamarãs de alta frequência —, com terminais em Gradim (São Gonçalo), Duque de Caxias, Magé e Ilha do Governador, e integração física e tarifária, com meta de retirar cerca de 15 mil caminhões por mês das rodovias e transportar 50 mil passageiros por dia.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "50 mil passageiros/dia; investimento inicial estimado de R$ 400 a 550 milhões"
+    },
+    {
+      "id": "p31",
+      "tema": "transporte",
+      "subtema": "barcas São Gonçalo (campanha)",
+      "resumo": "Em campanha, defendeu terminal de barcas em São Gonçalo integrado a metrô, trem e ônibus com bilhetagem única.",
+      "trecho": "Você tem que criar as barcas de São Gonçalo, um terminal de barcas de São Gonçalo para o Rio de Janeiro, integrado ao metrô, ao trem, ao ônibus, com uma bilhetagem única. Essa é a nossa proposta",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "transporte",
+      "subtema": "metrô Leste / Linha 3",
+      "resumo": "Propõe extensão da Linha 2 até Arariboia (Niterói) e depois a Linha 3 até São Gonçalo, após auditoria da licitação suspensa.",
+      "trecho": "O Governo do Estado retomará, em duas fases, o eixo metroviário do Leste Metropolitano — extensão da Linha 2 até a Estação Arariboia, em Niterói, seguida do Programa Linha 03, ligando Niterói a São Gonçalo —, após auditoria do processo licitatório hoje suspenso pelo TCE-RJ",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "transporte",
+      "subtema": "Baixada / VLT e BRT",
+      "resumo": "Propõe VLT entre Pavuna e Nova Iguaçu em leito ferroviário desativado e corredores de BRT na Baixada e entre São Gonçalo e Maricá.",
+      "trecho": "implantará o Programa VLT Baixada entre Pavuna e Nova Iguaçu, aproveitando leito ferroviário desativado ao longo de 12,6 km",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "12,6 km"
+    },
+    {
+      "id": "p34",
+      "tema": "transporte",
+      "subtema": "integração tarifária",
+      "resumo": "Propõe integrar a bilhetagem (RioCard e Jaé) e harmonizar horários entre modais estaduais e municipais.",
+      "trecho": "O Governo do Estado promoverá a integração da bilhetagem e a harmonização de horários entre os diferentes sistemas de transporte da Região Metropolitana, em cooperação com os municípios envolvidos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "transporte",
+      "subtema": "integração trem-metrô-BRT (campanha)",
+      "resumo": "Em campanha, prometeu conectar metrô e trens e integrar um BRT da Baixada ao BRT da capital.",
+      "trecho": "Nós vamos conectar o metrô aos trens e ao mesmo tempo fazer o BRT Baixada integrado ao BRT da capital.",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p36",
+      "tema": "economia",
+      "subtema": "responsabilidade fiscal / fundo soberano",
+      "resumo": "Propõe blindar o Fundo Soberano contra uso em folha, dívida e custeio e usá-lo como garantia de PPPs e concessões.",
+      "trecho": "O Governo do Estado reforçará a blindagem legal do Fundo Soberano, vedando expressamente seu uso em folha de pessoal, serviço da dívida corrente e custeio ordinário, e o transformará em instrumento de aval e garantia para parcerias público-privadas e concessões estruturantes — sem desembolso direto —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "economia",
+      "subtema": "dívida / previdência / pacto federativo",
+      "resumo": "Propõe lei de planejamento do pagamento da dívida, revisão da folha previdenciária nos termos da EC 103/2019 e negociação do pacto federativo com a União.",
+      "trecho": "Em paralelo, instituirá lei de planejamento de pagamento da dívida, revisará a folha previdenciária nos termos da Emenda Constitucional Federal nº 103/2019 e negociará com a União a revisão do pacto federativo, sempre respeitando os pisos constitucionais de saúde e educação.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "economia",
+      "subtema": "royalties / economia do mar",
+      "resumo": "Propõe destinar de 8% a 12% das receitas do petróleo ao Fundo Soberano para investimentos na economia azul, vedado o custeio.",
+      "trecho": "capitalização do Fundo Soberano com 8% a 12% das receitas do petróleo destinadas a investimentos estruturantes da economia azul",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "8% a 12% das receitas do petróleo"
+    },
+    {
+      "id": "p39",
+      "tema": "economia",
+      "subtema": "indústria / ICMS / fertilizantes",
+      "resumo": "Propõe o Vale dos Fertilizantes (Porto do Açu e Macaé), com incentivo de ICMS de longo prazo condicionado a convênio no Confaz.",
+      "trecho": "O Governo do Estado criará o Vale dos Fertilizantes, polo industrial dedicado à produção de amônia e ureia ancorado no Porto do Açu e em Macaé, com incentivo de ICMS de longo prazo equiparando a carga tributária do produto nacional à do importado — condicionado a convênio no CONFAZ —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Ao menos 1 planta de escala mundial até o fim do mandato"
+    },
+    {
+      "id": "p40",
+      "tema": "economia",
+      "subtema": "reindustrialização / Leste Fluminense",
+      "resumo": "Propõe zona industrial no Leste Fluminense (Itaboraí e entorno) e plano estadual único de reindustrialização.",
+      "trecho": "constituirá zona industrial no Leste Fluminense, na região de Itaboraí e entorno",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p41",
+      "tema": "economia",
+      "subtema": "ambiente de negócios",
+      "resumo": "Propõe o programa RJ Competitivo, com portal único para regimes especiais e licenças e prazo máximo de 60 dias de resposta.",
+      "trecho": "com portal único digital para protocolo e concessão de regimes especiais e licenças, prazo máximo de 60 dias para resposta",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Resposta em até 60 dias"
+    },
+    {
+      "id": "p42",
+      "tema": "economia",
+      "subtema": "renúncia fiscal para atrair empresas (campanha)",
+      "resumo": "Em campanha em São Gonçalo, disse que atrairia investimentos por renúncias fiscais ou investimento do próprio Estado.",
+      "trecho": "Vamos trazer pra ca investimentos, ou por renúncias fiscais ou por investimentos do próprio Estado que você pode ter pra manejar",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p43",
+      "tema": "economia",
+      "subtema": "reindustrialização (RJ1)",
+      "resumo": "No RJ1, defendeu reindustrializar o estado e atrair de volta investidores.",
+      "trecho": "Nós temos que reindustrializar o estado, buscar todos os investidores que saíram e transformar o Rio de Janeiro em um polo de desenvolvimento econômico e industrial",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p44",
+      "tema": "moradia",
+      "subtema": "desfavelização",
+      "resumo": "Propõe transformar em dez anos as 1.724 favelas do estado em bairros formais com título de propriedade individual.",
+      "trecho": "É esse universo que o Governo do Estado se propõe a transformar, em dez anos, em bairros formais com título de propriedade individual: não uma agenda de urbanização de favela, mas o fim da favela como modalidade de moradia popular no Rio de Janeiro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Em 10 anos (prazo além do mandato)"
+    },
+    {
+      "id": "p45",
+      "tema": "moradia",
+      "subtema": "títulos de propriedade (RJ1)",
+      "resumo": "No RJ1, prometeu conceder títulos de propriedade e formalizar comunidades como bairros.",
+      "trecho": "Vamos tirá-los da informalidade e formalizá-los como partes da cidade do Rio de Janeiro. Não podemos mais tratar esses bairros de forma diferente. Vamos conceder títulos de propriedade e incentivar a formalidade, e não a informalidade, nesses locais",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "moradia",
+      "subtema": "gabinete na comunidade",
+      "resumo": "Afirmou que instalará seu gabinete dentro de uma comunidade como parte da desfavelização.",
+      "trecho": "Nossa política não será de tiro, porrada e bomba. Eu vou ter o meu gabinete dentro da comunidade, só não vou revelar qual para não ter problema.",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "moradia",
+      "subtema": "desfavelização / formalização (campanha)",
+      "resumo": "Em encontro da Abrasel, descreveu a desfavelização como inclusão das comunidades no setor formal.",
+      "trecho": "É tirar da informalidade e transformar isso através da formalização do emprego, do saneamento básico e das concessionárias de serviço público",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p48",
+      "tema": "moradia",
+      "subtema": "financiamento habitacional",
+      "resumo": "Promete manter o Habita+ com subsídio para famílias com renda de até R$ 8 mil e o MCMV Entidades por autogestão.",
+      "trecho": "O Governo do Estado manterá o Habita+, com subsídio ao longo de todo o financiamento para famílias de até R$ 8 mil, vinculado prioritariamente à desfavelização",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Renda familiar até R$ 8 mil"
+    },
+    {
+      "id": "p49",
+      "tema": "moradia",
+      "subtema": "locação social / áreas de risco",
+      "resumo": "Propõe programa de locação social em imóveis públicos ociosos reformados para famílias removidas de áreas de risco.",
+      "trecho": "O Governo do Estado criará Programa Estadual de Locação Social, com retrofit de imóveis públicos ociosos para famílias realocadas de áreas de risco iminente mapeadas pela Defesa Civil e pelo INEA.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "moradia",
+      "subtema": "regularização fundiária",
+      "resumo": "Propõe nova Lei Estadual de Terras para desburocratizar a regularização fundiária.",
+      "trecho": "O Governo do Estado enviará à Assembleia Legislativa nova Lei Estadual de Terras que desburocratize a regularização fundiária e autorize a alienação onerosa de terras devolutas estaduais de até 50 hectares",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Terras devolutas até 50 ha"
+    },
+    {
+      "id": "p51",
+      "tema": "meio-ambiente",
+      "subtema": "Baía de Guanabara",
+      "resumo": "Propõe o Baía Viva RJ, com monitoramento científico e fiscalização por drones, com meta de melhorar em 40% a qualidade da água até 2030.",
+      "trecho": "O Governo do Estado instituirá o Baía Viva RJ, com estações de monitoramento científico e rastreamento por GPS de fauna marinha em parceria com a UFRJ e a UFF, unidade marítima de fiscalização com drones e vigilância por inteligência artificial em articulação com o INEA e as forças de segurança, e programas educacionais e de turismo sustentável — com meta de melhorar em 40% a qualidade da água e gerar 25 mil empregos verdes até 2030.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "+40% na qualidade da água; 25 mil empregos verdes até 2030"
+    },
+    {
+      "id": "p52",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento / obras paradas por crime",
+      "resumo": "Propõe a Operação Água Segura, protocolo entre Segurança Pública e concessionárias de saneamento para retomar obras paralisadas pelo crime organizado, e um conselho independente de vigilância da água.",
+      "trecho": "instituirá a Operação Água Segura, protocolo permanente entre a Secretaria de Segurança Pública e as concessionárias de saneamento para mapear as zonas onde obras estão paralisadas por ação do crime organizado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p53",
+      "tema": "meio-ambiente",
+      "subtema": "manguezais",
+      "resumo": "Propõe Autoridade Metropolitana da Baía de Guanabara com meta de recuperar 1.500 hectares de manguezal em dez anos.",
+      "trecho": "O Governo do Estado criará a Autoridade Metropolitana da Baía de Guanabara, integrada à governança metropolitana já existente, para coordenar recuperação ambiental — com meta de 1.500 hectares de manguezal recuperados em dez anos —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "1.500 ha em 10 anos"
+    },
+    {
+      "id": "p54",
+      "tema": "meio-ambiente",
+      "subtema": "enchentes / defesa civil",
+      "resumo": "Propõe alertas por Cell Broadcast com modelos de IA, seguro-catástrofe paramétrico e reflorestamento de encostas.",
+      "trecho": "O Governo do Estado modernizará o sistema de alertas — com modelos meteorológicos apoiados por inteligência artificial e envio automático via Cell Broadcast, sem necessidade de cadastro prévio —, contratará seguro-catástrofe paramétrico",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher",
+      "resumo": "Propõe botão de socorro silencioso no app 190 RJ, comando especializado da Patrulha Maria da Penha com orçamento próprio e auxílio-moradia emergencial de R$ 1.000 por três meses.",
+      "trecho": "O Governo do Estado implantará botão de socorro silencioso no aplicativo 190 RJ, com geolocalização e gravação de áudio ambiente para mulheres com medida protetiva cadastrada; criará o Comando Especializado Patrulha Maria da Penha, com orçamento próprio e sala de situação dedicada ao monitoramento de acionamentos em tempo real; e instituirá auxílio-moradia emergencial de R$ 1.000 por três meses para mulheres que precisem deixar o lar em caráter de urgência",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "R$ 1.000 por 3 meses"
+    },
+    {
+      "id": "p56",
+      "tema": "gestao",
+      "subtema": "máquina pública / secretarias",
+      "resumo": "Propõe escritório de metas no Gabinete do Governador e revisão técnica com fusão de secretarias de missão sobreposta.",
+      "trecho": "O Governo do Estado criará, por decreto, o Escritório de Gerenciamento de Projetos e Metas (EGPM), vinculado ao Gabinete do Governador, para monitorar com indicadores públicos os principais programas de governo; conduzirá revisão técnica das secretarias com fusão das pastas de missão sobreposta",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p57",
+      "tema": "gestao",
+      "subtema": "previdência / despesa com pessoal",
+      "resumo": "Propõe reforma previdenciária paramétrica gradual, previdência complementar para novos servidores e gatilho automático de contenção quando a despesa de pessoal passar de 49% da RCL, com revisão das renúncias fiscais a cada quatro anos.",
+      "trecho": "reforma previdenciária paramétrica gradual, com atuarização pública anual e regime de previdência complementar para novos servidores; e Marco de Médio Prazo Fiscal em lei estadual, com gatilho automático de contenção quando a despesa de pessoal ultrapassar 49% da receita corrente líquida e revisão obrigatória, a cada quatro anos, de todas as renúncias fiscais vigentes.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Gatilho em 49% da RCL; revisão de renúncias a cada 4 anos"
+    },
+    {
+      "id": "p58",
+      "tema": "gestao",
+      "subtema": "folha de pagamento / transparência",
+      "resumo": "Propõe auditoria cruzada contínua da folha e publicação nominal mensal.",
+      "trecho": "auditoria cruzada contínua da folha de pagamento — cruzando dados do SIAPE, do TCE-RJ e dos registros de óbito para identificar pagamentos irregulares — e publicação nominal mensal da folha",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p59",
+      "tema": "gestao",
+      "subtema": "corrupção / contratações",
+      "resumo": "Propõe política de integridade e desempenho nas contratações, com cadastro estadual e impedimento temporário de empresas.",
+      "trecho": "O Governo do Estado instituirá política estadual de integridade e desempenho nas contratações públicas, complementar à Lei Federal de Licitações e à Lei Anticorrupção, com cadastro estadual integrado aos cadastros federais correlatos, critérios técnicos e objetivos de impedimento temporário — nunca permanente —",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "seguranca: contratação de 'cerca de 18 mil agentes' — só em paráfrase (g1 21/09/2026); não registrado",
+    "seguranca: letalidade policial, câmeras corporais e ADPF 635 — no Papo Antagonista (18/08) ele disse que a ADPF 'não proíbe a operação', mas o trecho só aparece fragmentado na transcrição automática; sem proposta registrada",
+    "gestao: reduzir secretarias de 32 para 15 a 18 — só em paráfrase (O Dia 08/09/2026); registrada apenas a fusão de pastas que está no plano",
+    "gestao: reajuste/data-base geral dos servidores — sem proposta encontrada (só piso do magistério e carreira policial)",
+    "economia: Propag — no plano só aparece de forma indireta; o uso da economia do Propag na saúde está só em paráfrase (O Dia 08/09/2026)",
+    "economia: ICMS — sem proposta de mudança de alíquotas; só incentivos setoriais condicionados ao Confaz (fertilizantes, refino, diesel marítimo)",
+    "meio-ambiente: concessão da Cedae (manter, rever, reestatizar) — sem posição explícita; o plano trata só de fiscalização e de obras paradas nos blocos de concessão",
+    "transporte: valor das tarifas — sem proposta de redução",
+    "saude: Organizações Sociais — mantém o modelo com metas e transparência; sem proposta de extinguir ou ampliar",
+    "direitos: população LGBT+, igualdade racial e cotas — sem proposta encontrada (o plano cita mortalidade materna de mulheres negras só como diagnóstico)",
+    "geral: a versão completa do 'Livro Amarelo' (16 capítulos) não foi localizada; o dossiê usa o resumo executivo registrado"
+  ]
+}
