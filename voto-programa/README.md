@@ -4,7 +4,8 @@ Quiz para o eleitor comparar as próprias escolhas em situações do dia a dia c
 propostas documentadas dos candidatos, com a fala literal de cada um e a fonte. Os
 candidatos ficam escondidos até o fim. Duas eleições de 2026 (1º turno em 04/10):
 
-- **Governador do Rio de Janeiro**: 18 cenas de competência estadual.
+- **Governador do Rio de Janeiro**: 18 cenas de competência estadual e 8 candidatos.
+  Anthony Garotinho fica fora: candidatura sub judice e sem plano de governo registrado.
 - **Presidente da República**: 16 cenas de competência federal, com Lula (PT) e Flávio
   Bolsonaro (PL), os dois primeiros nas pesquisas (Datafolha 17/09, Quaest 21/09).
 
@@ -25,7 +26,7 @@ src/data/aderencia*.json            nota 0-100 (ou null) por cena × opção × 
 src/data/evidencias*.json           só os trechos citados, para o site mostrar
         │
         ▼  site (React, 100% no navegador, sem IA em tempo de uso)
-perfil (5 toques) → escolhe as cenas → afinidade = média das notas das opções escolhidas
+perfil (5 toques) → escolhe as cenas → afinidade = média dos pontos centrados por cena
 ```
 
 - **Perfil sem rótulo de classe.** Cinco toques (onde vai ao médico, escola das
@@ -40,6 +41,11 @@ perfil (5 toques) → escolhe as cenas → afinidade = média das notas das opç
   alta veem imposto de renda e segurança na orla. Quem pula o perfil vê as cenas padrão.
 - **Competência respeitada.** Plano de saúde e mensalidade escolar são federais (ou de
   ninguém) e não entram como cena de governador.
+- **Nota centrada por cena.** O ponto de cada escolha é 50 + (nota da opção escolhida −
+  média das notas do candidato naquela cena). Quem apoia todas as opções fica em 50.
+  Com a média simples, um eleitor que respondia ao acaso via Douglas Ruas em 1º em 76%
+  das vezes, e cinco candidatos perto de 0%. `pipeline/auditar_vies.py` refaz essa
+  checagem (eleitor aleatório e eleitor-espelho) e deve rodar a cada mudança de nota.
 - **Ausência não é discordância.** Sem proposta sobre o assunto, a nota é `null` e a
   escolha não conta nem a favor nem contra; o resultado diz quantas escolhas ficaram
   de fora para cada candidato. Abaixo de 3 situações com evidência, mostra "—".
@@ -87,6 +93,8 @@ npm run build && npm run lint
 pip install "anthropic>=1"
 python pipeline/gerar_cenas.py --eleicao presidente --tema saude --perfil "tem plano de saúde"
 python pipeline/aderencia.py --eleicao governador-rj
+python pipeline/mesclar_rascunhos.py --eleicao governador-rj --excluir anthony-garotinho
+python pipeline/auditar_vies.py --eleicao governador-rj
 python pipeline/acompanhar.py lula-2022
 
 # build com a área de acompanhamento (só depois do 2º turno)
@@ -97,6 +105,18 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
 
 - [ ] **Revisão humana das notas** (`pipeline/relatorio-aderencia*.md`): são rascunho
       de IA (campo `modelo`); preencher `revisado_por` depois de conferir.
+- [ ] **Calibração entre avaliadores**: as notas de Paes e Ruas foram feitas numa
+      rodada e as dos outros 6 em outra, com escala mais comprimida (Marinho 35-75 onde
+      Paes/Ruas têm 10-95). A centragem reduz o efeito mas não zera. No eleitor-espelho,
+      Siri fica em 3º e Luan em 2º mesmo escolhendo as opções preferidas deles.
+- [ ] **Notas duvidosas apontadas pelos avaliadores**: Marinho em medida-protetiva (tudo
+      null apesar do Pacto contra o feminicídio); Marinho 45 e Siri 55 no Banco Master
+      (servidor-recomposicao/c); Siri 40 em policiamento só por convocação de concursados;
+      Busnello 40 em letalidade (d) e 40 em fila-especialista; Cyro 60 em falta-agua/c
+      por inferência; Luan 40 em letalidade; Juliete 40 no BRT da Baixada e 30 em
+      presença do Estado pós-operação.
+- [ ] **Situação do registro** de Marinho, Siri, Busnello, Cyro, Juliete e Luan no
+      DivulgaCand (hoje só consta "registrada").
 - [ ] **Revisão humana do acompanhamento de Lula 2022**: status discutíveis marcados
       pelo agente (salário mínimo e reforma tributária como "cumprida", "mandato único"
       como "na contramão", orçamento secreto proibido pelo STF antes da posse).

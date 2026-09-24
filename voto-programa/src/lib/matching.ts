@@ -5,8 +5,26 @@ export const COBERTURA_MINIMA = 3
 
 const PESO_PRIORIDADE = 2
 
+/** Referência de uma opção sem proposta documentada ao centrar as notas da cena. */
+const NOTA_NEUTRA = 50
+
 /**
- * Afinidade = média das notas de aderência das opções escolhidas, com peso dobrado
+ * Quanto o candidato prefere a opção escolhida às outras da mesma cena: 50 + (nota da
+ * escolhida - média das notas dele na cena), limitado a 0-100. Sem centrar, quem recebe
+ * nota alta em opções opostas "ganha" de qualquer eleitor (numa simulação com respostas
+ * aleatórias, um candidato ficava em 1º em 76% dos casos); centrado, apoiar tudo vale 50.
+ */
+export function pontoNaCena(pergunta: Pergunta, aderencia: Aderencia, opcaoId: string, candidatoId: string): number | null {
+  const porOpcao = aderencia.itens[pergunta.id]
+  const nota = porOpcao?.[opcaoId]?.[candidatoId]?.nota
+  if (nota === null || nota === undefined) return null
+  const notas = pergunta.opcoes.map((o) => porOpcao[o.id]?.[candidatoId]?.nota ?? NOTA_NEUTRA)
+  const media = notas.reduce((a, b) => a + b, 0) / notas.length
+  return Math.min(100, Math.max(0, NOTA_NEUTRA + nota - media))
+}
+
+/**
+ * Afinidade = média dos pontos das cenas respondidas (ver pontoNaCena), com peso dobrado
  * nos temas que o eleitor marcou como prioridade. Opção sem proposta documentada
  * (nota null) sai do cálculo: ausência de proposta não é discordância.
  * Determinístico, sem IA em tempo de uso: só lê a tabela pré-calculada e revisada.
@@ -18,7 +36,7 @@ export function calcularResultados(
   respostas: Resposta[],
   prioridades: string[],
 ): Resultado[] {
-  const temaDe = new Map(perguntas.map((p) => [p.id, p.tema]))
+  const perguntaDe = new Map(perguntas.map((p) => [p.id, p]))
 
   return candidatos
     .map((candidato) => {
@@ -27,10 +45,12 @@ export function calcularResultados(
       const motivos: Motivo[] = []
 
       for (const r of respostas) {
+        const pergunta = perguntaDe.get(r.perguntaId)
         const avaliacao = aderencia.itens[r.perguntaId]?.[r.opcaoId]?.[candidato.id]
-        if (!avaliacao || avaliacao.nota === null) continue
-        const peso = prioridades.includes(temaDe.get(r.perguntaId) ?? '') ? PESO_PRIORIDADE : 1
-        soma += avaliacao.nota * peso
+        const ponto = pergunta ? pontoNaCena(pergunta, aderencia, r.opcaoId, candidato.id) : null
+        if (!pergunta || !avaliacao || ponto === null) continue
+        const peso = prioridades.includes(pergunta.tema) ? PESO_PRIORIDADE : 1
+        soma += ponto * peso
         pesos += peso
         motivos.push({ perguntaId: r.perguntaId, opcaoId: r.opcaoId, avaliacao })
       }

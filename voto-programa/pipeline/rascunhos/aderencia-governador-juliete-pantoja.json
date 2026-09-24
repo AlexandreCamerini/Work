@@ -1,0 +1,516 @@
+{
+  "candidato_id": "juliete-pantoja",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 65,
+        "evidencias": [
+          "p49",
+          "p64"
+        ],
+        "justificativa": "Propõe administração estatal dos trens e do metrô, o que encerra as concessões sem condicionar a medida ao descumprimento de metas."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p49",
+          "p64"
+        ],
+        "justificativa": "Propõe estatizar o transporte em vez de manter e fiscalizar os contratos de concessão."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p52",
+          "p51"
+        ],
+        "justificativa": "Propõe reduzir os intervalos dos trens e ampliar a malha ferroviária, sem mencionar padrão BRT ou programa de segurança nos trens."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p52",
+          "p51"
+        ],
+        "justificativa": "Propõe levar o metrô à Baixada Fluminense, a Niterói e a São Gonçalo."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p52"
+        ],
+        "justificativa": "Propõe levar à Baixada Fluminense o metrô, e não corredores de BRT."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p49"
+        ],
+        "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes em janeiro de 2027, sem detalhar o mecanismo de subsídio."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p49",
+          "p50"
+        ],
+        "justificativa": "Propõe redução de 50% das passagens para todos e passe livre para estudantes, sem focalização por renda."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p49",
+          "p64"
+        ],
+        "justificativa": "Propõe estatizar o transporte e implantar bilhete único intermodal e intermunicipal, sem mencionar a bilhetagem hoje controlada pelas empresas."
+      },
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p49"
+        ],
+        "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes, inclusive o metrô, sob administração estatal."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p26"
+        ],
+        "justificativa": "Propõe retomar a administração direta da saúde e encerrar os contratos com Organizações Sociais."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p32",
+          "p27"
+        ],
+        "justificativa": "Propõe atenção primária em todas as cidades e concursos para a saúde, sem mencionar centros regionais de especialidades."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p27",
+          "p62"
+        ],
+        "justificativa": "Propõe abrir concurso público para a saúde como primeira medida da área."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": 0,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Propõe encerrar o programa de escolas cívico-militares e a presença de PMs nas escolas."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p40",
+          "p63"
+        ],
+        "justificativa": "Propõe ampliar o ensino integral para 100% das escolas estaduais até 2030, sem foco declarado em ciência, tecnologia e matemática."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p35"
+        ],
+        "justificativa": "Propõe erradicar o analfabetismo completo e funcional em um ano, sem mencionar diagnóstico ou reforço no contraturno."
+      },
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe ampliar a rede de escolas técnicas estaduais com livre acesso para alunos da rede pública, sem levar o ensino técnico para dentro das escolas de ensino médio."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe ampliar a rede de escolas técnicas estaduais com livre acesso para alunos da rede pública, sem levar o ensino técnico para as escolas desde o início do ensino médio."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sem mencionar aprendizagem ou incentivo à contratação."
+      },
+      "d": {
+        "nota": 75,
+        "evidencias": [
+          "p40",
+          "p63"
+        ],
+        "justificativa": "Propõe ampliar o ensino integral para 100% das escolas estaduais até 2030, sem foco declarado em ciência, tecnologia e matemática."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p25",
+          "p60"
+        ],
+        "justificativa": "Propõe suspender e acabar com as operações policiais nas favelas."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p18",
+          "p65",
+          "p23"
+        ],
+        "justificativa": "Propõe substituir as operações violentas por ações de inteligência e atuar para prender criminosos de alta periculosidade."
+      },
+      "c": {
+        "nota": 30,
+        "evidencias": [
+          "p25",
+          "p60"
+        ],
+        "justificativa": "Propõe acabar com as operações nas favelas, sem proposta de presença permanente do Estado após operações."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p17",
+          "p18",
+          "p25"
+        ],
+        "justificativa": "Propõe formação policial com foco em não letalidade, fim das operações violentas e câmeras nos uniformes, sem mencionar indicador de mortes por intervenção."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p25",
+          "p60"
+        ],
+        "justificativa": "Propõe suspender e acabar com as operações policiais nas favelas."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p18",
+          "p65",
+          "p23"
+        ],
+        "justificativa": "Propõe substituir as operações violentas por ações de inteligência e atuar para prender criminosos de alta periculosidade."
+      },
+      "c": {
+        "nota": 30,
+        "evidencias": [
+          "p25",
+          "p60"
+        ],
+        "justificativa": "Propõe acabar com as operações nas favelas, sem proposta de presença permanente do Estado após operações."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p17",
+          "p18",
+          "p25"
+        ],
+        "justificativa": "Propõe formação policial com foco em não letalidade, fim das operações violentas e câmeras nos uniformes, sem mencionar indicador de mortes por intervenção."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": 15,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p16",
+          "p67"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo da PM."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p18",
+          "p65"
+        ],
+        "justificativa": "Propõe ações de inteligência contra lavagem de dinheiro e entrada de armas e drogas, sem mencionar a receptação de celulares."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": 15,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p16",
+          "p67"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo da PM."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p18",
+          "p65"
+        ],
+        "justificativa": "Propõe ações de inteligência contra lavagem de dinheiro e entrada de armas e drogas, sem mencionar a receptação de bens roubados."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p67",
+          "p63"
+        ],
+        "justificativa": "Propõe ampliar as delegacias da mulher com funcionamento 24 horas."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p53"
+        ],
+        "justificativa": "Propõe rede de casas-abrigo para mulheres em situação de violência com apoio multiprofissional."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p3",
+          "p2"
+        ],
+        "justificativa": "Propõe reduzir imediatamente as tarifas de água e esgoto e anular a privatização da Cedae."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p2",
+          "p33"
+        ],
+        "justificativa": "Propõe anular a privatização da Cedae e universalizar o saneamento, em vez de fiscalizar as metas da concessão."
+      },
+      "c": {
+        "nota": 70,
+        "evidencias": [
+          "p2"
+        ],
+        "justificativa": "Propõe auditar e anular a privatização da Cedae, sem condicionar a medida ao descumprimento de metas."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sem mencionar aprendizagem técnica ou incentivo à contratação."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p10",
+          "p5"
+        ],
+        "justificativa": "Defende a retomada da construção naval no estado, mas propõe rever as isenções fiscais a grandes empresas."
+      },
+      "c": {
+        "nota": 5,
+        "evidencias": [
+          "p6",
+          "p7"
+        ],
+        "justificativa": "Propõe frentes emergenciais de trabalho e a EMOP como eixo da construção civil, com o Estado gerando emprego diretamente."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 70,
+        "evidencias": [
+          "p30",
+          "p61"
+        ],
+        "justificativa": "Propõe aumentos anuais para os servidores da saúde e pagamento do piso em saúde e educação, sem estender a recomposição a todos os servidores."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p27",
+          "p38",
+          "p62"
+        ],
+        "justificativa": "Propõe novos concursos para saúde e educação, sem mencionar a convocação de excedentes."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe rever as isenções fiscais a grandes empresas, sem mencionar contrapartidas de emprego."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p16",
+          "p67"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo ou a presença da PM."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p24",
+          "p65",
+          "p25"
+        ],
+        "justificativa": "Propõe enfrentar milícias e facções com inteligência e acabar com as operações nas favelas, sem priorizar a retomada de territórios."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 20,
+        "evidencias": [
+          "p27",
+          "p61",
+          "p1"
+        ],
+        "justificativa": "Propõe recompor o orçamento da saúde, ampliar o investimento direto do Estado e suspender a dívida, sem mencionar limite para a despesa."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p26",
+          "p5",
+          "p1",
+          "p66"
+        ],
+        "justificativa": "Propõe auditar contratos com Organizações Sociais, grandes devedores e a dívida pública e confiscar bens de corrupção, sem mencionar auditoria de todos os contratos ou secretaria de integridade."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p27",
+          "p30",
+          "p38"
+        ],
+        "justificativa": "Propõe concursos e contratação direta de pessoal hoje terceirizado, em direção oposta ao corte de cargos."
+      }
+    }
+  }
+}

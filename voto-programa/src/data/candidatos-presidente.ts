@@ -31,7 +31,10 @@ export const candidatosPresidente: Candidato[] = [
   },
 ]
 
-export const outrosCandidatosPresidente = [
+/** Oficializados que não entram no teste, com o motivo, para o aviso de escopo do site. */
+export const foraDoQuizPresidente = {
+  motivo: 'o teste compara só os dois primeiros nas pesquisas',
+  nomes: [
   'Augusto Cury (Avante)',
   'Clariana Barão (DC)',
   'Edmilson Costa (PCB)',
@@ -43,4 +46,5 @@ export const outrosCandidatosPresidente = [
   'Rui Costa Pimenta (PCO)',
   'Samara Martins (UP)',
   'Veterinário Wilson Grassi (Democrata)',
-]
+  ],
+}

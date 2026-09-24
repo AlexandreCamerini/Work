@@ -198,13 +198,15 @@ export function Resultados({ eleicao, resultados, respostas, perguntas, onRefaze
             responde, e suas respostas não saem do seu aparelho.
           </p>
           <p>
-            Quando um candidato não tem proposta sobre o assunto, a escolha não conta nem a favor
-            nem contra. Temas prioritários valem em dobro.
+            Conta o quanto o candidato prefere a opção que você escolheu às outras da mesma
+            situação: quem apoia todas as opções igualmente fica no meio. Quando um candidato não
+            tem proposta sobre o assunto, a escolha não conta nem a favor nem contra. Temas
+            prioritários valem em dobro.
           </p>
           <p>
-            {eleicao.foraDoQuiz.length > 0 && (
+            {eleicao.foraDoQuiz.nomes.length > 0 && (
               <>
-                Ainda não estão neste teste (dossiê em preparação): {eleicao.foraDoQuiz.join(', ')}.
+                Fora deste teste ({eleicao.foraDoQuiz.motivo}): {eleicao.foraDoQuiz.nomes.join(', ')}.
               </>
             )}
           </p>

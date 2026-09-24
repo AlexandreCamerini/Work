@@ -19,6 +19,51 @@
             "p74"
           ],
           "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe redesenhar as concessões com metas e fiscalização por meio de uma Autoridade Metropolitana, sem prever rescisão."
+        },
+        "coronel-busnello": {
+          "nota": 30,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe fiscalizar o cumprimento das metas do contrato de operação dos trens definido em leilão, sem prever rescisão."
+        },
+        "cyro-garcia": {
+          "nota": 85,
+          "evidencias": [
+            "p7",
+            "p49"
+          ],
+          "justificativa": "Defende revogar as concessões da SuperVia e do MetrôRio sem indenização."
+        },
+        "juliete-pantoja": {
+          "nota": 65,
+          "evidencias": [
+            "p49",
+            "p64"
+          ],
+          "justificativa": "Propõe administração estatal dos trens e do metrô, o que encerra as concessões sem condicionar a medida ao descumprimento de metas."
+        },
+        "luan-monteiro": {
+          "nota": 65,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Defende devolver metrô, trens e ônibus ao controle estatal, sem condicionar a medida ao descumprimento de metas."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p13",
+            "p14"
+          ],
+          "justificativa": "Propõe reestatizar os trens e encerrar a concessão privada, independentemente de descumprimento de metas."
         }
       },
       "b": {
@@ -36,6 +81,51 @@
             "p46"
           ],
           "justificativa": "Propõe cobrar as concessionárias a partir do gabinete, mas prevê rescisão em caso de descumprimento."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe repactuar as concessões com metas e fiscalização, sem mencionar rompimento de contratos."
+        },
+        "coronel-busnello": {
+          "nota": 85,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe fiscalizar rigorosamente, pela Setram, as metas do contrato de operação dos trens."
+        },
+        "cyro-garcia": {
+          "nota": 15,
+          "evidencias": [
+            "p8",
+            "p7"
+          ],
+          "justificativa": "Propõe auditoria pública das concessões, mas defende revogá-las."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p49",
+            "p64"
+          ],
+          "justificativa": "Propõe estatizar o transporte em vez de manter e fiscalizar os contratos de concessão."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Defende devolver os transportes ao controle estatal em vez de manter e fiscalizar as concessões."
+        },
+        "william-siri": {
+          "nota": 5,
+          "evidencias": [
+            "p13",
+            "p14"
+          ],
+          "justificativa": "Propõe encerrar a concessão dos trens e reestatizá-los no primeiro mês de mandato."
         }
       },
       "c": {
@@ -48,6 +138,46 @@
           "justificativa": "Propõe colocar os trens no padrão do BRT e criar o programa Trem Seguro."
         },
         "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p21",
+            "p27"
+          ],
+          "justificativa": "Propõe renovar a frota e requalificar estações de trem, sem padrão BRT nem programa de segurança nos trens."
+        },
+        "coronel-busnello": {
+          "nota": 65,
+          "evidencias": [
+            "p28"
+          ],
+          "justificativa": "Propõe recuperar os trens com nova frota, sinalização e requalificação de estações, sem padrão BRT nem programa de segurança nos trens."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p8"
+          ],
+          "justificativa": "Propõe ampliar a malha metroferroviária, sem modernização em padrão BRT nem programa de segurança nos trens."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p52",
+            "p51"
+          ],
+          "justificativa": "Propõe reduzir os intervalos dos trens e ampliar a malha ferroviária, sem mencionar padrão BRT ou programa de segurança nos trens."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -70,6 +200,47 @@
             "p45"
           ],
           "justificativa": "Propõe tarifa social focalizada na baixa renda, e não subsídio amplo."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio amplo ao ônibus intermunicipal."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 75,
+          "evidencias": [
+            "p50",
+            "p9"
+          ],
+          "justificativa": "Defende tarifa zero e estatização dos ônibus com tarifas sociais."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p49"
+          ],
+          "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes em janeiro de 2027, sem detalhar o mecanismo de subsídio."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e trabalhadores informais, sem redução geral das passagens."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe redução progressiva das tarifas até a tarifa zero em todo o transporte público estadual."
         }
       },
       "b": {
@@ -86,6 +257,50 @@
             "p42"
           ],
           "justificativa": "Propõe subsídio para reduzir passagens em geral, sem focalização por renda."
+        },
+        "andre-marinho": {
+          "nota": 50,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Prevê passe livre focalizado em jovens em formação técnica, sem critério de renda."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p9",
+            "p1"
+          ],
+          "justificativa": "Propõe tarifas sociais e passe livre para desempregados, mas com caminho para a tarifa zero universal."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p49",
+            "p50"
+          ],
+          "justificativa": "Propõe redução de 50% das passagens para todos e passe livre para estudantes, sem focalização por renda."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p5",
+            "p13"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, mas outro item do programa nacional defende o fim da Lei de Responsabilidade Fiscal."
+        },
+        "william-siri": {
+          "nota": 25,
+          "evidencias": [
+            "p15",
+            "p16"
+          ],
+          "justificativa": "Propõe tarifa zero universal, começando pelas regiões mais pobres, e não tarifa social focalizada por renda."
         }
       },
       "c": {
@@ -103,6 +318,50 @@
             "p44"
           ],
           "justificativa": "Propõe revisar e modernizar a bilhetagem única, sem mencionar retirá-la das empresas."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe que o estado retome o controle dos dados do sistema de transporte e implante o Bilhete Único Metropolitano."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe integrar a bilhetagem entre sistemas, sem mencionar retirá-la do controle das empresas de ônibus."
+        },
+        "cyro-garcia": {
+          "nota": 70,
+          "evidencias": [
+            "p9",
+            "p8"
+          ],
+          "justificativa": "Defende estatizar os ônibus e fazer auditoria pública das concessões."
+        },
+        "juliete-pantoja": {
+          "nota": 60,
+          "evidencias": [
+            "p49",
+            "p64"
+          ],
+          "justificativa": "Propõe estatizar o transporte e implantar bilhete único intermodal e intermunicipal, sem mencionar a bilhetagem hoje controlada pelas empresas."
+        },
+        "luan-monteiro": {
+          "nota": 50,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Defende devolver ônibus, trens e metrô ao controle estatal, sem mencionar a bilhetagem eletrônica."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p17"
+          ],
+          "justificativa": "Propõe empresa pública com domínio público sobre a administração e os fluxos financeiros do sistema de mobilidade."
         }
       },
       "d": {
@@ -119,6 +378,47 @@
             "p41"
           ],
           "justificativa": "Declara o objetivo de reduzir tarifas, sem se comprometer com valor."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio para reduzir a tarifa do metrô."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 75,
+          "evidencias": [
+            "p50",
+            "p49"
+          ],
+          "justificativa": "Defende reestatizar o metrô e adotar tarifa zero."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p49"
+          ],
+          "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes, inclusive o metrô, sob administração estatal."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, sem proposta de reduzir a tarifa do metrô para todos."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe redução progressiva das tarifas, inclusive do metrô, até a tarifa zero."
         }
       }
     },
@@ -139,6 +439,50 @@
             "p7"
           ],
           "justificativa": "Propõe ampliar a rede pública com supercentros e contratação de médicos, sem mencionar compra da rede privada."
+        },
+        "andre-marinho": {
+          "nota": 85,
+          "evidencias": [
+            "p37"
+          ],
+          "justificativa": "Propõe mutirões com as redes pública, filantrópica e privada para zerar filas de exames e cirurgias."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Propõe reduzir a fila pela Central de Vagas RJ com regulação unificada, sem mencionar compra de serviços privados."
+        },
+        "cyro-garcia": {
+          "nota": 10,
+          "evidencias": [
+            "p15",
+            "p48"
+          ],
+          "justificativa": "Defende o fim de qualquer forma de privatização da saúde e a estatização de hospitais privados."
+        },
+        "juliete-pantoja": {
+          "nota": 10,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Propõe retomar a administração direta da saúde e encerrar os contratos com Organizações Sociais."
+        },
+        "luan-monteiro": {
+          "nota": 5,
+          "evidencias": [
+            "p37"
+          ],
+          "justificativa": "Defende que a saúde seja inteiramente pública e que os serviços passem às mãos do Estado."
+        },
+        "william-siri": {
+          "nota": 10,
+          "evidencias": [
+            "p32",
+            "p35"
+          ],
+          "justificativa": "Propõe encerrar progressivamente a gestão privada e a terceirização na saúde."
         }
       },
       "b": {
@@ -156,6 +500,53 @@
             "p25"
           ],
           "justificativa": "Propõe Centros Integrados de Saúde em cada região, com especialistas, exames e pequenas cirurgias."
+        },
+        "andre-marinho": {
+          "nota": 85,
+          "evidencias": [
+            "p42",
+            "p40"
+          ],
+          "justificativa": "Propõe policlínicas regionais de média e alta complexidade e polos de diagnóstico em cada região desassistida do interior."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p12",
+            "p16"
+          ],
+          "justificativa": "Propõe a Central de Vagas RJ e UTIs em hospitais existentes, sem criar centros regionais de especialidades."
+        },
+        "cyro-garcia": {
+          "nota": 65,
+          "evidencias": [
+            "p4",
+            "p47"
+          ],
+          "justificativa": "Propõe construir clínicas e hospitais e equipar unidades para exames de alta complexidade, sem citar centros regionais de especialidades."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p32",
+            "p27"
+          ],
+          "justificativa": "Propõe atenção primária em todas as cidades e concursos para a saúde, sem mencionar centros regionais de especialidades."
+        },
+        "luan-monteiro": {
+          "nota": 55,
+          "evidencias": [
+            "p25",
+            "p24"
+          ],
+          "justificativa": "Item do programa nacional propõe plano de emergência para construir hospitais e postos de saúde, sem mencionar centros de especialidades."
+        },
+        "william-siri": {
+          "nota": 65,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe dois novos hospitais regionais, no Noroeste Fluminense e na Baixada, e não centros de especialidades em todas as regiões."
         }
       },
       "c": {
@@ -172,6 +563,44 @@
             "p60"
           ],
           "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
+        },
+        "andre-marinho": {
+          "nota": 80,
+          "evidencias": [
+            "p37",
+            "p38"
+          ],
+          "justificativa": "Propõe mutirão para zerar filas de cirurgias eletivas no primeiro ano, sem mencionar funcionamento à noite e nos fins de semana."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Propõe reduzir a fila pela Central de Vagas RJ, sem propor mutirão de cirurgias."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p47",
+            "p46"
+          ],
+          "justificativa": "Propõe equipar unidades para cirurgias de alta complexidade e completar equipes, sem propor mutirão."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "d": {
@@ -186,6 +615,48 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 50,
+          "evidencias": [
+            "p14"
+          ],
+          "justificativa": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família nos municípios, sem mencionar especialistas na rede estadual."
+        },
+        "cyro-garcia": {
+          "nota": 95,
+          "evidencias": [
+            "p46",
+            "p16"
+          ],
+          "justificativa": "Propõe contratar médicos e profissionais de saúde por concurso para completar as equipes."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p27",
+            "p62"
+          ],
+          "justificativa": "Propõe abrir concurso público para a saúde como primeira medida da área."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro de servidores, sem mencionar médicos ou especialistas."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Propõe concursos públicos na saúde na transição para a gestão pública direta."
         }
       }
     },
@@ -200,6 +671,46 @@
           "justificativa": "Propõe o modelo cívico-militar em pelo menos 200 escolas estaduais."
         },
         "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe lançar e expandir escolas cívico-militares na rede estadual."
+        },
+        "coronel-busnello": {
+          "nota": 85,
+          "evidencias": [
+            "p24"
+          ],
+          "justificativa": "Propõe expandir escolas cívico-militares até 25 unidades, com consulta pública vinculante e adesão voluntária."
+        },
+        "cyro-garcia": {
+          "nota": 0,
+          "evidencias": [
+            "p11"
+          ],
+          "justificativa": "Declara-se contrário às escolas cívico-militares."
+        },
+        "juliete-pantoja": {
+          "nota": 0,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Propõe encerrar o programa de escolas cívico-militares e a presença de PMs nas escolas."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p18"
+          ],
+          "justificativa": "Item do programa nacional defende eleição direta para todos os cargos de gestão nas escolas, modelo diferente da gestão disciplinar por militares."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -219,6 +730,43 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 70,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Propõe a Escola 18h com jornada ampliada, sem foco em ciência, tecnologia e matemática."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p40",
+            "p63"
+          ],
+          "justificativa": "Propõe ampliar o ensino integral para 100% das escolas estaduais até 2030, sem foco declarado em ciência, tecnologia e matemática."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 70,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Propõe 30 CIEPs em tempo integral no primeiro ano, sem foco em ciência, tecnologia e matemática."
         }
       },
       "c": {
@@ -230,6 +778,43 @@
           "justificativa": "Propõe diagnóstico e reforço de português e matemática no contraturno."
         },
         "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 65,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Inclui reforço acadêmico na jornada ampliada da Escola 18h, sem diagnóstico de aprendizagem nem foco em português e matemática."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p22",
+            "p26"
+          ],
+          "justificativa": "Propõe o Professor Formador nas regiões de pior Ideb e escolas abertas nos fins de semana com eixo de aprendizagem, sem reforço no contraturno."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 40,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe erradicar o analfabetismo completo e funcional em um ano, sem mencionar diagnóstico ou reforço no contraturno."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -250,6 +835,43 @@
             "p35"
           ],
           "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio."
+        },
+        "andre-marinho": {
+          "nota": 90,
+          "evidencias": [
+            "p43",
+            "p45"
+          ],
+          "justificativa": "Propõe aprendizagem dual para jovens de 15 a 18 anos e itinerários técnicos integrados ao currículo."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 50,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Defende aumento de recursos para a Faetec, sem propor levar o ensino técnico ao ensino médio estadual."
+        },
+        "juliete-pantoja": {
+          "nota": 60,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe ampliar a rede de escolas técnicas estaduais com livre acesso para alunos da rede pública, sem levar o ensino técnico para dentro das escolas de ensino médio."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -272,6 +894,56 @@
             "p30"
           ],
           "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p4",
+            "p5",
+            "p1"
+          ],
+          "justificativa": "Propõe retomar territórios dominados pelo crime, mas define a redução da letalidade violenta como meta-âncora do plano."
+        },
+        "coronel-busnello": {
+          "nota": 85,
+          "evidencias": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe retomada de territórios em três fases como eixo da segurança, com pilotos na Baixada, Capital e São Gonçalo."
+        },
+        "cyro-garcia": {
+          "nota": 5,
+          "evidencias": [
+            "p41",
+            "p18"
+          ],
+          "justificativa": "Declara-se contrário às operações policiais em favelas e às UPPs."
+        },
+        "juliete-pantoja": {
+          "nota": 10,
+          "evidencias": [
+            "p25",
+            "p60"
+          ],
+          "justificativa": "Propõe suspender e acabar com as operações policiais nas favelas."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p27",
+            "p32"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar, item do programa nacional, e diz não acreditar que as polícias resolvam a segurança."
+        },
+        "william-siri": {
+          "nota": 50,
+          "evidencias": [
+            "p4",
+            "p1"
+          ],
+          "justificativa": "Diz que retomará os territórios, mas prioriza inteligência, investigação e redução da letalidade conforme a ADPF das Favelas."
         }
       },
       "b": {
@@ -289,6 +961,55 @@
             "p9"
           ],
           "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+        },
+        "andre-marinho": {
+          "nota": 55,
+          "evidencias": [
+            "p6",
+            "p12"
+          ],
+          "justificativa": "Propõe inteligência patrimonial e intercâmbio de inteligência contra facções, sem definir prender como objetivo das operações."
+        },
+        "coronel-busnello": {
+          "nota": 65,
+          "evidencias": [
+            "p4",
+            "p9"
+          ],
+          "justificativa": "Propõe asfixia financeira e inteligência como primeira fase da retomada, sem definir a prisão como objetivo das operações."
+        },
+        "cyro-garcia": {
+          "nota": 65,
+          "evidencias": [
+            "p39",
+            "p44"
+          ],
+          "justificativa": "Propõe investigação com inteligência sobre quem financia o crime, mas se opõe às operações em favelas."
+        },
+        "juliete-pantoja": {
+          "nota": 90,
+          "evidencias": [
+            "p18",
+            "p65",
+            "p23"
+          ],
+          "justificativa": "Propõe substituir as operações violentas por ações de inteligência e atuar para prender criminosos de alta periculosidade."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p32",
+            "p27"
+          ],
+          "justificativa": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende dissolver a PM, item do programa nacional."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p1",
+            "p10"
+          ],
+          "justificativa": "Propõe priorizar inteligência e investigação nas operações e combater o financiamento do crime organizado."
         }
       },
       "c": {
@@ -306,6 +1027,52 @@
             "p31"
           ],
           "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe base policial 24 horas permanente e serviços públicos em cada território retomado."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe Unidade de Controle Territorial permanente com policiamento e serviços sociais em cada território retomado."
+        },
+        "cyro-garcia": {
+          "nota": 10,
+          "evidencias": [
+            "p18",
+            "p41"
+          ],
+          "justificativa": "Declara-se contrário às UPPs, ao programa Cidade Integrada e às operações em favelas."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p25",
+            "p60"
+          ],
+          "justificativa": "Propõe acabar com as operações nas favelas, sem proposta de presença permanente do Estado após operações."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p33",
+            "p32"
+          ],
+          "justificativa": "Defende substituir o controle do Estado pela segurança de bairro e pelo armamento da população."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p4"
+          ],
+          "justificativa": "Diz que retomará territórios com planejamento e oferta de serviços como saneamento e cultura."
         }
       },
       "d": {
@@ -323,6 +1090,54 @@
             "p32"
           ],
           "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
+        },
+        "andre-marinho": {
+          "nota": 40,
+          "evidencias": [
+            "p1"
+          ],
+          "justificativa": "Fixa meta de reduzir a letalidade violenta em geral, sem proposta específica sobre mortes em intervenções policiais."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Diz que sua política não será de tiro, porrada e bomba, sem propor indicador de redução de letalidade."
+        },
+        "cyro-garcia": {
+          "nota": 90,
+          "evidencias": [
+            "p42",
+            "p19"
+          ],
+          "justificativa": "Promete câmeras corporais obrigatórias e divulgação de indicadores de letalidade policial."
+        },
+        "juliete-pantoja": {
+          "nota": 80,
+          "evidencias": [
+            "p17",
+            "p18",
+            "p25"
+          ],
+          "justificativa": "Propõe formação policial com foco em não letalidade, fim das operações violentas e câmeras nos uniformes, sem mencionar indicador de mortes por intervenção."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p27",
+            "p31"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar e o aparato repressivo, item do programa nacional, sem proposta sobre a letalidade das operações."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p1",
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe redução da letalidade conforme a ADPF das Favelas e proibição de disparos a partir de helicópteros."
         }
       }
     },
@@ -337,6 +1152,41 @@
           "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
         },
         "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p27",
+            "p32"
+          ],
+          "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -359,6 +1209,51 @@
             "p36"
           ],
           "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p13"
+          ],
+          "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico e tirar agentes de escoltas para o patrulhamento, sem mencionar concursos."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p2"
+          ],
+          "justificativa": "Propõe convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano."
+        },
+        "cyro-garcia": {
+          "nota": 60,
+          "evidencias": [
+            "p43",
+            "p40"
+          ],
+          "justificativa": "Defende recompor efetivos com concursos, mas numa polícia única desmilitarizada."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p16",
+            "p67"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo da PM."
+        },
+        "luan-monteiro": {
+          "nota": 0,
+          "evidencias": [
+            "p27",
+            "p31"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+        },
+        "william-siri": {
+          "nota": 40,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
         }
       },
       "c": {
@@ -373,6 +1268,45 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 50,
+          "evidencias": [
+            "p44"
+          ],
+          "justificativa": "Defende fortalecer a investigação e a perícia, sem citar a receptação de celulares."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p18",
+            "p65"
+          ],
+          "justificativa": "Propõe ações de inteligência contra lavagem de dinheiro e entrada de armas e drogas, sem mencionar a receptação de celulares."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Diz não acreditar que a Polícia Militar e a Polícia Civil tenham condições de resolver a segurança."
+        },
+        "william-siri": {
+          "nota": 75,
+          "evidencias": [
+            "p11"
+          ],
+          "justificativa": "Propõe programa estadual de recuperação de celulares roubados por rastreamento de IMEI, sem mencionar investigação da receptação."
         }
       },
       "d": {
@@ -389,6 +1323,42 @@
             "p10"
           ],
           "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        },
+        "andre-marinho": {
+          "nota": 80,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe centro de comando unificado com reconhecimento facial, leitura de placas e integração ao monitoramento municipal."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -408,6 +1378,38 @@
             "p86"
           ],
           "justificativa": "Propõe tornozeleira com alerta sonoro à vítima e à polícia."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 50,
+          "evidencias": [
+            "p55"
+          ],
+          "justificativa": "Propõe botão de socorro silencioso no app 190 para mulheres com medida protetiva, e não monitoramento do agressor."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "b": {
@@ -424,6 +1426,43 @@
             "p19"
           ],
           "justificativa": "Propõe novas delegacias da mulher 24 horas, inclusive no interior."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 45,
+          "evidencias": [
+            "p55"
+          ],
+          "justificativa": "Propõe comando especializado da Patrulha Maria da Penha, sem mencionar delegacias da mulher 24 horas."
+        },
+        "cyro-garcia": {
+          "nota": 95,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Defende delegacias especializadas funcionando 24 horas."
+        },
+        "juliete-pantoja": {
+          "nota": 95,
+          "evidencias": [
+            "p67",
+            "p63"
+          ],
+          "justificativa": "Propõe ampliar as delegacias da mulher com funcionamento 24 horas."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "c": {
@@ -440,6 +1479,43 @@
             "p20"
           ],
           "justificativa": "Propõe acolhimento, apoio jurídico e psicológico, auxílio de transição e abrigos sigilosos."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 65,
+          "evidencias": [
+            "p55"
+          ],
+          "justificativa": "Propõe auxílio-moradia emergencial de R$ 1.000 por três meses para mulheres que precisem deixar o lar."
+        },
+        "cyro-garcia": {
+          "nota": 85,
+          "evidencias": [
+            "p26",
+            "p4"
+          ],
+          "justificativa": "Defende casas-abrigo para mulheres vítimas de violência."
+        },
+        "juliete-pantoja": {
+          "nota": 90,
+          "evidencias": [
+            "p53"
+          ],
+          "justificativa": "Propõe rede de casas-abrigo para mulheres em situação de violência com apoio multiprofissional."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -459,6 +1535,42 @@
             "p54"
           ],
           "justificativa": "Propõe continuidade da contenção de encostas e monitoramento de riscos geológicos."
+        },
+        "andre-marinho": {
+          "nota": 85,
+          "evidencias": [
+            "p48"
+          ],
+          "justificativa": "Propõe macroprojetos de drenagem e contenção de encostas associados ao programa habitacional para áreas de risco."
+        },
+        "coronel-busnello": {
+          "nota": 50,
+          "evidencias": [
+            "p54"
+          ],
+          "justificativa": "Propõe reflorestamento de encostas, sem mencionar obras de macrodrenagem."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 45,
+          "evidencias": [
+            "p24"
+          ],
+          "justificativa": "Propõe infraestrutura verde para reduzir enchentes, e não obras estruturais de macrodrenagem e contenção de encostas."
         }
       },
       "b": {
@@ -470,6 +1582,39 @@
           "justificativa": "Propõe cronograma anual e público de limpeza de canais."
         },
         "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p48",
+            "p49"
+          ],
+          "justificativa": "Propõe desassoreamento de rios e calhas e ecobarreiras em canais, sem cronograma anual e público de limpeza."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -489,6 +1634,38 @@
             "p76"
           ],
           "justificativa": "Propõe centros de operações regionais com sirenes e radares."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p54"
+          ],
+          "justificativa": "Propõe alertas automáticos por Cell Broadcast apoiados por modelos meteorológicos."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -505,6 +1682,46 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p1"
+          ],
+          "justificativa": "Propõe isentar desempregados da tarifa de água, sem mencionar revisão dos aumentos da concessão."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p3",
+            "p2"
+          ],
+          "justificativa": "Propõe reduzir imediatamente as tarifas de água e esgoto e anular a privatização da Cedae."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p36",
+            "p4"
+          ],
+          "justificativa": "Defende recuperar a Cedae e, em item do programa nacional, proibir cortes de água para desempregados, sem mencionar revisão de tarifas."
+        },
+        "william-siri": {
+          "nota": 70,
+          "evidencias": [
+            "p21"
+          ],
+          "justificativa": "Propõe auditoria dos contratos da concessão para apurar cobranças abusivas, sem mencionar revisão de reajustes."
         }
       },
       "b": {
@@ -521,6 +1738,51 @@
             "p74"
           ],
           "justificativa": "Propõe auditar os contratos de concessão."
+        },
+        "andre-marinho": {
+          "nota": 90,
+          "evidencias": [
+            "p50",
+            "p51"
+          ],
+          "justificativa": "Propõe ampliar e fiscalizar as metas de coleta e tratamento de esgoto e fortalecer a fiscalização das concessionárias."
+        },
+        "coronel-busnello": {
+          "nota": 65,
+          "evidencias": [
+            "p52"
+          ],
+          "justificativa": "Propõe protocolo com as concessionárias para retomar obras de saneamento paralisadas e conselho de vigilância da água."
+        },
+        "cyro-garcia": {
+          "nota": 60,
+          "evidencias": [
+            "p22"
+          ],
+          "justificativa": "Defende universalizar o saneamento e acabar com o despejo de esgoto sem tratamento, sem citar fiscalização de metas contratuais."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p2",
+            "p33"
+          ],
+          "justificativa": "Propõe anular a privatização da Cedae e universalizar o saneamento, em vez de fiscalizar as metas da concessão."
+        },
+        "luan-monteiro": {
+          "nota": 20,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Defende recuperar a Cedae e reestatizar os serviços, em vez de fiscalizar as metas da concessão."
+        },
+        "william-siri": {
+          "nota": 65,
+          "evidencias": [
+            "p21",
+            "p22"
+          ],
+          "justificativa": "Propõe fortalecer a Agenersa para auditar o descumprimento de metas, com o objetivo de reestatizar a Cedae."
         }
       },
       "c": {
@@ -537,6 +1799,49 @@
             "p74"
           ],
           "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p50",
+            "p51"
+          ],
+          "justificativa": "Propõe fiscalizar as metas em articulação com a concessionária, sem mencionar rescisão de contratos."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 60,
+          "evidencias": [
+            "p50",
+            "p22"
+          ],
+          "justificativa": "Defende reestatizar empresas privatizadas e estatizar as que descumprirem normas ambientais, sem citar a concessão de saneamento."
+        },
+        "juliete-pantoja": {
+          "nota": 70,
+          "evidencias": [
+            "p2"
+          ],
+          "justificativa": "Propõe auditar e anular a privatização da Cedae, sem condicionar a medida ao descumprimento de metas."
+        },
+        "luan-monteiro": {
+          "nota": 70,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Defende recuperar a Cedae, sem condicionar a medida ao descumprimento de metas."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p21",
+            "p22"
+          ],
+          "justificativa": "Propõe auditar descumprimento de metas e entrar com processo para reestatizar a Cedae."
         }
       }
     },
@@ -556,6 +1861,41 @@
             "p9"
           ],
           "justificativa": "Propõe qualificação profissional contínua e ensino técnico, sem programa de primeiro emprego."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p43",
+            "p44"
+          ],
+          "justificativa": "Propõe o Aprendiz Rio, com aprendizagem dual e salário cofinanciado pelo Estado e pela empresa."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sem mencionar aprendizagem técnica ou incentivo à contratação."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "b": {
@@ -573,6 +1913,56 @@
             "p65"
           ],
           "justificativa": "Propõe usar ICMS e outros instrumentos para atrair indústria naval e refino, com contrapartida de emprego."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p35",
+            "p36"
+          ],
+          "justificativa": "Propõe áreas econômicas ao longo do Arco Metropolitano e balcão único de investimentos, sem mencionar indústria naval."
+        },
+        "coronel-busnello": {
+          "nota": 85,
+          "evidencias": [
+            "p39",
+            "p42",
+            "p43"
+          ],
+          "justificativa": "Propõe reindustrializar o estado com polos industriais e incentivos de ICMS, sem citar a indústria naval."
+        },
+        "cyro-garcia": {
+          "nota": 25,
+          "evidencias": [
+            "p36",
+            "p29"
+          ],
+          "justificativa": "Defende reindustrializar o estado, mas propõe acabar com as isenções fiscais a grandes empresas."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p10",
+            "p5"
+          ],
+          "justificativa": "Defende a retomada da construção naval no estado, mas propõe rever as isenções fiscais a grandes empresas."
+        },
+        "luan-monteiro": {
+          "nota": 55,
+          "evidencias": [
+            "p34",
+            "p35"
+          ],
+          "justificativa": "Aponta a reindustrialização como prioridade e defende explorar o petróleo para gerar empregos, sem mencionar incentivos estaduais."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p27",
+            "p28",
+            "p29"
+          ],
+          "justificativa": "Propõe banco estadual de desenvolvimento, complexos produtivos e renúncias fiscais voltadas à reindustrialização, sem mencionar indústria naval."
         }
       },
       "c": {
@@ -590,6 +1980,55 @@
             "p11"
           ],
           "justificativa": "Atribui a geração de emprego ao setor privado, mas propõe papel ativo do estado na atração de investimentos e na qualificação."
+        },
+        "andre-marinho": {
+          "nota": 30,
+          "evidencias": [
+            "p28",
+            "p35",
+            "p43"
+          ],
+          "justificativa": "Propõe papel ativo do Estado na geração de empregos, com metas de postos de trabalho, polos econômicos e aprendizagem cofinanciada."
+        },
+        "coronel-busnello": {
+          "nota": 20,
+          "evidencias": [
+            "p42",
+            "p43"
+          ],
+          "justificativa": "Defende atrair investimentos por renúncias fiscais ou investimento do próprio Estado para reindustrializar."
+        },
+        "cyro-garcia": {
+          "nota": 5,
+          "evidencias": [
+            "p4",
+            "p36"
+          ],
+          "justificativa": "Propõe plano de obras públicas e complexos industriais para gerar emprego."
+        },
+        "juliete-pantoja": {
+          "nota": 5,
+          "evidencias": [
+            "p6",
+            "p7"
+          ],
+          "justificativa": "Propõe frentes emergenciais de trabalho e a EMOP como eixo da construção civil, com o Estado gerando emprego diretamente."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p35",
+            "p34"
+          ],
+          "justificativa": "Defende que o Estado explore o petróleo para gerar empregos e priorize a reindustrialização."
+        },
+        "william-siri": {
+          "nota": 5,
+          "evidencias": [
+            "p27",
+            "p28"
+          ],
+          "justificativa": "Propõe papel ativo do Estado na geração de empregos, com banco público de fomento e reindustrialização."
         }
       },
       "d": {
@@ -606,6 +2045,36 @@
             "p69"
           ],
           "justificativa": "Propõe benefícios de tributos para motos de até 180 cilindradas."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -624,6 +2093,51 @@
             "p18"
           ],
           "justificativa": "Propõe reequilibrar as contas com responsabilidade fiscal, sem mencionar teto de gastos."
+        },
+        "andre-marinho": {
+          "nota": 50,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Compromete-se a cumprir as metas do Propag, sem propor teto de gastos."
+        },
+        "coronel-busnello": {
+          "nota": 70,
+          "evidencias": [
+            "p57"
+          ],
+          "justificativa": "Propõe gatilho automático de contenção quando a despesa de pessoal passar de 49% da receita corrente líquida."
+        },
+        "cyro-garcia": {
+          "nota": 5,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Defende revogar mecanismos que limitam gastos sociais."
+        },
+        "juliete-pantoja": {
+          "nota": 20,
+          "evidencias": [
+            "p27",
+            "p61",
+            "p1"
+          ],
+          "justificativa": "Propõe recompor o orçamento da saúde, ampliar o investimento direto do Estado e suspender a dívida, sem mencionar limite para a despesa."
+        },
+        "luan-monteiro": {
+          "nota": 0,
+          "evidencias": [
+            "p13"
+          ],
+          "justificativa": "Item do programa nacional defende o fim do teto de gastos e da Lei de Responsabilidade Fiscal."
+        },
+        "william-siri": {
+          "nota": 10,
+          "evidencias": [
+            "p25",
+            "p26"
+          ],
+          "justificativa": "Declara rejeitar políticas de austeridade fiscal e defende cumprir o Propag sem novas medidas de austeridade."
         }
       },
       "b": {
@@ -642,6 +2156,55 @@
             "p81"
           ],
           "justificativa": "Propõe punir cargos fantasmas e dar transparência às obras, sem mencionar auditoria geral de contratos."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p60",
+            "p61",
+            "p62"
+          ],
+          "justificativa": "Propõe auditoria forense de todas as secretarias e estatais, lei de compliance em contratos e controladoria independente."
+        },
+        "coronel-busnello": {
+          "nota": 75,
+          "evidencias": [
+            "p59",
+            "p58"
+          ],
+          "justificativa": "Propõe política de integridade nas contratações e auditoria cruzada contínua da folha."
+        },
+        "cyro-garcia": {
+          "nota": 70,
+          "evidencias": [
+            "p8",
+            "p29",
+            "p33"
+          ],
+          "justificativa": "Propõe auditoria pública das concessões e das isenções fiscais e fiscalização por conselhos populares."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p26",
+            "p5",
+            "p1",
+            "p66"
+          ],
+          "justificativa": "Propõe auditar contratos com Organizações Sociais, grandes devedores e a dívida pública e confiscar bens de corrupção, sem mencionar auditoria de todos os contratos ou secretaria de integridade."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 65,
+          "evidencias": [
+            "p35",
+            "p54"
+          ],
+          "justificativa": "Propõe auditar os contratos de terceirização da saúde e as operações do Rioprevidência, sem auditoria geral nem secretaria de integridade."
         }
       },
       "c": {
@@ -657,6 +2220,56 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p33",
+            "p58"
+          ],
+          "justificativa": "Propõe desestatizar estatais deficitárias e uma lei de eficiência na gestão, sem mencionar corte de cargos."
+        },
+        "coronel-busnello": {
+          "nota": 75,
+          "evidencias": [
+            "p56"
+          ],
+          "justificativa": "Propõe revisão técnica das secretarias com fusão das pastas de missão sobreposta."
+        },
+        "cyro-garcia": {
+          "nota": 15,
+          "evidencias": [
+            "p3",
+            "p16"
+          ],
+          "justificativa": "Propõe efetivar terceirizados e realizar concursos imediatos."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p27",
+            "p30",
+            "p38"
+          ],
+          "justificativa": "Propõe concursos e contratação direta de pessoal hoje terceirizado, em direção oposta ao corte de cargos."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p12",
+            "p14",
+            "p15"
+          ],
+          "justificativa": "Itens do programa nacional defendem concursos periódicos, estabilidade dos servidores e fim das terceirizações."
+        },
+        "william-siri": {
+          "nota": 55,
+          "evidencias": [
+            "p51",
+            "p52",
+            "p26"
+          ],
+          "justificativa": "Propõe reduzir cargos em comissão e o número de secretarias, mas rejeita políticas de austeridade fiscal."
         }
       }
     },
@@ -678,6 +2291,51 @@
             "p43"
           ],
           "justificativa": "Defende buscar recursos federais ou PPP para a Linha 3, mas diz que a obra não se conclui em um mandato."
+        },
+        "andre-marinho": {
+          "nota": 55,
+          "evidencias": [
+            "p22",
+            "p23",
+            "p24"
+          ],
+          "justificativa": "O plano apoia a Linha 3 até Niterói e São Gonçalo, mas em campanha propôs a Linha Azul pela Ponte Rio-Niterói, e não prevê metrô na Baixada."
+        },
+        "coronel-busnello": {
+          "nota": 90,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Propõe estender a Linha 2 até Niterói e depois a Linha 3 até São Gonçalo."
+        },
+        "cyro-garcia": {
+          "nota": 90,
+          "evidencias": [
+            "p51",
+            "p8"
+          ],
+          "justificativa": "Defende levar o metrô a São Gonçalo e à Zona Oeste e ampliar a malha metroferroviária."
+        },
+        "juliete-pantoja": {
+          "nota": 95,
+          "evidencias": [
+            "p52",
+            "p51"
+          ],
+          "justificativa": "Propõe levar o metrô à Baixada Fluminense, a Niterói e a São Gonçalo."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p18",
+            "p19"
+          ],
+          "justificativa": "Propõe estender a Linha 2 à Baixada e, no longo prazo, a Linha 3 até Itaboraí."
         }
       },
       "b": {
@@ -695,6 +2353,49 @@
             "p48"
           ],
           "justificativa": "Propõe novo corredor de alta capacidade com faixa exclusiva na Baixada."
+        },
+        "andre-marinho": {
+          "nota": 70,
+          "evidencias": [
+            "p15",
+            "p19"
+          ],
+          "justificativa": "Propõe um eixo de VLT/metrô leve atravessando cinco municípios da Baixada, integrado à rede metropolitana, em vez de BRT."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p35",
+            "p33"
+          ],
+          "justificativa": "Propõe BRT na Baixada integrado ao BRT da capital."
+        },
+        "cyro-garcia": {
+          "nota": 20,
+          "evidencias": [
+            "p51",
+            "p52"
+          ],
+          "justificativa": "Defende transformar o BRT em VLT e migrar do transporte rodoviário para o ferroviário."
+        },
+        "juliete-pantoja": {
+          "nota": 40,
+          "evidencias": [
+            "p52"
+          ],
+          "justificativa": "Propõe levar à Baixada Fluminense o metrô, e não corredores de BRT."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 50,
+          "evidencias": [
+            "p18"
+          ],
+          "justificativa": "Propõe levar o metrô à Baixada integrado aos demais modais, sem mencionar corredores de BRT."
         }
       },
       "c": {
@@ -711,6 +2412,41 @@
             "p49"
           ],
           "justificativa": "Propõe estender a Via Light até a Avenida Brasil e Cabuçu, com BRT."
+        },
+        "andre-marinho": {
+          "nota": 40,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Propõe conceder rodovias estaduais para melhorar as vias existentes, sem prever novas conexões entre vias expressas."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 15,
+          "evidencias": [
+            "p52",
+            "p24"
+          ],
+          "justificativa": "Defende trocar o modal rodoviário pelo ferroviário para reduzir a circulação de automóveis."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -725,6 +2461,41 @@
           "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
         },
         "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p27",
+            "p32"
+          ],
+          "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -747,6 +2518,51 @@
             "p36"
           ],
           "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p13"
+          ],
+          "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico e tirar agentes de escoltas para o patrulhamento, sem mencionar concursos."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p2"
+          ],
+          "justificativa": "Propõe convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano."
+        },
+        "cyro-garcia": {
+          "nota": 60,
+          "evidencias": [
+            "p43",
+            "p40"
+          ],
+          "justificativa": "Defende recompor efetivos com concursos, mas numa polícia única desmilitarizada."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p16",
+            "p67"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo da PM."
+        },
+        "luan-monteiro": {
+          "nota": 0,
+          "evidencias": [
+            "p27",
+            "p31"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+        },
+        "william-siri": {
+          "nota": 40,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
         }
       },
       "c": {
@@ -761,6 +2577,45 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 50,
+          "evidencias": [
+            "p44"
+          ],
+          "justificativa": "Defende fortalecer a investigação e a perícia, sem citar quadrilhas de receptação."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p18",
+            "p65"
+          ],
+          "justificativa": "Propõe ações de inteligência contra lavagem de dinheiro e entrada de armas e drogas, sem mencionar a receptação de bens roubados."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Diz não acreditar que a Polícia Militar e a Polícia Civil tenham condições de resolver a segurança."
+        },
+        "william-siri": {
+          "nota": 45,
+          "evidencias": [
+            "p11"
+          ],
+          "justificativa": "Propõe recuperação de celulares roubados por IMEI, sem proposta sobre receptação de outros bens roubados."
         }
       },
       "d": {
@@ -777,6 +2632,42 @@
             "p10"
           ],
           "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        },
+        "andre-marinho": {
+          "nota": 80,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe centro de comando unificado com leitura automática de placas, câmeras e integração ao monitoramento municipal."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -793,6 +2684,51 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 45,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Propõe recomposição salarial em três anos apenas para policiais, sem proposta para os demais servidores."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p21",
+            "p57"
+          ],
+          "justificativa": "Propõe adequar salários de professores ao piso nacional, mas também gatilho de contenção da despesa de pessoal."
+        },
+        "cyro-garcia": {
+          "nota": 70,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Defende priorizar no orçamento os salários dos servidores, sem citar recomposição anual."
+        },
+        "juliete-pantoja": {
+          "nota": 70,
+          "evidencias": [
+            "p30",
+            "p61"
+          ],
+          "justificativa": "Propõe aumentos anuais para os servidores da saúde e pagamento do piso em saúde e educação, sem estender a recomposição a todos os servidores."
+        },
+        "luan-monteiro": {
+          "nota": 75,
+          "evidencias": [
+            "p1"
+          ],
+          "justificativa": "Item do programa nacional defende repor integralmente as perdas salariais e dar aumento emergencial de 50% a todos os salários, sem periodicidade anual."
+        },
+        "william-siri": {
+          "nota": 95,
+          "evidencias": [
+            "p48",
+            "p49"
+          ],
+          "justificativa": "Propõe reajuste salarial anual dos servidores pelo IPCA, com data-base fixa."
         }
       },
       "b": {
@@ -809,6 +2745,42 @@
             "p38"
           ],
           "justificativa": "Propõe bonificação por resultado para professores, sem estender a todos os servidores."
+        },
+        "andre-marinho": {
+          "nota": 55,
+          "evidencias": [
+            "p58",
+            "p59"
+          ],
+          "justificativa": "Propõe indicadores públicos por secretaria e avaliação anual de gestores ligada à permanência no cargo, sem bonificação."
+        },
+        "coronel-busnello": {
+          "nota": 75,
+          "evidencias": [
+            "p23",
+            "p1"
+          ],
+          "justificativa": "Propõe bonificação por indicadores para professores e gestores escolares e progressão por mérito nas forças de segurança."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "c": {
@@ -823,6 +2795,42 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 45,
+          "evidencias": [
+            "p56",
+            "p57"
+          ],
+          "justificativa": "Propõe sanear o Rioprevidência com combate a fraudes e recadastramento, sem mencionar os ativos aplicados no Banco Master."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 55,
+          "evidencias": [
+            "p53",
+            "p54"
+          ],
+          "justificativa": "Propõe capitalizar o Rioprevidência e auditar suas operações de securitização, sem mencionar os ativos aplicados no Banco Master."
         }
       },
       "d": {
@@ -839,6 +2847,48 @@
             "p1"
           ],
           "justificativa": "Compromete-se a convocar excedentes de concursos das forças de segurança."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 80,
+          "evidencias": [
+            "p2"
+          ],
+          "justificativa": "Compromete-se a convocar aprovados em concursos da PM e da Polícia Civil."
+        },
+        "cyro-garcia": {
+          "nota": 95,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Defende a convocação imediata de todos os aprovados em concursos públicos."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p27",
+            "p38",
+            "p62"
+          ],
+          "justificativa": "Propõe novos concursos para saúde e educação, sem mencionar a convocação de excedentes."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro, sem mencionar a convocação de excedentes."
+        },
+        "william-siri": {
+          "nota": 95,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe convocar todos os aprovados em concursos vigentes antes de abrir novos."
         }
       }
     },
@@ -857,6 +2907,40 @@
             "p53"
           ],
           "justificativa": "Defende previsibilidade e menos burocracia, sem propor balcão único."
+        },
+        "andre-marinho": {
+          "nota": 85,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Promete criar um balcão único de investimentos para empresas e associações de classe."
+        },
+        "coronel-busnello": {
+          "nota": 90,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Propõe portal único digital para regimes especiais e licenças, com prazo máximo de 60 dias."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "b": {
@@ -868,6 +2952,36 @@
           "justificativa": "Afirma que o balcão regional terá autonomia para licenciar atividades de alto impacto."
         },
         "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -887,6 +3001,45 @@
             "p66"
           ],
           "justificativa": "Propõe balcão único para reduzir burocracia e dar previsibilidade."
+        },
+        "andre-marinho": {
+          "nota": 65,
+          "evidencias": [
+            "p36",
+            "p58"
+          ],
+          "justificativa": "Propõe balcão único para facilitar investimentos e lei de eficiência na gestão, sem tratar de estabilidade regulatória."
+        },
+        "coronel-busnello": {
+          "nota": 75,
+          "evidencias": [
+            "p41",
+            "p50"
+          ],
+          "justificativa": "Propõe prazo máximo de resposta para licenças e desburocratização da regularização fundiária."
+        },
+        "cyro-garcia": {
+          "nota": 20,
+          "evidencias": [
+            "p29",
+            "p24"
+          ],
+          "justificativa": "Propõe proibir remessa de lucros ao exterior e estatizar grandes empresas."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "d": {
@@ -901,6 +3054,48 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe auditar todas as renúncias fiscais e cortar as que não têm contrapartida, sem mencionar devolução."
+        },
+        "coronel-busnello": {
+          "nota": 45,
+          "evidencias": [
+            "p57",
+            "p39"
+          ],
+          "justificativa": "Propõe revisão periódica das renúncias fiscais e incentivo de ICMS a fertilizantes, sem contrapartida de emprego."
+        },
+        "cyro-garcia": {
+          "nota": 20,
+          "evidencias": [
+            "p29",
+            "p37"
+          ],
+          "justificativa": "Defende acabar com todas as isenções fiscais a grandes empresas, e não condicioná-las."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe rever as isenções fiscais a grandes empresas, sem mencionar contrapartidas de emprego."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 45,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe reorientar as renúncias fiscais para complexos industriais e pequenos negócios, sem contrapartida de emprego nem devolução."
         }
       }
     },
@@ -920,6 +3115,43 @@
             "p9"
           ],
           "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
+        },
+        "andre-marinho": {
+          "nota": 85,
+          "evidencias": [
+            "p45",
+            "p43"
+          ],
+          "justificativa": "Propõe integrar itinerários técnicos ao currículo das escolas cívico-militares e aprendizagem dual para jovens de 15 a 18 anos."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 45,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Defende aumento de recursos para a Faetec, sem propor ensino técnico nas escolas estaduais."
+        },
+        "juliete-pantoja": {
+          "nota": 50,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe ampliar a rede de escolas técnicas estaduais com livre acesso para alunos da rede pública, sem levar o ensino técnico para as escolas desde o início do ensino médio."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "b": {
@@ -937,6 +3169,39 @@
             "p35"
           ],
           "justificativa": "Propõe qualificação profissional nas escolas, sem mencionar vínculo com a economia regional."
+        },
+        "andre-marinho": {
+          "nota": 60,
+          "evidencias": [
+            "p43",
+            "p44"
+          ],
+          "justificativa": "Propõe aprendizagem dual em empresas com mais vagas na Baixada, sem mencionar alinhamento às vocações econômicas regionais."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "c": {
@@ -953,6 +3218,41 @@
             "p12"
           ],
           "justificativa": "Propõe qualificação profissional contínua, sem programa de primeiro emprego."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p43",
+            "p44"
+          ],
+          "justificativa": "Propõe o Aprendiz Rio, com contrato de aprendizagem e salário cofinanciado pelo Estado e pela empresa."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sem mencionar aprendizagem ou incentivo à contratação."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       },
       "d": {
@@ -968,6 +3268,43 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": 70,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Propõe a Escola 18h com jornada ampliada, sem foco em ciência, tecnologia e matemática."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p40",
+            "p63"
+          ],
+          "justificativa": "Propõe ampliar o ensino integral para 100% das escolas estaduais até 2030, sem foco declarado em ciência, tecnologia e matemática."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 70,
+          "evidencias": [
+            "p36"
+          ],
+          "justificativa": "Propõe 30 CIEPs em tempo integral no primeiro ano, sem foco em ciência, tecnologia e matemática."
         }
       }
     },
@@ -988,6 +3325,53 @@
             "p36"
           ],
           "justificativa": "Propõe redistribuir e ampliar o efetivo e devolver às ruas policiais cedidos a gabinetes."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p13",
+            "p5"
+          ],
+          "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico no patrulhamento e bases policiais permanentes nos territórios retomados."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p2",
+            "p8"
+          ],
+          "justificativa": "Propõe formar 3.500 agentes por ano e expandir o Segurança Presente com base fixa e patrulhamento a pé."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p43",
+            "p18"
+          ],
+          "justificativa": "Defende recompor efetivos, mas propõe desmilitarizar a PM e unificar as polícias."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p16",
+            "p67"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e concursos apenas para as delegacias da mulher, sem proposta de ampliar o efetivo ou a presença da PM."
+        },
+        "luan-monteiro": {
+          "nota": 0,
+          "evidencias": [
+            "p27",
+            "p31"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+        },
+        "william-siri": {
+          "nota": 40,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
         }
       },
       "b": {
@@ -1000,6 +3384,41 @@
           "justificativa": "Propõe guardas municipais armadas integradas à PM no policiamento ostensivo."
         },
         "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Propõe desmilitarizar as polícias e as guardas municipais, sem prever guardas armadas no policiamento ostensivo."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p27",
+            "p32"
+          ],
+          "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+        },
+        "william-siri": {
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
@@ -1022,6 +3441,55 @@
             "p30"
           ],
           "justificativa": "Propõe retomar territórios dominados, começando pelo Complexo do Salgueiro."
+        },
+        "andre-marinho": {
+          "nota": 90,
+          "evidencias": [
+            "p4",
+            "p5"
+          ],
+          "justificativa": "Propõe retomar 20 territórios dominados pelo crime até 2030, com ocupação permanente."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p4",
+            "p6"
+          ],
+          "justificativa": "Propõe retomada de territórios dominados por facções em três fases."
+        },
+        "cyro-garcia": {
+          "nota": 10,
+          "evidencias": [
+            "p41",
+            "p39"
+          ],
+          "justificativa": "Declara-se contrário às operações em favelas e prioriza investigar os financiadores do crime."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p24",
+            "p65",
+            "p25"
+          ],
+          "justificativa": "Propõe enfrentar milícias e facções com inteligência e acabar com as operações nas favelas, sem priorizar a retomada de territórios."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p32",
+            "p33"
+          ],
+          "justificativa": "Defende segurança de bairro e armamento da população em lugar da ação das polícias."
+        },
+        "william-siri": {
+          "nota": 60,
+          "evidencias": [
+            "p4",
+            "p1"
+          ],
+          "justificativa": "Diz que retomará os territórios, com prioridade a inteligência e redução da letalidade conforme a ADPF das Favelas."
         }
       },
       "d": {
@@ -1038,6 +3506,42 @@
             "p10"
           ],
           "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        },
+        "andre-marinho": {
+          "nota": 80,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe centro de comando unificado com reconhecimento facial e câmeras integradas às polícias."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -1060,6 +3564,56 @@
             "p30"
           ],
           "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p4",
+            "p5",
+            "p1"
+          ],
+          "justificativa": "Propõe retomar territórios dominados pelo crime, mas define a redução da letalidade violenta como meta-âncora do plano."
+        },
+        "coronel-busnello": {
+          "nota": 85,
+          "evidencias": [
+            "p4",
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe retomada de territórios em três fases como eixo da segurança, com pilotos na Baixada, Capital e São Gonçalo."
+        },
+        "cyro-garcia": {
+          "nota": 5,
+          "evidencias": [
+            "p41",
+            "p18"
+          ],
+          "justificativa": "Declara-se contrário às operações policiais em favelas e às UPPs."
+        },
+        "juliete-pantoja": {
+          "nota": 10,
+          "evidencias": [
+            "p25",
+            "p60"
+          ],
+          "justificativa": "Propõe suspender e acabar com as operações policiais nas favelas."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p27",
+            "p32"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar, item do programa nacional, e diz não acreditar que as polícias resolvam a segurança."
+        },
+        "william-siri": {
+          "nota": 50,
+          "evidencias": [
+            "p4",
+            "p1"
+          ],
+          "justificativa": "Diz que retomará os territórios, mas prioriza inteligência, investigação e redução da letalidade conforme a ADPF das Favelas."
         }
       },
       "b": {
@@ -1077,6 +3631,55 @@
             "p9"
           ],
           "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+        },
+        "andre-marinho": {
+          "nota": 55,
+          "evidencias": [
+            "p6",
+            "p12"
+          ],
+          "justificativa": "Propõe inteligência patrimonial e intercâmbio de inteligência contra facções, sem definir prender como objetivo das operações."
+        },
+        "coronel-busnello": {
+          "nota": 65,
+          "evidencias": [
+            "p4",
+            "p9"
+          ],
+          "justificativa": "Propõe asfixia financeira e inteligência como primeira fase da retomada, sem definir a prisão como objetivo das operações."
+        },
+        "cyro-garcia": {
+          "nota": 65,
+          "evidencias": [
+            "p39",
+            "p44"
+          ],
+          "justificativa": "Propõe investigação com inteligência sobre quem financia o crime, mas se opõe às operações em favelas."
+        },
+        "juliete-pantoja": {
+          "nota": 90,
+          "evidencias": [
+            "p18",
+            "p65",
+            "p23"
+          ],
+          "justificativa": "Propõe substituir as operações violentas por ações de inteligência e atuar para prender criminosos de alta periculosidade."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p32",
+            "p27"
+          ],
+          "justificativa": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende dissolver a PM, item do programa nacional."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p1",
+            "p10"
+          ],
+          "justificativa": "Propõe priorizar inteligência e investigação nas operações e combater o financiamento do crime organizado."
         }
       },
       "c": {
@@ -1094,6 +3697,52 @@
             "p31"
           ],
           "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+        },
+        "andre-marinho": {
+          "nota": 95,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Propõe base policial 24 horas permanente e serviços públicos em cada território retomado."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe Unidade de Controle Territorial permanente com policiamento e serviços sociais em cada território retomado."
+        },
+        "cyro-garcia": {
+          "nota": 10,
+          "evidencias": [
+            "p18",
+            "p41"
+          ],
+          "justificativa": "Declara-se contrário às UPPs, ao programa Cidade Integrada e às operações em favelas."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p25",
+            "p60"
+          ],
+          "justificativa": "Propõe acabar com as operações nas favelas, sem proposta de presença permanente do Estado após operações."
+        },
+        "luan-monteiro": {
+          "nota": 10,
+          "evidencias": [
+            "p33",
+            "p32"
+          ],
+          "justificativa": "Defende substituir o controle do Estado pela segurança de bairro e pelo armamento da população."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p4"
+          ],
+          "justificativa": "Diz que retomará territórios com planejamento e oferta de serviços como saneamento e cultura."
         }
       },
       "d": {
@@ -1111,6 +3760,54 @@
             "p32"
           ],
           "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
+        },
+        "andre-marinho": {
+          "nota": 40,
+          "evidencias": [
+            "p1"
+          ],
+          "justificativa": "Fixa meta de reduzir a letalidade violenta em geral, sem proposta específica sobre mortes em intervenções policiais."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p46"
+          ],
+          "justificativa": "Diz que sua política não será de tiro, porrada e bomba, sem propor indicador de redução de letalidade."
+        },
+        "cyro-garcia": {
+          "nota": 90,
+          "evidencias": [
+            "p42",
+            "p19"
+          ],
+          "justificativa": "Promete câmeras corporais obrigatórias e divulgação de indicadores de letalidade policial."
+        },
+        "juliete-pantoja": {
+          "nota": 80,
+          "evidencias": [
+            "p17",
+            "p18",
+            "p25"
+          ],
+          "justificativa": "Propõe formação policial com foco em não letalidade, fim das operações violentas e câmeras nos uniformes, sem mencionar indicador de mortes por intervenção."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p27",
+            "p31"
+          ],
+          "justificativa": "Defende dissolver a Polícia Militar e o aparato repressivo, item do programa nacional, sem proposta sobre a letalidade das operações."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p1",
+            "p5",
+            "p6"
+          ],
+          "justificativa": "Propõe redução da letalidade conforme a ADPF das Favelas e proibição de disparos a partir de helicópteros."
         }
       }
     }

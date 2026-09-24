@@ -5,8 +5,8 @@ import aderenciaPresJson from './aderencia-presidente.json'
 import evidenciasPresJson from './evidencias-presidente.json'
 import quizPresJson from './quiz-presidente.json'
 import lula2022 from '../../pipeline/acompanhamento/lula-2022.json'
-import { candidatos, outrosCandidatos } from './candidatos'
-import { candidatosPresidente, outrosCandidatosPresidente } from './candidatos-presidente'
+import { candidatos, foraDoQuiz } from './candidatos'
+import { candidatosPresidente, foraDoQuizPresidente } from './candidatos-presidente'
 import type { Acompanhamento, Aderencia, Eleicao, Evidencias, Quiz } from '../types'
 
 export const quiz = quizJson as unknown as Quiz
@@ -19,7 +19,7 @@ export const governadorRJ: Eleicao = {
   aderencia,
   evidencias,
   candidatos,
-  foraDoQuiz: outrosCandidatos,
+  foraDoQuiz,
 }
 
 export const presidente: Eleicao = {
@@ -28,7 +28,7 @@ export const presidente: Eleicao = {
   aderencia: aderenciaPresJson as unknown as Aderencia,
   evidencias: evidenciasPresJson as unknown as Evidencias,
   candidatos: candidatosPresidente,
-  foraDoQuiz: outrosCandidatosPresidente,
+  foraDoQuiz: foraDoQuizPresidente,
 }
 
 export const eleicoes: Eleicao[] = [governadorRJ, presidente]

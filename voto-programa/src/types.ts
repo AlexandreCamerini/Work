@@ -155,6 +155,6 @@ export interface Eleicao {
   aderencia: Aderencia
   evidencias: Evidencias
   candidatos: Candidato[]
-  /** Candidatos oficializados que ainda não estão no quiz, listados por transparência. */
-  foraDoQuiz: string[]
+  /** Candidatos oficializados que não estão no quiz e por quê, listados por transparência. */
+  foraDoQuiz: { motivo: string; nomes: string[] }
 }

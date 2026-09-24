@@ -1,4 +1,1110 @@
 {
+  "andre-marinho": {
+    "p1": {
+      "resumo": "Fixa como meta-âncora do plano de segurança reduzir a letalidade violenta de cerca de 21 para 12 mortes por 100 mil habitantes.",
+      "trecho": "Meta-âncora: reduzir a letalidade de cerca de 21 para 12 mortes por 100 mil habitantes — patamar que outros estados já atingiram e ponto em que o retorno econômico (estimado em cerca de R$ 156 bilhões e ~700 mil postos de trabalho) se materializa (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p4": {
+      "resumo": "Promete retomar 20 territórios dominados pelo crime até 2030, um a cada 60 dias, na Capital, Baixada e Interior.",
+      "trecho": "O programa liberta 20 territórios até 2030, um a cada 60 dias, distribuídos entre Capital, Baixada e Interior.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p5": {
+      "resumo": "Cada território retomado receberia base policial 24 horas permanente, videomonitoramento com reconhecimento facial e serviços como iluminação, regularização de imóveis, UPA, creche e escola.",
+      "trecho": "Cada território retomado recebe, no mesmo ato, um pacote completo e permanente: base policial 24 horas que nunca mais sai, videomonitoramento com reconhecimento facial, e a infraestrutura urbana que o Estado devia há décadas — iluminação, asfalto, regularização de documento e de imóvel, internet pública, UPA, creche e escola.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p6": {
+      "resumo": "Propõe força-tarefa de inteligência patrimonial ('Operação Asfixia') para congelar e confiscar bens de facções e milícias, com investimento de R$ 0,8 a 1,2 bilhão e projeção de recuperar R$ 15 a 25 bilhões em quatro anos.",
+      "trecho": "Investindo de R$ 0,8 a 1,2 bilhão, a projeção é recuperar de R$ 15 a 25 bilhões em quatro anos — cada real investido voltando entre 12 e 30 ao cofre público.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p10": {
+      "resumo": "Propõe recomposição salarial em três anos para colocar o salário inicial do soldado entre os cinco melhores do país, adicional de risco por território e seguro-família para a família de policial morto em serviço.",
+      "trecho": "A face do abraço é o Escudo Azul: recomposição salarial em três anos para colocar o soldado entre os cinco melhores salários iniciais do país, adicional de risco indexado à periculosidade do território, e um seguro-família permanente — pensão integral, bolsa de estudo para os filhos e plano de saúde para a família do policial morto em serviço.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p12": {
+      "resumo": "Em sabatina, defendeu intercâmbio de inteligência e tecnologia entre as polícias fluminenses e agências dos EUA como DEA, FBI e CIA.",
+      "trecho": "A gente precisa se apoiar na maior potência militar, articulação e interlocução essa que eu vou estar colocando a disposição para esse intercâmbio inter-agências. O governador do estado pode fazer isso, ou seja, DEA, ATF, Homeland Security, FBI, CIA, ajudando nesse compartilhamento direto com as instâncias da Polícia Civil, da Polícia Militar",
+      "fonte": {
+        "veiculo": "SBT News",
+        "tipo": "entrevista",
+        "data": "2026-09-07",
+        "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/marinho-propoe-parceria-com-eua-contra-faccoes-no-rio"
+      }
+    },
+    "p13": {
+      "resumo": "Promete ampliar o Batalhão Tático Motociclístico da PM de 5 para 30 guarnições e tirar agentes de escoltas para o patrulhamento.",
+      "trecho": "Hoje são cinco guarnições a gente vai investir pesadamente para 30. Parar de apenas eles fazerem escolta de autoridade e escolta de carro forte e sim a escolta do povo",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/andre-marinho-propoe-ampliar-batalhao-tatico-motociclistico.ghtml"
+      }
+    },
+    "p15": {
+      "resumo": "Propõe um eixo de VLT/metrô leve de mais de 20 km e 22 estações atravessando cinco municípios da Baixada, via PPP.",
+      "trecho": "Implantar um eixo ferroviário de transporte de alta capacidade — VLT/Metrô Leve — de mais de 20 km com 22 estações, atravessando cinco municípios da Baixada, para funcionar como âncora estruturante do desenvolvimento ao longo do Arco do Mar à Montanha, corrigindo a exclusão histórica em mobilidade e organizando o adensamento urbano em torno do transporte.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p19": {
+      "resumo": "Propõe criar uma Autoridade Metropolitana de Mobilidade para integrar trem, metrô, ônibus, BRT, vans e barcas, repactuar concessões e implantar o Bilhete Único Metropolitano.",
+      "trecho": "Criar a Autoridade Metropolitana de Mobilidade, órgão estadual de comando único que planeje e integre trem, metrô, ônibus, BRT, vans e barcas, retome o controle dos dados do sistema, redesenhe as concessões com metas e fiscalização e implante o Bilhete Único Metropolitano de fato.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p20": {
+      "resumo": "Prevê Bilhete Único Metropolitano, aplicativo de informação em tempo real e passe livre para jovens em formação técnica.",
+      "trecho": "Bilhete Único Metropolitano, aplicativo estadual de informação em tempo real e Passe Livre para jovens em formação técnica.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p21": {
+      "resumo": "Prevê renovação de frota e requalificação de estações ferroviárias, começando por Senador Camará, Belford Roxo e Japeri.",
+      "trecho": "Renovação de frota e requalificação de estações ferroviárias, começando por Senador Camará, Belford Roxo e Japeri.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p22": {
+      "resumo": "O plano lista apoio à expansão do metrô, incluindo a Linha 3 (Praça XV–Niterói–São Gonçalo) com travessia da Baía.",
+      "trecho": "Apoio à expansão do Metrô, incluindo a Linha 3 (Praça XV–Niterói–São Gonçalo), de 21,7 km e 15 estações, com travessia da Baía (A Tribuna RJ).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p23": {
+      "resumo": "Em campanha, propôs a 'Linha Azul', metrô acoplado à Ponte Rio-Niterói ligando Niterói e São Gonçalo ao Rio.",
+      "trecho": "A gente vai oferecer para todo o povo de São Gonçalo, de Niterói a Linha Azul, baseada nos melhores modelos aí rodo-Ferroviários do planeta. Um trabalho arquitetonicamente muito sólido, onde serão dois metrôs ali acoplados na estrutura da própria ponte Rio-Niterói",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-10",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/10/andre-marinho-agenda-retomar-30-territorios-dominados-pelo-trafico.ghtml"
+      }
+    },
+    "p24": {
+      "resumo": "Em sabatina, defendeu concluir projetos de metrô já estudados, como o fim do compartilhamento de trilhos entre Linhas 1 e 2 e a extensão do Estácio à Praça XV.",
+      "trecho": "Na questão do metrô, terminar urgentemente projetos que já estão provisionados, já estão estudados e viabilizados tecnicamente. Ou seja, terminar o compartilhamento de trilhos entre a Linha 1 e a Linha 2, serão oito vagões ali para a Linha 2, que vai aumentar a demanda em 35%, estendendo também a Estácio até a Praça XV.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301117-andre-marinho-cita-expansao-do-metro-e-politicas-publicas-para-jovens-da-comunidade.html"
+      }
+    },
+    "p26": {
+      "resumo": "Propõe conceder cerca de 700 km de rodovias estaduais em lotes, sem criar novos pedágios.",
+      "trecho": "Estruturar a concessão de cerca de 700 km de rodovias estaduais em lotes que melhorem a qualidade e a segurança das vias, com prazo ampliado e garantias robustas, sem criar novos pedágios nem transferir a conta ao usuário.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p27": {
+      "resumo": "Propõe mapear e confiscar bens ligados ao transporte alternativo controlado por milícias e leiloar os bens para financiar trens e BRT.",
+      "trecho": "Operação Asfixia no Transporte: mapeamento da frota irregular e da rede de \"laranjas\", identificação dos chefes beneficiários e sequestro de bens, com leilão carimbado para renovar SuperVia/Nova Via e BRT.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p28": {
+      "resumo": "Projeta abertura líquida de mais de um milhão de postos de trabalho no mandato.",
+      "trecho": "a Agenda 2027–2030 projeta a abertura líquida de mais de um milhão de postos de trabalho ao longo do mandato, com ênfase em empregos formais, salários valorizados e oportunidades distribuídas por todas as regiões do estado",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p29": {
+      "resumo": "Compromete-se a cumprir integralmente as metas do Propag.",
+      "trecho": "Cumprir integralmente as metas do PROPAG, preservando a economia de cerca de R$ 3,1 bilhões até 2026 e a trajetória de longo prazo (linha de base: Casa Civil, 2026) — meta do plano — a confirmar na estimação técnica.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p30": {
+      "resumo": "Propõe auditar todas as renúncias e benefícios fiscais e cortar os que não têm contrapartida.",
+      "trecho": "Auditar 100% das renúncias e benefícios fiscais e cortar os sem contrapartida, a partir da base de 44,1% da receita em renúncias em 2023 (Fenafisco/Poder360) — meta do plano — a confirmar na estimação técnica.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe programa de desestatização de estatais deficitárias, participações e ativos ociosos, com tarifa social e cláusulas de desempenho nas concessões.",
+      "trecho": "Organizar a desestatização de estatais deficitárias, participações e ativos ociosos com quatro travas de proteção ao cidadão, melhorando o serviço prestado, gerando receita e liberando espaço fiscal — sem entregar o interesse público.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p35": {
+      "resumo": "Propõe estruturar ao menos 27 áreas econômicas (distritos industriais, condomínios logísticos) ao longo do Arco Metropolitano.",
+      "trecho": "Estruturar ao menos 27 áreas econômicas ao longo do Arco do Mar à Montanha (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p36": {
+      "resumo": "Em sabatina, prometeu um balcão único de investimentos para empresas e associações de classe.",
+      "trecho": "Pretendo criar um balcão único de investimentos para facilitar, trazer todas as associações de classe e todo o empresariado que, muitas vezes, se sente repelido no RJ",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301117-andre-marinho-cita-expansao-do-metro-e-politicas-publicas-para-jovens-da-comunidade.html"
+      }
+    },
+    "p37": {
+      "resumo": "Promete zerar as filas de exames e cirurgias eletivas de oftalmologia, cirurgia geral e ortopedia no primeiro ano de operação plena de mutirões com redes pública, filantrópica e privada.",
+      "trecho": "Zerar as principais filas de exames e cirurgias eletivas de oftalmologia, cirurgia geral e ortopedia no primeiro ano de operação plena do Mutirão, começando pelo interior e pela Baixada (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p38": {
+      "resumo": "Estabelece meta de reduzir o tempo médio do atendimento regulado de cerca de 57 para menos de 30 dias.",
+      "trecho": "Reduzir o tempo médio do atendimento regulado no Estado dos atuais ~57 dias para patamar inferior a 30 dias (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p40": {
+      "resumo": "Propõe ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada região do interior desassistida.",
+      "trecho": "Implantar ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada uma das regiões do interior hoje desassistidas (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p42": {
+      "resumo": "Em sabatina, prometeu decretar um 'código vermelho da saúde' e investir em policlínicas regionais de média e alta complexidade no interior.",
+      "trecho": "Eu vou decretar o código vermelho da saúde como uma política de governo. A gente precisa investir pesado em policlínicas regionais de polos de média e alta complexidade.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301117-andre-marinho-cita-expansao-do-metro-e-politicas-publicas-para-jovens-da-comunidade.html"
+      }
+    },
+    "p43": {
+      "resumo": "Propõe o programa Aprendiz Rio, de aprendizagem dual para jovens de 15 a 18 anos, com salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado por Estado (30%) e empresa (70%).",
+      "trecho": "Programa Aprendiz Rio: aprendizagem dual para jovens de 15 a 18 anos, com 3 dias na escola e 2 dias na empresa, salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado (Estado 30%, empresa 70%), contrato CLT, vale-transporte e mentor designado.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p44": {
+      "resumo": "Estabelece meta de 200 mil jovens em aprendizagem dual em quatro anos, com mais vagas na Baixada.",
+      "trecho": "200 mil jovens em aprendizagem dual (Aprendiz Rio) ao longo de quatro anos (meta do plano — a confirmar na estimação técnica), com a maior concentração de vagas na Baixada Fluminense.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p45": {
+      "resumo": "Propõe lançar e expandir escolas cívico-militares na rede estadual, com formação técnica integrada.",
+      "trecho": "Lançar e expandir o modelo cívico-militar na rede estadual, integrando de forma pioneira itinerários de educação técnica profissional ao currículo.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p46": {
+      "resumo": "Propõe a 'Escola 18h', com jornada escolar até o fim da tarde com reforço, esporte, cultura e apoio psicossocial.",
+      "trecho": "Ampliar a jornada escolar para até o fim da tarde (Escola 18h), integrando reforço acadêmico, esporte, cultura e apoio psicossocial, de modo a reter o jovem na escola, atacar a distorção idade-série e disputar seu tempo com o tráfico.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p48": {
+      "resumo": "Propõe o programa Morada Fluminense de habitação de interesse social, com prioridade para reassentar famílias de áreas de risco, combinado a obras de drenagem e contenção de encostas.",
+      "trecho": "Ampliar o estoque de habitação de interesse social para famílias de baixa renda, com prioridade para o reassentamento seguro de quem vive em áreas de risco, combinando a produção habitacional a macroprojetos de drenagem, contenção de encostas e desassoreamento de rios.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p49": {
+      "resumo": "Prevê despoluição da Baía de Guanabara com emissário submarino, ecobarreiras e desassoreamento.",
+      "trecho": "Despoluição da Baía de Guanabara com emissário submarino, ecobarreiras em rios e canais, desassoreamento de calhas e tecnologias inovadoras de recuperação aquática.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p50": {
+      "resumo": "Prevê ampliar e fiscalizar as metas de coleta e tratamento de esgoto na bacia da Baía em articulação com a concessionária e as agências reguladoras.",
+      "trecho": "Ampliação e fiscalização das metas de coleta e tratamento de esgoto na bacia, em articulação com a concessionária e as agências reguladoras.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p51": {
+      "resumo": "Em sabatina, criticou a falta de água na Baixada e defendeu fortalecer a fiscalização das concessionárias de saneamento e o uso dos repasses da Cedae.",
+      "trecho": "Temos que fortalecer nossos mecanismos de fiscalização e lidar diretamente com as concessionárias e fazer com que todos os repasses da Cedae sejam usados",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301117-andre-marinho-cita-expansao-do-metro-e-politicas-publicas-para-jovens-da-comunidade.html"
+      }
+    },
+    "p56": {
+      "resumo": "Propõe atacar o déficit do Rioprevidência com combate a fraudes e privilégios, sem cortar direitos de aposentados, e reduzir a dependência de royalties.",
+      "trecho": "Recuperar a sustentabilidade do Rioprevidência atacando o déficit pela raiz — fraude, privilégio e ineficiência —, sem punir o aposentado honesto, e reduzindo progressivamente a dependência da receita volátil do petróleo por meio de tecnologia, controle atuarial transparente e centralização da gestão de benefícios.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p57": {
+      "resumo": "Prevê recadastramento biométrico de todos os beneficiários do Rioprevidência até o fim de 2028.",
+      "trecho": "Recadastramento biométrico de 100% da base concluído até o fim de 2028 (meta do plano — a confirmar na estimação técnica).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p58": {
+      "resumo": "Compromete-se a enviar, nos primeiros 90 dias, um projeto de Lei de Eficiência na Gestão do Estado com indicadores públicos por secretaria.",
+      "trecho": "André Marinho se compromete a apresentar, nos primeiros noventa dias de mandato, um Projeto de Lei de Eficiência na Gestão do Estado (LEGE-RJ), iniciativa pioneira no Brasil, com princípios práticos e indicadores públicos de desempenho para cada secretaria.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p59": {
+      "resumo": "Prevê avaliações anuais de desempenho de gestores vinculadas à permanência no cargo.",
+      "trecho": "Avaliações anuais de desempenho dos gestores, vinculadas à permanência no cargo.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p60": {
+      "resumo": "Promete auditoria forense de todas as secretarias e estatais nos primeiros 90 dias, com relatório público.",
+      "trecho": "Auditoria forense de todas as secretarias e estatais nos primeiros 90 dias de mandato, com relatório público de achados e priorização das áreas de maior risco.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p61": {
+      "resumo": "Propõe lei estadual tornando obrigatório programa de integridade para contratos acima de R$ 5 milhões, com lista de fornecedores punidos.",
+      "trecho": "Lei estadual de compliance, tornando o programa de integridade obrigatório para contratos acima de R$ 5 milhões, com lista negra automática de fornecedores punidos.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
+    "p62": {
+      "resumo": "Propõe Controladoria-Geral independente, com chefia escolhida por lista tríplice e mandato fixo, sem demissão pelo governador.",
+      "trecho": "É a dona institucional do Sentinelia — o órgão que o opera com autonomia real, chefia escolhida por lista tríplice e mandato fixo, sem poder ser demitido pelo governador.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    }
+  },
+  "coronel-busnello": {
+    "p1": {
+      "resumo": "Propõe novo plano de carreira das forças de segurança com progressão por mérito e adicional equalizado, além de assistência jurídica paga pelo Estado ao agente processado por ato em serviço (Escudo Jurídico RJ).",
+      "trecho": "Um novo Plano de Cargos, Carreiras e Salários será enviado à Assembleia Legislativa, com progressão por mérito e adicional de serviço equalizado entre PM, PC, Bombeiro e Peritos. Em paralelo, o Escudo Jurídico RJ garantirá assistência jurídica custeada pelo Estado ao agente que responder por ato praticado em serviço, no exercício da função",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p2": {
+      "resumo": "Promete convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano entre as três forças.",
+      "trecho": "os concursados aprovados de PMERJ e Polícia Civil serão convocados conforme já previsto em lei; e um plano permanente de concurso formará ao menos 3.500 novos profissionais por ano entre as três forças",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p3": {
+      "resumo": "Propõe centro de comando unificado (CIICO) integrando polícias e monitoramento municipal, com reconhecimento facial para foragidos e desaparecidos e leitura de placas.",
+      "trecho": "As informações serão unificadas pelo CIICO, integrando PM, PC, Bombeiro e monitoramento municipal pelo modelo estoniano X-Road, com reconhecimento facial para foragido e desaparecido, leitura automática de placa, alerta por inteligência artificial e câmera de zoom até 400x e sensor térmico;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p4": {
+      "resumo": "Propõe retomada de territórios em três fases (asfixia financeira e inteligência; intervenção; presença permanente), com pilotos na Baixada, na Capital e em São Gonçalo.",
+      "trecho": "A retomada seguirá três fases — asfixia financeira e de inteligência; intervenção judicial e operacional; e consolidação da presença estatal —, com pilotos na Baixada Fluminense, na Capital e em São Gonçalo",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p5": {
+      "resumo": "Cada território retomado receberia Unidade de Controle Territorial permanente, com policiamento, serviços sociais e regulação de gás e transporte informais.",
+      "trecho": "Cada território retomado receberá Unidade de Controle Territorial permanente, integrando policiamento, serviços sociais e regulação de serviços informais como gás e transporte, com meta de presença contínua, e não apenas operação pontual.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p6": {
+      "resumo": "No RJ1, defendeu atacar financeiramente as facções e garantir ocupação permanente do Estado nas áreas recuperadas.",
+      "trecho": "Temos que destruí-las financeiramente e garantir a ocupação permanente do Estado nesses locais",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-busnello-promete-titulos-de-propriedade-em-favelas-e-gabinete-do-governador-na-1a-area-ocupada.ghtml"
+      }
+    },
+    "p8": {
+      "resumo": "Propõe expandir o programa Segurança Presente para corredores fora da Região Metropolitana, com base comunitária fixa e patrulhamento a pé.",
+      "trecho": "O programa Segurança Presente será expandido para novos corredores comerciais e educacionais fora da Região Metropolitana, com base comunitária fixa por território e patrulhamento a pé como padrão operacional, não como exceção.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p9": {
+      "resumo": "Propõe agência de inteligência com Ceará e Espírito Santo (ARCO CE-RJ-ES) e operações conjuntas com estados vizinhos.",
+      "trecho": "O Estado firmará cooperação com os estados fronteiriços para operação conjunta contra tráfico e contrabando, e criará com o Ceará e o Espírito Santo a ARCO CE-RJ-ES, agência híbrida de inteligência formalizada por protocolo entre os três governadores",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p12": {
+      "resumo": "Propõe a Central de Vagas RJ, unificando regulação de leitos e fila ambulatorial (Sisreg e SER) por critério clínico, com reporte obrigatório de OSs e auditoria do TCE.",
+      "trecho": "O Governo do Estado criará a Central de Vagas RJ, unificando sob uma só governança técnica a regulação de leitos hospitalares e a fila ambulatorial hoje dividida entre SISREG e SER, com médicos reguladores operando por critério clínico e dados anonimizados, obrigação contratual de reporte em tempo real por Organizações Sociais e unidades da Fundação Saúde, penalidade automática em caso de descumprimento e auditoria trimestral do Tribunal de Contas do Estado.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p14": {
+      "resumo": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família em municípios com cobertura abaixo de 60%.",
+      "trecho": "O Governo do Estado ampliará o cofinanciamento estadual de equipes de saúde da família para viabilizar 1.200 novas equipes nos municípios com cobertura abaixo de 60%, com prioridade para a Baixada Fluminense e a Zona Oeste da capital",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p16": {
+      "resumo": "Propõe equipar hospitais existentes com UTI adulto e neonatal nas quatro regiões de maior déficit.",
+      "trecho": "O Governo do Estado equipará hospitais já existentes — sem construção do zero — com UTI adulto e UTI neonatal nas quatro regiões de maior déficit, priorizando Noroeste, Serrana, Baixada Litorânea e Médio Paraíba",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p21": {
+      "resumo": "Propõe adequar os vencimentos dos professores ao piso nacional em cronograma plurianual e enviar novo plano de carreira com progressão por mérito.",
+      "trecho": "O Governo do Estado adequará os vencimentos de todas as categorias ao piso nacional do magistério, em cronograma plurianual compatível com a Lei de Responsabilidade Fiscal, e enviará à Assembleia Legislativa novo Plano de Cargos, Carreiras e Salários com progressão vinculada a mérito e formação continuada.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p22": {
+      "resumo": "Em entrevista, disse que nos três primeiros meses começaria a corrigir salários até o piso, enviaria o plano de carreira e lançaria o piloto da Escola 360 em 50 CIEPs.",
+      "trecho": "Primeiro passo, nos três primeiros meses: começar a corrigir o salário do professor até o piso nacional, nas categorias mais defasadas, dentro do que a lei fiscal permite, e mandar pra Alerj um plano de carreira novo, com progressão por mérito. Ao mesmo tempo, tiro do papel o piloto do Escola 360 em 50 CIEPs e abro edital do Professor Formador nas regiões com pior IDEB.",
+      "fonte": {
+        "veiculo": "Revistapontocom",
+        "tipo": "entrevista",
+        "data": "2026-09-22",
+        "url": "https://revista.planetapontocom.org.br/nao-categorizada/coronel-busnello"
+      }
+    },
+    "p23": {
+      "resumo": "Propõe seleção de diretores por prova, projeto de gestão e aprovação da comunidade, e bônus ligado a indicadores da escola.",
+      "trecho": "seleção de diretores por processo misto de prova, projeto de gestão e aprovação da comunidade escolar — com bonificação, para professores e gestores, vinculada a múltiplos indicadores de desempenho da escola, e não a critério político.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p24": {
+      "resumo": "Propõe expansão das escolas cívico-militares mediante consulta pública vinculante e adesão voluntária, com meta de 25 unidades.",
+      "trecho": "O Governo do Estado instituirá protocolo estadual de expansão criteriosa para as escolas cívico-militares — seleção por vulnerabilidade social do entorno, histórico documentado de violência escolar e consulta pública prévia e vinculante, sempre de adesão voluntária das famílias, com meta de 25 unidades ao final do mandato —;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p26": {
+      "resumo": "Propõe a Escola 360: abrir escolas estaduais, com prioridade para CIEPs, nos fins de semana e feriados como centros comunitários.",
+      "trecho": "O Governo do Estado abrirá as escolas estaduais, com prioridade para os CIEPs, nos finais de semana e feriados, como centros comunitários organizados em cinco eixos — aprendizagem, cultura, esporte, saúde e trabalho —",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p28": {
+      "resumo": "Propõe executar plano de recuperação dos trens com 55 novos trens, sinalização para intervalos de 6 minutos no pico e requalificação das 104 estações.",
+      "trecho": "executará o plano de recuperação física em cinco componentes: renovação de frota (55 novos trens, priorizando a Baixada Fluminense), modernização da sinalização (intervalos de 6 minutos no pico), recuperação da via permanente, atualização elétrica e requalificação das 104 estações.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p29": {
+      "resumo": "Diz que fiscalizará o contrato atual de operação dos trens pela Setram e preparará estudos para o ciclo seguinte.",
+      "trecho": "Como o contrato de operação já foi definido por leilão judicial, caberá o nosso governo fiscalizar rigorosamente, pela SETRAM, o cumprimento das metas do novo contrato",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p32": {
+      "resumo": "Propõe extensão da Linha 2 até Arariboia (Niterói) e depois a Linha 3 até São Gonçalo, após auditoria da licitação suspensa.",
+      "trecho": "O Governo do Estado retomará, em duas fases, o eixo metroviário do Leste Metropolitano — extensão da Linha 2 até a Estação Arariboia, em Niterói, seguida do Programa Linha 03, ligando Niterói a São Gonçalo —, após auditoria do processo licitatório hoje suspenso pelo TCE-RJ",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe VLT entre Pavuna e Nova Iguaçu em leito ferroviário desativado e corredores de BRT na Baixada e entre São Gonçalo e Maricá.",
+      "trecho": "implantará o Programa VLT Baixada entre Pavuna e Nova Iguaçu, aproveitando leito ferroviário desativado ao longo de 12,6 km",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p34": {
+      "resumo": "Propõe integrar a bilhetagem (RioCard e Jaé) e harmonizar horários entre modais estaduais e municipais.",
+      "trecho": "O Governo do Estado promoverá a integração da bilhetagem e a harmonização de horários entre os diferentes sistemas de transporte da Região Metropolitana, em cooperação com os municípios envolvidos",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p35": {
+      "resumo": "Em campanha, prometeu conectar metrô e trens e integrar um BRT da Baixada ao BRT da capital.",
+      "trecho": "Nós vamos conectar o metrô aos trens e ao mesmo tempo fazer o BRT Baixada integrado ao BRT da capital.",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/busnello-novas-linhas-de-barcas-entre-sao-goncalo-e-rio.ghtml"
+      }
+    },
+    "p39": {
+      "resumo": "Propõe o Vale dos Fertilizantes (Porto do Açu e Macaé), com incentivo de ICMS de longo prazo condicionado a convênio no Confaz.",
+      "trecho": "O Governo do Estado criará o Vale dos Fertilizantes, polo industrial dedicado à produção de amônia e ureia ancorado no Porto do Açu e em Macaé, com incentivo de ICMS de longo prazo equiparando a carga tributária do produto nacional à do importado — condicionado a convênio no CONFAZ —",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p41": {
+      "resumo": "Propõe o programa RJ Competitivo, com portal único para regimes especiais e licenças e prazo máximo de 60 dias de resposta.",
+      "trecho": "com portal único digital para protocolo e concessão de regimes especiais e licenças, prazo máximo de 60 dias para resposta",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p42": {
+      "resumo": "Em campanha em São Gonçalo, disse que atrairia investimentos por renúncias fiscais ou investimento do próprio Estado.",
+      "trecho": "Vamos trazer pra ca investimentos, ou por renúncias fiscais ou por investimentos do próprio Estado que você pode ter pra manejar",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/busnello-agenda-industrializar-sao-goncalo-com-investimentos-e-renuncia-fiscal.ghtml"
+      }
+    },
+    "p43": {
+      "resumo": "No RJ1, defendeu reindustrializar o estado e atrair de volta investidores.",
+      "trecho": "Nós temos que reindustrializar o estado, buscar todos os investidores que saíram e transformar o Rio de Janeiro em um polo de desenvolvimento econômico e industrial",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-busnello-promete-titulos-de-propriedade-em-favelas-e-gabinete-do-governador-na-1a-area-ocupada.ghtml"
+      }
+    },
+    "p46": {
+      "resumo": "Afirmou que instalará seu gabinete dentro de uma comunidade como parte da desfavelização.",
+      "trecho": "Nossa política não será de tiro, porrada e bomba. Eu vou ter o meu gabinete dentro da comunidade, só não vou revelar qual para não ter problema.",
+      "fonte": {
+        "veiculo": "O Antagonista",
+        "tipo": "entrevista",
+        "data": "2026-08-18",
+        "url": "https://oantagonista.com.br/brasil/busnello-defende-desfavelizacao-do-rio-e-critica-proposta-de-lula/"
+      }
+    },
+    "p50": {
+      "resumo": "Propõe nova Lei Estadual de Terras para desburocratizar a regularização fundiária.",
+      "trecho": "O Governo do Estado enviará à Assembleia Legislativa nova Lei Estadual de Terras que desburocratize a regularização fundiária e autorize a alienação onerosa de terras devolutas estaduais de até 50 hectares",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p52": {
+      "resumo": "Propõe a Operação Água Segura, protocolo entre Segurança Pública e concessionárias de saneamento para retomar obras paralisadas pelo crime organizado, e um conselho independente de vigilância da água.",
+      "trecho": "instituirá a Operação Água Segura, protocolo permanente entre a Secretaria de Segurança Pública e as concessionárias de saneamento para mapear as zonas onde obras estão paralisadas por ação do crime organizado",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p54": {
+      "resumo": "Propõe alertas por Cell Broadcast com modelos de IA, seguro-catástrofe paramétrico e reflorestamento de encostas.",
+      "trecho": "O Governo do Estado modernizará o sistema de alertas — com modelos meteorológicos apoiados por inteligência artificial e envio automático via Cell Broadcast, sem necessidade de cadastro prévio —, contratará seguro-catástrofe paramétrico",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p55": {
+      "resumo": "Propõe botão de socorro silencioso no app 190 RJ, comando especializado da Patrulha Maria da Penha com orçamento próprio e auxílio-moradia emergencial de R$ 1.000 por três meses.",
+      "trecho": "O Governo do Estado implantará botão de socorro silencioso no aplicativo 190 RJ, com geolocalização e gravação de áudio ambiente para mulheres com medida protetiva cadastrada; criará o Comando Especializado Patrulha Maria da Penha, com orçamento próprio e sala de situação dedicada ao monitoramento de acionamentos em tempo real; e instituirá auxílio-moradia emergencial de R$ 1.000 por três meses para mulheres que precisem deixar o lar em caráter de urgência",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p56": {
+      "resumo": "Propõe escritório de metas no Gabinete do Governador e revisão técnica com fusão de secretarias de missão sobreposta.",
+      "trecho": "O Governo do Estado criará, por decreto, o Escritório de Gerenciamento de Projetos e Metas (EGPM), vinculado ao Gabinete do Governador, para monitorar com indicadores públicos os principais programas de governo; conduzirá revisão técnica das secretarias com fusão das pastas de missão sobreposta",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p57": {
+      "resumo": "Propõe reforma previdenciária paramétrica gradual, previdência complementar para novos servidores e gatilho automático de contenção quando a despesa de pessoal passar de 49% da RCL, com revisão das renúncias fiscais a cada quatro anos.",
+      "trecho": "reforma previdenciária paramétrica gradual, com atuarização pública anual e regime de previdência complementar para novos servidores; e Marco de Médio Prazo Fiscal em lei estadual, com gatilho automático de contenção quando a despesa de pessoal ultrapassar 49% da receita corrente líquida e revisão obrigatória, a cada quatro anos, de todas as renúncias fiscais vigentes.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p58": {
+      "resumo": "Propõe auditoria cruzada contínua da folha e publicação nominal mensal.",
+      "trecho": "auditoria cruzada contínua da folha de pagamento — cruzando dados do SIAPE, do TCE-RJ e dos registros de óbito para identificar pagamentos irregulares — e publicação nominal mensal da folha",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p59": {
+      "resumo": "Propõe política de integridade e desempenho nas contratações, com cadastro estadual e impedimento temporário de empresas.",
+      "trecho": "O Governo do Estado instituirá política estadual de integridade e desempenho nas contratações públicas, complementar à Lei Federal de Licitações e à Lei Anticorrupção, com cadastro estadual integrado aos cadastros federais correlatos, critérios técnicos e objetivos de impedimento temporário — nunca permanente —",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    }
+  },
+  "cyro-garcia": {
+    "p1": {
+      "resumo": "Propõe auxílio emergencial de um salário mínimo para todo desempregado, isenção de tarifas de água, luz e IPTU para esse grupo, passe livre no transporte e suspensão de aluguéis de inquilinos de grandes proprietários.",
+      "trecho": "Propomos auxílio emergencial de um salário mínimo para todo desempregado, isenção de tarifas de água, luz e IPTU para essa população, passe livre em transporte público e suspensão dos aluguéis para inquilinos de grandes proprietários.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p3": {
+      "resumo": "Defende proibir terceirizações, efetivar terceirizados em empresas e órgãos públicos e convocar imediatamente todos os aprovados em concursos públicos.",
+      "trecho": "a proibição das terceirizações e a efetivação de trabalhadores terceirizados em empresas e órgãos públicos, além da convocação imediata de todos os aprovados em concursos públicos",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p4": {
+      "resumo": "Propõe um plano de obras públicas financiado por taxação de grandes fortunas, com creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia, saneamento, equipamentos culturais e esportivos e casas-abrigo.",
+      "trecho": "Propomos um amplo plano de obras públicas, financiado por taxação sobre as grandes fortunas, que construa creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia popular capaz de zerar o déficit habitacional de quase meio milhão de unidades, saneamento básico, equipamentos culturais e esportivos nos subúrbios e favelas, além de casas-abrigo para mulheres e pessoas LGBTI vítimas de violência.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p7": {
+      "resumo": "Defende revogar as privatizações da SuperVia e do MetrôRio sem indenização às empresas, com gestão sob controle de trabalhadores e usuários.",
+      "trecho": "Defendemos a revogação das privatizações da Supervia e do MetrôRio, sem indenização às empresas, com gestão sob controle dos trabalhadores do setor e da população usuária.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p8": {
+      "resumo": "Propõe auditoria pública das concessões, apuração de desvios e plano de ampliação da malha metroferroviária como eixo da mobilidade.",
+      "trecho": "Propomos auditoria pública das concessões, apuração de responsabilidades por desvios e corrupção, e um plano de ampliação da malha metroferroviária, priorizando o transporte sobre trilhos como espinha dorsal da mobilidade urbana",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p9": {
+      "resumo": "Defende estatizar barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
+      "trecho": "Defendemos também a estatização dos serviços de barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p10": {
+      "resumo": "Defende aplicar no mínimo 25% do orçamento em educação e revogar mecanismos que limitam gastos sociais.",
+      "trecho": "Defendemos o investimento mínimo constitucional de 25% do orçamento em educação, patamar hoje sistematicamente descumprido, com a revogação de mecanismos que limitam gastos sociais.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p11": {
+      "resumo": "Propõe suspender a implementação do Novo Ensino Médio e declara-se contrário à Escola Sem Partido e às escolas cívico-militares.",
+      "trecho": "Propomos a suspensão da implementação autoritária do Novo Ensino Médio e a construção coletiva de propostas pedagógicas pela comunidade escolar, sem interferência da iniciativa privada. Somos contrários a projetos como Escola Sem Partido e às escolas cívico-militares.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p12": {
+      "resumo": "Defende aumento imediato de recursos para UERJ, UENF e FAETEC.",
+      "trecho": "Diante da estagnação orçamentária de mais de uma década no ensino superior estadual, defendemos aumento substancial e imediato de recursos para UERJ, UENF e FAETEC.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p15": {
+      "resumo": "Defende encerrar a gestão da saúde por Organizações Sociais e qualquer forma de privatização do setor.",
+      "trecho": "Defendemos o fim do modelo de gestão por Organizações Sociais e qualquer forma de privatização da saúde, modelo que já custou bilhões de reais em recursos públicos sem garantir qualidade de atendimento.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p16": {
+      "resumo": "Defende gasto em saúde acima do piso de 12%, concursos imediatos com plano de carreira e reabertura de vagas fechadas em clínicas da família, UPAs e hospitais.",
+      "trecho": "Defendemos investimento acima do piso constitucional de 12%, hoje tratado pelo governo estadual como teto. Propomos concursos públicos imediatos com plano de cargos e carreira em todos os níveis de atenção, reabertura de vagas fechadas em clínicas da família, UPAs e hospitais, recuperação da rede federal e estadual, e ampliação da vacinação.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p18": {
+      "resumo": "Defende desmilitarizar a segurança pública e a PM, criar uma polícia civil única e garantir direito de organização aos policiais; opõe-se às UPPs e ao programa Cidade Integrada.",
+      "trecho": "Defendemos a desmilitarização da segurança pública e da Polícia Militar, com constituição de uma polícia civil única, democracia interna e direito de organização dos policiais de base. Somos contrários às UPPs e ao programa Cidade Integrada, que reeditam a mesma lógica militarizada e racista.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p19": {
+      "resumo": "Defende punir agentes envolvidos em chacinas e tortura e descriminalizar as drogas, com controle estatal da produção e venda e reparação à juventude negra encarcerada.",
+      "trecho": "Defendemos a punição de agentes envolvidos em chacinas e tortura, e a descriminalização das drogas, com controle estatal da produção e comercialização, revertendo os lucros para investimento social e acompanhada de política de reparação à juventude negra encarcerada pela guerra às drogas.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p22": {
+      "resumo": "Defende universalizar o saneamento, acabar com o despejo de esgoto sem tratamento na Baía de Guanabara e nos rios e obrigar grandes empresas a tratar efluentes, com estatização das que descumprirem normas ambientais.",
+      "trecho": "Defendemos a universalização do saneamento básico, com fim do despejo de esgoto in natura na Baía de Guanabara, onde apenas cerca de 24% do esgoto coletado é efetivamente tratado, e nos demais rios do estado, e obrigatoriedade de tratamento de efluentes e emissões pelas grandes empresas, com estatização daquelas que descumprirem normas ambientais.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p24": {
+      "resumo": "Defende estatizar Petrobras, CSN e grandes metalúrgicas sob controle dos trabalhadores para reduzir impactos ambientais, e expandir o transporte sobre trilhos.",
+      "trecho": "Defendemos a estatização, sob controle dos trabalhadores, da Petrobras, CSN e grandes metalúrgicas, com o objetivo de reduzir impactos ambientais, além de um plano de expansão do transporte sobre trilhos para reduzir a circulação de automóveis.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p26": {
+      "resumo": "Defende delegacias especializadas funcionando 24 horas, casas-abrigo, ampliação da Lei Maria da Penha, lavanderias e restaurantes públicos e creches em tempo integral.",
+      "trecho": "defendemos delegacias especializadas com funcionamento 24 horas, casas-abrigo, ampliação da Lei Maria da Penha, socialização do trabalho doméstico com lavanderias e restaurantes públicos, creches em tempo integral",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p29": {
+      "resumo": "Defende taxar grandes fortunas do estado, proibir remessa de lucros ao exterior e acabar com todas as isenções fiscais a grandes empresas, com auditoria pública desses acordos.",
+      "trecho": "Defendemos a taxação das grandes fortunas do estado, hoje concentradas em pouco mais de trinta famílias, a proibição de remessa de lucros ao exterior, o fim de todas as isenções fiscais concedidas a grandes empresas, com auditoria pública desses acordos",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p31": {
+      "resumo": "Defende suspender e auditar a dívida pública estadual e priorizar no orçamento saúde, educação e salários dos servidores.",
+      "trecho": "Defendemos a suspensão e auditoria da dívida pública estadual, hoje próxima de 200% da receita corrente líquida, e a inversão da lógica orçamentária, priorizando saúde, educação e salários dos servidores públicos",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe que obras e políticas públicas sejam discutidas e fiscalizadas por conselhos populares com representantes eleitos e revogáveis.",
+      "trecho": "Defendemos que o plano de obras e as políticas públicas propostas neste programa sejam discutidos e fiscalizados diretamente pela população organizada, por meio de conselhos populares nos bairros, escolas, hospitais e locais de trabalho, com representantes eleitos e revogáveis a qualquer momento pelas bases.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
+      }
+    },
+    "p36": {
+      "resumo": "Defende reindustrializar o estado com complexos industriais e um plano de obras públicas que gere emprego.",
+      "trecho": "Além disso, nós temos que reindustrializar o nosso estado, construir complexos industriais e também criar um plano de obras públicas que gere emprego, fazendo as obras realmente necessárias.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-cyro-garcia-propoe-suspender-pagamento-da-divida-do-rj-taxar-super-ricos-e-descriminalizar-drogas.ghtml"
+      }
+    },
+    "p37": {
+      "resumo": "Defende acabar com isenções fiscais, combater a sonegação e recuperar recursos desviados por corrupção.",
+      "trecho": "É preciso acabar com a farra da isenção fiscal, da sonegação, e recuperar o dinheiro da corrupção para ser aplicado nas questões necessárias para os trabalhadores e trabalhadoras do nosso estado.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-cyro-garcia-propoe-suspender-pagamento-da-divida-do-rj-taxar-super-ricos-e-descriminalizar-drogas.ghtml"
+      }
+    },
+    "p39": {
+      "resumo": "Propõe investigar, com prevenção e inteligência, quem financia o tráfico de armas e de drogas e as milícias.",
+      "trecho": "Nós temos que, através de prevenção e inteligência, investigar aqueles que financiam o tráfico de armas, o tráfico de drogas, que financiam as milícias, porque são aqueles que se locupletam dessa situação e não estão nas favelas, não estão na periferia.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-cyro-garcia-propoe-suspender-pagamento-da-divida-do-rj-taxar-super-ricos-e-descriminalizar-drogas.ghtml"
+      }
+    },
+    "p40": {
+      "resumo": "Defende desmilitarizar as PMs, eleger comandantes e delegados e unificar as polícias em uma só, com parte ostensiva e parte de inteligência.",
+      "trecho": "Eu defendo a desmilitarização das PMs, com eleição de comandantes e delegados, e a formação de uma só polícia, com uma parte voltada ao policiamento ostensivo e outra à inteligência",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300687-cyro-garcia-defende-fim-das-oss-na-saude-e-estatizacao-de-hospitais-privados.html"
+      }
+    },
+    "p41": {
+      "resumo": "Declara-se contrário às operações policiais em favelas.",
+      "trecho": "Nós somos radicalmente contra as operações policiais nas favelas. Cada operação significa crianças sem aula, trabalhadores impedidos de sair de casa e pessoas sem acesso aos postos de saúde",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300687-cyro-garcia-defende-fim-das-oss-na-saude-e-estatizacao-de-hospitais-privados.html"
+      }
+    },
+    "p42": {
+      "resumo": "Promete tornar obrigatórias as câmeras corporais, monitorar viaturas em tempo real, controlar munições de forma automatizada e divulgar indicadores de letalidade e de esclarecimento de crimes.",
+      "trecho": "Tornarei obrigatório o uso de câmeras corporais, com fiscalização e acesso público às informações, respeitando os direitos envolvidos. Também será necessário monitorar as viaturas em tempo real e estabelecer controle automatizado de munições. O governo deverá divulgar indicadores de letalidade policial, mortes de agentes, confrontos, apreensões de armas, prisões e esclarecimento de crimes.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://agendadopoder.com.br/cyro-garcia-propoe-desmilitarizacao-das-policias-e-controle-da-seguranca-atraves-de-conselhos-populares/"
+      }
+    },
+    "p43": {
+      "resumo": "Defende recompor efetivos com concursos, formação continuada e direito de sindicalização dos policiais.",
+      "trecho": "Defendo a recomposição dos efetivos, realização de concursos, formação continuada e modernização das condições de trabalho. Também defendo a democratização e a desmilitarização das polícias, garantindo aos profissionais liberdade de organização, direito de sindicalização e participação nas decisões sobre suas condições de trabalho.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://agendadopoder.com.br/cyro-garcia-propoe-desmilitarizacao-das-policias-e-controle-da-seguranca-atraves-de-conselhos-populares/"
+      }
+    },
+    "p44": {
+      "resumo": "Defende fortalecer a investigação e a perícia da Polícia Civil para esclarecer mais crimes.",
+      "trecho": "É fundamental fortalecer a investigação e a perícia, porque não existe política de segurança efetiva sem capacidade de esclarecer crimes e responsabilizar seus autores.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://agendadopoder.com.br/cyro-garcia-propoe-desmilitarizacao-das-policias-e-controle-da-seguranca-atraves-de-conselhos-populares/"
+      }
+    },
+    "p46": {
+      "resumo": "Propõe encerrar os contratos com OSs e terceirizadas e usar esses recursos para contratar médicos, enfermeiros, técnicos e assistentes sociais por concurso.",
+      "trecho": "Com esse dinheiro nós vamos contratar médicos, profissionais de saúde, enfermeiros, técnicos, assistentes sociais, através de concurso público, para que todas as unidades tenham equipes completas.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-15",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/15/cyro-garcia-propoe-acabar-com-contratos-de-oss-e-terceirizadas-na-saude-do-rj.ghtml"
+      }
+    },
+    "p47": {
+      "resumo": "Promete equipar as unidades de saúde com aparelhos para exames e cirurgias de alta complexidade.",
+      "trecho": "Vamos melhorar também a questão do atendimento, equipando efetivamente as unidades de saúde com aqueles aparelhos de ponta que são necessários para poder dar prosseguimento a exames de alta complexidade, cirurgias de alta complexidade.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-15",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/15/cyro-garcia-propoe-acabar-com-contratos-de-oss-e-terceirizadas-na-saude-do-rj.ghtml"
+      }
+    },
+    "p48": {
+      "resumo": "Defende estatizar hospitais privados ligados a planos de saúde e colocá-los sob controle de trabalhadores e usuários para ampliar o atendimento do SUS.",
+      "trecho": "Defendemos estatizar os hospitais privados ligados aos planos de saúde e colocá-los sob controle dos trabalhadores e dos usuários para ampliar a oferta de atendimento do SUS",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300687-cyro-garcia-defende-fim-das-oss-na-saude-e-estatizacao-de-hospitais-privados.html"
+      }
+    },
+    "p49": {
+      "resumo": "Defende reestatizar metrô, trens e barcas.",
+      "trecho": "O transporte público é um bem essencial. Não pode estar a serviço do lucro de uma meia dúzia. Defendemos a reestatização do metrô, dos trens e das barcas",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300687-cyro-garcia-defende-fim-das-oss-na-saude-e-estatizacao-de-hospitais-privados.html"
+      }
+    },
+    "p50": {
+      "resumo": "Defende tarifa zero, reestatizar trem e metrô, recriar a CTC (empresa estadual de ônibus) e trocar o transporte rodoviário pelo ferroviário.",
+      "trecho": "Tarifa zero. Transporte público é um bem essencial. Não é mercadoria para enriquecer meia dúzia de empresários. Temos que reestatizar todas as empresas que foram privatizadas nos governos anteriores, como trem e metrô, recriar a CTC e mudar o modal de rodoviário para ferroviário.",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-21",
+        "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/cyro-garcia-do-pstu-propoe-tarifa-zero-e-ve-calote-como-manifestacao-politica-pode-ser-ilegal-mas-nao-e-ilegitimo.ghtml"
+      }
+    },
+    "p51": {
+      "resumo": "Defende levar o metrô a São Gonçalo e à Zona Oeste, integrá-lo aos trens e transformar o BRT em VLT.",
+      "trecho": "Uma cidade do tamanho do Rio ter só duas linhas de metrô não existe. Tem que chegar a São Gonçalo, ir no sentido da Zona Oeste, ter interligação com os trens, e transformar o BRT em VLT.",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-21",
+        "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/cyro-garcia-do-pstu-propoe-tarifa-zero-e-ve-calote-como-manifestacao-politica-pode-ser-ilegal-mas-nao-e-ilegitimo.ghtml"
+      }
+    },
+    "p52": {
+      "resumo": "Defende migrar do transporte rodoviário para o ferroviário, que considera mais eficiente e adequado à crise climática.",
+      "trecho": "Outra questão central é a mudança do modal, de rodoviária para ferroviária. Além de ser um transporte mais eficiente carrega um número maior de pessoas.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "noticia",
+        "data": "2026-09-03",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/03/cyro-garcia-defende-implantacao-de-tarifa-zero-no-transporte-publico.ghtml"
+      }
+    }
+  },
   "douglas-ruas": {
     "p1": {
       "resumo": "Prevê convocar no primeiro mês de governo os aprovados excedentes em concursos das forças de segurança e fixar cronograma de novos concursos para atingir o efetivo previsto em lei.",
@@ -950,6 +2056,892 @@
         "tipo": "noticia",
         "data": "2026-09-18",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml"
+      }
+    }
+  },
+  "juliete-pantoja": {
+    "p1": {
+      "resumo": "Propõe suspender e auditar a dívida pública do estado com credores públicos e privados, para eliminar irregularidades e renegociá-la.",
+      "trecho": "Realizar a suspensão e uma auditoria da dívida pública do estado do Rio de Janeiro com entes estatais e privados para eliminar irregularidades e renegociar dívidas que só servem para sangrar os recursos públicos e enriquecer bancos e especuladores do sistema financeiro",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p2": {
+      "resumo": "Propõe auditar e anular a privatização da Cedae e reestatizar a energia elétrica.",
+      "trecho": "Auditoria e anulação da privatização da Cedae e a reestatização da energia elétrica",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p3": {
+      "resumo": "Propõe reduzir imediatamente as tarifas de luz, água e esgoto.",
+      "trecho": "Redução imediata das tarifas de luz, água e esgoto",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p5": {
+      "resumo": "Propõe rever as isenções fiscais a grandes empresas e auditar os grandes devedores de impostos para cobrar integralmente os débitos.",
+      "trecho": "Revisão da política de isenções fiscais às grandes empresas e auditoria dos grandes devedores de impostos para que estes quitem integralmente suas obrigações",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p6": {
+      "resumo": "Propõe frentes emergenciais de trabalho para reduzir o desemprego e ampliar obras públicas como saneamento e urbanização.",
+      "trecho": "Criação de frentes emergenciais de trabalho para acabar com o desemprego e ampliar as obras públicas de primeira necessidade para a população, como saneamento e urbanização",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p7": {
+      "resumo": "Propõe fortalecer e ampliar o quadro da EMOP para torná-la o eixo da construção civil no estado.",
+      "trecho": "Fortalecer e ampliar os quadros da Empresa de Obras Públicas do Estado do Rio de Janeiro (EMOP), tornando-a vetor central do setor de construção civil do estado",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p10": {
+      "resumo": "Propõe defender no plano nacional uma Petrobras 100% estatal e retomar a construção naval no estado.",
+      "trecho": "Defender no plano nacional a Petrobrás 100% Estatal e a retomada do setor da construção naval no Rio de Janeiro",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p15": {
+      "resumo": "Propõe criar uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sobretudo da periferia.",
+      "trecho": "Criação da Agência Estadual do Primeiro Emprego, com banco de dados de empregos específicos para a juventude, especialmente para juventude periférica.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p16": {
+      "resumo": "Propõe desmilitarizar as polícias e as guardas municipais.",
+      "trecho": "Desmilitarização das polícias e da guardas municipais",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p17": {
+      "resumo": "Propõe mudar a seleção e o treinamento de novos policiais, com foco em direitos humanos, não letalidade, antirracismo e feminismo.",
+      "trecho": "Mudança nos critérios de seleção e treinamento de novos policiais, com enfoque nos direitos humanos, não letalidade, antirracismo e feminismo",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p18": {
+      "resumo": "Propõe acabar com operações policiais violentas em comunidades e substituí-las por inteligência, com controle rígido das armas e munições do estado.",
+      "trecho": "Acabar com as operações militares e policiais violentas nas comunidades, substituindo-as por ações de inteligência em todo o estado, com forte fiscalização e controle das armas e munições em controle do governo estadual",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p23": {
+      "resumo": "Propõe atuar com as polícias Federal e Rodoviária Federal contra criminosos de alta periculosidade.",
+      "trecho": "Trabalhar junto às polícias Federal e Rodoviária Federal para investigar, perseguir e prender os verdadeiros criminosos de alta periculosidade do Rio de Janeiro.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p24": {
+      "resumo": "Propõe enfrentar as milícias diariamente e afastar de imediato servidores da segurança suspeitos de ligação com elas.",
+      "trecho": "Enfrentamento direto e diário às milícias. Afastamento imediato de qualquer servidor da segurança que tenha suspeita de ligação com milícias",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p25": {
+      "resumo": "Propõe instalar imediatamente câmeras nos uniformes dos policiais e acabar com as operações policiais nas favelas.",
+      "trecho": "Implementação imediata de câmeras nos uniformes dos policiais e fim das operações policiais nas favelas",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p26": {
+      "resumo": "Propõe retomar a administração direta da saúde, encerrando e auditando os contratos com Organizações Sociais.",
+      "trecho": "Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OS (Organizações Sociais) e punindo possíveis casos de corrupção",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p27": {
+      "resumo": "Propõe concursos públicos para a saúde e recomposição do orçamento da área.",
+      "trecho": "Realização de concursos públicos para saúde e recomposição de orçamento para a área",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p30": {
+      "resumo": "Propõe aumentos anuais para todos os servidores da saúde, plano de cargos e carreiras e contratação direta em atividades-meio hoje terceirizadas.",
+      "trecho": "Valorização profissional: garantir aumentos anuais a todos os servidores da saúde, plano de cargos e carreiras para os servidores, fim dos contratos terceirizados para atividades-meio, com contratação direta também de pessoal para áreas de limpeza, segurança, maqueiros etc.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p32": {
+      "resumo": "Propõe garantir atenção primária e Saúde da Família em todas as cidades.",
+      "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe universalizar o saneamento básico em todo o estado.",
+      "trecho": "Universalização do saneamento básico em todo o estado para diminuir os índices de doenças evitáveis, que ainda se proliferam devido à falta de tratamento de água e esgoto",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p34": {
+      "resumo": "Propõe livre acesso de alunos da rede pública às escolas técnicas e universidades estaduais, com ampliação da rede.",
+      "trecho": "Garantir o livre acesso dos estudantes da rede pública de educação às escolas técnicas e universidades estaduais com ampliação da rede",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p35": {
+      "resumo": "Propõe erradicar em um ano o analfabetismo completo e o funcional.",
+      "trecho": "Erradicar o analfabetismo completo e funcional em um ano",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p36": {
+      "resumo": "Propõe desmilitarizar imediatamente as escolas estaduais, encerrando o programa cívico-militar e a presença de PMs nas escolas.",
+      "trecho": "Desmilitarização imediata das escolas da rede estadual de educação do Rio de Janeiro. Fim do programa de escolas cívico-militares e da presença de PMs dentro das escolas",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p38": {
+      "resumo": "Defende um plano de carreira unificado para os profissionais da educação estadual, concursos e o fim das contratações temporárias e terceirizadas.",
+      "trecho": "Defender a criação de um plano de carreira unificado dos profissionais de educação da rede pública de educação básica, das escolas técnicas e universidades estaduais do Rio de Janeiro. Nesse sentido, queremos a realização de concursos públicos para a elevada demanda de profissionais de educação e o fim da política de contratações temporárias e terceirização",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p40": {
+      "resumo": "Propõe ampliar gradualmente o ensino integral até cobrir 100% das escolas estaduais em 2030.",
+      "trecho": "Ampliar gradualmente o Ensino Integral para 100% das escolas da rede pública estadual até 2030",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p49": {
+      "resumo": "Propõe administração estatal com controle popular de trens e metrô, redução de 50% das passagens de todos os transportes em janeiro de 2027 e bilhete único intermodal e intermunicipal.",
+      "trecho": "Administração Estatal com controle popular dos trens e metrôs. Redução de 50% das passagens em todos os transportes em janeiro de 2027 e implementação da Política de Bilhete Único Intermodal e Intermunicipal",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p50": {
+      "resumo": "Propõe passe livre intermunicipal para estudantes de todas as etapas, incluindo o ensino superior público.",
+      "trecho": "Implementar o passe-livre intermunicipal para os estudantes de todas as séries e etapas do ensino, inclusive de instituições de ensino superior públicas",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p51": {
+      "resumo": "Propõe ampliar a malha ferroviária e metroviária com as frentes de trabalho e o fortalecimento da EMOP.",
+      "trecho": "Ampliar a malha ferroviária e metroviária por meio das frentes emergenciais de trabalho e fortalecimento da EMOP",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p52": {
+      "resumo": "Propõe levar o metrô à Baixada Fluminense, a Niterói e a São Gonçalo e reduzir os intervalos dos trens.",
+      "trecho": "Garantir a chegada do metrô à Baixada Fluminense, Niterói e São Gonçalo. Diminuição nos intervalos de circulação dos trens urbanos",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p53": {
+      "resumo": "Propõe uma rede de casas-abrigo para mulheres em situação de violência, com apoio multiprofissional.",
+      "trecho": "Formar rede de casas-abrigo para mulheres em situação de violência e vulnerabilidade, oferecendo apoio multiprofissional às vítimas de violência doméstica, violência sexual, violência obstétrica e assédio moral, fortalecendo a rede de apoio junto às organizações feministas",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf"
+      }
+    },
+    "p60": {
+      "resumo": "Afirma que vai suspender as operações policiais nas favelas no modelo atual.",
+      "trecho": "Nós vamos suspender essas operações",
+      "fonte": {
+        "veiculo": "Diário do Rio",
+        "tipo": "entrevista",
+        "data": "2026-09-19",
+        "url": "https://diariodorio.com/politica/2026/09/19/juliete-pantoja-promete-suspender-operacoes-policiais-em-favelas-e-defende-desmilitarizacao.html"
+      }
+    },
+    "p61": {
+      "resumo": "Defende investimento direto do Estado em saúde e educação, com concursos e pagamento integral do piso salarial dessas categorias.",
+      "trecho": "Defendemos uma economia que tenha investimento direto do Estado na educação e na saúde, garantindo a abertura de concursos públicos para a educação e para a saúde, o pagamento integral do piso salarial dessas categorias e a garantia de uma economia que, de fato, sirva ao povo, e não aos interesses de meia dúzia de muito ricos",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-juliete-pantoja-defende-retomada-da-cedae-e-presenca-do-estado-em-territorios-dominados-pelo-crime.ghtml"
+      }
+    },
+    "p62": {
+      "resumo": "Afirma que a primeira medida na saúde será abrir concurso público.",
+      "trecho": "A primeira coisa que vamos fazer é abrir concurso público para a área da saúde.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300655-juliete-pantoja-defende-desmilitarizacao-da-policia-e-reestatizacao-da-cedae.html"
+      }
+    },
+    "p63": {
+      "resumo": "Defende ampliar o controle popular sobre orçamento e políticas públicas, mais concursos, ensino integral, proteção a mulheres vítimas de violência e delegacias especializadas 24 horas.",
+      "trecho": "Queremos ampliar o controle popular sobre o orçamento e as políticas públicas, fortalecer os serviços essenciais com mais concursos para saúde e educação, ampliar o ensino integral, investir no acolhimento e na proteção das mulheres vítimas de violência e garantir que todas as delegacias especializadas funcionem 24 horas",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300655-juliete-pantoja-defende-desmilitarizacao-da-policia-e-reestatizacao-da-cedae.html"
+      }
+    },
+    "p64": {
+      "resumo": "Defende estatizar o transporte no estado e investir na malha ferroviária.",
+      "trecho": "Defendemos a estatização do transporte do RJ e a realização de um grande processo com o povo para investir na malha ferroviária e em projetos que liguem as indústrias aos espaços de produção.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-10",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300655-juliete-pantoja-defende-desmilitarizacao-da-policia-e-reestatizacao-da-cedae.html"
+      }
+    },
+    "p65": {
+      "resumo": "Defende operações de inteligência contra lavagem de dinheiro, confisco de bens de corruptos e controle da entrada de armas e drogas pelas fronteiras do estado.",
+      "trecho": "Além disso, acreditamos que com uma política de operações baseadas em inteligência focadas no combate à lavagem de dinheiro, confisco dos bens dos corruptos que estão no Estado, e na entrada de armas e drogas nas fronteiras do estado do Rio seremos mais eficientes no enfrentamento às facções.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://agendadopoder.com.br/juliete-prega-uma-policia-que-nao-veja-o-povo-negro-e-pobre-como-inimigo/"
+      }
+    },
+    "p66": {
+      "resumo": "Promete punir policiais ligados ao crime, confiscar bens obtidos com corrupção e manter controle público dos arsenais.",
+      "trecho": "Não só vamos punir, como defendemos o confisco de todos os bens roubados ou adquiridos através de dinheiro de corrupção. Queremos controle público dos arsenais para evitar o desvio de armas para as facções criminosas.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://agendadopoder.com.br/juliete-prega-uma-policia-que-nao-veja-o-povo-negro-e-pobre-como-inimigo/"
+      }
+    },
+    "p67": {
+      "resumo": "Defende ampliar as delegacias da mulher, com funcionamento 24 horas, concursos e formação específica.",
+      "trecho": "Defendemos ampliação das delegacias da mulher e que elas funcionem 24h, para isso vamos garantir os concursos e formação necessários para as e os policiais que atuarem nestas unidades.",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://agendadopoder.com.br/juliete-prega-uma-policia-que-nao-veja-o-povo-negro-e-pobre-como-inimigo/"
+      }
+    }
+  },
+  "luan-monteiro": {
+    "p1": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende repor integralmente as perdas salariais e dar aumento emergencial de 50% a todos os salários.",
+      "trecho": "Reposição integral de 100% das perdas salariais; aumento emergencial de 50% de todos os salários",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p4": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende proibir despejos e cortes de água, luz e gás para desempregados.",
+      "trecho": "Proibição de despejos e cortes de serviços essenciais (como água, luz, gás etc.) para todos os desempregados",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p5": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende passe livre nos transportes para desempregados e trabalhadores informais.",
+      "trecho": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p12": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; opõe-se ao fim da estabilidade dos servidores públicos.",
+      "trecho": "Não ao fim da estabilidade dos servidores públicos",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p13": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende acabar com o teto de gastos e com a Lei de Responsabilidade Fiscal.",
+      "trecho": "Fim do teto de gastos e da Lei de Responsabilidade Fiscal",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p14": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; opõe-se às terceirizações e defende estabilidade imediata, com isonomia de direitos e salários, para servidores contratados precariamente.",
+      "trecho": "Contra as terceirizações; estabilidade imediata para todos os servidores contratados precariamente, com isonomia de direitos e salários",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p15": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende concursos públicos periódicos para repor o quadro de servidores.",
+      "trecho": "Pela realização de concursos públicos periódicos para repor o quadro de servidores.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p18": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende eleição direta para todos os cargos de gestão nas escolas.",
+      "trecho": "Abaixo a ditadura nas escolas e a perseguição aos professores e estudantes; eleição direta de todos os postos de gestão",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p24": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende mais verbas para a saúde pública, sem limite de gastos.",
+      "trecho": "Mais verbas para a saúde pública. Não pode haver limite nos gastos para salvar a vida do povo",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p25": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende um plano de emergência para construir hospitais e postos de saúde.",
+      "trecho": "Plano de emergência para construção de hospitais e postos de saúde em todo o País",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p27": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende dissolver a Polícia Militar e todo o aparato repressivo.",
+      "trecho": "Dissolução da polícia militar e de todo o aparato repressivo",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p31": {
+      "resumo": "Na entrevista ao RJ1, defendeu descriminalizar todas as drogas, dissolver a Polícia Militar e fazer a segurança por meio da organização popular.",
+      "trecho": "A gente acha importante uma luta pela descriminalização total de todas as drogas. A gente também defende a organização popular para fazer a sua própria segurança. A gente defende a dissolução da Polícia Militar",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-luan-monteiro-defende-dissolucao-da-pm-descriminalizacao-das-drogas-e-reestatizacao-de-empresas.ghtml"
+      }
+    },
+    "p32": {
+      "resumo": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende armar a população e criar conselhos de bairro.",
+      "trecho": "Nós não acreditamos que o Estado e seus órgãos repressivos, como a Polícia Militar e a Polícia Civil, tenham condições de resolver o problema da segurança. A gente defende o armamento da população e que as pessoas possam formar seus próprios conselhos de bairro",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301025-luan-monteiro-defende-fim-da-policia-armamento-da-populacao-e-estatizacao-dos-servicos-publicos.html"
+      }
+    },
+    "p33": {
+      "resumo": "Descreve o fim da PM como primeiro passo de uma reforma da segurança, seguido de 'segurança de bairro' e do direito ao armamento do povo.",
+      "trecho": "E, com o fim do controle do estado, você instaura a segurança de bairro. Uma parte importante do processo é o direito ao armamento do povo.",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-14",
+        "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/luan-monteiro-do-pco-defende-armar-a-populacao-e-fim-da-pm-o-trafico-cede-a-pressao-ou-entra-em-guerra.ghtml"
+      }
+    },
+    "p34": {
+      "resumo": "Aponta a reindustrialização como prioridade econômica, no estado e no país.",
+      "trecho": "Para a economia, a gente acha importante, não só em nível estadual, mas pensando numa coisa que é um problema geral do país, a reindustrialização.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-luan-monteiro-defende-dissolucao-da-pm-descriminalizacao-das-drogas-e-reestatizacao-de-empresas.ghtml"
+      }
+    },
+    "p35": {
+      "resumo": "Defende explorar ao máximo o petróleo do estado e convertê-lo em empregos para a população.",
+      "trecho": "A gente é um estado muito rico em petróleo, então a gente tem que explorar isso o máximo possível e trazer isso como benefício para a população através de empregos",
+      "fonte": {
+        "veiculo": "O Fluminense",
+        "tipo": "noticia",
+        "data": "2026-09-03",
+        "url": "https://ofluminense.com.br/luan-monteiro-reindustrializacao-industria-naval-rio/"
+      }
+    },
+    "p36": {
+      "resumo": "Defende recuperar a Cedae e reestatizar empresas estratégicas como as de energia e telefonia.",
+      "trecho": "Precisa recuperar a Cedae, a empresa de água. A gente também tem várias outras empresas estratégicas, como luz e telefonia. Todas as empresas precisam passar por um processo de reestatização.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-luan-monteiro-defende-dissolucao-da-pm-descriminalizacao-das-drogas-e-reestatizacao-de-empresas.ghtml"
+      }
+    },
+    "p37": {
+      "resumo": "Defende que a saúde seja totalmente pública e que hospitais geridos por empresas privadas ou organizações contratadas passem ao Estado.",
+      "trecho": "Tem que garantir que seja tudo público. Serviços essenciais devem estar nas mãos do Estado. Se eles saírem do Rio, melhor. Mas nossa ideia é tomar totalmente para as mãos do estado.",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301025-luan-monteiro-defende-fim-da-policia-armamento-da-populacao-e-estatizacao-dos-servicos-publicos.html"
+      }
+    },
+    "p38": {
+      "resumo": "Defende devolver metrô, trens e ônibus ao controle estatal (modais citados por O Dia) por serem serviços essenciais.",
+      "trecho": "São serviços essenciais. Não podem ficar nas mãos de empresas privadas que lucram muito oferecendo um serviço ruim para a população",
+      "fonte": {
+        "veiculo": "O Dia",
+        "tipo": "entrevista",
+        "data": "2026-09-11",
+        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301025-luan-monteiro-defende-fim-da-policia-armamento-da-populacao-e-estatizacao-dos-servicos-publicos.html"
+      }
+    }
+  },
+  "william-siri": {
+    "p1": {
+      "resumo": "Propõe política de segurança alinhada às determinações da ADPF das Favelas, com protocolos para operações policiais, controle da atividade policial e redução da letalidade.",
+      "trecho": "Implementar uma política de segurança pública alinhada às determinações da ADPF das Favelas, priorizando inteligência e investigação, estabelecendo protocolos para operações policiais, garantindo transparência, controle da atividade policial, redução da letalidade e proteção da vida nos territórios;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p4": {
+      "resumo": "Diz que retomará territórios dominados pelo crime com planejamento e oferta de serviços como saneamento e cultura, e que operações com blindados continuarão.",
+      "trecho": "O governador William Siri vai retomar todo o território do Rio de Janeiro para o cidadão e para a cidadã. Só que não vai ser feito como está sendo feito há 30 anos nesse estado. Morre polícia, morre bandido, morre sociedade, e não resolve nada",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/william-siri-participa-de-sabatina.ghtml"
+      }
+    },
+    "p5": {
+      "resumo": "O plano propõe proibir disparos de armas letais e menos letais a partir de helicópteros da polícia.",
+      "trecho": "Proibir o uso tanto de armamento letal quanto de armamento menos letal a partir de helicópteros da polícia;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p6": {
+      "resumo": "Em sabatina, disse não ver possibilidade, num primeiro momento, de usar helicópteros em operações.",
+      "trecho": "Quero sentar com grandes especialistas. Pois é aterrorizante para as famílias. Não vejo a possibilidade em primeiro momento de usar os helicópteros.",
+      "fonte": {
+        "veiculo": "O Globo",
+        "tipo": "entrevista",
+        "data": "2026-09-09",
+        "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/09/siri-defende-proibicao-de-helicopteros-da-policia-em-operacoes-no-rio-e-aterrorizante-para-as-familias.ghtml"
+      }
+    },
+    "p10": {
+      "resumo": "Propõe plano com Governo Federal e Coaf contra lavagem de dinheiro e o financiamento do crime organizado.",
+      "trecho": "Estabelecer em parceria com o Governo Federal e a COAF para elaborar um plano de combate à lavagem de dinheiro no Estado do Rio de Janeiro, buscando desmontar as relações de financiamento entre crime organizado, empresas privadas e o capital financeiro",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p11": {
+      "resumo": "Propõe programa estadual de recuperação de celulares roubados por rastreamento de IMEI.",
+      "trecho": "Criar o Programa Estadual de Combate ao Roubo e Furto de Celulares, instituindo protocolo obrigatório para atuação imediata das forças de segurança na recuperação de aparelhos subtraídos, mediante rastreamento dos dispositivos por meio do número de IMEI",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p13": {
+      "resumo": "Propõe reestatizar o sistema ferroviário metropolitano, transferindo a operação para uma nova empresa pública de transporte.",
+      "trecho": "Promover a reestatização do sistema ferroviário da Região Metropolitana do Estado, encerrando o modelo de concessão privada e transferindo a operação, manutenção e gestão integral do sistema para a nova Empresa Pública de Transporte e Mobilidade",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p14": {
+      "resumo": "Em sabatina, afirmou que reestatizaria os trens no primeiro mês de mandato e, depois, barcas e metrô.",
+      "trecho": "O trem, certamente no meu 1º mês",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/william-siri-sabatina.ghtml"
+      }
+    },
+    "p15": {
+      "resumo": "Propõe redução progressiva das tarifas de ônibus, metrô e barcas até a tarifa zero em todo o transporte público estadual.",
+      "trecho": "Planejar etapas de redução progressiva e acelerada do preço da tarifa até atingir a Tarifa Zero em todos os tipos de transporte público estadual, em diálogo com o governo federal, com o objetivo de atenuar o aumento de demanda decorrente da implementação do serviço gratuito e permitir que o poder público tenha tempo de resposta para fazer as adequações necessárias à melhor operação do serviço;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p16": {
+      "resumo": "Propõe tarifa zero nos trens assim que forem reestatizados, subsidiada pelo Fundo Estadual de Transporte.",
+      "trecho": "Implementar a \"Tarifa Zero” nos trens assim que o serviço for reestatizado, com o objetivo de garantir o direito de ir e vir dos cidadãos e incentivar a livre circulação pelo estado, subsidiando o custo de operação destas linhas através do Fundo Estadual de Transporte, começando pelas regiões mais pobres e de maior fluxo.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p17": {
+      "resumo": "Propõe criar Empresa Pública de Transporte e Mobilidade que substituiria Detro, Agetransp, Central e Rio Trilhos.",
+      "trecho": "Garantir o domínio público sobre a administração logística e os fluxos financeiros do sistema estadual de mobilidade, criando uma Empresa Pública de Transporte e Mobilidade",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p18": {
+      "resumo": "Propõe estender a Linha 2 do metrô a partir da Pavuna e estudar ligação com São João de Meriti, Belford Roxo, Duque de Caxias e Nova Iguaçu.",
+      "trecho": "Expandir a rede metroviária para a Baixada Fluminense, priorizando a extensão da Linha 2 a partir da Pavuna e realizando os estudos técnicos para sua ligação com São João de Meriti, Belford Roxo, Duque de Caxias e Nova Iguaçu, integrada aos trens, ônibus e demais modais da Região Metropolitana;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p19": {
+      "resumo": "Prevê concluir a ligação Estácio-Carioca (Linha 2) no curto prazo e, no longo prazo, Linhas 3 (até Itaboraí) e 6.",
+      "trecho": "Garantir investimentos contínuo para a expansão do metrô, visando, a curto prazo, a conclusão de ligações prioritárias como a ligação Estácio-Carioca (Linha 2), e, a longo prazo, a integração em rede entre as diferentes regiões da metrópole, com novas linhas ligando o centro da capital à região de Itaboraí (Linha 3) e o subúrbio da Zona Norte da capital à Baixada de Jacarepaguá (Linha 6);",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p21": {
+      "resumo": "Propõe iniciar a retomada pública e reestatização da Cedae, com auditoria dos contratos de concessão pela Agenersa e processo para cancelamento dos contratos.",
+      "trecho": "Iniciar o processo de retomada pública e reestatização da CEDAE, fortalecendo a Agenersa e os órgãos competentes para realizar uma auditoria rigorosa dos contratos de concessão, apurar irregularidades, cobranças abusivas, descumprimento de metas e falhas na prestação dos serviços.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p22": {
+      "resumo": "Em sabatina, disse que pretende intervir na Cedae via Agenersa e entrar com processo para reestatizá-la, respeitando contratos válidos.",
+      "trecho": "Hoje, na Cedae, vamos intervir diretamente. Tem a questão dos contratos, mas nós vamos com a Agenersa [Agência Reguladora de Energia e Saneamento Básico do Estado do Rio de Janeiro] intervir e entrar com um processo, pois a minha vontade é de reestatizar a Cedae",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/william-siri-sabatina.ghtml"
+      }
+    },
+    "p24": {
+      "resumo": "Propõe política estadual de infraestrutura verde para reduzir enchentes e ampliar a cobertura vegetal.",
+      "trecho": "Instituir uma Política Estadual de Infraestrutura Verde, integrando soluções baseadas na natureza ao planejamento urbano e regional, visando reduzir enchentes, ampliar a cobertura vegetal, melhorar o conforto térmico e aumentar a resiliência climática das cidades.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p25": {
+      "resumo": "Defende cumprir o Propag sem novas medidas de austeridade, privatizações ou retirada de direitos, destinando a economia com a dívida a serviços e servidores.",
+      "trecho": "Garantir o cumprimento do Programa de Pleno Pagamento de Dívidas dos Estados (PROPAG) em condições que reduzam de forma sustentável o peso da dívida do Estado do Rio de Janeiro com a União, liberem recursos para investimentos e serviços públicos e não imponham novas medidas de austeridade, privatizações ou retirada de direitos da população e dos servidores;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p26": {
+      "resumo": "Declara rejeitar políticas de austeridade fiscal que retirem direitos.",
+      "trecho": "Rejeitar as políticas de austeridade fiscal que retiram direitos da população;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p27": {
+      "resumo": "Propõe criar o BADERJ, banco público estadual de fomento para reindustrialização, emprego e inovação.",
+      "trecho": "Criar o Banco de Desenvolvimento do Estado do Rio de Janeiro — BADERJ, instituição financeira pública estadual voltada ao financiamento de médio e longo prazo de projetos estratégicos para a reindustrialização, a geração de empregos, a inovação tecnológica e a redução das desigualdades regionais.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p28": {
+      "resumo": "Em entrevista ao RJ1, prometeu complexos produtivos em todo o estado para reduzir a dependência dos royalties do petróleo.",
+      "trecho": "Eu vou fazer complexos produtivos a partir da reindustrialização em todos os lugares do estado do Rio de Janeiro, utilizando suas potencialidades, porque não podemos ficar dependentes somente dos royalties do petróleo.",
+      "fonte": {
+        "veiculo": "g1 / TV Globo (RJ1)",
+        "tipo": "entrevista",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-william-siri-propoe-grupamento-para-fiscalizar-baias-campus-da-uezo-em-campo-grande-e-reindustrializar-o-estado.ghtml"
+      }
+    },
+    "p29": {
+      "resumo": "Propõe reestruturar a política de renúncia de receitas para priorizar complexos industriais, pequenos e médios negócios e economia sustentável.",
+      "trecho": "Reestruturar a política de renúncia de receitas para incentivar a implantação complexos industriais, de tecnologia e infraestrutura, beneficiar os pequenos e médios comerciantes e produtores, bem como incentivar economias ecologicamente sustentáveis;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p32": {
+      "resumo": "Propõe transição da gestão privada (OSs) para gestão pública direta da saúde, com concursos, encerrando progressivamente a terceirização.",
+      "trecho": "Implementar um plano de transição do sistema atual, que prioriza a gestão privada, para um sistema de gestão pública e direta com a realização de concursos públicos na área da saúde, evitando a desorganização do serviço e a desassistência, garantindo o progressivo encerramento de todas as formas de privatização e terceirização da Saúde;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p34": {
+      "resumo": "Propõe pelo menos dois novos hospitais regionais estaduais, no Noroeste Fluminense e na Baixada Fluminense.",
+      "trecho": "Implementar pelo menos dois novos hospitais regionais estaduais: Um no Noroeste Fluminense e outro na Baixada Fluminense",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p35": {
+      "resumo": "Propõe revisar e auditar contratos de OSs, OSCIPs, fundações e PPPs na saúde.",
+      "trecho": "Promover a revisão e auditoria de todos os contratos de terceirização de serviços e privatização da gestão celebrados pelo governo anterior: OS’s e OSCIP’s, Fundações Estatais de Direito Privado, Empresas Públicas de Direito Privado e Parcerias Público-Privadas;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p36": {
+      "resumo": "Promete colocar 30 CIEPs em funcionamento em tempo integral no primeiro ano de mandato.",
+      "trecho": "Colocar em funcionamento 30 CIEPs no modelo integral, no primeiro ano de mandato, privilegiando as áreas mais vulneráveis do nosso estado;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p48": {
+      "resumo": "Propõe reajuste salarial anual dos servidores pelo IPCA, com data-base fixa.",
+      "trecho": "Instituir uma política permanente de valorização dos servidores públicos estaduais, assegurando reajuste salarial anual, em mês fixo definido como data-base do funcionalismo, com recomposição das perdas inflacionárias acumuladas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p49": {
+      "resumo": "Em entrevista ao Extra, prometeu reajustes anuais, fim da 'lógica' de contratações e comissionados e piso nacional da educação.",
+      "trecho": "Vamos dar reajustes todos os anos. Também vamos acabar com essa lógica de contratações e comissionados no Estado do Rio de Janeiro. Vamos dar o piso nacional da Educação e reformar os lugares de trabalho",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-13",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml"
+      }
+    },
+    "p50": {
+      "resumo": "Propõe convocar todos os aprovados em concursos vigentes antes de abrir novos, e calendário progressivo de concursos.",
+      "trecho": "Convocar todos os candidatos aprovados em concursos públicos ainda vigentes antes da realização de novos concursos;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p51": {
+      "resumo": "Propõe reduzir cargos em comissão e limitar contratações temporárias e terceirização.",
+      "trecho": "Reduzir o número de cargos em comissão criados a partir de postos ociosos de servidores efetivos, reduzindo a relação de dependência do servidor público com a gestão de momento, realizando concursos públicos para o provimento de todas as lacunas de pessoal e a consequente fortalecimento do Fundo RioPrevidência;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p52": {
+      "resumo": "Propõe reestruturar o organograma com o objetivo de reduzir o número de secretarias.",
+      "trecho": "Reestruturar o organograma das secretarias do Estado para otimizar o uso dos recursos públicos e garantir a integração dos órgãos estatais de forma que a execução das ações de governo nas diferentes regiões do estado seja mais eficaz, eficiente e efetiva, com o objetivo final de reduzir o número de secretarias ;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p53": {
+      "resumo": "Propõe plano de capitalização do Rioprevidência, incluindo devolução de valores retidos pelo Tesouro, como contribuições patronais.",
+      "trecho": "Garantir, em diálogo com o conjunto dos servidores, um plano de capitalização do Fundo Único de Previdência Social do Estado do Rio de Janeiro (RIOPREVIDÊNCIA), que inclua a devolução de valores indevidamente retidos pelo tesouro, como as contribuições patronais;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p54": {
+      "resumo": "Propõe auditar e renegociar as operações de securitização de royalties do Rioprevidência (Rio Delaware I e II).",
+      "trecho": "Auditar e renegociar os contratos de securitização de royalties do Fundo Único de Previdência Social do Estado do Rio de Janeiro (RIOPREVIDÊNCIA), operações conhecidas como Rio Delaware (I & II);",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
       }
     }
   }

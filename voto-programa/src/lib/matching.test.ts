@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { eleicoes } from '../data'
 import type { Aderencia, Candidato, Pergunta } from '../types'
-import { COBERTURA_MINIMA, calcularResultados } from './matching'
+import { COBERTURA_MINIMA, calcularResultados, pontoNaCena } from './matching'
 
 function candidato(id: string): Candidato {
   return {
@@ -73,6 +73,20 @@ describe('calcularResultados', () => {
     const comPrioridade = calcularResultados([X], perguntas, aderencia, respostas, ['saude'])[0]
     expect(semPrioridade.afinidade).toBe(33)
     expect(comPrioridade.afinidade).toBe(50)
+  })
+
+  it('candidato que apoia todas as opções da cena fica neutro (50), qualquer que seja a escolha', () => {
+    const cena = perguntas[0]
+    const bajulador: Aderencia = { ...aderencia, itens: { q1: { a: { z: av(95) }, b: { z: av(95) } } } }
+    expect(pontoNaCena(cena, bajulador, 'a', 'z')).toBe(50)
+    expect(pontoNaCena(cena, bajulador, 'b', 'z')).toBe(50)
+  })
+
+  it('opção sem proposta entra como neutra na referência da cena', () => {
+    const cena = perguntas[2]
+    const soUma: Aderencia = { ...aderencia, itens: { q3: { a: { z: av(90) }, b: { z: av(null) } } } }
+    expect(pontoNaCena(cena, soUma, 'a', 'z')).toBe(70)
+    expect(pontoNaCena(cena, soUma, 'b', 'z')).toBeNull()
   })
 
   it('não mostra percentual abaixo da cobertura mínima', () => {

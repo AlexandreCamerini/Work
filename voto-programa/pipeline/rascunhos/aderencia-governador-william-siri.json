@@ -1,0 +1,477 @@
+{
+  "candidato_id": "william-siri",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 80,
+        "evidencias": [
+          "p13",
+          "p14"
+        ],
+        "justificativa": "Propõe reestatizar os trens e encerrar a concessão privada, independentemente de descumprimento de metas."
+      },
+      "b": {
+        "nota": 5,
+        "evidencias": [
+          "p13",
+          "p14"
+        ],
+        "justificativa": "Propõe encerrar a concessão dos trens e reestatizá-los no primeiro mês de mandato."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p18",
+          "p19"
+        ],
+        "justificativa": "Propõe estender a Linha 2 à Baixada e, no longo prazo, a Linha 3 até Itaboraí."
+      },
+      "b": {
+        "nota": 50,
+        "evidencias": [
+          "p18"
+        ],
+        "justificativa": "Propõe levar o metrô à Baixada integrado aos demais modais, sem mencionar corredores de BRT."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe redução progressiva das tarifas até a tarifa zero em todo o transporte público estadual."
+      },
+      "b": {
+        "nota": 25,
+        "evidencias": [
+          "p15",
+          "p16"
+        ],
+        "justificativa": "Propõe tarifa zero universal, começando pelas regiões mais pobres, e não tarifa social focalizada por renda."
+      },
+      "c": {
+        "nota": 85,
+        "evidencias": [
+          "p17"
+        ],
+        "justificativa": "Propõe empresa pública com domínio público sobre a administração e os fluxos financeiros do sistema de mobilidade."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe redução progressiva das tarifas, inclusive do metrô, até a tarifa zero."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p32",
+          "p35"
+        ],
+        "justificativa": "Propõe encerrar progressivamente a gestão privada e a terceirização na saúde."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe dois novos hospitais regionais, no Noroeste Fluminense e na Baixada, e não centros de especialidades em todas as regiões."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Propõe concursos públicos na saúde na transição para a gestão pública direta."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Propõe 30 CIEPs em tempo integral no primeiro ano, sem foco em ciência, tecnologia e matemática."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 70,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Propõe 30 CIEPs em tempo integral no primeiro ano, sem foco em ciência, tecnologia e matemática."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p4",
+          "p1"
+        ],
+        "justificativa": "Diz que retomará os territórios, mas prioriza inteligência, investigação e redução da letalidade conforme a ADPF das Favelas."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p1",
+          "p10"
+        ],
+        "justificativa": "Propõe priorizar inteligência e investigação nas operações e combater o financiamento do crime organizado."
+      },
+      "c": {
+        "nota": 80,
+        "evidencias": [
+          "p4"
+        ],
+        "justificativa": "Diz que retomará territórios com planejamento e oferta de serviços como saneamento e cultura."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p1",
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe redução da letalidade conforme a ADPF das Favelas e proibição de disparos a partir de helicópteros."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p4",
+          "p1"
+        ],
+        "justificativa": "Diz que retomará os territórios, mas prioriza inteligência, investigação e redução da letalidade conforme a ADPF das Favelas."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p1",
+          "p10"
+        ],
+        "justificativa": "Propõe priorizar inteligência e investigação nas operações e combater o financiamento do crime organizado."
+      },
+      "c": {
+        "nota": 80,
+        "evidencias": [
+          "p4"
+        ],
+        "justificativa": "Diz que retomará territórios com planejamento e oferta de serviços como saneamento e cultura."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p1",
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe redução da letalidade conforme a ADPF das Favelas e proibição de disparos a partir de helicópteros."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p50"
+        ],
+        "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Propõe programa estadual de recuperação de celulares roubados por rastreamento de IMEI, sem mencionar investigação da receptação."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p50"
+        ],
+        "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Propõe recuperação de celulares roubados por IMEI, sem proposta sobre receptação de outros bens roubados."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": 45,
+        "evidencias": [
+          "p24"
+        ],
+        "justificativa": "Propõe infraestrutura verde para reduzir enchentes, e não obras estruturais de macrodrenagem e contenção de encostas."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": 70,
+        "evidencias": [
+          "p21"
+        ],
+        "justificativa": "Propõe auditoria dos contratos da concessão para apurar cobranças abusivas, sem mencionar revisão de reajustes."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p21",
+          "p22"
+        ],
+        "justificativa": "Propõe fortalecer a Agenersa para auditar o descumprimento de metas, com o objetivo de reestatizar a Cedae."
+      },
+      "c": {
+        "nota": 85,
+        "evidencias": [
+          "p21",
+          "p22"
+        ],
+        "justificativa": "Propõe auditar descumprimento de metas e entrar com processo para reestatizar a Cedae."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 80,
+        "evidencias": [
+          "p27",
+          "p28",
+          "p29"
+        ],
+        "justificativa": "Propõe banco estadual de desenvolvimento, complexos produtivos e renúncias fiscais voltadas à reindustrialização, sem mencionar indústria naval."
+      },
+      "c": {
+        "nota": 5,
+        "evidencias": [
+          "p27",
+          "p28"
+        ],
+        "justificativa": "Propõe papel ativo do Estado na geração de empregos, com banco público de fomento e reindustrialização."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p48",
+          "p49"
+        ],
+        "justificativa": "Propõe reajuste salarial anual dos servidores pelo IPCA, com data-base fixa."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p53",
+          "p54"
+        ],
+        "justificativa": "Propõe capitalizar o Rioprevidência e auditar suas operações de securitização, sem mencionar os ativos aplicados no Banco Master."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p50"
+        ],
+        "justificativa": "Propõe convocar todos os aprovados em concursos vigentes antes de abrir novos."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p29"
+        ],
+        "justificativa": "Propõe reorientar as renúncias fiscais para complexos industriais e pequenos negócios, sem contrapartida de emprego nem devolução."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p50"
+        ],
+        "justificativa": "Propõe convocar aprovados de concursos vigentes em geral, sem proposta específica de ampliar o efetivo da PM."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p4",
+          "p1"
+        ],
+        "justificativa": "Diz que retomará os territórios, com prioridade a inteligência e redução da letalidade conforme a ADPF das Favelas."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p25",
+          "p26"
+        ],
+        "justificativa": "Declara rejeitar políticas de austeridade fiscal e defende cumprir o Propag sem novas medidas de austeridade."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p35",
+          "p54"
+        ],
+        "justificativa": "Propõe auditar os contratos de terceirização da saúde e as operações do Rioprevidência, sem auditoria geral nem secretaria de integridade."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p51",
+          "p52",
+          "p26"
+        ],
+        "justificativa": "Propõe reduzir cargos em comissão e o número de secretarias, mas rejeita políticas de austeridade fiscal."
+      }
+    }
+  }
+}
