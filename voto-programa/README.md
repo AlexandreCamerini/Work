@@ -12,7 +12,7 @@ voto (Datafolha, 14/09/2026). 1º turno em 04/10/2026.
 ## Como funciona
 
 ```
-pipeline/dossies/*.json      propostas de cada candidato, com trecho literal e URL (pesquisa com Exa)
+pipeline/dossies/governador-rj/*.json  propostas de cada candidato, com trecho literal e URL (pesquisa com Exa)
 src/data/quiz.json           11 cenas; cada opção tem uma "preferencia" de política pública implícita
         │
         ▼  pipeline/aderencia.py  (Claude, offline)  →  revisão humana

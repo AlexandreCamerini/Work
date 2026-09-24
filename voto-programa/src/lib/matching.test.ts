@@ -18,6 +18,7 @@ function candidato(id: string): Candidato {
 
 const perguntas: Pergunta[] = ['q1', 'q2', 'q3', 'q4'].map((id, i) => ({
   id,
+  grupo: id,
   tema: i === 0 ? 'saude' : 'transporte',
   cena: '',
   pergunta: '',

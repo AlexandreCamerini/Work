@@ -29,7 +29,7 @@ import anthropic
 
 RAIZ = Path(__file__).resolve().parent.parent
 QUIZ = RAIZ / "src" / "data" / "quiz.json"
-DOSSIES = RAIZ / "pipeline" / "dossies"
+DOSSIES = RAIZ / "pipeline" / "dossies" / "governador-rj"
 SAIDA = RAIZ / "src" / "data" / "aderencia.json"
 RELATORIO = RAIZ / "pipeline" / "relatorio-aderencia.md"
 

@@ -19,6 +19,10 @@ export interface Fato {
 export interface Pergunta {
   id: string
   tema: string
+  /** Variantes do mesmo assunto compartilham o grupo; cada eleitor vê só uma por grupo. */
+  grupo: string
+  /** Para quem a variante serve. Sem `publico`, é a variante padrão do grupo. */
+  publico?: Publico
   /** Cena em que os candidatos têm propostas parecidas; mostrada como "nisso eles concordam". */
   consenso?: boolean
   cena: string
@@ -95,4 +99,29 @@ export interface Resultado {
   afinidade: number | null
   cobertura: number
   motivos: Motivo[]
+}
+
+export type FaixaRenda = 'ate2' | '2a4' | '4a10' | '10a20' | 'mais20'
+export type Saude = 'sus' | 'plano'
+export type Deslocamento = 'publico' | 'carro' | 'moto' | 'casa'
+export type Escola = 'publica' | 'particular' | 'nenhuma'
+export type Trabalho = 'carteira' | 'servidor' | 'autonomo' | 'empresario' | 'aposentado' | 'sem_trabalho'
+export type Estrato = 'A' | 'B' | 'C' | 'DE'
+
+/** Respostas da tela "sobre você". Todas opcionais: quem pula vê as cenas padrão. */
+export interface Perfil {
+  renda: FaixaRenda | null
+  pessoas: number | null
+  saude: Saude | null
+  deslocamento: Deslocamento | null
+  escola: Escola | null
+  trabalho: Trabalho | null
+}
+
+export interface Publico {
+  estrato?: Estrato[]
+  saude?: Saude[]
+  deslocamento?: Deslocamento[]
+  escola?: Escola[]
+  trabalho?: Trabalho[]
 }
