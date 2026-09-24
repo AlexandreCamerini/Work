@@ -1,47 +1,60 @@
-import type { Estrato, FaixaRenda, Perfil, Pergunta, Publico } from '../types'
+import type { Faixa, Perfil, Pergunta, Publico } from '../types'
 
 export const PERFIL_VAZIO: Perfil = {
-  renda: null,
-  pessoas: null,
   saude: null,
-  deslocamento: null,
   escola: null,
+  deslocamento: null,
   trabalho: null,
-}
-
-/** Ponto médio de cada faixa de renda familiar, em salários mínimos. */
-const MEIO_DA_FAIXA: Record<FaixaRenda, number> = {
-  ate2: 1.5,
-  '2a4': 3,
-  '4a10': 7,
-  '10a20': 15,
-  mais20: 25,
+  banheiros: null,
 }
 
 /**
- * Cortes de renda per capita (em salários mínimos) para o estrato.
- * PROVISÓRIO: ajustar à referência escolhida em pipeline/pesquisa-perfis.md.
+ * Pontos por resposta e máximo de cada pergunta, conforme pipeline/pesquisa-perfis.md §1.5.
+ * Banheiros é o item de maior peso no Critério Brasil 2026; não se pergunta renda, que a
+ * ABEP considera mau estimador de nível socioeconômico. `undefined` = resposta que não conta.
  */
-const CORTES: { minimo: number; estrato: Estrato }[] = [
-  { minimo: 5, estrato: 'A' },
-  { minimo: 1.5, estrato: 'B' },
-  { minimo: 0.5, estrato: 'C' },
-  { minimo: 0, estrato: 'DE' },
-]
+const PONTOS = {
+  saude: { max: 3, valores: { sus: 0, plano_empresa: 2, plano_proprio: 3 } },
+  escola: { max: 3, valores: { publica: 0, particular: 3, nenhuma: undefined } },
+  deslocamento: { max: 2, valores: { publico: 0, carro: 2, moto: 0, app: 1, casa: undefined } },
+  trabalho: {
+    max: 3,
+    valores: { carteira: 1, servidor: 1, autonomo: 0, empresario: 3, aposentado: undefined, sem_trabalho: 0 },
+  },
+  banheiros: { max: 3, valores: { 1: 0, 2: 2, 3: 3 } },
+} as const
+
+const MINIMO_DE_RESPOSTAS = 3
 
 /**
- * Estrato estimado pela renda familiar por pessoa. Serve só para escolher cenas:
- * nunca é mostrado ao eleitor. Sem renda informada, não há estrato.
+ * Faixa estimada pelo índice (pontos ÷ máximo das perguntas que contam). Cortes 0,34 e 0,66
+ * são ponto de partida da pesquisa, não validados: calibrar com piloto contra o Critério
+ * Brasil completo. Com menos de 3 respostas que contam, não estima. Nunca é mostrada na tela.
  */
-export function estimarEstrato(perfil: Perfil): Estrato | null {
-  if (!perfil.renda) return null
-  const porPessoa = MEIO_DA_FAIXA[perfil.renda] / Math.max(1, perfil.pessoas ?? 1)
-  return CORTES.find((c) => porPessoa >= c.minimo)!.estrato
+export function estimarFaixa(perfil: Perfil): Faixa | null {
+  let pontos = 0
+  let maximo = 0
+  let respostas = 0
+  for (const campo of Object.keys(PONTOS) as (keyof typeof PONTOS)[]) {
+    const valor = perfil[campo]
+    if (valor === null) continue
+    const regra = PONTOS[campo]
+    const p = (regra.valores as Record<string, number | undefined>)[String(valor)]
+    if (p === undefined) continue
+    pontos += p
+    maximo += regra.max
+    respostas += 1
+  }
+  if (respostas < MINIMO_DE_RESPOSTAS) return null
+  const indice = pontos / maximo
+  if (indice > 0.66) return 'privado'
+  if (indice >= 0.34) return 'misto'
+  return 'publico'
 }
 
-function atende(publico: Publico, perfil: Perfil, estrato: Estrato | null): boolean {
+function atende(publico: Publico, perfil: Perfil, faixa: Faixa | null): boolean {
   const checagens: [readonly string[] | undefined, string | null][] = [
-    [publico.estrato, estrato],
+    [publico.faixa, faixa],
     [publico.saude, perfil.saude],
     [publico.deslocamento, perfil.deslocamento],
     [publico.escola, perfil.escola],
@@ -51,17 +64,18 @@ function atende(publico: Publico, perfil: Perfil, estrato: Estrato | null): bool
 }
 
 /**
- * Uma cena por grupo, na ordem do quiz: a primeira variante cujo público combina com
- * o perfil; se nenhuma combinar (ou o eleitor pulou), a variante padrão, sem `publico`.
+ * Uma cena por grupo, na ordem do quiz: a primeira variante cujo público combina com o
+ * perfil; se nenhuma combinar (ou o eleitor pulou), a variante padrão, sem `publico`.
+ * Grupo sem variante padrão só aparece para quem se encaixa.
  */
 export function selecionarCenas(perguntas: Pergunta[], perfil: Perfil): Pergunta[] {
-  const estrato = estimarEstrato(perfil)
+  const faixa = estimarFaixa(perfil)
   const grupos = new Map<string, Pergunta[]>()
   for (const p of perguntas) grupos.set(p.grupo, [...(grupos.get(p.grupo) ?? []), p])
 
   const escolhidas: Pergunta[] = []
   for (const variantes of grupos.values()) {
-    const especifica = variantes.find((v) => v.publico && atende(v.publico, perfil, estrato))
+    const especifica = variantes.find((v) => v.publico && atende(v.publico, perfil, faixa))
     const padrao = variantes.find((v) => !v.publico)
     const escolhida = especifica ?? padrao
     if (escolhida) escolhidas.push(escolhida)

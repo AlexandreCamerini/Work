@@ -180,6 +180,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
       }
     },
+    "p38": {
+      "resumo": "Propõe premiação de escolas e bonificação de professores por resultado.",
+      "trecho": "Gestão por resultados e valorização de quem ensina: premiação para escolas e bonificação de professores.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
     "p41": {
       "resumo": "Propõe ampliar o subsídio estadual para reduzir gradualmente a tarifa do metrô até R$ 5, conforme a capacidade fiscal.",
       "trecho": "Nosso objetivo é chegar a 5 reais, mas isso deve ser um trabalho gradativo, de acordo com a possibilidade dos cofres públicos do Estado do Rio de Janeiro",
@@ -188,6 +198,26 @@
         "tipo": "noticia",
         "data": "2026-09-16",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/douglas-fiscalizacao-de-contratos.ghtml"
+      }
+    },
+    "p42": {
+      "resumo": "Propõe acompanhar a conclusão do estudo da Linha 3 (Rio–Niterói–São Gonçalo) e buscar recursos federais e eventual PPP; afirma que a obra não seria concluída em um mandato.",
+      "trecho": "É uma obra que vai ser de uma monta muito alta de recursos do governo federal e, quem sabe, através de uma PPP [parceria público-privada], trazer o [recurso] privado para o início da obra",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "entrevista",
+        "data": "2026-09-08",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/08/douglas-ruas-sabatina-transporte.ghtml"
+      }
+    },
+    "p43": {
+      "resumo": "Defende planejamento de expansão do metrô como política de Estado contínua entre governos.",
+      "trecho": "Eu defendo que nós tenhamos uma política de Estado e é isso que eu quero inaugurar aqui, essa política de Estado de continuidade",
+      "fonte": {
+        "veiculo": "CBN",
+        "tipo": "entrevista",
+        "data": "2026-09-08",
+        "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/08/douglas-ruas-critica-mobilidade-no-rio-e-afirma-que-nao-conseguiria-inaugurar-linha-3-porque-nao-da-tempo.ghtml"
       }
     },
     "p44": {
@@ -218,6 +248,26 @@
         "tipo": "noticia",
         "data": "2026-09-16",
         "url": "https://diariodorio.com/politica/2026/09/16/douglas-ruas-promete-metro-a-rs-5-e-cobra-melhor-servico-de-concessionarias-no-rio.html"
+      }
+    },
+    "p48": {
+      "resumo": "Propõe novo corredor viário de alta capacidade com faixa exclusiva ligando Duque de Caxias, Belford Roxo, Nilópolis, Mesquita e São João de Meriti.",
+      "trecho": "Novo corredor viário de alta capacidade da Baixada Fluminense conectando Duque de Caxias, Belford Roxo, Nilópolis, Mesquita e São João de Meriti, com faixa exclusiva, estações acessíveis e requalificação urbana no entorno.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p50": {
+      "resumo": "Propõe estudar conexões da Via Light com a Linha Vermelha, a Avenida Brasil e a Via Dutra.",
+      "trecho": "Nós temos hoje, na Baixada Fluminense, oito dos dez municípios com maior tempo de deslocamento. Então, é preciso pensar em soluções para conectar a Via Light à Linha Vermelha, à Avenida Brasil e à Via Dutra, desafogando aquele eixo Rio-São Paulo.",
+      "fonte": {
+        "veiculo": "CBN",
+        "tipo": "noticia",
+        "data": "2026-08-24",
+        "url": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/08/24/douglas-ruas-nega-divisao-de-prefeitos-do-pl-e-promete-reduzir-tarifa-do-metro.ghtml"
       }
     },
     "p54": {
@@ -260,6 +310,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
       }
     },
+    "p64": {
+      "resumo": "Propõe simplificar a legislação de incentivos fiscais com contrapartidas de emprego e devolução quando as metas não forem cumpridas.",
+      "trecho": "Simplificação da legislação de incentivos fiscais, com regras claras, contrapartidas objetivas de geração de emprego e mecanismos de devolução quando as metas pactuadas não forem cumpridas.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
     "p65": {
       "resumo": "Prevê usar instrumentos como ICMS, FUNDES, concessões e parcerias privadas para atrair refino, indústria naval e serviços de engenharia, com contrapartida de emprego.",
       "trecho": "Indústria, energia e serviços de engenharia, usando instrumentos como ICMS, FUNDES, concessões e parcerias privadas com responsabilidade fiscal, contrapartida de emprego, segurança jurídica e licenciamento ágil para atrair refino leve, indústria naval, serviços de engenharia, tecnologia e novos investimentos.",
@@ -268,6 +328,26 @@
         "tipo": "plano_de_governo",
         "data": null,
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p66": {
+      "resumo": "Propõe balcão único digital de investimentos reunindo AgeRio, CODIN, SEFAZ, INEA e JUCERJA.",
+      "trecho": "Balcão único estadual de atração e retenção de investimentos, reunindo em fluxo digital a AgeRio, CODIN, SEFAZ, INEA e JUCERJA, e demais órgãos estratégicos, para reduzir burocracia, dar previsibilidade e acelerar decisões.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p67": {
+      "resumo": "Afirma que o balcão regional terá autonomia para licenciar atividades de alto impacto, evitando deslocamentos à sede do Inea na capital.",
+      "trecho": "Esse balcão terá autonomia para licenciar atividades de alto impacto. É inadmissível que quem mora no Sul Fluminense tenha que vir à capital até o Instituto Estadual do Ambiente (Inea)",
+      "fonte": {
+        "veiculo": "O Povo / Agência Estado",
+        "tipo": "noticia",
+        "data": "2026-09-11",
+        "url": "https://www.opovo.com.br/noticias/politica/2026/09/11/ruas-pl-defende-teto-de-gastos-para-o-rio-e-promete-gabinete-contra-crime-organizado.html"
       }
     },
     "p68": {
@@ -328,6 +408,26 @@
         "tipo": "noticia",
         "data": "2026-07-24",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/07/24/pl-lanca-douglas-ruas-como-candidato-ao-governo-do-rio-de-janeiro.ghtml"
+      }
+    },
+    "p77": {
+      "resumo": "Promete recomposição salarial anual dos servidores, gratificação por aprendizado na Educação e atuação da PGE no caso Master para repor ativos do Rioprevidência.",
+      "trecho": "A ideia é ter recomposiçãotodo ano. Buscaremos fazer correções de injustiças, com transparência e responsabilidade fiscal.",
+      "fonte": {
+        "veiculo": "Extra (coluna Servidor Público)",
+        "tipo": "entrevista",
+        "data": "2026-09-13",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml"
+      }
+    },
+    "p78": {
+      "resumo": "Afirma que orientará a PGE-RJ a atuar no STF para repor ao Rioprevidência os recursos aplicados no Banco Master.",
+      "trecho": "Vou orientar a PGE-RJ a atuar junto ao STF no Caso Master para garantir a reposição do ativo do Rioprevidência.",
+      "fonte": {
+        "veiculo": "Extra (coluna Servidor Público)",
+        "tipo": "entrevista",
+        "data": "2026-09-13",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml"
       }
     },
     "p80": {
@@ -455,6 +555,16 @@
     "p13": {
       "resumo": "Propõe colocar a SuperVia no padrão do BRT do Rio, levar o BRT à Baixada, iniciar a Linha 3 do metrô e enfrentar as empresas de ônibus intermunicipais para dar transparência à bilhetagem.",
       "trecho": "No transporte, vamos colocar a Supervia no padrão do BRT do Rio, recuperar as estradas estaduais, levar o BRT para toda a Baixada, iniciar as obras da Linha 3 do Metrô até São Gonçalo e enfrentar as empresas de ônibus intermunicipais da mesma forma que fizemos na capital, com o objetivo de garantir mais transparência na bilhetagem, e sobretudo, mais qualidade no serviço oferecido à população.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p14": {
+      "resumo": "Compromete-se a iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
+      "trecho": "Iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
       "fonte": {
         "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
         "tipo": "plano_de_governo",
@@ -622,6 +732,26 @@
         "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/31/paes-pretende-subsidiar-transporte-intermunicipal-para-reduzir-preco-das-passagens-no-rj.ghtml"
       }
     },
+    "p44": {
+      "resumo": "Propõe estender a Linha 2 até a Praça XV e ligá-la à Linha 3 (São Gonçalo–Niterói) por túnel sob a Baía de Guanabara.",
+      "trecho": "A prioridade na verdade é uma só. De um lado, fazer a expansão da linha 2 até a praça 15 e de São Gonçalo e vindo em direção a Niterói com a linha 3. E aí essas duas linhas vão se encontrar com tunel submerso sobre o Bahia de Guanabara",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-08-31",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/31/paes-pretende-subsidiar-transporte-intermunicipal-para-reduzir-preco-das-passagens-no-rj.ghtml"
+      }
+    },
+    "p45": {
+      "resumo": "O site de campanha anuncia expansão do metrô para Belford Roxo e São João de Meriti, recuperação da malha ferroviária e integração tarifária.",
+      "trecho": "Eduardo Paes vai expandir o metrô para Belford Roxo e São João de Meriti, recuperar a malha ferroviária e promover a integração tarifária dos transportes",
+      "fonte": {
+        "veiculo": "eduardopaes55.com.br",
+        "tipo": "site_oficial",
+        "data": "2026-09-24",
+        "url": "https://eduardopaes55.com.br/"
+      }
+    },
     "p47": {
       "resumo": "Propõe criar o programa Trem Seguro, nos moldes do BRT Seguro.",
       "trecho": "Da mesma maneira que implantamos o BRT Seguro, vamos implementar o Trem Seguro, um projeto que já se mostrou eficiente",
@@ -630,6 +760,26 @@
         "tipo": "noticia",
         "data": "2026-09-15",
         "url": "https://diariodorio.com/politica/2026/09/15/em-mage-eduardo-paes-promete-duplicar-ramal-saracuruna-e-criar-programa-trem-seguro.html"
+      }
+    },
+    "p48": {
+      "resumo": "Propõe estender a Transolímpica da Avenida Brasil até o Centro de Nova Iguaçu, passando por Nilópolis e Mesquita, com BRT.",
+      "trecho": "Primeiro, fazer com que a TransOlímpica, que eu fiz como prefeito do Rio, saia da onde ela chega na Avenida Brasil, passe por Nilópolis e Mesquita, e chegue no centro de Nova Iguaçu com BRT, conectando toda a rede BRT da cidade do Rio de Janeiro.",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-09-14",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/14/paes-promete-ampliar-transolimpica-da-avenida-brasil-ate-nova-iguacu.ghtml"
+      }
+    },
+    "p49": {
+      "resumo": "Propõe estender a Via Light até a Avenida Brasil e até Cabuçu, com BRT.",
+      "trecho": "Uma outra proposta é fazer com que a Via Light chegue a Avenida Brasil, também conectando com o BRT da TransBrasil e vá até Cabuçu, que é uma alternativa, também toda ela com BRT",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-09-14",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/14/paes-promete-ampliar-transolimpica-da-avenida-brasil-ate-nova-iguacu.ghtml"
       }
     },
     "p51": {
@@ -650,6 +800,16 @@
         "tipo": "noticia",
         "data": "2026-09-11",
         "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/09/318337-eduardo-paes-promete-a-recuperacao-da-industria-naval.html"
+      }
+    },
+    "p53": {
+      "resumo": "Defende previsibilidade, regras estáveis e menos burocracia para investidores.",
+      "trecho": "Nosso desafio não é inventar uma nova economia. Fazer funcionar a economia que a gente já tem aqui, que já existe, né? E, a gente pode fazer isso gente com três decisões claras aqui para começar a tratar desse assunto. Primeiro, a gente precisa dar previsibilidade, regra estável, menos burocracia e respeito aqueles que decidem investir no estado do Rio de Janeiro",
+      "fonte": {
+        "veiculo": "g1",
+        "tipo": "noticia",
+        "data": "2026-08-30",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/30/economia-veja-propostas-dos-candidatos-ao-governo-do-rj.ghtml"
       }
     },
     "p59": {
@@ -700,6 +860,26 @@
         "tipo": "entrevista",
         "data": "2026-09-11",
         "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301148-paes-defende-retomada-de-territorios-e-fala-em-autoridade-moral-para-reconstruir-o-rio.html"
+      }
+    },
+    "p68": {
+      "resumo": "Defende que os cursos da Faetec sejam ligados às vocações econômicas de cada região.",
+      "trecho": "Não faz sentido, por exemplo, a Faetec oferecer cursos sem ter relação com as vocações econômicas das regiões.",
+      "fonte": {
+        "veiculo": "Correio da Manhã",
+        "tipo": "noticia",
+        "data": "2026-09-11",
+        "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/09/318337-eduardo-paes-promete-a-recuperacao-da-industria-naval.html"
+      }
+    },
+    "p70": {
+      "resumo": "Promete replicar no estado acordos de resultados com metas e bonificação para servidores.",
+      "trecho": "Que estabeleceu acordo de resultado e metas com todos, e que bonificou aqueles que cumpriram. Eu quero fazer exatamente o mesmo no Estado.",
+      "fonte": {
+        "veiculo": "Extra (coluna Servidor Público)",
+        "tipo": "entrevista",
+        "data": "2026-09-13",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml"
       }
     },
     "p71": {

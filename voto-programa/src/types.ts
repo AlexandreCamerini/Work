@@ -103,25 +103,24 @@ export interface Resultado {
   motivos: Motivo[]
 }
 
-export type FaixaRenda = 'ate2' | '2a4' | '4a10' | '10a20' | 'mais20'
-export type Saude = 'sus' | 'plano'
-export type Deslocamento = 'publico' | 'carro' | 'moto' | 'casa'
+export type Saude = 'sus' | 'plano_empresa' | 'plano_proprio'
+export type Deslocamento = 'publico' | 'carro' | 'moto' | 'app' | 'casa'
 export type Escola = 'publica' | 'particular' | 'nenhuma'
 export type Trabalho = 'carteira' | 'servidor' | 'autonomo' | 'empresario' | 'aposentado' | 'sem_trabalho'
-export type Estrato = 'A' | 'B' | 'C' | 'DE'
+/** Faixa larga de uso de serviços (aproxima C2/DE, C1/B2 e B1/A do Critério Brasil). Nunca exibida. */
+export type Faixa = 'publico' | 'misto' | 'privado'
 
 /** Respostas da tela "sobre você". Todas opcionais: quem pula vê as cenas padrão. */
 export interface Perfil {
-  renda: FaixaRenda | null
-  pessoas: number | null
   saude: Saude | null
-  deslocamento: Deslocamento | null
   escola: Escola | null
+  deslocamento: Deslocamento | null
   trabalho: Trabalho | null
+  banheiros: 1 | 2 | 3 | null
 }
 
 export interface Publico {
-  estrato?: Estrato[]
+  faixa?: Faixa[]
   saude?: Saude[]
   deslocamento?: Deslocamento[]
   escola?: Escola[]

@@ -1,5 +1,5 @@
 {
-  "versao": "3.0.0",
+  "versao": "3.1.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
   "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
@@ -65,6 +65,41 @@
         "texto": "Em 2026, uma viagem de Japeri à Central levou 97 minutos, 22 a mais que em 1998.",
         "fonte": "O Globo, 29/05/2026",
         "url": "https://oglobo.globo.com/rio/noticia/2026/05/29/apos-27-anos-ultima-viagem-dos-trens-do-rio-operados-pela-supervia-acontece-nesta-sexta-feira.ghtml"
+      }
+    },
+    {
+      "id": "transito-carro",
+      "grupo": "trem-parado",
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
+      },
+      "tema": "transporte",
+      "cena": "Fim de tarde, Linha Vermelha travada. Pra rodar 10 km você gasta quase meia hora.",
+      "pergunta": "O que tiraria mais carro da rua?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Metrô novo: Linha 3 até São Gonçalo e metrô na Baixada.",
+          "preferencia": "Expandir a rede de metrô (Linha 3 para Niterói e São Gonçalo e extensões na Baixada)."
+        },
+        {
+          "id": "b",
+          "texto": "BRT ligando a Baixada à rede do Rio.",
+          "preferencia": "Expandir corredores de BRT na Baixada Fluminense integrados à rede da capital."
+        },
+        {
+          "id": "c",
+          "texto": "Novas ligações de via: Via Light com Linha Vermelha, Av. Brasil e Dutra.",
+          "preferencia": "Construir novas conexões viárias rodoviárias entre as vias expressas metropolitanas."
+        }
+      ],
+      "fato": {
+        "texto": "No pico da tarde de 2025, rodar 10 km no Rio levava em média 25 minutos e 58 segundos.",
+        "fonte": "TomTom Traffic Index",
+        "url": "https://www.tomtom.com/traffic-index/city/rio-de-janeiro/"
       }
     },
     {
@@ -170,6 +205,46 @@
       }
     },
     {
+      "id": "falta-tecnico",
+      "grupo": "escola-bagunca",
+      "publico": {
+        "escola": [
+          "particular",
+          "nenhuma"
+        ]
+      },
+      "tema": "educacao",
+      "cena": "Na empresa onde você trabalha, a vaga de técnico fica meses aberta porque não aparece gente formada.",
+      "pergunta": "O que a rede estadual de ensino devia priorizar?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Curso técnico dentro da escola desde o 1º ano do ensino médio.",
+          "preferencia": "Levar o ensino técnico para dentro das escolas estaduais desde o início do ensino médio."
+        },
+        {
+          "id": "b",
+          "texto": "Cursos da Faetec ligados às empresas de cada região.",
+          "preferencia": "Alinhar os cursos técnicos estaduais às vocações econômicas de cada região."
+        },
+        {
+          "id": "c",
+          "texto": "Programa de primeiro emprego com incentivo pra contratar jovem.",
+          "preferencia": "Programa estadual de primeiro emprego com aprendizagem e incentivo à contratação."
+        },
+        {
+          "id": "d",
+          "texto": "Escola em tempo integral com ciência e tecnologia.",
+          "preferencia": "Ampliar o ensino médio em tempo integral com foco em ciência, tecnologia e matemática."
+        }
+      ],
+      "fato": {
+        "texto": "No estado do Rio, só 16,4% dos alunos do ensino médio estão no ensino profissional e tecnológico.",
+        "fonte": "Anuário da Educação Básica 2026, Todos Pela Educação",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/estados-rj.html"
+      }
+    },
+    {
       "id": "operacao-policial",
       "grupo": "operacao-policial",
       "tema": "seguranca",
@@ -204,6 +279,46 @@
       }
     },
     {
+      "id": "via-expressa-fechada",
+      "grupo": "operacao-policial",
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Você pegou a Avenida Brasil cedo e a pista foi fechada por tiroteio. Ficou parado sem saber se voltava ou esperava.",
+      "pergunta": "Pra você, uma operação policial deu certo quando…",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "O território foi retomado e o crime não manda mais ali.",
+          "preferencia": "Retomada de território como principal critério de sucesso das operações e da avaliação das polícias."
+        },
+        {
+          "id": "b",
+          "texto": "Prendeu quem manda, com investigação e sem guerra na rua.",
+          "preferencia": "Operações orientadas por inteligência com o objetivo de prender, e não de neutralizar."
+        },
+        {
+          "id": "c",
+          "texto": "A polícia ficou e o Estado entrou com serviço no dia seguinte.",
+          "preferencia": "Presença permanente do Estado, com polícia e serviços públicos, após as operações."
+        },
+        {
+          "id": "d",
+          "texto": "Morreu menos gente: morador e policial.",
+          "preferencia": "Redução da letalidade das operações, contando todas as mortes decorrentes de intervenção policial como indicador a reduzir."
+        }
+      ],
+      "fato": {
+        "texto": "Só no primeiro semestre de 2025, a Avenida Brasil foi interditada 11 vezes por violência armada.",
+        "fonte": "Folha, 10/06/2025, com dados do COR-Rio",
+        "url": "https://www1.folha.uol.com.br/cotidiano/2025/06/violencia-no-rio-ja-fechou-avenida-brasil-uma-das-principais-da-cidade-11-vezes-neste-ano.shtml"
+      }
+    },
+    {
       "id": "celular-roubado",
       "grupo": "celular-roubado",
       "tema": "seguranca",
@@ -235,6 +350,45 @@
         "texto": "Entre eleitores com ensino fundamental, combater o roubo de rua é a prioridade nº 1 na segurança (23%), à frente da retomada de territórios.",
         "fonte": "Quaest, agosto de 2026",
         "url": "https://agendadopoder.com.br/seguranca-no-rj-eleitor-cobra-retomada-de-territorios-e-combate-a-roubos-diz-quaest/"
+      }
+    },
+    {
+      "id": "roubo-carro",
+      "grupo": "celular-roubado",
+      "publico": {
+        "deslocamento": [
+          "carro"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Você chega em casa e fica olhando o retrovisor antes de abrir o portão da garagem.",
+      "pergunta": "O que te daria mais tranquilidade?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Guarda municipal armada fazendo ronda junto com a PM.",
+          "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo contra roubos e furtos."
+        },
+        {
+          "id": "b",
+          "texto": "Muito mais PM na rua, com concurso.",
+          "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
+        },
+        {
+          "id": "c",
+          "texto": "Ir atrás de desmanche e de quem compra peça roubada.",
+          "preferencia": "Investigação permanente contra quadrilhas de receptação de bens roubados."
+        },
+        {
+          "id": "d",
+          "texto": "Câmera que lê placa e tecnologia nas vias.",
+          "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+        }
+      ],
+      "fato": {
+        "texto": "De janeiro a agosto de 2026, o estado teve 16.310 roubos de veículo, alta de 6,3% sobre 2025.",
+        "fonte": "O Globo, 17/09/2026, com dados corrigidos do ISP",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/09/17/homicidios-roubos-de-celular-e-de-veiculo-caem-em-agosto-mas-tem-alta-expressiva-no-acumulado-do-ano-segundo-dados-do-isp.ghtml"
       }
     },
     {
@@ -357,6 +511,124 @@
         "texto": "O desemprego no estado foi de 7,1% no 2º trimestre de 2026, acima da média nacional de 5,4%.",
         "fonte": "IBGE, PNAD Contínua",
         "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+      }
+    },
+    {
+      "id": "servidor-recomposicao",
+      "grupo": "primo-desempregado",
+      "publico": {
+        "trabalho": [
+          "servidor"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Você é servidor do estado e esperou quatro anos por uma parcela de recomposição que já estava em lei.",
+      "pergunta": "O que você cobraria do próximo governador?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Recomposição pela inflação todo ano, sem atraso.",
+          "preferencia": "Recomposição salarial anual dos servidores estaduais."
+        },
+        {
+          "id": "b",
+          "texto": "Bônus para quem bate meta, com acordo de resultado.",
+          "preferencia": "Acordos de resultado com metas e bonificação para servidores."
+        },
+        {
+          "id": "c",
+          "texto": "Ir à Justiça recuperar o dinheiro do Rioprevidência aplicado no Banco Master.",
+          "preferencia": "Atuação jurídica do estado para recompor os ativos do Rioprevidência aplicados no Banco Master."
+        },
+        {
+          "id": "d",
+          "texto": "Chamar logo os aprovados em concurso que estão esperando.",
+          "preferencia": "Convocação dos excedentes aprovados em concursos públicos."
+        }
+      ],
+      "fato": {
+        "texto": "A lei de 2021 previa recompor 26,11% em três parcelas; só a primeira saiu em 2022, e as outras duas foram pagas apenas em 2026.",
+        "fonte": "Extra, 05/07/2026",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/07/recomposicao-de-562percent-para-servidores-estaduais-entrara-na-folha-deste-mes-veja-tabela.ghtml"
+      }
+    },
+    {
+      "id": "licenca-empresa",
+      "grupo": "primo-desempregado",
+      "publico": {
+        "trabalho": [
+          "empresario"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "A licença ambiental do seu galpão está parada no Inea há meses, e o investimento não sai do papel.",
+      "pergunta": "O que destravaria o seu negócio?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Um balcão digital único pra abrir, licenciar e pedir incentivo.",
+          "preferencia": "Balcão único digital de investimentos integrando os órgãos estaduais de licença, fazenda e registro."
+        },
+        {
+          "id": "b",
+          "texto": "Licença decidida na própria região, sem ir ao Inea na capital.",
+          "preferencia": "Descentralizar o licenciamento ambiental para balcões regionais com autonomia de decisão."
+        },
+        {
+          "id": "c",
+          "texto": "Regras estáveis e menos burocracia, sem mudar o jogo toda hora.",
+          "preferencia": "Previsibilidade regulatória, regras estáveis e redução de burocracia para investidores."
+        },
+        {
+          "id": "d",
+          "texto": "Incentivo fiscal só com meta de emprego, e devolve se não cumprir.",
+          "preferencia": "Incentivos fiscais condicionados a contrapartidas de emprego, com devolução em caso de descumprimento."
+        }
+      ],
+      "fato": {
+        "texto": "Das quase 700 demandas de empresas sobre meio ambiente em cinco anos, mais de um terço era por problema no licenciamento, segundo a Firjan.",
+        "fonte": "Firjan, 16/07/2026",
+        "url": "https://www.firjan.com.br/noticias/parceria-entre-firjan-e-inea-propoe-mais-eficiencia-ao-processo-de-licenciamento-ambiental.htm"
+      }
+    },
+    {
+      "id": "correria-praia",
+      "grupo": "orla",
+      "publico": {
+        "faixa": [
+          "privado",
+          "misto"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Fim de tarde na praia, começa uma correria e ninguém sabe se é arrastão.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Mais PM fixo na orla e nas ruas do bairro.",
+          "preferencia": "Ampliar o efetivo e a presença permanente da Polícia Militar."
+        },
+        {
+          "id": "b",
+          "texto": "Guarda municipal armada patrulhando junto com a PM.",
+          "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo."
+        },
+        {
+          "id": "c",
+          "texto": "Desmontar o domínio das facções nos territórios de onde vem a violência.",
+          "preferencia": "Retomada de territórios dominados por facções como prioridade da segurança."
+        },
+        {
+          "id": "d",
+          "texto": "Câmera inteligente e tecnologia integrada às polícias.",
+          "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+        }
+      ],
+      "fato": {
+        "texto": "Em 21/07/2026, a saída das praias de Arpoador, Ipanema e Copacabana teve tumulto e ônibus depredados.",
+        "fonte": "O Globo, 22/07/2026",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/07/22/saida-de-praias-na-zona-sul-do-rio-tem-tumulto-correria-e-onibus-depredados-internautas-citam-arrastao.ghtml"
       }
     },
     {

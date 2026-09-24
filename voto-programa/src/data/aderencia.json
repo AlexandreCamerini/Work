@@ -2,7 +2,7 @@
   "gerado_em": "2026-09-24",
   "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py",
   "revisado_por": null,
-  "versao_quiz": "3.0.0",
+  "versao_quiz": "3.1.0",
   "itens": {
     "trem-parado": {
       "a": {
@@ -657,6 +657,460 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p14",
+            "p44",
+            "p45"
+          ],
+          "justificativa": "Propõe iniciar a Linha 3 até São Gonçalo e expandir o metrô para a Baixada."
+        },
+        "douglas-ruas": {
+          "nota": 45,
+          "evidencias": [
+            "p42",
+            "p43"
+          ],
+          "justificativa": "Defende buscar recursos federais ou PPP para a Linha 3, mas diz que a obra não se conclui em um mandato."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p48",
+            "p49"
+          ],
+          "justificativa": "Propõe levar o BRT da Transolímpica e da Via Light pela Baixada, conectado à rede do Rio."
+        },
+        "douglas-ruas": {
+          "nota": 80,
+          "evidencias": [
+            "p48"
+          ],
+          "justificativa": "Propõe novo corredor de alta capacidade com faixa exclusiva na Baixada."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p50"
+          ],
+          "justificativa": "Propõe conectar a Via Light à Linha Vermelha, à Avenida Brasil e à Via Dutra."
+        },
+        "eduardo-paes": {
+          "nota": 70,
+          "evidencias": [
+            "p49"
+          ],
+          "justificativa": "Propõe estender a Via Light até a Avenida Brasil e Cabuçu, com BRT."
+        }
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p22",
+            "p23"
+          ],
+          "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p1",
+            "p2"
+          ],
+          "justificativa": "Propõe convocar excedentes e elevar a PM a 60 mil agentes em quatro anos."
+        },
+        "eduardo-paes": {
+          "nota": 75,
+          "evidencias": [
+            "p34",
+            "p71",
+            "p36"
+          ],
+          "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 85,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe inteligência permanente para desarticular quadrilhas de receptação."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+        },
+        "douglas-ruas": {
+          "nota": 70,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        }
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p77"
+          ],
+          "justificativa": "Promete recomposição salarial anual dos servidores."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p70"
+          ],
+          "justificativa": "Promete replicar no estado acordos de resultado com metas e bonificação."
+        },
+        "douglas-ruas": {
+          "nota": 70,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Propõe bonificação por resultado para professores, sem estender a todos os servidores."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p78"
+          ],
+          "justificativa": "Afirma que orientará a PGE a atuar no STF para repor ao Rioprevidência os recursos do Banco Master."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p71"
+          ],
+          "justificativa": "Compromete-se a convocar os excedentes já aprovados em concursos."
+        },
+        "douglas-ruas": {
+          "nota": 80,
+          "evidencias": [
+            "p1"
+          ],
+          "justificativa": "Compromete-se a convocar excedentes de concursos das forças de segurança."
+        }
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Propõe balcão único digital reunindo AgeRio, Codin, Sefaz, Inea e Jucerja."
+        },
+        "eduardo-paes": {
+          "nota": 60,
+          "evidencias": [
+            "p53"
+          ],
+          "justificativa": "Defende previsibilidade e menos burocracia, sem propor balcão único."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p67"
+          ],
+          "justificativa": "Afirma que o balcão regional terá autonomia para licenciar atividades de alto impacto."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p53"
+          ],
+          "justificativa": "Defende previsibilidade, regras estáveis e menos burocracia para investidores."
+        },
+        "douglas-ruas": {
+          "nota": 65,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Propõe balcão único para reduzir burocracia e dar previsibilidade."
+        }
+      },
+      "d": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p64"
+          ],
+          "justificativa": "Propõe incentivos fiscais com contrapartida de emprego e devolução se as metas não forem cumpridas."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio."
+        },
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p8",
+            "p9"
+          ],
+          "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p68",
+            "p9"
+          ],
+          "justificativa": "Defende que os cursos da Faetec sejam ligados às vocações econômicas de cada região."
+        },
+        "douglas-ruas": {
+          "nota": 60,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe qualificação profissional nas escolas, sem mencionar vínculo com a economia regional."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p68"
+          ],
+          "justificativa": "Propõe o programa Meu Primeiro Emprego com aprendizagem técnica e incentivo à contratação."
+        },
+        "eduardo-paes": {
+          "nota": 55,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Propõe qualificação profissional contínua, sem programa de primeiro emprego."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p66",
+            "p67"
+          ],
+          "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p2",
+            "p1"
+          ],
+          "justificativa": "Propõe elevar a PM a 60 mil agentes e convocar excedentes."
+        },
+        "eduardo-paes": {
+          "nota": 75,
+          "evidencias": [
+            "p34",
+            "p36"
+          ],
+          "justificativa": "Propõe redistribuir e ampliar o efetivo e devolver às ruas policiais cedidos a gabinetes."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p22",
+            "p23"
+          ],
+          "justificativa": "Propõe guardas municipais armadas integradas à PM no policiamento ostensivo."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p84",
+            "p4"
+          ],
+          "justificativa": "Afirma que pretende desmontar, e não administrar, o domínio territorial das facções."
+        },
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p2",
+            "p29",
+            "p30"
+          ],
+          "justificativa": "Propõe retomar territórios dominados, começando pelo Complexo do Salgueiro."
+        }
+      },
+      "d": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p35"
+          ],
+          "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+        },
+        "douglas-ruas": {
+          "nota": 70,
+          "evidencias": [
+            "p10"
+          ],
+          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+        }
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p3",
+            "p4",
+            "p84"
+          ],
+          "justificativa": "Propõe a retomada de territórios como principal critério de avaliação das polícias."
+        },
+        "eduardo-paes": {
+          "nota": 70,
+          "evidencias": [
+            "p2",
+            "p29",
+            "p30"
+          ],
+          "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+        }
+      },
+      "b": {
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p31",
+            "p3"
+          ],
+          "justificativa": "Afirma que o objetivo deve ser prender, com inteligência, e não neutralizar."
+        },
+        "douglas-ruas": {
+          "nota": 50,
+          "evidencias": [
+            "p9"
+          ],
+          "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+        }
+      },
+      "c": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p5",
+            "p85"
+          ],
+          "justificativa": "Defende manter polícia e serviços públicos na área após as operações."
+        },
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+        }
+      },
+      "d": {
+        "douglas-ruas": {
+          "nota": 10,
+          "evidencias": [
+            "p3"
+          ],
+          "justificativa": "Propõe não contabilizar mortes em legítima defesa policial como letalidade violenta."
+        },
+        "eduardo-paes": {
+          "nota": 45,
+          "evidencias": [
+            "p31",
+            "p32"
+          ],
+          "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
         }
       }
     }

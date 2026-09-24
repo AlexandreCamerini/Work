@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Perfil, Pergunta, Publico } from '../types'
-import { PERFIL_VAZIO, estimarEstrato, selecionarCenas } from './perfil'
+import { PERFIL_VAZIO, estimarFaixa, selecionarCenas } from './perfil'
 
 function cena(id: string, grupo: string, publico?: Publico): Pergunta {
   return { id, grupo, publico, tema: 't', cena: '', pergunta: '', opcoes: [], fato: { texto: '', fonte: '', url: '' } }
@@ -8,38 +8,42 @@ function cena(id: string, grupo: string, publico?: Publico): Pergunta {
 
 const perfil = (p: Partial<Perfil>): Perfil => ({ ...PERFIL_VAZIO, ...p })
 
-describe('estimarEstrato', () => {
-  it('usa renda por pessoa, não só renda total', () => {
-    expect(estimarEstrato(perfil({ renda: '4a10', pessoas: 1 }))).toBe('A')
-    expect(estimarEstrato(perfil({ renda: '4a10', pessoas: 6 }))).toBe('C')
+describe('estimarFaixa', () => {
+  it('classifica pelo uso de serviços e pelos banheiros, sem perguntar renda', () => {
+    expect(estimarFaixa(perfil({ saude: 'sus', escola: 'publica', deslocamento: 'publico', banheiros: 1 }))).toBe('publico')
+    expect(estimarFaixa(perfil({ saude: 'plano_empresa', deslocamento: 'app', trabalho: 'carteira', banheiros: 2 }))).toBe('misto')
+    expect(estimarFaixa(perfil({ saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', banheiros: 3 }))).toBe('privado')
   })
 
-  it('sem renda informada, não estima', () => {
-    expect(estimarEstrato(perfil({ pessoas: 3 }))).toBeNull()
+  it('não estima com menos de 3 respostas que contam', () => {
+    expect(estimarFaixa(perfil({ saude: 'plano_proprio', banheiros: 3 }))).toBeNull()
+    expect(estimarFaixa(perfil({ saude: 'sus', escola: 'nenhuma', deslocamento: 'casa', banheiros: 1 }))).toBeNull()
   })
 })
 
 describe('selecionarCenas', () => {
   const perguntas = [
-    cena('fila-sus', 'saude'),
-    cena('plano-reajuste', 'saude', { saude: ['plano'] }),
+    cena('fila', 'saude'),
     cena('trem', 'transporte'),
     cena('transito-carro', 'transporte', { deslocamento: ['carro'] }),
-    cena('so-empresario', 'negocio', { trabalho: ['empresario'] }),
+    cena('servidor', 'trabalho', { trabalho: ['servidor'] }),
+    cena('bico', 'trabalho'),
+    cena('orla', 'orla', { faixa: ['privado', 'misto'] }),
   ]
 
   it('mostra uma cena por grupo, escolhendo a variante do perfil', () => {
-    const ids = selecionarCenas(perguntas, perfil({ saude: 'plano', deslocamento: 'carro' })).map((p) => p.id)
-    expect(ids).toEqual(['plano-reajuste', 'transito-carro'])
+    const ids = selecionarCenas(perguntas, perfil({ deslocamento: 'carro', trabalho: 'servidor' })).map((p) => p.id)
+    expect(ids).toEqual(['fila', 'transito-carro', 'servidor'])
   })
 
   it('quem pula o perfil vê as variantes padrão', () => {
-    const ids = selecionarCenas(perguntas, PERFIL_VAZIO).map((p) => p.id)
-    expect(ids).toEqual(['fila-sus', 'trem'])
+    expect(selecionarCenas(perguntas, PERFIL_VAZIO).map((p) => p.id)).toEqual(['fila', 'trem', 'bico'])
   })
 
-  it('grupo só com variante específica aparece apenas para quem se encaixa', () => {
-    expect(selecionarCenas(perguntas, perfil({ trabalho: 'empresario' })).map((p) => p.id)).toContain('so-empresario')
-    expect(selecionarCenas(perguntas, perfil({ trabalho: 'carteira' })).map((p) => p.id)).not.toContain('so-empresario')
+  it('grupo sem variante padrão só aparece para a faixa certa', () => {
+    const privado = perfil({ saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', banheiros: 3 })
+    expect(selecionarCenas(perguntas, privado).map((p) => p.id)).toContain('orla')
+    const publico = perfil({ saude: 'sus', escola: 'publica', deslocamento: 'publico', banheiros: 1 })
+    expect(selecionarCenas(perguntas, publico).map((p) => p.id)).not.toContain('orla')
   })
 })
