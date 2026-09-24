@@ -1,0 +1,61 @@
+{
+  "candidato_id": "andre-marinho",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 10,
+        "evidencias": [
+          "p19",
+          "p33"
+        ],
+        "justificativa": "Propõe redesenhar as concessões de transporte com metas e fiscalização e um programa de desestatização de estatais deficitárias."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Propõe passe livre para jovens em formação técnica, sem proposta de redução geral das tarifas."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p48"
+        ],
+        "justificativa": "Propõe habitação de interesse social com prioridade para o reassentamento de famílias de áreas de risco."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 20,
+        "evidencias": [
+          "p50",
+          "p51"
+        ],
+        "justificativa": "Propõe fiscalizar as metas de saneamento em articulação com a concessionária, sem mencionar reestatização."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p30",
+          "p32"
+        ],
+        "justificativa": "Propõe auditar todas as renúncias e benefícios fiscais e cortar os que não têm contrapartida."
+      }
+    }
+  }
+}

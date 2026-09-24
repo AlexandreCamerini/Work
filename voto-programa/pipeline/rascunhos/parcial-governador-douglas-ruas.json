@@ -1,0 +1,65 @@
+{
+  "candidato_id": "douglas-ruas",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 30,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Propõe cobrar as concessionárias e rescindir contratos em caso de descumprimento, sem mencionar operação por empresa pública."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 55,
+        "evidencias": [
+          "p41",
+          "p45",
+          "p21"
+        ],
+        "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 conforme a capacidade fiscal, com tarifa social focalizada, sem tarifa zero."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "O trecho literal propõe delegacias da mulher 24 horas no interior, outro meio de proteção; a Patrulha Maria da Penha aparece só no resumo, sem trecho."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p52",
+          "p54"
+        ],
+        "justificativa": "Propõe produção habitacional para baixa renda e monitoramento de riscos geológicos, sem prever reassentamento de famílias de áreas de risco."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 30,
+        "evidencias": [
+          "p56",
+          "p46"
+        ],
+        "justificativa": "Propõe reforçar o monitoramento das metas das concessionárias de saneamento e rescindir contratos em caso de descumprimento, sem mencionar reestatização."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p64",
+          "p65"
+        ],
+        "justificativa": "Propõe simplificar os incentivos fiscais com contrapartidas e devolução em caso de descumprimento, e usar o ICMS para atrair investimentos."
+      }
+    }
+  }
+}

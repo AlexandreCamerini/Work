@@ -2,7 +2,7 @@
   "gerado_em": "2026-09-24",
   "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py --eleicao presidente",
   "revisado_por": null,
-  "versao_quiz": "1.0.0",
+  "versao_quiz": "1.1.0",
   "itens": {
     "escala-6x1": {
       "a": {
@@ -53,6 +53,22 @@
             "p43"
           ],
           "justificativa": "Defende flexibilizar as condições de trabalho pelo negociado sobre o legislado."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p40",
+            "p41",
+            "p42"
+          ],
+          "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal e contratos com menor custo na folha para grupos específicos."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     },
@@ -169,6 +185,23 @@
           ],
           "justificativa": "Promete proteção previdenciária a trabalhadores de app, sem detalhar a forma de contribuição."
         }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 50,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Promete manter as oportunidades do trabalho por aplicativo, mas também proteção social e previdenciária a esses trabalhadores."
+        },
+        "lula": {
+          "nota": 5,
+          "evidencias": [
+            "p17",
+            "p59"
+          ],
+          "justificativa": "Propõe um sistema de regras para o trabalho por plataformas, com relação de trabalho, remuneração e direitos."
+        }
       }
     },
     "salario-minimo": {
@@ -218,6 +251,25 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 90,
+          "evidencias": [
+            "p30",
+            "p36",
+            "p94"
+          ],
+          "justificativa": "Propõe reduzir a carga sobre produção e consumo, o IVA e impostos sobre energia e combustíveis, e cortar burocracia."
+        },
+        "lula": {
+          "nota": 45,
+          "evidencias": [
+            "p7",
+            "p8"
+          ],
+          "justificativa": "Propõe zerar impostos da cesta básica e devolver imposto à baixa renda, sem proposta de redução geral da carga ou da burocracia."
         }
       }
     },
@@ -330,6 +382,20 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "lula": {
+          "nota": 65,
+          "evidencias": [
+            "p14"
+          ],
+          "justificativa": "Critica o modelo de autonomia do Banco Central, sem detalhar proposta de alteração."
         }
       }
     },
@@ -629,6 +695,22 @@
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
         }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 75,
+          "evidencias": [
+            "p76"
+          ],
+          "justificativa": "Propõe ampliar a educação técnica no ensino médio, sem mencionar institutos federais ou cursos tecnólogos."
+        },
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p43"
+          ],
+          "justificativa": "Propõe novos Institutos Federais com cursos técnicos gratuitos."
+        }
       }
     },
     "conta-luz": {
@@ -799,6 +881,23 @@
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
         }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 70,
+          "evidencias": [
+            "p27",
+            "p28"
+          ],
+          "justificativa": "Propõe extinguir estruturas estatais que rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial."
+        },
+        "lula": {
+          "nota": 20,
+          "evidencias": [
+            "p90"
+          ],
+          "justificativa": "Propõe regular as plataformas digitais para conter desinformação, sem tratar de responsabilização judicial individual."
+        }
       }
     },
     "gasto-governo": {
@@ -901,6 +1000,36 @@
             "p19"
           ],
           "justificativa": "Propõe Centrais da Mulher em todo o país e ampliar os espaços de acolhimento."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p18"
+          ],
+          "justificativa": "Propõe integrar Ligue 180, botão de emergência e centrais de monitoramento em uma plataforma de resposta rápida."
+        },
+        "lula": {
+          "nota": 60,
+          "evidencias": [
+            "p76"
+          ],
+          "justificativa": "Propõe monitoramento de agressores com alerta integrado à polícia, sem mencionar botão de emergência no celular."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 90,
+          "evidencias": [
+            "p9"
+          ],
+          "justificativa": "Propõe endurecer a lei e obrigar agressores de mulheres a cumprir integralmente as penas."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "versao": "3.1.0",
+  "versao": "3.2.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
   "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
@@ -59,6 +59,11 @@
           "id": "c",
           "texto": "Botar o trem no padrão do BRT, com segurança própria a bordo.",
           "preferencia": "Modernizar o sistema de trens em padrão BRT e criar programa de segurança específico nos trens."
+        },
+        {
+          "id": "d",
+          "texto": "O Estado retoma o trem e passa a operar com empresa pública.",
+          "preferencia": "Reestatizar o sistema ferroviário metropolitano, com operação por empresa pública."
         }
       ],
       "fato": {
@@ -94,6 +99,11 @@
           "id": "c",
           "texto": "Novas ligações de via: Via Light com Linha Vermelha, Av. Brasil e Dutra.",
           "preferencia": "Construir novas conexões viárias rodoviárias entre as vias expressas metropolitanas."
+        },
+        {
+          "id": "d",
+          "texto": "Passagem cada vez mais barata, até a tarifa zero, pra valer deixar o carro.",
+          "preferencia": "Reduzir progressivamente as tarifas do transporte público até a tarifa zero."
         }
       ],
       "fato": {
@@ -413,6 +423,11 @@
           "id": "c",
           "texto": "Casa de acolhimento, com apoio pra ela recomeçar.",
           "preferencia": "Casas de acolhimento e abrigos com apoio jurídico, psicológico e financeiro para mulheres ameaçadas."
+        },
+        {
+          "id": "d",
+          "texto": "Patrulha Maria da Penha visitando e acompanhando ela de perto.",
+          "preferencia": "Ampliar a Patrulha/Ronda Maria da Penha para acompanhar mulheres com medida protetiva."
         }
       ],
       "fato": {
@@ -442,6 +457,11 @@
           "id": "c",
           "texto": "Alerta no celular e sirene antes da chuva chegar.",
           "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
         }
       ],
       "fato": {
@@ -471,6 +491,11 @@
           "id": "c",
           "texto": "Não cumpriu? Perde o contrato.",
           "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
+        },
+        {
+          "id": "d",
+          "texto": "O Estado retoma a Cedae: água não é pra dar lucro.",
+          "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
         }
       ],
       "fato": {
@@ -652,6 +677,11 @@
           "id": "c",
           "texto": "Cortar cargo e enxugar a máquina.",
           "preferencia": "Enxugamento da máquina pública e corte de cargos e despesas de custeio."
+        },
+        {
+          "id": "d",
+          "texto": "Cortar a isenção de imposto dada a grandes empresas.",
+          "preferencia": "Revisar e cortar renúncias e benefícios fiscais concedidos a empresas."
         }
       ],
       "fato": {

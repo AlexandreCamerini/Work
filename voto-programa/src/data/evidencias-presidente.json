@@ -90,6 +90,16 @@
         "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
       }
     },
+    "p18": {
+      "resumo": "Prevê integrar Ligue 180, delegacias online, botão de emergência e centrais de monitoramento em uma plataforma de resposta rápida.",
+      "trecho": "Vamos modernizar e integrar os canais de denúncia, reunindo o Ligue 180, as delegacias online, o botão de emergência e as centrais de monitoramento em uma plataforma inteligente de resposta rápida.",
+      "fonte": {
+        "veiculo": "TSE / Poder360 (espelho)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-13",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf"
+      }
+    },
     "p19": {
       "resumo": "Prevê ampliar os espaços de acolhimento para mulheres em situação de violência e apoiar a obtenção da escritura da casa em nome da mulher.",
       "trecho": "Vamos ampliar os espaços de acolhimento para mulheres em situação de violência, porque nenhuma mulher deve continuar ao lado do agressor por não ter para onde ir. E vamos assessorar a mulher a obter a escritura da casa própria no seu nome",
@@ -168,6 +178,16 @@
         "tipo": "noticia",
         "data": "2026-09-23",
         "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/flavio-bolsonaro-live-dividas.ghtml"
+      }
+    },
+    "p36": {
+      "resumo": "Afirmou que o ajuste fiscal virá de cortes em corrupção e burocracia e da redução de impostos, sem cortes sobre quem ganha salário mínimo ou aposentados.",
+      "trecho": "Não farei economia com quem ganha salário mínimo, não farei economia com aposentados. Eu vou fazer economia cortando corrupção, fazendo tesouraço na burocracia, reduzindo os impostos.",
+      "fonte": {
+        "veiculo": "Poder360 (transcrição da entrevista da TV Globo)",
+        "tipo": "entrevista",
+        "data": "2026-08-28",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-das-perguntas-da-globo-e-as-respostas-de-flavio/"
       }
     },
     "p39": {
@@ -530,6 +550,16 @@
         "tipo": "plano_de_governo",
         "data": "2026-08-07",
         "url": "https://candidatos.nexojornal.com.br/planos/br-presidente-lula.pdf"
+      }
+    },
+    "p14": {
+      "resumo": "Criticou o modelo de autonomia do Banco Central; não detalhou proposta de alteração.",
+      "trecho": "Alguém achava que o Banco Central Independente ia resolver o problema do mundo. Não resolve.",
+      "fonte": {
+        "veiculo": "TVT News",
+        "tipo": "entrevista",
+        "data": "2026-09-15",
+        "url": "https://tvtnews.com.br/lula-na-record-principais-trechos-entrevista/"
       }
     },
     "p15": {

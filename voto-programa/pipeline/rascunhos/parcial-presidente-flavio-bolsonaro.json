@@ -1,0 +1,79 @@
+{
+  "candidato_id": "flavio-bolsonaro",
+  "versao_quiz": "1.1.0",
+  "itens": {
+    "escala-6x1": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p40",
+          "p41",
+          "p42"
+        ],
+        "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal e contratos com menor custo na folha para grupos específicos."
+      }
+    },
+    "trabalho-app": {
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Promete manter as oportunidades do trabalho por aplicativo, mas também proteção social e previdenciária a esses trabalhadores."
+      }
+    },
+    "salario-minimo": {
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p30",
+          "p36",
+          "p94"
+        ],
+        "justificativa": "Propõe reduzir a carga sobre produção e consumo, o IVA e impostos sobre energia e combustíveis, e cortar burocracia."
+      }
+    },
+    "juros-altos": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "pagar-faculdade": {
+      "d": {
+        "nota": 75,
+        "evidencias": [
+          "p76"
+        ],
+        "justificativa": "Propõe ampliar a educação técnica no ensino médio, sem mencionar institutos federais ou cursos tecnólogos."
+      }
+    },
+    "video-falso": {
+      "d": {
+        "nota": 70,
+        "evidencias": [
+          "p27",
+          "p28"
+        ],
+        "justificativa": "Propõe extinguir estruturas estatais que rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial."
+      }
+    },
+    "agressor-rondando": {
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p18"
+        ],
+        "justificativa": "Propõe integrar Ligue 180, botão de emergência e centrais de monitoramento em uma plataforma de resposta rápida."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p9"
+        ],
+        "justificativa": "Propõe endurecer a lei e obrigar agressores de mulheres a cumprir integralmente as penas."
+      }
+    }
+  }
+}

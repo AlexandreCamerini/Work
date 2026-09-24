@@ -190,6 +190,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
       }
     },
+    "p32": {
+      "resumo": "Propõe grupo de trabalho permanente para a transição da reforma tributária, adequação dos benefícios fiscais e defesa do estado no Conselho Federativo do IBS.",
+      "trecho": "Criar um Grupo de Trabalho Permanente da Reforma Tributária para mapear os impactos da transição sobre as receitas estaduais, adequar os benefícios fiscais ao novo regime, defender os interesses do estado no Conselho Federativo do IBS e desenvolver novas fontes de receita própria.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf"
+      }
+    },
     "p33": {
       "resumo": "Propõe programa de desestatização de estatais deficitárias, participações e ativos ociosos, com tarifa social e cláusulas de desempenho nas concessões.",
       "trecho": "Organizar a desestatização de estatais deficitárias, participações e ativos ociosos com quatro travas de proteção ao cidadão, melhorando o serviço prestado, gerando receita e liberando espaço fiscal — sem entregar o interesse público.",
@@ -682,6 +692,16 @@
         "url": "https://oantagonista.com.br/brasil/busnello-defende-desfavelizacao-do-rio-e-critica-proposta-de-lula/"
       }
     },
+    "p49": {
+      "resumo": "Propõe programa de locação social em imóveis públicos ociosos reformados para famílias removidas de áreas de risco.",
+      "trecho": "O Governo do Estado criará Programa Estadual de Locação Social, com retrofit de imóveis públicos ociosos para famílias realocadas de áreas de risco iminente mapeadas pela Defesa Civil e pelo INEA.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
     "p50": {
       "resumo": "Propõe nova Lei Estadual de Terras para desburocratizar a regularização fundiária.",
       "trecho": "O Governo do Estado enviará à Assembleia Legislativa nova Lei Estadual de Terras que desburocratize a regularização fundiária e autorize a alienação onerosa de terras devolutas estaduais de até 50 hectares",
@@ -954,6 +974,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf"
       }
     },
+    "p35": {
+      "resumo": "Avalia que a adesão do estado ao Propag não resolve a dívida com a União e defende taxar super-ricos e acabar com isenções fiscais.",
+      "trecho": "Não, porque a gente vai continuar com uma dívida absurda com a União. Temos que mudar essa situação. Para começar, temos que taxar super-ricos. Expropriar os grandes tubarões de ensino para ampliar a oferta do ensino público gratuito, acabar com as isenções fiscais que são absurdas aqui.",
+      "fonte": {
+        "veiculo": "Extra",
+        "tipo": "entrevista",
+        "data": "2026-09-21",
+        "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/cyro-garcia-do-pstu-propoe-tarifa-zero-e-ve-calote-como-manifestacao-politica-pode-ser-ilegal-mas-nao-e-ilegitimo.ghtml"
+      }
+    },
     "p36": {
       "resumo": "Defende reindustrializar o estado com complexos industriais e um plano de obras públicas que gere emprego.",
       "trecho": "Além disso, nós temos que reindustrializar o nosso estado, construir complexos industriais e também criar um plano de obras públicas que gere emprego, fazendo as obras realmente necessárias.",
@@ -1216,6 +1246,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
       }
     },
+    "p21": {
+      "resumo": "Propõe isenção tarifária em viagens de cuidado nos sistemas estaduais para mulheres de baixa renda responsáveis por crianças, idosos ou pessoas com deficiência.",
+      "trecho": "Isenção para viagens de cuidado nos sistemas estaduais, permitindo combinar ônibus intermunicipais, trens, metrô e barcas para mulheres de baixa renda responsáveis por crianças, idosos ou pessoas com deficiência.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
     "p25": {
       "resumo": "Propõe Centros Integrados de Saúde em cada região com consulta especializada, exames de imagem e pequenas cirurgias no mesmo equipamento.",
       "trecho": "Nós vamos levar à saúde para perto da casa das pessoas, com os Centros Integrado de Saúde em cada região, no único equipamento. O cidadão vai encontrar consulta com especialistas, exames de diagnóstico por imagem e até mesmo pequenas cirurgias",
@@ -1374,6 +1414,16 @@
         "tipo": "noticia",
         "data": "2026-08-24",
         "url": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/08/24/douglas-ruas-nega-divisao-de-prefeitos-do-pl-e-promete-reduzir-tarifa-do-metro.ghtml"
+      }
+    },
+    "p52": {
+      "resumo": "Propõe ampliar a oferta de moradias com prioridade para famílias de baixa renda e servidores da segurança, em parceria com municípios e iniciativa privada.",
+      "trecho": "Produção habitacional: ampliar a oferta de moradias dignas, com prioridade para famílias de baixa renda, servidores de segurança, em regiões com maior déficit habitacional, em parceria com municípios e iniciativa privada.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
       }
     },
     "p54": {
@@ -1588,6 +1638,16 @@
     }
   },
   "eduardo-paes": {
+    "p1": {
+      "resumo": "Propõe reduzir assaltos, tiroteios e feminicídios no primeiro ano de mandato com novo modelo de patrulhamento territorial, treinamento policial, fortalecimento das patrulhas Maria da Penha e aumento do efetivo conforme indicadores criminais de cada município.",
+      "trecho": "Reduzir a violência no estado, sobretudo os assaltos, tiroteios e feminicídios, de forma significativa já no primeiro ano de mandato, por meio da implantação de um novo modelo de patrulhamento territorial, do treinamento dos policiais, do fortalecimento das patrulhas Maria da Penha e do aumento do efetivo dedicado às operações de vigilância e policiamento ostensivo conforme os indicadores criminais em cada município do estado.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
     "p2": {
       "resumo": "Propõe conter a expansão territorial do crime organizado e retomar territórios dominados, inclusive com ações conjuntas com as Forças Armadas e investigação financeira dos grupos.",
       "trecho": "Estancar o crescimento territorial do crime organizado em todo o estado e retomar os territórios que hoje estão sob seu domínio, inclusive por meio de ações conjuntas com as forças armadas e de investigações que rastreiem o caminho do dinheiro desses grupos.",
@@ -2057,6 +2117,26 @@
         "data": "2026-09-18",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml"
       }
+    },
+    "p79": {
+      "resumo": "Defende identificar, em áreas de risco, o que pode permanecer e o que precisa de obra de contenção.",
+      "trecho": "Precisamos saber aquilo que pode ficar e aquilo que precisa de obra de contenção",
+      "fonte": {
+        "veiculo": "Manchete RJ",
+        "tipo": "noticia",
+        "data": "2026-09-02",
+        "url": "https://mancheterj.com/eduardo-paes-promete-cinco-centros-de-operacoes-para-monitorar-chuvas-e-prevenir-tragedias-no-rj/"
+      }
+    },
+    "p80": {
+      "resumo": "Critica a demora na entrega de moradias a vítimas das chuvas de 2011 e 2022 que seguem no aluguel social.",
+      "trecho": "É um absurdo que vítimas das chuvas de 2011 e 2022 ainda estejam recebendo aluguel social e que as suas casas não estejam prontas ainda",
+      "fonte": {
+        "veiculo": "Manchete RJ",
+        "tipo": "noticia",
+        "data": "2026-09-02",
+        "url": "https://mancheterj.com/eduardo-paes-promete-cinco-centros-de-operacoes-para-monitorar-chuvas-e-prevenir-tragedias-no-rj/"
+      }
     }
   },
   "juliete-pantoja": {
@@ -2455,6 +2535,16 @@
     "p5": {
       "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende passe livre nos transportes para desempregados e trabalhadores informais.",
       "trecho": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
+      "fonte": {
+        "veiculo": "TSE / ND+ (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf"
+      }
+    },
+    "p8": {
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende cancelar todas as privatizações já feitas, citando Eletrobras, Vale, bancos e telefonia.",
+      "trecho": "Cancelamento de todas as privatizações realizadas (Eletrobrás, Vale, bancos, telefonia etc.)",
       "fonte": {
         "veiculo": "TSE / ND+ (espelho)",
         "tipo": "plano_de_governo",
@@ -2867,6 +2957,26 @@
     "p36": {
       "resumo": "Promete colocar 30 CIEPs em funcionamento em tempo integral no primeiro ano de mandato.",
       "trecho": "Colocar em funcionamento 30 CIEPs no modelo integral, no primeiro ano de mandato, privilegiando as áreas mais vulneráveis do nosso estado;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p42": {
+      "resumo": "Propõe o programa Habita Rio, com moradia popular, urbanização de favelas e uma imobiliária pública.",
+      "trecho": "Criar o programa Habita Rio, que será constituído de três pilares: um programa de moradia popular; um programa de urbanização das favelas; e uma imobiliária pública voltada para a construção de moradias de qualidade a preço acessível;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p43": {
+      "resumo": "Propõe extinguir a atual política de remoções.",
+      "trecho": "Extinguir a atual política de remoções, construindo um modelo de política habitacional que respeite os princípios constitucionais no que tange ao direito à integridade e inviolabilidade do domicílio;",
       "fonte": {
         "veiculo": "TSE / Nexo Jornal (espelho)",
         "tipo": "plano_de_governo",

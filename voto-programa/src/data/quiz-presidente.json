@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.0",
+  "versao": "1.1.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Presidente da República 2026",
   "descricao": "situações da vida real em todo o país: jornada de trabalho, fila do SUS, juros, celular roubado",
@@ -67,6 +67,11 @@
           "id": "c",
           "texto": "Rever as regras que deixaram o trabalho mais precário.",
           "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+        },
+        {
+          "id": "d",
+          "texto": "Menos imposto na carteira, pra empresa contratar mais gente.",
+          "preferencia": "Reduzir encargos sobre a folha de pagamento para estimular a contratação formal."
         }
       ],
       "fato": {
@@ -140,6 +145,11 @@
           "id": "c",
           "texto": "Contribuir pro INSS de um jeito mais flexível, quando der.",
           "preferencia": "Mecanismos contributivos previdenciários flexíveis para trajetórias de trabalho descontínuas."
+        },
+        {
+          "id": "d",
+          "texto": "Deixar como está: app é liberdade, sem lei nova mexendo nisso.",
+          "preferencia": "Manter o trabalho por aplicativo sem nova regulação trabalhista, preservando a flexibilidade."
         }
       ],
       "fato": {
@@ -169,6 +179,11 @@
           "id": "c",
           "texto": "Programa de pontos: pagar conta em dia e fazer curso dá desconto e juro menor.",
           "preferencia": "Programa voluntário que recompensa comportamentos como qualificação e adimplência com crédito, juros menores e cashback."
+        },
+        {
+          "id": "d",
+          "texto": "Cortar imposto e burocracia pra tudo ficar mais barato.",
+          "preferencia": "Reduzir a carga tributária e a burocracia para baratear preços e aliviar o orçamento."
         }
       ],
       "fato": {
@@ -238,6 +253,11 @@
           "id": "c",
           "texto": "Vender imóveis da União e usar royalties num fundo pra pagar dívida.",
           "preferencia": "Criar fundo com imóveis e ativos da União e royalties do petróleo para abater a dívida pública."
+        },
+        {
+          "id": "d",
+          "texto": "Mudar as regras do Banco Central pra ele olhar mais pro emprego.",
+          "preferencia": "Rever o modelo de autonomia do Banco Central para que a política de juros priorize crescimento e emprego."
         }
       ],
       "fato": {
@@ -409,6 +429,11 @@
           "id": "c",
           "texto": "Voucher pra estudar em escola particular quando faltar vaga na pública.",
           "preferencia": "Voucher educacional para matrícula em escola privada onde faltar vaga na rede pública."
+        },
+        {
+          "id": "d",
+          "texto": "Curso técnico e tecnólogo de graça, que já leva pro emprego.",
+          "preferencia": "Ampliar a oferta gratuita de educação técnica e tecnológica (institutos federais e ensino técnico)."
         }
       ],
       "fato": {
@@ -506,6 +531,11 @@
           "id": "c",
           "texto": "Regras pra proteger criança nas telas e nos jogos.",
           "preferencia": "Regular o uso de telas por faixa etária e as plataformas de jogos para proteger crianças e adolescentes."
+        },
+        {
+          "id": "d",
+          "texto": "A Justiça pune quem espalha mentira, sem órgão do governo decidindo.",
+          "preferencia": "Responsabilização judicial individual por desinformação, sem estruturas estatais de moderação de conteúdo."
         }
       ],
       "fato": {
@@ -565,6 +595,16 @@
           "id": "b",
           "texto": "Casa de acolhimento e centro de atendimento à mulher perto de casa.",
           "preferencia": "Ampliar casas e centros de atendimento e acolhimento a mulheres em situação de violência."
+        },
+        {
+          "id": "c",
+          "texto": "Botão de emergência no celular ligado direto à polícia.",
+          "preferencia": "Plataforma integrada com botão de emergência no celular, Ligue 180 e centrais de monitoramento."
+        },
+        {
+          "id": "d",
+          "texto": "Prisão pra quem descumprir a medida protetiva, sem benefício.",
+          "preferencia": "Endurecer a punição e obrigar o cumprimento integral para quem descumpre medida protetiva."
         }
       ],
       "fato": {

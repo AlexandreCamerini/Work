@@ -1,0 +1,59 @@
+{
+  "candidato_id": "coronel-busnello",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 15,
+        "evidencias": [
+          "p29",
+          "p28"
+        ],
+        "justificativa": "Propõe fiscalizar pela Setram o contrato de operação dos trens definido em leilão e executar a recuperação física do sistema, sem prever retomada da operação pelo Estado."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p55"
+        ],
+        "justificativa": "Propõe criar o Comando Especializado Patrulha Maria da Penha, com orçamento próprio e sala de situação para monitorar em tempo real os acionamentos de mulheres com medida protetiva."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p49"
+        ],
+        "justificativa": "Propõe programa de locação social em imóveis públicos reformados para famílias realocadas de áreas de risco, sem mencionar proximidade do local de origem."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p57",
+          "p42",
+          "p39"
+        ],
+        "justificativa": "Propõe revisão obrigatória a cada quatro anos de todas as renúncias fiscais, mas também atrair investimentos por renúncias fiscais e conceder incentivo de ICMS de longo prazo."
+      }
+    }
+  }
+}
