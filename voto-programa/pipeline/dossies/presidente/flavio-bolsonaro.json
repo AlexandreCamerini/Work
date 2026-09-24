@@ -1,0 +1,1390 @@
+{
+  "candidato_id": "flavio-bolsonaro",
+  "nome": "Flávio Bolsonaro",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+    "observacao": "A API do DivulgaCandContas (lida via Exa) confirma a proposta de governo registrada no TSE: candidato FLAVIO BOLSONARO, nº 22, id 280002551544, eleição 20322002026, arquivo codTipo 5 'DiretrizesPlanodeGovernoFlavioBolsonaro20272030versaofinal.pdf', idArquivo 280017104726, caminho candidaturas/oficial/2026/BR/BR/6257/candidatos/21616/. O download direto do PDF no TSE falhou (timeout via Exa; o proxy bloqueia *.tse.jus.br). O texto usado vem do PDF espelhado pelo Poder360. Os metadados desse PDF trazem o título 'Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal', igual ao nome do arquivo no TSE. O documento se chama 'Para o Brasil Vencer o Atraso' e foi registrado em 13/08/2026 com o registro de candidatura, segundo iG, Portal Tela e g1. Não houve comparação byte a byte com o arquivo do TSE. A imprensa fala em 70, 75 ou 76 páginas. O site oficial (flaviobolsonaro.com.br/plano-de-governo/leitura) também publica o texto, mas não foi usado como fonte."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Para o Brasil Vencer o Atraso – Diretrizes do Plano de Governo 2027-2030 (proposta de governo registrada no TSE; cópia espelhada pelo Poder360)",
+      "veiculo": "TSE / Poder360 (espelho)",
+      "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+      "data": "2026-08-13"
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Leia a íntegra das perguntas da “Globo” e as respostas de Flávio (entrevista após o Jornal Nacional, 28/08/2026)",
+      "veiculo": "Poder360 (transcrição da entrevista da TV Globo)",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-a-integra-das-perguntas-da-globo-e-as-respostas-de-flavio/",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "f3",
+      "tipo": "noticia",
+      "titulo": "Flávio defende Bolsa Família, isenção do IR para quem ganha até R$ 5 mil e diz que pai errou na relação com a imprensa (fórum Rumos do Brasil, Veja)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/06/15/flavio-defende-bolsa-familia-isencao-do-ir-para-quem-ganha-ate-r-5-mil-e-diz-que-pai-errou-na-relacao-com-a-imprensa.ghtml",
+      "data": "2026-06-15"
+    },
+    {
+      "id": "f4",
+      "tipo": "noticia",
+      "titulo": "Flávio Bolsonaro diz que Bolsa Família é 'direito adquirido': 'Ninguém tem direito de tocar nesse programa'",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/06/15/flavio-bolsonaro-diz-que-bolsa-familia-e-direito-adquirido-e-propoe-ampliar-transicao-para-emprego-formal.ghtml",
+      "data": "2026-06-15"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Ex-crítico, Flávio diz que fará Bolsa Família com cashback (entrevista ao Flow Podcast)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/ex-critico-flavio-diz-que-fara-bolsa-familia-com-cashback",
+      "data": "2026-07-15"
+    },
+    {
+      "id": "f6",
+      "tipo": "noticia",
+      "titulo": "Flávio diz não pretender atacar pisos da saúde e educação, vinculação do mínimo e Previdência (entrevista ao SBT News)",
+      "veiculo": "Correio do Estado (Estadão Conteúdo)",
+      "url": "https://correiodoestado.com.br/politica/flavio-diz-nao-pretender-atacar-pisos-da-saude-e-educacao-vinculacao/468377/",
+      "data": "2026-06-19"
+    },
+    {
+      "id": "f7",
+      "tipo": "noticia",
+      "titulo": "Flávio volta ao Senado, mas evita posição sobre PEC da 6x1 diante de possível desgaste eleitoral",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/09/01/flavio-volta-ao-senado-mas-evita-posicao-sobre-pec-da-6x1-diante-de-possivel-desgaste-eleitoral-acho-que-vai-poder-votar-remotamente.ghtml",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "f8",
+      "tipo": "noticia",
+      "titulo": "Flávio Bolsonaro acena ao agro, defende marco temporal e sugere que indígenas possam criar gado e explorar minério em terras (discurso na ExpoGrande)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/04/10/flavio-bolsonaro-acena-ao-agro-defende-marco-temporal-e-sugere-que-indigenas-possam-criar-gado-e-explorar-minerio-em-terras.ghtml",
+      "data": "2026-04-10"
+    },
+    {
+      "id": "f9",
+      "tipo": "noticia",
+      "titulo": "'Se depender de mim, não haverá nenhuma demarcação indígena', diz Flávio Bolsonaro (discurso na Norte Show, Sinop-MT)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/politica/noticia/2026/04/22/se-depender-de-mim-nao-havera-nenhuma-demarcacao-indigena-diz-flavio-bolsonaro.ghtml",
+      "data": "2026-04-22"
+    },
+    {
+      "id": "f10",
+      "tipo": "noticia",
+      "titulo": "Em ato na Paulista, Flávio diz que 'quem vota em Lula está votando em Alexandre de Moraes' e diz que indicará cinco ministros ao STF",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/07/em-ato-na-paulista-flavio-diz-que-quem-vota-em-lula-esta-votando-em-alexandre-de-moraes-e-diz-que-indicara-cinco-ministros-ao-stf.ghtml",
+      "data": "2026-09-07"
+    },
+    {
+      "id": "f11",
+      "tipo": "noticia",
+      "titulo": "Flávio Bolsonaro promete novo programa contra dívidas dos brasileiros (live nas redes sociais)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/flavio-bolsonaro-live-dividas.ghtml",
+      "data": "2026-09-23"
+    },
+    {
+      "id": "f12",
+      "tipo": "noticia",
+      "titulo": "Em aceno ao agro, Flávio defende marco temporal: \"Demarcou, está demarcado\" (discurso na 86ª Expogrande)",
+      "veiculo": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/politica/em-aceno-ao-agro-flavio-defende-marco-temporal-demarcou-esta-demarcado/",
+      "data": "2026-04-10"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "facções / crime organizado",
+      "resumo": "Propõe declarar PCC, CV, milícias e demais facções como organizações narcoterroristas e bloquear ativos e combater a lavagem de dinheiro das facções.",
+      "trecho": "Vamos declarar guerra ao crime organizado. PCC, CV, milícias e todas as outras facções serão declaradas como organizações narcoterroristas. Elas serão combatidas com força, inteligência e integração para que seus líderes sejam presos e seus negócios ilícitos, asfixiados. Vamos seguir o dinheiro do crime: bloquearemos ativos e desarticularemos a lavagem de dinheiro que sustenta as facções.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "uso da força policial",
+      "resumo": "Afirma que criminosos armados com fuzil serão abatidos pelas forças de segurança.",
+      "trecho": "Bandido armado com fuzil na mão vai ser abatido pelas forças de segurança.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "cooperação federativa / polícias",
+      "resumo": "Prevê consórcios e convênios com estados e municípios para investir em inteligência, retomada de territórios, tecnologia, armamentos e valorização do policial.",
+      "trecho": "Vamos fazer consórcios e convênios com estados e municípios para investir em inteligência, retomada de territórios alinhada a políticas públicas estruturantes, tecnologia, armamentos de última geração e valorização do policial.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "maioridade penal",
+      "resumo": "Promete apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir maiores de 14 anos por crimes graves.",
+      "trecho": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos. Vamos punir também maiores de 14 anos que cometerem crimes graves, como estupro, tráfico, tortura e assassinato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Maioridade penal de 18 para 16 anos; punição a partir de 14 anos para crimes graves"
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "fronteiras",
+      "resumo": "Propõe criar o Sistema Nacional de Fronteira, tropa formada por Exército, Marinha e Aeronáutica para interceptar armas e drogas nas fronteiras.",
+      "trecho": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e da Força Aérea Brasileira, equipada com armas de guerra, inteligência e tecnologia, responsável por criar um paredão na fronteira.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "presídios federais",
+      "resumo": "Prevê 5 novos presídios federais de segurança máxima no modelo de El Salvador, formando com os 5 atuais o complexo chamado TREVA, sem celular, sem visita íntima e com visitas monitoradas.",
+      "trecho": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador. Junto com os atuais 5 presídios federais, eles formarão o Complexo Federal de Segurança Máxima. Para tirar o medo do cidadão e botar medo no bandido, ele vai se chamar TREVA. Chefes de quadrilha e marginais de alta periculosidade serão tirados de circulação e isolados. Com isso, os bandidos vão deixar de controlar as facções criminosas de dentro dos presídios, como ocorre hoje. Eles vão viver sem celular, sem visita íntima e com visitas monitoradas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "5 novos presídios federais de segurança máxima"
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "vagas no sistema prisional",
+      "resumo": "Propõe criar, com os estados, meio milhão de vagas prisionais em 4 anos e zerar o déficit carcerário.",
+      "trecho": "Em parceria com os governos estaduais, vamos criar meio milhão de novas vagas no sistema prisional em 4 anos e zerar o déficit carcerário.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "500 mil novas vagas prisionais em 4 anos; déficit carcerário zero"
+    },
+    {
+      "id": "p8",
+      "tema": "seguranca",
+      "subtema": "crimes sexuais / castração química",
+      "resumo": "Propõe aprovar e implementar a castração química para condenados por estupro e abuso de crianças.",
+      "trecho": "Vamos usar a força da Presidência da República e a nossa experiência legislativa para aprovar e implementar a castração química de criminosos que abusam de mulheres e crianças. A medida deverá ser aplicada a estupradores e abusadores de crianças condenados pela Justiça.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "seguranca",
+      "subtema": "feminicídio / medidas protetivas",
+      "resumo": "Prevê monitorar com tornozeleira eletrônica agressores de mulheres com medida protetiva e obrigar o cumprimento integral das penas de assassinos e agressores de mulheres.",
+      "trecho": "Os agressores das mais de meio milhão de mulheres com medida protetiva no Brasil serão monitorados pelas autoridades com o uso de tornozeleiras eletrônicas. Vamos endurecer a lei e obrigar assassinos e agressores de mulheres a cumprir integralmente suas penas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "seguranca",
+      "subtema": "tráfico em portos e aeroportos",
+      "resumo": "Propõe usar tropas especiais da Marinha e da Aeronáutica para ocupar e monitorar permanentemente portos e aeroportos.",
+      "trecho": "Nós vamos usar tropas especiais da Marinha e da Aeronáutica para ocupar e monitorar, de forma permanente, os portos e aeroportos brasileiros.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p11",
+      "tema": "seguranca",
+      "subtema": "financiamento da segurança pública",
+      "resumo": "Promete dobrar os investimentos federais em segurança pública ao longo do mandato.",
+      "trecho": "O novo governo do Brasil vai dobrar os investimentos federais em segurança pública ao longo do mandato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Dobrar o investimento federal em segurança até o fim do mandato"
+    },
+    {
+      "id": "p12",
+      "tema": "seguranca",
+      "subtema": "reconhecimento facial / câmeras",
+      "resumo": "Propõe o sistema nacional de reconhecimento facial Muralha Brasileira, integrado a bancos de dados criminais, com mais de 1 milhão de novas câmeras.",
+      "trecho": "Vamos implantar o Muralha Brasileira - um sistema nacional de reconhecimento facial integrado a bancos de dados criminais, inspirado no Smart Sampa, da Prefeitura de São Paulo, e no Muralha Paulista, do Governo do Estado. Além de localizar foragidos e prevenir crimes, vamos vigiar portos, aeroportos e áreas públicas com mais de 1 milhão de novas câmeras espalhadas por todo o país.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Mais de 1 milhão de novas câmeras"
+    },
+    {
+      "id": "p13",
+      "tema": "seguranca",
+      "subtema": "auxílio a famílias de presos e de vítimas",
+      "resumo": "Propõe redirecionar às famílias das vítimas os recursos hoje destinados às famílias de detentos.",
+      "trecho": "Os recursos hoje direcionados às famílias de detentos serão redirecionados às famílias das vítimas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "seguranca",
+      "subtema": "progressão de regime",
+      "resumo": "Propõe acabar com a progressão de regime para condenados por crimes hediondos.",
+      "trecho": "o novo Governo do Brasil vai usar toda a sua força para acabar com a progressão de regime de quem comete crimes hediondos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "seguranca",
+      "subtema": "roubo e furto de celular",
+      "resumo": "Propõe prisão para quem rouba celular e quadruplicar a pena inicial de quem furta ou revende aparelho roubado, sem benefícios.",
+      "trecho": "Criminoso que for pego roubando celular vai ficar preso. Quem furta ou revende um aparelho fruto de crime vai ter a pena inicial quadruplicada, também sem benefícios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Pena inicial quadruplicada para furto/receptação de celular"
+    },
+    {
+      "id": "p16",
+      "tema": "seguranca",
+      "subtema": "territórios dominados por facções",
+      "resumo": "Prometeu, a partir de janeiro de 2027, classificar PCC, Comando Vermelho e milícias como terroristas e livrar moradores de áreas dominadas, com integrantes das facções presos ou 'neutralizados' pela polícia.",
+      "trecho": "A partir de janeiro do ano que vem, eu vou declarar guerra aos narcoterroristas desse país. PCC, Comando Vermelho e milícias vão ser classificados como terroristas. Você, que mora em uma área dominada por esses marginais e tem que pagar pedágio para abrir sua loja, tem que pagar taxa para a sua internet e para o seu gás, eu vou livrar você desses caras. A partir do ano que vem, você não vai mais precisar olhar para a cara deles, porque eles vão estar presos ou serão neutralizados pela nossa polícia",
+      "fonte_id": "f10",
+      "compromisso_concreto": true,
+      "numeros": "A partir de janeiro de 2027"
+    },
+    {
+      "id": "p17",
+      "tema": "direitos",
+      "subtema": "mulheres – Central da Mulher",
+      "resumo": "Propõe abrir Centrais da Mulher em todo o país, em parceria com estados, municípios, Sistema S e instituições públicas e privadas, em imóveis da União.",
+      "trecho": "Vamos abrir essas centrais em todo o Brasil, em parceria com estados e municípios, em imóveis da União e em conjunto com o Sistema S e instituições públicas e privadas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "direitos",
+      "subtema": "mulheres – canais de denúncia",
+      "resumo": "Prevê integrar Ligue 180, delegacias online, botão de emergência e centrais de monitoramento em uma plataforma de resposta rápida.",
+      "trecho": "Vamos modernizar e integrar os canais de denúncia, reunindo o Ligue 180, as delegacias online, o botão de emergência e as centrais de monitoramento em uma plataforma inteligente de resposta rápida.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "direitos",
+      "subtema": "mulheres – acolhimento e patrimônio",
+      "resumo": "Prevê ampliar os espaços de acolhimento para mulheres em situação de violência e apoiar a obtenção da escritura da casa em nome da mulher.",
+      "trecho": "Vamos ampliar os espaços de acolhimento para mulheres em situação de violência, porque nenhuma mulher deve continuar ao lado do agressor por não ter para onde ir. E vamos assessorar a mulher a obter a escritura da casa própria no seu nome",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "direitos",
+      "subtema": "esporte feminino / atletas trans",
+      "resumo": "Propõe que a categoria feminina, da base ao alto rendimento, seja disputada apenas por atletas do sexo feminino.",
+      "trecho": "Vamos assegurar que a categoria feminina, da base ao alto rendimento, seja disputada por atletas do sexo feminino, protegendo a mulher e a lisura da competição de agendas ideológicas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "direitos",
+      "subtema": "povos indígenas e quilombolas – uso das terras",
+      "resumo": "Prevê conferir a indígenas e quilombolas autonomia para decidir sobre atividades produtivas em suas terras, com indenização de restrições ao usufruto.",
+      "trecho": "Será conferida autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, com respeito ao desenvolvimento sustentável e às regras ambientais, e com indenização de eventuais restrições ao usufruto e mecanismos de compensação",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "direitos",
+      "subtema": "terras indígenas – marco temporal",
+      "resumo": "Defendeu o marco temporal das terras indígenas e a regra de que áreas não demarcadas até 1993 não sejam mais demarcadas.",
+      "trecho": "Essa insegurança jurídica vai acabar. Vai acabar na esfera constitucional, na esfera legal, seja em respeito ao marco temporal das terras indígenas [...] Depois de 1993 para cá, o correto seria: demarcou, está demarcado, não demarcou, acabou. Então o Congresso Nacional tem um papel importante de reestabelecer a ordem constitucional no nosso país",
+      "fonte_id": "f12",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "direitos",
+      "subtema": "terras indígenas – atividades econômicas",
+      "resumo": "Defendeu que indígenas decidam se plantam, criam gado, exploram minérios ou fazem turismo em suas terras, recebendo royalties, sem que a decisão caiba a juízes.",
+      "trecho": "Se é plantar, se é botar gado, se é explorar minérios, se é implementar algum empreendimento de turismo, os indígenas têm que falar o que é melhor, têm que decidir o que é melhor para eles. Vão ganhar royalties, dinheiro disso. Vão prosperar, vão evoluir com isso, como alguns povos indígenas já estão fazendo. Não pode ser mais a caneta de um juiz que vai decidir qual é esse futuro",
+      "fonte_id": "f8",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "direitos",
+      "subtema": "terras indígenas – novas demarcações",
+      "resumo": "Afirmou que, em seu governo, os pedidos de demarcação da Funai em Mato Grosso (2,2 milhões de hectares) não seriam demarcados.",
+      "trecho": "Há pedidos da Funai por demarcações de reservas indígenas que podem totalizar 2,2 milhões de hectares atingindo 22 municípios do Mato Grosso, é inaceitável. Se depender do nosso governo nenhuma dessas reservas será demarcada",
+      "fonte_id": "f9",
+      "compromisso_concreto": true,
+      "numeros": "2,2 milhões de hectares em 22 municípios de MT citados"
+    },
+    {
+      "id": "p25",
+      "tema": "direitos",
+      "subtema": "aborto / valores",
+      "resumo": "O plano lista entre os valores do governo o respeito à vida desde a concepção.",
+      "trecho": "Nossa forma de governar permanece fiel a valores que consideramos inegociáveis e que sustentam a sociedade brasileira: o respeito à liberdade, à família, à vida desde a concepção, à propriedade privada, à democracia, à liberdade de expressão e à liberdade religiosa.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "direitos",
+      "subtema": "aborto, drogas e gênero – indicações ao STF",
+      "resumo": "Promete indicar ao STF ministros contrários ao aborto, às drogas e à 'ideologia de gênero nas escolas'.",
+      "trecho": "Eu vou indicar cinco ministros para o STF, porque Alexandre de Moraes vai cair. E eu vou indicar homens e mulheres que sejam contra o aborto, contra as drogas, contra a ideologia de gênero nas escolas, que respeitem a Constituição, que não persigam adversários políticos e que ajudem a resgatar a credibilidade do Supremo.",
+      "fonte_id": "f10",
+      "compromisso_concreto": true,
+      "numeros": "Cinco indicações ao STF"
+    },
+    {
+      "id": "p27",
+      "tema": "direitos",
+      "subtema": "liberdade de expressão / desinformação",
+      "resumo": "Propõe extinguir estruturas estatais de combate à desinformação que classifica como 'Ministério da Verdade' e revogar atos do atual governo que considera censura.",
+      "trecho": "Vamos fazer um Tesouraço da Censura: acabar com qualquer estrutura estatal que funcione como um “Ministério da Verdade\", encarregada de vigiar, rotular ou punir o que as pessoas dizem. E vamos revogar todos os atos que o atual governo produziu para silenciar seus críticos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p28",
+      "tema": "direitos",
+      "subtema": "liberdade de imprensa",
+      "resumo": "Afirmou que manterá liberdade de imprensa e de expressão e que a relação do governo do pai com a imprensa e a publicidade oficial deve mudar.",
+      "trecho": "No que depender de mim, vai ter sempre liberdade de imprensa, liberdade de expressão, independente de matérias injustas contra mim, ainda que eu as ache injustas.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p29",
+      "tema": "direitos",
+      "subtema": "pessoas com deficiência / autismo",
+      "resumo": "Prevê políticas transversais para pessoas com deficiência e doenças raras, incluindo Centros de Referência em Transtorno do Espectro Autista.",
+      "trecho": "Nossas políticas serão transversais, atravessando todas as áreas do governo, voltadas a ações concretas de garantia de direitos, inclusão e integração social, entre elas a implantação de Centros de Referência em Transtorno do Espectro Autista.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "economia",
+      "subtema": "reforma tributária / IVA",
+      "resumo": "Propõe revisar e redimensionar a reforma tributária e os aumentos de impostos do atual governo, reduzir a alíquota do IVA e assegurar a não cumulatividade.",
+      "trecho": "Vamos promover a revisão e o redimensionamento da reforma tributária em curso e da majoração de impostos efetuada pelo atual governo, com o objetivo de reduzir efetivamente a carga sobre a produção e o consumo. Vamos corrigir suas distorções, reduzir o IVA, hoje projetado num dos patamares mais altos do mundo, e assegurar a não cumulatividade, para que não se cobre imposto sobre imposto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p31",
+      "tema": "economia",
+      "subtema": "arcabouço fiscal / dívida pública",
+      "resumo": "Propõe substituir as regras fiscais atuais por regras voltadas à estabilização e redução da dívida, com superávits primários, limite ao crédito subsidiado e regra de controle de gastos discricionários dos três Poderes.",
+      "trecho": "Apresentaremos uma reformulação nas atuais regras fiscais, com regras claras focadas na estabilização e na redução da dívida pública conforme determina a Constituição. Vamos construir o equilíbrio fiscal duradouro, entregando superávits primários e limitando o crédito subsidiado com recursos do Tesouro, mitigando pressões inflacionárias. E haverá uma regra clara de controle de gastos discricionários dos três Poderes da União.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Sem meta numérica; prazo 'no menor prazo possível' para estabilizar e reduzir Dívida/PIB"
+    },
+    {
+      "id": "p32",
+      "tema": "economia",
+      "subtema": "juros e inflação",
+      "resumo": "Vincula a queda dos juros e a inflação no centro da meta à estabilização e redução da dívida pública.",
+      "trecho": "Ao estabilizar e reduzir a dívida pública, nosso governo vai criar as condições para que os juros básicos fiquem em linha com a média internacional e para que a inflação volte ao centro da meta.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "economia",
+      "subtema": "imposto de renda",
+      "resumo": "Declarou ser favorável à isenção do Imposto de Renda para quem ganha até R$ 5 mil, com compensação de receita sem criar ou aumentar impostos.",
+      "trecho": "Eu sou favorável, era uma promessa de campanha também do presidente Bolsonaro. A única diferença é que, com o Bolsonaro, certamente, você teria uma compensação de abrir mão dessa receita, você teria de onde tirar, sem precisar aumentar ou criar impostos.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "Isenção de IR até R$ 5 mil"
+    },
+    {
+      "id": "p34",
+      "tema": "economia",
+      "subtema": "crescimento econômico",
+      "resumo": "Estabelece meta de crescimento sustentado de 4% ao ano na próxima década.",
+      "trecho": "Nossa meta é dobrar esse ritmo e alcançar um crescimento sustentado de 4% ao ano ao longo da próxima década, apoiado no investimento privado, na segurança jurídica e na competitividade do agro, da indústria e dos serviços.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "4% ao ano de crescimento na próxima década"
+    },
+    {
+      "id": "p35",
+      "tema": "economia",
+      "subtema": "dívida pública / fundo com ativos (SOS Brasil)",
+      "resumo": "Anunciou um fundo (programa SOS Brasil) estimado em R$ 3 trilhões, do qual uma parte seria usada primeiro para pagar a dívida pública.",
+      "trecho": "A gente estima que, nesse fundo, a gente vai ter aproximadamente algo em torno de R$ 3 trilhões. O que que eu vou fazer com esses R$ 3 trilhões? Uma parte eu vou usar para pagar dívida do governo primeiro",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": "Fundo estimado em R$ 3 trilhões"
+    },
+    {
+      "id": "p36",
+      "tema": "economia",
+      "subtema": "ajuste fiscal / fontes",
+      "resumo": "Afirmou que o ajuste fiscal virá de cortes em corrupção e burocracia e da redução de impostos, sem cortes sobre quem ganha salário mínimo ou aposentados.",
+      "trecho": "Não farei economia com quem ganha salário mínimo, não farei economia com aposentados. Eu vou fazer economia cortando corrupção, fazendo tesouraço na burocracia, reduzindo os impostos.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "economia",
+      "subtema": "custo dos alimentos / logística e armazenagem",
+      "resumo": "Propõe Corredores Logísticos Inteligentes para reduzir o custo de transporte e ampliação do Seguro Rural.",
+      "trecho": "Vamos criar os Corredores Logísticos Inteligentes, com foco direto na redução do custo de transporte, e ampliar o Seguro Rural, dando previsibilidade a quem planta",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "economia",
+      "subtema": "fertilizantes",
+      "resumo": "Prevê apoiar a produção nacional de fertilizantes com potássio e fosfato.",
+      "trecho": "Vamos apoiar a produção nacional de fertilizantes, com os minerais que o Brasil possui, como o potássio e o fosfato, para que a mesa do brasileiro não dependa do que acontece do outro lado do mundo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p39",
+      "tema": "economia",
+      "subtema": "crédito / Caixa e Ganha, Ganha",
+      "resumo": "Propõe o programa voluntário Ganha-Ganha, em que atitudes como concluir curso, formalizar negócio ou pagar contas em dia geram acesso a crédito, juros menores e cashback.",
+      "trecho": "A grande inovação será o Ganha-Ganha, um programa em que o Estado reconhece quem faz a sua parte. De adesão voluntária, ele permite que atitudes como concluir um curso de qualificação, formalizar um negócio, conseguir um emprego ou manter as contas em dia formem um histórico positivo que trabalha a favor do cidadão: acesso a crédito, juros menores e cashback para quem hoje é invisível ao sistema financeiro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p40",
+      "tema": "trabalho",
+      "subtema": "custo do trabalho / formalização",
+      "resumo": "Propõe reduzir gradualmente o custo do trabalho formal, sem retirar direitos.",
+      "trecho": "Vamos reduzir gradualmente o custo do trabalho, sem retirar direitos, para que mais brasileiros tenham carteira assinada e a proteção que vem com ela.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p41",
+      "tema": "trabalho",
+      "subtema": "primeiro emprego (18 a 24 anos)",
+      "resumo": "Propõe contrato de trabalho com menor custo na folha para jovens de 18 a 24 anos em busca do primeiro emprego.",
+      "trecho": "Para o jovem, vamos criar um contrato de trabalho para os 18 a 24 anos em busca do primeiro emprego, com menor custo na folha, para que a empresa tenha estímulo a dar a primeira oportunidade",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Faixa etária 18 a 24 anos"
+    },
+    {
+      "id": "p42",
+      "tema": "trabalho",
+      "subtema": "trabalhadores com 50 anos ou mais",
+      "resumo": "Propõe contrato mais atrativo para contratar pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses.",
+      "trecho": "vamos criar um contrato mais atrativo para a contratação de pessoas com 50 anos ou mais desempregadas há pelo menos 12 meses",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "50+ anos, desempregados há 12 meses ou mais"
+    },
+    {
+      "id": "p43",
+      "tema": "trabalho",
+      "subtema": "negociado sobre o legislado / jornada flexível",
+      "resumo": "Defende jornada flexível e a prevalência do negociado entre trabalhador e empresa sobre o legislado.",
+      "trecho": "Por isso defendemos o negociado sobre o legislado, ou seja, permitir que trabalhador e empresa combinem diretamente as condições de trabalho que funcionam para os dois, dentro da lei, em vez de seguir uma regra única imposta a todos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p44",
+      "tema": "trabalho",
+      "subtema": "escala 6x1",
+      "resumo": "Não se comprometeu com a PEC do fim da escala 6x1; defende como alternativa que o trabalhador escolha a própria jornada, mantidos os direitos constitucionais.",
+      "trecho": "A minha posição é a alternativa melhor que nós estamos dando, de liberdade total para o trabalhador poder fazer a sua própria escala. Tem muita mulher, por exemplo, que não consegue trabalhar sete ou oito horas por dia para cumprir essa escala engessada que o governo está propondo. Ela pode trabalhar, de repente, meio período só, quatro horas por dia. Então vamos dar liberdade para que o trabalhador possa fazer a sua própria escala, com todos os direitos trabalhistas garantidos na Constituição.",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p45",
+      "tema": "trabalho",
+      "subtema": "trabalho por aplicativos",
+      "resumo": "Afirma que manterá as oportunidades do trabalho por aplicativos e que esses trabalhadores terão proteção social e previdenciária sem protagonismo de dirigentes sindicais.",
+      "trecho": "Nosso projeto garante a manutenção das oportunidades de renda e de trabalho trazidas pelo trabalho por aplicativos. Nada pode estar à frente dos interesses de quem trabalha, dos usuários e da efetiva proteção social e previdenciária a eles assegurada. Esses trabalhadores serão protegidos, sem os interesses de dirigentes sindicais a frente do processo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "trabalho",
+      "subtema": "sindicatos",
+      "resumo": "Posiciona-se contra o que chama de 'República Sindical', em que interesses de dirigentes sindicais se sobreporiam aos dos trabalhadores.",
+      "trecho": "O país precisa se posicionar contra a República Sindical, em que os interesses de dirigentes das entidades se sobrepõem ao interesse dos trabalhadores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "trabalho",
+      "subtema": "intermediação de mão de obra",
+      "resumo": "Propõe um banco nacional de vagas conectado ao RH das empresas.",
+      "trecho": "vamos modernizar a intermediação de mão de obra, com um banco nacional de vagas conectado ao RH das empresas, para aproximar de forma rápida e direta quem procura trabalho de quem procura trabalhador",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p48",
+      "tema": "trabalho",
+      "subtema": "salário mínimo",
+      "resumo": "Perguntado se o salário mínimo teria aumento real, afirmou que não fará 'economia' em cima de quem recebe o mínimo, sem citar regra de reajuste.",
+      "trecho": "Renata, eu não vou fazer economia do povo mais sofrido brasileiro. Quem recebe salário mínimo hoje está perdendo seu poder de compra por causa da gastança do governo. Não vou fazer economia em cima de você.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p49",
+      "tema": "trabalho",
+      "subtema": "salário mínimo / vinculação e pisos",
+      "resumo": "Perguntado se pretendia mexer nos pisos de saúde e educação, na vinculação do salário mínimo ou na Previdência, respondeu que não pretende.",
+      "trecho": "\"Não, não pretendo\", respondeu o pré-candidato à presidência, após ter sido questionado se pretende \"atacar algum desses temas\". Flávio acrescentou: \"A gente tem que fazer economia tampando os ralos de dinheiro público que estão escoando de corrupção por parte desse governo. Quem precisa de proteção do Estado, no meu governo, vai continuar protegido, porque são pessoas que precisam de ter o mínimo de garantia\".",
+      "fonte_id": "f6",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "trabalho",
+      "subtema": "empreendedorismo – Minha Primeira Empresa",
+      "resumo": "Propõe o programa Minha Primeira Empresa, com menos burocracia, capacitação pelo Sistema S e crédito da Caixa.",
+      "trecho": "Para quem está começando, vamos criar o Minha Primeira Empresa: menos burocracia para abrir e formalizar o negócio, capacitação e orientação pelo Sistema S, para que o empreendedor aprenda a gerir o que criou, e uma esteira de crédito e serviços da CAIXA ao seu alcance",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p51",
+      "tema": "trabalho",
+      "subtema": "qualificação de mulheres",
+      "resumo": "Propõe a Escola Brasil por Elas, programa gratuito de capacitação feminina integrado ao Sistema S e a parcerias público-privadas.",
+      "trecho": "A Escola Brasil por Elas será o maior programa gratuito de capacitação feminina da América Latina, integrado aos cursos do Sistema S e a parcerias público-privadas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p52",
+      "tema": "programas-sociais",
+      "subtema": "manutenção dos programas sociais",
+      "resumo": "Compromete-se a manter os programas sociais existentes, com revisão de gestão, correção de distorções e combate a fraudes.",
+      "trecho": "vamos manter os programas sociais existentes, com aperfeiçoamento da gestão, correção de distorções e combate às fraudes. Quem depende hoje da ajuda do Estado para pôr comida na mesa não vai ter essa ajuda tirada. Ponto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p53",
+      "tema": "programas-sociais",
+      "subtema": "saída do programa / retorno ao benefício",
+      "resumo": "Prevê retorno imediato e sem fila ao benefício social após o seguro-desemprego, mantidas as condições de elegibilidade.",
+      "trecho": "E garantiremos o retorno imediato e sem fila ao benefício após o seguro-desemprego, mantidas as condições de elegibilidade, para que ninguém tenha medo de tentar um emprego e acabar desamparado se não der certo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "programas-sociais",
+      "subtema": "Bolsa Família – regra de transição para emprego formal",
+      "resumo": "Afirmou que proporá programa para manter o Bolsa Família por período mais longo para quem conseguir emprego formal ou abrir a própria empresa.",
+      "trecho": "Nós vamos propor a criação de um programa não só para garantir que as pessoas permaneçam ganhando o Bolsa Família caso passem para um emprego formal ou abram a própria empresa, por um período mais longo, mas também para mostrar que elas têm um caminho e podem caminhar com as próprias pernas, sem depender de político nenhum",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "programas-sociais",
+      "subtema": "Bolsa Família – cashback e plataforma",
+      "resumo": "Propôs plataforma que conecte beneficiários a cursos e oportunidades, com cashback para quem poupar parte do benefício.",
+      "trecho": "Vai ser mais ou menos assim para simplificar. A pessoa precisa de um curso de qualificação. Ela vai ter nessa plataforma. E ela vai ganhar um cashback, um incentivo dentro do aplicativo, como quando usa o cartão de crédito. [...] Se você recebe R$ 600 de Bolsa Família e gastou só R$ 500 nesse mês, economizou R$ 100, o governo vai te dar mais R$ 100 para você ter educação financeira",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p56",
+      "tema": "programas-sociais",
+      "subtema": "apostas online",
+      "resumo": "Propõe proibir o uso de recursos de programas sociais em apostas e fazer campanhas sobre endividamento com jogos.",
+      "trecho": "Vamos proibir o uso dos recursos dos programas sociais para apostas, porque dinheiro destinado a pôr comida na mesa não pode escoar para a casa de apostas, e promover campanhas educativas e de conscientização sobre os riscos do endividamento com jogos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p57",
+      "tema": "programas-sociais",
+      "subtema": "creches / voucher-creche",
+      "resumo": "Propõe voucher-creche para acesso à rede privada credenciada onde não houver vaga na rede pública.",
+      "trecho": "Onde não houver vaga na rede pública, a família receberá um voucher-creche para acesso à rede privada credenciada até a vaga pública surgir, para que nenhuma mulher deixe de trabalhar, estudar ou empreender por falta de creche.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p58",
+      "tema": "programas-sociais",
+      "subtema": "idosos – cuidado",
+      "resumo": "Prevê o programa Casa Segura para Envelhecer, com subsídio à acessibilidade domiciliar para idosos de famílias de menor renda.",
+      "trecho": "Por isso, para a população idosa, vamos oferecer o programa Casa Segura para Envelhecer, com subsídio à acessibilidade domiciliar para famílias de menor renda.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p59",
+      "tema": "saude",
+      "subtema": "tabela SUS",
+      "resumo": "Propõe garantir condições para a correção efetiva da tabela SUS.",
+      "trecho": "Vamos garantir as condições para que seja possível a correção efetiva da tabela SUS.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p60",
+      "tema": "saude",
+      "subtema": "prontuário eletrônico único",
+      "resumo": "Propõe prontuário eletrônico único vinculado ao CPF, integrado ao Gov.br e interoperável entre redes pública e privada.",
+      "trecho": "Vamos implantar o prontuário eletrônico único, vinculado ao CPF e integrado ao Gov.br, interoperável entre as redes pública e privada, com histórico completo de consultas, exames, vacinas e prescrições",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p61",
+      "tema": "saude",
+      "subtema": "filas / agendamento",
+      "resumo": "Prevê completar a digitalização do SUS e usar inteligência artificial no agendamento de consultas e exames.",
+      "trecho": "vamos completar a digitalização do SUS e usar inteligência artificial para agilizar o agendamento de consultas e exames, ajudando a encaixar o paciente na primeira vaga disponível",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p62",
+      "tema": "saude",
+      "subtema": "uso da rede privada",
+      "resumo": "Propõe contratar serviços e exames da rede privada em horários ociosos.",
+      "trecho": "Para usar bem o que já existe, vamos contratar serviços e exames na rede privada nos horários ociosos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p63",
+      "tema": "saude",
+      "subtema": "atenção básica e idosos",
+      "resumo": "Prevê ampliar a Estratégia Saúde da Família e criar o Programa de Atendimento aos Idosos.",
+      "trecho": "Vamos ampliar a Estratégia Saúde da Família, levando o cuidado para perto de casa, e criar o Programa de Atendimento aos Idosos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p64",
+      "tema": "saude",
+      "subtema": "vacinas e prevenção",
+      "resumo": "Prevê ampliar exames preventivos, manter a imunização e incentivar a produção nacional de vacinas.",
+      "trecho": "Vamos ainda ampliar o acesso a exames preventivos e manter a imunização e o incentivo à produção nacional de vacinas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p65",
+      "tema": "saude",
+      "subtema": "remédios em domicílio / telessaúde",
+      "resumo": "Propõe um sistema de entrega de remédios em domicílio para idosos, pessoas com deficiência e doentes crônicos.",
+      "trecho": "E um sistema de entrega de remédio em domicílio vai garantir que o idoso, a pessoa com deficiência e o doente crônico não precisem escolher entre buscar o tratamento e pagar o transporte.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p66",
+      "tema": "saude",
+      "subtema": "saúde mental",
+      "resumo": "Prevê fortalecer e ampliar a atenção à saúde mental.",
+      "trecho": "Vamos fortalecer e ampliar a atenção à saúde mental, chegando às famílias que muitas vezes enfrentam tudo sozinhas",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p67",
+      "tema": "saude",
+      "subtema": "saúde da mulher",
+      "resumo": "Prevê Unidades Móveis de Saúde da Mulher (ônibus, caminhões e barcos adaptados).",
+      "trecho": "E teremos Unidades Móveis de Saúde da Mulher, ônibus ou caminhões adaptados que percorrerão o país, além de barcos adaptados para atender a população ribeirinha.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p68",
+      "tema": "saude",
+      "subtema": "gestão do SUS / práticas do setor privado",
+      "resumo": "Anunciou Cláudio Lottenberg como futuro ministro da Saúde para adotar práticas do setor privado no SUS.",
+      "trecho": "Eu quero conversar com o doutor Cláudio Lottenberg, que vai ser o meu ministro da Saúde, uma pessoa preparada, que vai poder adotar as melhores práticas do setor privado para o SUS.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p69",
+      "tema": "saude",
+      "subtema": "filas de cirurgia",
+      "resumo": "Em ato de campanha, prometeu cuidar de quem espera meses por cirurgias e disse que o SUS será 'padrão Einstein'.",
+      "trecho": "Eu vou cuidar de você que está cinco, seis meses esperando numa fila para fazer uma cirurgia de catarata. O SUS vai ser SUS padrão Einstein.",
+      "fonte_id": "f10",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p70",
+      "tema": "educacao",
+      "subtema": "alfabetização",
+      "resumo": "Propõe priorizar o método fônico na alfabetização.",
+      "trecho": "O começo de tudo é alfabetizar direito. Vamos priorizar o método fônico, que é o de melhor resultado comprovado pela ciência",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p71",
+      "tema": "educacao",
+      "subtema": "reforço escolar",
+      "resumo": "Propõe o Programa Acolher, em que alunos de bom desempenho são remunerados para dar reforço a colegas.",
+      "trecho": "vamos criar o Programa Acolher: um aluno com bom desempenho é remunerado para dar reforço aos colegas que precisam, de forma remota ou presencial.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p72",
+      "tema": "educacao",
+      "subtema": "financiamento por resultados",
+      "resumo": "Prevê gestão escolar por indicadores e repasses vinculados a metas de aprendizagem.",
+      "trecho": "A gestão passa a ser baseada em indicadores de resultado e proficiência, e o financiamento seguirá o orçamento por resultados, com repasses vinculados a metas de aprendizagem, sem abandonar regiões que enfrentam maiores dificuldades.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p73",
+      "tema": "educacao",
+      "subtema": "doutrinação / papel das famílias",
+      "resumo": "Defende educação 'livre de doutrinação político-partidária', respeitando o papel das famílias.",
+      "trecho": "A educação será orientada pelo conhecimento e livre de doutrinação político-partidária, respeitando a liberdade de consciência e o papel das famílias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p74",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Propõe ampliar as Escolas Cívico-Militares e implementar a política nacional para alunos com altas habilidades.",
+      "trecho": "Vamos ampliar as Escolas Cívico-Militares, que uniram disciplina e bom desempenho onde foram implantadas, e garantir atendimento ao aluno com altas habilidades",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p75",
+      "tema": "educacao",
+      "subtema": "voucher educacional",
+      "resumo": "Propõe voucher educacional para matrícula em outra escola onde faltar vaga na rede pública.",
+      "trecho": "E onde faltar vaga na rede pública, a família receberá um voucher educacional para matricular o filho em outra escola, porque a prioridade é a criança aprender, não a defesa de um sistema que falhou com ela.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p76",
+      "tema": "educacao",
+      "subtema": "ensino técnico",
+      "resumo": "Propõe ampliar a oferta de educação técnica no ensino médio.",
+      "trecho": "Vamos ampliar a oferta de educação técnica para os alunos do ensino médio, para que o jovem saia da escola já com uma profissão na mão, e não apenas com um diploma.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p77",
+      "tema": "educacao",
+      "subtema": "ensino superior",
+      "resumo": "Propõe transferir a governança do ensino superior para o Ministério da Ciência, Tecnologia e Inovações.",
+      "trecho": "No ensino superior, vamos transferir a governança para o Ministério da Ciência, Tecnologia e Inovações, unificando ciência e ensino superior sob o mesmo teto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p78",
+      "tema": "educacao",
+      "subtema": "financiamento estudantil",
+      "resumo": "Propõe substituir o modelo atual de financiamento estudantil pelo Empréstimo Contingente à Renda, pago só após emprego e proporcional à renda.",
+      "trecho": "Em lugar dele, vamos adotar o Empréstimo Contingente à Renda: o estudante só começa a pagar quando estiver empregado e ganhando, o valor da parcela é proporcional ao que ele recebe e o prazo é bem mais longo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p79",
+      "tema": "educacao",
+      "subtema": "tecnologia nas escolas",
+      "resumo": "Prevê levar robótica, computadores, tablets e internet às escolas e incluir economia digital no currículo.",
+      "trecho": "Vamos ainda levar robótica, computadores, tablets e internet às escolas, e incluir no currículo competências para a economia digital",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p80",
+      "tema": "previdencia",
+      "subtema": "fraudes no INSS",
+      "resumo": "Propõe reeditar um pacote antifraude na Previdência nos moldes do adotado em 2019.",
+      "trecho": "Reeditaremos um pacote antifraude na Previdência, nos moldes do que fizemos em 2019, e não pouparemos esforços para coibir qualquer nova tentativa de roubar o dinheiro de quem já deu sua contribuição ao país.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p81",
+      "tema": "previdencia",
+      "subtema": "consignado de aposentados",
+      "resumo": "Propõe mudar a governança do consignado do INSS, com dupla checagem de descontos.",
+      "trecho": "Vamos mudar a governança do consignado para que a fraude não se repita, revendo quem opera esses descontos e como são autorizados, com mais transparência e mais controle, incluindo dupla checagem que impede que tirem do benefício o que não foi autorizado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p82",
+      "tema": "previdencia",
+      "subtema": "fila do INSS",
+      "resumo": "Propõe digitalizar os processos do INSS e profissionalizar sua gestão para reduzir a fila.",
+      "trecho": "Vamos investir em tecnologia e digitalizar os processos do INSS, dando continuidade ao caminho do Meu INSS, e profissionalizar a gestão do órgão.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p83",
+      "tema": "previdencia",
+      "subtema": "aposentadorias / ajuste fiscal",
+      "resumo": "Afirmou que não fará economia sobre aposentados e que o combate a fraudes dispensaria cortes nesse grupo; não respondeu diretamente se manteria o reajuste das aposentadorias pelo salário mínimo.",
+      "trecho": "Eu vou explicar por que não precisa também fazer economia em cima dos aposentados. Nós vamos fazer um governo para combater a corrupção, como foi a MP 871 do governo do presidente Bolsonaro, que tinha um pacote antifraude, anticorrupção no INSS.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p84",
+      "tema": "moradia",
+      "subtema": "habitação popular",
+      "resumo": "Propõe retomar o programa Casa Verde e Amarela com meta de 2,5 milhões de moradias.",
+      "trecho": "Vamos retomar o Casa Verde e Amarela, com meta de 2,5 milhões de residências e a menor taxa de juros possível no financiamento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "2,5 milhões de residências"
+    },
+    {
+      "id": "p85",
+      "tema": "moradia",
+      "subtema": "regularização fundiária / áreas de risco",
+      "resumo": "Prevê urbanização de áreas degradadas e regularização fundiária em áreas urbanas consolidadas, com PPPs que integrem moradia e infraestrutura.",
+      "trecho": "Vamos promover a urbanização de áreas degradadas, evitando o risco de deslizamentos em encostas, e incentivar a regularização fundiária, priorizando as áreas urbanas já consolidadas e reduzindo os vazios urbanos, com parcerias público-privadas que integrem moradia e infraestrutura no mesmo contrato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p86",
+      "tema": "moradia",
+      "subtema": "saneamento básico",
+      "resumo": "Propõe garantir a aplicação do Marco Legal do Saneamento e acelerar concessões e parcerias para universalizar água e esgoto.",
+      "trecho": "nós vamos garantir sua plena aplicação e acelerar as concessões e parcerias para universalizar o acesso à água tratada e ao esgoto, com atenção especial ao saneamento rural.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p87",
+      "tema": "moradia",
+      "subtema": "água nas escolas / lixões",
+      "resumo": "Estabelece meta de nenhuma escola sem água até 2030 e fim dos lixões a céu aberto.",
+      "trecho": "A esse esforço somamos um compromisso social direto: nenhuma escola sem água até 2030, e a meta do Programa Lixão Zero, acabando com os lixões a céu aberto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Nenhuma escola sem água até 2030"
+    },
+    {
+      "id": "p88",
+      "tema": "meio-ambiente",
+      "subtema": "desmatamento",
+      "resumo": "Estabelece meta de zerar o desmatamento ilegal até 2029 e combater as queimadas ilegais.",
+      "trecho": "Teremos a meta de zerar o desmatamento ilegal até 2029, retomando e levando até o fim o compromisso que já assumimos no Governo Bolsonaro perante o mundo, e combateremos as queimadas ilegais",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Desmatamento ilegal zero até 2029"
+    },
+    {
+      "id": "p89",
+      "tema": "meio-ambiente",
+      "subtema": "órgãos ambientais e ONGs",
+      "resumo": "Propõe eliminar superposições entre Ibama, Funai e ICMBio e exigir transparência de financiadores de ONGs com recursos internacionais que judicializam contra a União.",
+      "trecho": "Vamos eliminar superposições entre Ibama, Funai e ICMBio, dando eficiência à fiscalização, e exigir transparência de financiadores e de projetos das ONGs que recebem recursos internacionais e judicializam ações contra a União",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p90",
+      "tema": "meio-ambiente",
+      "subtema": "moradores da floresta",
+      "resumo": "Afirma que a fiscalização na Amazônia mirará o crime organizado e não moradores, ribeirinhos, pequenos produtores e extrativistas.",
+      "trecho": "Vamos acabar com a política que criminaliza o morador da floresta, substituindo a punição cega por um caminho de orientação, regularização e oportunidade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p91",
+      "tema": "meio-ambiente",
+      "subtema": "mercado de carbono / bioeconomia",
+      "resumo": "Prevê consolidar o mercado regulado de carbono e impulsionar a bioeconomia.",
+      "trecho": "E vamos consolidar o mercado regulado de carbono com segurança jurídica, posicionando o Brasil como fornecedor global de ativos ambientais, e impulsionar a bioeconomia",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p92",
+      "tema": "meio-ambiente",
+      "subtema": "licenciamento ambiental",
+      "resumo": "Propõe prazos definidos para o licenciamento e concessão da licença quando o órgão não decidir no prazo.",
+      "trecho": "Se não decidir nem se manifestar dentro desse prazo, a licença deve ser concedida, porque a demora do Estado não pode ser um castigo para quem fez a sua parte.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p93",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo e gás / fracking",
+      "resumo": "Propõe Programa Nacional de Segurança Energética com foco em refino e gás e permitir a exploração de gás não convencional (fracking).",
+      "trecho": "O Programa Nacional de Segurança Energética deverá ter foco em refino, processamento, escoamento e transporte de combustíveis e gás, permitir a exploração do gás não convencional (fracking) com responsabilidade ambiental e cumprindo a lei, e expandir e modernizar a rede de transmissão, integrando novas fontes renováveis e reduzindo congestionamentos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p94",
+      "tema": "meio-ambiente",
+      "subtema": "conta de luz / impostos sobre energia",
+      "resumo": "Propõe reduzir gradualmente a CDE e subsídios das fontes incentivadas, manter a tarifa social e reduzir impostos sobre energia e combustíveis.",
+      "trecho": "Vamos simplificar a conta de luz, racionalizando encargos e subsídios cruzados, e promover a redução gradual da CDE e das fontes incentivadas, mantida a tarifa social para quem mais precisa dela. Vamos reduzir impostos sobre energia elétrica e combustíveis",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p95",
+      "tema": "meio-ambiente",
+      "subtema": "biocombustíveis",
+      "resumo": "Prevê tornar o Brasil potência em biocombustíveis (etanol, biodiesel, HVO, SAF e biogás) com base na Lei do Combustível do Futuro.",
+      "trecho": "E vamos transformar o Brasil em potência de biocombustíveis: etanol, biodiesel, HVO, SAF e biogás, fomentando a aplicação da Lei do Combustível do Futuro",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p96",
+      "tema": "meio-ambiente",
+      "subtema": "mudanças climáticas",
+      "resumo": "Afirmou considerar os eventos climáticos extremos cíclicos e não ligados diretamente apenas à ação humana; apontou o saneamento básico como principal medida ambiental.",
+      "trecho": "Eu acho que tem eventos climáticos extremos. Tem épocas cíclicas que fazem mais calor, tem épocas que fazem mais frio, tem época que chove mais. E eu não acho que isso tenha a ver diretamente só com a influência do ser humano no ambiente.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p97",
+      "tema": "economia",
+      "subtema": "fundo SOS Brasil – fontes de receita",
+      "resumo": "Propôs criar um fundo com receitas de royalties do petróleo e de imóveis da União (programa SOS Brasil).",
+      "trecho": "A gente vai fazer um programa que nós vamos criar um fundo que vai ser com novas receitas, receitas dos royalties do petróleo, receitas dos imóveis da União",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p98",
+      "tema": "infraestrutura-transporte",
+      "subtema": "investimento em logística",
+      "resumo": "Promete investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias.",
+      "trecho": "Vamos investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "R$ 900 bilhões em 4 anos"
+    },
+    {
+      "id": "p99",
+      "tema": "infraestrutura-transporte",
+      "subtema": "ferrovias",
+      "resumo": "Prevê destravar a Ferrogrão, implantar o Trem do Nordeste de passageiros e concluir a Transnordestina ampliando-a para PB e RN.",
+      "trecho": "No transporte ferroviário, vamos destravar a Ferrogrão; adotar o trem de cargas que ligará Mato Grosso, o oeste do Paraná e Santa Catarina; implantar o Trem do Nordeste, uma malha de passageiros ligando capitais da região, para aproximar cidades, movimentar o turismo e integrar o Nordeste; e concluir a Transnordestina e ampliar o seu escopo para que a Paraíba e o Rio Grande do Norte sejam contemplados.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Trem do Nordeste com 1.400 km citado no plano"
+    },
+    {
+      "id": "p100",
+      "tema": "infraestrutura-transporte",
+      "subtema": "financiamento / BNDES",
+      "resumo": "Propõe fundo lastreado em ativos e imóveis da União, PPPs e concessões, e financiamentos do BNDES só para obras no Brasil.",
+      "trecho": "Vamos modernizar os marcos regulatórios e adotar um novo modelo de financiamento para toda a infraestrutura, com fundo lastreado na securitização de ativos e imóveis da União, uso intensivo de PPPs e concessões e financiamentos do BNDES exclusivamente para obras em território brasileiro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p101",
+      "tema": "infraestrutura-transporte",
+      "subtema": "mobilidade urbana",
+      "resumo": "Prevê que bancos públicos priorizem financiamento de metrô, trilhos e ônibus elétricos ou a biocombustível.",
+      "trecho": "Os bancos públicos priorizarão o financiamento de linhas de metrô, transporte sobre trilhos e ônibus movidos a eletricidade e biocombustíveis.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p102",
+      "tema": "infraestrutura-transporte",
+      "subtema": "segurança hídrica",
+      "resumo": "Prevê ampliar obras de prevenção a eventos climáticos extremos (barragens, reservatórios, diques, drenagem) e fortalecer a Defesa Civil.",
+      "trecho": "E vamos ampliar a infraestrutura de prevenção a eventos climáticos extremos, com barragens de usos múltiplos, reservatórios de controle de cheias, diques, canais e obras de drenagem e macrodrenagem, além do fortalecimento do monitoramento, alerta e resposta da Defesa Civil.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p103",
+      "tema": "infraestrutura-transporte",
+      "subtema": "hidrovias",
+      "resumo": "Propõe destravar projetos hidroviários como a Hidrovia do Tapajós, com diálogo prévio com comunidades locais.",
+      "trecho": "Vamos trabalhar para destravar, sempre com responsabilidade ambiental, os projetos de infraestrutura fluvial que escoam a produção do país, como a Hidrovia do Tapajós, com planejamento e diálogo prévio com as comunidades locais",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p104",
+      "tema": "infraestrutura-transporte",
+      "subtema": "estabilidade regulatória",
+      "resumo": "Propõe mecanismos de estabilidade de regras por até 20 anos para grandes projetos.",
+      "trecho": "Para os grandes projetos de longa maturação, criaremos mecanismos de estabilidade das regras de até 20 anos, para que o contrato não seja mudado depois que a obra já estiver de pé.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Estabilidade de regras por até 20 anos"
+    },
+    {
+      "id": "p105",
+      "tema": "infraestrutura-transporte",
+      "subtema": "internet / conectividade",
+      "resumo": "Prevê pacotes de conexão à internet, com prioridade para mulheres do Brasil por Elas, e levar conectividade a escolas, áreas rurais e fronteiras.",
+      "trecho": "Vamos garantir pacotes de conexão para que nenhum brasileiro deixe de estudar, se capacitar, buscar emprego, empreender ou pedir ajuda por falta de internet, com prioridade para as mulheres alcançadas pelo Brasil por Elas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p106",
+      "tema": "gestao",
+      "subtema": "ministérios e cargos",
+      "resumo": "Propõe cortar no mínimo 10 ministérios, reduzir cargos comissionados e despesas administrativas e combater penduricalhos e supersalários.",
+      "trecho": "Isso inclui o corte de no mínimo 10 ministérios, a redução de cargos comissionados e de despesas administrativas e o combate aos penduricalhos e supersalários que corroem o orçamento",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Corte de no mínimo 10 ministérios"
+    },
+    {
+      "id": "p107",
+      "tema": "gestao",
+      "subtema": "reforma administrativa",
+      "resumo": "Propõe dar continuidade à reforma administrativa discutida no governo Jair Bolsonaro, incluindo a carreira do servidor.",
+      "trecho": "Daremos continuidade à reforma administrativa que já colocamos em discussão, para modernizar o funcionamento do Estado e a carreira do servidor.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p108",
+      "tema": "gestao",
+      "subtema": "revogação de normas",
+      "resumo": "Afirmou que cortará mais de 1.000 atos normativos por decreto no início do governo.",
+      "trecho": "vou cortar mais de 1.000 atos normativos já no início do meu governo, por decreto, aquilo que eu puder fazer.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": "Mais de 1.000 atos normativos no início do governo"
+    },
+    {
+      "id": "p109",
+      "tema": "gestao",
+      "subtema": "controle de gastos / tecnologia",
+      "resumo": "Anunciou a criação de um 'data center soberano' para controlar o gasto público.",
+      "trecho": "Eu vou criar uma governança tecnológica dentro do meu governo. Vai ter um data center soberano para o Brasil, como já tem em Cingapura, como tem na Coreia do Sul, que vai controlar cada centavo de gasto público.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p110",
+      "tema": "gestao",
+      "subtema": "estatais – governança",
+      "resumo": "Propõe fortalecer a Lei das Estatais e, sempre que possível, preencher o comando das estatais por recrutamento com regras de mercado.",
+      "trecho": "Tentaram enfraquecê-la; nós vamos fortalecê-la. E vamos além: sempre que possível, o comando das estatais e dos cargos de direção será preenchido por recrutamento com regras de mercado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p111",
+      "tema": "gestao",
+      "subtema": "privatizações",
+      "resumo": "Propõe retomar o Programa Nacional de Desestatização, avaliando caso a caso.",
+      "trecho": "E vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p112",
+      "tema": "gestao",
+      "subtema": "Petrobras",
+      "resumo": "Declarou-se contra a privatização da Petrobras como um todo, admitindo desestatização de partes ou redução da participação da União.",
+      "trecho": "Eu sou contra a privatização da Petrobras como um todo, mas tem partes da Petrobras que podem, sim, ser privatizadas, ou ter algum modelo de parceria público-privada ou de desestatização, a redução da quantidade de ações que a União tem na empresa. Mas isso é uma coisa que não dá para eu cravar agora",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p113",
+      "tema": "gestao",
+      "subtema": "serviços digitais",
+      "resumo": "Propõe digitalizar 100% dos serviços federais passíveis de digitalização e não exigir documentos que o Estado já possui.",
+      "trecho": "Vamos digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização, sob o princípio do digital by design, e eliminar a exigência de reapresentar documentos que o Estado já possui.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "100% dos serviços federais digitalizáveis"
+    },
+    {
+      "id": "p114",
+      "tema": "gestao",
+      "subtema": "emendas parlamentares",
+      "resumo": "Propõe dar mais transparência, controle e rastreabilidade às emendas parlamentares, priorizando políticas do Plano Plurianual.",
+      "trecho": "daremos mais transparência, controle e rastreabilidade às emendas parlamentares, priorizando sua alocação em políticas públicas prioritárias do Plano Plurianual, aprovado pelo parlamento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p115",
+      "tema": "gestao",
+      "subtema": "agências reguladoras",
+      "resumo": "Propõe critérios técnicos na indicação de dirigentes das agências reguladoras, com avaliações periódicas.",
+      "trecho": "Vamos também profissionalizar as agências reguladoras, fortalecendo os critérios técnicos na indicação de seus dirigentes, com avaliações periódicas e um amplo revogaço regulatório, preservada a segurança jurídica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p116",
+      "tema": "gestao",
+      "subtema": "reforma do Judiciário / STF",
+      "resumo": "Propõe acabar com a competência criminal originária do STF, levando o julgamento de parlamentares a instâncias como STJ ou TRFs.",
+      "trecho": "Fim das competências criminais originárias do STF, permitindo que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs, para que exerçam seus mandatos com mais altivez, sem que isso represente qualquer contrapartida de impunidade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p117",
+      "tema": "gestao",
+      "subtema": "STF – decisões monocráticas",
+      "resumo": "Propõe limitar decisões monocráticas do STF e presumir a constitucionalidade do processo legislativo.",
+      "trecho": "Limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas e presumindo a constitucionalidade do processo legislativo, para que a caneta de um só ministro não se sobreponha ao trabalho de todo o Congresso.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p118",
+      "tema": "gestao",
+      "subtema": "STF – quarentena para indicação",
+      "resumo": "Propõe quarentena de 1 ano para que ministros de Estado possam ser indicados ao STF.",
+      "trecho": "Quarentena de 1 ano para que Ministros de Estado possam ser indicados ao STF.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Quarentena de 1 ano"
+    },
+    {
+      "id": "p119",
+      "tema": "gestao",
+      "subtema": "reforma política / reeleição",
+      "resumo": "Propõe o fim da reeleição para Presidente da República.",
+      "trecho": "E propomos o fim da reeleição para o cargo de Presidente da República.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p120",
+      "tema": "gestao",
+      "subtema": "anistia / indulto (8 de janeiro)",
+      "resumo": "Ao comentar a condenação de Jair Bolsonaro e de réus do 8 de janeiro, afirmou que trabalhará para que a anistia seja aprovada ainda na transição e, caso não ocorra, mencionou um indulto.",
+      "trecho": "Eu, como presidente da República, vou trabalhar para que a anistia seja feita ainda na transição e, caso não ocorra, um indulto […].",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p121",
+      "tema": "gestao",
+      "subtema": "reconhecimento do resultado eleitoral",
+      "resumo": "Declarou que respeitará o processo eleitoral e o resultado das eleições.",
+      "trecho": "Quero dizer a todos vocês que vou respeitar o processo eleitoral, vou respeitar o resultado das eleições. Eu estou concorrendo com essas regras, eu vou ser presidente da República com essas regras.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p122",
+      "tema": "relacoes-exteriores",
+      "subtema": "diretriz diplomática",
+      "resumo": "Propõe recompor as relações com Argentina, Estados Unidos e Israel e negociar com China, União Europeia, EUA e mercados asiáticos.",
+      "trecho": "Nos últimos anos, as relações com países como Argentina, Estados Unidos e Israel foram levadas ao limite do rompimento. Vamos reverter esse quadro com profissionalismo e foco no interesse do Brasil. Negociaremos com todos os que interessam ao Brasil, da China à União Europeia, dos Estados Unidos aos mercados asiáticos",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p123",
+      "tema": "relacoes-exteriores",
+      "subtema": "OCDE / IOF câmbio",
+      "resumo": "Propõe retomar a adesão à OCDE, incluindo o fim gradual do IOF sobre câmbio.",
+      "trecho": "O passo mais urgente é retomar o cronograma interrompido de adesão à OCDE, incluindo o fim gradual do IOF sobre o câmbio, que é condição obrigatória do processo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p124",
+      "tema": "relacoes-exteriores",
+      "subtema": "Escudo das Américas",
+      "resumo": "Prometeu que o Brasil integrará o Escudo das Américas, coalizão liderada pelos EUA contra facções classificadas como narcoterroristas.",
+      "trecho": "É uma coisa que eu vou fazer: o Brasil fará parte do Escudo das Américas a partir do ano que vem porque eu vou colocar o Brasil, também, para se unir a todos esses países que vão se juntar para combater os narcoterroristas",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": "A partir de 2027"
+    },
+    {
+      "id": "p125",
+      "tema": "relacoes-exteriores",
+      "subtema": "Pix / negociação com os EUA",
+      "resumo": "Afirmou que o Pix é inegociável em negociações com os Estados Unidos sobre tarifas.",
+      "trecho": "De forma alguma, Tralli. O Pix é sagrado. O Pix é do brasileiro.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p126",
+      "tema": "relacoes-exteriores",
+      "subtema": "sanções ao agro",
+      "resumo": "Prevê buscar soluções diplomáticas contra sanções dos EUA, da China e da Europa a produtos brasileiros.",
+      "trecho": "buscar soluções diplomáticas eficazes contra sanções dos Estados Unidos, da China e da Europa aos produtos nacionais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "seguranca/armas civis: o plano de governo não trata de posse e porte de armas por civis. As falas sobre revogar o Estatuto do Desarmamento são do deputado Marcos Pollon (Gazeta do Povo, 07/08/2026), apresentado como integrante da equipe de transição; a única manifestação do candidato encontrada foi o compartilhamento de um post de terceiro (jan/2026). Nada registrado.",
+    "seguranca/polícias: não há proposta sobre câmeras corporais, letalidade policial, controle externo ou carreira das polícias além de 'valorização do policial' (genérico).",
+    "trabalho/salário mínimo: o plano não menciona a política de valorização do salário mínimo. Na TV Globo (28/08) ele disse que não fará 'economia' com quem ganha o mínimo, mas não respondeu diretamente se manterá o aumento real. A promessa de manter o reajuste acima da inflação (SBT News, 19/06) aparece só em paráfrase da Folha/Valor; a citação literal é um 'não pretendo' genérico (ver p49).",
+    "trabalho/escala 6x1: não declarou voto sobre a PEC que acaba com a escala 6x1; registrada só a alternativa que defende (p44).",
+    "economia/imposto de renda: além do apoio à isenção até R$ 5 mil (fala de junho, como pré-candidato), não há proposta sobre tabela do IR, tributação de altas rendas, lucros e dividendos ou compensação.",
+    "economia/dívida: nem o plano nem a entrevista à Globo trazem meta numérica de resultado primário ou de Dívida/PIB. A entrevistadora observou que o plano não traz 'números nem prazos'.",
+    "economia/renegociação de dívidas das famílias: a promessa de um programa para 'mais de 100 milhões de brasileiros' com ativos da União foi feita pela assessora Daniella Marques (26/08), não pelo candidato, e não foi registrada. Registrado só o fundo SOS Brasil, anunciado por ele em live (p35 e p97), cuja fala literal trata do pagamento da dívida pública.",
+    "gestao/privatizações: O Globo (15/06) relata que ele é favorável à privatização dos Correios, mas só em paráfrase, sem citação literal. Não foi registrado.",
+    "previdencia: não há proposta sobre idade mínima, regras de cálculo ou desvinculação dos benefícios do salário mínimo. O coordenador Rogério Marinho falou em 'revisitar a Previdência', mas isso não é atribuível ao candidato. Circulam boatos de 'aposentadoria aos 75 anos' desmentidos por checagens (Estadão Verifica, AFP).",
+    "direitos/população negra: nenhuma proposta encontrada no plano ou em falas do candidato.",
+    "direitos/LGBT+: nenhuma proposta de direitos ou de proteção. Só a regra da categoria feminina no esporte (p20) e o critério 'contra a ideologia de gênero nas escolas' para indicar ministros ao STF (p26).",
+    "direitos/aborto: nenhuma proposta legislativa específica. Há a menção a 'vida desde a concepção' entre os valores do plano (p25) e a promessa de indicar ao STF ministros 'contra o aborto' (p26).",
+    "direitos/drogas: não há proposta de política de drogas além do critério para indicar ministros ao STF.",
+    "meio-ambiente/clima: o plano não traz metas de emissão nem posição sobre o Acordo de Paris ou a exploração de petróleo na Margem Equatorial. Questionado sobre por que o plano não trata da mitigação climática, ele respondeu com saneamento básico.",
+    "saude: não há proposta de financiamento do SUS (piso constitucional, valores) além da correção da tabela SUS. A declaração de não mexer nos pisos de saúde e educação aparece só como 'não pretendo' em resposta a pergunta composta (p49).",
+    "educacao: nenhuma proposta sobre piso salarial de professores, Fundeb, cotas ou financiamento das universidades federais.",
+    "relacoes-exteriores: não há posição concreta sobre Venezuela, Mercosul-UE, BRICS ou guerras em curso. O plano só critica a política externa atual.",
+    "debates: até 24/09/2026 Flávio não participou de nenhum debate presidencial (Band 23/08 sem sua presença; os de 14/09 e 27/09 foram cancelados). Não há falas de debate no dossiê."
+  ]
+}
