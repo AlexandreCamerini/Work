@@ -1,0 +1,823 @@
+{
+  "candidato_id": "juliete-pantoja",
+  "nome": "Juliete Pantoja",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf",
+    "observacao": "Documento '80 Propostas da Unidade Popular para transformar o Rio de Janeiro' (vice: Bia Martins), lido via Exa no espelho do ND+. O nome do arquivo segue o padrão do TSE (2026RJ + registro 190002547272, que aparece na ficha do ND+ + _01). O espelho do Nexo (rj-governador-juliete-pantoja.pdf) deu timeout; o acesso ao TSE e o download local foram bloqueados. Sem comparação byte a byte. O texto é da versão de 2026: cita dados de 2025 e a saída de Cláudio Castro. Estrutura e parte dos itens repetem o plano de 2022, que também tinha '80 propostas' (g1, 30/08/2022); aqui só se usou o texto de 2026. A numeração do PDF tem erro: os itens 51 e 52 aparecem duas vezes (fim de Educação e início de Habitação). O blog Rodrigo Luz (16/08) diz que o documento tem 13 páginas. Sem custos nem fontes de financiamento; poucas metas com prazo (analfabetismo em 1 ano, ensino integral em 100% das escolas até 2030, tarifas 50% menores em jan/2027). Data de protocolo não verificada."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "80 Propostas da Unidade Popular para transformar o Rio de Janeiro (proposta de governo registrada no TSE; arquivo 2026RJ190002547272_01.pdf)",
+      "veiculo": "TSE / ND+ (espelho)",
+      "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002547272_01.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Ao RJ1, Juliete Pantoja defende retomada da Cedae e presença do Estado em territórios dominados pelo crime",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-juliete-pantoja-defende-retomada-da-cedae-e-presenca-do-estado-em-territorios-dominados-pelo-crime.ghtml",
+      "data": "2026-09-17"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Juliete Pantoja defende desmilitarização da polícia e reestatização da Cedae (sabatina O Dia/Fecomércio RJ)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300655-juliete-pantoja-defende-desmilitarizacao-da-policia-e-reestatizacao-da-cedae.html",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Juliete prega uma polícia que não veja o povo negro e pobre como inimigo (entrevista pingue-pongue)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/juliete-prega-uma-policia-que-nao-veja-o-povo-negro-e-pobre-como-inimigo/",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Juliete propõe gestão direta de todas as unidades de saúde e auditoria de contratos com OSs (agenda no Hospital dos Servidores)",
+      "veiculo": "g1 / TV Globo (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/juliete-propoe-gestao-direta-de-todas-as-unidades-de-saude-e-auditoria-de-contratos-com-oss.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f6",
+      "tipo": "noticia",
+      "titulo": "Juliete Pantoja defende educação gratuita e ampliação de vagas em escolas e universidades (agenda em Cabo Frio)",
+      "veiculo": "g1 / TV Globo (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/22/juliete-pantoja-defende-educacao-gratuita-e-ampliacao-de-vagas-em-escolas-e-universidades.ghtml",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Juliete, da UP, defende mutirões de moradia no Rio (entrevista à coluna Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/juliete-da-up-defende-mutiroes-de-moradia-no-rio-nao-sera-como-os-tres-porquinhos-tera-profissionais-capacitados.ghtml",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f8",
+      "tipo": "entrevista",
+      "titulo": "Juliete Pantoja promete suspender operações policiais em favelas e defende desmilitarização (entrevista)",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/09/19/juliete-pantoja-promete-suspender-operacoes-policiais-em-favelas-e-defende-desmilitarizacao.html",
+      "data": "2026-09-19"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "economia",
+      "subtema": "dívida estadual",
+      "resumo": "Propõe suspender e auditar a dívida pública do estado com credores públicos e privados, para eliminar irregularidades e renegociá-la.",
+      "trecho": "Realizar a suspensão e uma auditoria da dívida pública do estado do Rio de Janeiro com entes estatais e privados para eliminar irregularidades e renegociar dívidas que só servem para sangrar os recursos públicos e enriquecer bancos e especuladores do sistema financeiro",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p2",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae e energia",
+      "resumo": "Propõe auditar e anular a privatização da Cedae e reestatizar a energia elétrica.",
+      "trecho": "Auditoria e anulação da privatização da Cedae e a reestatização da energia elétrica",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p3",
+      "tema": "economia",
+      "subtema": "tarifas de serviços públicos",
+      "resumo": "Propõe reduzir imediatamente as tarifas de luz, água e esgoto.",
+      "trecho": "Redução imediata das tarifas de luz, água e esgoto",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "redução imediata; percentual não informado"
+    },
+    {
+      "id": "p4",
+      "tema": "economia",
+      "subtema": "banco estadual",
+      "resumo": "Propõe criar um banco estadual para ampliar o investimento público em infraestrutura.",
+      "trecho": "Criação de um Banco Estadual para fortalecer a capacidade de investimento público em infraestrutura",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p5",
+      "tema": "economia",
+      "subtema": "isenções fiscais e devedores",
+      "resumo": "Propõe rever as isenções fiscais a grandes empresas e auditar os grandes devedores de impostos para cobrar integralmente os débitos.",
+      "trecho": "Revisão da política de isenções fiscais às grandes empresas e auditoria dos grandes devedores de impostos para que estes quitem integralmente suas obrigações",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "economia",
+      "subtema": "emprego / frentes de trabalho",
+      "resumo": "Propõe frentes emergenciais de trabalho para reduzir o desemprego e ampliar obras públicas como saneamento e urbanização.",
+      "trecho": "Criação de frentes emergenciais de trabalho para acabar com o desemprego e ampliar as obras públicas de primeira necessidade para a população, como saneamento e urbanização",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "gestao",
+      "subtema": "EMOP",
+      "resumo": "Propõe fortalecer e ampliar o quadro da EMOP para torná-la o eixo da construção civil no estado.",
+      "trecho": "Fortalecer e ampliar os quadros da Empresa de Obras Públicas do Estado do Rio de Janeiro (EMOP), tornando-a vetor central do setor de construção civil do estado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "economia",
+      "subtema": "abastecimento / CEASA",
+      "resumo": "Propõe fortalecer a CEASA, acabar com indicações políticas para sua diretoria e dar mais representação a pequenos produtores e feirantes.",
+      "trecho": "Fortalecer e ampliar o CEASA (Central de Abastecimento do Estado do Rio de Janeiro), acabando com as indicações eleitoreiras para a diretoria e dando mais representação aos pequenos produtores agrícolas e feirantes",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "gestao",
+      "subtema": "direção de estatais",
+      "resumo": "Propõe que os dirigentes das estatais estaduais sejam eleitos por seus trabalhadores e veta na gestão pessoas ligadas a bancos privados.",
+      "trecho": "Gestão democrática do Estado com eleição dos dirigentes das estatais pelos trabalhadores das próprias estatais, acabando com as indicações eleitoreiras e proibindo agentes ligados ou que já tenham tido ligação com os bancos privados de participarem da gestão dessas empresas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "economia",
+      "subtema": "petróleo e indústria naval",
+      "resumo": "Propõe defender no plano nacional uma Petrobras 100% estatal e retomar a construção naval no estado.",
+      "trecho": "Defender no plano nacional a Petrobrás 100% Estatal e a retomada do setor da construção naval no Rio de Janeiro",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p11",
+      "tema": "economia",
+      "subtema": "crédito popular",
+      "resumo": "Propõe crédito popular por um banco estatal estadual para a economia popular e pequenos comerciantes, sobretudo em comunidades e bairros pobres.",
+      "trecho": "Apoio à economia popular e aos pequenos comerciantes, especialmente nas comunidades e bairros pobres, com crédito popular fornecido por um banco estatal estadual",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "economia",
+      "subtema": "renda mínima",
+      "resumo": "Propõe um programa de renda mínima acompanhado pelo Sistema Único de Assistência Social para famílias em situação de miséria.",
+      "trecho": "Garantia de renda mínima para a população com um programa social que utilize o Sistema Único de Assistência Social como forma de acompanhar e apoiar famílias em situação de miséria",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "valor não informado"
+    },
+    {
+      "id": "p13",
+      "tema": "economia",
+      "subtema": "comércio ambulante",
+      "resumo": "Propõe acabar com a repressão aos camelôs e autorizar o trabalho deles no metrô.",
+      "trecho": "Fim da perseguição aos camelôs. Autorização do trabalho no metrô",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "economia",
+      "subtema": "restaurantes populares",
+      "resumo": "Propõe ampliar a rede de restaurantes populares.",
+      "trecho": "Ampliação da rede de restaurantes populares",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "economia",
+      "subtema": "primeiro emprego",
+      "resumo": "Propõe criar uma Agência Estadual do Primeiro Emprego com banco de vagas para jovens, sobretudo da periferia.",
+      "trecho": "Criação da Agência Estadual do Primeiro Emprego, com banco de dados de empregos específicos para a juventude, especialmente para juventude periférica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "seguranca",
+      "subtema": "desmilitarização",
+      "resumo": "Propõe desmilitarizar as polícias e as guardas municipais.",
+      "trecho": "Desmilitarização das polícias e da guardas municipais",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p17",
+      "tema": "seguranca",
+      "subtema": "formação policial",
+      "resumo": "Propõe mudar a seleção e o treinamento de novos policiais, com foco em direitos humanos, não letalidade, antirracismo e feminismo.",
+      "trecho": "Mudança nos critérios de seleção e treinamento de novos policiais, com enfoque nos direitos humanos, não letalidade, antirracismo e feminismo",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "seguranca",
+      "subtema": "operações policiais",
+      "resumo": "Propõe acabar com operações policiais violentas em comunidades e substituí-las por inteligência, com controle rígido das armas e munições do estado.",
+      "trecho": "Acabar com as operações militares e policiais violentas nas comunidades, substituindo-as por ações de inteligência em todo o estado, com forte fiscalização e controle das armas e munições em controle do governo estadual",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "seguranca",
+      "subtema": "carreira policial",
+      "resumo": "Propõe vincular a progressão na carreira policial ao cumprimento de requisitos de direitos humanos.",
+      "trecho": "Atrelar o atendimento de requisitos de direitos humanos e sociais à progressão nas carreiras policiais, desestimulando a valorização da truculência policial",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "seguranca",
+      "subtema": "conselhos comunitários",
+      "resumo": "Propõe transformar os Conselhos Comunitários de Segurança em assembleias populares de 'Segurança Popular'.",
+      "trecho": "Reformulação dos atuais CCS (Conselhos Comunitários de Segurança): funções novas para que se transformem em assembleias populares dedicadas à Segurança Popular.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "seguranca",
+      "subtema": "sistema prisional",
+      "resumo": "Propõe transformar penitenciárias e cadeias em 'Unidades de Reeducação Popular', voltadas a formação, acompanhamento psicossocial e profissionalização.",
+      "trecho": "Transformar as penitenciárias e cadeias em Unidades de Reeducação Popular. Serão centros para a formação, acompanhamento psicossocial e profissionalização de pessoas em conflito com a lei",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "seguranca",
+      "subtema": "sistema socioeducativo / DEGASE",
+      "resumo": "Propõe substituir o DEGASE por uma 'Comissária da Juventude', com a estrutura atual passando para a Secretaria de Educação.",
+      "trecho": "Substituição do DEGASE pela Comissária da Juventude, nova instituição que buscará aplicar verdadeiramente as medidas socioeducativas e integradoras previstas no ECA, mantendo a atual estrutura do DEGASE sob a alçada da Secretaria de Educação",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "seguranca",
+      "subtema": "cooperação federal",
+      "resumo": "Propõe atuar com as polícias Federal e Rodoviária Federal contra criminosos de alta periculosidade.",
+      "trecho": "Trabalhar junto às polícias Federal e Rodoviária Federal para investigar, perseguir e prender os verdadeiros criminosos de alta periculosidade do Rio de Janeiro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "seguranca",
+      "subtema": "milícias",
+      "resumo": "Propõe enfrentar as milícias diariamente e afastar de imediato servidores da segurança suspeitos de ligação com elas.",
+      "trecho": "Enfrentamento direto e diário às milícias. Afastamento imediato de qualquer servidor da segurança que tenha suspeita de ligação com milícias",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p25",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais",
+      "resumo": "Propõe instalar imediatamente câmeras nos uniformes dos policiais e acabar com as operações policiais nas favelas.",
+      "trecho": "Implementação imediata de câmeras nos uniformes dos policiais e fim das operações policiais nas favelas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "implantação imediata"
+    },
+    {
+      "id": "p26",
+      "tema": "saude",
+      "subtema": "Organizações Sociais",
+      "resumo": "Propõe retomar a administração direta da saúde, encerrando e auditando os contratos com Organizações Sociais.",
+      "trecho": "Retomada da administração direta da saúde pública pelo Estado, encerrando e auditando os contratos com as OS (Organizações Sociais) e punindo possíveis casos de corrupção",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p27",
+      "tema": "saude",
+      "subtema": "concursos e orçamento",
+      "resumo": "Propõe concursos públicos para a saúde e recomposição do orçamento da área.",
+      "trecho": "Realização de concursos públicos para saúde e recomposição de orçamento para a área",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p28",
+      "tema": "saude",
+      "subtema": "produção pública de vacinas e medicamentos",
+      "resumo": "Propõe criar uma entidade pública de pesquisa e produção de vacinas e medicamentos.",
+      "trecho": "Criação de entidade pública de pesquisa e produção de vacinas e medicamentos, articulada com as instituições de Ciência, Tecnologia e Inovação estabelecidas no Estado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p29",
+      "tema": "saude",
+      "subtema": "laboratório farmacêutico estadual",
+      "resumo": "Propõe criar um Laboratório Farmacêutico do Estado para produzir remédios a baixo custo.",
+      "trecho": "Criação de Laboratório Farmacêutico do Estado do Rio de Janeiro para a produção de remédio a baixo custo para a população",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "gestao",
+      "subtema": "servidores da saúde",
+      "resumo": "Propõe aumentos anuais para todos os servidores da saúde, plano de cargos e carreiras e contratação direta em atividades-meio hoje terceirizadas.",
+      "trecho": "Valorização profissional: garantir aumentos anuais a todos os servidores da saúde, plano de cargos e carreiras para os servidores, fim dos contratos terceirizados para atividades-meio, com contratação direta também de pessoal para áreas de limpeza, segurança, maqueiros etc.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "aumentos anuais; índice não informado"
+    },
+    {
+      "id": "p31",
+      "tema": "saude",
+      "subtema": "saúde mental",
+      "resumo": "Propõe uma rede de apoio à saúde mental, com ampliação dos CAPS e equipes que visitem escolas públicas.",
+      "trecho": "Criação de uma rede de apoio à saúde mental para a população, ampliando a capacidade de atendimento dos CAPS (Centro de Atenção Psicossocial), disponibilizando equipes de profissionais da área para visitar as instituições de ensino públicas e realizando campanhas permanentes sobre o tema",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "saude",
+      "subtema": "atenção primária",
+      "resumo": "Propõe garantir atenção primária e Saúde da Família em todas as cidades.",
+      "trecho": "Garantia de atendimento primário e Saúde da Família em todas as cidades",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento",
+      "resumo": "Propõe universalizar o saneamento básico em todo o estado.",
+      "trecho": "Universalização do saneamento básico em todo o estado para diminuir os índices de doenças evitáveis, que ainda se proliferam devido à falta de tratamento de água e esgoto",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo não informado"
+    },
+    {
+      "id": "p34",
+      "tema": "educacao",
+      "subtema": "acesso ao ensino técnico e superior",
+      "resumo": "Propõe livre acesso de alunos da rede pública às escolas técnicas e universidades estaduais, com ampliação da rede.",
+      "trecho": "Garantir o livre acesso dos estudantes da rede pública de educação às escolas técnicas e universidades estaduais com ampliação da rede",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "educacao",
+      "subtema": "alfabetização",
+      "resumo": "Propõe erradicar em um ano o analfabetismo completo e o funcional.",
+      "trecho": "Erradicar o analfabetismo completo e funcional em um ano",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo: um ano"
+    },
+    {
+      "id": "p36",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Propõe desmilitarizar imediatamente as escolas estaduais, encerrando o programa cívico-militar e a presença de PMs nas escolas.",
+      "trecho": "Desmilitarização imediata das escolas da rede estadual de educação do Rio de Janeiro. Fim do programa de escolas cívico-militares e da presença de PMs dentro das escolas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "educacao",
+      "subtema": "recursos públicos para instituições privadas",
+      "resumo": "Propõe encerrar o investimento público em fundações e outras instituições privadas de educação.",
+      "trecho": "propomos acabar com os investimentos públicos em fundações e outras instituições privadas. O dinheiro público deve ir para a educação pública!",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "educacao",
+      "subtema": "carreira e concursos",
+      "resumo": "Defende um plano de carreira unificado para os profissionais da educação estadual, concursos e o fim das contratações temporárias e terceirizadas.",
+      "trecho": "Defender a criação de um plano de carreira unificado dos profissionais de educação da rede pública de educação básica, das escolas técnicas e universidades estaduais do Rio de Janeiro. Nesse sentido, queremos a realização de concursos públicos para a elevada demanda de profissionais de educação e o fim da política de contratações temporárias e terceirização",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p39",
+      "tema": "educacao",
+      "subtema": "permanência estudantil",
+      "resumo": "Propõe uma política estadual de auxílio-permanência na educação básica e superior e alojamentos perto de escolas técnicas e universidades estaduais.",
+      "trecho": "Instituir a Política Estadual de Auxílio-permanência Estudantil tanto para estudantes da educação básica como do ensino superior. Construção de alojamentos estudantis nas proximidades das escolas técnicas e universidades estaduais",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "valor não informado"
+    },
+    {
+      "id": "p40",
+      "tema": "educacao",
+      "subtema": "ensino integral",
+      "resumo": "Propõe ampliar gradualmente o ensino integral até cobrir 100% das escolas estaduais em 2030.",
+      "trecho": "Ampliar gradualmente o Ensino Integral para 100% das escolas da rede pública estadual até 2030",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "100% das escolas estaduais até 2030"
+    },
+    {
+      "id": "p41",
+      "tema": "educacao",
+      "subtema": "alimentação escolar",
+      "resumo": "Propõe rever a alimentação escolar, priorizando a agricultura familiar local e alimentos sem agrotóxicos.",
+      "trecho": "Revisar a política de alimentação escolar, priorizando produtores locais da agricultura familiar, garantindo alimentos de qualidade e livres de agrotóxicos para a comunidade escolar e fomentando a economia local, com a inclusão de opções vegetarianas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p42",
+      "tema": "educacao",
+      "subtema": "Novo Ensino Médio",
+      "resumo": "Propõe revogar a aplicação do Novo Ensino Médio no estado.",
+      "trecho": "Revogação da aplicação do Novo Ensino Médio no RJ",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p43",
+      "tema": "educacao",
+      "subtema": "interiorização das universidades",
+      "resumo": "Propõe ampliar as universidades estaduais com campi no interior.",
+      "trecho": "Ampliar e interiorizar as universidades públicas estaduais com a instalação de campi em municípios no interior do estado do Rio de Janeiro, democratizando e levando ensino, pesquisa e extensão para toda a população",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p44",
+      "tema": "educacao",
+      "subtema": "ensino noturno e EJA",
+      "resumo": "Propõe reverter o fechamento de turmas noturnas e manter a Educação de Jovens e Adultos em todas as escolas.",
+      "trecho": "Reverter o fechamento sistemático de turmas e escolas que ofertam o ensino noturno. Manutenção, em todas as escolas, de turmas para atendimento da classe trabalhadora, bem como a manutenção da Educação de Jovens e Adultos (EJA).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p45",
+      "tema": "educacao",
+      "subtema": "creches",
+      "resumo": "Propõe ampliar vagas em creches e escolas públicas em tempo integral.",
+      "trecho": "Ampliar vagas em creches e escolas públicas, em tempo integral, para garantir que todas as crianças tenham seu direito à educação respeitado e para que as mães consigam estudar e trabalhar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "moradia",
+      "subtema": "reforma urbana e despejos",
+      "resumo": "Propõe uma reforma urbana que destine imóveis e terrenos desocupados à eliminação do déficit habitacional e acabe com os despejos.",
+      "trecho": "Promover uma profunda Reforma Urbana que democratize o espaço das cidades. Garantir que imóveis e terrenos desocupados sejam destinados à eliminação do déficit habitacional. Fim dos despejos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "moradia",
+      "subtema": "cooperativas e mutirões",
+      "resumo": "Propõe construir casas populares por cooperativas e mutirões com capacitação técnica, em vez de repassar recursos a grandes empreiteiras.",
+      "trecho": "Investir na construção de casas populares por meio de cooperativas de trabalhadores e mutirões. O Governo do Estado deve parar de dar dinheiro para grandes empreiteiras e oferecer capacitação técnica, por meio de convênios com entidades profissionais e instituições de ensino, para que o próprio povo construa suas residências.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "número de unidades não informado"
+    },
+    {
+      "id": "p48",
+      "tema": "moradia",
+      "subtema": "regularização fundiária",
+      "resumo": "Propõe regularizar moradias em favelas, ocupações e bairros populares e financiar reformas nas casas.",
+      "trecho": "Realizar a regularização fundiária de unidades habitacionais em favelas, ocupações e bairros populares para garantir o direito humano à moradia, assim como um programa de apoio e financiamento de reformas nas casas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p49",
+      "tema": "transporte",
+      "subtema": "tarifa, trens e metrô",
+      "resumo": "Propõe administração estatal com controle popular de trens e metrô, redução de 50% das passagens de todos os transportes em janeiro de 2027 e bilhete único intermodal e intermunicipal.",
+      "trecho": "Administração Estatal com controle popular dos trens e metrôs. Redução de 50% das passagens em todos os transportes em janeiro de 2027 e implementação da Política de Bilhete Único Intermodal e Intermunicipal",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "redução de 50% das tarifas em janeiro de 2027"
+    },
+    {
+      "id": "p50",
+      "tema": "transporte",
+      "subtema": "passe livre estudantil",
+      "resumo": "Propõe passe livre intermunicipal para estudantes de todas as etapas, incluindo o ensino superior público.",
+      "trecho": "Implementar o passe-livre intermunicipal para os estudantes de todas as séries e etapas do ensino, inclusive de instituições de ensino superior públicas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p51",
+      "tema": "transporte",
+      "subtema": "expansão sobre trilhos",
+      "resumo": "Propõe ampliar a malha ferroviária e metroviária com as frentes de trabalho e o fortalecimento da EMOP.",
+      "trecho": "Ampliar a malha ferroviária e metroviária por meio das frentes emergenciais de trabalho e fortalecimento da EMOP",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p52",
+      "tema": "transporte",
+      "subtema": "metrô metropolitano e trens",
+      "resumo": "Propõe levar o metrô à Baixada Fluminense, a Niterói e a São Gonçalo e reduzir os intervalos dos trens.",
+      "trecho": "Garantir a chegada do metrô à Baixada Fluminense, Niterói e São Gonçalo. Diminuição nos intervalos de circulação dos trens urbanos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo não informado"
+    },
+    {
+      "id": "p53",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher",
+      "resumo": "Propõe uma rede de casas-abrigo para mulheres em situação de violência, com apoio multiprofissional.",
+      "trecho": "Formar rede de casas-abrigo para mulheres em situação de violência e vulnerabilidade, oferecendo apoio multiprofissional às vítimas de violência doméstica, violência sexual, violência obstétrica e assédio moral, fortalecendo a rede de apoio junto às organizações feministas",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "direitos",
+      "subtema": "combate ao racismo",
+      "resumo": "Declara o combate ao racismo e a punição de racistas como prioridade do governo.",
+      "trecho": "Combater o racismo e punir os racistas será uma das prioridades do governo, tanto dentro das instituições do estado como na sociedade em geral",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "direitos",
+      "subtema": "liberdade religiosa",
+      "resumo": "Propõe assegurar a liberdade religiosa, com ênfase no respeito às religiões de matriz afro-brasileira.",
+      "trecho": "Assegurar a liberdade religiosa, especialmente a promoção do respeito às religiões de matriz afro-brasileira (candomblé e umbanda).",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p56",
+      "tema": "direitos",
+      "subtema": "população LGBTIA+",
+      "resumo": "Propõe garantir o uso do nome social em todos os atos da administração estadual para pessoas trans e não binárias.",
+      "trecho": "Assegurar o uso do nome social em todos os formulários, protocolos e demais atos no âmbito da administração estadual para pessoas transgênero e não binárias",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p57",
+      "tema": "gestao",
+      "subtema": "Secretaria de Direitos Humanos",
+      "resumo": "Propõe unificar as políticas de direitos humanos em uma secretaria exclusiva.",
+      "trecho": "Unificar todas as políticas públicas relacionadas aos Direitos Humanos em uma Secretaria com foco único",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p58",
+      "tema": "direitos",
+      "subtema": "memória e ditadura",
+      "resumo": "Propõe apresentar projeto de lei para retirar estátuas e nomes de logradouros que homenageiam racistas, escravocratas, fascistas e agentes da ditadura.",
+      "trecho": "Apresentar Projeto de Lei para retirada de estátuas, nomes de ruas, praças, escolas e demais logradouros e equipamentos municipais que homenageiam personalidades racistas, escravocratas, fascistas e integrantes dos governos e órgãos de repressão da Ditadura Militar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p59",
+      "tema": "seguranca",
+      "subtema": "operações e presença do Estado",
+      "resumo": "Diz que as operações policiais em comunidades precisam acabar.",
+      "trecho": "Essa política de operações criminosas nas comunidades no Rio de Janeiro precisa acabar.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p60",
+      "tema": "seguranca",
+      "subtema": "suspensão de operações",
+      "resumo": "Afirma que vai suspender as operações policiais nas favelas no modelo atual.",
+      "trecho": "Nós vamos suspender essas operações",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p61",
+      "tema": "gestao",
+      "subtema": "servidores de saúde e educação",
+      "resumo": "Defende investimento direto do Estado em saúde e educação, com concursos e pagamento integral do piso salarial dessas categorias.",
+      "trecho": "Defendemos uma economia que tenha investimento direto do Estado na educação e na saúde, garantindo a abertura de concursos públicos para a educação e para a saúde, o pagamento integral do piso salarial dessas categorias e a garantia de uma economia que, de fato, sirva ao povo, e não aos interesses de meia dúzia de muito ricos",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p62",
+      "tema": "saude",
+      "subtema": "concursos",
+      "resumo": "Afirma que a primeira medida na saúde será abrir concurso público.",
+      "trecho": "A primeira coisa que vamos fazer é abrir concurso público para a área da saúde.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "primeira medida na área; vagas não informadas"
+    },
+    {
+      "id": "p63",
+      "tema": "gestao",
+      "subtema": "controle popular do orçamento",
+      "resumo": "Defende ampliar o controle popular sobre orçamento e políticas públicas, mais concursos, ensino integral, proteção a mulheres vítimas de violência e delegacias especializadas 24 horas.",
+      "trecho": "Queremos ampliar o controle popular sobre o orçamento e as políticas públicas, fortalecer os serviços essenciais com mais concursos para saúde e educação, ampliar o ensino integral, investir no acolhimento e na proteção das mulheres vítimas de violência e garantir que todas as delegacias especializadas funcionem 24 horas",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p64",
+      "tema": "transporte",
+      "subtema": "estatização e malha ferroviária",
+      "resumo": "Defende estatizar o transporte no estado e investir na malha ferroviária.",
+      "trecho": "Defendemos a estatização do transporte do RJ e a realização de um grande processo com o povo para investir na malha ferroviária e em projetos que liguem as indústrias aos espaços de produção.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p65",
+      "tema": "seguranca",
+      "subtema": "inteligência contra facções",
+      "resumo": "Defende operações de inteligência contra lavagem de dinheiro, confisco de bens de corruptos e controle da entrada de armas e drogas pelas fronteiras do estado.",
+      "trecho": "Além disso, acreditamos que com uma política de operações baseadas em inteligência focadas no combate à lavagem de dinheiro, confisco dos bens dos corruptos que estão no Estado, e na entrada de armas e drogas nas fronteiras do estado do Rio seremos mais eficientes no enfrentamento às facções.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p66",
+      "tema": "seguranca",
+      "subtema": "corrupção policial e arsenais",
+      "resumo": "Promete punir policiais ligados ao crime, confiscar bens obtidos com corrupção e manter controle público dos arsenais.",
+      "trecho": "Não só vamos punir, como defendemos o confisco de todos os bens roubados ou adquiridos através de dinheiro de corrupção. Queremos controle público dos arsenais para evitar o desvio de armas para as facções criminosas.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p67",
+      "tema": "seguranca",
+      "subtema": "delegacias da mulher",
+      "resumo": "Defende ampliar as delegacias da mulher, com funcionamento 24 horas, concursos e formação específica.",
+      "trecho": "Defendemos ampliação das delegacias da mulher e que elas funcionem 24h, para isso vamos garantir os concursos e formação necessários para as e os policiais que atuarem nestas unidades.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": "funcionamento 24 horas"
+    },
+    {
+      "id": "p68",
+      "tema": "seguranca",
+      "subtema": "trabalho de presos",
+      "resumo": "Propõe que presos ligados à base do crime organizado trabalhem com salário e direitos trabalhistas, visando a reinserção.",
+      "trecho": "É preciso identificar quem está nas estruturas de base do crime organizado e colocar estas pessoas para trabalhar, garantindo o salário e os direitos trabalhistas, mas para dar condições dessas pessoas serem reinseridas na sociedade.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p69",
+      "tema": "seguranca",
+      "subtema": "serviços controlados por grupos armados",
+      "resumo": "Defende reestatizar telecomunicações, combustíveis, gás de cozinha e outros serviços hoje controlados pelo tráfico ou por milícias.",
+      "trecho": "É preciso reestatizar as telecomunicações, a produção e distribuição de combustível e gás de cozinha e outros serviços essenciais que hoje estão na mão do tráfico, das milícias ou de seus laranjas.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": "inclui medidas de competência federal"
+    },
+    {
+      "id": "p70",
+      "tema": "gestao",
+      "subtema": "uso de serviços públicos por políticos",
+      "resumo": "Defende que todos os políticos usem o SUS e a escola pública.",
+      "trecho": "É importante ressaltar que nós defendemos que todos os políticos usem os serviços públicos, utilizem o SUS, utilizem a escola pública, a educação pública",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p71",
+      "tema": "educacao",
+      "subtema": "investimento, piso e concursos",
+      "resumo": "Defende investir em infraestrutura e construção de escolas, reabrir escolas fechadas, pagar o piso nacional aos profissionais da educação e realizar concursos.",
+      "trecho": "Garantir todo o investimento na escola pública, garantir investimento na infraestrutura, na construção de novas escolas, na reabertura das escolas que já foram fechadas, garantir o piso nacional para os profissionais de educação, garantir concurso público. Educação pública 100% pública e gratuita.",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p72",
+      "tema": "moradia",
+      "subtema": "imóveis ocupados e despejos",
+      "resumo": "Diz que a primeira ação na moradia será acabar com os despejos e regularizar imóveis públicos abandonados que já estão ocupados.",
+      "trecho": "Há imóveis federais, estaduais e municipais (abandonados). Nossa primeira ação vai ser pôr fim aos despejos e regularizar esses imóveis que já estão ocupados.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "primeira ação na área"
+    },
+    {
+      "id": "p73",
+      "tema": "moradia",
+      "subtema": "mutirões com apoio técnico",
+      "resumo": "Explica que a construção habitacional seria feita em sua maior parte por mutirão, com possível contratação de pequenas empreiteiras e apoio técnico.",
+      "trecho": "Podemos contratar partes em pequenas empreiteiras, mas a grande maioria da obra é feita por mutirão. Isso não exime o trabalho técnico",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "economia/ICMS: nenhuma proposta de alíquota; só a revisão das isenções fiscais a grandes empresas",
+    "economia/Propag: nenhuma menção ao programa. O plano propõe suspender e auditar a dívida estadual, sem dizer como isso se relaciona com a adesão ao Propag",
+    "economia/royalties do petróleo: sem proposta",
+    "economia/renda mínima estadual: no Diário do Rio (19/09) o valor e o financiamento aparecem só em paráfrase; o plano também não traz valor",
+    "transporte/tarifa zero: o Diário do Rio (19/09) atribui a ela a meta de tarifa zero, mas só em paráfrase. O plano registrado prevê redução de 50% em jan/2027 (p49); as duas versões não foram conciliadas",
+    "transporte/ônibus intermunicipal e barcas: empresas públicas de ônibus e reestatização das barcas aparecem só em paráfrase (Diário do Rio); BRT sem proposta",
+    "meio-ambiente/enchentes e Defesa Civil: sem proposta de 2026. Respostas sobre frentes de trabalho contra desastres na Região Serrana aparecem no Portal Multiplix, mas são da campanha de 2022 (pedem voto em '2 de outubro'); não registradas",
+    "meio-ambiente/Baía de Guanabara e desmatamento em Xerém: só em paráfrase (Diário do Rio)",
+    "gestao/Rioprevidência: menção ao caso Banco Master só em paráfrase (Diário do Rio), sem proposta",
+    "saude/novos hospitais e UPAs no interior: a proposta literal encontrada (Portal Multiplix) é da campanha de 2022; não registrada",
+    "educacao/expansão da UERJ para a Baixada: o g1 (09/09) traz a proposta em paráfrase e a citação aparece truncada; não registrada",
+    "seguranca/efetivo policial e metas: disse que qualquer plano de efetivo e equipamentos depende antes da reestruturação das polícias; sem metas numéricas",
+    "gestao/plebiscitos e orçamento participativo: citados em paráfrase (Diário do Rio; g1 09/09); a única fala literal é genérica ('Nós vamos governar junto com o povo')"
+  ]
+}
