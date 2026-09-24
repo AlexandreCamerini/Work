@@ -52,7 +52,7 @@ function App() {
       </nav>
 
       <p className="text-xs leading-relaxed text-tinta-suave">
-        Isto não é pesquisa eleitoral nem recomendação de voto. Nenhuma resposta sai do seu aparelho.
+        Isto não é pesquisa eleitoral nem recomendação de voto. Suas respostas não saem do seu aparelho.
       </p>
     </main>
   )

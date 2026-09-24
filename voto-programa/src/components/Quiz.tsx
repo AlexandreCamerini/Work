@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
 import { calcularResultados } from '../lib/matching'
+import { misturarTemas } from '../lib/ordem'
 import { PERFIL_VAZIO, selecionarCenas } from '../lib/perfil'
-import type { Eleicao, Perfil, Resposta } from '../types'
+import type { Eleicao, Pergunta, Resposta } from '../types'
 import { Cena } from './Cena'
 import { Intro } from './Intro'
 import { Prioridades } from './Prioridades'
@@ -13,12 +14,12 @@ type Etapa = 'intro' | 'perfil' | 'prioridades' | 'cenas' | 'resultado'
 export function Quiz({ eleicao }: { eleicao: Eleicao }) {
   const { quiz, aderencia, candidatos } = eleicao
   const [etapa, setEtapa] = useState<Etapa>('intro')
-  const [perfil, setPerfil] = useState<Perfil>(PERFIL_VAZIO)
+  /** Sorteada uma vez por pessoa, sem tema repetido em sequência. */
+  const [cenas, setCenas] = useState<Pergunta[]>([])
   const [prioridades, setPrioridades] = useState<string[]>([])
   const [respostas, setRespostas] = useState<Resposta[]>([])
   const [indice, setIndice] = useState(0)
 
-  const cenas = useMemo(() => selecionarCenas(quiz.perguntas, perfil), [quiz, perfil])
   const resultados = useMemo(
     () => calcularResultados(candidatos, cenas, aderencia, respostas, prioridades),
     [candidatos, cenas, aderencia, respostas, prioridades],
@@ -33,7 +34,7 @@ export function Quiz({ eleicao }: { eleicao: Eleicao }) {
     return (
       <SobreVoce
         onContinuar={(p) => {
-          setPerfil(p)
+          setCenas(misturarTemas(selecionarCenas(quiz.perguntas, p)))
           irPara('prioridades')
         }}
       />
@@ -84,7 +85,7 @@ export function Quiz({ eleicao }: { eleicao: Eleicao }) {
         onRefazer={() => {
           setRespostas([])
           setPrioridades([])
-          setPerfil(PERFIL_VAZIO)
+          setCenas([])
           setIndice(0)
           irPara('intro')
         }}

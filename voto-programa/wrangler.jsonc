@@ -1,0 +1,30 @@
+// Cloudflare Workers: site estático (dist/) servido pela borda + API em server/worker.ts.
+// Antes do primeiro deploy: `npx wrangler d1 create voto-programa`, copiar o database_id abaixo,
+// `npm run db:migrar` e, se usar Turnstile, `npx wrangler secret put TURNSTILE_SECRET`.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "voto-programa",
+  "main": "server/worker.ts",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": "./dist" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "voto-programa",
+      "database_id": "PREENCHER-COM-O-ID-DO-D1",
+      "migrations_dir": "server/migrations"
+    }
+  ],
+  // limite por IP na borda; a Cloudflare aplica, nós não guardamos a chave
+  "ratelimits": [{ "name": "LIMITE_VOTOS", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }],
+  "vars": {
+    // enquete é proibida durante a campanha (Lei 9.504/97, art. 33, §5º): só ligar com aval jurídico
+    "VOTACAO_ABERTA": "false",
+    "VOTACAO_ABRE_EM": "2026-10-26",
+    "PLACAR_MINIMO": "30",
+    "TURNSTILE_SITE_KEY": ""
+  },
+  // sem Workers Logs: nada de requisição (nem IP) guardado do nosso lado
+  "observability": { "enabled": false },
+  "preview_urls": false
+}

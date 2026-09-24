@@ -1,4 +1,4 @@
-import type { Aderencia, Candidato, Motivo, Pergunta, Resposta, Resultado } from '../types'
+import type { Aderencia, Avaliacao, Candidato, Motivo, Pergunta, Resposta, Resultado } from '../types'
 
 /** Com menos situações comparáveis que isso, o percentual seria ruído: mostramos "sem dado". */
 export const COBERTURA_MINIMA = 3
@@ -64,4 +64,41 @@ export function calcularResultados(
       }
     })
     .sort((a, b) => (b.afinidade ?? -1) - (a.afinidade ?? -1))
+}
+
+export type Encaixe = 'atende' | 'em_parte' | 'nao_atende' | 'sem_proposta'
+
+/** Mesmos cortes dos rótulos de cada motivo: 70+ combina, 40-69 em parte, abaixo disso outra direção. */
+export function encaixe(nota: number | null): Encaixe {
+  if (nota === null) return 'sem_proposta'
+  if (nota >= 70) return 'atende'
+  if (nota >= 40) return 'em_parte'
+  return 'nao_atende'
+}
+
+export interface ItemEncaixe {
+  pergunta: Pergunta
+  opcaoId: string
+  avaliacao: Avaliacao | null
+}
+
+/**
+ * O que o candidato atende e o que não atende nas escolhas do eleitor, pela nota da opção
+ * escolhida (sem centrar): responde "ele propõe o que eu escolhi?".
+ */
+export function encaixesDoCandidato(
+  candidatoId: string,
+  perguntas: Pergunta[],
+  aderencia: Aderencia,
+  respostas: Resposta[],
+): Record<Encaixe, ItemEncaixe[]> {
+  const saida: Record<Encaixe, ItemEncaixe[]> = { atende: [], em_parte: [], nao_atende: [], sem_proposta: [] }
+  const porId = new Map(perguntas.map((p) => [p.id, p]))
+  for (const r of respostas) {
+    const pergunta = porId.get(r.perguntaId)
+    if (!pergunta) continue
+    const avaliacao = aderencia.itens[r.perguntaId]?.[r.opcaoId]?.[candidatoId] ?? null
+    saida[encaixe(avaliacao?.nota ?? null)].push({ pergunta, opcaoId: r.opcaoId, avaliacao })
+  }
+  return saida
 }

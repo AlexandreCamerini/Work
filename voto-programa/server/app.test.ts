@@ -1,3 +1,4 @@
+// @vitest-environment node
 import { describe, expect, it } from 'vitest'
 import { criarApp, lerConfig, verificadorTurnstile, type Config } from './app'
 import { urnaEmMemoria } from './urna'
@@ -27,7 +28,7 @@ describe('API de votos', () => {
   it('conta o voto e só mostra a divisão acima do mínimo', async () => {
     const { app, votar } = montar()
     expect((await votar({ eleicao: 'presidente', candidato: 'lula' })).status).toBe(204)
-    let placar = await (await app.request(`${ORIGEM}/api/placar/presidente`)).json()
+    let placar = (await (await app.request(`${ORIGEM}/api/placar/presidente`)).json()) as { votos: unknown }
     expect(placar).toEqual({ total: 1, minimo: 2, votos: null })
     await votar({ eleicao: 'presidente', candidato: 'flavio-bolsonaro' })
     placar = await (await app.request(`${ORIGEM}/api/placar/presidente`)).json()
@@ -100,5 +101,14 @@ describe('configuração', () => {
     expect(await verificadorTurnstile('s', falso)(undefined)).toBe(false)
     expect(await verificadorTurnstile('s', falso)('tok')).toBe(true)
     expect(enviado?.has('remoteip')).toBe(false)
+  })
+})
+
+describe('cabeçalhos dos arquivos estáticos (Cloudflare)', () => {
+  it('public/_headers repete os cabeçalhos da API', async () => {
+    const { readFileSync } = await import('node:fs')
+    const { CABECALHOS_SEGURANCA } = await import('./app')
+    const arquivo = readFileSync('public/_headers', 'utf8')
+    for (const [nome, valor] of Object.entries(CABECALHOS_SEGURANCA)) expect(arquivo).toContain(`${nome}: ${valor}`)
   })
 })

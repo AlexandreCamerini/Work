@@ -49,7 +49,16 @@ perfil (5 toques) → escolhe as cenas → afinidade = média dos pontos centrad
 - **Ausência não é discordância.** Sem proposta sobre o assunto, a nota é `null` e a
   escolha não conta nem a favor nem contra; o resultado diz quantas escolhas ficaram
   de fora para cada candidato. Abaixo de 3 situações com evidência, mostra "—".
-- **Nada sai do navegador.** Sem backend, sem login, sem armazenar respostas.
+- **Ordem misturada.** Cada pessoa recebe as cenas numa ordem sorteada, sem dois temas
+  iguais em sequência (`src/lib/ordem.ts`), e as opções de cada cena também em ordem
+  sorteada, para a primeira da lista não ser favorecida. Toda cena tem pelo menos 4 opções.
+- **Atende / não atende.** No resultado, cada candidato (às cegas) mostra quais escolhas
+  ele atende (nota 70+), atende em parte (40-69) e não atende (abaixo de 40). Justificativa
+  e fonte só aparecem depois do voto, porque citação e veículo entregariam quem é.
+- **Voto às cegas, depois os nomes.** A pessoa vota no "Candidato A, B…"; só então os
+  nomes aparecem, com o placar anônimo (ou o aviso de que ele está fechado).
+- **Respostas não saem do navegador.** Sem login e sem armazenar respostas. O único
+  dado enviado é o id do candidato votado, e só com a votação aberta.
 
 ## Prometeu, fez?
 
@@ -66,6 +75,31 @@ plena campanha um placar que só existe para quem já governou. O build de produ
 inclui esses dados com `VITE_PUBLICAR_ACOMPANHAMENTO=true`. Os vencedores de 2026
 passam a ser acompanhados a partir da posse.
 
+## Votação anônima
+
+`server/`: API em [Hono](https://hono.dev) com três rotas (`GET /api/estado`,
+`POST /api/votos`, `GET /api/placar/:eleicao`).
+
+- **Só contadores.** A tabela `placar` tem uma linha por (eleição, candidato) com um
+  número. Não existe registro por voto, horário, IP, cookie ou identificador: nem quem
+  administra consegue saber quem votou em quem ou em que ordem.
+- **Contra fraude sem identificar ninguém:** lista fechada de candidatos, JSON
+  obrigatório (força preflight de CORS, que não é liberado), origem conferida, corpo de
+  até 4 KB, limite de 5 votos por minuto por IP (a chave vive só no limitador, nunca é
+  gravada), Cloudflare Turnstile opcional (sem cookie; o IP não é enviado na
+  verificação) e trava de um voto por navegador em `localStorage`. Voto online anônimo
+  não tem como ser "uma pessoa, um voto"; o placar diz isso.
+- **Placar só a partir de `PLACAR_MINIMO` votos** (padrão 30); abaixo disso, só o total.
+- **Desligada por padrão** (`VOTACAO_ABERTA=false`): durante a campanha, enquete é
+  proibida (Lei 9.504/97, art. 33, §5º, com multa). Fechada, o voto só revela os nomes,
+  não é enviado, e o placar mostra a data de `VOTACAO_ABRE_EM` (padrão 26/10/2026, dia
+  seguinte ao 2º turno). **Ligar só com parecer de advogado eleitoral.**
+- **Cabeçalhos de segurança** em tudo: CSP restrita a `'self'` (mais Turnstile), HSTS,
+  `frame-ancestors 'none'`, `Referrer-Policy: no-referrer`. Fontes servidas pelo próprio
+  site (antes vinham do Google, que recebia o IP de cada visitante). Nenhum script de
+  terceiros, nenhum analytics. `public/_headers` repete os cabeçalhos para os arquivos
+  estáticos; um teste confere que batem.
+
 ## Restrições legais que moldaram o desenho
 
 Levantamento em `pipeline/pesquisa-eleitor-rj.md` (seção 5) e
@@ -74,11 +108,13 @@ Levantamento em `pipeline/pesquisa-eleitor-rj.md` (seção 5) e
 - **IA não recomenda candidato** (Res. TSE 23.755/2026, art. 28, §1º-C da Res.
   23.610): nenhuma IA roda no site. A IA propõe cenas e notas nos bastidores; o que é
   publicado é decisão editorial revisada por uma pessoa.
-- **Enquete proibida desde 15/08/2026:** só resultado individual, nenhum agregado.
+- **Enquete proibida desde 15/08/2026:** a votação anônima nasce desligada e só deve
+  abrir depois do 2º turno, com aval jurídico.
 - **Anonimato vedado** (Lei 9.504/97, art. 57-D): preencher `src/config.ts`.
 - **Sem impulsionamento pago** nem influenciador pago.
 - **Nada de conteúdo sintético novo com candidato entre 01 e 05/10.**
-- **LGPD:** respostas e resultado podem revelar opinião política (dado sensível):
+- **LGPD:** respostas, resultado e voto revelam opinião política (dado sensível). Por
+  isso o voto vira só +1 num contador (dado anonimizado, fora da LGPD pelo art. 12), e
   nada de analytics com respostas, nada de respostas na URL, nada de scripts de terceiros.
 
 ## Rodando
@@ -86,8 +122,12 @@ Levantamento em `pipeline/pesquisa-eleitor-rj.md` (seção 5) e
 ```bash
 npm install
 npm run dev        # desenvolvimento
-npm test           # afinidade, perfil e integridade dos dados das duas eleições
+npm test           # afinidade, perfil, ordem, dados das duas eleições e API de votos
 npm run build && npm run lint
+
+# API de votos local, no runtime da Cloudflare (workerd), com D1 local
+npx wrangler d1 migrations apply voto-programa --local
+npx wrangler dev --var VOTACAO_ABERTA:true --var PLACAR_MINIMO:1
 
 # pipelines com Claude (precisa de ANTHROPIC_API_KEY ou `ant auth login`)
 pip install "anthropic>=1"
@@ -129,9 +169,36 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
 - [ ] **Validar a heurística de perfil**: os cortes 0,34 e 0,66 são ponto de partida;
       calibrar com um piloto contra o Critério Brasil completo.
 - [ ] **Testar as cenas com 5-10 eleitores** de perfis diferentes.
-- [ ] **Preencher o responsável** em `src/config.ts` e **validação jurídica**.
+- [ ] **Preencher o responsável** em `src/config.ts` e **validação jurídica**, inclusive
+      da votação anônima (enquete) e da data de abertura.
+- [ ] **Termos e aviso de privacidade** na página, mesmo com dado anonimizado.
 - [ ] Acessibilidade (contraste e leitor de tela).
 
 ## Deploy
 
-Site estático (`npm run build` gera `dist/`). Nenhum deploy foi feito.
+Nenhum deploy foi feito. Duas opções prontas:
+
+| | **Cloudflare Workers + D1 (recomendado)** | Railway + Postgres |
+|---|---|---|
+| Arquivos | `wrangler.jsonc`, `server/worker.ts` | `railway.json`, `server/node.ts` |
+| IP do eleitor | não aparece para nós: sem Workers Logs (`observability` desligado) e sem Logpush | **os logs HTTP da plataforma gravam o IP de origem** (`srcIp`) de toda requisição, e não dá para desligar |
+| Ataque e robôs | DDoS e WAF da Cloudflare, Rate Limiting na borda, Turnstile nativo | sem WAF configurável; o próprio Railway recomenda pôr Cloudflare na frente |
+| Pico de acesso (WhatsApp) | borda global, escala sozinho | um container por região; precisa dimensionar |
+| Custo nesta escala | plano gratuito cobre | pago por uso (serviço + Postgres) |
+
+Passos na Cloudflare:
+
+```bash
+npx wrangler login
+npx wrangler d1 create voto-programa        # copiar o database_id para wrangler.jsonc
+npm run db:migrar
+npx wrangler secret put TURNSTILE_SECRET    # opcional; TURNSTILE_SITE_KEY em "vars"
+npm run deploy:cloudflare
+```
+
+Depois: domínio próprio no painel e, se a votação for aberta, `VOTACAO_ABERTA` para
+`"true"` em `wrangler.jsonc` e novo deploy.
+
+No Railway: novo serviço a partir do repositório (raiz `voto-programa/`), plugin
+Postgres (injeta `DATABASE_URL`) e as mesmas variáveis (`VOTACAO_ABERTA`,
+`VOTACAO_ABRE_EM`, `PLACAR_MINIMO`, `TURNSTILE_*`). A tabela é criada na subida.

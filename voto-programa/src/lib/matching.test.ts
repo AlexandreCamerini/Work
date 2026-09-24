@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { eleicoes } from '../data'
 import type { Aderencia, Candidato, Pergunta } from '../types'
-import { COBERTURA_MINIMA, calcularResultados, pontoNaCena } from './matching'
+import { COBERTURA_MINIMA, calcularResultados, encaixesDoCandidato, pontoNaCena } from './matching'
 
 function candidato(id: string): Candidato {
   return {
@@ -93,6 +93,21 @@ describe('calcularResultados', () => {
     const poucas = tudoA.slice(0, COBERTURA_MINIMA - 1)
     const [x] = calcularResultados([X], perguntas, aderencia, poucas, [])
     expect(x.afinidade).toBeNull()
+  })
+})
+
+describe('encaixesDoCandidato', () => {
+  it('separa o que atende, o que não atende e onde não há proposta', () => {
+    const respostas = [
+      { perguntaId: 'q1', opcaoId: 'a' },
+      { perguntaId: 'q2', opcaoId: 'b' },
+      { perguntaId: 'q3', opcaoId: 'a' },
+    ]
+    const y = encaixesDoCandidato('y', perguntas, aderencia, respostas)
+    expect(y.atende.map((i) => i.pergunta.id)).toEqual(['q2'])
+    expect(y.nao_atende.map((i) => i.pergunta.id)).toEqual(['q1'])
+    expect(y.sem_proposta.map((i) => i.pergunta.id)).toEqual(['q3'])
+    expect(y.em_parte).toHaveLength(0)
   })
 })
 

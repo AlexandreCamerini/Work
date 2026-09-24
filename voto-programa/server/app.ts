@@ -32,7 +32,7 @@ export const CABECALHOS_SEGURANCA: Record<string, string> = {
     "connect-src 'self'",
     "img-src 'self' data:",
     "style-src 'self' 'unsafe-inline'",
-    "font-src 'self'",
+    "font-src 'self' data:",
     "object-src 'none'",
     "base-uri 'none'",
     "form-action 'none'",

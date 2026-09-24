@@ -23,7 +23,7 @@ export function Intro({ quiz, totalCenas, onComecar }: IntroProps) {
       <ul className="flex flex-wrap gap-2 text-sm font-semibold">
         <li className="rounded-full border border-linha bg-white px-3 py-1">Uns 3 minutos</li>
         <li className="rounded-full border border-linha bg-white px-3 py-1">Sem cadastro</li>
-        <li className="rounded-full border border-linha bg-white px-3 py-1">Nada sai do seu celular</li>
+        <li className="rounded-full border border-linha bg-white px-3 py-1">Respostas não saem do seu celular</li>
         <li className="rounded-full border border-linha bg-white px-3 py-1">Candidatos escondidos até o fim</li>
       </ul>
 

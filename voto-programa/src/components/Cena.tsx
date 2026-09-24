@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
+import { embaralhar } from '../lib/ordem'
 import type { Pergunta, Tema } from '../types'
 
 interface CenaProps {
@@ -12,6 +13,8 @@ interface CenaProps {
 export function Cena({ pergunta, tema, indice, total, onResponder }: CenaProps) {
   const [escolha, setEscolha] = useState<string | null>(null)
   const ultima = indice === total - 1
+  // ordem das opções sorteada por pessoa: a primeira da lista tende a ser mais escolhida
+  const opcoes = useMemo(() => embaralhar(pergunta.opcoes), [pergunta])
 
   return (
     <section className="mx-auto flex max-w-xl flex-col gap-5 px-4 pt-6 pb-16">
@@ -41,7 +44,7 @@ export function Cena({ pergunta, tema, indice, total, onResponder }: CenaProps) 
       <h2 className="text-lg font-bold">{pergunta.pergunta}</h2>
 
       <div className="flex flex-col gap-3">
-        {pergunta.opcoes.map((opcao) => {
+        {opcoes.map((opcao) => {
           const selecionada = escolha === opcao.id
           return (
             <button
