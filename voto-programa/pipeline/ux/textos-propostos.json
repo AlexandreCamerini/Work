@@ -1,0 +1,1127 @@
+[
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "trem-parado",
+    "campo": "pergunta",
+    "antes": "O que o governo devia fazer com a empresa que opera o trem?",
+    "depois": "O que o governo devia fazer com a empresa do trem?",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "trem-parado",
+    "campo": "opcao:a",
+    "antes": "Não cumpriu o contrato? Rompe e troca a empresa.",
+    "depois": "Romper o contrato se a empresa não cumprir as metas.",
+    "palavras_depois": 10,
+    "motivo": "começa com verbo; 'troca a empresa' não está na preferência (rescindir por descumprir metas)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "trem-parado",
+    "campo": "opcao:b",
+    "antes": "Auditar o contrato e cobrar, sem rasgar o acordo.",
+    "depois": "Manter a empresa, mas conferir o contrato e cobrar o combinado.",
+    "palavras_depois": 11,
+    "motivo": "'auditar' é palavra difícil; 'manter a empresa' deixa claro o 'sem romper'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "trem-parado",
+    "campo": "opcao:d",
+    "antes": "O Estado retoma o trem e passa a operar com empresa pública.",
+    "depois": "Tirar o trem da empresa privada e passar pra uma empresa pública.",
+    "palavras_depois": 12,
+    "motivo": "'o Estado retoma' é abstrato; diz quem sai e quem entra"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "estrada-interior",
+    "campo": "cena",
+    "antes": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento, e o ônibus passa de hora em hora.",
+    "depois": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento. O ônibus passa de hora em hora.",
+    "palavras_depois": 21,
+    "motivo": "passava do limite de palavras (frase de 22); virou duas frases"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "estrada-interior",
+    "campo": "opcao:a",
+    "antes": "O estado recapeia e vigia as estradas com dinheiro próprio.",
+    "depois": "Refazer o asfalto e vigiar as estradas com dinheiro do estado.",
+    "palavras_depois": 11,
+    "motivo": "'recapeia' é palavra técnica; começa com verbo"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "estrada-interior",
+    "campo": "opcao:b",
+    "antes": "Passar as estradas pra concessão privada, sem pedágio novo.",
+    "depois": "Passar as estradas pra empresas privadas cuidarem, sem pedágio novo.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('concessão')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "estrada-interior",
+    "campo": "opcao:d",
+    "antes": "Passagem de ônibus intermunicipal mais barata, com ajuda do estado.",
+    "depois": "Passagem de ônibus entre cidades mais barata, com dinheiro do estado.",
+    "palavras_depois": 11,
+    "motivo": "'intermunicipal' é palavra longa; 'ajuda' virou 'dinheiro do estado' (subsídio)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "transito-carro",
+    "campo": "opcao:b",
+    "antes": "BRT ligando a Baixada à rede do Rio.",
+    "depois": "Mais BRT, ônibus com pista própria, ligando a Baixada ao Rio.",
+    "palavras_depois": 11,
+    "motivo": "sigla sem explicação (BRT)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "transito-carro",
+    "campo": "opcao:c",
+    "antes": "Novas ligações entre as vias expressas, pra desafogar Linha Vermelha e Av. Brasil.",
+    "depois": "Novas pistas ligando as vias expressas, como Linha Vermelha e Avenida Brasil.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; 'ligações' virou 'pistas'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "transito-carro",
+    "campo": "opcao:d",
+    "antes": "Passagem cada vez mais barata, até a tarifa zero, pra valer deixar o carro.",
+    "depois": "Baixar a passagem aos poucos, até ficar de graça.",
+    "palavras_depois": 9,
+    "motivo": "passava do limite de palavras; 'tarifa zero' é bordão de campanha; tira o argumento de venda ('pra valer deixar o carro')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "passagem-cara",
+    "campo": "opcao:a",
+    "antes": "Estado banca parte da passagem intermunicipal pra todo mundo.",
+    "depois": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+    "palavras_depois": 11,
+    "motivo": "'intermunicipal' é palavra longa"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "passagem-cara",
+    "campo": "opcao:c",
+    "antes": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
+    "depois": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; 'abrir as contas' virou 'mostrar o custo real' (transparência do custo da tarifa)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "passagem-cara",
+    "campo": "opcao:d",
+    "antes": "Metrô mais barato, até chegar a R$ 5.",
+    "depois": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+    "palavras_depois": 10,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('até R$ 5' é promessa de um candidato); igual à preferência"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "campo": "cena",
+    "antes": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu: são R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
+    "depois": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu. São R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
+    "palavras_depois": 24,
+    "motivo": "passava do limite de palavras (frase de 24); virou duas frases"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "campo": "opcao:a",
+    "antes": "Estado banca parte da passagem intermunicipal pra todo mundo.",
+    "depois": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+    "palavras_depois": 11,
+    "motivo": "'intermunicipal' é palavra longa"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "campo": "opcao:c",
+    "antes": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
+    "depois": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; 'abrir as contas' virou 'mostrar o custo real' (transparência do custo da tarifa)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "campo": "opcao:d",
+    "antes": "Metrô mais barato, até chegar a R$ 5.",
+    "depois": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+    "palavras_depois": 10,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('até R$ 5' é promessa de um candidato); igual à preferência"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "fila-especialista",
+    "campo": "opcao:b",
+    "antes": "Centros públicos de especialidade em cada região do estado.",
+    "depois": "Centro público de médico especialista em cada região do estado.",
+    "palavras_depois": 10,
+    "motivo": "'especialidade' é abstrato"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "fila-especialista",
+    "campo": "opcao:c",
+    "antes": "Mutirão de cirurgia à noite e no fim de semana.",
+    "depois": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (mutirão permanente)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "saude-interior",
+    "campo": "cena",
+    "antes": "Pra fazer quimioterapia, sua tia sai de van às 4h da manhã rumo ao Rio e só volta depois das 20h.",
+    "depois": "Pra fazer quimioterapia, sua tia pega a van pro Rio às 4h da manhã. Só volta depois das 20h.",
+    "palavras_depois": 19,
+    "motivo": "passava do limite de palavras (frase de 21); virou duas frases"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:b",
+    "antes": "Centros públicos de especialidade em cada região do estado.",
+    "depois": "Centro público de médico especialista em cada região do estado.",
+    "palavras_depois": 10,
+    "motivo": "'especialidade' é abstrato"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:c",
+    "antes": "Mutirão de cirurgia à noite e no fim de semana.",
+    "depois": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (mutirão permanente)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "escola-bagunca",
+    "campo": "opcao:a",
+    "antes": "Militar da reserva cuidando da disciplina (escola cívico-militar).",
+    "depois": "Escola cívico-militar, com militar aposentado cuidando da disciplina.",
+    "palavras_depois": 8,
+    "motivo": "tira o parêntese; 'da reserva' virou 'aposentado'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "escola-bagunca",
+    "campo": "opcao:b",
+    "antes": "Escola o dia inteiro, com laboratório de ciência e tecnologia.",
+    "depois": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (a preferência fala de foco, não de laboratório)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "escola-bagunca",
+    "campo": "opcao:c",
+    "antes": "Reforço de português e matemática no contraturno.",
+    "depois": "Aula de reforço em português e matemática, no outro turno.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('contraturno')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-tecnico",
+    "campo": "pergunta",
+    "antes": "O que a rede estadual de ensino devia priorizar?",
+    "depois": "O que a escola estadual devia fazer primeiro?",
+    "palavras_depois": 8,
+    "motivo": "'rede estadual de ensino' e 'priorizar' são formais"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-tecnico",
+    "campo": "opcao:b",
+    "antes": "Cursos da Faetec ligados às empresas de cada região.",
+    "depois": "Cursos técnicos do estado voltados às empresas de cada região.",
+    "palavras_depois": 10,
+    "motivo": "sigla sem explicação (Faetec)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-tecnico",
+    "campo": "opcao:d",
+    "antes": "Escola em tempo integral com ciência e tecnologia.",
+    "depois": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
+    "palavras_depois": 11,
+    "motivo": "mesmo texto da opção igual em escola-bagunca; 'tempo integral' virou 'o dia inteiro'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "operacao-policial",
+    "campo": "opcao:a",
+    "antes": "O território foi retomado e o crime não manda mais ali.",
+    "depois": "A polícia retomou a área e o crime não manda mais ali.",
+    "palavras_depois": 12,
+    "motivo": "'território' é abstrato; diz quem retomou"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "operacao-policial",
+    "campo": "opcao:c",
+    "antes": "A polícia ficou e o Estado entrou com serviço no dia seguinte.",
+    "depois": "A polícia ficou, e o governo chegou com serviço público depois.",
+    "palavras_depois": 11,
+    "motivo": "'o Estado entrou com serviço' era vago"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "operacao-policial",
+    "campo": "opcao:d",
+    "antes": "Morreu menos gente: morador e policial.",
+    "depois": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência: a preferência mede mortes causadas pela ação policial e pede contar todas; o texto atual falava de morte de policial, que a preferência não mede"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "via-expressa-fechada",
+    "campo": "opcao:a",
+    "antes": "O território foi retomado e o crime não manda mais ali.",
+    "depois": "A polícia retomou a área e o crime não manda mais ali.",
+    "palavras_depois": 12,
+    "motivo": "'território' é abstrato; diz quem retomou"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "via-expressa-fechada",
+    "campo": "opcao:c",
+    "antes": "A polícia ficou e o Estado entrou com serviço no dia seguinte.",
+    "depois": "A polícia ficou, e o governo chegou com serviço público depois.",
+    "palavras_depois": 11,
+    "motivo": "'o Estado entrou com serviço' era vago"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "via-expressa-fechada",
+    "campo": "opcao:d",
+    "antes": "Morreu menos gente: morador e policial.",
+    "depois": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência: a preferência mede mortes causadas pela ação policial e pede contar todas; o texto atual falava de morte de policial, que a preferência não mede"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:d",
+    "antes": "Câmera inteligente e tecnologia espalhadas pela cidade.",
+    "depois": "Câmera inteligente nas ruas, ligada direto à polícia.",
+    "palavras_depois": 8,
+    "motivo": "fica mais perto da preferência ('integradas às polícias' faltava)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "roubo-carro",
+    "campo": "opcao:d",
+    "antes": "Câmera que lê placa e tecnologia nas vias.",
+    "depois": "Câmera que lê placa nas ruas, ligada direto à polícia.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência ('integradas às polícias' faltava)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "medida-protetiva",
+    "campo": "opcao:c",
+    "antes": "Casa de acolhimento, com apoio pra ela recomeçar.",
+    "depois": "Abrigo pra ela, com advogado, psicólogo e ajuda em dinheiro.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('acolhimento'); fica mais perto da preferência (apoio jurídico, psicológico e financeiro)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "medida-protetiva",
+    "campo": "opcao:d",
+    "antes": "Patrulha Maria da Penha visitando e acompanhando ela de perto.",
+    "depois": "Mais Patrulha Maria da Penha, visitando e acompanhando ela de perto.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (ampliar); programa público existente, citado por vários candidatos"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "rua-alagada",
+    "campo": "opcao:a",
+    "antes": "Obra grande de drenagem e contenção de encosta.",
+    "depois": "Obra grande pra escoar a água da chuva e segurar os morros.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('drenagem', 'contenção de encosta')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "encosta-serra",
+    "campo": "opcao:a",
+    "antes": "Obra grande de drenagem e contenção de encosta.",
+    "depois": "Obra grande pra escoar a água da chuva e segurar os morros.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('drenagem', 'contenção de encosta')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "garagem-alagada",
+    "campo": "opcao:a",
+    "antes": "Obra grande de drenagem e contenção de encosta.",
+    "depois": "Obra grande pra escoar a água da chuva e segurar os morros.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('drenagem', 'contenção de encosta')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-agua",
+    "campo": "pergunta",
+    "antes": "O que o governo devia fazer com a empresa de água e esgoto?",
+    "depois": "O que fazer com a empresa de água e esgoto?",
+    "palavras_depois": 10,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-agua",
+    "campo": "opcao:b",
+    "antes": "Cobrar as metas de água e esgoto e fiscalizar de perto.",
+    "depois": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
+    "palavras_depois": 12,
+    "motivo": "'cobrar as metas' era vago; fica mais perto da preferência (meta de universalização)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-agua",
+    "campo": "opcao:c",
+    "antes": "Não cumpriu? Perde o contrato.",
+    "depois": "Romper o contrato se a empresa não cumprir o combinado.",
+    "palavras_depois": 10,
+    "motivo": "começa com verbo; a pergunta retórica ('Não cumpriu?') confunde quem lê devagar"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-agua",
+    "campo": "opcao:d",
+    "antes": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
+    "depois": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; explica a Cedae"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "campo": "pergunta",
+    "antes": "O que o governo devia fazer com a empresa de água e esgoto?",
+    "depois": "O que fazer com a empresa de água e esgoto?",
+    "palavras_depois": 10,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "campo": "opcao:b",
+    "antes": "Cobrar as metas de água e esgoto e fiscalizar de perto.",
+    "depois": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
+    "palavras_depois": 12,
+    "motivo": "'cobrar as metas' era vago; fica mais perto da preferência (meta de universalização)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "campo": "opcao:c",
+    "antes": "Não cumpriu? Perde o contrato.",
+    "depois": "Romper o contrato se a empresa não cumprir o combinado.",
+    "palavras_depois": 10,
+    "motivo": "começa com verbo; a pergunta retórica ('Não cumpriu?') confunde quem lê devagar"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "campo": "opcao:d",
+    "antes": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
+    "depois": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; explica a Cedae"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "primo-desempregado",
+    "campo": "opcao:c",
+    "antes": "Gerar emprego é papel da empresa privada; o estado deve cuidar da segurança.",
+    "depois": "Deixar o emprego com as empresas; o estado investe em segurança.",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras; 'investe' fica mais perto de 'concentrar o investimento'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "primo-desempregado",
+    "campo": "opcao:d",
+    "antes": "Zerar o IPVA da moto de quem trabalha com ela.",
+    "depois": "Baixar ou zerar o IPVA da moto de quem trabalha com ela.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência (isenção OU redução; 'zerar' sozinho ia além)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "servidor-recomposicao",
+    "campo": "cena",
+    "antes": "Você é servidor do estado e esperou quatro anos por uma parcela de recomposição que já estava em lei.",
+    "depois": "Você é servidor do estado e esperou quatro anos por um reajuste que já estava na lei.",
+    "palavras_depois": 17,
+    "motivo": "jargão ('parcela de recomposição')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "servidor-recomposicao",
+    "campo": "opcao:a",
+    "antes": "Recomposição pela inflação todo ano, sem atraso.",
+    "depois": "Salário corrigido pela inflação todo ano, sem atraso.",
+    "palavras_depois": 8,
+    "motivo": "jargão ('recomposição')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "servidor-recomposicao",
+    "campo": "opcao:b",
+    "antes": "Bônus para quem bate meta, com acordo de resultado.",
+    "depois": "Bônus pra quem bate a meta combinada com o governo.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('acordo de resultado')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "servidor-recomposicao",
+    "campo": "opcao:c",
+    "antes": "Recuperar na Justiça o dinheiro da previdência dos servidores aplicado no Banco Master.",
+    "depois": "Recuperar na Justiça o dinheiro das aposentadorias aplicado no Banco Master.",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "cena",
+    "antes": "A licença ambiental do seu galpão está parada no Inea há meses, e o investimento não sai do papel.",
+    "depois": "A licença do seu galpão está parada há meses no órgão ambiental do estado. O investimento não sai do papel.",
+    "palavras_depois": 20,
+    "motivo": "sigla sem explicação (Inea)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "opcao:a",
+    "antes": "Um balcão digital único pra abrir, licenciar e pedir incentivo.",
+    "depois": "Um só site pra abrir a empresa, tirar licença e pedir incentivo.",
+    "palavras_depois": 12,
+    "motivo": "'balcão digital único' é jargão de gestão"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "opcao:b",
+    "antes": "Licença decidida na própria região, sem ir ao Inea na capital.",
+    "depois": "Licença decidida na sua própria região, sem depender da capital.",
+    "palavras_depois": 10,
+    "motivo": "sigla sem explicação (Inea)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "opcao:d",
+    "antes": "Incentivo fiscal só com meta de emprego, e devolve se não cumprir.",
+    "depois": "Desconto de imposto só pra quem cria emprego; se não criar, devolve.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('incentivo fiscal', 'meta')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "correria-praia",
+    "campo": "opcao:c",
+    "antes": "Desmontar o domínio das facções nos territórios de onde vem a violência.",
+    "depois": "Retomar da mão das facções as áreas que elas dominam.",
+    "palavras_depois": 10,
+    "motivo": "'desmontar o domínio' e 'territórios' são abstratos; 'de onde vem a violência' não está na preferência"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "correria-praia",
+    "campo": "opcao:d",
+    "antes": "Câmera inteligente e tecnologia integrada às polícias.",
+    "depois": "Câmera inteligente nas ruas, ligada direto à polícia.",
+    "palavras_depois": 8,
+    "motivo": "'tecnologia integrada às polícias' é abstrato; mesmo texto de celular-roubado d"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:a",
+    "antes": "Teto: o governo não pode gastar mais do que arrecada.",
+    "depois": "Teto: o gasto do governo só cresce se o que entra crescer.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência: a preferência liga o crescimento da despesa ao da receita; o texto atual ('não gastar mais do que arrecada') é outra regra"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:b",
+    "antes": "Auditar todo contrato, com um órgão só pra vigiar desvio.",
+    "depois": "Conferir todo contrato e criar órgão pra vigiar quem ganha cargo.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (a secretaria fiscaliza nomeados, não 'desvio' em geral); 'auditar' é palavra difícil"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:c",
+    "antes": "Cortar cargo e enxugar a máquina.",
+    "depois": "Cortar cargos e gastos do dia a dia do governo.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('enxugar a máquina', custeio)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:d",
+    "antes": "Cortar a isenção de imposto dada a grandes empresas.",
+    "depois": "Rever e cortar os descontos de imposto dados a empresas.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência (a preferência vale para empresas em geral, não só grandes); 'isenção' virou 'desconto'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "custo-contratar",
+    "campo": "opcao:a",
+    "antes": "Reduzir o custo da folha, sem tirar direito do trabalhador.",
+    "depois": "Baixar aos poucos o custo de ter empregado, sem tirar direito.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('folha'); fica mais perto da preferência (redução gradual)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "custo-contratar",
+    "campo": "opcao:b",
+    "antes": "Contrato mais barato pro primeiro emprego e pra quem tem mais de 50.",
+    "depois": "Contrato mais barato pro 1º emprego e pra desempregado acima de 50.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; fica mais perto da preferência (a preferência fala de desempregado com 50 ou mais)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "custo-contratar",
+    "campo": "opcao:c",
+    "antes": "Subir o teto do MEI de R$ 81 mil pra R$ 140 mil por ano.",
+    "depois": "Aumentar o limite de quanto o MEI pode faturar por ano.",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras; tira detalhe que só um candidato usa (quebrava o anonimato) (os valores R$ 81 mil → R$ 140 mil são de um candidato)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "custo-contratar",
+    "campo": "opcao:d",
+    "antes": "Fiscalizar pejotização e terceirização que precarizam.",
+    "depois": "Fiscalizar quem troca carteira por PJ ou terceirizado pra tirar direitos.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('pejotização', 'precarizam')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "trabalho-app",
+    "campo": "opcao:a",
+    "antes": "Uma lei com regra de ganho mínimo e direitos pra quem trabalha em app.",
+    "depois": "Lei do trabalho por app, com ganho mínimo e direitos.",
+    "palavras_depois": 10,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "salario-minimo",
+    "campo": "opcao:b",
+    "antes": "Zerar o imposto da cesta básica e devolver imposto a quem ganha pouco.",
+    "depois": "Cesta básica sem imposto, e imposto de volta pra quem ganha pouco.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "salario-minimo",
+    "campo": "opcao:c",
+    "antes": "Programa de pontos: quem paga conta em dia e faz curso ganha desconto e juro menor.",
+    "depois": "Juro menor e desconto pra quem paga em dia e faz curso.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras (16); duas ideias numa só"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "imposto-renda",
+    "campo": "cena",
+    "antes": "Na hora de declarar o imposto de renda, você faz a conta de quanto vai pro governo, no salário e no que compra.",
+    "depois": "Declarando o imposto de renda, você soma quanto vai pro governo: no salário e nas compras.",
+    "palavras_depois": 16,
+    "motivo": "passava do limite de palavras (frase de 23)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "imposto-renda",
+    "campo": "opcao:a",
+    "antes": "Manter a isenção até R$ 5 mil e corrigir a tabela do IR todo ano.",
+    "depois": "Continuar sem imposto até R$ 5 mil, com tabela corrigida todo ano.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; 'isenção' e 'IR'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "imposto-renda",
+    "campo": "opcao:b",
+    "antes": "Rever a reforma tributária e baixar a alíquota do novo imposto sobre consumo.",
+    "depois": "Rever a reforma tributária e baixar imposto sobre produção e compras.",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras; jargão ('alíquota')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "imposto-renda",
+    "campo": "opcao:c",
+    "antes": "Acabar aos poucos com o IOF no câmbio.",
+    "depois": "Acabar aos poucos com o imposto sobre dólar e outras moedas.",
+    "palavras_depois": 11,
+    "motivo": "sigla sem explicação (IOF) e 'câmbio'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "juros-altos",
+    "campo": "opcao:a",
+    "antes": "Manter as regras fiscais de hoje e crescer pra dívida pesar menos.",
+    "depois": "Manter as regras de gasto de hoje e fazer o país crescer.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('regras fiscais')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "juros-altos",
+    "campo": "opcao:b",
+    "antes": "Regras novas: cortar gastos e fazer superávit pra dívida cair.",
+    "depois": "Trocar as regras: gastar menos do que entra, pra dívida cair.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('superávit')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "juros-altos",
+    "campo": "opcao:c",
+    "antes": "Vender imóveis da União e usar royalties num fundo pra pagar dívida.",
+    "depois": "Usar imóveis do governo e dinheiro do petróleo pra pagar a dívida.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('União', 'royalties'); a preferência não fala em vender"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fila-cirurgia",
+    "campo": "opcao:a",
+    "antes": "Hospital particular atendendo o SUS em horário vago.",
+    "depois": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (contratar serviços da rede privada); 'em horário vago' não está na preferência"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fila-cirurgia",
+    "campo": "opcao:c",
+    "antes": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+    "depois": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+    "palavras_depois": 10,
+    "motivo": "posto de saúde não faz cirurgia; fica mais perto da preferência (terceiro turno e mutirões)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fila-cirurgia",
+    "campo": "opcao:d",
+    "antes": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+    "depois": "Aumentar o que o SUS paga a hospitais e clínicas.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('tabela do SUS')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "especialista-longe",
+    "campo": "cena",
+    "antes": "Pra consultar com especialista, sua mãe viaja de barco até a capital: dois dias de ida, e a fila ainda é de meses.",
+    "depois": "Pra consultar com especialista, sua mãe viaja dois dias de barco até a capital. E a fila ainda é de meses.",
+    "palavras_depois": 21,
+    "motivo": "passava do limite de palavras (frase de 23); virou duas frases"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "especialista-longe",
+    "campo": "opcao:a",
+    "antes": "Hospital particular atendendo o SUS em horário vago.",
+    "depois": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (contratar serviços da rede privada); 'em horário vago' não está na preferência"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "especialista-longe",
+    "campo": "opcao:c",
+    "antes": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+    "depois": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+    "palavras_depois": 10,
+    "motivo": "posto de saúde não faz cirurgia; fica mais perto da preferência (terceiro turno e mutirões)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "especialista-longe",
+    "campo": "opcao:d",
+    "antes": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+    "depois": "Aumentar o que o SUS paga a hospitais e clínicas.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('tabela do SUS')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:a",
+    "antes": "Hospital particular atendendo o SUS em horário vago.",
+    "depois": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+    "palavras_depois": 11,
+    "motivo": "fica mais perto da preferência (contratar serviços da rede privada); 'em horário vago' não está na preferência"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:c",
+    "antes": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+    "depois": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+    "palavras_depois": 10,
+    "motivo": "posto de saúde não faz cirurgia; fica mais perto da preferência (terceiro turno e mutirões)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:d",
+    "antes": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+    "depois": "Aumentar o que o SUS paga a hospitais e clínicas.",
+    "palavras_depois": 10,
+    "motivo": "jargão ('tabela do SUS')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "faccao-bairro",
+    "campo": "cena",
+    "antes": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua e cobra taxa até do gás e da internet.",
+    "depois": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua. Ela cobra taxa até do gás e da internet.",
+    "palavras_depois": 24,
+    "motivo": "passava do limite de palavras (frase de 24); virou duas frases"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "faccao-bairro",
+    "campo": "opcao:b",
+    "antes": "Criar o Ministério da Segurança e mandar dinheiro pros estados combaterem o crime.",
+    "depois": "Criar o Ministério da Segurança e dar dinheiro a estados e cidades.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras; fica mais perto da preferência (estados e municípios)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "faccao-bairro",
+    "campo": "opcao:d",
+    "antes": "Polícia presente de forma permanente no bairro, sem o Exército entrar e sair.",
+    "depois": "Polícia fixa no bairro, em vez do Exército entrar e sair.",
+    "palavras_depois": 11,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:a",
+    "antes": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+    "depois": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
+    "palavras_depois": 12,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('quatro vezes maior' é promessa de um candidato); 'sem benefícios' virou 'sem sair antes'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:b",
+    "antes": "Câmera com reconhecimento facial ligada no país inteiro.",
+    "depois": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência (integrado a bancos de dados criminais)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-sinal",
+    "campo": "opcao:a",
+    "antes": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+    "depois": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
+    "palavras_depois": 12,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('quatro vezes maior' é promessa de um candidato); 'sem benefícios' virou 'sem sair antes'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-sinal",
+    "campo": "opcao:b",
+    "antes": "Câmera com reconhecimento facial ligada no país inteiro.",
+    "depois": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
+    "palavras_depois": 12,
+    "motivo": "fica mais perto da preferência (integrado a bancos de dados criminais)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "pagar-faculdade",
+    "campo": "opcao:a",
+    "antes": "Empréstimo que só se paga depois de empregado, proporcional ao salário.",
+    "depois": "Empréstimo pago com parte do salário, só depois de empregado.",
+    "palavras_depois": 10,
+    "motivo": "'proporcional' é palavra difícil"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "pagar-faculdade",
+    "campo": "opcao:c",
+    "antes": "Voucher pra estudar em escola particular quando faltar vaga na pública.",
+    "depois": "Governo paga escola particular quando faltar vaga na pública.",
+    "palavras_depois": 9,
+    "motivo": "jargão ('voucher')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "pagar-faculdade",
+    "campo": "opcao:d",
+    "antes": "Curso técnico e tecnólogo de graça, que já leva pro emprego.",
+    "depois": "Mais vagas de graça em curso técnico e tecnólogo.",
+    "palavras_depois": 9,
+    "motivo": "tira o argumento de venda ('que já leva pro emprego'), que só esta opção tinha"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "conta-luz",
+    "campo": "opcao:a",
+    "antes": "Petrobras de volta à venda de combustível e mais refinaria.",
+    "depois": "Petrobras voltar a vender combustível aos postos e refinar mais.",
+    "palavras_depois": 10,
+    "motivo": "'venda de combustível' era vago (a Petrobras já vende às distribuidoras); a preferência fala de distribuição"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "conta-luz",
+    "campo": "opcao:b",
+    "antes": "Cortar subsídios embutidos na conta de luz e baixar imposto de energia.",
+    "depois": "Baixar as taxas extras da conta de luz e imposto de energia.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('subsídios embutidos'); a preferência fala em reduzir, não zerar"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "conta-luz",
+    "campo": "opcao:c",
+    "antes": "Liberar a extração de gás de xisto (fracking) pra ter mais gás.",
+    "depois": "Liberar a extração de gás de xisto, o chamado fracking.",
+    "palavras_depois": 10,
+    "motivo": "tira o argumento de venda ('pra ter mais gás'), que só esta opção tinha"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "conta-luz",
+    "campo": "opcao:d",
+    "antes": "Mais hidrelétrica e menos carvão.",
+    "depois": "Construir mais usina hidrelétrica e gerar menos energia com carvão.",
+    "palavras_depois": 10,
+    "motivo": "opção bem mais curta que as outras (5 palavras); fica do mesmo tamanho"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-seca",
+    "campo": "cena",
+    "antes": "Num ano, a enchente leva a casa de conhecidos; no outro, a seca deixa a luz e a comida mais caras.",
+    "depois": "Num ano, a enchente leva a casa de conhecidos. No outro, a seca deixa a luz e a comida mais caras.",
+    "palavras_depois": 21,
+    "motivo": "passava do limite de palavras (frase de 21); virou duas frases"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-seca",
+    "campo": "opcao:a",
+    "antes": "Zerar o desmatamento e cumprir as metas de emissão.",
+    "depois": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('metas de emissão')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-seca",
+    "campo": "opcao:b",
+    "antes": "Obras contra enchente: diques, reservatórios e drenagem.",
+    "depois": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência (eventos extremos: cheia e seca); 'drenagem' sai da lista, que vira exemplo com 'como'; mesmo texto nas 4 cenas"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-seca",
+    "campo": "opcao:d",
+    "antes": "Continuar buscando petróleo novo, como na margem equatorial.",
+    "depois": "Continuar procurando e tirando petróleo em lugares novos.",
+    "palavras_depois": 8,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('margem equatorial' é fala de um candidato); fica mais perto da preferência (pesquisa e exploração)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-sul",
+    "campo": "cena",
+    "antes": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta, e tem gente que ainda não recuperou a casa.",
+    "depois": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta. Tem gente que ainda não recuperou a casa.",
+    "palavras_depois": 21,
+    "motivo": "passava do limite de palavras (frase de 22); virou duas frases"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-sul",
+    "campo": "opcao:a",
+    "antes": "Zerar o desmatamento e cumprir as metas de emissão.",
+    "depois": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('metas de emissão')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-sul",
+    "campo": "opcao:b",
+    "antes": "Obras contra enchente: diques, reservatórios e drenagem.",
+    "depois": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência (eventos extremos: cheia e seca); 'drenagem' sai da lista, que vira exemplo com 'como'; mesmo texto nas 4 cenas"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-sul",
+    "campo": "opcao:d",
+    "antes": "Continuar buscando petróleo novo, como na margem equatorial.",
+    "depois": "Continuar procurando e tirando petróleo em lugares novos.",
+    "palavras_depois": 8,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('margem equatorial' é fala de um candidato); fica mais perto da preferência (pesquisa e exploração)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fumaca-queimada",
+    "campo": "cena",
+    "antes": "Na seca, a fumaça das queimadas cobre a cidade por semanas e o rio baixa tanto que o barco não passa.",
+    "depois": "Na seca, a fumaça das queimadas cobre a cidade por semanas. E o rio baixa tanto que o barco não passa.",
+    "palavras_depois": 21,
+    "motivo": "passava do limite de palavras (frase de 21); virou duas frases"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fumaca-queimada",
+    "campo": "opcao:a",
+    "antes": "Zerar o desmatamento e cumprir as metas de emissão.",
+    "depois": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('metas de emissão')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fumaca-queimada",
+    "campo": "opcao:b",
+    "antes": "Obras contra enchente: diques, reservatórios e drenagem.",
+    "depois": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência (eventos extremos: cheia e seca); 'drenagem' sai da lista, que vira exemplo com 'como'; mesmo texto nas 4 cenas"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fumaca-queimada",
+    "campo": "opcao:d",
+    "antes": "Continuar buscando petróleo novo, como na margem equatorial.",
+    "depois": "Continuar procurando e tirando petróleo em lugares novos.",
+    "palavras_depois": 8,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('margem equatorial' é fala de um candidato); fica mais perto da preferência (pesquisa e exploração)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "seca-nordeste",
+    "campo": "opcao:a",
+    "antes": "Zerar o desmatamento e cumprir as metas de emissão.",
+    "depois": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('metas de emissão')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "seca-nordeste",
+    "campo": "opcao:b",
+    "antes": "Obras contra seca e enchente: barragens e reservatórios.",
+    "depois": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+    "palavras_depois": 10,
+    "motivo": "fica mais perto da preferência (eventos extremos: cheia e seca); 'drenagem' sai da lista, que vira exemplo com 'como'; mesmo texto nas 4 cenas"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "seca-nordeste",
+    "campo": "opcao:d",
+    "antes": "Continuar buscando petróleo novo, como na margem equatorial.",
+    "depois": "Continuar procurando e tirando petróleo em lugares novos.",
+    "palavras_depois": 8,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('margem equatorial' é fala de um candidato); fica mais perto da preferência (pesquisa e exploração)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "video-falso",
+    "campo": "opcao:a",
+    "antes": "Regular as plataformas pra conter mentira e discurso de ódio.",
+    "depois": "Criar regras pras redes sociais conterem mentira e discurso de ódio.",
+    "palavras_depois": 11,
+    "motivo": "'regular as plataformas' é jargão"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "video-falso",
+    "campo": "opcao:b",
+    "antes": "Nenhuma regra nova, e fim dos órgãos do governo que decidem o que é mentira.",
+    "depois": "Nenhuma regra nova e fim dos órgãos do governo que apontam mentira.",
+    "palavras_depois": 12,
+    "motivo": "passava do limite de palavras"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "gasto-governo",
+    "campo": "opcao:a",
+    "antes": "Cortar pelo menos 10 ministérios e acabar com supersalário.",
+    "depois": "Cortar ministérios, cargos de indicação política e supersalários.",
+    "palavras_depois": 8,
+    "motivo": "tira detalhe que só um candidato usa (quebrava o anonimato) ('pelo menos 10 ministérios' é promessa de um candidato); fica mais perto da preferência (cargos comissionados)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "gasto-governo",
+    "campo": "opcao:b",
+    "antes": "Enfrentar o sistema de emendas parlamentares.",
+    "depois": "Mudar as regras do dinheiro que deputados e senadores escolhem onde gastar.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('emendas parlamentares'); 'enfrentar' virou 'mudar as regras' (reformar)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "agressor-rondando",
+    "campo": "opcao:b",
+    "antes": "Casa de acolhimento e centro de atendimento à mulher perto de casa.",
+    "depois": "Mais abrigos e centros de apoio pra mulher que sofre violência.",
+    "palavras_depois": 11,
+    "motivo": "jargão ('acolhimento'); fica mais perto da preferência (ampliar)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "agressor-rondando",
+    "campo": "opcao:d",
+    "antes": "Prisão pra quem descumprir a medida protetiva, sem benefício.",
+    "depois": "Pena mais dura, sem sair antes, pra quem descumprir a medida protetiva.",
+    "palavras_depois": 12,
+    "motivo": "jargão ('sem benefício'); fica mais perto da preferência (endurecer a punição e cumprir a pena toda)"
+  }
+]
