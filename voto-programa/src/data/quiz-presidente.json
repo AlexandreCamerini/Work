@@ -94,22 +94,22 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Reduzir o custo da folha, sem tirar direito do trabalhador.",
+          "texto": "Baixar aos poucos o custo de ter empregado, sem tirar direito.",
           "preferencia": "Redução gradual do custo do trabalho formal sem retirada de direitos."
         },
         {
           "id": "b",
-          "texto": "Contrato mais barato pro primeiro emprego e pra quem tem mais de 50.",
+          "texto": "Contrato mais barato pro 1º emprego e pra desempregado acima de 50.",
           "preferencia": "Contratos com menor custo na folha para jovens em primeiro emprego e desempregados com 50 anos ou mais."
         },
         {
           "id": "c",
-          "texto": "Subir o teto do MEI de R$ 81 mil pra R$ 140 mil por ano.",
+          "texto": "Aumentar o limite de quanto o MEI pode faturar por ano.",
           "preferencia": "Elevar o teto de faturamento do MEI."
         },
         {
           "id": "d",
-          "texto": "Fiscalizar pejotização e terceirização que precarizam.",
+          "texto": "Fiscalizar quem troca carteira por PJ ou terceirizado pra tirar direitos.",
           "preferencia": "Combater a pejotização fraudulenta e terceirizações precarizantes com fiscalização."
         }
       ],
@@ -133,7 +133,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Uma lei com regra de ganho mínimo e direitos pra quem trabalha em app.",
+          "texto": "Lei do trabalho por app, com ganho mínimo e direitos.",
           "preferencia": "Regulação do trabalho por plataformas com regras de remuneração, relação de trabalho e direitos."
         },
         {
@@ -172,12 +172,12 @@
         },
         {
           "id": "b",
-          "texto": "Zerar o imposto da cesta básica e devolver imposto a quem ganha pouco.",
+          "texto": "Cesta básica sem imposto, e imposto de volta pra quem ganha pouco.",
           "preferencia": "Isenção de tributos sobre a cesta básica e devolução de impostos (cashback) para a baixa renda."
         },
         {
           "id": "c",
-          "texto": "Programa de pontos: quem paga conta em dia e faz curso ganha desconto e juro menor.",
+          "texto": "Juro menor e desconto pra quem paga em dia e faz curso.",
           "preferencia": "Programa voluntário que recompensa comportamentos como qualificação e adimplência com crédito, juros menores e cashback."
         },
         {
@@ -202,22 +202,22 @@
         ]
       },
       "tema": "economia",
-      "cena": "Na hora de declarar o imposto de renda, você faz a conta de quanto vai pro governo, no salário e no que compra.",
+      "cena": "Declarando o imposto de renda, você soma quanto vai pro governo: no salário e nas compras.",
       "pergunta": "O que você defenderia?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Manter a isenção até R$ 5 mil e corrigir a tabela do IR todo ano.",
+          "texto": "Continuar sem imposto até R$ 5 mil, com tabela corrigida todo ano.",
           "preferencia": "Manter a isenção do IR até R$ 5 mil e reajustar a tabela para preservá-la."
         },
         {
           "id": "b",
-          "texto": "Rever a reforma tributária e baixar a alíquota do novo imposto sobre consumo.",
+          "texto": "Rever a reforma tributária e baixar imposto sobre produção e compras.",
           "preferencia": "Revisar a reforma tributária e reduzir a alíquota do IVA e a carga sobre produção e consumo."
         },
         {
           "id": "c",
-          "texto": "Acabar aos poucos com o IOF no câmbio.",
+          "texto": "Acabar aos poucos com o imposto sobre dólar e outras moedas.",
           "preferencia": "Fim gradual do IOF sobre operações de câmbio."
         },
         {
@@ -241,17 +241,17 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Manter as regras fiscais de hoje e crescer pra dívida pesar menos.",
+          "texto": "Manter as regras de gasto de hoje e fazer o país crescer.",
           "preferencia": "Manter o arcabouço fiscal vigente, com resultado fiscal vindo do crescimento e do controle do gasto primário."
         },
         {
           "id": "b",
-          "texto": "Regras novas: cortar gastos e fazer superávit pra dívida cair.",
+          "texto": "Trocar as regras: gastar menos do que entra, pra dívida cair.",
           "preferencia": "Substituir as regras fiscais por metas de superávit primário e redução da dívida pública, com controle de gastos dos três Poderes."
         },
         {
           "id": "c",
-          "texto": "Vender imóveis da União e usar royalties num fundo pra pagar dívida.",
+          "texto": "Usar imóveis do governo e dinheiro do petróleo pra pagar a dívida.",
           "preferencia": "Criar fundo com imóveis e ativos da União e royalties do petróleo para abater a dívida pública."
         },
         {
@@ -275,7 +275,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
           "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
         },
         {
@@ -285,12 +285,12 @@
         },
         {
           "id": "c",
-          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
           "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
         },
         {
           "id": "d",
-          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
           "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
         }
       ],
@@ -304,12 +304,12 @@
       "id": "especialista-longe",
       "grupo": "fila-sus",
       "tema": "saude",
-      "cena": "Pra consultar com especialista, sua mãe viaja de barco até a capital: dois dias de ida, e a fila ainda é de meses.",
+      "cena": "Pra consultar com especialista, sua mãe viaja dois dias de barco até a capital. E a fila ainda é de meses.",
       "pergunta": "O que resolvia mais rápido?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
           "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
         },
         {
@@ -319,12 +319,12 @@
         },
         {
           "id": "c",
-          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
           "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
         },
         {
           "id": "d",
-          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
           "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
         }
       ],
@@ -348,7 +348,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
           "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
         },
         {
@@ -358,12 +358,12 @@
         },
         {
           "id": "c",
-          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
           "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
         },
         {
           "id": "d",
-          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
           "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
         }
       ],
@@ -383,7 +383,7 @@
       "id": "faccao-bairro",
       "grupo": "faccao",
       "tema": "seguranca",
-      "cena": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua e cobra taxa até do gás e da internet.",
+      "cena": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua. Ela cobra taxa até do gás e da internet.",
       "pergunta": "O que o presidente devia fazer?",
       "opcoes": [
         {
@@ -393,7 +393,7 @@
         },
         {
           "id": "b",
-          "texto": "Criar o Ministério da Segurança e mandar dinheiro pros estados combaterem o crime.",
+          "texto": "Criar o Ministério da Segurança e dar dinheiro a estados e cidades.",
           "preferencia": "Criar o Ministério da Segurança Pública e financiar estados e municípios no combate ao crime organizado."
         },
         {
@@ -403,7 +403,7 @@
         },
         {
           "id": "d",
-          "texto": "Polícia presente de forma permanente no bairro, sem o Exército entrar e sair.",
+          "texto": "Polícia fixa no bairro, em vez do Exército entrar e sair.",
           "preferencia": "Presença policial permanente nos territórios, em vez de operações de Garantia da Lei e da Ordem com as Forças Armadas."
         }
       ],
@@ -422,12 +422,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+          "texto": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
           "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
         },
         {
           "id": "b",
-          "texto": "Câmera com reconhecimento facial ligada no país inteiro.",
+          "texto": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
           "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
         },
         {
@@ -456,12 +456,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+          "texto": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
           "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
         },
         {
           "id": "b",
-          "texto": "Câmera com reconhecimento facial ligada no país inteiro.",
+          "texto": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
           "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
         },
         {
@@ -536,7 +536,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Empréstimo que só se paga depois de empregado, proporcional ao salário.",
+          "texto": "Empréstimo pago com parte do salário, só depois de empregado.",
           "preferencia": "Substituir o financiamento estudantil por empréstimo contingente à renda."
         },
         {
@@ -546,12 +546,12 @@
         },
         {
           "id": "c",
-          "texto": "Voucher pra estudar em escola particular quando faltar vaga na pública.",
+          "texto": "Governo paga escola particular quando faltar vaga na pública.",
           "preferencia": "Voucher educacional para matrícula em escola privada onde faltar vaga na rede pública."
         },
         {
           "id": "d",
-          "texto": "Curso técnico e tecnólogo de graça, que já leva pro emprego.",
+          "texto": "Mais vagas de graça em curso técnico e tecnólogo.",
           "preferencia": "Ampliar a oferta gratuita de educação técnica e tecnológica (institutos federais e ensino técnico)."
         }
       ],
@@ -570,22 +570,22 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Petrobras de volta à venda de combustível e mais refinaria.",
+          "texto": "Petrobras voltar a vender combustível aos postos e refinar mais.",
           "preferencia": "Retorno da Petrobras à distribuição de combustíveis e ampliação do refino."
         },
         {
           "id": "b",
-          "texto": "Cortar subsídios embutidos na conta de luz e baixar imposto de energia.",
+          "texto": "Baixar as taxas extras da conta de luz e imposto de energia.",
           "preferencia": "Reduzir encargos e subsídios cruzados na conta de luz (CDE) e os impostos sobre energia e combustíveis."
         },
         {
           "id": "c",
-          "texto": "Liberar a extração de gás de xisto (fracking) pra ter mais gás.",
+          "texto": "Liberar a extração de gás de xisto, o chamado fracking.",
           "preferencia": "Permitir a exploração de gás não convencional (fracking)."
         },
         {
           "id": "d",
-          "texto": "Mais hidrelétrica e menos carvão.",
+          "texto": "Construir mais usina hidrelétrica e gerar menos energia com carvão.",
           "preferencia": "Expandir a geração hidrelétrica e reduzir a produção de energia a carvão."
         }
       ],
@@ -599,17 +599,17 @@
       "id": "enchente-seca",
       "grupo": "clima",
       "tema": "clima",
-      "cena": "Num ano, a enchente leva a casa de conhecidos; no outro, a seca deixa a luz e a comida mais caras.",
+      "cena": "Num ano, a enchente leva a casa de conhecidos. No outro, a seca deixa a luz e a comida mais caras.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
           "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
         },
         {
           "id": "b",
-          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
           "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
         },
         {
@@ -619,7 +619,7 @@
         },
         {
           "id": "d",
-          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
           "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
         }
       ],
@@ -633,17 +633,17 @@
       "id": "enchente-sul",
       "grupo": "clima",
       "tema": "clima",
-      "cena": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta, e tem gente que ainda não recuperou a casa.",
+      "cena": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta. Tem gente que ainda não recuperou a casa.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
           "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
         },
         {
           "id": "b",
-          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
           "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
         },
         {
@@ -653,7 +653,7 @@
         },
         {
           "id": "d",
-          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
           "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
         }
       ],
@@ -672,17 +672,17 @@
       "id": "fumaca-queimada",
       "grupo": "clima",
       "tema": "clima",
-      "cena": "Na seca, a fumaça das queimadas cobre a cidade por semanas e o rio baixa tanto que o barco não passa.",
+      "cena": "Na seca, a fumaça das queimadas cobre a cidade por semanas. E o rio baixa tanto que o barco não passa.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
           "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
         },
         {
           "id": "b",
-          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
           "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
         },
         {
@@ -692,7 +692,7 @@
         },
         {
           "id": "d",
-          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
           "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
         }
       ],
@@ -717,12 +717,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
           "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
         },
         {
           "id": "b",
-          "texto": "Obras contra seca e enchente: barragens e reservatórios.",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
           "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
         },
         {
@@ -732,7 +732,7 @@
         },
         {
           "id": "d",
-          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
           "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
         }
       ],
@@ -756,12 +756,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Regular as plataformas pra conter mentira e discurso de ódio.",
+          "texto": "Criar regras pras redes sociais conterem mentira e discurso de ódio.",
           "preferencia": "Regulação das redes sociais e plataformas digitais para conter desinformação e discurso de ódio."
         },
         {
           "id": "b",
-          "texto": "Nenhuma regra nova, e fim dos órgãos do governo que decidem o que é mentira.",
+          "texto": "Nenhuma regra nova e fim dos órgãos do governo que apontam mentira.",
           "preferencia": "Extinguir estruturas estatais de combate à desinformação e revogar atos considerados censura, priorizando a liberdade de expressão."
         },
         {
@@ -790,12 +790,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Cortar pelo menos 10 ministérios e acabar com supersalário.",
+          "texto": "Cortar ministérios, cargos de indicação política e supersalários.",
           "preferencia": "Cortar ministérios, cargos comissionados e supersalários."
         },
         {
           "id": "b",
-          "texto": "Enfrentar o sistema de emendas parlamentares.",
+          "texto": "Mudar as regras do dinheiro que deputados e senadores escolhem onde gastar.",
           "preferencia": "Reformar o sistema de emendas parlamentares ao orçamento."
         },
         {
@@ -830,7 +830,7 @@
         },
         {
           "id": "b",
-          "texto": "Casa de acolhimento e centro de atendimento à mulher perto de casa.",
+          "texto": "Mais abrigos e centros de apoio pra mulher que sofre violência.",
           "preferencia": "Ampliar casas e centros de atendimento e acolhimento a mulheres em situação de violência."
         },
         {
@@ -840,7 +840,7 @@
         },
         {
           "id": "d",
-          "texto": "Prisão pra quem descumprir a medida protetiva, sem benefício.",
+          "texto": "Pena mais dura, sem sair antes, pra quem descumprir a medida protetiva.",
           "preferencia": "Endurecer a punição e obrigar o cumprimento integral para quem descumpre medida protetiva."
         }
       ],

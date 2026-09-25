@@ -43,16 +43,16 @@
       "grupo": "trem-parado",
       "tema": "transporte",
       "cena": "Segunda, 6h. O ramal de Japeri parou de novo e o trem não fecha a porta de tanta gente.",
-      "pergunta": "O que o governo devia fazer com a empresa que opera o trem?",
+      "pergunta": "O que o governo devia fazer com a empresa do trem?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Não cumpriu o contrato? Rompe e troca a empresa.",
+          "texto": "Romper o contrato se a empresa não cumprir as metas.",
           "preferencia": "Rescindir contratos de concessão de transporte quando a concessionária descumpre metas."
         },
         {
           "id": "b",
-          "texto": "Auditar o contrato e cobrar, sem rasgar o acordo.",
+          "texto": "Manter a empresa, mas conferir o contrato e cobrar o combinado.",
           "preferencia": "Auditar contratos de concessão e cobrar obrigações, sem ameaçar romper os contratos."
         },
         {
@@ -62,7 +62,7 @@
         },
         {
           "id": "d",
-          "texto": "O Estado retoma o trem e passa a operar com empresa pública.",
+          "texto": "Tirar o trem da empresa privada e passar pra uma empresa pública.",
           "preferencia": "Reestatizar o sistema ferroviário metropolitano, com operação por empresa pública."
         }
       ],
@@ -81,17 +81,17 @@
           "interior"
         ]
       },
-      "cena": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento, e o ônibus passa de hora em hora.",
+      "cena": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento. O ônibus passa de hora em hora.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "O estado recapeia e vigia as estradas com dinheiro próprio.",
+          "texto": "Refazer o asfalto e vigiar as estradas com dinheiro do estado.",
           "preferencia": "Recuperar as rodovias estaduais do interior com recapeamento e vigilância, com recursos do estado."
         },
         {
           "id": "b",
-          "texto": "Passar as estradas pra concessão privada, sem pedágio novo.",
+          "texto": "Passar as estradas pra empresas privadas cuidarem, sem pedágio novo.",
           "preferencia": "Conceder rodovias estaduais à iniciativa privada em lotes, sem criar novos pedágios."
         },
         {
@@ -101,7 +101,7 @@
         },
         {
           "id": "d",
-          "texto": "Passagem de ônibus intermunicipal mais barata, com ajuda do estado.",
+          "texto": "Passagem de ônibus entre cidades mais barata, com dinheiro do estado.",
           "preferencia": "Subsídio estadual ao ônibus intermunicipal para reduzir as passagens."
         }
       ],
@@ -170,17 +170,17 @@
         },
         {
           "id": "b",
-          "texto": "BRT ligando a Baixada à rede do Rio.",
+          "texto": "Mais BRT, ônibus com pista própria, ligando a Baixada ao Rio.",
           "preferencia": "Expandir corredores de BRT na Baixada Fluminense integrados à rede da capital."
         },
         {
           "id": "c",
-          "texto": "Novas ligações entre as vias expressas, pra desafogar Linha Vermelha e Av. Brasil.",
+          "texto": "Novas pistas ligando as vias expressas, como Linha Vermelha e Avenida Brasil.",
           "preferencia": "Construir novas conexões viárias rodoviárias entre as vias expressas metropolitanas."
         },
         {
           "id": "d",
-          "texto": "Passagem cada vez mais barata, até a tarifa zero, pra valer deixar o carro.",
+          "texto": "Baixar a passagem aos poucos, até ficar de graça.",
           "preferencia": "Reduzir progressivamente as tarifas do transporte público até a tarifa zero."
         }
       ],
@@ -199,7 +199,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Estado banca parte da passagem intermunicipal pra todo mundo.",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
           "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
         },
         {
@@ -209,12 +209,12 @@
         },
         {
           "id": "c",
-          "texto": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
+          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
           "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
         },
         {
           "id": "d",
-          "texto": "Metrô mais barato, até chegar a R$ 5.",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
           "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
         }
       ],
@@ -228,12 +228,12 @@
       "id": "vale-transporte",
       "grupo": "passagem-cara",
       "tema": "transporte",
-      "cena": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu: são R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
+      "cena": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu. São R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
       "pergunta": "Pra passagem pesar menos, o que você prefere?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Estado banca parte da passagem intermunicipal pra todo mundo.",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
           "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
         },
         {
@@ -243,12 +243,12 @@
         },
         {
           "id": "c",
-          "texto": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
+          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
           "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
         },
         {
           "id": "d",
-          "texto": "Metrô mais barato, até chegar a R$ 5.",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
           "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
         }
       ],
@@ -277,12 +277,12 @@
         },
         {
           "id": "b",
-          "texto": "Centros públicos de especialidade em cada região do estado.",
+          "texto": "Centro público de médico especialista em cada região do estado.",
           "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
         },
         {
           "id": "c",
-          "texto": "Mutirão de cirurgia à noite e no fim de semana.",
+          "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
           "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
         },
         {
@@ -306,7 +306,7 @@
           "interior"
         ]
       },
-      "cena": "Pra fazer quimioterapia, sua tia sai de van às 4h da manhã rumo ao Rio e só volta depois das 20h.",
+      "cena": "Pra fazer quimioterapia, sua tia pega a van pro Rio às 4h da manhã. Só volta depois das 20h.",
       "pergunta": "O que resolvia pra ela?",
       "opcoes": [
         {
@@ -350,12 +350,12 @@
         },
         {
           "id": "b",
-          "texto": "Centros públicos de especialidade em cada região do estado.",
+          "texto": "Centro público de médico especialista em cada região do estado.",
           "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
         },
         {
           "id": "c",
-          "texto": "Mutirão de cirurgia à noite e no fim de semana.",
+          "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
           "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
         },
         {
@@ -385,17 +385,17 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Militar da reserva cuidando da disciplina (escola cívico-militar).",
+          "texto": "Escola cívico-militar, com militar aposentado cuidando da disciplina.",
           "preferencia": "Implantar o modelo de escola cívico-militar, com militar da reserva responsável pela disciplina."
         },
         {
           "id": "b",
-          "texto": "Escola o dia inteiro, com laboratório de ciência e tecnologia.",
+          "texto": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
           "preferencia": "Ampliar o ensino médio em tempo integral com foco em ciência, tecnologia e matemática."
         },
         {
           "id": "c",
-          "texto": "Reforço de português e matemática no contraturno.",
+          "texto": "Aula de reforço em português e matemática, no outro turno.",
           "preferencia": "Diagnóstico de aprendizagem e reforço de português e matemática no contraturno."
         },
         {
@@ -425,7 +425,7 @@
       },
       "tema": "educacao",
       "cena": "Na empresa onde você trabalha, a vaga de técnico fica meses aberta porque não aparece gente formada.",
-      "pergunta": "O que a rede estadual de ensino devia priorizar?",
+      "pergunta": "O que a escola estadual devia fazer primeiro?",
       "opcoes": [
         {
           "id": "a",
@@ -434,7 +434,7 @@
         },
         {
           "id": "b",
-          "texto": "Cursos da Faetec ligados às empresas de cada região.",
+          "texto": "Cursos técnicos do estado voltados às empresas de cada região.",
           "preferencia": "Alinhar os cursos técnicos estaduais às vocações econômicas de cada região."
         },
         {
@@ -444,7 +444,7 @@
         },
         {
           "id": "d",
-          "texto": "Escola em tempo integral com ciência e tecnologia.",
+          "texto": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
           "preferencia": "Ampliar o ensino médio em tempo integral com foco em ciência, tecnologia e matemática."
         }
       ],
@@ -458,12 +458,12 @@
       "id": "operacao-policial",
       "grupo": "operacao-policial",
       "tema": "seguranca",
-      "cena": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair de casa.",
+      "cena": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair.",
       "pergunta": "Pra você, uma operação policial deu certo quando…",
       "opcoes": [
         {
           "id": "a",
-          "texto": "O território foi retomado e o crime não manda mais ali.",
+          "texto": "A polícia retomou a área e o crime não manda mais ali.",
           "preferencia": "Retomada de território como principal critério de sucesso das operações e da avaliação das polícias."
         },
         {
@@ -473,12 +473,12 @@
         },
         {
           "id": "c",
-          "texto": "A polícia ficou e o Estado entrou com serviço no dia seguinte.",
+          "texto": "A polícia ficou, e o governo chegou com serviço público depois.",
           "preferencia": "Presença permanente do Estado, com polícia e serviços públicos, após as operações."
         },
         {
           "id": "d",
-          "texto": "Morreu menos gente: morador e policial.",
+          "texto": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
           "preferencia": "Redução da letalidade das operações, contando todas as mortes decorrentes de intervenção policial como indicador a reduzir."
         }
       ],
@@ -503,7 +503,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "O território foi retomado e o crime não manda mais ali.",
+          "texto": "A polícia retomou a área e o crime não manda mais ali.",
           "preferencia": "Retomada de território como principal critério de sucesso das operações e da avaliação das polícias."
         },
         {
@@ -513,12 +513,12 @@
         },
         {
           "id": "c",
-          "texto": "A polícia ficou e o Estado entrou com serviço no dia seguinte.",
+          "texto": "A polícia ficou, e o governo chegou com serviço público depois.",
           "preferencia": "Presença permanente do Estado, com polícia e serviços públicos, após as operações."
         },
         {
           "id": "d",
-          "texto": "Morreu menos gente: morador e policial.",
+          "texto": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
           "preferencia": "Redução da letalidade das operações, contando todas as mortes decorrentes de intervenção policial como indicador a reduzir."
         }
       ],
@@ -552,7 +552,7 @@
         },
         {
           "id": "d",
-          "texto": "Câmera inteligente e tecnologia espalhadas pela cidade.",
+          "texto": "Câmera inteligente nas ruas, ligada direto à polícia.",
           "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
         }
       ],
@@ -591,7 +591,7 @@
         },
         {
           "id": "d",
-          "texto": "Câmera que lê placa e tecnologia nas vias.",
+          "texto": "Câmera que lê placa nas ruas, ligada direto à polícia.",
           "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
         }
       ],
@@ -621,12 +621,12 @@
         },
         {
           "id": "c",
-          "texto": "Casa de acolhimento, com apoio pra ela recomeçar.",
+          "texto": "Abrigo pra ela, com advogado, psicólogo e ajuda em dinheiro.",
           "preferencia": "Casas de acolhimento e abrigos com apoio jurídico, psicológico e financeiro para mulheres ameaçadas."
         },
         {
           "id": "d",
-          "texto": "Patrulha Maria da Penha visitando e acompanhando ela de perto.",
+          "texto": "Mais Patrulha Maria da Penha, visitando e acompanhando ela de perto.",
           "preferencia": "Ampliar a Patrulha/Ronda Maria da Penha para acompanhar mulheres com medida protetiva."
         }
       ],
@@ -645,7 +645,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Obra grande de drenagem e contenção de encosta.",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
           "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
         },
         {
@@ -679,7 +679,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Obra grande de drenagem e contenção de encosta.",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
           "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
         },
         {
@@ -718,7 +718,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Obra grande de drenagem e contenção de encosta.",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
           "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
         },
         {
@@ -753,7 +753,7 @@
       "grupo": "falta-agua",
       "tema": "agua-chuva",
       "cena": "Faltou água aqui na rua desde ontem, e a conta desse mês veio mais cara.",
-      "pergunta": "O que o governo devia fazer com a empresa de água e esgoto?",
+      "pergunta": "O que fazer com a empresa de água e esgoto?",
       "opcoes": [
         {
           "id": "a",
@@ -762,17 +762,17 @@
         },
         {
           "id": "b",
-          "texto": "Cobrar as metas de água e esgoto e fiscalizar de perto.",
+          "texto": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
           "preferencia": "Reforçar a fiscalização das metas contratuais de universalização de água e esgoto."
         },
         {
           "id": "c",
-          "texto": "Não cumpriu? Perde o contrato.",
+          "texto": "Romper o contrato se a empresa não cumprir o combinado.",
           "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
         },
         {
           "id": "d",
-          "texto": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
+          "texto": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
           "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
         }
       ],
@@ -787,7 +787,7 @@
       "grupo": "falta-agua",
       "tema": "agua-chuva",
       "cena": "Faltou água no prédio por três dias. O condomínio chamou caminhão-pipa, e a cota extra veio no boleto.",
-      "pergunta": "O que o governo devia fazer com a empresa de água e esgoto?",
+      "pergunta": "O que fazer com a empresa de água e esgoto?",
       "opcoes": [
         {
           "id": "a",
@@ -796,17 +796,17 @@
         },
         {
           "id": "b",
-          "texto": "Cobrar as metas de água e esgoto e fiscalizar de perto.",
+          "texto": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
           "preferencia": "Reforçar a fiscalização das metas contratuais de universalização de água e esgoto."
         },
         {
           "id": "c",
-          "texto": "Não cumpriu? Perde o contrato.",
+          "texto": "Romper o contrato se a empresa não cumprir o combinado.",
           "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
         },
         {
           "id": "d",
-          "texto": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
+          "texto": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
           "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
         }
       ],
@@ -840,12 +840,12 @@
         },
         {
           "id": "c",
-          "texto": "Gerar emprego é papel da empresa privada; o estado deve cuidar da segurança.",
+          "texto": "Deixar o emprego com as empresas; o estado investe em segurança.",
           "preferencia": "Limitar o papel do Estado na geração de emprego, deixando-a ao setor privado, e concentrar o investimento público em segurança."
         },
         {
           "id": "d",
-          "texto": "Zerar o IPVA da moto de quem trabalha com ela.",
+          "texto": "Baixar ou zerar o IPVA da moto de quem trabalha com ela.",
           "preferencia": "Isenção ou redução de IPVA para motos de até 180 cilindradas usadas para trabalho."
         }
       ],
@@ -864,22 +864,22 @@
         ]
       },
       "tema": "trabalho",
-      "cena": "Você é servidor do estado e esperou quatro anos por uma parcela de recomposição que já estava em lei.",
+      "cena": "Você é servidor do estado e esperou quatro anos por um reajuste que já estava na lei.",
       "pergunta": "O que você cobraria do próximo governador?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Recomposição pela inflação todo ano, sem atraso.",
+          "texto": "Salário corrigido pela inflação todo ano, sem atraso.",
           "preferencia": "Recomposição salarial anual dos servidores estaduais."
         },
         {
           "id": "b",
-          "texto": "Bônus para quem bate meta, com acordo de resultado.",
+          "texto": "Bônus pra quem bate a meta combinada com o governo.",
           "preferencia": "Acordos de resultado com metas e bonificação para servidores."
         },
         {
           "id": "c",
-          "texto": "Recuperar na Justiça o dinheiro da previdência dos servidores aplicado no Banco Master.",
+          "texto": "Recuperar na Justiça o dinheiro das aposentadorias aplicado no Banco Master.",
           "preferencia": "Atuação jurídica do estado para recompor os ativos do Rioprevidência aplicados no Banco Master."
         },
         {
@@ -903,17 +903,17 @@
         ]
       },
       "tema": "trabalho",
-      "cena": "A licença ambiental do seu galpão está parada no Inea há meses, e o investimento não sai do papel.",
+      "cena": "A licença do seu galpão está parada há meses no órgão ambiental do estado. O investimento não sai do papel.",
       "pergunta": "O que destravaria o seu negócio?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Um balcão digital único pra abrir, licenciar e pedir incentivo.",
+          "texto": "Um só site pra abrir a empresa, tirar licença e pedir incentivo.",
           "preferencia": "Balcão único digital de investimentos integrando os órgãos estaduais de licença, fazenda e registro."
         },
         {
           "id": "b",
-          "texto": "Licença decidida na própria região, sem ir ao Inea na capital.",
+          "texto": "Licença decidida na sua própria região, sem depender da capital.",
           "preferencia": "Descentralizar o licenciamento ambiental para balcões regionais com autonomia de decisão."
         },
         {
@@ -923,7 +923,7 @@
         },
         {
           "id": "d",
-          "texto": "Incentivo fiscal só com meta de emprego, e devolve se não cumprir.",
+          "texto": "Desconto de imposto só pra quem cria emprego; se não criar, devolve.",
           "preferencia": "Incentivos fiscais condicionados a contrapartidas de emprego, com devolução em caso de descumprimento."
         }
       ],
@@ -958,12 +958,12 @@
         },
         {
           "id": "c",
-          "texto": "Desmontar o domínio das facções nos territórios de onde vem a violência.",
+          "texto": "Retomar da mão das facções as áreas que elas dominam.",
           "preferencia": "Retomada de territórios dominados por facções como prioridade da segurança."
         },
         {
           "id": "d",
-          "texto": "Câmera inteligente e tecnologia integrada às polícias.",
+          "texto": "Câmera inteligente nas ruas, ligada direto à polícia.",
           "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
         }
       ],
@@ -977,27 +977,27 @@
       "id": "dinheiro-publico",
       "grupo": "dinheiro-publico",
       "tema": "contas",
-      "cena": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem notícia de cargo sobrando e de imposto perdoado pra empresa grande.",
+      "cena": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem cargo sobrando e imposto perdoado pra empresa.",
       "pergunta": "O que você cobraria do próximo governador?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Teto: o governo não pode gastar mais do que arrecada.",
+          "texto": "Teto: o gasto do governo só cresce se o que entra crescer.",
           "preferencia": "Teto de gastos estadual vinculando o crescimento da despesa ao da receita."
         },
         {
           "id": "b",
-          "texto": "Auditar todo contrato, com um órgão só pra vigiar desvio.",
+          "texto": "Conferir todo contrato e criar órgão pra vigiar quem ganha cargo.",
           "preferencia": "Auditorias em todos os contratos e secretaria de integridade para fiscalizar nomeados."
         },
         {
           "id": "c",
-          "texto": "Cortar cargo e enxugar a máquina.",
+          "texto": "Cortar cargos e gastos do dia a dia do governo.",
           "preferencia": "Enxugamento da máquina pública e corte de cargos e despesas de custeio."
         },
         {
           "id": "d",
-          "texto": "Cortar a isenção de imposto dada a grandes empresas.",
+          "texto": "Rever e cortar os descontos de imposto dados a empresas.",
           "preferencia": "Revisar e cortar renúncias e benefícios fiscais concedidos a empresas."
         }
       ],

@@ -6,13 +6,15 @@ Regras (falham com exit 1):
   - pergunta com mais de 12 palavras
   - frase de cena com mais de 20 palavras
   - cena com mais de 2 frases
+  - cena + pergunta com mais de 170 caracteres (layout sem rolar)
+  - soma dos textos das opções de uma cena com mais de 260 caracteres (layout sem rolar)
 
 Avisos (não falham): sigla ou jargão da lista abaixo aparecendo no texto que o eleitor lê.
 
 Uso:
   python3 pipeline/ux/checar_legibilidade.py                  # textos atuais
   python3 pipeline/ux/checar_legibilidade.py --propostas pipeline/ux/textos-propostos.json
-      # aplica as propostas em memória (confere o "antes") e checa o resultado
+      # aplica as propostas em memória (confere o "antes"; pula as já aplicadas) e checa o resultado
   --avisos   lista também siglas e jargões (não falha)
 
 Não altera nenhum arquivo.
@@ -36,6 +38,9 @@ MAX_OPCAO = 12
 MAX_PERGUNTA = 12
 MAX_FRASE_CENA = 20
 MAX_FRASES_CENA = 2
+# Caber sem rolar no layout novo (contagem em caracteres, len() do Python).
+MAX_CHARS_CENA_PERGUNTA = 170
+MAX_CHARS_OPCOES = 260
 
 # Abreviações que não encerram frase.
 ABREVIACOES = ("Av.", "Dr.", "Dra.", "Sr.", "Sra.", "nº.", "etc.")
@@ -85,6 +90,8 @@ def aplicar_propostas(dados: dict[str, dict], propostas: list[dict]) -> list[str
         else:
             erros.append(f"{p['eleicao']}/{p['pergunta_id']}: campo desconhecido {campo}")
             continue
+        if alvo[chave] == p["depois"]:
+            continue  # já aplicada nos arquivos
         if alvo[chave] != p["antes"]:
             erros.append(f"{p['eleicao']}/{p['pergunta_id']}/{campo}: 'antes' não bate com o texto atual")
             continue
@@ -109,6 +116,14 @@ def checar(dados: dict[str, dict]) -> tuple[list[str], list[str]]:
                 n = palavras(f)
                 if n > MAX_FRASE_CENA:
                     violacoes.append(f"[{eleicao}] {pid} cena: frase com {n} palavras (máx. {MAX_FRASE_CENA}): {f}")
+            n = len(q["cena"]) + len(q["pergunta"])
+            if n > MAX_CHARS_CENA_PERGUNTA:
+                violacoes.append(
+                    f"[{eleicao}] {pid} cena+pergunta: {n} caracteres (máx. {MAX_CHARS_CENA_PERGUNTA})"
+                )
+            n = sum(len(o["texto"]) for o in q["opcoes"])
+            if n > MAX_CHARS_OPCOES:
+                violacoes.append(f"[{eleicao}] {pid} opções somadas: {n} caracteres (máx. {MAX_CHARS_OPCOES})")
             n = palavras(q["pergunta"])
             if n > MAX_PERGUNTA:
                 violacoes.append(f"[{eleicao}] {pid} pergunta: {n} palavras (máx. {MAX_PERGUNTA}): {q['pergunta']}")
@@ -145,7 +160,7 @@ def main() -> int:
             for e in erros:
                 print("  -", e)
             return 2
-        print(f"{len(propostas)} propostas aplicadas em memória (nenhum arquivo alterado).")
+        print(f"{len(propostas)} propostas conferidas/aplicadas em memória (nenhum arquivo alterado).")
 
     violacoes, avisos = checar(dados)
     if args.avisos and avisos:

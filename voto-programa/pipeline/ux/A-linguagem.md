@@ -5,6 +5,46 @@ propostas estão em `pipeline/ux/textos-propostos.json` (125 trocas de texto, 95
 diferentes, porque várias opções se repetem em cenas-variante) e podem ser aplicadas depois de
 revisadas. Nenhum `id` e nenhuma `preferencia` mudam, então as notas de aderência seguem válidas.
 
+## Aplicado em 25/09
+
+As propostas **foram aplicadas** em `src/data/quiz.json` e `src/data/quiz-presidente.json` com
+`python3 pipeline/ux/aplicar_textos.py` (idempotente: confere o `antes`, pula o que já está
+igual ao `depois`, aborta se algum campo fora de `cena`/`pergunta`/`texto` mudar e se alguma
+troca mirar numa opção mantida). Foram **127 trocas**: as 125 de `textos-propostos.json` e 2
+cenas encurtadas (`textos-cenas-curtas.json`). O diff toca só 13 `cena`, 4 `pergunta` e 110
+`texto` de opção.
+
+- **Precisa reavaliação:** decisão do dono do produto, as 4 opções da seção (presidente
+  `escala-6x1` b e `trabalho-app` b; governador `operacao-policial` b e `via-expressa-fechada`
+  b) **mantêm o texto atual**. Elas cabem em todos os limites, então não precisaram de
+  exceção; `src/lib/legibilidade.test.ts` garante que o texto delas não muda sem nova decisão.
+- **Caber sem rolar:** novo limite no layout, `cena` + `pergunta` ≤ 170 caracteres e soma dos
+  `texto` das opções ≤ 260 por cena. Depois das 125 trocas, só duas cenas do governador
+  passavam; foram encurtadas sem mudar o sentido:
+
+| Cena | Antes | Depois | Cena+pergunta |
+|---|---|---|---|
+| operacao-policial | Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair de casa. | Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair. | 173 → 165 |
+| dinheiro-publico | O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem notícia de cargo sobrando e de imposto perdoado pra empresa grande. | O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem cargo sobrando e imposto perdoado pra empresa. | 183 → 162 |
+
+  Em `dinheiro-publico` a cena continua citando os dois lados (cargo sobrando, que motiva a, b
+  e c; imposto perdoado a empresa, que motiva d). "Grande" saiu porque a opção d agora vale
+  para empresas em geral, como a `preferencia`.
+
+Verificação feita no mesmo dia:
+
+- `python3 pipeline/ux/checar_legibilidade.py` agora checa também os dois limites de
+  caracteres: 0 violações, exit 0 (nos textos de antes seriam 33, 3 delas de caracteres:
+  as duas cenas acima e `faccao-bairro` do presidente, com 279 nas opções, resolvida pelas
+  propostas).
+- `src/lib/legibilidade.test.ts` (Vitest) aplica as mesmas regras aos dois JSON.
+- `npx tsx pipeline/ux/gerar-golden.ts --conferir`: OK, comportamento idêntico à linha de base.
+- `auditar_vies.py --eleicao governador-rj` e `--eleicao presidente`: números idênticos aos de
+  antes (texto não muda nota).
+- Busca pelos 5 detalhes de candidato e por "tarifa zero" nos textos que o eleitor lê
+  (cena, pergunta, opção, fato): nenhum resultado. "Tarifa zero" só aparece em duas
+  `preferencia` (texto interno, não exibido).
+
 ## Resultado em números
 
 | | Hoje | Com as propostas |
