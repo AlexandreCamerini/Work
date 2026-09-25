@@ -1,0 +1,394 @@
+{
+  "360x640": {
+    "viewport": "360x640",
+    "toques": 37,
+    "toquesMinimos": 0,
+    "rolagens": 18,
+    "telas": {
+      "01-home": {
+        "alturaPagina": 796
+      },
+      "02-intro": {
+        "alturaPagina": 807
+      },
+      "03-sobre-voce": {
+        "alturaPagina": 1543
+      },
+      "03b-sobre-voce-preenchido": {
+        "alturaPagina": 1543
+      },
+      "04-prioridades": {
+        "alturaPagina": 640
+      },
+      "04b-prioridades-escolhidas": {
+        "alturaPagina": 640
+      },
+      "05-cena1-antes": {
+        "alturaPagina": 755
+      },
+      "05-cena1-depois": {
+        "alturaPagina": 1020
+      },
+      "05-cena6-antes": {
+        "alturaPagina": 845
+      },
+      "05-cena6-depois": {
+        "alturaPagina": 1090
+      },
+      "06-resultado": {
+        "alturaPagina": 4931
+      },
+      "08-revelacao": {
+        "alturaPagina": 4784
+      }
+    },
+    "cenas": [
+      {
+        "cena": 1,
+        "alturaAntes": 755,
+        "alturaDepois": 1020,
+        "cresceu": 265,
+        "ultimaOpcaoFundo": 651,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 896,
+        "proximaFundo": 956,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 316,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 2,
+        "alturaAntes": 793,
+        "alturaDepois": 1006,
+        "cresceu": 213,
+        "ultimaOpcaoFundo": 689,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 882,
+        "proximaFundo": 942,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 302,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 3,
+        "alturaAntes": 854,
+        "alturaDepois": 1073,
+        "cresceu": 219,
+        "ultimaOpcaoFundo": 750,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 949,
+        "proximaFundo": 1009,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 369,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 4,
+        "alturaAntes": 755,
+        "alturaDepois": 1026,
+        "cresceu": 271,
+        "ultimaOpcaoFundo": 651,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 902,
+        "proximaFundo": 962,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 322,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 5,
+        "alturaAntes": 751,
+        "alturaDepois": 996,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 872,
+        "proximaFundo": 932,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 292,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 6,
+        "alturaAntes": 845,
+        "alturaDepois": 1090,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 741,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 966,
+        "proximaFundo": 1026,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 386,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 7,
+        "alturaAntes": 775,
+        "alturaDepois": 994,
+        "cresceu": 219,
+        "ultimaOpcaoFundo": 671,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 870,
+        "proximaFundo": 930,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 290,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 8,
+        "alturaAntes": 751,
+        "alturaDepois": 970,
+        "cresceu": 219,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 846,
+        "proximaFundo": 906,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 266,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 9,
+        "alturaAntes": 812,
+        "alturaDepois": 1031,
+        "cresceu": 219,
+        "ultimaOpcaoFundo": 708,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 907,
+        "proximaFundo": 967,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 327,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 10,
+        "alturaAntes": 817,
+        "alturaDepois": 1062,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 713,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 938,
+        "proximaFundo": 998,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 358,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 11,
+        "alturaAntes": 751,
+        "alturaDepois": 1022,
+        "cresceu": 271,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 898,
+        "proximaFundo": 958,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 318,
+        "opcoesTravadas": true
+      }
+    ],
+    "resultado": {
+      "alturaPagina": 4931,
+      "blocoVotoTopo": 3786,
+      "telasAteVoto": 5.9
+    },
+    "toquesAteResultado": 35,
+    "numCenas": 11
+  },
+  "390x844": {
+    "viewport": "390x844",
+    "toques": 37,
+    "toquesMinimos": 0,
+    "rolagens": 16,
+    "telas": {
+      "01-home": {
+        "alturaPagina": 844
+      },
+      "02-intro": {
+        "alturaPagina": 844
+      },
+      "03-sobre-voce": {
+        "alturaPagina": 1495
+      },
+      "03b-sobre-voce-preenchido": {
+        "alturaPagina": 1495
+      },
+      "04-prioridades": {
+        "alturaPagina": 844
+      },
+      "04b-prioridades-escolhidas": {
+        "alturaPagina": 844
+      },
+      "05-cena1-antes": {
+        "alturaPagina": 844
+      },
+      "05-cena1-depois": {
+        "alturaPagina": 1000
+      },
+      "05-cena6-antes": {
+        "alturaPagina": 844
+      },
+      "05-cena6-depois": {
+        "alturaPagina": 1006
+      },
+      "06-resultado": {
+        "alturaPagina": 4587
+      },
+      "08-revelacao": {
+        "alturaPagina": 4240
+      }
+    },
+    "cenas": [
+      {
+        "cena": 1,
+        "alturaAntes": 844,
+        "alturaDepois": 1000,
+        "cresceu": 156,
+        "ultimaOpcaoFundo": 651,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 876,
+        "proximaFundo": 936,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 92,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 2,
+        "alturaAntes": 844,
+        "alturaDepois": 1040,
+        "cresceu": 196,
+        "ultimaOpcaoFundo": 717,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 916,
+        "proximaFundo": 976,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 132,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 3,
+        "alturaAntes": 844,
+        "alturaDepois": 1040,
+        "cresceu": 196,
+        "ultimaOpcaoFundo": 717,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 916,
+        "proximaFundo": 976,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 132,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 4,
+        "alturaAntes": 844,
+        "alturaDepois": 970,
+        "cresceu": 126,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 846,
+        "proximaFundo": 906,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 62,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 5,
+        "alturaAntes": 844,
+        "alturaDepois": 970,
+        "cresceu": 126,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 846,
+        "proximaFundo": 906,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 62,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 6,
+        "alturaAntes": 844,
+        "alturaDepois": 1006,
+        "cresceu": 162,
+        "ultimaOpcaoFundo": 689,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 882,
+        "proximaFundo": 942,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 98,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 7,
+        "alturaAntes": 844,
+        "alturaDepois": 1022,
+        "cresceu": 178,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 898,
+        "proximaFundo": 958,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 114,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 8,
+        "alturaAntes": 844,
+        "alturaDepois": 1000,
+        "cresceu": 156,
+        "ultimaOpcaoFundo": 651,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 876,
+        "proximaFundo": 936,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 92,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 9,
+        "alturaAntes": 844,
+        "alturaDepois": 970,
+        "cresceu": 126,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 846,
+        "proximaFundo": 906,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 62,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 10,
+        "alturaAntes": 844,
+        "alturaDepois": 972,
+        "cresceu": 128,
+        "ultimaOpcaoFundo": 675,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 848,
+        "proximaFundo": 908,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 64,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 11,
+        "alturaAntes": 844,
+        "alturaDepois": 1005,
+        "cresceu": 161,
+        "ultimaOpcaoFundo": 656,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 881,
+        "proximaFundo": 941,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 97,
+        "opcoesTravadas": true
+      }
+    ],
+    "resultado": {
+      "alturaPagina": 4587,
+      "blocoVotoTopo": 3442,
+      "telasAteVoto": 4.1
+    },
+    "toquesAteResultado": 35,
+    "numCenas": 11
+  }
+}
