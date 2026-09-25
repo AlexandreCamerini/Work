@@ -29,3 +29,4 @@ pipeline/ux/capturas/depois/
 # Playwright
 test-results/
 playwright-report/
+dist-artefato
