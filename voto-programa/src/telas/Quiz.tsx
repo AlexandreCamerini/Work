@@ -1,4 +1,5 @@
 import { Suspense, use, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { carregarIlustracoes } from '../cenas/ilustracoes/carregar'
 import { carregarAderencia, carregarEvidencias, carregarQuiz, type IdEleicao } from '../data'
 import { FluxoContexto, type ValorFluxo } from '../fluxo/contexto'
 import { chaveDaEtapa, type EstadoFluxo } from '../fluxo/maquina'
@@ -18,6 +19,10 @@ import { Revelacao } from './Revelacao'
 import { Voto } from './Voto'
 
 export default function Quiz({ id }: { id: IdEleicao }) {
+  // ilustrações das cenas: chegam junto com a eleição, em paralelo aos dados do quiz
+  useEffect(() => {
+    carregarIlustracoes().catch(() => {})
+  }, [])
   return (
     <Falha>
       <Suspense

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useIlustracoes } from '../cenas/ilustracoes/carregar'
 import { useFluxoCtx } from '../fluxo/contexto'
 import { Folha } from '../ui/Folha'
 import { Check, SetaEsquerda } from '../ui/icones'
@@ -72,6 +73,8 @@ export function Cena({ indice }: { indice: number }) {
 
   const reacao = trocou ? 'Trocado' : REACOES[indice % REACOES.length]
   const longa = pergunta.cena.length > 120
+  const ilustracoes = useIlustracoes()
+  const Ilustracao = ilustracoes?.ilustracaoDe(pergunta)
 
   return (
     <Tela
@@ -118,6 +121,10 @@ export function Cena({ indice }: { indice: number }) {
         </>
       }
     >
+      {/* decorativa (o texto da cena já descreve): ocupa só a sobra e some se faltar espaço */}
+      <div className="cena-ilustra" key={id} data-testid="cena-ilustracao" aria-hidden="true">
+        {Ilustracao && <Ilustracao />}
+      </div>
       <p className={`cena-texto ${longa ? 'longa' : ''}`} id="cena-texto">
         {pergunta.cena}
       </p>
