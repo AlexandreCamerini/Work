@@ -1,7 +1,7 @@
 # Plano consolidado: refatoração de UX e rebrand (fase 2)
 
 Base: A-linguagem.md, B-interacao.md, C-marca.md, D-tecnica.md (fase 1, 25/09/2026).
-Status: **aguardando o dono do produto** escolher a marca e aprovar a interação.
+Status: **aprovado em 25/09/2026**: marca Combina?, interação do protótipo aprovada, as 3 opções de "precisa reavaliação" mantêm o texto atual.
 
 ## Diagnóstico medido (build de produção, Playwright)
 
