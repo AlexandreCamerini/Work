@@ -285,7 +285,9 @@ Tabela de contraste dos tokens atuais, para o rebrand: branco sobre `mar` 5,79 �
    4. Fluxo completo (perfil respondido, 1 prioridade, cenas com pulos, resultado, revelado) **sem erro de console e sem requisição fora da origem**. `/api/estado` e `/api/votos` são interceptados.
    5. axe (WCAG 2.2 AA) **sem serious/critical** em cada tela, com `reducedMotion: 'reduce'`.
 
-   O contrato que a nova UI precisa expor está no cabeçalho do arquivo: `radiogroup`/`radio`, botões "Continuar | Próxima | Ver meu resultado" e "Voltar", `<main data-etapa>` e `<h1>` por tela. **Validado:** o esqueleto carrega e roda no Playwright 1.56 contra a UI de hoje, e os 10 testes do projeto 390×844 falham como esperado, porque a UI atual não cumpre o contrato. No Vitest ele é pulado (`npm test`: 49 passam e 1 é pulado). Ao movê-lo para `e2e/`, excluir `e2e/**` e `pipeline/**` do Vitest e trocar a guarda por import estático.
+   O contrato que a nova UI precisa expor está no cabeçalho do arquivo: `radiogroup`/`radio`, botões "Continuar | Próxima | Ver meu resultado" e "Voltar", `<main data-etapa>` e `<h1>` por tela. **Validado:** o esqueleto carrega e roda no Playwright 1.56 contra a UI de hoje, e os 20 testes (2 viewports × 2 eleições × 5) falham como esperado, porque a UI atual não cumpre o contrato. No Vitest ele é pulado (`npm test`: 49 passam e 1 é pulado). Ao movê-lo para `e2e/`, excluir `e2e/**` e `pipeline/**` do Vitest e trocar a guarda por import estático.
+
+   O próprio Chromium tenta falar com serviços do Google (android.clients.google.com, www.google.com), e o proxy do ambiente registrou isso. Essas conexões não passam pelo `page.on('request')` e não contam para o critério "sem requisição externa", mas convém lançar com `args: ['--disable-background-networking', '--disable-component-update', '--no-default-browser-check']` para o log ficar limpo.
 
    Dependências de desenvolvimento a instalar na hora de adotar: `@playwright/test` e `@axe-core/playwright`, com a versão do Playwright casada com o Chromium disponível (1.56.x ↔ chromium-1194). Localmente, `PW_CHROMIUM=/opt/pw-browsers/chromium-1194/chrome-linux/chrome`.
 
