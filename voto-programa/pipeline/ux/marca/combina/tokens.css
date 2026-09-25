@@ -1,0 +1,108 @@
+/* Combina? — tokens de marca (proposta, não aplicada em src/)
+ * Fontes: npm i @fontsource-variable/bricolage-grotesque @fontsource-variable/nunito-sans
+ *   import '@fontsource-variable/bricolage-grotesque'; import '@fontsource-variable/nunito-sans';
+ * Contraste WCAG 2.x calculado (AA texto normal >= 4.5:1):
+ *   claro  texto           sobre fundo           15.08:1
+ *   claro  texto           sobre superficie      16.00:1
+ *   claro  texto-suave     sobre fundo            6.99:1
+ *   claro  texto-suave     sobre superficie       7.41:1
+ *   claro  sobre-primaria  sobre primaria         5.79:1
+ *   claro  primaria        sobre fundo            5.46:1
+ *   claro  sobre-destaque  sobre destaque         6.09:1
+ *   claro  destaque-texto  sobre fundo            5.92:1
+ *   claro  sucesso         sobre fundo            5.64:1
+ *   claro  aviso           sobre fundo            5.97:1
+ *   claro  erro            sobre fundo            6.16:1
+ *   claro  texto           sobre destaque-suave  13.14:1
+ *   claro  primaria        sobre superficie       5.79:1
+ *   escuro texto           sobre fundo           15.65:1
+ *   escuro texto           sobre superficie      13.72:1
+ *   escuro texto-suave     sobre fundo            8.52:1
+ *   escuro texto-suave     sobre superficie       7.47:1
+ *   escuro sobre-primaria  sobre primaria         8.94:1
+ *   escuro primaria        sobre fundo            8.94:1
+ *   escuro sobre-destaque  sobre destaque         8.30:1
+ *   escuro destaque-texto  sobre fundo            8.30:1
+ *   escuro sucesso         sobre fundo            9.65:1
+ *   escuro aviso           sobre fundo           10.04:1
+ *   escuro erro            sobre fundo            7.87:1
+ *   escuro texto           sobre destaque-suave  12.93:1
+ *   escuro primaria        sobre superficie       7.83:1
+ */
+:root {
+  --cor-fundo: #FBF8F1;
+  --cor-lente: #16213A;
+  --cor-destaque-suave: #FDE2EB;
+  --cor-superficie: #FFFFFF;
+  --cor-texto: #16213A;
+  --cor-texto-suave: #4A5572;
+  --cor-linha: #E6E0D2;
+  --cor-primaria: #0F6E8C;
+  --cor-primaria-forte: #0A5268;
+  --cor-sobre-primaria: #FFFFFF;
+  --cor-destaque: #F07AA0;
+  --cor-sobre-destaque: #16213A;
+  --cor-destaque-texto: #B3265A;
+  --cor-sucesso: #1D7148;
+  --cor-aviso: #8A5300;
+  --cor-erro: #B3261E;
+  --cor-foco: var(--cor-primaria);
+  --fonte-titulo: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
+  --fonte-texto: 'Nunito Sans Variable', ui-sans-serif, system-ui, -apple-system, Roboto, sans-serif;
+  --raio: 20px;
+  --raio-botao: 18px;
+  --sombra-botao: 0 4px 0 var(--cor-primaria-forte);
+  --fonte-titulo-variacoes: normal;
+  --t-12: 0.75rem;
+  --t-14: 0.875rem;
+  --t-16: 1rem;
+  --t-18: 1.125rem;
+  --t-20: 1.25rem;
+  --t-24: 1.5rem;
+  --t-32: 2rem;
+  --t-40: 2.5rem;
+  --peso-texto: 400;
+  --peso-forte: 700;
+  --peso-titulo: 800;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cor-fundo: #0E1726;
+    --cor-lente: #0E1726;
+    --cor-destaque-suave: #3A1F2E;
+    --cor-superficie: #172338;
+    --cor-texto: #F3EFE6;
+    --cor-texto-suave: #A9B3C7;
+    --cor-linha: #27354D;
+    --cor-primaria: #5CC4E2;
+    --cor-primaria-forte: #2FA3C4;
+    --cor-sobre-primaria: #0E1726;
+    --cor-destaque: #FF8DB2;
+    --cor-sobre-destaque: #0E1726;
+    --cor-destaque-texto: #FF8DB2;
+    --cor-sucesso: #5FD39B;
+    --cor-aviso: #F2B84B;
+    --cor-erro: #FF8A80;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --cor-fundo: #0E1726;
+  --cor-lente: #0E1726;
+  --cor-destaque-suave: #3A1F2E;
+  --cor-superficie: #172338;
+  --cor-texto: #F3EFE6;
+  --cor-texto-suave: #A9B3C7;
+  --cor-linha: #27354D;
+  --cor-primaria: #5CC4E2;
+  --cor-primaria-forte: #2FA3C4;
+  --cor-sobre-primaria: #0E1726;
+  --cor-destaque: #FF8DB2;
+  --cor-sobre-destaque: #0E1726;
+  --cor-destaque-texto: #FF8DB2;
+  --cor-sucesso: #5FD39B;
+  --cor-aviso: #F2B84B;
+  --cor-erro: #FF8A80;
+  color-scheme: dark;
+}
