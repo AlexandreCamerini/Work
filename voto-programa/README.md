@@ -26,9 +26,13 @@ src/data/aderencia*.json            nota 0-100 (ou null) por cena × opção × 
 src/data/evidencias*.json           só os trechos citados, para o site mostrar
         │
         ▼  site (React, 100% no navegador, sem IA em tempo de uso)
-perfil (5 toques) → escolhe as cenas → afinidade = média dos pontos centrados por cena
+perfil (6 toques) → escolhe as cenas → afinidade = média dos pontos centrados por cena
 ```
 
+- **Região.** O primeiro toque do perfil é a região (no Rio: capital, Baixada, Leste
+  Fluminense, interior; na eleição de presidente: as cinco regiões do país). Barca no Leste,
+  estrada e hospital longe no interior, seca no Nordeste, queimada no Norte e Centro-Oeste.
+  Região tem prioridade sobre faixa. Ver `pipeline/curadoria-cenas.md`.
 - **Perfil sem rótulo de classe.** Cinco toques (onde vai ao médico, escola das
   crianças, como se desloca, trabalho, número de banheiros), todos opcionais. Não se
   pergunta renda: a ABEP considera a pergunta mau estimador de nível socioeconômico,
@@ -183,11 +187,9 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       trechos de notícia de Flávio copiados à mão.
 - [ ] **Validar a heurística de perfil**: os cortes 0,34 e 0,66 são ponto de partida;
       calibrar com um piloto contra o Critério Brasil completo.
-- [ ] **Pré-teste cognitivo das cenas**: 5 a 8 pessoas por faixa lendo em voz alta e
-      dizendo o que entenderam (ver `pipeline/curadoria-cenas.md`, que registra a
-      curadoria metodológica de 25/09 e seus critérios).
-- [ ] **Região no perfil** (capital, Baixada, Niterói/São Gonçalo, interior): recomendado
-      para o governo do Rio, onde a região muda transporte, água e segurança.
+- [ ] Pré-teste cognitivo das cenas: **dispensado por decisão do produto** (25/09).
+      Risco aceito: jargão ou opção lida ao contrário só aparecem com uso real.
+
 - [ ] **Preencher o responsável** em `src/config.ts` e **validação jurídica**, inclusive
       da coleta interna (tese do art. 23, §1º) e de quando ligar o contador por candidato.
 - [ ] **Termos e aviso de privacidade** na página, mesmo com dado anonimizado.

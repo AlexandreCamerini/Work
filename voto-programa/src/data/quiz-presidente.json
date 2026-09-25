@@ -1,5 +1,5 @@
 {
-  "versao": "1.2.0",
+  "versao": "1.3.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Presidente da República 2026",
   "descricao": "situações da vida real em todo o país: jornada de trabalho, fila do SUS, juros, celular roubado",
@@ -301,6 +301,45 @@
       }
     },
     {
+      "id": "especialista-longe",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "Pra consultar com especialista, sua mãe viaja de barco até a capital: dois dias de ida, e a fila ainda é de meses.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "Pacientes do Norte percorrem em média 442 km para fazer radioterapia, seis vezes mais que os do Sul e do Sudeste (cerca de 70 km).",
+        "fonte": "g1, 08/04/2026",
+        "url": "https://g1.globo.com/saude/noticia/2026/04/08/pacientes-do-norte-viajam-ate-6-vezes-mais-que-os-do-sul-para-tratar-cancer-acesso-ainda-depende-do-cep.ghtml"
+      },
+      "publico": {
+        "regiao": [
+          "norte"
+        ]
+      }
+    },
+    {
       "id": "plano-voltou-sus",
       "grupo": "fila-sus",
       "tema": "saude",
@@ -591,6 +630,124 @@
       }
     },
     {
+      "id": "enchente-sul",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta, e tem gente que ainda não recuperou a casa.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "As enchentes de 2024 no Rio Grande do Sul atingiram cerca de 2,4 milhões de pessoas em 478 municípios e deixaram mais de 180 mortos.",
+        "fonte": "Agência Nacional de Águas (30/04/2025)",
+        "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+      },
+      "publico": {
+        "regiao": [
+          "sul"
+        ]
+      }
+    },
+    {
+      "id": "fumaca-queimada",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Na seca, a fumaça das queimadas cobre a cidade por semanas e o rio baixa tanto que o barco não passa.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente: diques, reservatórios e drenagem.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2024, o fogo atingiu 30,8 milhões de hectares no Brasil, 79% a mais que em 2023; a Amazônia teve 58% dessa área.",
+        "fonte": "MapBiomas, Monitor do Fogo (22/01/2025)",
+        "url": "https://brasil.mapbiomas.org/2025/01/22/area-queimada-no-brasil-cresce-79-em-2024-e-supera-os-30-milhoes-de-hectares/"
+      },
+      "publico": {
+        "regiao": [
+          "norte",
+          "centro-oeste"
+        ]
+      }
+    },
+    {
+      "id": "seca-nordeste",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "O açude secou de novo, o carro-pipa passa uma vez por semana e a feira ficou mais cara.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cumprir as metas de emissão.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra seca e enchente: barragens e reservatórios.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar buscando petróleo novo, como na margem equatorial.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "Em julho de 2025, 578 cidades do Nordeste estavam em situação de emergência por seca reconhecida pelo governo federal.",
+        "fonte": "Ministério da Integração, via PE News (17/07/2025)",
+        "url": "https://penews.com.br/governo-libera-r-17-milhao-para-apoiar-municipios-do-nordeste-atingidos-por-seca-e-estiagem/"
+      },
+      "publico": {
+        "regiao": [
+          "nordeste"
+        ]
+      }
+    },
+    {
       "id": "video-falso",
       "grupo": "internet",
       "tema": "internet",
@@ -693,5 +850,30 @@
         "url": "https://g1.globo.com/politica/noticia/2026/07/23/anuario-seguranca-publica-2025.ghtml"
       }
     }
-  ]
+  ],
+  "regioes": {
+    "pergunta": "Em que região do Brasil você mora?",
+    "opcoes": [
+      {
+        "valor": "norte",
+        "rotulo": "Norte"
+      },
+      {
+        "valor": "nordeste",
+        "rotulo": "Nordeste"
+      },
+      {
+        "valor": "centro-oeste",
+        "rotulo": "Centro-Oeste"
+      },
+      {
+        "valor": "sudeste",
+        "rotulo": "Sudeste"
+      },
+      {
+        "valor": "sul",
+        "rotulo": "Sul"
+      }
+    ]
+  }
 }

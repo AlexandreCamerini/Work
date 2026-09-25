@@ -39,6 +39,8 @@ export interface Quiz {
   descricao: string
   temas: Tema[]
   perguntas: Pergunta[]
+  /** Pergunta de região do perfil, própria de cada eleição (regiões do RJ, regiões do Brasil). */
+  regioes?: { pergunta: string; opcoes: { valor: string; rotulo: string }[] }
 }
 
 export interface Avaliacao {
@@ -117,6 +119,8 @@ export interface Perfil {
   deslocamento: Deslocamento | null
   trabalho: Trabalho | null
   banheiros: 1 | 2 | 3 | null
+  /** Valor de `Quiz.regioes`; não entra no cálculo da faixa. */
+  regiao: string | null
 }
 
 export interface Publico {
@@ -125,6 +129,7 @@ export interface Publico {
   deslocamento?: Deslocamento[]
   escola?: Escola[]
   trabalho?: Trabalho[]
+  regiao?: string[]
 }
 
 export type StatusCompromisso = 'cumprida' | 'parcial' | 'em_andamento' | 'nao_cumprida' | 'na_contramao' | 'sem_informacao'

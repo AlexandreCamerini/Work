@@ -2,7 +2,7 @@
   "gerado_em": "2026-09-24",
   "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py --eleicao presidente",
   "revisado_por": null,
-  "versao_quiz": "1.2.0",
+  "versao_quiz": "1.3.0",
   "itens": {
     "escala-6x1": {
       "a": {
@@ -1154,6 +1154,253 @@
             "p11"
           ],
           "justificativa": "Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF."
+        }
+      }
+    },
+    "seca-nordeste": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p63",
+            "p64"
+          ],
+          "justificativa": "Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p88"
+          ],
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p102"
+          ],
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p92"
+          ],
+          "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "fumaca-queimada": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p63",
+            "p64"
+          ],
+          "justificativa": "Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p88"
+          ],
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p102"
+          ],
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p92"
+          ],
+          "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "enchente-sul": {
+      "a": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p63",
+            "p64"
+          ],
+          "justificativa": "Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p88"
+          ],
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p102"
+          ],
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p92"
+          ],
+          "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p66"
+          ],
+          "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "especialista-longe": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p62"
+          ],
+          "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+        },
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
+        },
+        "flavio-bolsonaro": {
+          "nota": 75,
+          "evidencias": [
+            "p61"
+          ],
+          "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias."
+        },
+        "flavio-bolsonaro": {
+          "nota": 50,
+          "evidencias": [
+            "p69"
+          ],
+          "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p59"
+          ],
+          "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
         }
       }
     }

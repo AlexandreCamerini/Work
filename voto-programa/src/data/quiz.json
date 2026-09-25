@@ -1,5 +1,5 @@
 {
-  "versao": "3.3.0",
+  "versao": "3.4.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
   "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
@@ -70,6 +70,84 @@
         "texto": "Em 2026, uma viagem de Japeri à Central levou 97 minutos, 22 a mais que em 1998.",
         "fonte": "O Globo, 29/05/2026",
         "url": "https://oglobo.globo.com/rio/noticia/2026/05/29/apos-27-anos-ultima-viagem-dos-trens-do-rio-operados-pela-supervia-acontece-nesta-sexta-feira.ghtml"
+      }
+    },
+    {
+      "id": "estrada-interior",
+      "tema": "transporte",
+      "grupo": "trem-parado",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento, e o ônibus passa de hora em hora.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "O estado recapeia e vigia as estradas com dinheiro próprio.",
+          "preferencia": "Recuperar as rodovias estaduais do interior com recapeamento e vigilância, com recursos do estado."
+        },
+        {
+          "id": "b",
+          "texto": "Passar as estradas pra concessão privada, sem pedágio novo.",
+          "preferencia": "Conceder rodovias estaduais à iniciativa privada em lotes, sem criar novos pedágios."
+        },
+        {
+          "id": "c",
+          "texto": "Voltar a ter trem de passageiros entre as cidades.",
+          "preferencia": "Priorizar o transporte ferroviário de passageiros sobre o rodoviário."
+        },
+        {
+          "id": "d",
+          "texto": "Passagem de ônibus intermunicipal mais barata, com ajuda do estado.",
+          "preferencia": "Subsídio estadual ao ônibus intermunicipal para reduzir as passagens."
+        }
+      ],
+      "fato": {
+        "texto": "Na pesquisa CNT de 2024, 19,1% das rodovias avaliadas no estado do Rio estavam ruins ou péssimas, e as cinco piores eram geridas pelo poder público.",
+        "fonte": "Gazeta do Povo, com dados da CNT (03/01/2025)",
+        "url": "https://www.gazetadopovo.com.br/brasil/melhores-e-piores-rodovias-rio-de-janeiro/"
+      }
+    },
+    {
+      "id": "barca-leste",
+      "tema": "transporte",
+      "grupo": "trem-parado",
+      "publico": {
+        "regiao": [
+          "leste"
+        ]
+      },
+      "cena": "7h em Niterói. A barca atrasou de novo, a fila dobra a estação e a Ponte está parada.",
+      "pergunta": "O que tirava você desse aperto?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Metrô chegando a Niterói e São Gonçalo, com a Linha 3.",
+          "preferencia": "Construir a Linha 3 do metrô ligando Rio, Niterói e São Gonçalo."
+        },
+        {
+          "id": "b",
+          "texto": "Mais linhas de barca, com terminal em São Gonçalo.",
+          "preferencia": "Criar novas linhas e terminais de barcas e catamarãs na Baía de Guanabara, incluindo São Gonçalo."
+        },
+        {
+          "id": "c",
+          "texto": "Cobrar e multar a empresa da barca por atraso e cancelamento.",
+          "preferencia": "Cobrar da concessionária das barcas pontualidade, regularidade e menos cancelamentos, com fiscalização e sanção."
+        },
+        {
+          "id": "d",
+          "texto": "O Estado assume a barca e baixa a passagem.",
+          "preferencia": "Estatizar o transporte aquaviário, com tarifa social ou tarifa zero."
+        }
+      ],
+      "fato": {
+        "texto": "Um ano depois da troca de gestão das barcas, passageiros relatam atrasos, superlotação e falta de ar-condicionado; a passagem Praça XV–Arariboia caiu de R$ 7,70 para R$ 4,70.",
+        "fonte": "O Globo, 15/03/2026",
+        "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/03/15/atrasos-calor-e-ma-estrutura-nova-gestao-das-barcas-faz-um-ano-sob-reclamacoes-de-passageiros.ghtml"
       }
     },
     {
@@ -217,6 +295,45 @@
         "texto": "Na capital, a espera por consulta com cirurgião de hérnia foi de 78 dias em 2024 para cerca de 164 dias em 2026.",
         "fonte": "g1, 28/07/2026",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+      }
+    },
+    {
+      "id": "saude-interior",
+      "tema": "saude",
+      "grupo": "fila-especialista",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "Pra fazer quimioterapia, sua tia sai de van às 4h da manhã rumo ao Rio e só volta depois das 20h.",
+      "pergunta": "O que resolvia pra ela?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Hospital público regional no interior, pra ninguém precisar ir ao Rio.",
+          "preferencia": "Construir hospitais regionais públicos no interior e acabar com o deslocamento de pacientes à capital."
+        },
+        {
+          "id": "b",
+          "texto": "Centro de câncer e de exames complexos em cada região.",
+          "preferencia": "Criar polos regionais de oncologia e de diagnóstico de alta complexidade no interior."
+        },
+        {
+          "id": "c",
+          "texto": "Mais dinheiro pros hospitais do interior que já existem, cobrando metas.",
+          "preferencia": "Custeio estadual a hospitais do interior condicionado a metas de desempenho."
+        },
+        {
+          "id": "d",
+          "texto": "Consulta com especialista por vídeo, sem sair da cidade.",
+          "preferencia": "Teleconsulta e telessaúde com especialistas para moradores do interior."
+        }
+      ],
+      "fato": {
+        "texto": "Nova Friburgo ampliou de 12 para 15 as vans que levam pacientes do SUS para tratamento em outras cidades, como quimioterapia e radioterapia.",
+        "fonte": "A Voz da Serra, 31/08/2026",
+        "url": "https://avozdaserra.com.br/noticias/nova-frota-de-vans-para-o-transporte-de-pacientes-do-sus"
       }
     },
     {
@@ -554,6 +671,45 @@
       }
     },
     {
+      "id": "encosta-serra",
+      "grupo": "rua-alagada",
+      "tema": "agua-chuva",
+      "cena": "Choveu três dias seguidos na serra, e apareceu uma rachadura na encosta atrás da sua rua.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Obra grande de drenagem e contenção de encosta.",
+          "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+        },
+        {
+          "id": "b",
+          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+        },
+        {
+          "id": "c",
+          "texto": "Alerta no celular e sirene antes da chuva chegar.",
+          "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+        }
+      ],
+      "fato": {
+        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
+        "fonte": "g1 / Jornal Nacional",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
+      },
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      }
+    },
+    {
       "id": "garagem-alagada",
       "grupo": "rua-alagada",
       "tema": "agua-chuva",
@@ -851,5 +1007,30 @@
         "url": "https://veja.abril.com.br/politica/atlasintel-eduardo-paes-lidera-disputa-pelo-governo-do-rio-com-folga/"
       }
     }
-  ]
+  ],
+  "regioes": {
+    "pergunta": "Onde você mora?",
+    "opcoes": [
+      {
+        "valor": "capital",
+        "rotulo": "Cidade do Rio"
+      },
+      {
+        "valor": "baixada",
+        "rotulo": "Baixada Fluminense"
+      },
+      {
+        "valor": "leste",
+        "rotulo": "Niterói, São Gonçalo, Maricá ou Itaboraí"
+      },
+      {
+        "valor": "interior",
+        "rotulo": "Interior do estado"
+      },
+      {
+        "valor": "fora",
+        "rotulo": "Não moro no estado do Rio"
+      }
+    ]
+  }
 }

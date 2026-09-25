@@ -6,6 +6,7 @@ export const PERFIL_VAZIO: Perfil = {
   deslocamento: null,
   trabalho: null,
   banheiros: null,
+  regiao: null,
 }
 
 /**
@@ -59,6 +60,7 @@ function atende(publico: Publico, perfil: Perfil, faixa: Faixa | null): boolean 
     [publico.deslocamento, perfil.deslocamento],
     [publico.escola, perfil.escola],
     [publico.trabalho, perfil.trabalho],
+    [publico.regiao, perfil.regiao],
   ]
   return checagens.every(([aceitos, valor]) => !aceitos || (valor !== null && aceitos.includes(valor)))
 }

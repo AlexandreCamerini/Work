@@ -62,14 +62,47 @@ describe('cenas publicadas por perfil', () => {
   })
 
   it('cena de empresa só vai para quem trabalha de carteira ou tem empresa', () => {
-    const motoboy: Perfil = { saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1 }
+    const motoboy: Perfil = { saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1, regiao: null }
     expect(ids(gov, motoboy)).not.toContain('falta-tecnico')
     expect(ids(gov, { ...motoboy, trabalho: 'carteira' })).toContain('falta-tecnico')
   })
 
   it('faixa de serviço privado vê alagamento e falta d’água do prédio', () => {
-    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 }
+    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3, regiao: null }
     expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa', 'vale-transporte']))
   })
 })
 
+
+describe('cenas por região', () => {
+  const gov = eleicoes.find((e) => e.id === 'governador-rj')!.quiz
+  const pres = eleicoes.find((e) => e.id === 'presidente')!.quiz
+  const ids = (perguntas: Pergunta[], perfil: Partial<Perfil>) => selecionarCenas(perguntas, { ...PERFIL_VAZIO, ...perfil }).map((p) => p.id)
+
+  it('Leste Fluminense vê a barca, mesmo de carro (região tem prioridade sobre faixa)', () => {
+    expect(ids(gov.perguntas, { regiao: 'leste' })).toContain('barca-leste')
+    expect(ids(gov.perguntas, { regiao: 'leste', deslocamento: 'carro' })).toContain('barca-leste')
+    expect(ids(gov.perguntas, { regiao: 'leste', deslocamento: 'carro' })).not.toContain('transito-carro')
+  })
+
+  it('interior vê estrada, saúde longe de casa e encosta na serra', () => {
+    expect(ids(gov.perguntas, { regiao: 'interior' })).toEqual(expect.arrayContaining(['estrada-interior', 'saude-interior', 'encosta-serra']))
+  })
+
+  it('capital, Baixada e quem não mora no estado ficam nas cenas padrão de transporte', () => {
+    for (const regiao of ['capital', 'baixada', 'fora']) expect(ids(gov.perguntas, { regiao })).toContain('trem-parado')
+  })
+
+  it('regiões do Brasil mudam a cena do clima e da saúde', () => {
+    expect(ids(pres.perguntas, { regiao: 'nordeste' })).toContain('seca-nordeste')
+    expect(ids(pres.perguntas, { regiao: 'norte' })).toEqual(expect.arrayContaining(['fumaca-queimada', 'especialista-longe']))
+    expect(ids(pres.perguntas, { regiao: 'centro-oeste' })).toContain('fumaca-queimada')
+    expect(ids(pres.perguntas, { regiao: 'sul' })).toContain('enchente-sul')
+    expect(ids(pres.perguntas, { regiao: 'sudeste' })).toContain('enchente-seca')
+  })
+
+  it.each([gov, pres].map((q) => [q.eleicao, q] as const))('%s: filtro de região só usa regiões da pergunta', (_n, quiz) => {
+    const validas = new Set(quiz.regioes?.opcoes.map((o) => o.valor))
+    for (const p of quiz.perguntas) for (const r of p.publico?.regiao ?? []) expect(validas.has(r), `${p.id}: ${r}`).toBe(true)
+  })
+})

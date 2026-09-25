@@ -108,3 +108,35 @@ assinada ou empresa.
    resposta de fachada. Nos demais temas, a cena é em "você".
 4. **Leiturabilidade:** textos curtos e em registro oral; falta medir com um índice de
    legibilidade e testar com leitor de tela.
+
+## Região (25/09/2026, mesmo dia)
+
+Decisão: sem pré-teste; região entra no perfil. Aplicada por `pipeline/curadoria_regional.py`.
+
+- **Pergunta de região, própria de cada eleição**, a primeira do perfil (que passa a ter 6
+  toques). Governo do Rio: cidade do Rio, Baixada, Leste Fluminense (Niterói, São Gonçalo,
+  Maricá, Itaboraí), interior, ou não mora no estado. Presidente: as cinco regiões do Brasil.
+  Região não entra no cálculo da faixa.
+- **Região tem prioridade sobre faixa:** a cena regional vem logo depois da padrão no
+  grupo; quem mora em Niterói e anda de carro vê a barca e a Ponte, não a Linha Vermelha.
+- **Capital e Baixada** ficam com as cenas padrão, que já foram escritas a partir delas
+  (ramal de Japeri, Nova Iguaçu, São João de Meriti).
+
+| Cena | Eleição | Região | Técnica | Fato (fonte) |
+|---|---|---|---|---|
+| barca-leste | governador | Leste Fluminense | opções novas: Linha 3, novas linhas de barca, cobrar a operadora, estatizar | atrasos e superlotação um ano após a troca de gestão (O Globo, 15/03/2026) |
+| estrada-interior | governador | interior | opções novas: recapear com dinheiro do estado, conceder sem pedágio novo, trem de passageiros, subsidiar o ônibus | 19,1% das rodovias ruins ou péssimas; as 5 piores são públicas (CNT, via Gazeta do Povo) |
+| saude-interior | governador | interior | opções novas: hospital regional, polo de câncer e diagnóstico, custeio com metas, teleconsulta | Nova Friburgo ampliou de 12 para 15 as vans de pacientes (A Voz da Serra, 31/08/2026) |
+| encosta-serra | governador | interior | reaproveita rua-alagada (contenção de encosta, limpeza de canais, alerta, reassentamento) | o mesmo da cena de origem |
+| seca-nordeste | presidente | Nordeste | reaproveita enchente-seca; opção b reescrita como "contra seca e enchente: barragens e reservatórios", mesma preferência | 578 cidades em emergência por seca (MIDR, 07/2025) |
+| fumaca-queimada | presidente | Norte e Centro-Oeste | reaproveita enchente-seca | 30,8 milhões de hectares queimados em 2024 (MapBiomas) |
+| enchente-sul | presidente | Sul | reaproveita enchente-seca | enchentes de 2024 no RS (ANA), o da cena de origem |
+| especialista-longe | presidente | Norte | reaproveita fila-cirurgia | 442 km em média até a radioterapia no Norte (g1, 08/04/2026) |
+
+As três cenas com opções novas foram avaliadas para os 8 candidatos pelos mesmos critérios
+(rascunhos em `pipeline/rascunhos/regional-governador-*.json`, mescla com
+`mesclar_rascunhos.py --padrao "regional-governador-*.json"`).
+
+Limite conhecido: no interior, a cena da passagem ainda usa o exemplo de Nova Iguaçu. A
+variante precisaria de uma quarta opção nova (a opção "metrô a R$ 5" não faz sentido fora
+da região metropolitana).

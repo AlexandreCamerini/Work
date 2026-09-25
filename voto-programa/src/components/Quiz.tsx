@@ -33,6 +33,7 @@ export function Quiz({ eleicao }: { eleicao: Eleicao }) {
   if (etapa === 'perfil') {
     return (
       <SobreVoce
+        regioes={quiz.regioes}
         onContinuar={(p) => {
           setCenas(misturarTemas(selecionarCenas(quiz.perguntas, p)))
           irPara('prioridades')

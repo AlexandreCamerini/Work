@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { PERFIL_VAZIO } from '../lib/perfil'
-import type { Perfil } from '../types'
+import type { Perfil, Quiz } from '../types'
 
 type Campo = keyof Perfil
 
@@ -64,11 +64,16 @@ const PERGUNTAS: Pergunta[] = [
 ]
 
 interface SobreVoceProps {
+  /** Pergunta de região da eleição; vem antes das outras. */
+  regioes?: Quiz['regioes']
   onContinuar: (perfil: Perfil) => void
 }
 
-export function SobreVoce({ onContinuar }: SobreVoceProps) {
+export function SobreVoce({ regioes, onContinuar }: SobreVoceProps) {
   const [perfil, setPerfil] = useState<Perfil>(PERFIL_VAZIO)
+  const perguntas: Pergunta[] = regioes
+    ? [{ campo: 'regiao', titulo: regioes.pergunta, opcoes: regioes.opcoes.map((o) => ({ valor: o.valor, rotulo: o.rotulo })) }, ...PERGUNTAS]
+    : PERGUNTAS
 
   function escolher(campo: Campo, valor: Perfil[Campo]) {
     setPerfil((atual) => ({ ...atual, [campo]: atual[campo] === valor ? null : valor }))
@@ -77,14 +82,14 @@ export function SobreVoce({ onContinuar }: SobreVoceProps) {
   return (
     <section className="mx-auto flex max-w-xl flex-col gap-6 px-4 pt-12 pb-16">
       <header className="flex flex-col gap-2">
-        <h1 className="font-display text-3xl leading-tight font-extrabold text-balance">5 toques sobre a sua rotina</h1>
+        <h1 className="font-display text-3xl leading-tight font-extrabold text-balance">{perguntas.length} toques sobre a sua rotina</h1>
         <p className="text-tinta-suave">
-          Para mostrar situações parecidas com o seu dia a dia. Pode pular qualquer uma, e nada
-          disso sai do seu celular.
+          Para mostrar situações parecidas com o seu dia a dia e com a sua região. Pode pular
+          qualquer uma, e nada disso sai do seu celular.
         </p>
       </header>
 
-      {PERGUNTAS.map((q) => (
+      {perguntas.map((q) => (
         <fieldset key={q.campo} className="flex flex-col gap-2">
           <legend className="mb-2 font-bold">{q.titulo}</legend>
           <div className="flex flex-wrap gap-2">
