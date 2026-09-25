@@ -1,7 +1,7 @@
 {
   "candidato_id": "lula",
   "nome": "Lula",
-  "coletado_em": "2026-09-24",
+  "coletado_em": "2026-09-25",
   "plano_governo_oficial": {
     "obtido": true,
     "url": "https://candidatos.nexojornal.com.br/planos/br-presidente-lula.pdf",
@@ -18,7 +18,7 @@
     },
     {
       "id": "f2",
-      "tipo": "site_oficial",
+      "tipo": "material_de_campanha",
       "titulo": "Propostas de Lula 4.0",
       "veiculo": "lula.com.br (site oficial da campanha)",
       "url": "https://lula.com.br/propostas/",
@@ -34,7 +34,7 @@
     },
     {
       "id": "f4",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Eleições 2026: íntegra do discurso de Lula na convenção (02.ago.2026)",
       "veiculo": "g1",
       "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/03/eleicoes-2026-integra-do-discurso-de-lula.ghtml",
@@ -42,7 +42,7 @@
     },
     {
       "id": "f5",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Lula diz que \"vai ter briga com emenda parlamentar\" se for reeleito",
       "veiculo": "CNN Brasil",
       "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-vai-ter-briga-com-emenda-parlamentar-se-for-reeleito/",
@@ -82,7 +82,7 @@
     },
     {
       "id": "f10",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Lula diz que vai acabar com bets e que clubes precisam aprender a viver sem: 'essa não é uma guerra, é uma decisão' (ato de campanha no Rio)",
       "veiculo": "g1",
       "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/lula-diz-que-vai-acabar-com-bets-essa-nao-e-uma-guerra-e-uma-decisao.ghtml",
@@ -90,7 +90,7 @@
     },
     {
       "id": "f11",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Falando de meio ambiente na ONU, Lula diz país seguirá pesquisando novas reservas de petróleo (discurso na 81ª Assembleia Geral da ONU)",
       "veiculo": "Folha de S.Paulo",
       "url": "https://www1.folha.uol.com.br/ambiente/2026/09/falando-de-meio-ambiente-na-onu-lula-diz-pais-seguira-pesquisando-novas-reservas-de-petroleo.shtml",
@@ -111,6 +111,166 @@
       "veiculo": "TVT News",
       "url": "https://tvtnews.com.br/lula-na-record-principais-trechos-entrevista/",
       "data": "2026-09-15"
+    },
+    {
+      "id": "f14",
+      "tipo": "entrevista",
+      "titulo": "Lula diz que BC independente não resolve problemas e defende interferência do presidente na economia (entrevista ao Jornal da Record, 15.set.2026)",
+      "veiculo": "Estadão (Broadcast)",
+      "url": "https://www.estadao.com.br/economia/lula-diz-que-bc-independente-nao-resolve-problemas-e-defende-interferencia-do-presidente-na-economia/",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f15",
+      "tipo": "entrevista",
+      "titulo": "Após crise, Lula defende discutir mandato a ministros do STF (entrevista ao SBT Brasil)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/apos-crise-lula-defende-discutir-mandato-a-ministros-do-stf",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f16",
+      "tipo": "entrevista",
+      "titulo": "Lula critica Faria Lima e diz que mercado \"só chora\" (entrevista ao SBT Brasil)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-critica-faria-lima-e-diz-que-mercado-so-chora",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f17",
+      "tipo": "entrevista",
+      "titulo": "Lula: Pesquisas não me abalam, são reflexo para saber o que fazer dali para frente (entrevista ao SBT, 10.set.2026)",
+      "veiculo": "InfoMoney (Estadão Conteúdo)",
+      "url": "https://www.infomoney.com.br/politica/lula-pesquisas-nao-me-abalam-sao-reflexo-para-saber-o-que-fazer-dali-para-frente/",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f18",
+      "tipo": "entrevista",
+      "titulo": "Lula espera avanço do fim da escala 6×1 após 1º turno (entrevista à Rádio Progresso, de Juazeiro do Norte)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-espera-avanco-do-fim-da-escala-6-1-apos-1-turno",
+      "data": "2026-09-04"
+    },
+    {
+      "id": "f19",
+      "tipo": "reportagem",
+      "titulo": "Lula: PEC da Segurança pode corrigir \"erro\" da Constituição (discurso no Complexo da PRF, Rio de Janeiro)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/politica/lula-pec-da-seguranca-pode-corrigir-erro-da-constituicao",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f20",
+      "tipo": "reportagem",
+      "titulo": "Lula rebate Trump sobre facções: 'Terrorismo foi o 8 de Janeiro' (discurso em evento de segurança no Rio)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/18/lula-diz-nao-aceitar-classificacao-de-faccoes-como-terroristas-terrorismo-foi-o-8-de-janeiro.ghtml",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f21",
+      "tipo": "reportagem",
+      "titulo": "Lula critica classificação de facções como terroristas: 'Não precisamos de porta-aviões' (discurso na 81ª Assembleia Geral da ONU)",
+      "veiculo": "R7",
+      "url": "https://noticias.r7.com/brasilia/lula-critica-classificacao-de-faccoes-como-terroristas-nao-precisamos-de-porta-avioes-22092026/",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f22",
+      "tipo": "reportagem",
+      "titulo": "'As big techs vão instituir a era do colonialismo digital', diz Lula (declaração à imprensa em Barcelona)",
+      "veiculo": "Valor Econômico",
+      "url": "https://valor.globo.com/politica/noticia/2026/04/17/as-big-techs-vao-instituir-a-era-do-colonialismo-digital-diz-lula.ghtml",
+      "data": "2026-04-17"
+    },
+    {
+      "id": "f23",
+      "tipo": "reportagem",
+      "titulo": "Lula diz que Brasil não precisa de escola cívico-militar (discurso na sanção do PNE)",
+      "veiculo": "Poder360",
+      "url": "https://www.poder360.com.br/poder-governo/lula-diz-que-brasil-nao-precisa-de-escola-civico-militar/",
+      "data": "2026-04-14"
+    },
+    {
+      "id": "f24",
+      "tipo": "reportagem",
+      "titulo": "Lula acena a mulheres e fala em endurecer pena contra feminicídio em meio a desgaste de Flávio (discurso em Luís Gomes, RN)",
+      "veiculo": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/poder/2026/07/lula-acena-a-mulheres-e-fala-em-endurecer-pena-contra-feminicidio-em-meio-a-desgaste-de-flavio.shtml",
+      "data": "2026-07-02"
+    },
+    {
+      "id": "f25",
+      "tipo": "reportagem",
+      "titulo": "Lula defende inclusão do FIES em programa de renegociação de dívidas (discurso em Sorocaba, SP)",
+      "veiculo": "Metrópoles",
+      "url": "https://www.metropoles.com/sao-paulo/lula-defende-inclusao-do-fies-em-programa-de-renegociacao-de-dividas",
+      "data": "2026-04-10"
+    },
+    {
+      "id": "f26",
+      "tipo": "reportagem",
+      "titulo": "Lula diz que socorro na enchente do RS será padrão em todo o Brasil",
+      "veiculo": "g1 RS",
+      "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/11/lula-diz-que-socorro-na-enchente-do-rs-sera-padrao-para-qualquer-desastre-no-brasil.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f27",
+      "tipo": "reportagem",
+      "titulo": "Lula defende petróleo no AP e promete cuidado ambiental (visita ao navio-sonda na Foz do Amazonas)",
+      "veiculo": "Folha de S.Paulo",
+      "url": "https://www1.folha.uol.com.br/ambiente/2026/08/lula-promete-protecao-ambiental-ao-defender-petroleo-na-foz-do-amazonas.shtml",
+      "data": "2026-08-17"
+    },
+    {
+      "id": "f28",
+      "tipo": "reportagem",
+      "titulo": "Lula amplia subsídio para gasolina para R$ 0,63 por litro com alta do petróleo e a menos de 1 mês das Eleições (inclui fala em vídeo do presidente)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/09/09/lula-amplia-subsidio-para-gasolina.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f29",
+      "tipo": "reportagem",
+      "titulo": "A nove dias das eleições, Lula anuncia hoje em SP proibição de bets e medida contra endividamento (inclui fala em comício em Maceió, 24.set.2026)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/09/25/a-nove-dias-das-eleicoes-lula-anuncia-hoje-em-sp-proibicao-de-bets-e-medida-contra-endividamento.ghtml",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "f30",
+      "tipo": "reportagem",
+      "titulo": "Lula endurece discurso sobre bets; Flávio critica regulamentação, mas defende aposta esportiva",
+      "veiculo": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/c64g7d8m9m8vo",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "f31",
+      "tipo": "entrevista",
+      "titulo": "'Por que um 4º mandato? Porque quero levar o Brasil ao padrão dos altamente desenvolvidos' (entrevista aos podcasts Não Inviabilize e As Cunhãs)",
+      "veiculo": "Partido dos Trabalhadores (pt.org.br)",
+      "url": "https://pt.org.br/por-que-um-4o-mandato-porque-quero-levar-o-brasil-ao-padrao-dos-altamente-desenvolvidos/",
+      "data": "2026-08-14"
+    },
+    {
+      "id": "f32",
+      "tipo": "reportagem",
+      "titulo": "Lula anuncia 'Serasa dos celulares roubados' e pede para a população devolver aparelhos (lançamento da nova fase do Celular Seguro)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/politica/noticia/2026/06/lula-anuncia-serasa-dos-celulares-roubados-e-pede-para-a-populacao-devolver-aparelhos.ghtml",
+      "data": "2026-06-23"
+    },
+    {
+      "id": "f33",
+      "tipo": "rede_social",
+      "titulo": "Lula diz que PEC da 6x1 não avançou no Congresso por atuação de aliados de Flávio e cobra votação (reproduz publicação de Lula nas redes sociais)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/economia/noticia/2026/09/03/lula-diz-que-pec-da-6x1-nao-avancou-no-congresso-por-atuacao-de-aliados-de-flavio-e-cobra-votacao.ghtml",
+      "data": "2026-09-03"
     }
   ],
   "propostas": [
@@ -118,7 +278,7 @@
       "id": "p1",
       "tema": "economia",
       "subtema": "arcabouço fiscal",
-      "resumo": "Propõe manter o arcabouço fiscal aprovado em 2023.",
+      "resumo": "Propõe manter o novo arcabouço fiscal.",
       "trecho": "Para isso, manteremos o novo arcabouço fiscal, que controlou o crescimento das despesas sem prejudicar as políticas sociais e permitiu uma redução significativa do déficit primário.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -158,7 +318,7 @@
       "id": "p5",
       "tema": "economia",
       "subtema": "dívida pública",
-      "resumo": "Declarou não se preocupar com a dívida pública e que o crescimento econômico reduzirá sua proporção em relação ao PIB; não apresentou meta de dívida.",
+      "resumo": "Afirmou que, com o crescimento da economia, a dívida cai em relação ao PIB e que 80% de dívida não é muito em comparação com EUA, Japão e Itália.",
       "trecho": "À medida que você começa a crescer a economia, a dívida começa a cair com relação ao PIB. 80% de dívida não é muito se você olhar pros Estados Unidos, olhar para o Japão, olhar para a Itália.",
       "fonte_id": "f3",
       "compromisso_concreto": false,
@@ -238,7 +398,7 @@
       "id": "p13",
       "tema": "economia",
       "subtema": "minerais críticos e terras raras",
-      "resumo": "Afirmou que o acesso estrangeiro aos minerais brasileiros terá como contrapartida obrigatória geração de valor no país e transferência de tecnologia.",
+      "resumo": "Afirmou que o acesso aos minerais brasileiros terá como contrapartida obrigatória geração de valor no país, transferência de tecnologia e suprimento de setores estratégicos nacionais.",
       "trecho": "O acesso a nossos minerais terá como contrapartida obrigatória a geração de valor em nosso território, a transferência de tecnologia e o suprimento de setores estratégicos nacionais",
       "fonte_id": "f11",
       "compromisso_concreto": false,
@@ -248,7 +408,7 @@
       "id": "p14",
       "tema": "economia",
       "subtema": "banco central",
-      "resumo": "Criticou o modelo de autonomia do Banco Central; não detalhou proposta de alteração.",
+      "resumo": "Criticou a autonomia do Banco Central, afirmando que o Banco Central independente não resolve os problemas.",
       "trecho": "Alguém achava que o Banco Central Independente ia resolver o problema do mundo. Não resolve.",
       "fonte_id": "f13",
       "compromisso_concreto": false,
@@ -358,7 +518,7 @@
       "id": "p25",
       "tema": "programas-sociais",
       "subtema": "política de cuidados",
-      "resumo": "Propõe apoiar Cuidotecas para crianças de 3 a 12 anos e um programa de capacitação de cuidadores.",
+      "resumo": "Propõe apoiar as Cuidotecas, espaços de acolhida de crianças de 3 a 12 anos.",
       "trecho": "Apoiaremos as Cuidotecas, espaços de acolhida de crianças de 3 a 12 anos, que liberam o tempo das mulheres responsáveis pelo cuidado das crianças.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -518,7 +678,7 @@
       "id": "p41",
       "tema": "educacao",
       "subtema": "ensino superior",
-      "resumo": "Propõe criar 120 mil novas vagas em universidades nas áreas de saúde, cuidados e tecnologia.",
+      "resumo": "Propõe criar 120 mil novas vagas nas áreas de saúde, cuidados e profissões do futuro, como IA, computação, engenharia e transição energética.",
       "trecho": "120 mil novas vagas nas áreas de saúde, cuidados e profissões do futuro, como IA, computação, engenharia e transição energética.",
       "fonte_id": "f2",
       "compromisso_concreto": true,
@@ -878,7 +1038,7 @@
       "id": "p77",
       "tema": "direitos",
       "subtema": "mulheres",
-      "resumo": "Defende ampliar políticas de proteção às mulheres e garantir direitos sexuais e reprodutivos; o plano não menciona aborto.",
+      "resumo": "Defende ampliar as políticas de proteção às mulheres, combater o feminicídio e garantir os direitos sexuais e reprodutivos.",
       "trecho": "É preciso ampliar as políticas de proteção às mulheres, combater o machismo, o sexismo e o feminicídio, promover a autonomia econômica, assegurar igualdade de oportunidades e garantir os direitos sexuais e reprodutivos.",
       "fonte_id": "f1",
       "compromisso_concreto": false,
@@ -1048,7 +1208,7 @@
       "id": "p94",
       "tema": "relacoes-exteriores",
       "subtema": "Estados Unidos e tarifas",
-      "resumo": "Disse preferir negociar as tarifas com os EUA e, se não houver acordo, aplicar a Lei de Reciprocidade.",
+      "resumo": "Disse que, se a negociação com os EUA sobre tarifas não for possível, o Brasil terá de tomar atitudes, citando a Lei de Reciprocidade.",
       "trecho": "Caso não seja possível porque os EUA não querem, a gente vai ter que tomar atitudes. Tem uma Lei de Reciprocidade aprovada por unanimidade no Congresso. Eu acho que tem produtos brasileiros que os EUA têm muito interesse. Eu acho que é isso que nós precisamos pensar, como é que a gente vai e quais os produtos a gente vai colocar na Lei de Reciprocidade para os EUA",
       "fonte_id": "f8",
       "compromisso_concreto": false,
@@ -1113,21 +1273,602 @@
       "fonte_id": "f2",
       "compromisso_concreto": true,
       "numeros": null
+    },
+    {
+      "id": "p101",
+      "tema": "seguranca",
+      "subtema": "roubo de celular e receptação",
+      "resumo": "Propõe expandir o Programa Celular Seguro e intensificar o enfrentamento às redes de receptação de celulares.",
+      "trecho": "Continuaremos expandindo e aprimorando o Programa Celular Seguro, que já conta com mais de 4 milhões de usuários cadastrados. Com a criação da Base Nacional de Celulares com Restrição, o programa passou a oferecer ao cidadão possibilidade de verificar, antes da compra, se o aparelho possui restrição. Vamos continuar intensificando o enfrentamento às redes de receptação, reduzindo também fraudes bancárias, golpes financeiros e outros crimes associados.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p102",
+      "tema": "seguranca",
+      "subtema": "policiamento de proximidade",
+      "resumo": "Propõe construir com estados e municípios programas de policiamento de proximidade.",
+      "trecho": "Construiremos, junto com os entes federados, programas no modelo de policiamento de proximidade, fortalecendo a relação entre polícias e comunidades.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p103",
+      "tema": "seguranca",
+      "subtema": "inteligência policial",
+      "resumo": "Propõe consolidar o Sistema de Inteligência de Segurança Pública, modernizar SINESP e Infoseg e ampliar as FICCOs.",
+      "trecho": "Consolidaremos o Sistema de Inteligência de Segurança Pública e Justiça Criminal, modernizaremos o SINESP e a Infoseg e ampliaremos as Forças Integradas de Combate ao Crime Organizado (FICCOs).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p104",
+      "tema": "meio-ambiente",
+      "subtema": "prevenção de desastres e adaptação",
+      "resumo": "Propõe ampliar o investimento em prevenção e redução de riscos de desastres e tornar a adaptação climática eixo permanente do planejamento público.",
+      "trecho": "Continuaremos a ampliar o investimento em políticas de prevenção e redução de riscos de desastres. Institucionalizaremos a adaptação climática como eixo permanente do planejamento público, assegurando continuidade e fortalecimento do Plano Nacional de Adaptação à Mudança do Clima e estimulando a criação de planos estaduais e municipais de enfrentamento ao calor extremo e fortalecimento da capacidade de prevenção e resposta a eventos climáticos extremos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p105",
+      "tema": "meio-ambiente",
+      "subtema": "segurança hídrica e cheias",
+      "resumo": "Propõe investir na revitalização de bacias e em infraestrutura de segurança hídrica, incluindo proteção contra cheias e enchentes.",
+      "trecho": "Frente aos riscos associados às mudanças climáticas, vamos avançar nos investimentos para revitalizar as bacias hidrográficas e ampliar as infraestruturas para Segurança hídrica, garantindo água de qualidade para beber e produzir e proteção contra cheias e enchentes",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p106",
+      "tema": "infraestrutura-transporte",
+      "subtema": "cidades e eventos extremos",
+      "resumo": "Propõe aprimorar a Defesa Civil e fomentar a adaptação climática das cidades com infraestrutura verde e proteção de mananciais.",
+      "trecho": "Vamos aperfeiçoar nossa capacidade de resposta e seguir aprimorando a Defesa Civil. Queremos fomentar a adaptação climática por meio de infraestrutura verde, proteção de mananciais e ocupação resiliente do território.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p107",
+      "tema": "meio-ambiente",
+      "subtema": "semiárido e seca",
+      "resumo": "Propõe ampliar o Programa Cisternas em regiões com estresse hídrico.",
+      "trecho": "Ampliaremos o Programa Cisternas em regiões com estresse hídrico, garantindo água para consumo e produção.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p108",
+      "tema": "meio-ambiente",
+      "subtema": "resiliência climática no campo",
+      "resumo": "Propõe um programa nacional de resiliência climática no campo, com ampliação de áreas irrigadas e sistemas de alerta precoce.",
+      "trecho": "Frente ao crescente risco associado às mudanças climáticas, buscaremos implementar um programa nacional de resiliência climática no campo, ampliando as áreas irrigadas, promovendo a conservação dos solos, incentivando a agricultura de precisão e o plantio direto, além de modernizar ainda mais o monitoramento meteorológico e os sistemas de alerta precoce para os produtores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p109",
+      "tema": "meio-ambiente",
+      "subtema": "conta de luz",
+      "resumo": "Anuncia debate sobre o barateamento da energia elétrica para residências e empresas, sem apresentar medida concreta.",
+      "trecho": "Um debate importante a ser promovido no próximo período refere-se ao barateamento da energia elétrica para os consumidores residenciais e as empresas, buscando garantir justiça tarifária e a preservar a sustentabilidade econômico-financeira do setor.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p110",
+      "tema": "meio-ambiente",
+      "subtema": "gás natural",
+      "resumo": "Propõe continuar estimulando o gás natural e o biometano como fontes complementares às renováveis.",
+      "trecho": "O papel do gás natural e do biometano, como fontes complementares às energias renováveis, continuará sendo estimulado, ampliando a segurança energética, a flexibilidade do sistema elétrico e a competitividade da economia brasileira.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p111",
+      "tema": "meio-ambiente",
+      "subtema": "energia nuclear",
+      "resumo": "Propõe avançar na autonomia do ciclo do combustível nuclear e aproveitar as reservas de urânio.",
+      "trecho": "Avançaremos na autonomia do ciclo do combustível nuclear e aproveitaremos de forma responsável as reservas nacionais de urânio, sempre condicionado à viabilidade técnica, econômica, ambiental e social.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p112",
+      "tema": "economia",
+      "subtema": "reforma tributária",
+      "resumo": "Defende consolidar os avanços da reforma tributária aprovada.",
+      "trecho": "Nosso desafio é sustentar taxas robustas de crescimento, ampliar os investimentos, elevar a produtividade e consolidar os avanços promovidos pela reforma tributária e pelas políticas de desenvolvimento produtivo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p113",
+      "tema": "economia",
+      "subtema": "pequenas empresas",
+      "resumo": "Propõe simplificar o ambiente de negócios e assegurar tratamento tributário justo às pequenas empresas na implementação da reforma tributária.",
+      "trecho": "No próximo período, vamos simplificar ainda mais o ambiente de negócios, ampliar o acesso das pequenas empresas às compras governamentais, assegurar tratamento tributário justo na implementação da reforma tributária e estimular uma cultura de inovação tecnológica e inserção exportadora.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p114",
+      "tema": "economia",
+      "subtema": "endividamento e apostas online",
+      "resumo": "Propõe monitorar o endividamento das famílias, manter controles sobre gastos excessivos em apostas online e aprimorar regras de concessão de crédito.",
+      "trecho": "Além disso, seguiremos monitorando a evolução do endividamento das famílias e das empresas, assegurando a continuidade dos fundos garantidores, mantendo os mecanismos de controle de gastos excessivos em apostas on-line e aprimorando as regras de oferta e responsabilidade na concessão de crédito, conferindo maior proteção aos consumidores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p115",
+      "tema": "trabalho",
+      "subtema": "geração de emprego",
+      "resumo": "Propõe manter a valorização do salário mínimo e condicionar crédito público, incentivos fiscais e compras governamentais à geração de empregos de qualidade.",
+      "trecho": "Por isto, o novo mandato de Lula dará continuidade à política de valorização do salário mínimo como meio estratégico de distribuição de renda, combate à pobreza e promoção do desenvolvimento econômico e social. Buscará ainda integrar a oferta de crédito público, assistência técnica, incentivos fiscais e a política de compras governamentais a compromissos com a geração de empregos de qualidade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p116",
+      "tema": "trabalho",
+      "subtema": "jovens e aprendizagem",
+      "resumo": "Propõe dar atenção adicional à política de aprendizagem como estímulo à inserção de jovens no trabalho.",
+      "trecho": "A política de aprendizagem para o trabalho, aprimorada no atual mandato, receberá atenção adicional, como mecanismo de estímulo à inserção no mundo do trabalho.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p117",
+      "tema": "trabalho",
+      "subtema": "trabalhadores idosos",
+      "resumo": "Propõe ampliar parcerias com a iniciativa privada para qualificar e contratar pessoas com mais de 60 anos.",
+      "trecho": "Vamos ampliar as parcerias com iniciativa privada para qualificação e contratação de pessoas com mais de 60 anos, assim como medidas de valorização dos saberes das pessoas idosas no mercado de trabalho.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "pessoas com mais de 60 anos"
+    },
+    {
+      "id": "p118",
+      "tema": "trabalho",
+      "subtema": "autônomos e pequenos empreendedores",
+      "resumo": "Propõe ampliar políticas para autônomos com crédito, qualificação e cobertura de proteção social e previdenciária.",
+      "trecho": "Vamos ampliar e aprimorar políticas para os trabalhadores autônomos e pequenos empreendedores, com acesso ao crédito produtivo, programas de qualificação e assistência técnica, apoio à inovação na agregação de valor, produção e escala e planos de comercialização, inclusão digital, simplificação tributária, além da cobertura da proteção social, especialmente em relação à previdência, à proteção diante de acidentes, doenças e períodos de interrupção da atividade laboral em garantia da estabilidade, produtividade e segurança econômica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p119",
+      "tema": "gestao",
+      "subtema": "eficiência administrativa",
+      "resumo": "Propõe aprimorar a centralização e o compartilhamento de serviços de suporte entre ministérios para racionalizar o gasto.",
+      "trecho": "Aprimoraremos o modelo de centralização e compartilhamento de serviços de suporte (gestão de pessoas, orçamento, contratações etc.) entre ministérios e órgãos do Executivo federal, que tanto contribui para racionalizar o uso dos recursos e conferir mais qualidade ao gasto público.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p120",
+      "tema": "gestao",
+      "subtema": "servidores públicos",
+      "resumo": "Propõe aprofundar a reestruturação da gestão de pessoas do governo federal por meio da Mesa Nacional de Negociação Permanente.",
+      "trecho": "Houve a maior reestruturação na gestão de pessoas do governo federal em um único mandato nas últimas três décadas e a retomada da política de valorização e diálogo com servidores. Vamos aprofundar este processo, a partir da Mesa Nacional de Negociação Permanente, que foi reaberta em nosso mandato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p121",
+      "tema": "gestao",
+      "subtema": "patrimônio imobiliário da União",
+      "resumo": "Propõe continuar destinando imóveis da União a habitação, regularização fundiária e equipamentos públicos.",
+      "trecho": "O Imóvel da Gente terá continuidade para que terrenos e imóveis da União beneficiem famílias com regularização fundiária dos imóveis em que já residem ou sejam convertidos em equipamentos de saúde, educação, assistência social, entre outros.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p122",
+      "tema": "gestao",
+      "subtema": "letramento e soberania digital",
+      "resumo": "Propõe instituir uma Política Nacional de Letramento Digital e criar um Conselho Nacional pela Soberania Digital.",
+      "trecho": "Instituiremos uma Política Nacional de Letramento Digital, estruturada para capacitar cidadãos de todas as idades a navegar criticamente na rede, combater a desinformação, proteger sua privacidade e transformar o ecossistema digital em um espaço de geração de renda, educação continuada e pleno exercício da cidadania. Propomos a criação de um Conselho Nacional pela Soberania Digital, com participação da sociedade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p123",
+      "tema": "gestao",
+      "subtema": "transparência algorítmica",
+      "resumo": "Propõe consolidar a transparência algorítmica e a rastreabilidade de conteúdo sintético.",
+      "trecho": "Vamos consolidar a transparência algorítmica e a rastreabilidade de conteúdo sintético, ancoradas no Centro Nacional de Transparência Algorítmica – porque democracia não convive com decisão automatizada que ninguém pode examinar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p124",
+      "tema": "saude",
+      "subtema": "inteligência artificial na regulação",
+      "resumo": "Propõe acelerar o uso de inteligência artificial na triagem, priorização de casos graves e regulação por risco clínico.",
+      "trecho": "Vamos acelerar a utilização de inteligência artificial para a triagem, a priorização de casos graves, a regulação por risco clínico e o diagnóstico em áreas com escassez de especialistas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p125",
+      "tema": "saude",
+      "subtema": "hospitais universitários",
+      "resumo": "Propõe implantar novos hospitais universitários articulados ao Agora Tem Especialistas.",
+      "trecho": "No próximo mandato, avançaremos na implantação de novos hospitais universitários e na sua articulação com o Agora tem Especialistas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p126",
+      "tema": "educacao",
+      "subtema": "Pé-de-Meia (plano)",
+      "resumo": "Propõe continuar e fortalecer o Pé-de-Meia, com foco em jovens em situação de pobreza ou vulnerabilidade.",
+      "trecho": "Vamos dar continuidade e fortalecer o Pé-de-Meia. Nenhum jovem em situação de pobreza ou vulnerabilidade social no Brasil deve deixar a escola por falta de renda.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p127",
+      "tema": "educacao",
+      "subtema": "tempo integral (plano)",
+      "resumo": "Define o fomento à expansão da educação em tempo integral como absoluta prioridade.",
+      "trecho": "O fomento à expansão da educação em tempo integral terá absoluta prioridade no novo mandato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p128",
+      "tema": "educacao",
+      "subtema": "expansão do ensino superior público",
+      "resumo": "Propõe novo ciclo de expansão e interiorização da educação superior pública.",
+      "trecho": "Haverá também novo ciclo expansão e interiorização da educação superior pública para superar os vazios educacionais e as assimetrias regionais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p129",
+      "tema": "educacao",
+      "subtema": "institutos federais",
+      "resumo": "Propõe continuar a expansão da rede de institutos federais, com prioridade à interiorização e às periferias.",
+      "trecho": "No novo mandato, continuaremos a expansão da nossa rede de institutos federais, priorizando a interiorização, os vazios educacionais, as periferias urbanas e os municípios com baixa oferta de cursos técnicos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p130",
+      "tema": "direitos",
+      "subtema": "monitoramento de agressores (plano)",
+      "resumo": "Propõe ampliar as Salas Lilás e distribuir aos estados kits de monitoramento de agressores.",
+      "trecho": "Ampliaremos as Salas Lilás e vamos adquirir e distribuir aos Estados kits para aprimorar o monitoramento de agressores. Seguiremos fomentando a capacitação das forças de segurança para qualificar o atendimento às mulheres vítimas de violência e a punição aos que infligirem a violência.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p131",
+      "tema": "economia",
+      "subtema": "banco central",
+      "resumo": "Afirmou que o presidente eleito deveria ter poder de interferir na economia, o que, segundo ele, deixou de ter com o Banco Central independente.",
+      "trecho": "Alguém achava que o Banco Central independente resolvia os problemas do mundo, não resolve. O que resolve é o presidente da República eleito ter o poder de interferir na economia, coisa que nós não temos mais",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p132",
+      "tema": "economia",
+      "subtema": "responsabilidade fiscal",
+      "resumo": "Afirmou que continuará tendo responsabilidade fiscal porque contas desequilibradas prejudicam os pobres.",
+      "trecho": "Eu fiz isso e vou continuar tendo responsabilidade fiscal, porque tomar conta do dinheiro da nossa casa e do nosso País é da nossa responsabilidade. Se a gente deixar as contas desequilibradas, quem perde é o povo pobre",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p133",
+      "tema": "economia",
+      "subtema": "prioridades econômicas",
+      "resumo": "Listou como prioridades crescimento, redistribuição de renda, salário mínimo acima da inflação, empregos de qualidade e queda da inflação.",
+      "trecho": "É preciso fazer a economia continuar crescendo, continuar fazendo redistribuição de renda, continuar a aumentar o salário mínimo acima da inflação, gerar mais empregos de qualidade e fazer com que a inflação baixe para as pessoas pagarem",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p134",
+      "tema": "economia",
+      "subtema": "endividamento e educação financeira",
+      "resumo": "Defendeu orientar a população endividada a não gastar mais do que ganha.",
+      "trecho": "Precisamos orientar a sociedade que está comprando e está devendo que não pode gastar mais do que ganha. Se você comprar alguma coisa acima do seu ganho, você vai quebrar a cara",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p135",
+      "tema": "gestao",
+      "subtema": "Supremo Tribunal Federal",
+      "resumo": "Defendeu discutir mandato para ministros do STF e proibir que tenham escritório de advocacia.",
+      "trecho": "Eu acho que a gente precisa discutir mandato para a Suprema Corte. Ninguém pode ficar 40 anos no mesmo cargo. Ninguém pode ter escritório trabalhando na Suprema Corte.",
+      "fonte_id": "f15",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p136",
+      "tema": "economia",
+      "subtema": "juros e gasto social",
+      "resumo": "Criticou o mercado financeiro e afirmou que os juros pagos consomem recursos que poderiam ir para a educação.",
+      "trecho": "A Faria Lima só chora. A Faria Lima não conhece a palavra social, a Faria Lima não conhece a palavra inclusão. A única inclusão que eles conhecem é a da taxa de juros para eles receberem dinheiro que eu poderia estar gastando na educação",
+      "fonte_id": "f16",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p137",
+      "tema": "seguranca",
+      "subtema": "Guarda Nacional",
+      "resumo": "Declarou querer criar uma guarda nacional e investir mais na PF, na PRF e em inteligência.",
+      "trecho": "Quero criar uma guarda nacional com muita competência, investir mais na Polícia Federal e na inteligência e mais na Polícia Rodoviária Federal. Tudo isso para combater o crime organizado da esquina ao andar de cima.",
+      "fonte_id": "f17",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p138",
+      "tema": "seguranca",
+      "subtema": "presídios",
+      "resumo": "Reafirmou que pretende transformar 138 cadeias comandadas pelo crime organizado em prisões de segurança máxima.",
+      "trecho": "Nós descobrimos que o crime organizado comanda o crime de 138 cadeias. Vamos transformar essas 138 cadeias em prisão de segurança máxima",
+      "fonte_id": "f17",
+      "compromisso_concreto": true,
+      "numeros": "138 cadeias"
+    },
+    {
+      "id": "p139",
+      "tema": "educacao",
+      "subtema": "tempo integral",
+      "resumo": "Declarou querer colocar todos os alunos em escola de tempo integral, inclusive no ensino médio.",
+      "trecho": "Quero colocar todos os meninos em escolas de tempo integral, não apenas para melhorar a qualidade da educação, mas para dar tranquilidade ao pai e à mãe, e quero fazer isso também no ensino médio",
+      "fonte_id": "f17",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p140",
+      "tema": "trabalho",
+      "subtema": "escala 6x1 e jornada",
+      "resumo": "Disse esperar que o Senado vote a PEC do fim da escala 6x1 logo após o primeiro turno.",
+      "trecho": "Ele disse aos senadores que, assim que terminar o primeiro turno das eleições, vai colocar em votação. Agora, nós estamos na expectativa que ele coloque em votação.",
+      "fonte_id": "f18",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p141",
+      "tema": "trabalho",
+      "subtema": "escala 6x1 e jornada",
+      "resumo": "Afirmou que o fim da escala 6x1 garante um dia a mais de descanso sem redução de salário e cobrou a oposição.",
+      "trecho": "É importante que o Brasil saiba quem está trabalhando para avançar com essa mudança e quem está tentando impedir uma conquista que pode garantir um dia a mais de descanso sem redução de salário",
+      "fonte_id": "f33",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p142",
+      "tema": "seguranca",
+      "subtema": "Ministério da Segurança Pública e orçamento",
+      "resumo": "Afirmou que criará o Ministério da Segurança Pública com orçamento próprio.",
+      "trecho": "Daqui pra frente, se preparem, vou criar ministério [da Segurança Pública] não pra fazer enfeite. Se não tiver dinheiro, não vai fazer nada. Tem que ter orçamento de qualidade pra segurança",
+      "fonte_id": "f19",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p143",
+      "tema": "seguranca",
+      "subtema": "facções e terrorismo",
+      "resumo": "Rejeitou a classificação de facções criminosas como organizações terroristas feita pelos EUA.",
+      "trecho": "Nós precisamos ganhar do crime organizado. E eu não aceito a ideia de que as facções bandidas são terroristas, como diz o [Donald] Trump.",
+      "fonte_id": "f20",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p144",
+      "tema": "seguranca",
+      "subtema": "cooperação internacional contra o crime",
+      "resumo": "Rejeitou intervenção estrangeira e defendeu cooperação internacional contra o fluxo de armas e dinheiro das facções.",
+      "trecho": "Não vamos terceirizar a responsabilidade de defender nossas fronteiras e de garantir à população o direito de viver sem medo. Não precisamos de porta-aviões vigiando nossas águas. Precisamos de cooperação para estancar o fluxo de armas e de dinheiro que abastece o crime organizado",
+      "fonte_id": "f21",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p145",
+      "tema": "gestao",
+      "subtema": "regulação das redes sociais",
+      "resumo": "Defendeu que crimes do mundo físico sejam tratados como crimes também no ambiente digital.",
+      "trecho": "É preciso ficar claro para a humanidade que tudo aquilo que é crime no mundo precisa ser crime também no mundo digital. Não é possível você tratar como normal e liberdade de expressão a indústria da mentira e de manifestação de ódio",
+      "fonte_id": "f22",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p146",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Afirmou que o Brasil não precisa de escolas cívico-militares na educação pública.",
+      "trecho": "Isso aqui [o PNE] é um retrato do que nós conseguimos fazer. Não contra, mas para mostrar que o Brasil não precisa, na sua educação pública e gratuita, de uma escola cívico-militar",
+      "fonte_id": "f23",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p147",
+      "tema": "direitos",
+      "subtema": "punição a agressores de mulheres",
+      "resumo": "Afirmou que vai endurecer a punição a agressores de mulheres, com tornozeleira e aumento da pena para feminicídio.",
+      "trecho": "E nós vamos endurecer. O cidadão que bater na mulher vai ter que ser punido, vai ter que usar tornozeleira. E aumentar a pena para quem mata mulher",
+      "fonte_id": "f24",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p148",
+      "tema": "educacao",
+      "subtema": "Fies",
+      "resumo": "Defendeu incluir estudantes endividados do Fies em programa de renegociação de dívidas.",
+      "trecho": "Nós vamos ter que colocar eles também na nossa negociação de endividamento, porque a gente não pode tirar o sonho de um jovem universitário porque ele está devendo",
+      "fonte_id": "f25",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p149",
+      "tema": "meio-ambiente",
+      "subtema": "resposta a desastres",
+      "resumo": "Afirmou que o padrão de socorro federal adotado no Rio Grande do Sul será aplicado a qualquer município em calamidade.",
+      "trecho": "Agora nós vamos ter que ser obrigados a fazer para todo e qualquer município do Brasil que tiver qualquer desastre de calamidade, o padrão é o padrão gaúcho",
+      "fonte_id": "f26",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p150",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo e margem equatorial",
+      "resumo": "Tratou o petróleo da Foz do Amazonas como questão de soberania nacional.",
+      "trecho": "Isso aqui significa soberania nacional. Um país que tem um petróleo dessa qualidade não vai permitir que ninguém meta o dedo nele",
+      "fonte_id": "f27",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p151",
+      "tema": "meio-ambiente",
+      "subtema": "preço dos combustíveis",
+      "resumo": "Afirmou que o governo continuará impedindo que a alta do petróleo causada pela guerra chegue ao preço dos combustíveis.",
+      "trecho": "Desde que o Irã bloqueou o Estreito de Ormuz, a gente tá garantindo que não chegue no seu bolso essa coisa. E vamos continuar. Nós não vamos permitir que essa guerra irresponsável chegue no seu bolso e muito menos no prato de comida do povo brasileiro",
+      "fonte_id": "f28",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p152",
+      "tema": "economia",
+      "subtema": "apostas online (bets)",
+      "resumo": "Reafirmou que vai acabar com as bets.",
+      "trecho": "Então eu queria dizer pra vocês: eu vou acabar com as bets. Eu vou acabar com as bets antes de elas acabarem com o Brasil e levar as pessoas à doença.",
+      "fonte_id": "f29",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p153",
+      "tema": "economia",
+      "subtema": "apostas online (bets)",
+      "resumo": "Condicionou a manutenção das bets a alguém mostrar uma razão social para elas continuarem.",
+      "trecho": "Se ninguém me mostrar uma razão social para as bets continuarem, nós vamos acabar com elas",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p154",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher e educação",
+      "resumo": "Defendeu incluir o enfrentamento à violência contra a mulher no currículo escolar.",
+      "trecho": "O que vai resolver definitivamente é a gente colocar isso no currículo escolar, é uma coisa educacional. A gente vai transformar isso numa coisa que vai dar resultado",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p155",
+      "tema": "seguranca",
+      "subtema": "roubo de celular e receptação",
+      "resumo": "Pediu que quem tenha celular roubado, mesmo comprado sem saber, o devolva na delegacia e disse que a pessoa não será presa.",
+      "trecho": "O que a gente está dizendo é que, se você tem um telefone roubado, ou se comprou um telefone sem saber que era roubado, você tem que procurar uma delegacia para entregar. Não tenha medo de procurar delegacia, porque você não vai ser preso. É apenas para você devolver o celular",
+      "fonte_id": "f32",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p156",
+      "tema": "economia",
+      "subtema": "tecnologia e minerais críticos",
+      "resumo": "Disse que no próximo mandato quer uma revolução tecnológica, com domínio de minerais críticos e IA em língua portuguesa.",
+      "trecho": "Eu quero fazer uma revolução tecnológica nesse país. Esse país vai ter que ser dono dos minerais críticos e das terras raras. Esse país vai ter que apostar numa inteligência artificial com linguagem portuguesa.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p157",
+      "tema": "seguranca",
+      "subtema": "inteligência e financiamento da segurança",
+      "resumo": "Afirmou que só é possível resolver a segurança pública com muito investimento em inteligência.",
+      "trecho": "Nenhum governador do Brasil, nenhum, conseguiu resolver o problema da segurança pública. Só vai conseguir se a gente tiver muito investimento em inteligência. É isso que eu quero fazer.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
     }
   ],
   "lacunas": [
     "Aborto: nenhuma declaração de Lula sobre o tema encontrada no período de campanha de 2026 (ago-set/2026). O plano fala em 'garantir os direitos sexuais e reprodutivos' sem mencionar aborto. Declarações anteriores (2022, 2024) não foram registradas por não serem sobre o mandato 2027-2030.",
     "Dívida pública e meta fiscal: o plano e a sabatina da Globo (27/08/2026) não trazem meta numérica de dívida/PIB nem de resultado primário para 2027-2030; perguntado sobre corte de gastos obrigatórios, Lula não respondeu quais cortaria.",
-    "Reforma administrativa e supersalários: nenhuma proposta literal encontrada no plano registrado nem em falas do candidato no período. Houve reportagem (CNN) mencionando 'fim dos supersalários' no plano, mas o termo não consta do texto do plano verificado.",
+    "Reforma administrativa e supersalários: nenhuma proposta literal no plano registrado (conferido na íntegra em 25/09) nem em falas do candidato. O ministro da Fazenda e porta-voz econômico da campanha, Dario Durigan, defende combater supersalários (Poder360, 25/08/2026), mas isso é fala de ministro, não do candidato. O plano não propõe corte de ministérios e prevê criar um novo (Ministério da Segurança Pública).",
     "Privatizações em geral: não há posição geral sobre privatizações para 2027-2030; só há a recusa de vender os Correios (p. ex. sabatina Globo) e a defesa do retorno da Petrobras à distribuição de combustíveis. Concessões de rodovias, ferrovias, portos e aeroportos aparecem como continuidade.",
-    "Banco Central: há apenas crítica de Lula à autonomia do BC (entrevista Jornal da Record, 15/09/2026, via TVT News); não há proposta de alterar a lei de autonomia.",
+    "Banco Central: Lula critica a autonomia do BC e diz que o presidente eleito deveria ter poder de interferir na economia (Jornal da Record, 15/09/2026, f13 e f14), mas nem o plano nem as falas trazem proposta de alterar a Lei Complementar 179/2021. Em jantar com empresários (31/08/2026), segundo relatos à Folha e ao Poder360 (paráfrase de jornalistas, não registrada como proposta), disse que o mandato de Galípolo será respeitado.",
     "Imposto de renda: além da intenção de reajustar a tabela para preservar a isenção de R$ 5 mil (discurso na convenção), não foi encontrada proposta nova de tributação de dividendos, super-ricos ou grandes fortunas para 2027-2030.",
     "Bolsa Família: compromisso de manter o programa, sem valores, regras ou metas para 2027-2030 (o reajuste de 15% de set/2026 é ato do governo atual, não registrado como proposta).",
     "Minha Casa Minha Vida: compromisso de manter e ampliar, sem meta numérica de unidades para 2027-2030.",
     "Aplicativos: o plano propõe regulação e proteção previdenciária, mas sem valores (remuneração mínima, jornada) nem modelo jurídico definido.",
     "Maioridade penal, política de drogas e pena de morte: nenhuma posição encontrada no plano nem em falas do período.",
     "Reforma da Previdência (idade mínima, regras de aposentadoria): não há proposta de mudança de regras de acesso; só reestruturação do financiamento e contribuição mais flexível.",
-    "Debates: Lula não participou de nenhum debate presidencial até 24/09/2026 (Band em 23/08; debate do pool SBT/CNN de 14/09 e da Record de 27/09 foram cancelados). O debate da Globo de 01/10 ainda não havia ocorrido na data da coleta.",
-    "Bets: Lula disse que pretende acabar com as bets (23/09/2026), mas o formato (proibição total ou restrição, via MP) não havia sido anunciado na data da coleta; o site oficial fala em 'Plano Brasil contra as Bets' sem detalhes."
+    "Debates: Lula não participou de nenhum debate presidencial até 25/09/2026 (Band em 23/08; debate do pool SBT/CNN de 14/09 e da Record de 27/09 foram cancelados por ausência dele e de Flávio Bolsonaro; o debate da Veja de 23/09 também ocorreu sem ele). Segundo a CNN Brasil (25/09), ele sinalizou disposição de ir ao debate da Globo de 01/10, ainda não confirmado. As falas próprias de setembro vêm de sabatinas/entrevistas (TV Globo 27/08, SBT 10/09, Record 15/09, rádios e podcasts), comícios e discursos.",
+    "Bets: o plano registrado fala em manter \"mecanismos de controle de gastos excessivos em apostas on-line\" (regulação), mas Lula passou a prometer acabar com as bets (23/09 e 24/09/2026). Segundo O Globo e Estadão (24-25/09), ele assinaria em 25/09 uma MP proibindo cassinos on-line e apostas de quota fixa; o texto da MP não havia sido publicado/verificado na data da coleta. Mudança de posição documentada pela BBC (f30): em out/2024 disse \"Nós optamos pela regulação\" e \"Se a regulação der conta, tá resolvido o problema. Se não der conta, eu acabo\"; em mai/2026 disse que \"proibiria todas\", mas \"Não depende de mim mesmo\".",
+    "Desoneração da folha / custo de contratar: segundo Dario Durigan (Folha, 28/08/2026), Lula quer migrar a tributação da folha para o faturamento em todos os setores e estuda contribuição extra para empresas com muitos PJs; não há fala do próprio Lula nem trecho do plano sobre desoneração da folha. O plano só fala em combater a pejotização e condicionar incentivos a empregos de qualidade (p115).",
+    "Revisão de gastos obrigatórios: Durigan afirmou (Folha/O Sul, 28-29/08/2026) que Lula se comprometeu a revisar despesas obrigatórias e criar novas travas de gasto; na sabatina da Globo (27/08) Lula não disse quais gastos cortaria, e na Rádio Progresso, SBT e Record limitou-se a reafirmar \"responsabilidade fiscal\".",
+    "Guarda Nacional e dobrar efetivo da PF/PRF: prometidas em entrevistas (SBT 10/09; Rádio Tupi 18/09) mas ausentes do plano registrado, que fala apenas em fortalecer o sistema penitenciário federal, as FICCOs e a inteligência.",
+    "Tabela SUS: nenhuma proposta de reajuste da tabela SUS no plano nem em falas do candidato. O plano mantém a parceria com hospitais privados em troca de créditos (p30). Declarações de que a tabela do Agora Tem Especialistas substituiria a tabela SUS são do ministro Alexandre Padilha (2025), não do candidato.",
+    "Celular roubado: não há proposta de endurecer penas para roubo, furto ou receptação de celulares; o foco é o Celular Seguro e o combate às redes de receptação (p101), e Lula disse que quem devolver aparelho comprado sem saber da origem não será preso (p155). Nenhuma posição sobre sistema nacional de reconhecimento facial.",
+    "Tributos: nenhuma posição sobre revisar a reforma tributária/reduzir a alíquota do IVA (o plano quer consolidá-la, p112) nem sobre o IOF em operações de câmbio. Nenhuma proposta nova de tributação de dividendos ou grandes fortunas para 2027-2030.",
+    "Dívida pública e ativos da União: não há proposta de fundo com imóveis, ativos e royalties para abater dívida. O plano cita o Fundo Imobiliário da União (criado no atual governo) apenas para gestão do patrimônio e moradia do MCMV.",
+    "Energia: nenhuma posição sobre gás não convencional (fracking) nem proposta concreta de reduzir encargos da CDE ou tributos sobre energia; o plano só anuncia \"debate\" sobre barateamento da energia (p109). As desonerações de combustíveis de 2026 são atos do governo atual, temporários; Lula disse \"E vamos continuar\" (p151) sem prazo ou desenho para 2027-2030.",
+    "Licenciamento ambiental: nenhuma fala do candidato em 2026 nem trecho do plano sobre prazos ou licença automática. Os vetos à Lei 15.190/2025 (derrubados pelo Congresso em nov/2025) são atos do governo atual, não proposta de campanha.",
+    "Ensino superior: nenhuma proposta de empréstimo contingente à renda nem de voucher para escolas privadas; Lula defende renegociar dívidas do Fies (p148) e expandir universidades e IFs públicos.",
+    "Educação financeira: segundo o R7 (24/08/2026, paráfrase), Lula defendeu na Record um programa federal de \"Educação de Economia Popular\"; a única fala literal verificada é genérica (p134, \"Precisamos orientar a sociedade...\"). Nenhuma posição sobre programa voluntário que recompense comportamentos com crédito ou cashback."
   ]
 }
