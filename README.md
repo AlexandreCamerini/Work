@@ -70,8 +70,13 @@ prompt_optimizer/
   templates.py    # reconstrução do prompt em template XML
   refiner.py      # refinamento opcional via Claude API (structured outputs)
   cli.py          # interface de linha de comando
+decision_eval/    # POC: Jev (TypeSafe) vs Claude vs regras — ver docs/POC-JEV.md
+data/
+  prompt_quality_seed.jsonl  # 32 prompts rotulados (seed do POC)
 docs/
   GUIA-PROMPTS.md # guia da mecânica de prompts do Claude
+  POC-JEV.md      # desenho, métricas e gate de aceite do POC Jev
 tests/
-  test_rules.py   # testes do motor determinístico
+  test_rules.py          # testes do motor determinístico
+  test_decision_eval.py  # testes do harness (sem rede)
 ```
