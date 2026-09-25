@@ -1,10 +1,79 @@
-import { useEffect, useState } from 'react'
-import { Acompanhamento } from './components/Acompanhamento'
-import { Quiz } from './components/Quiz'
-import { acompanhamentos, eleicoes } from './data'
+import { lazy, Suspense, use, useEffect, useState } from 'react'
+import { acompanhamentos, ehEleicao, manifesto, type ResumoAcompanhamento } from './data'
+import { Carregando } from './ui/Carregando'
+import { Falha } from './ui/Falha'
+
+// o fluxo e a área "Prometeu, fez?" chegam só quando a pessoa abre
+const Quiz = lazy(() => import('./telas/Quiz'))
+const Acompanhamento = lazy(() => import('./components/Acompanhamento'))
 
 function lerRota() {
   return window.location.hash.replace('#', '')
+}
+
+function ContagemPromessas({ a }: { a: ResumoAcompanhamento }) {
+  const dados = use(a.carregar())
+  return <>{dados.compromissos.length} promessas conferidas, com fonte</>
+}
+
+function Inicio() {
+  useEffect(() => {
+    document.title = 'Combina? · Eleições 2026'
+  }, [])
+  return (
+    <main className="mx-auto flex max-w-xl flex-col gap-5 px-4 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(2.5rem,env(safe-area-inset-bottom))]">
+      <p className="m-0">
+        <picture>
+          <source srcSet="/logo-horizontal-escuro.svg" media="(prefers-color-scheme: dark)" />
+          <img src="/logo-horizontal.svg" alt="Combina?" width={178} height={40} />
+        </picture>
+      </p>
+      <h1 className="m-0 font-display text-4xl leading-tight font-extrabold text-balance">Qual proposta combina com o seu dia a dia?</h1>
+      <p className="m-0 text-lg leading-relaxed text-texto-suave">
+        Escolha a eleição. Você diz o que faria em situações do dia a dia. A gente mostra qual candidato propõe o mesmo, com a
+        fonte. Os nomes só aparecem no fim.
+      </p>
+
+      <nav className="flex flex-col gap-3" aria-label="Eleições">
+        {manifesto.map((e) => (
+          <a
+            key={e.id}
+            href={`#${e.id}`}
+            className="rounded-3xl border-2 border-borda bg-superficie p-5 text-texto no-underline transition hover:border-primaria"
+          >
+            <span className="block font-display text-xl font-extrabold">{e.nome}</span>
+            <span className="block text-sm text-texto-suave">
+              {e.nCandidatos} candidatos no teste · 1º turno em {e.primeiroTurno}
+            </span>
+          </a>
+        ))}
+        {acompanhamentos.map((a) => (
+          <a
+            key={a.id}
+            href={`#${a.id}`}
+            className="rounded-3xl border-2 border-destaque bg-destaque-suave p-5 text-texto no-underline transition hover:border-texto"
+          >
+            <span className="block text-xs font-bold tracking-wider uppercase">Prometeu, fez?</span>
+            <span className="block font-display text-xl font-extrabold">{a.titulo}</span>
+            <span className="block text-sm text-texto-suave">
+              <Suspense fallback="Promessas conferidas, com fonte">
+                <ContagemPromessas a={a} />
+              </Suspense>
+            </span>
+          </a>
+        ))}
+      </nav>
+
+      <p className="m-0 text-sm leading-relaxed text-texto-suave">
+        Isto não é pesquisa eleitoral. Não dizemos em quem votar. Suas respostas não saem do seu celular ou computador.
+      </p>
+    </main>
+  )
+}
+
+function AreaAcompanhamento({ a }: { a: ResumoAcompanhamento }) {
+  const dados = use(a.carregar())
+  return <Acompanhamento titulo={a.titulo} dados={dados} onVoltar={() => (window.location.hash = '')} />
 }
 
 function App() {
@@ -19,43 +88,32 @@ function App() {
     return () => window.removeEventListener('hashchange', aoMudar)
   }, [])
 
-  const eleicao = eleicoes.find((e) => e.id === rota)
-  if (eleicao) return <Quiz key={eleicao.id} eleicao={eleicao} />
+  if (ehEleicao(rota)) {
+    return (
+      <Suspense
+        fallback={
+          <div className="app">
+            <Carregando />
+          </div>
+        }
+      >
+        <Quiz key={rota} id={rota} />
+      </Suspense>
+    )
+  }
 
   const acomp = acompanhamentos.find((a) => a.id === rota)
-  if (acomp) return <Acompanhamento titulo={acomp.titulo} dados={acomp.dados} onVoltar={() => (window.location.hash = '')} />
+  if (acomp) {
+    return (
+      <Falha>
+        <Suspense fallback={<Carregando />}>
+          <AreaAcompanhamento a={acomp} />
+        </Suspense>
+      </Falha>
+    )
+  }
 
-  return (
-    <main className="mx-auto flex max-w-xl flex-col gap-6 px-4 pt-12 pb-16">
-      <h1 className="font-display text-4xl leading-tight font-extrabold text-balance sm:text-5xl">
-        Qual proposta combina com o seu dia a dia?
-      </h1>
-      <p className="text-lg leading-relaxed text-tinta-suave">
-        Escolha a eleição. Você responde situações da vida real e a gente compara com o que os
-        candidatos propõem, com a fala de cada um e a fonte. Os nomes ficam escondidos até o fim.
-      </p>
-
-      <nav className="flex flex-col gap-3">
-        {eleicoes.map((e) => (
-          <a key={e.id} href={`#${e.id}`} className="rounded-3xl border-2 border-linha bg-white p-5 transition hover:border-mar">
-            <p className="font-display text-xl font-extrabold">{e.quiz.eleicao}</p>
-            <p className="text-sm text-tinta-suave">{e.candidatos.length} candidatos no teste · 1º turno em 4 de outubro</p>
-          </a>
-        ))}
-        {acompanhamentos.map((a) => (
-          <a key={a.id} href={`#${a.id}`} className="rounded-3xl border-2 border-sol bg-sol-claro p-5 transition hover:border-tinta">
-            <p className="text-xs font-bold uppercase tracking-wider">Prometeu, fez?</p>
-            <p className="font-display text-xl font-extrabold">{a.titulo}</p>
-            <p className="text-sm text-tinta-suave">{a.dados.compromissos.length} compromissos acompanhados com evidência</p>
-          </a>
-        ))}
-      </nav>
-
-      <p className="text-xs leading-relaxed text-tinta-suave">
-        Isto não é pesquisa eleitoral nem recomendação de voto. Suas respostas não saem do seu aparelho.
-      </p>
-    </main>
-  )
+  return <Inicio />
 }
 
 export default App

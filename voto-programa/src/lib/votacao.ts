@@ -88,11 +88,11 @@ export async function enviarVoto(
 }
 
 const MENSAGEM_VOTO: Record<ResultadoVoto, string> = {
-  contado: 'Registrado de forma anônima, só para análise interna. Não divulgamos resultado de votação.',
-  ja_votou: 'Você já tinha votado nesta eleição neste aparelho, então este voto não foi registrado de novo.',
+  contado: 'Voto anotado sem o seu nome, só pra análise interna. Não divulgamos resultado.',
+  ja_votou: 'Você já votou nesta eleição neste aparelho. Este voto não contou de novo.',
   nao_enviado: '',
-  devagar: 'Muitos votos saindo da mesma rede agora. Este não foi registrado; tente de novo em um minuto.',
-  desafio: 'Não conseguimos confirmar que é uma pessoa votando, então o voto não foi registrado.',
+  devagar: 'Muita gente votando da mesma internet agora. Este voto não entrou. Tente de novo daqui a 1 minuto.',
+  desafio: 'Não deu pra confirmar que é uma pessoa votando. O voto não entrou.',
   erro: 'Não conseguimos registrar o voto agora.',
 }
 
@@ -102,10 +102,10 @@ export function mensagemVoto(resultado: ResultadoVoto) {
 
 /** O que é enviado, dito antes do voto, em linguagem simples. */
 export function avisoVotacao(estado: EstadoVotacao) {
-  if (estado.offline) return 'Neste protótipo o voto não é enviado a lugar nenhum: ele só revela os nomes.'
-  if (!estado.coleta) return 'Seu voto não é enviado nem guardado: ele só revela os nomes.'
+  if (estado.offline) return 'Nesta versão de teste, o voto não vai pra lugar nenhum. Ele só mostra os nomes.'
+  if (!estado.coleta) return 'Seu voto não é enviado nem guardado. Ele só mostra os nomes.'
   if (estado.contaCandidato) {
-    return 'Anônimo e só para uso interno: somamos +1 ao candidato escolhido, sem guardar quem você é, de onde veio ou a hora. Nenhum resultado é divulgado, e suas respostas não saem do aparelho.'
+    return 'Seu voto é anônimo e só pra uso interno. Somamos 1 ao candidato escolhido, sem guardar quem você é, de onde veio nem a hora. Não divulgamos resultado. Suas respostas não saem do aparelho.'
   }
-  return 'Anônimo e só para uso interno: guardamos apenas em que lugar do seu resultado estava o candidato escolhido (1º, 2º…), sem dizer quem é, para saber se o teste ajuda. Nenhum resultado é divulgado, e suas respostas não saem do aparelho.'
+  return 'Seu voto é anônimo e só pra uso interno. Guardamos só em que lugar da sua lista estava o candidato escolhido (1º, 2º…), sem o nome dele, pra saber se o teste ajuda. Não divulgamos resultado. Suas respostas não saem do aparelho.'
 }

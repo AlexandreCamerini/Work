@@ -1,44 +1,113 @@
-import aderenciaJson from './aderencia.json'
-import evidenciasJson from './evidencias.json'
-import quizJson from './quiz.json'
-import aderenciaPresJson from './aderencia-presidente.json'
-import evidenciasPresJson from './evidencias-presidente.json'
-import quizPresJson from './quiz-presidente.json'
-import lula2022 from '../../pipeline/acompanhamento/lula-2022.json'
-import { candidatos, foraDoQuiz } from './candidatos'
-import { candidatosPresidente, foraDoQuizPresidente } from './candidatos-presidente'
-import type { Acompanhamento, Aderencia, Eleicao, Evidencias, Quiz } from '../types'
+/**
+ * Dados sob demanda. No JS inicial só entra este manifesto; quiz, aderência e evidências de
+ * cada eleição chegam por import() dinâmico, cada um no seu arquivo:
+ *   1. abrir a eleição → quiz + candidatos (basta para jogar);
+ *   2. durante as cenas → aderência (só o resultado usa);
+ *   3. depois do voto → evidências (trechos e fontes só aparecem com os nomes).
+ * O manifesto é conferido contra os JSON em src/data/manifesto.test.ts.
+ */
+import type { Acompanhamento, Aderencia, Candidato, Evidencias, Quiz } from '../types'
 
-export const quiz = quizJson as unknown as Quiz
-export const aderencia = aderenciaJson as unknown as Aderencia
-export const evidencias = evidenciasJson as unknown as Evidencias
+export type IdEleicao = 'governador-rj' | 'presidente'
 
-export const governadorRJ: Eleicao = {
-  id: 'governador-rj',
-  quiz,
-  aderencia,
-  evidencias,
-  candidatos,
-  foraDoQuiz,
+export interface ResumoEleicao {
+  id: IdEleicao
+  /** Igual a `quiz.eleicao`. */
+  nome: string
+  nCandidatos: number
+  primeiroTurno: string
 }
 
-export const presidente: Eleicao = {
-  id: 'presidente',
-  quiz: quizPresJson as unknown as Quiz,
-  aderencia: aderenciaPresJson as unknown as Aderencia,
-  evidencias: evidenciasPresJson as unknown as Evidencias,
-  candidatos: candidatosPresidente,
-  foraDoQuiz: foraDoQuizPresidente,
+export const manifesto: ResumoEleicao[] = [
+  { id: 'governador-rj', nome: 'Governador do Rio de Janeiro 2026', nCandidatos: 8, primeiroTurno: '4 de outubro' },
+  { id: 'presidente', nome: 'Presidente da República 2026', nCandidatos: 2, primeiroTurno: '4 de outubro' },
+]
+
+export interface DadosQuiz {
+  id: IdEleicao
+  quiz: Quiz
+  candidatos: Candidato[]
+  /** Candidatos oficializados que não estão no quiz e por quê, listados por transparência. */
+  foraDoQuiz: { motivo: string; nomes: string[] }
 }
 
-export const eleicoes: Eleicao[] = [governadorRJ, presidente]
+interface Fontes {
+  quiz: () => Promise<DadosQuiz>
+  aderencia: () => Promise<Aderencia>
+  evidencias: () => Promise<Evidencias>
+}
+
+const fontes: Record<IdEleicao, Fontes> = {
+  'governador-rj': {
+    quiz: () =>
+      Promise.all([import('./quiz.json'), import('./candidatos')]).then(
+        ([q, c]): DadosQuiz => ({ id: 'governador-rj', quiz: q.default as unknown as Quiz, candidatos: c.candidatos, foraDoQuiz: c.foraDoQuiz }),
+      ),
+    aderencia: () => import('./aderencia.json').then((m) => m.default as unknown as Aderencia),
+    evidencias: () => import('./evidencias.json').then((m) => m.default as unknown as Evidencias),
+  },
+  presidente: {
+    quiz: () =>
+      Promise.all([import('./quiz-presidente.json'), import('./candidatos-presidente')]).then(
+        ([q, c]): DadosQuiz => ({
+          id: 'presidente',
+          quiz: q.default as unknown as Quiz,
+          candidatos: c.candidatosPresidente,
+          foraDoQuiz: c.foraDoQuizPresidente,
+        }),
+      ),
+    aderencia: () => import('./aderencia-presidente.json').then((m) => m.default as unknown as Aderencia),
+    evidencias: () => import('./evidencias-presidente.json').then((m) => m.default as unknown as Evidencias),
+  },
+}
+
+const cache = new Map<string, Promise<unknown>>()
+
+/** Promessa única por recurso (serve para `use()`); se falhar, sai do cache para tentar de novo. */
+function lembrar<T>(chave: string, carregar: () => Promise<T>): Promise<T> {
+  let p = cache.get(chave) as Promise<T> | undefined
+  if (!p) {
+    p = carregar()
+    p.catch(() => cache.delete(chave))
+    cache.set(chave, p)
+  }
+  return p
+}
+
+export function ehEleicao(id: string): id is IdEleicao {
+  return manifesto.some((e) => e.id === id)
+}
+
+export const carregarQuiz = (id: IdEleicao) => lembrar<DadosQuiz>(`${id}:quiz`, fontes[id].quiz)
+export const carregarAderencia = (id: IdEleicao) => lembrar<Aderencia>(`${id}:aderencia`, fontes[id].aderencia)
+export const carregarEvidencias = (id: IdEleicao) => lembrar<Evidencias>(`${id}:evidencias`, fontes[id].evidencias)
+
+/** Esquece recursos que falharam ou todos, para o botão "Tentar de novo". */
+export function esquecerCarregamentos() {
+  cache.clear()
+}
+
+export interface ResumoAcompanhamento {
+  id: string
+  titulo: string
+  carregar: () => Promise<Acompanhamento>
+}
 
 /**
  * Mandatos comparados com o plano de governo. Por decisão editorial, a área só vai ao ar depois
- * do 2º turno: o build de produção só inclui estes dados com VITE_PUBLICAR_ACOMPANHAMENTO=true.
- * Vencedores de 2026 entram a partir da posse.
+ * do 2º turno: o build de produção só inclui estes dados com VITE_PUBLICAR_ACOMPANHAMENTO=true
+ * (com a flag desligada, o import() some do bundle). Vencedores de 2026 entram a partir da posse.
  */
-export const acompanhamentos: { id: string; titulo: string; dados: Acompanhamento }[] =
+export const acompanhamentos: ResumoAcompanhamento[] =
   import.meta.env.VITE_PUBLICAR_ACOMPANHAMENTO === 'true'
-    ? [{ id: 'prometeu-lula-2022', titulo: 'Lula: o que foi prometido em 2022', dados: lula2022 as unknown as Acompanhamento }]
+    ? [
+        {
+          id: 'prometeu-lula-2022',
+          titulo: 'Lula: o que foi prometido em 2022',
+          carregar: () =>
+            lembrar('acomp:lula-2022', () =>
+              import('../../pipeline/acompanhamento/lula-2022.json').then((m) => m.default as unknown as Acompanhamento),
+            ),
+        },
+      ]
     : []

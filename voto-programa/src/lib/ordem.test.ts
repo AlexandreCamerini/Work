@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { eleicoes } from '../data'
+import { eleicoes } from '../data/estatico'
 import { embaralhar, misturarTemas } from './ordem'
 import { PERFIL_VAZIO, selecionarCenas } from './perfil'
 

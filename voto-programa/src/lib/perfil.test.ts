@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Perfil, Pergunta, Publico } from '../types'
-import { eleicoes } from '../data'
+import { eleicoes } from '../data/estatico'
 import { PERFIL_VAZIO, estimarFaixa, selecionarCenas } from './perfil'
 
 function cena(id: string, grupo: string, publico?: Publico): Pergunta {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { eleicoes } from '../data'
+import { eleicoes } from '../data/estatico'
 import type { Aderencia, Candidato, Pergunta } from '../types'
 import { COBERTURA_MINIMA, calcularResultados, encaixesDoCandidato, pontoNaCena } from './matching'
 
