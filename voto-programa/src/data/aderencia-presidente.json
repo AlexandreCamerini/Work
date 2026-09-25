@@ -2,7 +2,7 @@
   "gerado_em": "2026-09-24",
   "modelo": "rascunho assistido por IA (Claude, sessão Claude Code) a partir dos dossiês; pendente de revisão humana. Reproduzível com pipeline/aderencia.py --eleicao presidente",
   "revisado_por": null,
-  "versao_quiz": "1.1.0",
+  "versao_quiz": "1.2.0",
   "itens": {
     "escala-6x1": {
       "a": {
@@ -1030,6 +1030,130 @@
           "nota": null,
           "evidencias": [],
           "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "plano-voltou-sus": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p62"
+          ],
+          "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+        },
+        "lula": {
+          "nota": 85,
+          "evidencias": [
+            "p30"
+          ],
+          "justificativa": "Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS."
+        }
+      },
+      "b": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p31"
+          ],
+          "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
+        },
+        "flavio-bolsonaro": {
+          "nota": 75,
+          "evidencias": [
+            "p61"
+          ],
+          "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p29"
+          ],
+          "justificativa": "Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias."
+        },
+        "flavio-bolsonaro": {
+          "nota": 50,
+          "evidencias": [
+            "p69"
+          ],
+          "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+        }
+      },
+      "d": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p59"
+          ],
+          "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      }
+    },
+    "celular-sinal": {
+      "a": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "flavio-bolsonaro": {
+          "nota": 95,
+          "evidencias": [
+            "p12"
+          ],
+          "justificativa": "Propõe o sistema nacional de reconhecimento facial Muralha Brasileira."
+        },
+        "lula": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p55"
+          ],
+          "justificativa": "Propõe ampliar o incentivo a câmeras corporais com padrões nacionais."
+        },
+        "flavio-bolsonaro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "d": {
+        "lula": {
+          "nota": 95,
+          "evidencias": [
+            "p51"
+          ],
+          "justificativa": "Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        },
+        "flavio-bolsonaro": {
+          "nota": 55,
+          "evidencias": [
+            "p11"
+          ],
+          "justificativa": "Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF."
         }
       }
     }

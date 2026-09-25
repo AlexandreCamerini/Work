@@ -183,7 +183,11 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       trechos de notícia de Flávio copiados à mão.
 - [ ] **Validar a heurística de perfil**: os cortes 0,34 e 0,66 são ponto de partida;
       calibrar com um piloto contra o Critério Brasil completo.
-- [ ] **Testar as cenas com 5-10 eleitores** de perfis diferentes.
+- [ ] **Pré-teste cognitivo das cenas**: 5 a 8 pessoas por faixa lendo em voz alta e
+      dizendo o que entenderam (ver `pipeline/curadoria-cenas.md`, que registra a
+      curadoria metodológica de 25/09 e seus critérios).
+- [ ] **Região no perfil** (capital, Baixada, Niterói/São Gonçalo, interior): recomendado
+      para o governo do Rio, onde a região muda transporte, água e segurança.
 - [ ] **Preencher o responsável** em `src/config.ts` e **validação jurídica**, inclusive
       da coleta interna (tese do art. 23, §1º) e de quando ligar o contador por candidato.
 - [ ] **Termos e aviso de privacidade** na página, mesmo com dado anonimizado.

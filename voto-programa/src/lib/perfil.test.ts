@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Perfil, Pergunta, Publico } from '../types'
+import { eleicoes } from '../data'
 import { PERFIL_VAZIO, estimarFaixa, selecionarCenas } from './perfil'
 
 function cena(id: string, grupo: string, publico?: Publico): Pergunta {
@@ -47,3 +48,28 @@ describe('selecionarCenas', () => {
     expect(selecionarCenas(perguntas, publico).map((p) => p.id)).not.toContain('orla')
   })
 })
+
+describe('cenas publicadas por perfil', () => {
+  const gov = eleicoes.find((e) => e.id === 'governador-rj')!.quiz.perguntas
+  const pres = eleicoes.find((e) => e.id === 'presidente')!.quiz.perguntas
+  const ids = (perguntas: Pergunta[], perfil: Perfil) => selecionarCenas(perguntas, perfil).map((p) => p.id)
+
+  it('quem tem plano de saúde vê a mãe que voltou pro SUS, nas duas eleições', () => {
+    const perfil: Perfil = { ...PERFIL_VAZIO, saude: 'plano_empresa' }
+    expect(ids(gov, perfil)).toContain('plano-voltou-sus')
+    expect(ids(pres, perfil)).toContain('plano-voltou-sus')
+    expect(ids(gov, PERFIL_VAZIO)).toContain('fila-especialista')
+  })
+
+  it('cena de empresa só vai para quem trabalha de carteira ou tem empresa', () => {
+    const motoboy: Perfil = { saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1 }
+    expect(ids(gov, motoboy)).not.toContain('falta-tecnico')
+    expect(ids(gov, { ...motoboy, trabalho: 'carteira' })).toContain('falta-tecnico')
+  })
+
+  it('faixa de serviço privado vê alagamento e falta d’água do prédio', () => {
+    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 }
+    expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa']))
+  })
+})
+

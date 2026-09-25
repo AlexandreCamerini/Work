@@ -1,5 +1,5 @@
 {
-  "versao": "1.1.0",
+  "versao": "1.2.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Presidente da República 2026",
   "descricao": "situações da vida real em todo o país: jornada de trabalho, fila do SUS, juros, celular roubado",
@@ -50,7 +50,7 @@
       "id": "escala-6x1",
       "grupo": "jornada",
       "tema": "trabalho",
-      "cena": "Você trabalha seis dias por semana e só folga um. No domingo, mal dá pra ver a família.",
+      "cena": "Você, ou alguém da sua casa, trabalha seis dias por semana e folga um. No domingo, mal dá pra ver a família.",
       "pergunta": "O que você queria pra sua jornada?",
       "opcoes": [
         {
@@ -65,7 +65,7 @@
         },
         {
           "id": "c",
-          "texto": "Rever as regras que deixaram o trabalho mais precário.",
+          "texto": "Rever pontos da reforma trabalhista e da terceirização.",
           "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "id": "d",
-          "texto": "Deixar como está: app é liberdade, sem lei nova mexendo nisso.",
+          "texto": "Deixar como está, sem lei nova sobre trabalho por app.",
           "preferencia": "Manter o trabalho por aplicativo sem nova regulação trabalhista, preservando a flexibilidade."
         }
       ],
@@ -162,7 +162,7 @@
       "id": "salario-minimo",
       "grupo": "renda",
       "tema": "economia",
-      "cena": "Você ganha um salário mínimo e, no fim do mês, a conta não fecha.",
+      "cena": "Você, ou alguém da sua casa, vive com um salário mínimo, e no fim do mês a conta não fecha.",
       "pergunta": "O que faria mais diferença no seu bolso?",
       "opcoes": [
         {
@@ -177,7 +177,7 @@
         },
         {
           "id": "c",
-          "texto": "Programa de pontos: pagar conta em dia e fazer curso dá desconto e juro menor.",
+          "texto": "Programa de pontos: quem paga conta em dia e faz curso ganha desconto e juro menor.",
           "preferencia": "Programa voluntário que recompensa comportamentos como qualificação e adimplência com crédito, juros menores e cashback."
         },
         {
@@ -202,7 +202,7 @@
         ]
       },
       "tema": "economia",
-      "cena": "Na declaração do imposto de renda você sente que paga imposto em tudo, do salário ao que compra.",
+      "cena": "Na hora de declarar o imposto de renda, você faz a conta de quanto vai pro governo, no salário e no que compra.",
       "pergunta": "O que você defenderia?",
       "opcoes": [
         {
@@ -236,7 +236,7 @@
       "id": "juros-altos",
       "grupo": "juros",
       "tema": "economia",
-      "cena": "Você adiou trocar de carro ou financiar a casa porque os juros continuam altos.",
+      "cena": "Os juros do cartão, do crediário e do financiamento continuam altos, e qualquer compra parcelada pesa.",
       "pergunta": "Como o governo devia fazer os juros caírem?",
       "opcoes": [
         {
@@ -301,15 +301,55 @@
       }
     },
     {
+      "id": "plano-voltou-sus",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "O plano de saúde da sua mãe ficou caro demais depois dos 60, e ela voltou pro SUS. Agora espera uma cirurgia há meses.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Hospital particular atendendo o SUS em horário vago.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e posto aberto à noite pra cirurgia e exame.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Pagar melhor os hospitais: corrigir a tabela do SUS.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "Em janeiro de 2025, ao menos 5,7 milhões de pessoas esperavam consulta com especialista no SUS. O dado é parcial: vários estados não informam a fila.",
+        "fonte": "O Globo, com dados do Ministério da Saúde",
+        "url": "https://oglobo.globo.com/saude/especial/entre-a-fila-do-sus-e-a-vida-espera-para-consultas-bate-recorde.ghtml"
+      },
+      "publico": {
+        "saude": [
+          "plano_empresa",
+          "plano_proprio"
+        ]
+      }
+    },
+    {
       "id": "faccao-bairro",
       "grupo": "faccao",
       "tema": "seguranca",
-      "cena": "Em muitos bairros, uma facção manda na rua e cobra taxa até do gás.",
+      "cena": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua e cobra taxa até do gás e da internet.",
       "pergunta": "O que o presidente devia fazer?",
       "opcoes": [
         {
           "id": "a",
-          "texto": "Tratar facção como terrorismo e se juntar aos EUA contra elas.",
+          "texto": "Tratar facção como grupo terrorista, com apoio de outros países.",
           "preferencia": "Classificar facções e milícias como organizações narcoterroristas e integrar coalizão internacional liderada pelos EUA contra elas."
         },
         {
@@ -366,6 +406,46 @@
         "texto": "Em 2025, 830.890 celulares foram roubados ou furtados no Brasil: uma média de 95 por hora.",
         "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
         "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      }
+    },
+    {
+      "id": "celular-sinal",
+      "grupo": "celular",
+      "tema": "seguranca",
+      "cena": "Parado no sinal, com o vidro aberto, levaram o celular da sua mão. Alguém da sua família já tinha passado pela mesma coisa.",
+      "pergunta": "O que funcionaria melhor?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Prisão e pena quatro vezes maior pra quem rouba ou revende celular.",
+          "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
+        },
+        {
+          "id": "b",
+          "texto": "Câmera com reconhecimento facial ligada no país inteiro.",
+          "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
+        },
+        {
+          "id": "c",
+          "texto": "Câmera no uniforme do policial, com padrão nacional.",
+          "preferencia": "Incentivo federal ao uso de câmeras corporais pelas polícias, com padrões nacionais."
+        },
+        {
+          "id": "d",
+          "texto": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+          "preferencia": "Dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, 830.890 celulares foram roubados ou furtados no Brasil: uma média de 95 por hora.",
+        "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      },
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
       }
     },
     {
@@ -446,7 +526,7 @@
       "id": "conta-luz",
       "grupo": "energia",
       "tema": "energia",
-      "cena": "A conta de luz não para de subir, e encher o tanque assusta.",
+      "cena": "A conta de luz não para de subir, e encher o tanque ou comprar o botijão assusta.",
       "pergunta": "O que você defenderia?",
       "opcoes": [
         {
@@ -480,7 +560,7 @@
       "id": "enchente-seca",
       "grupo": "clima",
       "tema": "clima",
-      "cena": "Enchente num ano, seca no outro: parece que o tempo ficou mais extremo.",
+      "cena": "Num ano, a enchente leva a casa de conhecidos; no outro, a seca deixa a luz e a comida mais caras.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
@@ -524,7 +604,7 @@
         },
         {
           "id": "b",
-          "texto": "Nenhuma regra nova: liberdade de expressão acima de tudo.",
+          "texto": "Nenhuma regra nova, e fim dos órgãos do governo que decidem o que é mentira.",
           "preferencia": "Extinguir estruturas estatais de combate à desinformação e revogar atos considerados censura, priorizando a liberdade de expressão."
         },
         {
@@ -548,8 +628,8 @@
       "id": "gasto-governo",
       "grupo": "contas",
       "tema": "contas",
-      "cena": "Você vê notícia de ministério demais e de emenda parlamentar bilionária.",
-      "pergunta": "O que você cobraria do próximo presidente?",
+      "cena": "O governo diz que falta dinheiro pra saúde e escola, e a conta da própria máquina não para de crescer.",
+      "pergunta": "Por onde o próximo presidente devia começar?",
       "opcoes": [
         {
           "id": "a",

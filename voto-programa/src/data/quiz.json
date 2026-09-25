@@ -1,5 +1,5 @@
 {
-  "versao": "3.2.0",
+  "versao": "3.3.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
   "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
@@ -57,7 +57,7 @@
         },
         {
           "id": "c",
-          "texto": "Botar o trem no padrão do BRT, com segurança própria a bordo.",
+          "texto": "Trem novo, no horário e com segurança própria a bordo.",
           "preferencia": "Modernizar o sistema de trens em padrão BRT e criar programa de segurança específico nos trens."
         },
         {
@@ -82,7 +82,7 @@
         ]
       },
       "tema": "transporte",
-      "cena": "Fim de tarde, Linha Vermelha travada. Pra rodar 10 km você gasta quase meia hora.",
+      "cena": "Fim de tarde, Linha Vermelha parada. Dez quilômetros levam quase meia hora, e amanhã tem de novo.",
       "pergunta": "O que tiraria mais carro da rua?",
       "opcoes": [
         {
@@ -97,7 +97,7 @@
         },
         {
           "id": "c",
-          "texto": "Novas ligações de via: Via Light com Linha Vermelha, Av. Brasil e Dutra.",
+          "texto": "Novas ligações entre as vias expressas, pra desafogar Linha Vermelha e Av. Brasil.",
           "preferencia": "Construir novas conexões viárias rodoviárias entre as vias expressas metropolitanas."
         },
         {
@@ -126,12 +126,12 @@
         },
         {
           "id": "b",
-          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas.",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
           "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
         },
         {
           "id": "c",
-          "texto": "Tirar o cartão do ônibus da mão das empresas e abrir as contas.",
+          "texto": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
           "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
         },
         {
@@ -181,6 +181,46 @@
       }
     },
     {
+      "id": "plano-voltou-sus",
+      "grupo": "fila-especialista",
+      "tema": "saude",
+      "cena": "O plano de saúde da sua mãe ficou caro demais depois dos 60, e ela voltou pro SUS. Já são 5 meses esperando consulta com especialista.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga hospital particular pra atender quem tá na fila.",
+          "preferencia": "Comprar serviços da rede privada para reduzir filas de consultas e cirurgias."
+        },
+        {
+          "id": "b",
+          "texto": "Centros públicos de especialidade em cada região do estado.",
+          "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão de cirurgia à noite e no fim de semana.",
+          "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
+        },
+        {
+          "id": "d",
+          "texto": "Contratar mais médico e especialista pro estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+        }
+      ],
+      "fato": {
+        "texto": "Na capital, a espera por consulta com cirurgião de hérnia foi de 78 dias em 2024 para cerca de 164 dias em 2026.",
+        "fonte": "g1, 28/07/2026",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+      },
+      "publico": {
+        "saude": [
+          "plano_empresa",
+          "plano_proprio"
+        ]
+      }
+    },
+    {
       "id": "escola-bagunca",
       "grupo": "escola-bagunca",
       "tema": "educacao",
@@ -221,6 +261,10 @@
         "escola": [
           "particular",
           "nenhuma"
+        ],
+        "trabalho": [
+          "carteira",
+          "empresario"
         ]
       },
       "tema": "educacao",
@@ -342,7 +386,7 @@
         },
         {
           "id": "b",
-          "texto": "Muito mais PM: concurso e policial na rua.",
+          "texto": "Mais PM na rua, chamando quem passou no concurso.",
           "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
         },
         {
@@ -381,7 +425,7 @@
         },
         {
           "id": "b",
-          "texto": "Muito mais PM na rua, com concurso.",
+          "texto": "Mais PM na rua, chamando quem passou no concurso.",
           "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
         },
         {
@@ -471,6 +515,45 @@
       }
     },
     {
+      "id": "garagem-alagada",
+      "grupo": "rua-alagada",
+      "tema": "agua-chuva",
+      "cena": "Choveu forte, a garagem do prédio encheu e a rua virou rio. Você perdeu o dia preso no trânsito, e o carro de um vizinho ficou debaixo d'água.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Obra grande de drenagem e contenção de encosta.",
+          "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+        },
+        {
+          "id": "b",
+          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+        },
+        {
+          "id": "c",
+          "texto": "Alerta no celular e sirene antes da chuva chegar.",
+          "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+        }
+      ],
+      "fato": {
+        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
+        "fonte": "g1 / Jornal Nacional",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
+      },
+      "publico": {
+        "faixa": [
+          "privado"
+        ]
+      }
+    },
+    {
       "id": "falta-agua",
       "grupo": "falta-agua",
       "tema": "agua-chuva",
@@ -494,7 +577,7 @@
         },
         {
           "id": "d",
-          "texto": "O Estado retoma a Cedae: água não é pra dar lucro.",
+          "texto": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
           "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
         }
       ],
@@ -502,6 +585,45 @@
         "texto": "Em setembro de 2026, a parada do Sistema Acari afetou a água em seis cidades da Baixada, e a orientação oficial foi usar a água da caixa.",
         "fonte": "Diário Baixada Fluminense, 15/09/2026",
         "url": "https://diariobaixadafluminense.com.br/chuvas-afetam-abastecimento-de-agua-em-seis-cidades-da-baixada-fluminense-veja-lista/"
+      }
+    },
+    {
+      "id": "caminhao-pipa",
+      "grupo": "falta-agua",
+      "tema": "agua-chuva",
+      "cena": "Faltou água no prédio por três dias. O condomínio chamou caminhão-pipa, e a cota extra veio no boleto.",
+      "pergunta": "O que o governo devia fazer com a empresa de água e esgoto?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Rever o aumento da conta, que tá pesando no bolso.",
+          "preferencia": "Revisar os aumentos de tarifa da concessão de água e esgoto."
+        },
+        {
+          "id": "b",
+          "texto": "Cobrar as metas de água e esgoto e fiscalizar de perto.",
+          "preferencia": "Reforçar a fiscalização das metas contratuais de universalização de água e esgoto."
+        },
+        {
+          "id": "c",
+          "texto": "Não cumpriu? Perde o contrato.",
+          "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
+        },
+        {
+          "id": "d",
+          "texto": "O Estado retoma a Cedae e volta a cuidar da água e do esgoto.",
+          "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
+        }
+      ],
+      "fato": {
+        "texto": "Em setembro de 2026, a parada do Sistema Acari afetou a água em seis cidades da Baixada, e a orientação oficial foi usar a água da caixa.",
+        "fonte": "Diário Baixada Fluminense, 15/09/2026",
+        "url": "https://diariobaixadafluminense.com.br/chuvas-afetam-abastecimento-de-agua-em-seis-cidades-da-baixada-fluminense-veja-lista/"
+      },
+      "publico": {
+        "faixa": [
+          "privado"
+        ]
       }
     },
     {
@@ -523,12 +645,12 @@
         },
         {
           "id": "c",
-          "texto": "Emprego é com a empresa privada. O estado cuida da segurança.",
+          "texto": "Gerar emprego é papel da empresa privada; o estado deve cuidar da segurança.",
           "preferencia": "Limitar o papel do Estado na geração de emprego, deixando-a ao setor privado, e concentrar o investimento público em segurança."
         },
         {
           "id": "d",
-          "texto": "Zerar o imposto da moto de quem trabalha com ela.",
+          "texto": "Zerar o IPVA da moto de quem trabalha com ela.",
           "preferencia": "Isenção ou redução de IPVA para motos de até 180 cilindradas usadas para trabalho."
         }
       ],
@@ -562,7 +684,7 @@
         },
         {
           "id": "c",
-          "texto": "Ir à Justiça recuperar o dinheiro do Rioprevidência aplicado no Banco Master.",
+          "texto": "Recuperar na Justiça o dinheiro da previdência dos servidores aplicado no Banco Master.",
           "preferencia": "Atuação jurídica do estado para recompor os ativos do Rioprevidência aplicados no Banco Master."
         },
         {
@@ -660,7 +782,7 @@
       "id": "dinheiro-publico",
       "grupo": "dinheiro-publico",
       "tema": "contas",
-      "cena": "No posto falta remédio, mas no jornal tem notícia de cargo fantasma e gasto com festa.",
+      "cena": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem notícia de cargo sobrando e de imposto perdoado pra empresa grande.",
       "pergunta": "O que você cobraria do próximo governador?",
       "opcoes": [
         {
@@ -670,7 +792,7 @@
         },
         {
           "id": "b",
-          "texto": "Auditoria em todo contrato e um órgão só pra vigiar a integridade.",
+          "texto": "Auditar todo contrato, com um órgão só pra vigiar desvio.",
           "preferencia": "Auditorias em todos os contratos e secretaria de integridade para fiscalizar nomeados."
         },
         {

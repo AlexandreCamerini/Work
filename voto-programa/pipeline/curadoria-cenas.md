@@ -1,0 +1,109 @@
+# Curadoria metodológica das cenas (25/09/2026)
+
+Revisão das 34 cenas (18 de governador, 16 de presidente) com critérios de desenho de
+questionário de opinião. Aplicada por `pipeline/curadoria_2026_09.py`, que confere o texto
+antigo antes de cada troca.
+
+**Regra de ouro desta rodada:** mudar só a forma, nunca o sentido. A `preferencia` de cada
+opção ficou igual, então as notas de aderência (e as evidências) continuam válidas sem
+reavaliação. Onde a reescrita aproximou o texto da preferência, isso está indicado.
+
+## Critérios
+
+| # | Critério | Por que importa |
+|---|---|---|
+| 1 | **Cegamento:** opção não pode repetir bordão ou marca de programa de candidato | quem reconhece o bordão reconhece o candidato e o teste deixa de ser às cegas |
+| 2 | **Sem palavra carregada** em uma opção só ("água não é pra dar lucro", "liberdade acima de tudo") | termo emotivo puxa escolha; as opções concorrentes ficam em desvantagem |
+| 3 | **Cena neutra:** o problema descrito não pode apontar para uma das saídas | cena que só fala de "cargo fantasma" empurra para cortar gasto |
+| 4 | **Cena da vida real de quem responde:** situação concreta, com hora, lugar e custo | cena abstrata ("o tempo ficou mais extremo") não gera identificação |
+| 5 | **Inclusão:** cena padrão não pode excluir quem não vive aquilo | "você ganha um salário mínimo" exclui quem não ganha, mas convive com isso em casa |
+| 6 | **Variante por perfil onde a realidade muda** | a mesma política chega por caminhos diferentes para quem usa SUS ou plano, ônibus ou carro |
+| 7 | **Filtro de perfil coerente com a cena** | cena "na empresa onde você trabalha" não pode ir para motoboy |
+| 8 | **Linguagem de conversa, uma ideia por opção, tamanho parecido** | opção longa e detalhada parece "mais certa"; jargão afasta |
+
+## Mudanças de texto
+
+### Governador (versão 3.3.0)
+
+| Cena | Antes | Depois | Critério |
+|---|---|---|---|
+| trem-parado c | Botar o trem no padrão do BRT, com segurança própria a bordo. | Trem novo, no horário e com segurança própria a bordo. | 1 |
+| transito-carro (cena) | …Linha Vermelha travada. Pra rodar 10 km você gasta quase meia hora. | …Linha Vermelha parada. Dez quilômetros levam quase meia hora, e amanhã tem de novo. | 4 |
+| transito-carro c | Novas ligações de via: Via Light com Linha Vermelha, Av. Brasil e Dutra. | Novas ligações entre as vias expressas, pra desafogar Linha Vermelha e Av. Brasil. | 1, 8 |
+| passagem-cara b | …sem estourar as contas. | …sem estourar as contas do estado. | 8 (ambíguo: contas de quem?) |
+| passagem-cara c | Tirar o cartão do ônibus da mão das empresas… | Tirar o cartão de passagem da mão das empresas de ônibus… | 8 |
+| celular-roubado b, roubo-carro b | Muito mais PM… | Mais PM na rua, chamando quem passou no concurso. | 2 (intensificador); mais fiel à preferência |
+| falta-agua d | O Estado retoma a Cedae: água não é pra dar lucro. | O Estado retoma a Cedae e volta a cuidar da água e do esgoto. | 2 |
+| primo-desempregado c | Emprego é com a empresa privada. O estado cuida da segurança. | Gerar emprego é papel da empresa privada; o estado deve cuidar da segurança. | 8 |
+| primo-desempregado d | Zerar o imposto da moto… | Zerar o IPVA da moto… | 8 (fiel à preferência) |
+| servidor-recomposicao c | Ir à Justiça recuperar o dinheiro do Rioprevidência… | Recuperar na Justiça o dinheiro da previdência dos servidores… | 8 (nome de autarquia) |
+| dinheiro-publico (cena) | No posto falta remédio, mas no jornal tem notícia de cargo fantasma e gasto com festa. | O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem notícia de cargo sobrando e de imposto perdoado pra empresa grande. | 3 (a cena antiga só apontava para cortar gasto; a opção d, cortar isenção, ficava órfã) |
+| dinheiro-publico b | Auditoria em todo contrato e um órgão só pra vigiar a integridade. | Auditar todo contrato, com um órgão só pra vigiar desvio. | 8 |
+
+### Presidente (versão 1.2.0)
+
+| Cena | Antes | Depois | Critério |
+|---|---|---|---|
+| escala-6x1 (cena) | Você trabalha seis dias… | Você, ou alguém da sua casa, trabalha seis dias… | 5 |
+| escala-6x1 c | Rever as regras que deixaram o trabalho mais precário. | Rever pontos da reforma trabalhista e da terceirização. | 2 |
+| trabalho-app d | Deixar como está: app é liberdade, sem lei nova mexendo nisso. | Deixar como está, sem lei nova sobre trabalho por app. | 2 |
+| salario-minimo (cena) | Você ganha um salário mínimo… | Você, ou alguém da sua casa, vive com um salário mínimo… | 5 |
+| imposto-renda (cena) | …você sente que paga imposto em tudo… | …você faz a conta de quanto vai pro governo, no salário e no que compra. | 3 (a antiga puxava para "baixar imposto") |
+| juros-altos (cena) | Você adiou trocar de carro ou financiar a casa… | Os juros do cartão, do crediário e do financiamento continuam altos, e qualquer compra parcelada pesa. | 5 (a antiga só falava com quem financia carro ou casa; cartão e crediário são a dívida de todas as faixas) |
+| faccao-bairro (cena) | Em muitos bairros, uma facção manda… | Em muitos bairros, talvez no de alguém que você conhece, a facção manda… cobra taxa até do gás e da internet. | 4 |
+| faccao-bairro a | Tratar facção como terrorismo e se juntar aos EUA contra elas. | Tratar facção como grupo terrorista, com apoio de outros países. | 1 (a coalizão com os EUA é bordão de campanha) |
+| conta-luz (cena) | …e encher o tanque assusta. | …e encher o tanque ou comprar o botijão assusta. | 5 |
+| enchente-seca (cena) | Enchente num ano, seca no outro: parece que o tempo ficou mais extremo. | Num ano, a enchente leva a casa de conhecidos; no outro, a seca deixa a luz e a comida mais caras. | 4 |
+| video-falso b | Nenhuma regra nova: liberdade de expressão acima de tudo. | Nenhuma regra nova, e fim dos órgãos do governo que decidem o que é mentira. | 2; mais fiel à preferência |
+| gasto-governo (cena e pergunta) | Você vê notícia de ministério demais e de emenda parlamentar bilionária. / O que você cobraria…? | O governo diz que falta dinheiro pra saúde e escola, e a conta da própria máquina não para de crescer. / Por onde o próximo presidente devia começar? | 3 (a antiga favorecia cortar ministérios e emendas; manter estatais ficava deslocado) |
+
+## Cenas-variante por perfil (novas)
+
+Mesma pergunta e mesmas opções (e notas) da cena de origem, com a situação contada do jeito
+que ela acontece para aquele perfil.
+
+| Nova cena | Origem | Para quem | Situação |
+|---|---|---|---|
+| plano-voltou-sus (gov. e pres.) | fila-especialista / fila-cirurgia | tem plano de saúde | o plano da mãe ficou caro depois dos 60 e ela voltou pro SUS |
+| garagem-alagada | rua-alagada | faixa de serviço privado | garagem do prédio alagada, carro do vizinho submerso |
+| caminhao-pipa | falta-agua | faixa de serviço privado | prédio sem água, caminhão-pipa na cota do condomínio |
+| celular-sinal (pres.) | celular-roubado | usa carro ou aplicativo | celular levado no sinal, com o vidro aberto |
+
+Filtro corrigido: **falta-tecnico** ("na empresa onde você trabalha") ia para qualquer um
+sem filho na escola pública, inclusive motoboy e desempregado. Agora exige também carteira
+assinada ou empresa.
+
+### O que cada perfil típico vê agora
+
+| Perfil | Governador: cenas próprias do perfil | Presidente: cenas próprias do perfil |
+|---|---|---|
+| Diarista (SUS, ônibus, autônoma) | nenhuma: as cenas padrão já são a realidade de quem usa serviço público | trabalho-app |
+| Motoboy (SUS, moto, sem filhos) | nenhuma | trabalho-app, pagar-faculdade |
+| Servidora (plano da empresa, ônibus) | plano-voltou-sus, servidor-recomposicao, correria-praia | imposto-renda, plano-voltou-sus |
+| Analista (plano, carro, escola particular) | transito-carro, plano-voltou-sus, falta-tecnico, via-expressa-fechada, roubo-carro, garagem-alagada, caminhao-pipa, correria-praia | imposto-renda, plano-voltou-sus, celular-sinal, pagar-faculdade |
+| Empresário (faixa privada) | as do analista + licenca-empresa | custo-contratar, imposto-renda, plano-voltou-sus, celular-sinal, pagar-faculdade |
+
+## O que não foi feito, e por quê
+
+- **Cenas sobre IPVA do carro e reajuste de plano de saúde.** São dores reais das faixas
+  média e alta, mas nenhum dos 10 candidatos tem proposta documentada sobre elas (só Paes,
+  sobre IPVA de moto). Cena sem proposta vira nota nula para todo mundo e não diferencia
+  ninguém.
+- **Bordões que são a própria política** ficaram: "escola cívico-militar", "fim da escala
+  6x1", "poupança mensal pro aluno". Trocar por paráfrase mudaria o sentido.
+- **Notas não foram refeitas:** nenhuma preferência mudou.
+
+## Riscos e próximos passos
+
+1. **Pré-teste cognitivo antes de publicar** (o que falta de mais importante): 5 a 8 pessoas
+   por faixa, lendo em voz alta e dizendo o que entenderam de cada opção. Revela jargão e
+   opção lida ao contrário, coisas que revisão de gabinete não pega.
+2. **Região ainda não entra no perfil.** No estado do Rio, morar na capital, na Baixada, em
+   Niterói/São Gonçalo ou no interior muda transporte, água e segurança mais do que a faixa
+   de renda. As cenas de trem e ônibus falam com a região metropolitana. Uma sexta pergunta
+   ("onde você mora") resolveria; fica como recomendação.
+3. **Cenas contadas por terceiros** (a mãe, o primo, a vizinha) foram mantidas de propósito
+   em temas sensíveis (violência doméstica, desemprego): falar de outra pessoa reduz a
+   resposta de fachada. Nos demais temas, a cena é em "você".
+4. **Leiturabilidade:** textos curtos e em registro oral; falta medir com um índice de
+   legibilidade e testar com leitor de tela.
