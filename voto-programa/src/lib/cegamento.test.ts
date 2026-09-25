@@ -19,4 +19,29 @@ describe.each(eleicoes.map((e) => [e.id, e] as const))('cegamento: %s', (_id, el
       }
     }
   })
+
+  it('nenhum nome de candidato no contexto do "Leia" (texto, veículo, título ou link)', () => {
+    for (const [pid, ctx] of Object.entries(eleicao.contextos)) {
+      const textos = [...ctx.paragrafos, ...ctx.fontes.flatMap((f) => [f.veiculo, f.titulo])]
+      for (const parte of partes) {
+        for (const t of textos) expect(palavra(parte).test(t), `${pid}: "${parte}" em "${t}"`).toBe(false)
+        for (const f of ctx.fontes) {
+          expect(palavra(semAcento(parte).toLowerCase(), 'i').test(f.url), `${pid}: "${parte}" no link ${f.url}`).toBe(false)
+        }
+      }
+    }
+  })
+
+  it('toda cena tem contexto com 3-4 parágrafos e fontes https datadas', () => {
+    expect(Object.keys(eleicao.contextos).sort()).toEqual(eleicao.quiz.perguntas.map((p) => p.id).sort())
+    for (const [pid, ctx] of Object.entries(eleicao.contextos)) {
+      expect(ctx.paragrafos.length, pid).toBeGreaterThanOrEqual(3)
+      expect(ctx.paragrafos.length, pid).toBeLessThanOrEqual(4)
+      expect(ctx.fontes.length, pid).toBeGreaterThan(0)
+      for (const f of ctx.fontes) {
+        expect(f.url, pid).toMatch(/^https:\/\//)
+        expect(f.data, pid).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+      }
+    }
+  })
 })

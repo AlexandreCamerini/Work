@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { eleicoes } from './estatico'
-import { carregarAderencia, carregarEvidencias, carregarQuiz, manifesto } from './index'
+import { carregarAderencia, carregarContextos, carregarEvidencias, carregarQuiz, manifesto } from './index'
 
 describe('manifesto leve das eleições', () => {
   it('bate com os dados completos (nome, nº de candidatos, ordem)', () => {
@@ -14,12 +14,13 @@ describe('manifesto leve das eleições', () => {
 
   it.each(manifesto.map((m) => [m.id] as const))('%s: o carregador dinâmico entrega os mesmos dados', async (id) => {
     const e = eleicoes.find((x) => x.id === id)!
-    const [q, a, ev] = await Promise.all([carregarQuiz(id), carregarAderencia(id), carregarEvidencias(id)])
+    const [q, a, ev, ctx] = await Promise.all([carregarQuiz(id), carregarAderencia(id), carregarEvidencias(id), carregarContextos(id)])
     expect(q.quiz).toEqual(e.quiz)
     expect(q.candidatos).toEqual(e.candidatos)
     expect(q.foraDoQuiz).toEqual(e.foraDoQuiz)
     expect(a).toEqual(e.aderencia)
     expect(ev).toEqual(e.evidencias)
+    expect(ctx).toEqual(e.contextos)
     expect(carregarQuiz(id)).toBe(carregarQuiz(id))
   })
 })

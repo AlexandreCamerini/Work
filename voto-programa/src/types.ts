@@ -31,6 +31,15 @@ export interface Pergunta {
   fato: Fato
 }
 
+/** Texto longo do "Leia" (folha do fato): chega sob demanda, só quando a folha abre. */
+export interface Contexto {
+  paragrafos: string[]
+  fontes: { veiculo: string; titulo: string; data: string; url: string }[]
+}
+
+/** Por id de pergunta. */
+export type Contextos = Record<string, Contexto>
+
 export interface Quiz {
   versao: string
   titulo: string
@@ -159,6 +168,7 @@ export interface Eleicao {
   quiz: Quiz
   aderencia: Aderencia
   evidencias: Evidencias
+  contextos: Contextos
   candidatos: Candidato[]
   /** Candidatos oficializados que não estão no quiz e por quê, listados por transparência. */
   foraDoQuiz: { motivo: string; nomes: string[] }

@@ -1,6 +1,6 @@
 # Contexto expandido da folha "Leia" — Governador RJ 2026
 
-Arquivo de dados: `pipeline/ux/contexto-governador-rj.json` (formato `{"<pergunta_id>": {"paragrafos": [...], "fontes": [...]}}`).
+Arquivo de dados: `src/data/contexto.json` (formato `{"<pergunta_id>": {"paragrafos": [...], "fontes": [...]}}`).
 Cobre as 26 perguntas de `src/data/quiz.json` (versão 3.4.0). Pesquisa feita em 25/09/2026.
 
 ## Decisões

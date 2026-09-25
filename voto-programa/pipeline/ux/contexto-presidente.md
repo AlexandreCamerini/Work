@@ -1,6 +1,6 @@
 # Contexto expandido da folha "Leia": quiz de presidente
 
-Arquivo de dados: `pipeline/ux/contexto-presidente.json` (22 perguntas, todas as de `src/data/quiz-presidente.json` v1.3.0).
+Arquivo de dados: `src/data/contexto-presidente.json` (22 perguntas, todas as de `src/data/quiz-presidente.json` v1.3.0).
 Formato: `{"<pergunta_id>": {"paragrafos": [...], "fontes": [{veiculo, titulo, data, url}]}}`.
 Pesquisa feita em 25/09/2026. Cada URL foi aberta (busca com conteúdo ou leitura direta) antes de entrar como fonte.
 
