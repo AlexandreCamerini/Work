@@ -326,8 +326,8 @@
         },
         {
           "id": "d",
-          "texto": "Consulta com especialista por vídeo, sem sair da cidade.",
-          "preferencia": "Teleconsulta e telessaúde com especialistas para moradores do interior."
+          "texto": "Contratar mais médico e especialista pra rede do estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
         }
       ],
       "fato": {

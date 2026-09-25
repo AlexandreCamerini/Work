@@ -94,9 +94,11 @@
         "justificativa": "Propõe garantir os repasses de saúde aos municípios com critérios técnicos e recuperar os hospitais estaduais, sem condicionar o custeio de hospitais do interior a metas."
       },
       "d": {
-        "nota": null,
-        "evidencias": [],
-        "justificativa": "Sem proposta documentada sobre o tema."
+        "nota": 90,
+        "evidencias": [
+          "p7"
+        ],
+        "justificativa": "Propõe contratar mais médicos e especialistas."
       }
     }
   }

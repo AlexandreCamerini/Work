@@ -5290,6 +5290,715 @@
           "justificativa": "Propõe extinguir a atual política de remoções e priorizar moradia popular e urbanização de favelas, sem prever reassentamento de áreas de risco."
         }
       }
+    },
+    "barca-leste": {
+      "a": {
+        "andre-marinho": {
+          "nota": 70,
+          "evidencias": [
+            "p22",
+            "p23"
+          ],
+          "justificativa": "O plano apoia a Linha 3 Praça XV–Niterói–São Gonçalo, e em campanha propôs a Linha Azul, metrô acoplado à Ponte Rio-Niterói."
+        },
+        "coronel-busnello": {
+          "nota": 90,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Propõe estender a Linha 2 até Arariboia, em Niterói, e depois implantar a Linha 3 até São Gonçalo, após auditoria da licitação suspensa."
+        },
+        "cyro-garcia": {
+          "nota": 80,
+          "evidencias": [
+            "p51"
+          ],
+          "justificativa": "Defende que o metrô chegue a São Gonçalo e se integre aos trens, sem citar Niterói ou a Linha 3."
+        },
+        "douglas-ruas": {
+          "nota": 55,
+          "evidencias": [
+            "p42",
+            "p43"
+          ],
+          "justificativa": "Propõe acompanhar o estudo da Linha 3 e buscar recursos federais ou PPP, mas afirma que a obra não se conclui em um mandato."
+        },
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p14",
+            "p44"
+          ],
+          "justificativa": "Propõe iniciar até o fim do mandato as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí, ligada à Linha 2 por túnel sob a Baía."
+        },
+        "juliete-pantoja": {
+          "nota": 90,
+          "evidencias": [
+            "p52"
+          ],
+          "justificativa": "Propõe garantir a chegada do metrô a Niterói e São Gonçalo, sem citar a Linha 3 pelo nome."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 75,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Prevê, no longo prazo, a Linha 3 do metrô ligando o centro da capital à região de Itaboraí."
+        }
+      },
+      "b": {
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 95,
+          "evidencias": [
+            "p30",
+            "p31"
+          ],
+          "justificativa": "Propõe novas rotas de ferry-boats e catamarãs com terminal em Gradim (São Gonçalo) e outros pontos da Baía e defendeu terminal de barcas em São Gonçalo; o trecho do plano não menciona a concessão ou PPP citada no resumo."
+        },
+        "cyro-garcia": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "eduardo-paes": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe um plano de ampliação do transporte hidroviário com estudos para novas linhas de barcas, incluindo São Gonçalo."
+        }
+      },
+      "c": {
+        "andre-marinho": {
+          "nota": 70,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe que uma Autoridade Metropolitana de Mobilidade, que inclui as barcas, redesenhe as concessões com metas e fiscalização, sem mencionar sanções."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 20,
+          "evidencias": [
+            "p9",
+            "p8"
+          ],
+          "justificativa": "Propõe auditoria pública das concessões, mas defende estatizar as barcas em vez de manter e fiscalizar a concessionária."
+        },
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p47",
+            "p46"
+          ],
+          "justificativa": "Propõe cobrar da concessionária das barcas pontualidade, regularidade e menos cancelamentos, com rescisão do contrato em caso de descumprimento."
+        },
+        "eduardo-paes": {
+          "nota": 55,
+          "evidencias": [
+            "p74",
+            "p73"
+          ],
+          "justificativa": "Defende auditar contratos de concessão e cobrar obrigações das partes, sem citar as barcas nem prever sanções."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p64"
+          ],
+          "justificativa": "Defende a estatização do transporte do estado em vez de manter e fiscalizar concessionárias."
+        },
+        "luan-monteiro": {
+          "nota": 25,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Defende que metrô, trens e ônibus voltem ao controle estatal em vez de ficar com empresas privadas, sem citar as barcas."
+        },
+        "william-siri": {
+          "nota": 20,
+          "evidencias": [
+            "p20",
+            "p14"
+          ],
+          "justificativa": "Propõe retomar o controle público e reestatizar as barcas, e não cobrar metas da concessionária."
+        }
+      },
+      "d": {
+        "andre-marinho": {
+          "nota": 10,
+          "evidencias": [
+            "p19",
+            "p33"
+          ],
+          "justificativa": "Propõe redesenhar as concessões de transporte com metas e fiscalização e um programa de desestatização de estatais deficitárias."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 95,
+          "evidencias": [
+            "p9",
+            "p49"
+          ],
+          "justificativa": "Defende estatizar as barcas com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero."
+        },
+        "douglas-ruas": {
+          "nota": 30,
+          "evidencias": [
+            "p46",
+            "p45",
+            "p21"
+          ],
+          "justificativa": "Propõe cobrar as concessionárias e prevê tarifa social focalizada e isenção em barcas para viagens de cuidado, sem estatizar o transporte aquaviário."
+        },
+        "eduardo-paes": {
+          "nota": 10,
+          "evidencias": [
+            "p74"
+          ],
+          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, sem tratar especificamente das barcas."
+        },
+        "juliete-pantoja": {
+          "nota": 80,
+          "evidencias": [
+            "p64",
+            "p49"
+          ],
+          "justificativa": "Defende a estatização do transporte do estado e a redução de 50% das passagens de todos os transportes, sem citar as barcas nominalmente."
+        },
+        "luan-monteiro": {
+          "nota": 50,
+          "evidencias": [
+            "p38",
+            "p5"
+          ],
+          "justificativa": "Defende controle estatal de metrô, trens e ônibus, sem citar as barcas, e item do programa nacional prevê passe livre nos transportes para desempregados e informais."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p20",
+            "p14",
+            "p15"
+          ],
+          "justificativa": "Propõe reestatizar o transporte hidroviário e reduzir as tarifas até a tarifa zero em todo o transporte público estadual."
+        }
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "andre-marinho": {
+          "nota": 20,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Propõe conceder cerca de 700 km de rodovias estaduais à iniciativa privada, e não recuperá-las com recursos do estado."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 30,
+          "evidencias": [
+            "p52",
+            "p50"
+          ],
+          "justificativa": "Defende mudar o modal do rodoviário para o ferroviário, sem proposta de recuperação de rodovias estaduais."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p16",
+            "p13"
+          ],
+          "justificativa": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância, sem mencionar a fonte dos recursos."
+        },
+        "juliete-pantoja": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "b": {
+        "andre-marinho": {
+          "nota": 100,
+          "evidencias": [
+            "p26"
+          ],
+          "justificativa": "Propõe conceder cerca de 700 km de rodovias estaduais em lotes, sem criar novos pedágios."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 15,
+          "evidencias": [
+            "p50",
+            "p8"
+          ],
+          "justificativa": "Defende reestatizar as empresas de transporte privatizadas e auditar as concessões, sem mencionar rodovias."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "eduardo-paes": {
+          "nota": 30,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Propõe recuperar as estradas do interior com obras de recapeamento e vigilância, sem mencionar concessão à iniciativa privada."
+        },
+        "juliete-pantoja": {
+          "nota": 15,
+          "evidencias": [
+            "p64"
+          ],
+          "justificativa": "Defende a estatização do transporte do estado, sem mencionar rodovias."
+        },
+        "luan-monteiro": {
+          "nota": 15,
+          "evidencias": [
+            "p38",
+            "p8"
+          ],
+          "justificativa": "Defende que serviços essenciais de transporte não fiquem com empresas privadas, e item do programa nacional prevê cancelar todas as privatizações, sem mencionar rodovias."
+        },
+        "william-siri": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        }
+      },
+      "c": {
+        "andre-marinho": {
+          "nota": 50,
+          "evidencias": [
+            "p15",
+            "p21",
+            "p26"
+          ],
+          "justificativa": "Propõe um eixo de VLT na Baixada e renovar a frota de trens, mas também conceder rodovias estaduais, sem priorizar um modo sobre o outro."
+        },
+        "coronel-busnello": {
+          "nota": 55,
+          "evidencias": [
+            "p28",
+            "p33"
+          ],
+          "justificativa": "Propõe recuperar os trens com nova frota e sinalização e implantar VLT em leito ferroviário, mas também corredores de BRT, sem priorizar o trilho sobre a rodovia."
+        },
+        "cyro-garcia": {
+          "nota": 90,
+          "evidencias": [
+            "p52",
+            "p50",
+            "p8"
+          ],
+          "justificativa": "Defende mudar o modal do rodoviário para o ferroviário e priorizar o transporte sobre trilhos."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "eduardo-paes": {
+          "nota": 40,
+          "evidencias": [
+            "p45",
+            "p46",
+            "p16"
+          ],
+          "justificativa": "Propõe recuperar a malha ferroviária e duplicar o ramal Saracuruna, mas também recuperar as estradas do interior, sem priorizar um modo sobre o outro."
+        },
+        "juliete-pantoja": {
+          "nota": 75,
+          "evidencias": [
+            "p64",
+            "p51"
+          ],
+          "justificativa": "Propõe investir na malha ferroviária e ampliá-la, sem declarar prioridade sobre o transporte rodoviário."
+        },
+        "luan-monteiro": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "william-siri": {
+          "nota": 65,
+          "evidencias": [
+            "p13",
+            "p16",
+            "p18"
+          ],
+          "justificativa": "Propõe reestatizar os trens metropolitanos com tarifa zero e expandir o metrô, sem tratar de rodovias nem de trens entre cidades do interior."
+        }
+      },
+      "d": {
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe passe livre para jovens em formação técnica, sem subsídio geral às passagens de ônibus intermunicipal."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 75,
+          "evidencias": [
+            "p50",
+            "p9"
+          ],
+          "justificativa": "Defende tarifa zero, recriar a CTC e estatizar ônibus municipais com tarifas sociais, sem citar subsídio ao ônibus intermunicipal."
+        },
+        "douglas-ruas": {
+          "nota": 60,
+          "evidencias": [
+            "p45",
+            "p21"
+          ],
+          "justificativa": "Propõe tarifa social focalizada na baixa renda e isenção em ônibus intermunicipais para viagens de cuidado de mulheres de baixa renda, sem subsídio geral às passagens."
+        },
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p42",
+            "p41"
+          ],
+          "justificativa": "Propõe subsidiar o transporte intermunicipal, com base em dados de origem e destino, para reduzir as passagens."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p49",
+            "p50"
+          ],
+          "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes, bilhete único intermunicipal e passe livre intermunicipal para estudantes, sem detalhar o subsídio."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre nos transportes para desempregados e informais, sem redução geral da passagem intermunicipal."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe reduzir progressivamente as tarifas de todo o transporte público estadual até a tarifa zero, além do que a opção pede."
+        }
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "andre-marinho": {
+          "nota": 55,
+          "evidencias": [
+            "p42",
+            "p40"
+          ],
+          "justificativa": "Propõe policlínicas regionais de média e alta complexidade e polos de oncologia e diagnóstico no interior, sem construção de hospitais regionais."
+        },
+        "coronel-busnello": {
+          "nota": 30,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Propõe equipar hospitais já existentes com UTIs nas regiões Noroeste, Serrana, Baixada Litorânea e Médio Paraíba, sem construção de novos hospitais."
+        },
+        "cyro-garcia": {
+          "nota": 65,
+          "evidencias": [
+            "p4",
+            "p16"
+          ],
+          "justificativa": "Propõe construir hospitais em um plano de obras públicas e recuperar a rede estadual, sem especificar hospitais regionais no interior."
+        },
+        "douglas-ruas": {
+          "nota": 50,
+          "evidencias": [
+            "p25",
+            "p30"
+          ],
+          "justificativa": "Propõe Centros Integrados de Saúde em cada região e contratação de leitos no interior, sem construção de hospitais regionais."
+        },
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p62",
+            "p64"
+          ],
+          "justificativa": "Propõe dois hospitais regionais públicos, na Região Serrana e no Noroeste Fluminense, e defende acabar com o deslocamento de pacientes do interior para tratamento na capital."
+        },
+        "juliete-pantoja": {
+          "nota": 40,
+          "evidencias": [
+            "p32",
+            "p27"
+          ],
+          "justificativa": "Propõe atenção primária e Saúde da Família em todas as cidades e recomposição do orçamento da saúde, sem mencionar construção de hospitais regionais."
+        },
+        "luan-monteiro": {
+          "nota": 65,
+          "evidencias": [
+            "p25",
+            "p37"
+          ],
+          "justificativa": "Item do programa nacional propõe plano de emergência para construir hospitais e postos de saúde, e defende saúde totalmente pública, sem especificar o interior do estado."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe ao menos dois novos hospitais regionais estaduais, um no Noroeste Fluminense e outro na Baixada, sem tratar do deslocamento de pacientes à capital."
+        }
+      },
+      "b": {
+        "andre-marinho": {
+          "nota": 100,
+          "evidencias": [
+            "p40",
+            "p42"
+          ],
+          "justificativa": "Propõe ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada região do interior desassistida."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p16",
+            "p12"
+          ],
+          "justificativa": "Propõe UTIs em hospitais existentes das regiões do interior e a Central de Vagas RJ, sem mencionar polos de oncologia ou de diagnóstico."
+        },
+        "cyro-garcia": {
+          "nota": 60,
+          "evidencias": [
+            "p47"
+          ],
+          "justificativa": "Promete equipar unidades de saúde para exames e cirurgias de alta complexidade, sem mencionar polos regionais ou oncologia."
+        },
+        "douglas-ruas": {
+          "nota": 80,
+          "evidencias": [
+            "p29",
+            "p25"
+          ],
+          "justificativa": "Propõe fortalecer a oncologia nas regiões do interior e Centros Integrados de Saúde com exames de imagem em cada região, com o novo instituto de oncologia na capital."
+        },
+        "eduardo-paes": {
+          "nota": 80,
+          "evidencias": [
+            "p63",
+            "p59",
+            "p64"
+          ],
+          "justificativa": "Promete pôr em funcionamento o Hospital do Câncer de Nova Friburgo e levar Super Centros Regionais de Especialidades a todas as regiões, sem citar diagnóstico de alta complexidade."
+        },
+        "juliete-pantoja": {
+          "nota": 35,
+          "evidencias": [
+            "p32",
+            "p27"
+          ],
+          "justificativa": "Propõe atenção primária em todas as cidades e recomposição do orçamento da saúde, sem mencionar oncologia ou diagnóstico de alta complexidade."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p25"
+          ],
+          "justificativa": "Item do programa nacional propõe construir hospitais e postos de saúde, sem mencionar oncologia ou diagnóstico de alta complexidade."
+        },
+        "william-siri": {
+          "nota": 45,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe dois hospitais regionais estaduais, um no Noroeste Fluminense, sem mencionar oncologia ou diagnóstico de alta complexidade."
+        }
+      },
+      "c": {
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 70,
+          "evidencias": [
+            "p16",
+            "p15",
+            "p19"
+          ],
+          "justificativa": "Propõe equipar hospitais existentes no interior, painel público de metas das OSs com auditoria e fórmula técnica obrigatória de repasse, sem vincular custeio a metas especificamente nos hospitais do interior."
+        },
+        "cyro-garcia": {
+          "nota": 50,
+          "evidencias": [
+            "p16"
+          ],
+          "justificativa": "Defende gasto em saúde acima do piso e reabertura de vagas em hospitais, sem condicionar o custeio a metas de desempenho."
+        },
+        "douglas-ruas": {
+          "nota": 100,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Propõe apoio e custeio aos hospitais do interior com metas por unidade e ranking público de desempenho."
+        },
+        "eduardo-paes": {
+          "nota": 50,
+          "evidencias": [
+            "p20",
+            "p65",
+            "p5"
+          ],
+          "justificativa": "Propõe garantir os repasses de saúde aos municípios com critérios técnicos e recuperar os hospitais estaduais, sem condicionar o custeio de hospitais do interior a metas."
+        },
+        "juliete-pantoja": {
+          "nota": 45,
+          "evidencias": [
+            "p27",
+            "p26"
+          ],
+          "justificativa": "Propõe recompor o orçamento da saúde e retomar a administração direta, encerrando os contratos com OSs, sem mencionar custeio condicionado a metas."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p24"
+          ],
+          "justificativa": "Item do programa nacional defende mais verbas para a saúde pública sem limite de gastos, sem condicionar o custeio a metas."
+        },
+        "william-siri": {
+          "nota": 40,
+          "evidencias": [
+            "p33"
+          ],
+          "justificativa": "Propõe aplicar o mínimo de 12% da receita estadual em saúde, sem direcionar a hospitais do interior nem condicionar a metas."
+        }
+      },
+      "d": {
+        "andre-marinho": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "coronel-busnello": {
+          "nota": 50,
+          "evidencias": [
+            "p14"
+          ],
+          "justificativa": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família nos municípios, sem mencionar especialistas na rede estadual."
+        },
+        "cyro-garcia": {
+          "nota": 95,
+          "evidencias": [
+            "p46",
+            "p16"
+          ],
+          "justificativa": "Propõe contratar médicos e profissionais de saúde por concurso para completar as equipes."
+        },
+        "douglas-ruas": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "eduardo-paes": {
+          "nota": 90,
+          "evidencias": [
+            "p7"
+          ],
+          "justificativa": "Propõe contratar mais médicos e especialistas."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p27",
+            "p62"
+          ],
+          "justificativa": "Propõe abrir concurso público para a saúde como primeira medida da área."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro de servidores, sem mencionar médicos ou especialistas."
+        },
+        "william-siri": {
+          "nota": 80,
+          "evidencias": [
+            "p32"
+          ],
+          "justificativa": "Propõe concursos públicos na saúde na transição para a gestão pública direta."
+        }
+      }
     }
   }
 }

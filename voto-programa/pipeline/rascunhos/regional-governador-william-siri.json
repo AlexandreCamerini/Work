@@ -86,9 +86,11 @@
         "justificativa": "Propõe aplicar o mínimo de 12% da receita estadual em saúde, sem direcionar a hospitais do interior nem condicionar a metas."
       },
       "d": {
-        "nota": null,
-        "evidencias": [],
-        "justificativa": "Sem proposta documentada sobre o tema."
+        "nota": 80,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Propõe concursos públicos na saúde na transição para a gestão pública direta."
       }
     }
   }

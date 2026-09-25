@@ -30,6 +30,7 @@ SORTEIOS = 20_000
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--eleicao", choices=aderencia.ELEICOES, default="governador-rj")
+    ap.add_argument("--regiao", help="simula quem mora nesta região (usa as cenas regionais)")
     args = ap.parse_args()
     aderencia.usar_eleicao(args.eleicao)
 
@@ -37,12 +38,17 @@ def main() -> None:
     itens = json.loads(aderencia.SAIDA.read_text(encoding="utf-8"))["itens"]
     candidatos = sorted({c for po in itens.values() for pc in po.values() for c in pc})
 
-    # uma cena por grupo, a padrão (sem público), como vê quem pula o perfil
-    cenas, grupos = [], set()
-    for p in quiz["perguntas"]:
-        if not p.get("publico") and p["grupo"] not in grupos:
-            grupos.add(p["grupo"])
-            cenas.append(p)
+    # uma cena por grupo: a regional da região pedida, senão a padrão (sem público)
+    def regional(p: dict) -> bool:
+        publico = p.get("publico") or {}
+        return bool(args.regiao) and list(publico) == ["regiao"] and args.regiao in publico["regiao"]
+
+    cenas = []
+    for grupo in dict.fromkeys(p["grupo"] for p in quiz["perguntas"]):
+        variantes = [p for p in quiz["perguntas"] if p["grupo"] == grupo]
+        escolhida = next((p for p in variantes if regional(p)), None) or next((p for p in variantes if not p.get("publico")), None)
+        if escolhida:
+            cenas.append(escolhida)
 
     def nota(p: dict, oid: str, c: str) -> int | None:
         return itens[p["id"]][oid][c]["nota"]
@@ -69,7 +75,7 @@ def main() -> None:
         sc = placar([(p, rng.choice(p["opcoes"])["id"]) for p in cenas])
         vitorias[max(sc, key=sc.get)] += 1
 
-    print(f"{args.eleicao}: {len(cenas)} cenas padrão, {len(candidatos)} candidatos")
+    print(f"{args.eleicao}{f' / {args.regiao}' if args.regiao else ''}: {len(cenas)} cenas, {len(candidatos)} candidatos")
     print(f"{'candidato':20} {'1º c/ aleatório':>16} {'posição do espelho':>19}")
     for c in candidatos:
         escolhas = []

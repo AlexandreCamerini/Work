@@ -174,6 +174,8 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       Busnello 40 em letalidade (d) e 40 em fila-especialista; Cyro 60 em falta-agua/c
       por inferência; Luan 40 em letalidade; Juliete 40 no BRT da Baixada e 30 em
       presença do Estado pós-operação.
+- [ ] **Resumos de dossiê que dizem mais que o trecho**: Marinho p41, Busnello p30, Ruas p47
+      (ver `pipeline/curadoria-cenas.md`, seção Região).
 - [ ] **Situação do registro** de Marinho, Siri, Busnello, Cyro, Juliete e Luan no
       DivulgaCand (hoje só consta "registrada").
 - [ ] **Revisão humana do acompanhamento de Lula 2022**: status discutíveis marcados

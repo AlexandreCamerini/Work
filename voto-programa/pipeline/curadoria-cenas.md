@@ -133,6 +133,23 @@ Decisão: sem pré-teste; região entra no perfil. Aplicada por `pipeline/curado
 | enchente-sul | presidente | Sul | reaproveita enchente-seca | enchentes de 2024 no RS (ANA), o da cena de origem |
 | especialista-longe | presidente | Norte | reaproveita fila-cirurgia | 442 km em média até a radioterapia no Norte (g1, 08/04/2026) |
 
+**Opção trocada depois da avaliação:** em saude-interior, "consulta por vídeo" ficou sem
+proposta para os 8 candidatos (nota nula para todos, não diferencia ninguém). Virou
+"contratar mais médico e especialista pra rede do estado", a mesma preferência da opção d de
+fila-especialista, com as mesmas notas.
+
+**Viés com as cenas regionais** (`auditar_vies.py --regiao`): o 1º lugar com respostas ao
+acaso vai de 1% a 21% no Leste e de 1% a 20% no interior; na simulação da pessoa que escolhe
+sempre a opção preferida de um candidato, 6 dos 8 ficam em 1º (Siri e Luan em 2º ou 3º,
+como nas cenas padrão).
+
+**Pontos para revisão apontados pelos avaliadores:** resumo do dossiê diz mais do que o
+trecho literal em Marinho p41 (teleconsulta), Busnello p30 (concessão ou PPP das barcas) e
+Ruas p47 (terminais aquaviários): as notas seguiram o trecho, e os resumos devem ser
+corrigidos. Notas limítrofes: Paes 55 em barca-leste c (auditoria genérica de concessões),
+Luan 25 e 50 em barca-leste c e d (reestatização genérica que talvez não inclua barcas),
+Siri 45 e 40 e Juliete 40 e 35 em saude-interior a/b/c (propostas próximas, não iguais).
+
 As três cenas com opções novas foram avaliadas para os 8 candidatos pelos mesmos critérios
 (rascunhos em `pipeline/rascunhos/regional-governador-*.json`, mescla com
 `mesclar_rascunhos.py --padrao "regional-governador-*.json"`).

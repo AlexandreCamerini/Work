@@ -1,0 +1,103 @@
+{
+  "candidato_id": "cyro-garcia",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 80,
+        "evidencias": [
+          "p51"
+        ],
+        "justificativa": "Defende que o metrô chegue a São Gonçalo e se integre aos trens, sem citar Niterói ou a Linha 3."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 20,
+        "evidencias": [
+          "p9",
+          "p8"
+        ],
+        "justificativa": "Propõe auditoria pública das concessões, mas defende estatizar as barcas em vez de manter e fiscalizar a concessionária."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p9",
+          "p49"
+        ],
+        "justificativa": "Defende estatizar as barcas com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p52",
+          "p50"
+        ],
+        "justificativa": "Defende mudar o modal do rodoviário para o ferroviário, sem proposta de recuperação de rodovias estaduais."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p50",
+          "p8"
+        ],
+        "justificativa": "Defende reestatizar as empresas de transporte privatizadas e auditar as concessões, sem mencionar rodovias."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p52",
+          "p50",
+          "p8"
+        ],
+        "justificativa": "Defende mudar o modal do rodoviário para o ferroviário e priorizar o transporte sobre trilhos."
+      },
+      "d": {
+        "nota": 75,
+        "evidencias": [
+          "p50",
+          "p9"
+        ],
+        "justificativa": "Defende tarifa zero, recriar a CTC e estatizar ônibus municipais com tarifas sociais, sem citar subsídio ao ônibus intermunicipal."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 65,
+        "evidencias": [
+          "p4",
+          "p16"
+        ],
+        "justificativa": "Propõe construir hospitais em um plano de obras públicas e recuperar a rede estadual, sem especificar hospitais regionais no interior."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p47"
+        ],
+        "justificativa": "Promete equipar unidades de saúde para exames e cirurgias de alta complexidade, sem mencionar polos regionais ou oncologia."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Defende gasto em saúde acima do piso e reabertura de vagas em hospitais, sem condicionar o custeio a metas de desempenho."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p46",
+          "p16"
+        ],
+        "justificativa": "Propõe contratar médicos e profissionais de saúde por concurso para completar as equipes."
+      }
+    }
+  }
+}

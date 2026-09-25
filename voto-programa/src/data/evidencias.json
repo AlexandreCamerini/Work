@@ -522,9 +522,29 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
       }
     },
+    "p15": {
+      "resumo": "Propõe painel público de metas das OSs, com auditoria automática para as que descumprirem metas por dois trimestres seguidos.",
+      "trecho": "O Governo do Estado lançará plataforma pública com indicadores mensais por unidade — atendimentos realizados, tempo médio de espera, taxa de infecção hospitalar e cumprimento de metas —, com auditoria compulsória automática para OS que descumprirem metas por dois trimestres consecutivos, respeitados o contraditório e a ampla defesa.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
     "p16": {
       "resumo": "Propõe equipar hospitais existentes com UTI adulto e neonatal nas quatro regiões de maior déficit.",
       "trecho": "O Governo do Estado equipará hospitais já existentes — sem construção do zero — com UTI adulto e UTI neonatal nas quatro regiões de maior déficit, priorizando Noroeste, Serrana, Baixada Litorânea e Médio Paraíba",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p19": {
+      "resumo": "Promete enviar à Alerj lei com fórmula técnica obrigatória para os repasses estaduais de saúde aos municípios.",
+      "trecho": "O Governo do Estado enviará à Assembleia Legislativa, nos primeiros meses de mandato, projeto de lei que fixa fórmula técnica obrigatória de repasse",
       "fonte": {
         "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
         "tipo": "plano_de_governo",
@@ -600,6 +620,26 @@
         "tipo": "plano_de_governo",
         "data": null,
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p30": {
+      "resumo": "Propõe novas rotas de ferry-boats e catamarãs com terminais em São Gonçalo, Duque de Caxias, Magé e Ilha do Governador, via concessão ou PPP.",
+      "trecho": "O Governo do Estado implantará novas rotas aquaviárias mistas — ferry-boats para carga e passageiros e catamarãs de alta frequência —, com terminais em Gradim (São Gonçalo), Duque de Caxias, Magé e Ilha do Governador, e integração física e tarifária, com meta de retirar cerca de 15 mil caminhões por mês das rodovias e transportar 50 mil passageiros por dia.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho; também em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-coronel-busnello.pdf"
+      }
+    },
+    "p31": {
+      "resumo": "Em campanha, defendeu terminal de barcas em São Gonçalo integrado a metrô, trem e ônibus com bilhetagem única.",
+      "trecho": "Você tem que criar as barcas de São Gonçalo, um terminal de barcas de São Gonçalo para o Rio de Janeiro, integrado ao metrô, ao trem, ao ônibus, com uma bilhetagem única. Essa é a nossa proposta",
+      "fonte": {
+        "veiculo": "g1 / RJ2",
+        "tipo": "noticia",
+        "data": "2026-09-17",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/busnello-agenda-industrializar-sao-goncalo-com-investimentos-e-renuncia-fiscal.ghtml"
       }
     },
     "p32": {
@@ -1286,6 +1326,36 @@
         "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/"
       }
     },
+    "p29": {
+      "resumo": "Propõe um novo Instituto Estadual de Oncologia na capital e o fortalecimento da oncologia no interior.",
+      "trecho": "Novo Instituto Estadual de Oncologia na capital e fortalecimento da oncologia nas regiões do interior, encurtando o tempo entre o diagnóstico e o início do tratamento.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p30": {
+      "resumo": "Propõe nova maternidade de referência para gestações de risco na região metropolitana e contratação de leitos no interior.",
+      "trecho": "Nova maternidade de referência para gestações de risco na região metropolitana mais desassistida e contratação de leitos no interior.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
+    "p32": {
+      "resumo": "Propõe apoio e custeio a hospitais do interior condicionados a metas, com ranking público de desempenho.",
+      "trecho": "Apoio e custeio aos hospitais do interior com metas assumidas por cada unidade e ranking público de desempenho.",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
+      }
+    },
     "p33": {
       "resumo": "Propõe implantar o modelo cívico-militar em pelo menos 200 escolas estaduais, após apresentação à comunidade escolar.",
       "trecho": "Pretendo franquear visitas às unidades já existentes para pais, alunos e profissionais da educação conhecerem, com muito diálogo, e depois implantar esse modelo em pelo menos 200 escolas.",
@@ -1394,6 +1464,16 @@
         "tipo": "noticia",
         "data": "2026-09-16",
         "url": "https://diariodorio.com/politica/2026/09/16/douglas-ruas-promete-metro-a-rs-5-e-cobra-melhor-servico-de-concessionarias-no-rio.html"
+      }
+    },
+    "p47": {
+      "resumo": "Propõe cobrar da concessionária das barcas pontualidade, regularidade e redução de cancelamentos, e modernizar terminais aquaviários.",
+      "trecho": "Cobrança das obrigações contratuais das barcas, especialmente pontualidade, regularidade das travessias e redução dos cancelamentos que prejudicam o Leste Metropolitano",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf"
       }
     },
     "p48": {
@@ -1668,6 +1748,16 @@
         "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
       }
     },
+    "p5": {
+      "resumo": "Propõe recuperar os hospitais e UPAs estaduais para funcionarem com mais eficiência e agilidade.",
+      "trecho": "Recuperar os serviços públicos de saúde do estado, colocando os hospitais e as UPAs estaduais para funcionarem com mais eficiência, agilidade e empatia com a população.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
     "p7": {
       "resumo": "Propõe contratar mais médicos e especialistas e assegurar o fornecimento e a distribuição de remédios no estado.",
       "trecho": "Contratar mais médicos e especialistas e oferecer um atendimento humanizado para as pessoas, além de assegurar o fornecimento e distribuição de remédios em todo o estado.",
@@ -1738,6 +1828,16 @@
         "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
       }
     },
+    "p16": {
+      "resumo": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância.",
+      "trecho": "Recuperar as estradas do interior com obras de recapeamento, restauração e módulos de vigilância, atuando nos 32 mil quilômetros por onde passa tudo que é consumido e produzido no nosso estado.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
     "p17": {
       "resumo": "Propõe um plano de obras contra enchentes e deslizamentos, com prioridade para Região Serrana, Costa Verde e Baixada Fluminense.",
       "trecho": "Implantar um grande plano de obras para combater as enchentes e prevenir deslizamentos em todo o estado, com especial atenção à Região Serrana, Costa Verde e Baixada Fluminense.",
@@ -1751,6 +1851,16 @@
     "p18": {
       "resumo": "Propõe reequilibrar as finanças estaduais e recuperar a capacidade de investimento, com gestão por resultados, metas e transparência.",
       "trecho": "Colocar as contas públicas em ordem, reequilibrar as finanças e devolver ao nosso estado a capacidade de investir, sempre com responsabilidade fiscal, gestão por resultados, metas claras com prestação de contas e transparência em cada área do governo.",
+      "fonte": {
+        "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+        "tipo": "plano_de_governo",
+        "data": "2026-08-16",
+        "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf"
+      }
+    },
+    "p20": {
+      "resumo": "Compromete-se a fazer sem atraso os repasses estaduais de saúde e educação aos municípios.",
+      "trecho": "Garantir sem atrasos todos os repasses para a saúde e a educação dos municípios.",
       "fonte": {
         "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
         "tipo": "plano_de_governo",
@@ -1918,6 +2028,16 @@
         "url": "https://eduardopaes55.com.br/"
       }
     },
+    "p46": {
+      "resumo": "Compromete-se a duplicar o ramal Saracuruna e colocar trens elétricos até o fim do mandato.",
+      "trecho": "Vamos duplicar o ramal Saracuruna, colocar trens elétricos e esse é um compromisso de mobilidade que vou realizar até o fim do meu mandato.",
+      "fonte": {
+        "veiculo": "Diário do Rio",
+        "tipo": "noticia",
+        "data": "2026-09-15",
+        "url": "https://diariodorio.com/politica/2026/09/15/em-mage-eduardo-paes-promete-duplicar-ramal-saracuruna-e-criar-programa-trem-seguro.html"
+      }
+    },
     "p47": {
       "resumo": "Propõe criar o programa Trem Seguro, nos moldes do BRT Seguro.",
       "trecho": "Da mesma maneira que implantamos o BRT Seguro, vamos implementar o Trem Seguro, um projeto que já se mostrou eficiente",
@@ -2001,6 +2121,46 @@
     "p61": {
       "resumo": "Afirma que fará sete supercentros de especialidades nas regiões do estado para acabar com a fila do Sisreg.",
       "trecho": "Vamos fazer sete supercentros pelas outras regiões do estado com especialidade para que a gente possa ver o fim da fila desse sistema de regulação, do famoso Sisreg",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "noticia",
+        "data": "2026-09-07",
+        "url": "https://agendadopoder.com.br/paes-promete-acabar-com-fila-do-sisreg-com-sete-supercentros-de-saude-no-estado/"
+      }
+    },
+    "p62": {
+      "resumo": "Propõe construir dois hospitais regionais públicos, na Região Serrana e no Noroeste Fluminense.",
+      "trecho": "Quando você olha para Serra Norte, a partir de Friburgo, indo em direção ao Noroeste Fluminense, nós precisamos fazer aqui dois hospitais regionais públicos, aqui e no Noroeste Fluminense.",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml"
+      }
+    },
+    "p63": {
+      "resumo": "Promete concluir e pôr em funcionamento o Hospital do Câncer de Nova Friburgo.",
+      "trecho": "Então vamos inaugurar, abrir e botar pra funcionar o Hospital do Câncer de Friburgo",
+      "fonte": {
+        "veiculo": "g1 (RJ2)",
+        "tipo": "noticia",
+        "data": "2026-09-18",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml"
+      }
+    },
+    "p64": {
+      "resumo": "Defende acabar com o deslocamento de pacientes do interior à Região Metropolitana para tratamentos como quimioterapia.",
+      "trecho": "Vamos parar com esse turismo sanitário, que é o povo do interior ter que viajar assim. Você está fazendo um tratamento de câncer, por exemplo, quimioterapia, os prefeitos têm que alugar a van, que só tem tratamento aqui na Região Metropolitana do Rio",
+      "fonte": {
+        "veiculo": "Agenda do Poder",
+        "tipo": "entrevista",
+        "data": "2026-08-17",
+        "url": "https://agendadopoder.com.br/paes-defende-neutralizar-criminosos-armados-que-enfrentarem-forcas-de-seguranca/"
+      }
+    },
+    "p65": {
+      "resumo": "Defende critérios técnicos, e não políticos, na distribuição de recursos de saúde.",
+      "trecho": "Essa distribuição tem que se dar de acordo com critérios técnicos, não políticos",
       "fonte": {
         "veiculo": "Agenda do Poder",
         "tipo": "noticia",
@@ -2844,6 +3004,16 @@
         "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
       }
     },
+    "p20": {
+      "resumo": "Propõe estudar novas linhas de barcas (São Gonçalo, Ilha do Governador, Fundão, Ilha Grande, Baixada) e, no longo prazo, reestatizar o transporte hidroviário.",
+      "trecho": "Elaborar um plano de ampliação do transporte hidroviário, com estudos para novas linhas de barcas em São Gonçalo, Ilha do Governador, Ilha do Fundão, Baía da Ilha Grande e Baixada Fluminense, integradas aos demais modais, e avançar progressivamente na retomada do controle público e reestatização da rede de transporte hidroviário no longo prazo;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
     "p21": {
       "resumo": "Propõe iniciar a retomada pública e reestatização da Cedae, com auditoria dos contratos de concessão pela Agenersa e processo para cancelamento dos contratos.",
       "trecho": "Iniciar o processo de retomada pública e reestatização da CEDAE, fortalecendo a Agenersa e os órgãos competentes para realizar uma auditoria rigorosa dos contratos de concessão, apurar irregularidades, cobranças abusivas, descumprimento de metas e falhas na prestação dos serviços.",
@@ -2927,6 +3097,16 @@
     "p32": {
       "resumo": "Propõe transição da gestão privada (OSs) para gestão pública direta da saúde, com concursos, encerrando progressivamente a terceirização.",
       "trecho": "Implementar um plano de transição do sistema atual, que prioriza a gestão privada, para um sistema de gestão pública e direta com a realização de concursos públicos na área da saúde, evitando a desorganização do serviço e a desassistência, garantindo o progressivo encerramento de todas as formas de privatização e terceirização da Saúde;",
+      "fonte": {
+        "veiculo": "TSE / Nexo Jornal (espelho)",
+        "tipo": "plano_de_governo",
+        "data": null,
+        "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf"
+      }
+    },
+    "p33": {
+      "resumo": "Propõe aplicar o mínimo constitucional de 12% da receita estadual em saúde.",
+      "trecho": "Ampliar os recursos destinados à saúde com a aplicação do mínimo constitucional de 12% das verbas estaduais",
       "fonte": {
         "veiculo": "TSE / Nexo Jornal (espelho)",
         "tipo": "plano_de_governo",
