@@ -1,0 +1,737 @@
+{
+  "escala-6x1": {
+    "paragrafos": [
+      "O Brasil tem 50,2 milhões de trabalhadores com carteira assinada. Desses, 37,2 milhões cumprem 44 horas por semana. Além deles, 1,4 milhão de trabalhadoras domésticas estão na escala 6x1. Tocantins, Santa Catarina e Roraima têm a maior fatia de celetistas nessa escala.",
+      "O limite de 44 horas está na Constituição, e só o Congresso pode mudá-lo. A Câmara aprovou em maio de 2026 uma proposta de 40 horas com duas folgas. Uma comissão do Senado aprovou em setembro. Falta a votação no plenário do Senado, em dois turnos.",
+      "Acabar com a 6x1 sem cortar salário dá mais descanso, mas empresas apontam custo maior. Negociar direto com a empresa traz flexibilidade, mas quem negocia sozinho tem menos força. Rever a reforma de 2017 devolve proteções, mas pode encarecer contratações. Reduzir imposto na folha estimula vagas, mas tira receita do governo.",
+      "Desde 2017, acordos coletivos já podem mudar a jornada em vários pontos. Hoje, a empresa paga em geral 20% de INSS sobre a folha de salários."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Escala 6x1: quantos trabalhadores podem ser afetados por mudança",
+        "data": "2026-05-28",
+        "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/05/28/fim-da-escala-6x1-trabalhadores-afetados.ghtml"
+      },
+      {
+        "veiculo": "Estado de Minas",
+        "titulo": "PEC do fim da escala 6x1 aguarda votação final no Senado; entenda a tramitação em setembro de 2026",
+        "data": "2026-09-21",
+        "url": "https://www.em.com.br/politica/2026/09/7504982-pec-do-fim-da-escala-6x1-aguarda-votacao-final-no-senado-entenda-a-tramitacao-em-setembro-de-2026.html"
+      },
+      {
+        "veiculo": "Planalto",
+        "titulo": "Lei nº 13.467, de 13 de julho de 2017 (reforma trabalhista)",
+        "data": "2017-07-13",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm"
+      },
+      {
+        "veiculo": "Agência Câmara",
+        "titulo": "Sancionada lei que mantém desoneração da folha em 2024",
+        "data": "2024-09-17",
+        "url": "https://www.camara.leg.br/noticias/1097176-sancionada-lei-que-mantem-desoneracao-da-folha-em-2024/"
+      }
+    ]
+  },
+  "custo-contratar": {
+    "paragrafos": [
+      "No 2º trimestre de 2026, 74,4% dos empregados do setor privado tinham carteira assinada. No Maranhão eram 53,6%; em Santa Catarina, 86,7%. O país tem cerca de 17 milhões de microempreendedores individuais, os MEIs.",
+      "As regras de contratação são federais e mudam por lei do Congresso. A empresa paga, em geral, 20% de INSS sobre a folha. Dezessete setores pagam menos até 2027. O teto do MEI é de R$ 81 mil por ano desde 2018. O STF ainda decide quando a contratação como PJ é válida.",
+      "Baixar aos poucos o custo da folha pode gerar vagas, mas tira receita da Previdência. Contrato mais barato para jovens e maiores de 50 ajuda esses grupos, mas pode substituir outros empregados. Subir o teto do MEI ajuda pequenos negócios, mas reduz a arrecadação. Fiscalizar falsos PJs protege direitos, mas empresas temem mais processos.",
+      "Um projeto do governo no Congresso eleva o teto do MEI. Seria R$ 110 mil em 2027 e R$ 140 mil em 2028."
+    ],
+    "fontes": [
+      {
+        "veiculo": "IBGE",
+        "titulo": "PNAD Contínua Trimestral: desocupação cai em 13 das 27 UFs no 2º trimestre de 2026",
+        "data": "2026-08-14",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+      },
+      {
+        "veiculo": "Agência Câmara",
+        "titulo": "Sancionada lei que mantém desoneração da folha em 2024",
+        "data": "2024-09-17",
+        "url": "https://www.camara.leg.br/noticias/1097176-sancionada-lei-que-mantem-desoneracao-da-folha-em-2024/"
+      },
+      {
+        "veiculo": "Agência Câmara",
+        "titulo": "Projeto do governo aumenta teto da receita de MEI para até R$ 140 mil em 2028",
+        "data": "2026-06-30",
+        "url": "https://www.camara.leg.br/noticias/1286510-PROJETO-DO-GOVERNO-AUMENTA-TETO-DA-RECEITA-DE-MEI-PARA-ATE-R$-140-MIL-EM-2028"
+      },
+      {
+        "veiculo": "TST",
+        "titulo": "STF retira suspensão de processos sobre pejotização na primeira instância e nos TRTs",
+        "data": "2026-06-18",
+        "url": "https://www.tst.jus.br/en/-/stf-retira-suspensao-de-processos-sobre-pejotizacao-na-primeira-instancia-e-nos-trts"
+      }
+    ]
+  },
+  "trabalho-app": {
+    "paragrafos": [
+      "Quem trabalha por aplicativo trabalha mais e ganha menos por hora. Em 2024, a média era de 44,8 horas por semana, contra 39,3 horas dos demais. O ganho por hora era 8,3% menor. Sete em cada dez estavam na informalidade.",
+      "Não há lei específica para esse trabalho; cabe ao Congresso criá-la. Um projeto na Câmara previa piso por entrega, seguro e contribuição ao INSS. Em abril de 2026, ele saiu de pauta, e o debate deve voltar em 2027. O STF também vai julgar se existe vínculo de emprego.",
+      "Lei com ganho mínimo e direitos dá renda previsível, mas pode encarecer corridas. Previdência própria, sem sindicato, protege sem mudar o modelo, mas não garante ganho mínimo. Pagar o INSS quando der cabe numa renda irregular, mas o benefício acompanha o que foi pago. Deixar como está mantém a flexibilidade, mas também a baixa proteção.",
+      "No app Meu INSS dá para conferir se há contribuições registradas. Sem contribuições em dia, o auxílio por doença não é garantido."
+    ],
+    "fontes": [
+      {
+        "veiculo": "IBGE",
+        "titulo": "Número de trabalhadores por aplicativos cresceu 25,4% entre 2022 e 2024",
+        "data": "2025-10-17",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44806-numero-de-trabalhadores-por-aplicativos-cresceu-25-4-entre-2022-e-2024"
+      },
+      {
+        "veiculo": "Agência Câmara",
+        "titulo": "Cancelada reunião para votar regulamentação do trabalho por aplicativo; conheça a proposta",
+        "data": "2026-04-14",
+        "url": "https://www.camara.leg.br/noticias/1261809-comissao-pode-votar-regulamentacao-do-trabalho-por-aplicativo-conheca-a-proposta"
+      },
+      {
+        "veiculo": "Folha de S.Paulo",
+        "titulo": "Regulação de trabalho por app deve ficar para 2027",
+        "data": "2026-04-14",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/04/impasse-trava-regulacao-de-trabalho-por-aplicativo-e-congresso-so-deve-voltar-a-tratar-do-tema-em-2027.shtml"
+      },
+      {
+        "veiculo": "Folha de S.Paulo",
+        "titulo": "STF: crise trava ações sobre pejotização, INSS e apps",
+        "data": "2026-09-15",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/09/crise-no-stf-impacta-julgamento-de-acoes-de-pejotizacao-uberizacao-e-reforma-da-previdencia.shtml"
+      }
+    ]
+  },
+  "salario-minimo": {
+    "paragrafos": [
+      "Em agosto de 2026, a cesta básica levou em média 48,46% do salário mínimo líquido nas capitais. Em São Paulo, a cesta custou R$ 900,59. Pelo cálculo do Dieese, uma família de quatro pessoas precisaria de R$ 7.565,86 por mês.",
+      "O governo federal reajusta o mínimo todo ano, seguindo uma lei. A conta soma a inflação e o crescimento do PIB. O ganho acima da inflação está limitado a 2,5%. Em 2027 começa o cashback: famílias de baixa renda do CadÚnico recebem de volta parte do imposto pago.",
+      "Aumento real todo ano melhora a renda, mas pesa na Previdência, que segue o mínimo. Cesta sem imposto e cashback miram os mais pobres, mas reduzem a arrecadação. Premiar quem paga em dia e estuda estimula bons hábitos, mas exclui quem não consegue. Cortar impostos e burocracia pode baratear preços, mas exige cortar gastos.",
+      "Em 2025, os impostos somaram 32,4% do PIB, segundo o Tesouro. O Dieese divulga todo mês o preço da cesta em 27 capitais."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Dieese",
+        "titulo": "Custo da cesta básica diminui em 25 capitais (agosto de 2026)",
+        "data": "2026-09-10",
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202608cestabasica.html"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Salário mínimo de R$ 1.621 começa a ser pago nesta segunda",
+        "data": "2026-02-02",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-02/salario-minimo-de-r-1621-comeca-ser-pago-nesta-segunda"
+      },
+      {
+        "veiculo": "Folha de S.Paulo",
+        "titulo": "Cashback da reforma tributária começa em 2027 com pagamentos trimestrais",
+        "data": "2026-08-07",
+        "url": "https://www1.folha.uol.com.br/blogs/que-imposto-e-esse/2026/08/cashback-da-reforma-tributaria-comeca-em-2027-com-pagamentos-trimestrais.shtml"
+      },
+      {
+        "veiculo": "Tesouro Nacional",
+        "titulo": "Carga tributária bruta do Governo Geral atinge 32,40% do PIB em 2025",
+        "data": "2026-04-10",
+        "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025"
+      }
+    ]
+  },
+  "imposto-renda": {
+    "paragrafos": [
+      "A nova isenção do IR vale desde janeiro de 2026, e há desconto para rendas até R$ 7.350 mensais. Para compensar, quem recebe mais de R$ 600 mil por ano paga um imposto mínimo, de até 10%. Cerca de 140 mil pessoas de alta renda são atingidas.",
+      "Imposto de renda e IOF são federais. O IR muda por lei do Congresso; o IOF, por decreto do governo. Em 2025, o IOF sobre compras com cartão no exterior subiu para 3,5%. Um cronograma de 2022 previa zerar o IOF do câmbio até 2029.",
+      "Corrigir a tabela todo ano evita que a inflação faça mais gente pagar, mas custa receita. Rever a reforma e baixar o imposto sobre consumo alivia preços, mas exige compensação. Acabar com o IOF do câmbio barateia gastos no exterior, mas reduz receita. Taxar mais produtos nocivos desestimula o consumo, mas pesa em quem compra.",
+      "O Imposto Seletivo começa em 2027 sobre cigarro, bebidas alcoólicas e refrigerantes. As alíquotas ainda dependem de lei."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Agência Senado",
+        "titulo": "Sancionada isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês",
+        "data": "2025-11-27",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes"
+      },
+      {
+        "veiculo": "Planalto",
+        "titulo": "Decreto nº 12.499, de 11 de junho de 2025 (altera o IOF)",
+        "data": "2025-06-11",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12499.htm"
+      },
+      {
+        "veiculo": "Receita Federal",
+        "titulo": "Nota Cetad/Coest nº 11/2022: decreto de redução gradual do IOF-câmbio",
+        "data": "2022-01-20",
+        "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/estudos/notas-cetad/notas-tecnicas/2022/nota-cetad-coest-no-011-2022"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Imposto do pecado: bebidas alcoólicas, refrigerantes e cigarros; governo diz que tributação começa em 2027",
+        "data": "2026-06-07",
+        "url": "https://g1.globo.com/economia/noticia/2026/06/07/imposto-do-pecado-bebidas-alcoolicas-refrigerantes-e-cigarros-governo-diz-que-tributacao-comeca-em-2027-para-reduzir-consumo.ghtml"
+      }
+    ]
+  },
+  "juros-altos": {
+    "paragrafos": [
+      "Em setembro de 2026, a Selic caiu para 13,75% ao ano, no quinto corte seguido. A dívida bruta do governo chegou a 82,5% do PIB em julho, cerca de R$ 10,9 trilhões. Os juros sobre essa dívida foram o principal motivo da alta no ano.",
+      "Quem define a Selic é o Copom, do Banco Central. O objetivo é cumprir a meta de inflação de 3%. Desde 2021, o BC tem autonomia por lei, com mandatos fixos. Os gastos do governo seguem o arcabouço fiscal: a despesa cresce até 70% da alta da receita.",
+      "Manter o arcabouço dá previsibilidade, mas a dívida segue subindo com os juros. Metas de superávit podem reduzir a dívida mais rápido, mas apertam serviços públicos. Vender imóveis e usar royalties abate dívida, mas é receita que acaba. Mudar o foco do BC para o emprego pode baixar juros, mas pode trazer mais inflação.",
+      "Pela lei, o emprego já é objetivo secundário do BC. A próxima reunião que decide a Selic será depois do segundo turno."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Selic: Copom reduz taxa de juros para 13,75% ao ano",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/economia/noticia/2026/09/16/copom-reduz-a-taxa-basica-de-juros-da-economia-a-selic-de-14percent-para-1375percent-ao-ano.ghtml"
+      },
+      {
+        "veiculo": "Banco Central",
+        "titulo": "Estatísticas fiscais: nota de 31.8.2026 (dívida bruta de julho)",
+        "data": "2026-08-31",
+        "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202608_Texto_de_estatisticas_fiscais.pdf"
+      },
+      {
+        "veiculo": "Planalto",
+        "titulo": "Lei Complementar nº 179, de 24 de fevereiro de 2021 (autonomia do Banco Central)",
+        "data": "2021-02-24",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm"
+      },
+      {
+        "veiculo": "Planalto",
+        "titulo": "Lei Complementar nº 200, de 30 de agosto de 2023 (arcabouço fiscal)",
+        "data": "2023-08-30",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm"
+      }
+    ]
+  },
+  "fila-cirurgia": {
+    "paragrafos": [
+      "O SUS fez 14,9 milhões de cirurgias eletivas em 2025, 42% a mais que em 2022. Mesmo assim, muita gente espera meses ou anos por especialista. O país não tem uma fila nacional pública e transparente para medir a demanda.",
+      "A União financia e coordena o SUS; estados e municípios organizam as filas. Mais de 70% da atenção especializada é feita por prestadores privados contratados. Desde 2025, um programa federal paga hospitais particulares com abatimento de tributos. Há contratos para 600 mil procedimentos em 21 estados.",
+      "Comprar exames e cirurgias da rede privada amplia a oferta rápido, mas pode custar mais que a tabela SUS. Uma fila única digital por gravidade organiza a espera, mas exige ligar sistemas de estados e cidades. Mutirões e carretas zeram filas locais, mas são temporários. Pagar mais aos hospitais atrai prestadores, mas pede mais orçamento.",
+      "O paciente não deve procurar o hospital parceiro direto. O encaminhamento sai do posto de saúde, pela regulação."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Portal Drauzio Varella",
+        "titulo": "Um ano depois: o que mudou com o Agora Tem Especialistas — e o que ainda trava as filas do SUS",
+        "data": "2026-06-01",
+        "url": "https://drauziovarella.uol.com.br/saude-publica/um-ano-depois-o-que-mudou-com-o-agora-tem-especialistas-e-o-que-ainda-trava-as-filas-do-sus/"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Pacientes do SUS serão atendidos por hospitais particulares para a realização de 600 mil cirurgias e exames",
+        "data": "2026-08-29",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/pacientes-do-sus-serao-atendidos-por-hospitais-particulares-para-a-realizacao-de-600-mil-cirurgias-e-exames"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Carretas do Agora Tem Especialistas ultrapassam 1 milhão de procedimentos no SUS",
+        "data": "2026-09-19",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/carretas-do-agora-tem-especialistas-ultrapassam-1-milhao-de-procedimentos-no-sus"
+      },
+      {
+        "veiculo": "Futuro da Saúde",
+        "titulo": "Santas casas buscam reajuste da Tabela SUS no STJ",
+        "data": "2026-05-20",
+        "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/"
+      }
+    ]
+  },
+  "especialista-longe": {
+    "paragrafos": [
+      "O Norte tem 1,62 médico por mil habitantes, a menor entre as regiões; a média nacional é 2,61. A região reúne só 5,9% dos especialistas. No Brasil, mais de seis em cada dez pacientes saem da própria cidade para fazer radioterapia.",
+      "A União financia e coordena o SUS; estados e municípios organizam as filas. O Norte forma poucos especialistas: tem só 3,6% dos médicos residentes do país. Desde 2025, um programa federal compra atendimento em hospitais particulares e leva carretas ao interior.",
+      "Comprar exames e cirurgias da rede privada amplia a oferta rápido, mas pode custar mais que a tabela SUS. Uma fila única digital por gravidade organiza a espera, mas exige ligar sistemas de estados e cidades. Mutirões e carretas zeram filas locais, mas são temporários. Pagar mais aos hospitais atrai prestadores, mas pede mais orçamento.",
+      "Em setembro de 2026, carretas chegaram a Autazes (AM) e Guajará-Mirim (RO). O atendimento é agendado pela rede pública."
+    ],
+    "fontes": [
+      {
+        "veiculo": "FAPESP na Mídia",
+        "titulo": "Crescimento no número de médicos não reduz desigualdade no Norte do Brasil, aponta estudo da Faculdade de Medicina da USP",
+        "data": "2025-05-07",
+        "url": "https://namidia.fapesp.br/crescimento-no-numero-de-medicos-nao-reduz-desigualdade-no-norte-do-brasil-aponta-estudo-da-faculdade-de-medicina-da-usp/612429"
+      },
+      {
+        "veiculo": "Faculdade de Medicina da USP",
+        "titulo": "Ministério da Saúde, FMUSP e AMB lançam a Demografia Médica no Brasil 2025",
+        "data": "2025-04-30",
+        "url": "https://www.fm.usp.br/fmusp/noticias/ministerio-da-saude-fmusp-e-amb-lancam-a-demografia-medica-no-brasil-2025"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Pacientes do Norte viajam até 6 vezes mais que os do Sul para tratar câncer; acesso ainda depende do CEP",
+        "data": "2026-04-08",
+        "url": "https://g1.globo.com/saude/noticia/2026/04/08/pacientes-do-norte-viajam-ate-6-vezes-mais-que-os-do-sul-para-tratar-cancer-acesso-ainda-depende-do-cep.ghtml"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Carretas do Agora Tem Especialistas ultrapassam 1 milhão de procedimentos no SUS",
+        "data": "2026-09-19",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/carretas-do-agora-tem-especialistas-ultrapassam-1-milhao-de-procedimentos-no-sus"
+      }
+    ]
+  },
+  "plano-voltou-sus": {
+    "paragrafos": [
+      "O Brasil tem 52,97 milhões de pessoas com plano médico. A maioria, 44,49 milhões, está em planos coletivos. A ANS limita a 5,11% o reajuste anual só dos planos individuais. Nos coletivos, não há teto.",
+      "Pelas regras da ANS, o último aumento por idade acontece aos 59 anos. Essa faixa pode custar até seis vezes a primeira. Quem deixa o plano volta à fila do SUS, organizada por estados e municípios. Mais de 70% da atenção especializada do SUS é feita por prestadores privados.",
+      "Comprar exames e cirurgias da rede privada amplia a oferta rápido, mas pode custar mais que a tabela SUS. Uma fila única digital por gravidade organiza a espera, mas exige ligar sistemas de estados e cidades. Mutirões e carretas zeram filas locais, mas são temporários. Pagar mais aos hospitais atrai prestadores, mas pede mais orçamento.",
+      "Contratos novos não podem ter aumento por idade depois dos 60. Cobranças fora da regra podem ser denunciadas à ANS."
+    ],
+    "fontes": [
+      {
+        "veiculo": "ANS",
+        "titulo": "Nota de esclarecimento sobre reajuste de planos individuais",
+        "data": "2026-07-20",
+        "url": "https://www.gov.br/ans/pt-br/assuntos/noticias-1/periodo-eleitoral/nota-de-esclarecimento"
+      },
+      {
+        "veiculo": "ANS",
+        "titulo": "Variação da mensalidade por mudança de faixa etária",
+        "data": "2021-03-16",
+        "url": "https://www.gov.br/ans/pt-br/assuntos/consumidor/reajuste-variacao-de-mensalidade/reajuste-por-mudanca-de-faixa-etaria"
+      },
+      {
+        "veiculo": "Portal Drauzio Varella",
+        "titulo": "Um ano depois: o que mudou com o Agora Tem Especialistas — e o que ainda trava as filas do SUS",
+        "data": "2026-06-01",
+        "url": "https://drauziovarella.uol.com.br/saude-publica/um-ano-depois-o-que-mudou-com-o-agora-tem-especialistas-e-o-que-ainda-trava-as-filas-do-sus/"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Pacientes do SUS serão atendidos por hospitais particulares para a realização de 600 mil cirurgias e exames",
+        "data": "2026-08-29",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/pacientes-do-sus-serao-atendidos-por-hospitais-particulares-para-a-realizacao-de-600-mil-cirurgias-e-exames"
+      }
+    ]
+  },
+  "faccao-bairro": {
+    "paragrafos": [
+      "Em 2025, o Brasil teve 40.775 mortes violentas, o menor número desde 2012. Mas investigações da PF apontam lavagem de dinheiro do crime organizado na cadeia de combustíveis. Em maio de 2026, os Estados Unidos classificaram duas facções brasileiras como terroristas.",
+      "As polícias Militar e Civil são dos estados. A União comanda a Polícia Federal e a PRF. Uma proposta de mudança na Constituição integra as polícias da União, dos estados e das cidades. Ela passou numa comissão do Senado em setembro e prevê presídio de segurança máxima para chefes.",
+      "Tratar facção como terrorista pode ampliar sanções e ajuda externa, mas o Congresso rejeitou isso por risco à soberania. Um ministério que financia estados integra ações, mas depende de orçamento. Presídio de segurança máxima isola chefes, mas exige novas vagas. Polícia fixa no bairro dá presença contínua, mas pede mais policiais."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Feminicídios batem recorde no Brasil, na contramão do menor número de assassinatos em 13 anos, indica Anuário da Segurança",
+        "data": "2026-07-23",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/anuario-seguranca-publica-2025.ghtml"
+      },
+      {
+        "veiculo": "Agência Senado",
+        "titulo": "Na CPI, ministro da Justiça defende cooperação nacional e internacional contra o crime",
+        "data": "2025-12-09",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/12/09/na-cpi-lewandowski-defende-cooperacao-nacional-e-internacional-contra-o-crime"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "PEC da Segurança: CCJ do Senado aprova proposta mas não conclui votação",
+        "data": "2026-09-02",
+        "url": "https://g1.globo.com/politica/noticia/2026/09/02/apos-seis-meses-engavetada-pec-da-seguranca-e-aprovada-na-ccj-do-senado.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Congresso debateu e rejeitou equiparar facções criminosas a organizações terroristas",
+        "data": "2026-05-31",
+        "url": "https://g1.globo.com/politica/noticia/2026/05/31/congresso-debateu-e-rejeitou-equiparar-faccoes-criminosas-a-organizacoes-terroristas.ghtml"
+      }
+    ]
+  },
+  "celular-roubado": {
+    "paragrafos": [
+      "Em 2025, seis em cada dez celulares levados foram furtados, sem violência. Os roubos, com ameaça, caíram 18,6%. Eles se concentram nas ruas e à noite. São Luís, Belém e São Paulo têm as maiores taxas por habitante.",
+      "Roubo de rua é tarefa das polícias estaduais: a Militar patrulha, a Civil investiga. O Congresso define as penas, e a União comanda a Polícia Federal e a Rodoviária Federal. A PF tem cerca de 13 mil integrantes, e sua direção propõe dobrar esse número. Em 2025, PMs de 13 estados usavam câmeras corporais.",
+      "Pena mais dura pode desestimular o crime, mas aumenta a população presa. Reconhecimento facial ajuda a achar foragidos, mas erra mais com pessoas negras. Câmera no uniforme registra a abordagem, mas custa caro aos estados. Dobrar a PF e a PRF reforça fronteiras e estradas, mas o patrulhamento das ruas é das PMs.",
+      "Furtos acontecem mais no fim de semana, entre 10h e 12h e entre 17h e 20h. Roubos se concentram em dias úteis, com pico às 20h."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "95 celulares são roubados ou furtados por hora no Brasil",
+        "data": "2026-07-23",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      },
+      {
+        "veiculo": "Ponte Jornalismo",
+        "titulo": "PM adota câmeras corporais na maioria dos estados, mas para menor parte do efetivo",
+        "data": "2025-07-08",
+        "url": "https://ponte.org/pm-adota-cameras-corporais-na-maioria-dos-estados-mas-para-menor-parte-do-efetivo/"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Estudo aponta riscos das tecnologias de reconhecimento facial",
+        "data": "2025-05-07",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/estudo-aponta-riscos-das-tecnologias-de-reconhecimento-facial"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Em CPI, PF pede aumento de 38% em orçamento e sugere dobrar efetivo",
+        "data": "2025-11-18",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-11/em-cpi-pf-pede-aumento-de-38-em-orcamento-e-sugere-dobrar-efetivo"
+      }
+    ]
+  },
+  "celular-sinal": {
+    "paragrafos": [
+      "Em 2025, 77,2% dos roubos de celular aconteceram em via pública. O pico é às 20h, na volta do trabalho ou da escola. A capital paulista concentra 20% dos roubos e furtos do país. No Rio de Janeiro, os registros subiram 22,7%.",
+      "Roubo de rua é tarefa das polícias estaduais: a Militar patrulha, a Civil investiga. O Congresso define as penas, e a União comanda a Polícia Federal e a Rodoviária Federal. A PF tem cerca de 13 mil integrantes, e sua direção propõe dobrar esse número. Em 2025, PMs de 13 estados usavam câmeras corporais.",
+      "Pena mais dura pode desestimular o crime, mas aumenta a população presa. Reconhecimento facial ajuda a achar foragidos, mas erra mais com pessoas negras. Câmera no uniforme registra a abordagem, mas custa caro aos estados. Dobrar a PF e a PRF reforça fronteiras e estradas, mas o patrulhamento das ruas é das PMs.",
+      "Roubos se concentram em dias úteis, com pico nas sextas-feiras."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "95 celulares são roubados ou furtados por hora no Brasil",
+        "data": "2026-07-23",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      },
+      {
+        "veiculo": "Ponte Jornalismo",
+        "titulo": "PM adota câmeras corporais na maioria dos estados, mas para menor parte do efetivo",
+        "data": "2025-07-08",
+        "url": "https://ponte.org/pm-adota-cameras-corporais-na-maioria-dos-estados-mas-para-menor-parte-do-efetivo/"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Estudo aponta riscos das tecnologias de reconhecimento facial",
+        "data": "2025-05-07",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/estudo-aponta-riscos-das-tecnologias-de-reconhecimento-facial"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Em CPI, PF pede aumento de 38% em orçamento e sugere dobrar efetivo",
+        "data": "2025-11-18",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-11/em-cpi-pf-pede-aumento-de-38-em-orcamento-e-sugere-dobrar-efetivo"
+      }
+    ]
+  },
+  "largar-escola": {
+    "paragrafos": [
+      "O abandono no ensino médio público caiu de 3,8% em 2023 para 2,5% em 2025. Já a evasão, quando o aluno não volta no ano seguinte, era de 9,5% em 2022. Até julho de 2026, o MEC não tinha divulgado dado mais novo.",
+      "A União paga o Pé-de-Meia a alunos de baixa renda: até R$ 9.200 no ensino médio. O programa custa cerca de R$ 12 bilhões por ano. Em 2025, 26,8% das matrículas do ensino médio eram em tempo integral. Em 2026, havia 1.578 escolas militarizadas, a maioria de redes estaduais.",
+      "Poupança para todos amplia o incentivo, mas custa mais, e parte receberia sem precisar. Curso técnico dá profissão, mas exige laboratórios e professores. Escola cívico-militar foca em disciplina, mas ações no STF questionam o modelo. Tempo integral aumenta o estudo, mas quem já trabalha pode não conseguir ficar.",
+      "Em 2025, a educação profissional de nível médio chegou a 1,29 milhão de matrículas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Folha de S.Paulo",
+        "titulo": "MEC não sabe quantos alunos do Pé-de-Meia abandonam a escola; pesquisa indica melhora",
+        "data": "2026-07-06",
+        "url": "https://www1.folha.uol.com.br/educacao/2026/07/mec-nao-sabe-quantos-beneficiados-do-pe-de-meia-abandonaram-a-escola-pesquisa-indica-melhora.shtml"
+      },
+      {
+        "veiculo": "Agência Brasil",
+        "titulo": "Um em cada quatro alunos da rede pública estuda em tempo integral",
+        "data": "2026-02-26",
+        "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-02/um-em-cada-quatro-alunos-da-rede-publica-estuda-em-tempo-integral"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Ensino técnico e educação integral têm aumento no número de matrículas",
+        "data": "2026-02-26",
+        "url": "https://g1.globo.com/educacao/noticia/2026/02/26/ensino-tecnico-e-educacao-integral-crescem-em-2025-mesmo-em-cenario-desfavoravel-mostra-censo.ghtml"
+      },
+      {
+        "veiculo": "Folha de S.Paulo",
+        "titulo": "Escolas cívico-militares sextuplicam no Brasil em 7 anos",
+        "data": "2026-05-21",
+        "url": "https://www1.folha.uol.com.br/educacao/2026/05/sem-definicao-sobre-constitucionalidade-escolas-militarizadas-sextuplicam-no-brasil-em-7-anos.shtml"
+      }
+    ]
+  },
+  "pagar-faculdade": {
+    "paragrafos": [
+      "O Brasil tinha 10,23 milhões de estudantes no ensino superior em 2024. Quase oito em cada dez, 79,8%, estavam em faculdades privadas. O total de matrículas cresceu 2,5% em um ano.",
+      "A União mantém universidades e institutos federais e financia o Fies. Os estados mantêm suas universidades. O Fies acumula contratos em atraso. Em 2026, uma renegociação ofereceu descontos de até 99% a devedores do CadÚnico. O governo estimou mais de 1 milhão de beneficiados.",
+      "Pagar conforme a renda protege quem ganha pouco, mas o governo demora a receber. Mais vagas públicas gratuitas ampliam o acesso, mas exigem orçamento permanente. Voucher em faculdade particular usa vagas que já existem, mas o governo paga a mensalidade. Mais cursos técnicos formam rápido, mas não substituem todas as graduações.",
+      "Os institutos federais concentram 19% das matrículas da educação profissional de nível médio."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Instituto Semesp",
+        "titulo": "16º Mapa do Ensino Superior / 2026",
+        "data": "2026-03-14",
+        "url": "https://www.semesp.org.br/mapa/edicao-16/"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Desenrola: estudantes do Fies podem ter descontos de até 99% com novo programa; veja regras",
+        "data": "2026-05-04",
+        "url": "https://g1.globo.com/economia/post/2026/05/04/desenrola-20-estudantes-do-fies-podem-ter-descontos-de-ate-99percent-com-novo-programa-veja-regras.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Ensino técnico e educação integral têm aumento no número de matrículas",
+        "data": "2026-02-26",
+        "url": "https://g1.globo.com/educacao/noticia/2026/02/26/ensino-tecnico-e-educacao-integral-crescem-em-2025-mesmo-em-cenario-desfavoravel-mostra-censo.ghtml"
+      }
+    ]
+  },
+  "conta-luz": {
+    "paragrafos": [
+      "Em 2026, a conta de luz embute R$ 47,8 bilhões em subsídios, pagos pelos consumidores. O valor cresceu 17,7% em um ano. Parte paga a tarifa social, que dá desconto a 60 milhões de pessoas.",
+      "A ANEEL, agência federal, define as tarifas e o orçamento desses subsídios. A Petrobras responde por cerca de 70% do diesel consumido no país. Ela vendeu sua distribuidora em 2019 e só pode voltar aos postos a partir de meados de 2029.",
+      "Petrobras nos postos e mais refino reduzem a dependência externa, mas exigem investimento. Cortar encargos e impostos baixa a conta, mas alguém precisa pagar os subsídios. O fracking pode ampliar o gás nacional, mas preocupa pelo risco a aquíferos. Mais hidrelétricas e menos carvão limpam a matriz, mas dependem de chuva.",
+      "Em 2025, as hidrelétricas geraram 51,7% da eletricidade, e o carvão, cerca de 1,4%. O STJ julga desde setembro de 2026 se o fracking pode ser usado no país."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo",
+        "titulo": "Consumidores devem pagar R$ 47,8 bilhões em subsídios nas contas de luz de 2026",
+        "data": "2025-12-09",
+        "url": "https://oglobo.globo.com/economia/noticia/2025/12/09/consumidores-devem-pagar-478-bilhoes-em-subsidios-nas-contas-de-luz-de-2026.ghtml"
+      },
+      {
+        "veiculo": "Exame",
+        "titulo": "Petrobras avalia voltar à distribuição de combustíveis, diz presidente",
+        "data": "2026-04-16",
+        "url": "https://exame.com/negocios/petrobras-avalia-voltar-a-distribuicao-de-combustiveis-diz-presidente/"
+      },
+      {
+        "veiculo": "STJ",
+        "titulo": "Fracking no Brasil: entenda o que o STJ vai decidir no IAC 21",
+        "data": "2026-09-04",
+        "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/04092026-Fracking-entenda-o-que-o-STJ-vai-decidir-sobre-a-exploracao-de-combustiveis-de-fontes-nao-convencionais.aspx"
+      },
+      {
+        "veiculo": "EPE",
+        "titulo": "Balanço Energético Nacional 2026: Relatório Síntese, ano base 2025",
+        "data": "2026-06-03",
+        "url": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-975/topico-847/BEN_S%C3%ADntese_2026_PT.pdf"
+      }
+    ]
+  },
+  "enchente-seca": {
+    "paragrafos": [
+      "Os extremos vêm dos dois lados. Em 2024, o fogo atingiu mais de 30 milhões de hectares no Brasil, 79% a mais que em 2023. Para o Sul, estudos indicam cheias extremas até cinco vezes mais frequentes.",
+      "Obras de prevenção envolvem União, estados e municípios. O licenciamento segue a lei geral de 2025, que criou uma licença por autodeclaração para obras de menor impacto. O Brasil prometeu cortar de 59% a 67% das emissões até 2035.",
+      "Zerar o desmatamento corta emissões, mas exige fiscalização constante e limita a abertura de novas áreas para produzir. Obras contra cheia e seca protegem logo, mas são caras e demoram. Licença automática após o prazo acelera obras, mas pode liberar projetos sem análise. Buscar petróleo novo gera renda e royalties, mas aumenta emissões futuras.",
+      "Em 2024, 6,7 milhões de hectares de pastagens também queimaram."
+    ],
+    "fontes": [
+      {
+        "veiculo": "MapBiomas",
+        "titulo": "Área queimada no Brasil cresce 79% em 2024 e supera os 30 milhões de hectares",
+        "data": "2025-01-22",
+        "url": "https://brasil.mapbiomas.org/2025/01/22/area-queimada-no-brasil-cresce-79-em-2024-e-supera-os-30-milhoes-de-hectares/"
+      },
+      {
+        "veiculo": "ANA",
+        "titulo": "Estudo aponta que enchentes de 2024 foram maior desastre natural da história do RS e sugere caminhos para futuro com eventos extremos mais frequentes",
+        "data": "2025-04-30",
+        "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+      },
+      {
+        "veiculo": "Agência Senado",
+        "titulo": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental",
+        "data": "2025-11-27",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental"
+      },
+      {
+        "veiculo": "Ministério dos Povos Indígenas",
+        "titulo": "Brasil entrega à ONU nova NDC alinhada ao Acordo de Paris",
+        "data": "2024-11-13",
+        "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/11/brasil-entrega-a-onu-nova-ndc-alinhada-ao-acordo-de-paris"
+      }
+    ]
+  },
+  "enchente-sul": {
+    "paragrafos": [
+      "A enchente de 2024 foi o maior desastre natural da história gaúcha. O Guaíba chegou a 5,37 m, acima do recorde de 1941. Entre 35% e 40% dos atingidos na região de Porto Alegre moravam em áreas protegidas por diques que falharam.",
+      "Obras contra cheias envolvem União, estados e municípios. Os sistemas de proteção de Porto Alegre foram projetados entre 1960 e 1980. O licenciamento segue a lei geral de 2025, que criou uma licença por autodeclaração para obras de menor impacto. O Brasil prometeu cortar de 59% a 67% das emissões até 2035.",
+      "Zerar o desmatamento corta emissões, mas exige fiscalização constante e limita a abertura de novas áreas para produzir. Obras contra cheia e seca protegem logo, mas são caras e demoram. Licença automática após o prazo acelera obras, mas pode liberar projetos sem análise. Buscar petróleo novo gera renda e royalties, mas aumenta emissões futuras.",
+      "Para o Sul, estudos projetam cheias extremas até cinco vezes mais frequentes. Por isso, a ANA recomenda dimensionar obras para chuvas 15% a 20% maiores."
+    ],
+    "fontes": [
+      {
+        "veiculo": "ANA",
+        "titulo": "Estudo aponta que enchentes de 2024 foram maior desastre natural da história do RS e sugere caminhos para futuro com eventos extremos mais frequentes",
+        "data": "2025-04-30",
+        "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+      },
+      {
+        "veiculo": "Agência Senado",
+        "titulo": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental",
+        "data": "2025-11-27",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental"
+      },
+      {
+        "veiculo": "Ministério dos Povos Indígenas",
+        "titulo": "Brasil entrega à ONU nova NDC alinhada ao Acordo de Paris",
+        "data": "2024-11-13",
+        "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/11/brasil-entrega-a-onu-nova-ndc-alinhada-ao-acordo-de-paris"
+      }
+    ]
+  },
+  "fumaca-queimada": {
+    "paragrafos": [
+      "Em 2024, o fogo queimou 17,9 milhões de hectares na Amazônia, 9,7 milhões no Cerrado e 1,9 milhão no Pantanal. Em outubro de 2024, o rio Negro chegou a 12,66 m em Manaus, o menor nível já medido. Todas as 62 cidades do Amazonas entraram em emergência.",
+      "Combater fogo e desmatamento envolve União, estados e municípios. Em 2025, o desmatamento na Amazônia caiu 11%, mas subiu 25% em Mato Grosso, segundo o Inpe. O Brasil prometeu cortar de 59% a 67% das emissões até 2035.",
+      "Zerar o desmatamento corta emissões, mas exige fiscalização constante e limita a abertura de novas áreas para produzir. Obras contra cheia e seca protegem logo, mas são caras e demoram. Licença automática após o prazo acelera obras, mas pode liberar projetos sem análise. Buscar petróleo novo gera renda e royalties, mas aumenta emissões futuras.",
+      "Na Amazônia, a floresta foi o tipo de vegetação que mais queimou em 2024, à frente das pastagens."
+    ],
+    "fontes": [
+      {
+        "veiculo": "MapBiomas",
+        "titulo": "Área queimada no Brasil cresce 79% em 2024 e supera os 30 milhões de hectares",
+        "data": "2025-01-22",
+        "url": "https://brasil.mapbiomas.org/2025/01/22/area-queimada-no-brasil-cresce-79-em-2024-e-supera-os-30-milhoes-de-hectares/"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Rio Negro atinge maior seca da história, em 121 anos de medição",
+        "data": "2024-10-04",
+        "url": "https://oglobo.globo.com/brasil/noticia/2024/10/04/rio-negro-atinge-maior-seca-da-historia-em-121-anos-de-medicao.ghtml"
+      },
+      {
+        "veiculo": "Inpe",
+        "titulo": "Dados do Prodes apontam redução no desmatamento na Amazônia e no Cerrado brasileiros",
+        "data": "2025-10-30",
+        "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/dados-do-prodes-apontam-reducao-no-desmatamento-na-amazonia-e-no-cerrado-brasileiros-1"
+      },
+      {
+        "veiculo": "Ministério dos Povos Indígenas",
+        "titulo": "Brasil entrega à ONU nova NDC alinhada ao Acordo de Paris",
+        "data": "2024-11-13",
+        "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/11/brasil-entrega-a-onu-nova-ndc-alinhada-ao-acordo-de-paris"
+      }
+    ]
+  },
+  "seca-nordeste": {
+    "paragrafos": [
+      "No Semiárido, a Operação Carro-Pipa abastece cerca de 34 mil cisternas coletivas. Isso leva água potável a mais de 1,5 milhão de pessoas por mês. Em janeiro de 2026, só Pernambuco tinha 112 cidades em emergência reconhecida.",
+      "O carro-pipa é coordenado pelo Ministério da Integração e pelo Exército. A cidade precisa ter a emergência reconhecida pelo governo federal. A transposição do São Francisco leva água por 260 km no Eixo Norte até a Paraíba. O Brasil prometeu cortar de 59% a 67% das emissões até 2035.",
+      "Zerar o desmatamento corta emissões, mas exige fiscalização constante e limita a abertura de novas áreas para produzir. Obras contra cheia e seca protegem logo, mas são caras e demoram. Licença automática após o prazo acelera obras, mas pode liberar projetos sem análise. Buscar petróleo novo gera renda e royalties, mas aumenta emissões futuras.",
+      "Segundo o ministério, a vazão do Eixo Norte deve dobrar, de 23 para 46 m³ por segundo, em dois anos."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Ministério da Integração",
+        "titulo": "Operação Carro-Pipa: 26 anos levando água para o povo brasileiro",
+        "data": "2024-09-26",
+        "url": "https://www.gov.br/mdr/pt-br/noticias/operacao-carro-pipa-26-anos-levando-agua-para-o-povo-brasileiro"
+      },
+      {
+        "veiculo": "Ministério da Integração",
+        "titulo": "Pernambuco soma 112 cidades em situação de emergência",
+        "data": "2026-01-28",
+        "url": "https://www.gov.br/mdr/pt-br/noticias/pernambuco-soma-112-cidades-em-situacao-de-emergencia"
+      },
+      {
+        "veiculo": "Ministério da Integração",
+        "titulo": "MIDR e Exército monitoram abastecimento de água no Eixo Norte do São Francisco",
+        "data": "2025-10-21",
+        "url": "https://www.gov.br/mdr/pt-br/noticias/midr-e-exercito-monitoram-abastecimento-de-agua-no-eixo-norte-do-sao-francisco"
+      },
+      {
+        "veiculo": "Ministério dos Povos Indígenas",
+        "titulo": "Brasil entrega à ONU nova NDC alinhada ao Acordo de Paris",
+        "data": "2024-11-13",
+        "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/11/brasil-entrega-a-onu-nova-ndc-alinhada-ao-acordo-de-paris"
+      }
+    ]
+  },
+  "video-falso": {
+    "paragrafos": [
+      "Seis em cada dez internautas leem notícias todo dia por aplicativos de mensagem. Só 36% dizem checar sempre o que recebem. Sete em cada dez brasileiros já viram alguma notícia falsa, segundo o DataSenado.",
+      "Em 2025, o STF decidiu como as redes respondem enquanto o Congresso não aprova nova lei. Elas respondem por conteúdo criminoso que não retirarem após aviso. Desde março de 2026, o ECA Digital exige checar a idade para conteúdo adulto. Também proíbe caixas de recompensa em jogos infantis.",
+      "Regras contra mentira e ódio reduzem conteúdo ilegal, mas podem derrubar posts legítimos. Sem regra nova nem órgãos de governo, a expressão fica mais livre, mas há menos resposta à mentira. Proteger crianças foca nos vulneráveis, mas exige coletar dados de idade. Deixar só a Justiça punir garante juiz independente, mas o processo é lento.",
+      "Antes de repassar um vídeo, vale procurar a mesma notícia em veículos conhecidos."
+    ],
+    "fontes": [
+      {
+        "veiculo": "NIC.br",
+        "titulo": "Brasileiros desconfiam mais de notícias de veículos jornalísticos que de conteúdo de amigos em redes sociais e mensagens",
+        "data": "2026-04-10",
+        "url": "https://nic.br/noticia/na-midia/brasileiros-desconfiam-mais-de-noticias-de-veiculos-jornalisticos-que-de-conteudo-de-amigos-em-redes-sociais-e-mensagens/"
+      },
+      {
+        "veiculo": "DataSenado",
+        "titulo": "O que os brasileiros pensam sobre o combate à desinformação",
+        "data": "2025-09-05",
+        "url": "https://www12.senado.leg.br/verifica/materias-especiais/2026/datasenado-o-que-os-brasileiros-pensam-sobre-o-combate-a-desinformacao"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "STF define parâmetros para responsabilização de plataformas por conteúdos de terceiros",
+        "data": "2025-06-26",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-define-parametros-para-responsabilizacao-de-plataformas-por-conteudos-de-terceiros/"
+      },
+      {
+        "veiculo": "Ministério dos Direitos Humanos",
+        "titulo": "ECA Digital: conheça as regras de proteção de crianças e adolescentes no ambiente online",
+        "data": "2026-08-21",
+        "url": "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/defeso-eleitoral/agosto/eca-digital-conheca-as-regras-de-protecao-de-criancas-e-adolescentes-no-ambiente-online"
+      }
+    ]
+  },
+  "gasto-governo": {
+    "paragrafos": [
+      "Em 2025, foram pagos R$ 24,3 bilhões acima do teto salarial a 67,3 mil servidores, sobretudo juízes e promotores. No mesmo ano, os Correios tiveram prejuízo de R$ 8,5 bilhões. A estatal pegou R$ 12 bilhões emprestados com garantia da União.",
+      "O governo propõe o Orçamento, e o Congresso aprova. Deputados e senadores indicam o destino das emendas. O STF exige que elas sejam rastreáveis. Em 2026, mandou a PF apurar indícios de crime em emendas Pix. O teto salarial é o salário de ministro do STF.",
+      "Cortar ministérios, cargos e supersalários reduz gastos, mas o teto depende de lei e do STF. Mudar as emendas aumenta o controle, mas depende do próprio Congresso. Privatizar gera caixa e tira prejuízos da União, mas o governo perde o comando do serviço. Manter e recuperar estatais preserva esse comando, mas exige dinheiro público.",
+      "O Portal da Transparência reúne dados sobre a aprovação e o uso de cada emenda."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo",
+        "titulo": "Supersalários: em 2025, R$ 24,3 bi foram pagos acima do teto a 67,3 mil servidores",
+        "data": "2026-08-10",
+        "url": "https://oglobo.globo.com/economia/noticia/2026/08/10/supersalarios-em-2025-r-243-bi-foram-pagos-acima-do-teto-a-673-mil-servidores.ghtml"
+      },
+      {
+        "veiculo": "Valor Econômico",
+        "titulo": "Correios mais do que triplicam perdas em 2025",
+        "data": "2026-04-24",
+        "url": "https://valor.globo.com/brasil/noticia/2026/04/24/correios-mais-do-que-triplicam-perdas-em-2025.ghtml"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "STF determina que PF apure possíveis crimes na execução de ‘Emendas Pix’",
+        "data": "2026-08-07",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-determina-que-pf-apure-possiveis-crimes-na-execucao-de-emendas-pix/"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "Emendas parlamentares: estados e municípios devem adotar modelo federal de transparência",
+        "data": "2025-10-23",
+        "url": "https://noticias.stf.jus.br/postsnoticias/emendas-parlamentares-estados-e-municipios-devem-adotar-modelo-federal-de-transparencia/"
+      }
+    ]
+  },
+  "agressor-rondando": {
+    "paragrafos": [
+      "Em 2025, o Brasil registrou 132.025 casos de descumprimento de medida protetiva. É uma média de mais de 360 por dia. Os registros cresceram 17% em um ano. Para cada feminicídio, houve três tentativas.",
+      "A Justiça concede a medida protetiva, e as polícias dos estados fiscalizam. Desde abril de 2026, a lei prevê tornozeleira no agressor em caso de risco. Ela avisa a vítima e a polícia. Ao menos 6% do fundo federal de segurança deve ir para essa área. O país tem 13 Casas da Mulher Brasileira.",
+      "Tornozeleira avisa a aproximação, mas depende de aparelhos e equipes dos estados. Mais abrigos e centros acolhem quem precisa sair de casa, mas levam tempo para abrir. Botão no celular agiliza o socorro, mas depende de sinal e de resposta rápida. Pena maior para quem descumpre pune com rigor, mas não impede o primeiro ataque.",
+      "O Ligue 180 é gratuito, funciona 24 horas e aceita denúncia de qualquer pessoa, inclusive de vizinhos."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Fórum Brasileiro de Segurança Pública",
+        "titulo": "Anuário 2026: Segurança em números (infográfico)",
+        "data": "2026-07-23",
+        "url": "https://forumseguranca.org.br/wp-content/uploads/2026/07/anuario-2026-infografico.pdf"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Feminicídios batem recorde no Brasil, na contramão do menor número de assassinatos em 13 anos, indica Anuário da Segurança",
+        "data": "2026-07-23",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/anuario-seguranca-publica-2025.ghtml"
+      },
+      {
+        "veiculo": "Câmara dos Deputados",
+        "titulo": "Lei nº 15.383, de 9 de abril de 2026 (monitoração eletrônica de agressores)",
+        "data": "2026-04-09",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15383-9-abril-2026-798938-publicacaooriginal-178826-pl.html"
+      },
+      {
+        "veiculo": "Radioagência Nacional",
+        "titulo": "Casa da Mulher Brasileira é referência em acolher vítimas de violência",
+        "data": "2026-08-19",
+        "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-08/casa-da-mulher-brasileira-e-referencia-em-acolher-vitimas-de-violencia"
+      }
+    ]
+  }
+}
