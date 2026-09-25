@@ -1,0 +1,93 @@
+{
+  "candidato_id": "douglas-ruas",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p42",
+          "p43"
+        ],
+        "justificativa": "Propõe acompanhar o estudo da Linha 3 e buscar recursos federais ou PPP, mas afirma que a obra não se conclui em um mandato."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p47",
+          "p46"
+        ],
+        "justificativa": "Propõe cobrar da concessionária das barcas pontualidade, regularidade e menos cancelamentos, com rescisão do contrato em caso de descumprimento."
+      },
+      "d": {
+        "nota": 30,
+        "evidencias": [
+          "p46",
+          "p45",
+          "p21"
+        ],
+        "justificativa": "Propõe cobrar as concessionárias e prevê tarifa social focalizada e isenção em barcas para viagens de cuidado, sem estatizar o transporte aquaviário."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p45",
+          "p21"
+        ],
+        "justificativa": "Propõe tarifa social focalizada na baixa renda e isenção em ônibus intermunicipais para viagens de cuidado de mulheres de baixa renda, sem subsídio geral às passagens."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p25",
+          "p30"
+        ],
+        "justificativa": "Propõe Centros Integrados de Saúde em cada região e contratação de leitos no interior, sem construção de hospitais regionais."
+      },
+      "b": {
+        "nota": 80,
+        "evidencias": [
+          "p29",
+          "p25"
+        ],
+        "justificativa": "Propõe fortalecer a oncologia nas regiões do interior e Centros Integrados de Saúde com exames de imagem em cada região, com o novo instituto de oncologia na capital."
+      },
+      "c": {
+        "nota": 100,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Propõe apoio e custeio aos hospitais do interior com metas por unidade e ranking público de desempenho."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}

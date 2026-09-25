@@ -1,0 +1,95 @@
+{
+  "candidato_id": "william-siri",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Prevê, no longo prazo, a Linha 3 do metrô ligando o centro da capital à região de Itaboraí."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Propõe um plano de ampliação do transporte hidroviário com estudos para novas linhas de barcas, incluindo São Gonçalo."
+      },
+      "c": {
+        "nota": 20,
+        "evidencias": [
+          "p20",
+          "p14"
+        ],
+        "justificativa": "Propõe retomar o controle público e reestatizar as barcas, e não cobrar metas da concessionária."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p20",
+          "p14",
+          "p15"
+        ],
+        "justificativa": "Propõe reestatizar o transporte hidroviário e reduzir as tarifas até a tarifa zero em todo o transporte público estadual."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p13",
+          "p16",
+          "p18"
+        ],
+        "justificativa": "Propõe reestatizar os trens metropolitanos com tarifa zero e expandir o metrô, sem tratar de rodovias nem de trens entre cidades do interior."
+      },
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe reduzir progressivamente as tarifas de todo o transporte público estadual até a tarifa zero, além do que a opção pede."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe ao menos dois novos hospitais regionais estaduais, um no Noroeste Fluminense e outro na Baixada, sem tratar do deslocamento de pacientes à capital."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe dois hospitais regionais estaduais, um no Noroeste Fluminense, sem mencionar oncologia ou diagnóstico de alta complexidade."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p33"
+        ],
+        "justificativa": "Propõe aplicar o mínimo de 12% da receita estadual em saúde, sem direcionar a hospitais do interior nem condicionar a metas."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}
