@@ -1,0 +1,820 @@
+{
+  "trem-parado": {
+    "paragrafos": [
+      "Os trens ligam o Rio a outras 11 cidades e levam cerca de 300 mil pessoas por dia. Das 104 estações, só 23 são acessíveis. No Censo 2022, 12,5% dos trabalhadores de Queimados gastavam mais de 2 horas até o emprego.",
+      "Os trilhos e as regras são do governo do estado. Desde 30 de maio de 2026, quem opera é a TrensRJ, no lugar da SuperVia. O contrato é de permissão, por 5 anos. A empresa recebe por quilômetro rodado, e não por passageiro.",
+      "Romper o contrato por meta descumprida pune a empresa, mas pode parar o serviço e ir à Justiça. Manter e cobrar evita nova troca, mas depende de fiscalização firme. Trem novo com segurança própria melhora a viagem, mas custa caro. Empresa pública dá controle direto, mas a conta fica toda com o estado.",
+      "No dia a dia, repare no intervalo entre os trens, nas escadas rolantes e nos avisos de atraso. A nova operadora tem prazo de 5 anos para mostrar resultado."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "SuperVia encerra operações no Rio após quase 30 anos; novo consórcio assume sistema ferroviário",
+        "data": "2026-05-29",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/05/29/supervia-encerra-operacoes-no-rio.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Após 27 anos, última viagem dos trens do Rio operados pela SuperVia acontece nesta sexta-feira; veja os problemas de cada ramal",
+        "data": "2026-05-29",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/05/29/apos-27-anos-ultima-viagem-dos-trens-do-rio-operados-pela-supervia-acontece-nesta-sexta-feira.ghtml"
+      },
+      {
+        "veiculo": "O Globo (dados do Censo 2022, IBGE)",
+        "titulo": "Censo 2022: Região Metropolitana do Rio concentra cidades onde o deslocamento para o trabalho leva mais de duas horas",
+        "data": "2025-10-09",
+        "url": "https://oglobo.globo.com/brasil/noticia/2025/10/09/censo-2022-regiao-metropolitana-do-rio-concentra-cidades-onde-o-deslocamento-para-o-trabalho-leva-mais-de-duas-horas.ghtml"
+      }
+    ]
+  },
+  "estrada-interior": {
+    "paragrafos": [
+      "Em 2024, a CNT avaliou 2.651 km de rodovias no estado. Só 52,9% estavam em estado ótimo ou bom. O DER-RJ cuida de 112 rodovias, com mais de 6 mil km.",
+      "As estradas estaduais são do governo do estado, pelo DER-RJ. Algumas já foram concedidas a empresas, com pedágio. Em 2026, o DER informou que só 4 de 20 contratos de conservação seguiam valendo.",
+      "Recuperar com dinheiro do estado mantém controle público, mas disputa verba com saúde e escola. Conceder sem pedágio novo traz investimento privado, mas o estado precisa pagar a empresa de outro jeito. Trem de passageiros tira carros da estrada, mas leva anos. Passagem subsidiada alivia o bolso, mas não conserta o asfalto.",
+      "Fique de olho: a ferrovia federal Vitória-Rio, prevista para 2033, é de carga, mas o contrato admite trem de passageiros. Na RJ-116, concedida desde 2001, a agência reguladora apontou R$ 87 milhões em obras não feitas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Gazeta do Povo (dados da CNT)",
+        "titulo": "As melhores e as piores rodovias do Rio de Janeiro segundo análise da CNT",
+        "data": "2025-01-03",
+        "url": "https://www.gazetadopovo.com.br/brasil/melhores-e-piores-rodovias-rio-de-janeiro/"
+      },
+      {
+        "veiculo": "Tempo Real RJ",
+        "titulo": "Urgência previsível: governo do estado pretende gastar R$ 190 milhões em contratos emergenciais para conservação de rodovias",
+        "data": "2026-04-15",
+        "url": "https://temporealrj.com/contratos-emergenciais-der-rj/"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Governo do RJ prorroga concessão da RJ-116 por mais 25 anos",
+        "data": "2026-03-26",
+        "url": "https://g1.globo.com/rj/regiao-serrana/noticia/2026/03/26/governo-do-rj-prorroga-concessao-da-rj-116-por-mais-25-anos.ghtml"
+      },
+      {
+        "veiculo": "A Gazeta (ES)",
+        "titulo": "Entidades pedem inclusão de trem de passageiros no projeto da Vitória-Rio",
+        "data": "2025-01-30",
+        "url": "https://www.agazeta.com.br/es/economia/entidades-pedem-inclusao-de-trem-de-passageiros-no-projeto-da-vitoria-rio-0125"
+      }
+    ]
+  },
+  "barca-leste": {
+    "paragrafos": [
+      "As barcas levaram mais de 28 milhões de passageiros em 2014. Em 2024, foram pouco mais de 12 milhões. A linha Praça XV–Arariboia concentra cerca de 85% da demanda.",
+      "Desde fevereiro de 2025, o estado comanda o serviço. O consórcio Barcas Rio só opera e recebe por milha navegada. Segundo o governo, a passagem cobre só 25% do custo. O resto sai de impostos.",
+      "A Linha 3 do metrô levaria muita gente sob a baía, mas custa R$ 14,6 bilhões e segue em estudo. Novas barcas e terminal em São Gonçalo saem antes, mas exigem subsídio. Multar a operadora pressiona por horário, mas não cria viagens. Estatizar com tarifa baixa alivia o bolso, mas amplia o gasto público.",
+      "No dia a dia, compare o horário publicado com a partida real. Veja também se a climatização prometida chegou ao seu barco."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "O que promete a nova concessionária das barcas da Baía de Guanabara",
+        "data": "2025-02-14",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/02/14/o-que-promete-a-nova-concessionaria-das-barcas-da-baia-de-guanabara.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Governo do RJ anuncia redução de passagem das barcas entre Rio e Niterói para R$ 4,70",
+        "data": "2025-03-13",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/03/13/governo-do-rj-anuncia-reducao-de-passagem-das-barcas-entre-rio-e-niteroi.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Governo do RJ anuncia projeto de expansão do metrô",
+        "data": "2025-06-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/09/projeto-de-expansao-do-metro-anunciado-pelo-governo-do-rj.ghtml"
+      },
+      {
+        "veiculo": "CBN",
+        "titulo": "Novos estudos da Linha 3 do metrô preveem 50 km de extensão e 29 estações entre Rio, Niterói, São Gonçalo e Itaboraí",
+        "data": "2026-06-01",
+        "url": "https://cbn.globo.com/rio-de-janeiro/noticia/2026/06/01/novos-estudos-da-linha-3-do-metro-preveem-50-km-de-extensao-e-29-estacoes-entre-rio-niteroi-sao-goncalo-e-itaborai.ghtml"
+      }
+    ]
+  },
+  "transito-carro": {
+    "paragrafos": [
+      "No Censo 2022, mais de 92 mil moradores da capital levavam mais de 2 horas até o trabalho. Queimados, Nova Iguaçu e Belford Roxo lideram o país nessa proporção.",
+      "Cada meio tem um dono. Metrô e trem são do estado; ônibus da cidade e BRT, da prefeitura. O BNDES listou 15 projetos de metrô, VLT e BRT na região, que somam R$ 68 bilhões.",
+      "Mais metrô leva muita gente, mas custa bilhões e demora anos. BRT na Baixada sai mais barato e rápido, mas carrega menos que o trilho. Novas pistas entre vias expressas aliviam gargalos, mas podem atrair mais carros. Tarifa zero atrai passageiros, mas precisa de uma fonte fixa de dinheiro.",
+      "Um exemplo local: em Maricá, a prefeitura banca ônibus de graça com royalties do petróleo. São cerca de 115 mil embarques por dia."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo (dados do Censo 2022, IBGE)",
+        "titulo": "Censo 2022: Região Metropolitana do Rio concentra cidades onde o deslocamento para o trabalho leva mais de duas horas",
+        "data": "2025-10-09",
+        "url": "https://oglobo.globo.com/brasil/noticia/2025/10/09/censo-2022-regiao-metropolitana-do-rio-concentra-cidades-onde-o-deslocamento-para-o-trabalho-leva-mais-de-duas-horas.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Governo do RJ anuncia projeto de expansão do metrô",
+        "data": "2025-06-09",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/06/09/projeto-de-expansao-do-metro-anunciado-pelo-governo-do-rj.ghtml"
+      },
+      {
+        "veiculo": "Folha do Leste",
+        "titulo": "Linha 3 do Metrô: projeto prevê ligar Rio, Niterói e São Gonçalo e está entre as propostas mapeadas pelo BNDES",
+        "data": "2026-08-25",
+        "url": "https://folhadoleste.com.br/linha-3-metro-rio-niteroi-sao-goncalo-bndes/"
+      },
+      {
+        "veiculo": "iG Economia",
+        "titulo": "Maricá (RJ) custeia tarifa zero com royalties; veja como funciona",
+        "data": "2025-10-09",
+        "url": "https://economia.ig.com.br/2025-10-09/marica-rj-custeia-tarifa-zero-com-royalties--veja-como-funciona.html"
+      }
+    ]
+  },
+  "passagem-cara": {
+    "paragrafos": [
+      "Com o Bilhete Único Intermunicipal, você paga no máximo R$ 9,40 por até duas conduções em 3 horas. Vale para quem ganha até R$ 3.205,20. São cerca de 425 mil beneficiários.",
+      "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+      "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+      "Na hora de recarregar, confira se o seu Bilhete Único está ativo. Em setembro de 2026, o estado assinou com a RioCard um contrato emergencial de sete meses."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo",
+        "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+        "data": "2025-12-19",
+        "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+        "data": "2025-05-06",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Estado assina contrato emergencial com a RioCard para repasse de arrecadação do Bilhete Único Intermunicipal",
+        "data": "2026-09-11",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/09/11/estado-assina-contrato-emergencial-com-a-riocard-para-repasse-de-arrecadacao-do-bilhete-unico-intermunicipal.ghtml"
+      }
+    ]
+  },
+  "vale-transporte": {
+    "paragrafos": [
+      "Pela lei do vale-transporte, o trabalhador paga até 6% do salário básico. O patrão paga o resto. Quanto mais cara a passagem, maior a parte paga por quem emprega.",
+      "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+      "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+      "Se você emprega alguém, é a empresa que declara a renda do funcionário no Bilhete Único. Em 2026, mais de 18 mil declarações com renda abaixo da real foram apontadas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Planalto (Presidência da República)",
+        "titulo": "Lei nº 7.418, de 16 de dezembro de 1985 (institui o vale-transporte)",
+        "data": "1985-12-16",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l7418.htm"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+        "data": "2025-12-19",
+        "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+        "data": "2025-05-06",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+      },
+      {
+        "veiculo": "A Tribuna RJ",
+        "titulo": "Mais de 18 mil usuários podem ter Bilhete Único Intermunicipal suspensos",
+        "data": "2026-02-25",
+        "url": "https://atribunarj.com.br/materia/mais-de-18-mil-usuarios-podem-ter-bilhete-nico-intermunicipal-suspensos"
+      }
+    ]
+  },
+  "fila-especialista": {
+    "paragrafos": [
+      "Em novembro de 2025, mais de 314 mil pessoas esperavam consulta, exame ou cirurgia na fila do estado. De cada dez pacientes agendados, quatro faltavam, e a vaga se perdia.",
+      "No SUS, consultas simples são das prefeituras. Casos mais complexos vão para a fila do estado, o SER. O estado depende das vagas que cada hospital oferece. A União também troca dívidas de hospitais privados por atendimentos.",
+      "Pagar hospital particular acelera a fila, mas custa caro e exige fiscalização. Centros públicos regionais aproximam o atendimento, mas levam anos para abrir. Mutirões à noite usam salas paradas, mas dependem de equipe extra. Contratar médicos amplia a rede, mas pesa na folha, que tem teto de gastos.",
+      "Mantenha seu telefone atualizado na clínica. O estado manda lembretes pelo celular. Se não puder ir, avise: a vaga passa para outra pessoa."
+    ],
+    "fontes": [
+      {
+        "veiculo": "SBT News",
+        "titulo": "Tecnologia ajuda a reduzir filas na rede pública de saúde do Rio de Janeiro",
+        "data": "2025-11-13",
+        "url": "https://sbtnews.sbt.com.br/noticia/saude/tecnologia-ajuda-a-reduzir-filas-na-rede-publica-de-saude-do-rio-de-janeiro"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Além da morte na UPA: Rio tem 427 mil pessoas na fila por uma consulta, uma cirurgia ou um exame",
+        "data": "2024-12-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/12/17/rio-tem-427-mil-pessoas-na-fila-por-uma-consulta-cirurgia-ou-exame.ghtml"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Primeiro hospital privado do estado do Rio de Janeiro já está realizando cirurgias oncológicas para o SUS pelo Agora Tem Especialistas",
+        "data": "2026-01-05",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/janeiro/primeiro-hospital-privado-do-estado-do-rio-de-janeiro-ja-esta-realizando-cirurgias-oncologicas-em-pacientes-do-sus-pelo-agora-tem-especialistas"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Governo estadual do Rio adere ao Propag: como isso afeta o servidor?",
+        "data": "2026-06-22",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/06/governo-do-rio-adere-ao-propag-como-isso-afeta-o-servidor.ghtml"
+      }
+    ]
+  },
+  "saude-interior": {
+    "paragrafos": [
+      "Cerca de metade dos pacientes de câncer do SUS se trata fora da própria cidade, segundo a Fiocruz. No Sudeste, a viagem média vai de 90 a 134 km.",
+      "A fila do tratamento de câncer é do estado, que distribui os pacientes pela rede. Ele pesa a gravidade e a distância. Em fevereiro de 2026, o estado abriu sua primeira unidade só de câncer, em Nova Iguaçu.",
+      "Hospital regional novo evita viagens, mas custa caro e demora a abrir. Polos de câncer e exames por região focam no problema, mas exigem aparelhos caros. Pagar hospitais que já existem, com metas, é mais rápido, mas depende de controle. Contratar médicos amplia equipes, mas não cria sala nem aparelho.",
+      "Na Região Serrana, a obra de um hospital de câncer em Nova Friburgo terminou em 2026. O atendimento completo ainda depende das etapas finais."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Agência Brasil (estudo da Fiocruz)",
+        "titulo": "Metade dos pacientes do SUS com câncer se trata fora de suas cidades",
+        "data": "2022-02-04",
+        "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2022-02/metade-dos-pacientes-do-sus-com-cancer-se-trata-fora-de-suas-cidades"
+      },
+      {
+        "veiculo": "Jornal Capital",
+        "titulo": "Onco Baixada atende mais de 300 pacientes no primeiro mês de funcionamento",
+        "data": "2026-03-22",
+        "url": "https://jornalcapital.com.br/materias/16607-onco-baixada-atende-mais-de-300-pacientes-no-primeiro-mes-de-funcionamento"
+      },
+      {
+        "veiculo": "EcoSerrano",
+        "titulo": "Mega estrutura de combate ao câncer é finalizada no interior do Rio e promete ajudar milhares de pacientes",
+        "data": "2026-03-25",
+        "url": "https://ecoserrano.com.br/mega-estrutura-de-combate-ao-cancer-e-finalizada-no-interior-do-rio-e-promete-ajudar-milhares-de-pacientes/"
+      }
+    ]
+  },
+  "plano-voltou-sus": {
+    "paragrafos": [
+      "Nos planos feitos após 2004, a última faixa de preço por idade começa aos 59 anos. Ela pode custar até seis vezes a primeira. Quem sai do plano entra numa fila estadual com mais de 314 mil pessoas.",
+      "No SUS, consultas simples são das prefeituras. Casos mais complexos vão para a fila do estado, o SER. O estado depende das vagas que cada hospital oferece. A União também troca dívidas de hospitais privados por atendimentos.",
+      "Pagar hospital particular acelera a fila, mas custa caro e exige fiscalização. Centros públicos regionais aproximam o atendimento, mas levam anos para abrir. Mutirões à noite usam salas paradas, mas dependem de equipe extra. Contratar médicos amplia a rede, mas pesa na folha, que tem teto de gastos.",
+      "Mantenha seu telefone atualizado na clínica. O estado manda lembretes pelo celular. Se não puder ir, avise: a vaga passa para outra pessoa."
+    ],
+    "fontes": [
+      {
+        "veiculo": "ANS",
+        "titulo": "Variação da mensalidade por mudança de faixa etária",
+        "data": "2021-03-16",
+        "url": "https://www.gov.br/ans/pt-br/assuntos/consumidor/reajuste-variacao-de-mensalidade/reajuste-por-mudanca-de-faixa-etaria"
+      },
+      {
+        "veiculo": "SBT News",
+        "titulo": "Tecnologia ajuda a reduzir filas na rede pública de saúde do Rio de Janeiro",
+        "data": "2025-11-13",
+        "url": "https://sbtnews.sbt.com.br/noticia/saude/tecnologia-ajuda-a-reduzir-filas-na-rede-publica-de-saude-do-rio-de-janeiro"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Além da morte na UPA: Rio tem 427 mil pessoas na fila por uma consulta, uma cirurgia ou um exame",
+        "data": "2024-12-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/12/17/rio-tem-427-mil-pessoas-na-fila-por-uma-consulta-cirurgia-ou-exame.ghtml"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Primeiro hospital privado do estado do Rio de Janeiro já está realizando cirurgias oncológicas para o SUS pelo Agora Tem Especialistas",
+        "data": "2026-01-05",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/janeiro/primeiro-hospital-privado-do-estado-do-rio-de-janeiro-ja-esta-realizando-cirurgias-oncologicas-em-pacientes-do-sus-pelo-agora-tem-especialistas"
+      }
+    ]
+  },
+  "escola-bagunca": {
+    "paragrafos": [
+      "No ensino médio do estado, só 11,2% dos alunos aprendem o esperado em matemática. Outros 60,5% ficam abaixo do básico. Em 2025, a rede estadual teve a 2ª pior nota do país no Ideb.",
+      "O ensino médio público é do governo do estado, pela Seeduc. A rede tem cerca de 28 mil professores para 605 mil alunos. Faltam docentes de Química, Física e Matemática. Só 11% dos alunos da rede estadual estudam em tempo integral.",
+      "Escola cívico-militar promete mais disciplina, mas os estudos divergem sobre o efeito no aprendizado. Tempo integral amplia as aulas, mas exige prédios e professores de 40 horas. Reforço no contraturno ataca a defasagem, mas o aluno fica mais tempo fora. Curso técnico aproxima do emprego, mas custa laboratório e docente.",
+      "Se você tem alguém na rede, pergunte à escola quantas aulas ficaram sem professor no bimestre."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Todos Pela Educação (dados Inep: Saeb 2025 e Censo Escolar 2025)",
+        "titulo": "Anuário Brasileiro da Educação Básica 2026 – Rio de Janeiro",
+        "data": "2026-09-22",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/estados-rj.html"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Ensino médio estadual do Rio está entre os piores do país; especialistas apontam saídas",
+        "data": "2026-08-16",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/08/16/ensino-medio-estadual-do-rio-esta-entre-os-piores-do-pais-especialistas-apontam-saidas.ghtml"
+      },
+      {
+        "veiculo": "g1 (dados do Inep)",
+        "titulo": "Ideb do ensino médio avança pouco, mesmo com 'truque' nas aprovações",
+        "data": "2026-08-05",
+        "url": "https://g1.globo.com/educacao/noticia/2026/08/05/ideb-do-ensino-medio-2025-estados.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Escolas que podem virar cívico-militar em SP já têm aprendizagem acima da média e não atendem alunos mais vulneráveis",
+        "data": "2025-03-12",
+        "url": "https://oglobo.globo.com/brasil/educacao/noticia/2025/03/12/escolas-que-podem-virar-civico-militar-em-sp-ja-tem-aprendizagem-acima-da-media-e-nao-atendem-alunos-mais-vulneraveis.ghtml"
+      }
+    ]
+  },
+  "falta-tecnico": {
+    "paragrafos": [
+      "No país, o desemprego de quem não terminou o ensino médio foi de 9% no 2º trimestre de 2026. Com diploma superior, caiu para 3%. No estado do Rio, a taxa geral foi de 7,1%.",
+      "O ensino médio público é do governo do estado, pela Seeduc. A rede tem cerca de 28 mil professores para 605 mil alunos. Faltam docentes de Química, Física e Matemática. Com o acordo da dívida, o estado prometeu R$ 900 milhões para ensino profissionalizante em 2026.",
+      "Técnico desde o 1º ano forma mais cedo, mas aperta o currículo comum. Cursos ligados às empresas de cada região casam com as vagas, mas dependem da economia local. Primeiro emprego com incentivo abre a porta, mas custa dinheiro público. Tempo integral com ciências reforça a base, mas exige prédios e professores.",
+      "Na sua região, veja quais cursos técnicos existem e se batem com as vagas abertas nas empresas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "IBGE",
+        "titulo": "PNAD Contínua Trimestral: desocupação cai em 13 das 27 UFs no 2° trimestre de 2026",
+        "data": "2026-08-14",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+      },
+      {
+        "veiculo": "IBGE",
+        "titulo": "PNAD Contínua – 2º trimestre de 2026 – Comentários sintéticos: Rio de Janeiro",
+        "data": "2026-08-14",
+        "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Comentarios_Sinteticos/2026_2_trimestre/pnadc_202602_trimestre_comentarios_sinteticos_RiodeJaneiro.pdf"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Ensino médio estadual do Rio está entre os piores do país; especialistas apontam saídas",
+        "data": "2026-08-16",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/08/16/ensino-medio-estadual-do-rio-esta-entre-os-piores-do-pais-especialistas-apontam-saidas.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Além do Propag, Estado do Rio tem plano com 30 medidas para zerar déficit neste ano, diz secretário da Fazenda",
+        "data": "2026-06-23",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/06/23/alem-do-propag-estado-do-rio-tem-plano-com-30-medidas-para-zerar-deficit-neste-ano-diz-secretario-da-fazenda.ghtml"
+      }
+    ]
+  },
+  "operacao-policial": {
+    "paragrafos": [
+      "Em 2025, 797 pessoas morreram em ações policiais no estado, 13% a mais que em 2024. Dezenove policiais também foram mortos. A operação mais letal da história deixou 121 mortos, em outubro.",
+      "As polícias Militar e Civil são do governo do estado. Desde 2019, o STF acompanha as operações em favelas. Em 2025, a Corte exigiu câmeras, ambulâncias e perícia. Também mandou o estado planejar a retomada de territórios.",
+      "Medir sucesso por área retomada mira o domínio armado, mas exige ocupar por muito tempo. Inteligência para prender chefes evita confronto, mas leva meses. Polícia com serviço público muda o bairro, mas custa caro e precisa durar. Contar e reduzir mortes dá transparência, mas não mede sozinho o avanço contra o crime.",
+      "Cerca de 4 milhões de pessoas no Grande Rio vivem sob controle ou influência de grupos armados. O dado é da UFF e do Fogo Cruzado."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Agência Brasil (dados do ISP)",
+        "titulo": "Mortes decorrentes de intervenção policial cresceram 13% em 2025 no RJ",
+        "data": "2026-01-16",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-01/mortes-decorrentes-de-intervencao-policial-cresceram-13-em-2025-no-rj"
+      },
+      {
+        "veiculo": "Correio Braziliense",
+        "titulo": "'ADPF das Favelas': STF define nova tese sobre atuação de policiais no Rio",
+        "data": "2025-04-04",
+        "url": "https://www.correiobraziliense.com.br/politica/2025/04/7101449-stf-encerra-julgamento-da-adpf-das-favelas-pela-vida.html"
+      },
+      {
+        "veiculo": "Agência Brasil (GENI/UFF e Instituto Fogo Cruzado)",
+        "titulo": "Estudo mostra que 4 milhões de pessoas estão sob domínio armado no Rio",
+        "data": "2025-12-04",
+        "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2025-12/estudo-mostra-que-4-milhoes-de-pessoas-estao-sob-dominio-armado-no-rio"
+      }
+    ]
+  },
+  "via-expressa-fechada": {
+    "paragrafos": [
+      "De janeiro a julho de 2026, a Avenida Brasil teve 20 tiroteios, nove deles em operações policiais. A via foi fechada ao menos 17 vezes por violência.",
+      "As polícias Militar e Civil são do governo do estado. Desde 2019, o STF acompanha as operações em favelas. Em 2025, a Corte exigiu câmeras, ambulâncias e perícia. Também mandou o estado planejar a retomada de territórios. O batalhão das vias expressas opera com 301 policiais a menos que o previsto.",
+      "Medir sucesso por área retomada mira o domínio armado, mas exige ocupar por muito tempo. Inteligência para prender chefes evita confronto, mas leva meses. Polícia com serviço público muda o bairro, mas custa caro e precisa durar. Contar e reduzir mortes dá transparência, mas não mede sozinho o avanço contra o crime.",
+      "Antes de sair, consulte os alertas de trânsito da prefeitura. Cerca de 4 milhões de pessoas no Grande Rio vivem sob influência de grupos armados."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo",
+        "titulo": "Tiroteio na Avenida Brasil: unidade da PM responsável pelo patrulhamento das vias expressas tem déficit de 301 policiais",
+        "data": "2026-07-30",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/07/30/tiroteio-na-avenida-brasil-unidade-da-pm-responsavel-pelo-patrulhamento-das-vias-expressas-tem-deficit-de-301-policiais.ghtml"
+      },
+      {
+        "veiculo": "Agência Brasil (dados do ISP)",
+        "titulo": "Mortes decorrentes de intervenção policial cresceram 13% em 2025 no RJ",
+        "data": "2026-01-16",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-01/mortes-decorrentes-de-intervencao-policial-cresceram-13-em-2025-no-rj"
+      },
+      {
+        "veiculo": "Correio Braziliense",
+        "titulo": "'ADPF das Favelas': STF define nova tese sobre atuação de policiais no Rio",
+        "data": "2025-04-04",
+        "url": "https://www.correiobraziliense.com.br/politica/2025/04/7101449-stf-encerra-julgamento-da-adpf-das-favelas-pela-vida.html"
+      },
+      {
+        "veiculo": "Agência Brasil (GENI/UFF e Instituto Fogo Cruzado)",
+        "titulo": "Estudo mostra que 4 milhões de pessoas estão sob domínio armado no Rio",
+        "data": "2025-12-04",
+        "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2025-12/estudo-mostra-que-4-milhoes-de-pessoas-estao-sob-dominio-armado-no-rio"
+      }
+    ]
+  },
+  "celular-roubado": {
+    "paragrafos": [
+      "Em 2025, o estado registrou 25.625 roubos e 46.603 furtos de celular. É quase 200 por dia. Três em cada quatro casos foram na capital.",
+      "O policiamento de rua é da PM; a investigação, da Polícia Civil. As duas são do estado. Desde 2025, o STF permite que guardas municipais façam policiamento, se a cidade aprovar lei. Em 2024, a PM tinha 42 mil policiais e déficit de 17 mil.",
+      "Guarda armada soma gente na rua, mas depende da prefeitura e de treino. Mais PM amplia a presença, mas demora a formar e pesa na folha. Ir atrás de quem compra roubado ataca o lucro do crime, mas a investigação é longa. Câmeras inteligentes vigiam sem parar, mas custam caro e geram dúvidas sobre privacidade.",
+      "Se levarem seu celular, registre ocorrência. As estatísticas oficiais só contam os casos que chegam à delegacia."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo (dados do ISP)",
+        "titulo": "ISP: Rio fecha 2025 com quase 200 celulares roubados por dia, queda no roubo de veículos e recorde na apreensão de fuzis",
+        "data": "2026-01-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/17/isp-rio-fecha-2025-com-quase-200-celulares-roubados-por-dia-queda-no-roubo-de-veiculos-e-recorde-na-apreensao-de-fuzis.ghtml"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
+        "data": "2025-02-20",
+        "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "PM do Rio tem déficit de 17 mil militares e só metade do efetivo atua no policiamento",
+        "data": "2024-04-28",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/04/28/pm-do-rio-tem-deficit-de-17-mil-militares-e-so-metade-do-efetivo-atua-no-policiamento.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
+        "data": "2026-01-27",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
+      }
+    ]
+  },
+  "roubo-carro": {
+    "paragrafos": [
+      "Em 2025, o estado teve 25.239 roubos de veículo, queda de 18% sobre 2024. Em 2026, o número voltou a subir no acumulado até agosto.",
+      "O policiamento de rua é da PM; a investigação, da Polícia Civil. As duas são do estado. Desde 2025, o STF permite que guardas municipais façam policiamento, se a cidade aprovar lei. Em 2024, a PM tinha 42 mil policiais e déficit de 17 mil.",
+      "Guarda armada soma gente na rua, mas depende da prefeitura e de treino. Mais PM amplia a presença, mas demora a formar e pesa na folha. Ir atrás de desmanches ataca o lucro do crime, mas a investigação é longa. Câmeras que leem placas vigiam sem parar, mas custam caro e geram dúvidas sobre privacidade.",
+      "Desde setembro de 2024, a leitura de placas ajudou a PM a recuperar mais de mil veículos. O estado planeja instalar cerca de 200 mil câmeras com inteligência artificial."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo (dados do ISP)",
+        "titulo": "ISP: Rio fecha 2025 com quase 200 celulares roubados por dia, queda no roubo de veículos e recorde na apreensão de fuzis",
+        "data": "2026-01-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/17/isp-rio-fecha-2025-com-quase-200-celulares-roubados-por-dia-queda-no-roubo-de-veiculos-e-recorde-na-apreensao-de-fuzis.ghtml"
+      },
+      {
+        "veiculo": "O Globo (dados do ISP)",
+        "titulo": "Homicídios, roubos de celular e de veículo caem em agosto, mas número de carros e motos roubados cresce no acumulado do ano",
+        "data": "2026-09-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/09/17/homicidios-roubos-de-celular-e-de-veiculo-caem-em-agosto-mas-tem-alta-expressiva-no-acumulado-do-ano-segundo-dados-do-isp.ghtml"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
+        "data": "2025-02-20",
+        "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
+        "data": "2026-01-27",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
+      }
+    ]
+  },
+  "correria-praia": {
+    "paragrafos": [
+      "No verão 2025/2026, a PM escalou 1.380 policiais por dia, com foco na orla e nas vias até as praias. A prefeitura somou cerca de mil agentes municipais na operação.",
+      "O policiamento de rua é da PM, do estado. A guarda municipal cuida da ordem urbana. Desde 2025, ela pode patrulhar, se a cidade aprovar lei. Em 2024, a PM tinha déficit de 17 mil policiais.",
+      "Mais PM fixo na orla dá presença visível, mas tira efetivo de outros bairros. Guarda armada soma gente, mas depende da prefeitura e de treino. Retomar áreas de facções ataca a origem do crime, mas o efeito na praia é indireto. Câmeras vigiam o dia todo, mas custam caro e levantam dúvidas sobre privacidade.",
+      "Na praia, combine um ponto de encontro com a família. Crianças podem usar pulseira de identificação, distribuída na orla."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Operação Verão no Rio: PM e Seop antecipam ações",
+        "data": "2025-09-05",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/09/05/pm-e-seop-operacao-verao-na-orla-do-rio.ghtml"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
+        "data": "2025-02-20",
+        "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "PM do Rio tem déficit de 17 mil militares e só metade do efetivo atua no policiamento",
+        "data": "2024-04-28",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/04/28/pm-do-rio-tem-deficit-de-17-mil-militares-e-so-metade-do-efetivo-atua-no-policiamento.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
+        "data": "2026-01-27",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
+      }
+    ]
+  },
+  "medida-protetiva": {
+    "paragrafos": [
+      "Em 2025, o estado teve 5.870 descumprimentos de medidas protetivas, o maior número desde 2018. Houve 105 feminicídios. Das vítimas, 77,1% não tinham medida protetiva.",
+      "A medida é dada pela Justiça. Quem acompanha é a Patrulha Maria da Penha, da PM, com 49 equipes. Ela já atendeu mais de 105 mil mulheres. As delegacias da mulher, da Polícia Civil, não existem em todas as cidades.",
+      "Tornozeleira no agressor avisa quando ele se aproxima, mas depende da Justiça e de monitoramento. Mais delegacias da mulher facilitam a denúncia, mas exigem policiais e prédios. Abrigo com apoio tira a mulher do perigo, mas a afasta de casa e do trabalho. Mais Patrulha amplia visitas, mas cada equipe atende muitos casos.",
+      "Em emergência, ligue 190. Violência contra a mulher é o 2º motivo de chamadas à PM no estado."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo (Dossiê Mulher, ISP)",
+        "titulo": "Estado do Rio teve o maior número de medidas protetivas descumpridas da série histórica em 2025",
+        "data": "2026-07-01",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/07/01/estado-do-rio-teve-o-maior-numero-de-medidas-protetivas-descumpridas-da-serie-historica-em-2025.ghtml"
+      },
+      {
+        "veiculo": "O Globo (Dossiê Mulher, ISP)",
+        "titulo": "Dossiê Mulher 2026 analisa discurso 'redpill' e misógino nas redes sociais para 'evitar que isso se transforme em dados' futuros de violência",
+        "data": "2026-07-01",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/07/01/dossie-mulher-2026-vai-alem-dos-dados-e-analisa-discurso-redpill-e-misogino-nas-redes-sociais.ghtml"
+      },
+      {
+        "veiculo": "Secretaria de Estado de Polícia Militar (RJ)",
+        "titulo": "Em seis anos, Patrulha Maria da Penha da Polícia Militar já atendeu mais de 100 mil mulheres",
+        "data": "2025-08-06",
+        "url": "https://sepm.rj.gov.br/2025/08/em-seis-anos-patrulha-maria-da-penha-da-policia-militar-ja-atendeu-mais-de-100-mil-mulheres/"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Delegacias de mulher do RJ funcionam 24 horas: confira a lista",
+        "data": "2023-04-04",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2023/04/04/delegacias-de-mulher-do-rj-funcionam-24-horas-confira-a-lista.ghtml"
+      }
+    ]
+  },
+  "rua-alagada": {
+    "paragrafos": [
+      "Cerca de 925 mil pessoas moram em áreas de risco de enchente ou deslizamento no estado, segundo o Cemaden. Quase 800 mil estão na região metropolitana.",
+      "A drenagem das ruas é da prefeitura. Os grandes rios são do estado, pelo Inea. O Projeto Iguaçu, contra cheias na Baixada, parou várias vezes. A nova fase só deve começar no fim de 2026.",
+      "Obras grandes de drenagem e contenção atacam a causa, mas custam bilhões e levam anos. Limpar canais todo ano é mais rápido, mas o lixo volta sem coleta. Alertas no celular salvam vidas, mas não evitam perdas materiais. Reassentar famílias tira gente do risco, mas exige moradia perto e aceitação.",
+      "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1 (dados do Cemaden)",
+        "titulo": "RJ tem 925 mil pessoas vivendo em áreas de risco de enchentes ou deslizamentos, diz estudo",
+        "data": "2022-02-25",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/02/25/rj-tem-925-mil-pessoas-vivendo-em-areas-de-risco-de-enchentes-ou-deslizamentos-diz-estudo.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Obras contra enchentes na Baixada só devem começar no fim de 2026",
+        "data": "2026-03-04",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/03/04/obras-de-projeto-contra-enchentes-na-baixada-fluminense-mp.ghtml"
+      },
+      {
+        "veiculo": "Ministério das Comunicações",
+        "titulo": "Como receber alertas da Defesa Civil sobre situações de emergência no celular",
+        "data": "2026-07-21",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/julho/como-receber-alertas-da-defesa-civil-sobre-situacoes-de-emergencia-no-celular"
+      }
+    ]
+  },
+  "encosta-serra": {
+    "paragrafos": [
+      "Cerca de 925 mil pessoas moram em áreas de risco de enchente ou deslizamento no estado, segundo o Cemaden. Na serra, rachadura nova em encosta é sinal de alerta.",
+      "Conter encostas envolve prefeitura e estado. A Defesa Civil municipal vistoria e interdita casas. Os rios são do estado, pelo Inea, que também faz a limpeza de calhas.",
+      "Obras grandes de drenagem e contenção atacam a causa, mas custam bilhões e levam anos. Limpar canais todo ano é mais rápido, mas o lixo volta sem coleta. Alertas no celular salvam vidas, mas não evitam perdas materiais. Reassentar famílias tira gente do risco, mas exige moradia perto e aceitação.",
+      "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro. Viu rachadura nova? Chame a Defesa Civil."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1 (dados do Cemaden)",
+        "titulo": "RJ tem 925 mil pessoas vivendo em áreas de risco de enchentes ou deslizamentos, diz estudo",
+        "data": "2022-02-25",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/02/25/rj-tem-925-mil-pessoas-vivendo-em-areas-de-risco-de-enchentes-ou-deslizamentos-diz-estudo.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Obras contra enchentes na Baixada só devem começar no fim de 2026",
+        "data": "2026-03-04",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/03/04/obras-de-projeto-contra-enchentes-na-baixada-fluminense-mp.ghtml"
+      },
+      {
+        "veiculo": "Ministério das Comunicações",
+        "titulo": "Como receber alertas da Defesa Civil sobre situações de emergência no celular",
+        "data": "2026-07-21",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/julho/como-receber-alertas-da-defesa-civil-sobre-situacoes-de-emergencia-no-celular"
+      }
+    ]
+  },
+  "garagem-alagada": {
+    "paragrafos": [
+      "Só na capital, mais de 475 mil pessoas vivem em áreas de risco de enchente ou deslizamento, segundo o Cemaden. No estado, são cerca de 925 mil.",
+      "A drenagem das ruas é da prefeitura. Os grandes rios são do estado, pelo Inea. O Projeto Iguaçu, contra cheias na Baixada, parou várias vezes. A nova fase só deve começar no fim de 2026.",
+      "Obras grandes de drenagem e contenção atacam a causa, mas custam bilhões e levam anos. Limpar canais todo ano é mais rápido, mas o lixo volta sem coleta. Alertas no celular salvam vidas, mas não evitam perdas materiais. Reassentar famílias tira gente do risco, mas exige moradia perto e aceitação.",
+      "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1 (dados do Cemaden)",
+        "titulo": "RJ tem 925 mil pessoas vivendo em áreas de risco de enchentes ou deslizamentos, diz estudo",
+        "data": "2022-02-25",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/02/25/rj-tem-925-mil-pessoas-vivendo-em-areas-de-risco-de-enchentes-ou-deslizamentos-diz-estudo.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Obras contra enchentes na Baixada só devem começar no fim de 2026",
+        "data": "2026-03-04",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/03/04/obras-de-projeto-contra-enchentes-na-baixada-fluminense-mp.ghtml"
+      },
+      {
+        "veiculo": "Ministério das Comunicações",
+        "titulo": "Como receber alertas da Defesa Civil sobre situações de emergência no celular",
+        "data": "2026-07-21",
+        "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/julho/como-receber-alertas-da-defesa-civil-sobre-situacoes-de-emergencia-no-celular"
+      }
+    ]
+  },
+  "falta-agua": {
+    "paragrafos": [
+      "Em dezembro de 2024, a agência reguladora autorizou reajustes de 9,83% a 14,28% nas contas de água. A inflação do período foi de 4,87%.",
+      "Desde 2021, empresas privadas distribuem água e tratam esgoto em boa parte do estado. A Cedae, do estado, ainda produz a água e a vende às empresas. A Agenersa regula e aprova tarifas. A meta é 99% com água e 90% com esgoto até 2033.",
+      "Rever o aumento alivia a conta, mas a empresa pode pedir compensação. Fiscalizar metas mantém o contrato e cobra obras, mas depende de agência forte. Romper por descumprimento pune a empresa, mas abre disputa na Justiça. Voltar à Cedae dá controle ao estado, mas exigiria indenização e investimento público.",
+      "Guarde as contas e anote as horas sem água. Reclame primeiro à empresa e, depois, à Agenersa. Em 2025, a agência reduziu um reajuste de 10,22% para 7,8%."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Jornal do Brasil",
+        "titulo": "Agenersa autoriza aumentos de 9,83% a 14,28% para as tarifas de água e esgoto das quatro concessionárias do RJ; IPCA foi de 4,87%",
+        "data": "2024-12-14",
+        "url": "https://www.jb.com.br/rio/2024/12/1053403-agenersa-autoriza-aumentos-de-983-a-1428-para-as-tarifas-de-agua-e-esgoto-das-quatro-concessionarias-do-rj-ipca-foi-de-487.html"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Leilão da Cedae: entenda o maior e mais importante projeto de infraestrutura recente no país",
+        "data": "2021-04-30",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/04/30/leilao-da-cedae-entenda-o-maior-e-mais-importante-projeto-de-infraestrutura-recente-no-pais.ghtml"
+      },
+      {
+        "veiculo": "Iguá Rio (comunicado oficial da concessionária)",
+        "titulo": "A Concessionária Iguá Rio de Janeiro S.A. reajusta tarifa de fornecimento de água, coleta e tratamento de esgoto",
+        "data": "2025-11-30",
+        "url": "https://igua.com.br/rio-de-janeiro/noticias/a-concessionaria-igua-rio-de-janeiro-sa-reajusta-tarifa-de-fornecimento-de-agua-coleta-e-tratamento-de-esgoto"
+      }
+    ]
+  },
+  "caminhao-pipa": {
+    "paragrafos": [
+      "Quando falta água no prédio, o caminhão-pipa costuma ir para a conta do condomínio. Em Cachoeiras de Macacu, duas estações de tratamento pararam mais de 100 vezes entre 2025 e 2026.",
+      "Desde 2021, empresas privadas distribuem água e tratam esgoto em boa parte do estado. A Cedae, do estado, ainda produz a água e a vende às empresas. A Agenersa regula e aprova tarifas. A meta é 99% com água e 90% com esgoto até 2033.",
+      "Rever o aumento alivia a conta, mas a empresa pode pedir compensação. Fiscalizar metas mantém o contrato e cobra obras, mas depende de agência forte. Romper por descumprimento pune a empresa, mas abre disputa na Justiça. Voltar à Cedae dá controle ao estado, mas exigiria indenização e investimento público.",
+      "Guarde as contas, os recibos do caminhão-pipa e as horas sem água. Reclame primeiro à empresa e, depois, à Agenersa."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Falta d'água em Cachoeiras de Macacu; justiça determina medidas",
+        "data": "2026-09-16",
+        "url": "https://g1.globo.com/rj/regiao-serrana/noticia/2026/09/16/aguas-do-rio-tera-que-adotar-medidas-para-reduzir-interrupcoes-no-abastecimento-em-cachoeiras-de-macacu.ghtml"
+      },
+      {
+        "veiculo": "Jornal do Brasil",
+        "titulo": "Agenersa autoriza aumentos de 9,83% a 14,28% para as tarifas de água e esgoto das quatro concessionárias do RJ; IPCA foi de 4,87%",
+        "data": "2024-12-14",
+        "url": "https://www.jb.com.br/rio/2024/12/1053403-agenersa-autoriza-aumentos-de-983-a-1428-para-as-tarifas-de-agua-e-esgoto-das-quatro-concessionarias-do-rj-ipca-foi-de-487.html"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Leilão da Cedae: entenda o maior e mais importante projeto de infraestrutura recente no país",
+        "data": "2021-04-30",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/04/30/leilao-da-cedae-entenda-o-maior-e-mais-importante-projeto-de-infraestrutura-recente-no-pais.ghtml"
+      },
+      {
+        "veiculo": "Iguá Rio (comunicado oficial da concessionária)",
+        "titulo": "A Concessionária Iguá Rio de Janeiro S.A. reajusta tarifa de fornecimento de água, coleta e tratamento de esgoto",
+        "data": "2025-11-30",
+        "url": "https://igua.com.br/rio-de-janeiro/noticias/a-concessionaria-igua-rio-de-janeiro-sa-reajusta-tarifa-de-fornecimento-de-agua-coleta-e-tratamento-de-esgoto"
+      }
+    ]
+  },
+  "primo-desempregado": {
+    "paragrafos": [
+      "No país, 72,1% de quem trabalha por aplicativo está na informalidade, segundo o IBGE. Fora dos apps, são 42,7%. No estado do Rio, a renda média do trabalho é de R$ 4.158.",
+      "Emprego depende da economia, mas o estado influencia com impostos, cursos e obras. O Rio tem 24 dos 49 estaleiros do país e 66 mil empregos navais. O IPVA de moto no estado é de 2%.",
+      "Primeiro emprego com curso ajuda jovens a entrar, mas o incentivo custa dinheiro público. Atrair estaleiros gera muitas vagas, mas depende de encomendas e de desconto de imposto. Deixar o emprego às empresas libera verba para segurança, mas dá menos apoio direto. Zerar o IPVA da moto alivia o entregador, mas reduz a arrecadação.",
+      "Quem trabalha por app contribui menos para o INSS, segundo o IBGE. Sem contribuir, fica sem auxílio em caso de doença ou acidente."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Folha de S.Paulo (dados do IBGE)",
+        "titulo": "IBGE: trabalhadores de apps são 2 milhões no Brasil, têm jornada maior e contribuem menos para INSS",
+        "data": "2026-09-04",
+        "url": "https://www1.folha.uol.com.br/mercado/2026/09/trabalhadores-de-apps-sao-2-milhoes-no-brasil-tem-jornada-maior-e-contribuem-menos-para-inss.shtml"
+      },
+      {
+        "veiculo": "IBGE",
+        "titulo": "PNAD Contínua – 2º trimestre de 2026 – Comentários sintéticos: Rio de Janeiro",
+        "data": "2026-08-14",
+        "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Trimestral/Comentarios_Sinteticos/2026_2_trimestre/pnadc_202602_trimestre_comentarios_sinteticos_RiodeJaneiro.pdf"
+      },
+      {
+        "veiculo": "Sinaval (dados do Panorama Naval da Firjan)",
+        "titulo": "Indústria naval se recupera e começa expansão",
+        "data": "2026-08-19",
+        "url": "https://sinaval.org.br/2026/08/industria-naval-se-recupera-e-comeca-expansao/"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Tabelão do IPVA 2026: saiba quanto os motoristas do Estado do Rio vão pagar de imposto anual",
+        "data": "2025-12-17",
+        "url": "https://extra.globo.com/economia/noticia/2025/12/tabelao-do-ipva-2026-saiba-quanto-os-motoristas-do-estado-do-rio-vao-pagar-de-imposto-anual.ghtml"
+      }
+    ]
+  },
+  "servidor-recomposicao": {
+    "paragrafos": [
+      "No Regime de Recuperação Fiscal, os servidores ficaram sem a recomposição de 2023, 2024 e 2025. A dívida do estado com a União chegou a R$ 210,6 bilhões.",
+      "Salários e concursos dependem do governo e da Alerj. Em 2026, o estado trocou o regime pelo Propag, que zera juros, mas mantém teto de gastos. O Rioprevidência aplicou cerca de R$ 970 milhões no Banco Master.",
+      "Correção anual pela inflação protege o salário, mas ocupa espaço no teto de gastos. Bônus por meta premia resultado, mas é difícil criar metas justas em todas as áreas. Cobrar na Justiça o dinheiro do Master protege aposentadorias, mas o processo pode ser longo. Chamar aprovados repõe equipes, mas aumenta a folha por décadas.",
+      "Uma decisão judicial de 2025 manda reter repasses de consignados ao Master para cobrir o investimento. O fundo paga mais de 235 mil aposentados e pensionistas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Extra",
+        "titulo": "Governo estadual do Rio adere ao Propag: como isso afeta o servidor?",
+        "data": "2026-06-22",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/06/governo-do-rio-adere-ao-propag-como-isso-afeta-o-servidor.ghtml"
+      },
+      {
+        "veiculo": "g1 (auditoria do TCE-RJ)",
+        "titulo": "Relatório do TCE questiona aplicações do Rioprevidência no Master",
+        "data": "2025-11-26",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/11/26/auditoria-do-tce-aponta-suspeita-de-crimes-na-gestao-do-rioprevidencia-e-alertava-sobre-riscos-antes-da-prisao-de-vorcaro-do-banco-master.ghtml"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Caso Master: diretores do Rioprevidência são alvos de mandados de busca e apreensão",
+        "data": "2026-01-23",
+        "url": "https://extra.globo.com/rio/noticia/2026/01/caso-master-diretores-do-rioprevidencia-sao-alvos-sao-alvos-de-mandados-de-busca-e-apreensao.ghtml"
+      }
+    ]
+  },
+  "licenca-empresa": {
+    "paragrafos": [
+      "A Firjan prevê mais de R$ 526 bilhões em investimentos no estado até 2028. Parte depende de licença ambiental. Entre 2007 e 2011, os processos à espera caíram de 17 mil para cerca de 3 mil.",
+      "O Inea, do governo do estado, licencia a maior parte dos empreendimentos. As prefeituras licenciam obras de impacto local. Em 2026, o Inea disse que quer cortar pela metade o tempo médio de análise.",
+      "Um site único junta órgãos e reduz idas e vindas, mas exige integrar sistemas antigos. Decidir na região aproxima o técnico da obra, mas pede equipes em cada lugar. Regras estáveis dão previsibilidade, mas afrouxar exigências pode elevar o risco ambiental. Incentivo com meta de emprego protege o dinheiro público, mas exige fiscalização.",
+      "Em 2023, os incentivos fiscais do estado somaram R$ 19,4 bilhões, cerca de 45% do ICMS. Uma auditoria do TCE apontou que o estado não avalia os efeitos desses incentivos."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Firjan",
+        "titulo": "Parceria entre Firjan e Inea propõe mais eficiência ao processo de licenciamento ambiental",
+        "data": "2026-07-16",
+        "url": "https://www.firjan.com.br/noticias/parceria-entre-firjan-e-inea-propoe-mais-eficiencia-ao-processo-de-licenciamento-ambiental.htm"
+      },
+      {
+        "veiculo": "O Dia",
+        "titulo": "Licença ambiental será facilitada pela Inea, por meio de nova tecnologia",
+        "data": "2026-04-27",
+        "url": "https://odia.ig.com.br/campos/2026/04/7242230-licenca-ambiental-sera-facilitada-pela-inea-por-meio-de-nova-tecnologia.html"
+      },
+      {
+        "veiculo": "Agenda do Poder (auditoria do TCE-RJ)",
+        "titulo": "Auditoria do TCE aponta descontrole na concessão de benefícios fiscais pelo Governo do Estado",
+        "data": "2024-06-13",
+        "url": "https://agendadopoder.com.br/auditoria-do-tce-aponta-descontrole-na-concessao-de-beneficios-fiscais-pelo-governo-do-estado/"
+      }
+    ]
+  },
+  "dinheiro-publico": {
+    "paragrafos": [
+      "O estado previa déficit de R$ 19,6 bilhões em 2026. Com o Propag, a dívida com a União caiu de R$ 210 bilhões para R$ 168,5 bilhões. A parcela mensal passou de R$ 436 milhões para R$ 119 milhões.",
+      "Quem gasta é o governo; a Alerj aprova o orçamento; o TCE fiscaliza. Em 2023, os incentivos fiscais a empresas somaram R$ 19,4 bilhões. O TCE apontou que o estado não mede o efeito deles.",
+      "Teto que liga gasto à receita evita rombo, mas limita saúde e escola em ano ruim. Auditar contratos e nomeados combate desvios, mas cria custo e demora a dar fruto. Cortar cargos e despesas poupa rápido, mas pode afetar serviços. Rever incentivos traz receita, mas empresas podem sair do estado.",
+      "Em 2026, o estado exonerou mais de 3 mil comissionados. O impacto na conta ainda não tinha sido calculado."
+    ],
+    "fontes": [
+      {
+        "veiculo": "O Globo",
+        "titulo": "Além do Propag, Estado do Rio tem plano com 30 medidas para zerar déficit neste ano, diz secretário da Fazenda",
+        "data": "2026-06-23",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/06/23/alem-do-propag-estado-do-rio-tem-plano-com-30-medidas-para-zerar-deficit-neste-ano-diz-secretario-da-fazenda.ghtml"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Governo estadual do Rio adere ao Propag: como isso afeta o servidor?",
+        "data": "2026-06-22",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/06/governo-do-rio-adere-ao-propag-como-isso-afeta-o-servidor.ghtml"
+      },
+      {
+        "veiculo": "Agenda do Poder (auditoria do TCE-RJ)",
+        "titulo": "Auditoria do TCE aponta descontrole na concessão de benefícios fiscais pelo Governo do Estado",
+        "data": "2024-06-13",
+        "url": "https://agendadopoder.com.br/auditoria-do-tce-aponta-descontrole-na-concessao-de-beneficios-fiscais-pelo-governo-do-estado/"
+      }
+    ]
+  }
+}

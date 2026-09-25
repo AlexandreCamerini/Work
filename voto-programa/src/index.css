@@ -67,6 +67,10 @@
   --cor-erro: #b3261e;
   --cor-sobre-erro: #ffffff;
   --cor-veu: rgb(22 33 58 / 0.5);
+  /* ilustrações das cenas (pipeline/ux/F-ilustracoes.md): traço e cabelo fora da paleta de UI */
+  --ilu-traco: #16213a;
+  --ilu-cabelo: #2b2231;
+  --ilu-grisalho: #cfc9bd;
   --fonte-titulo: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
   --fonte-texto: 'Nunito Sans Variable', ui-sans-serif, system-ui, -apple-system, Roboto, sans-serif;
   --dur: 1;
@@ -95,6 +99,9 @@
     --cor-erro: #ff8a80;
     --cor-sobre-erro: #0e1726;
     --cor-veu: rgb(0 0 0 / 0.6);
+    --ilu-traco: #d3dae6;
+    --ilu-cabelo: #1d1722;
+    --ilu-grisalho: #b9b3a8;
     color-scheme: dark;
   }
 }
@@ -120,6 +127,9 @@
   --cor-erro: #ff8a80;
   --cor-sobre-erro: #0e1726;
   --cor-veu: rgb(0 0 0 / 0.6);
+  --ilu-traco: #d3dae6;
+  --ilu-cabelo: #1d1722;
+  --ilu-grisalho: #b9b3a8;
   color-scheme: dark;
 }
 
@@ -440,6 +450,111 @@ button {
 }
 .cena-texto.longa {
   font-size: 17.5px;
+}
+
+/* ilustração no topo da cena: ocupa só a sobra do meio (base 0), até 140 px, e some quando
+ * a sobra fica pequena demais. Nunca faz o meio rolar nem mexe na doca. */
+.meio[data-etapa='cena'] {
+  display: flex;
+  flex-direction: column;
+}
+.meio[data-etapa='cena'] > * {
+  flex: none;
+}
+.meio[data-etapa='cena'] > .cena-ilustra {
+  flex: 1 1 0;
+  min-height: 0;
+  max-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  container-type: size;
+}
+.cena-ilustra .ilu {
+  height: calc(100% - 8px);
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 2;
+  animation: ilu-entra calc(0.24s * var(--dur)) ease-out both;
+}
+@container (max-height: 60px) {
+  .cena-ilustra .ilu {
+    display: none;
+  }
+}
+@keyframes ilu-entra {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.98);
+  }
+}
+.ilu {
+  display: block;
+  color: var(--ilu-traco);
+}
+.ilu * {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ilu .c {
+  fill: var(--cor-primaria-suave);
+}
+.ilu .p {
+  fill: var(--cor-primaria);
+}
+.ilu .g {
+  fill: var(--cor-destaque);
+}
+.ilu .b {
+  fill: var(--cor-superficie);
+}
+.ilu .t {
+  fill: currentColor;
+}
+.ilu .h {
+  fill: var(--ilu-cabelo);
+}
+.ilu .hg {
+  fill: var(--ilu-grisalho);
+}
+.ilu .k1 {
+  fill: #f1cfb0;
+}
+.ilu .k2 {
+  fill: #d6a078;
+}
+.ilu .k3 {
+  fill: #a8693f;
+}
+.ilu .k4 {
+  fill: #6a3e26;
+}
+.ilu .n {
+  stroke: none;
+}
+.ilu .lp {
+  stroke: var(--cor-primaria);
+}
+.ilu .lg {
+  stroke: var(--cor-destaque);
+}
+.ilu .lb {
+  stroke: var(--cor-superficie);
+}
+.ilu .d {
+  stroke-dasharray: 5 6;
+}
+.ilu .f {
+  stroke-width: 2;
+}
+.ilu .w {
+  stroke-width: 6;
+}
+.ilu .o {
+  opacity: 0.75;
 }
 fieldset.opcoes {
   border: 0;
