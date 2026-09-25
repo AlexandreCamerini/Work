@@ -68,6 +68,7 @@ que ela acontece para aquele perfil.
 | garagem-alagada | rua-alagada | faixa de serviço privado | garagem do prédio alagada, carro do vizinho submerso |
 | caminhao-pipa | falta-agua | faixa de serviço privado | prédio sem água, caminhão-pipa na cota do condomínio |
 | celular-sinal (pres.) | celular-roubado | usa carro ou aplicativo | celular levado no sinal, com o vidro aberto |
+| vale-transporte | passagem-cara | anda de carro | quem trabalha com você ou na sua casa vem de Nova Iguaçu; o vale-transporte pesa |
 
 Filtro corrigido: **falta-tecnico** ("na empresa onde você trabalha") ia para qualquer um
 sem filho na escola pública, inclusive motoboy e desempregado. Agora exige também carteira
@@ -80,7 +81,7 @@ assinada ou empresa.
 | Diarista (SUS, ônibus, autônoma) | nenhuma: as cenas padrão já são a realidade de quem usa serviço público | trabalho-app |
 | Motoboy (SUS, moto, sem filhos) | nenhuma | trabalho-app, pagar-faculdade |
 | Servidora (plano da empresa, ônibus) | plano-voltou-sus, servidor-recomposicao, correria-praia | imposto-renda, plano-voltou-sus |
-| Analista (plano, carro, escola particular) | transito-carro, plano-voltou-sus, falta-tecnico, via-expressa-fechada, roubo-carro, garagem-alagada, caminhao-pipa, correria-praia | imposto-renda, plano-voltou-sus, celular-sinal, pagar-faculdade |
+| Analista (plano, carro, escola particular) | transito-carro, vale-transporte, plano-voltou-sus, falta-tecnico, via-expressa-fechada, roubo-carro, garagem-alagada, caminhao-pipa, correria-praia | imposto-renda, plano-voltou-sus, celular-sinal, pagar-faculdade |
 | Empresário (faixa privada) | as do analista + licenca-empresa | custo-contratar, imposto-renda, plano-voltou-sus, celular-sinal, pagar-faculdade |
 
 ## O que não foi feito, e por quê

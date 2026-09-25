@@ -4847,6 +4847,244 @@
           "justificativa": "Propõe iniciar a retomada pública e a reestatização da Cedae, com auditoria e processo contra os contratos de concessão."
         }
       }
+    },
+    "vale-transporte": {
+      "a": {
+        "eduardo-paes": {
+          "nota": 85,
+          "evidencias": [
+            "p42",
+            "p41"
+          ],
+          "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
+        },
+        "douglas-ruas": {
+          "nota": 30,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe tarifa social focalizada na baixa renda, e não subsídio amplo."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio amplo ao ônibus intermunicipal."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 75,
+          "evidencias": [
+            "p50",
+            "p9"
+          ],
+          "justificativa": "Defende tarifa zero e estatização dos ônibus com tarifas sociais."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p49"
+          ],
+          "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes em janeiro de 2027, sem detalhar o mecanismo de subsídio."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e trabalhadores informais, sem redução geral das passagens."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe redução progressiva das tarifas até a tarifa zero em todo o transporte público estadual."
+        }
+      },
+      "b": {
+        "douglas-ruas": {
+          "nota": 90,
+          "evidencias": [
+            "p45"
+          ],
+          "justificativa": "Propõe tarifa social focalizada na baixa renda com responsabilidade fiscal."
+        },
+        "eduardo-paes": {
+          "nota": 35,
+          "evidencias": [
+            "p42"
+          ],
+          "justificativa": "Propõe subsídio para reduzir passagens em geral, sem focalização por renda."
+        },
+        "andre-marinho": {
+          "nota": 50,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Prevê passe livre focalizado em jovens em formação técnica, sem critério de renda."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 40,
+          "evidencias": [
+            "p9",
+            "p1"
+          ],
+          "justificativa": "Propõe tarifas sociais e passe livre para desempregados, mas com caminho para a tarifa zero universal."
+        },
+        "juliete-pantoja": {
+          "nota": 30,
+          "evidencias": [
+            "p49",
+            "p50"
+          ],
+          "justificativa": "Propõe redução de 50% das passagens para todos e passe livre para estudantes, sem focalização por renda."
+        },
+        "luan-monteiro": {
+          "nota": 45,
+          "evidencias": [
+            "p5",
+            "p13"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, mas outro item do programa nacional defende o fim da Lei de Responsabilidade Fiscal."
+        },
+        "william-siri": {
+          "nota": 25,
+          "evidencias": [
+            "p15",
+            "p16"
+          ],
+          "justificativa": "Propõe tarifa zero universal, começando pelas regiões mais pobres, e não tarifa social focalizada por renda."
+        }
+      },
+      "c": {
+        "eduardo-paes": {
+          "nota": 95,
+          "evidencias": [
+            "p40",
+            "p43"
+          ],
+          "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
+        },
+        "douglas-ruas": {
+          "nota": 45,
+          "evidencias": [
+            "p44"
+          ],
+          "justificativa": "Propõe revisar e modernizar a bilhetagem única, sem mencionar retirá-la das empresas."
+        },
+        "andre-marinho": {
+          "nota": 75,
+          "evidencias": [
+            "p19"
+          ],
+          "justificativa": "Propõe que o estado retome o controle dos dados do sistema de transporte e implante o Bilhete Único Metropolitano."
+        },
+        "coronel-busnello": {
+          "nota": 40,
+          "evidencias": [
+            "p34"
+          ],
+          "justificativa": "Propõe integrar a bilhetagem entre sistemas, sem mencionar retirá-la do controle das empresas de ônibus."
+        },
+        "cyro-garcia": {
+          "nota": 70,
+          "evidencias": [
+            "p9",
+            "p8"
+          ],
+          "justificativa": "Defende estatizar os ônibus e fazer auditoria pública das concessões."
+        },
+        "juliete-pantoja": {
+          "nota": 60,
+          "evidencias": [
+            "p49",
+            "p64"
+          ],
+          "justificativa": "Propõe estatizar o transporte e implantar bilhete único intermodal e intermunicipal, sem mencionar a bilhetagem hoje controlada pelas empresas."
+        },
+        "luan-monteiro": {
+          "nota": 50,
+          "evidencias": [
+            "p38"
+          ],
+          "justificativa": "Defende devolver ônibus, trens e metrô ao controle estatal, sem mencionar a bilhetagem eletrônica."
+        },
+        "william-siri": {
+          "nota": 85,
+          "evidencias": [
+            "p17"
+          ],
+          "justificativa": "Propõe empresa pública com domínio público sobre a administração e os fluxos financeiros do sistema de mobilidade."
+        }
+      },
+      "d": {
+        "douglas-ruas": {
+          "nota": 95,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 com subsídio estadual."
+        },
+        "eduardo-paes": {
+          "nota": 45,
+          "evidencias": [
+            "p41"
+          ],
+          "justificativa": "Declara o objetivo de reduzir tarifas, sem se comprometer com valor."
+        },
+        "andre-marinho": {
+          "nota": 35,
+          "evidencias": [
+            "p20"
+          ],
+          "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio para reduzir a tarifa do metrô."
+        },
+        "coronel-busnello": {
+          "nota": null,
+          "evidencias": [],
+          "justificativa": "Sem proposta documentada sobre o tema."
+        },
+        "cyro-garcia": {
+          "nota": 75,
+          "evidencias": [
+            "p50",
+            "p49"
+          ],
+          "justificativa": "Defende reestatizar o metrô e adotar tarifa zero."
+        },
+        "juliete-pantoja": {
+          "nota": 85,
+          "evidencias": [
+            "p49"
+          ],
+          "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes, inclusive o metrô, sob administração estatal."
+        },
+        "luan-monteiro": {
+          "nota": 40,
+          "evidencias": [
+            "p5"
+          ],
+          "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, sem proposta de reduzir a tarifa do metrô para todos."
+        },
+        "william-siri": {
+          "nota": 90,
+          "evidencias": [
+            "p15"
+          ],
+          "justificativa": "Propõe redução progressiva das tarifas, inclusive do metrô, até a tarifa zero."
+        }
+      }
     }
   }
 }

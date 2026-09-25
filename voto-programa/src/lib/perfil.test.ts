@@ -69,7 +69,7 @@ describe('cenas publicadas por perfil', () => {
 
   it('faixa de serviço privado vê alagamento e falta d’água do prédio', () => {
     const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 }
-    expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa']))
+    expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa', 'vale-transporte']))
   })
 })
 

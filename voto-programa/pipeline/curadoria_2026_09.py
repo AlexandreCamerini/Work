@@ -164,3 +164,23 @@ ft = next(p for p in quiz["perguntas"] if p["id"] == "falta-tecnico")
 ft["publico"] = {"escola": ["particular", "nenhuma"], "trabalho": ["carteira", "empresario"]}
 quiz_path.write_text(json.dumps(quiz, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print("ok")
+
+
+# Passo 2 (mesmo dia): quem anda de carro ainda caía na cena da passagem de ônibus.
+# Variante com a mesma política vista de quem emprega ou convive com quem pega ônibus.
+def vale_transporte() -> None:
+    quiz_path, ader_path = DADOS / "quiz.json", DADOS / "aderencia.json"
+    quiz = json.loads(quiz_path.read_text(encoding="utf-8"))
+    ader = json.loads(ader_path.read_text(encoding="utf-8"))
+    if any(p["id"] == "vale-transporte" for p in quiz["perguntas"]):
+        return
+    variante(quiz["perguntas"], "passagem-cara", "vale-transporte", {"deslocamento": ["carro"]},
+             "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu: são R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.")
+    nova = next(p for p in quiz["perguntas"] if p["id"] == "vale-transporte")
+    nova["pergunta"] = "Pra passagem pesar menos, o que você prefere?"
+    ader["itens"]["vale-transporte"] = copy.deepcopy(ader["itens"]["passagem-cara"])
+    quiz_path.write_text(json.dumps(quiz, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    ader_path.write_text(json.dumps(ader, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+vale_transporte()

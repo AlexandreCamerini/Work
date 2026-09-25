@@ -147,6 +147,45 @@
       }
     },
     {
+      "id": "vale-transporte",
+      "grupo": "passagem-cara",
+      "tema": "transporte",
+      "cena": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu: são R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
+      "pergunta": "Pra passagem pesar menos, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado banca parte da passagem intermunicipal pra todo mundo.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão de passagem da mão das empresas de ônibus e abrir as contas.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Metrô mais barato, até chegar a R$ 5.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "O Bilhete Único Intermunicipal subiu para R$ 9,40 em dezembro de 2025, e os ônibus intermunicipais tiveram reajuste de até 12,61% em fevereiro de 2026.",
+        "fonte": "g1 e Detro",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/11/21/tarifa-do-bilhete-unico-intermunicipal-tem-reajuste.ghtml"
+      },
+      "publico": {
+        "deslocamento": [
+          "carro"
+        ]
+      }
+    },
+    {
       "id": "fila-especialista",
       "grupo": "fila-especialista",
       "tema": "saude",
