@@ -1,11 +1,11 @@
 {
   "candidato_id": "flavio-bolsonaro",
   "nome": "Flávio Bolsonaro",
-  "coletado_em": "2026-09-24",
+  "coletado_em": "2026-09-25",
   "plano_governo_oficial": {
     "obtido": true,
     "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
-    "observacao": "A API do DivulgaCandContas (lida via Exa) confirma a proposta de governo registrada no TSE: candidato FLAVIO BOLSONARO, nº 22, id 280002551544, eleição 20322002026, arquivo codTipo 5 'DiretrizesPlanodeGovernoFlavioBolsonaro20272030versaofinal.pdf', idArquivo 280017104726, caminho candidaturas/oficial/2026/BR/BR/6257/candidatos/21616/. O download direto do PDF no TSE falhou (timeout via Exa; o proxy bloqueia *.tse.jus.br). O texto usado vem do PDF espelhado pelo Poder360. Os metadados desse PDF trazem o título 'Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal', igual ao nome do arquivo no TSE. O documento se chama 'Para o Brasil Vencer o Atraso' e foi registrado em 13/08/2026 com o registro de candidatura, segundo iG, Portal Tela e g1. Não houve comparação byte a byte com o arquivo do TSE. A imprensa fala em 70, 75 ou 76 páginas. O site oficial (flaviobolsonaro.com.br/plano-de-governo/leitura) também publica o texto, mas não foi usado como fonte."
+    "observacao": "A API do DivulgaCandContas (lida via Exa) confirma a proposta de governo registrada no TSE: candidato FLAVIO BOLSONARO, nº 22, id 280002551544, eleição 20322002026, arquivo codTipo 5 'DiretrizesPlanodeGovernoFlavioBolsonaro20272030versaofinal.pdf', idArquivo 280017104726, caminho candidaturas/oficial/2026/BR/BR/6257/candidatos/21616/. O download direto do PDF no TSE falhou (timeout via Exa; o proxy bloqueia *.tse.jus.br). O texto usado vem do PDF espelhado pelo Poder360. Os metadados desse PDF trazem o título 'Diretrizes_Plano_de_Governo_Flavio_Bolsonaro_2027-2030_versaofinal', igual ao nome do arquivo no TSE. O documento se chama 'Para o Brasil Vencer o Atraso' e foi registrado em 13/08/2026 com o registro de candidatura, segundo iG, Portal Tela e g1. Não houve comparação byte a byte com o arquivo do TSE. A imprensa fala em 70, 75 ou 76 páginas. O site oficial (flaviobolsonaro.com.br/plano-de-governo/leitura) também publica o texto, mas não foi usado como fonte. Em 25/09/2026 o texto integral do PDF espelhado (cerca de 145 mil caracteres, da Apresentação à Conclusão) foi relido seção por seção via Exa; todos os trechos com fonte f1 foram conferidos literalmente contra essa extração."
   },
   "fontes": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "f3",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio defende Bolsa Família, isenção do IR para quem ganha até R$ 5 mil e diz que pai errou na relação com a imprensa (fórum Rumos do Brasil, Veja)",
       "veiculo": "O Globo",
       "url": "https://oglobo.globo.com/politica/noticia/2026/06/15/flavio-defende-bolsa-familia-isencao-do-ir-para-quem-ganha-ate-r-5-mil-e-diz-que-pai-errou-na-relacao-com-a-imprensa.ghtml",
@@ -34,7 +34,7 @@
     },
     {
       "id": "f4",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio Bolsonaro diz que Bolsa Família é 'direito adquirido': 'Ninguém tem direito de tocar nesse programa'",
       "veiculo": "g1",
       "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/06/15/flavio-bolsonaro-diz-que-bolsa-familia-e-direito-adquirido-e-propoe-ampliar-transicao-para-emprego-formal.ghtml",
@@ -42,7 +42,7 @@
     },
     {
       "id": "f5",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Ex-crítico, Flávio diz que fará Bolsa Família com cashback (entrevista ao Flow Podcast)",
       "veiculo": "SBT News",
       "url": "https://sbtnews.sbt.com.br/noticia/politica/ex-critico-flavio-diz-que-fara-bolsa-familia-com-cashback",
@@ -50,7 +50,7 @@
     },
     {
       "id": "f6",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio diz não pretender atacar pisos da saúde e educação, vinculação do mínimo e Previdência (entrevista ao SBT News)",
       "veiculo": "Correio do Estado (Estadão Conteúdo)",
       "url": "https://correiodoestado.com.br/politica/flavio-diz-nao-pretender-atacar-pisos-da-saude-e-educacao-vinculacao/468377/",
@@ -58,7 +58,7 @@
     },
     {
       "id": "f7",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio volta ao Senado, mas evita posição sobre PEC da 6x1 diante de possível desgaste eleitoral",
       "veiculo": "O Globo",
       "url": "https://oglobo.globo.com/economia/noticia/2026/09/01/flavio-volta-ao-senado-mas-evita-posicao-sobre-pec-da-6x1-diante-de-possivel-desgaste-eleitoral-acho-que-vai-poder-votar-remotamente.ghtml",
@@ -66,7 +66,7 @@
     },
     {
       "id": "f8",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio Bolsonaro acena ao agro, defende marco temporal e sugere que indígenas possam criar gado e explorar minério em terras (discurso na ExpoGrande)",
       "veiculo": "O Globo",
       "url": "https://oglobo.globo.com/politica/noticia/2026/04/10/flavio-bolsonaro-acena-ao-agro-defende-marco-temporal-e-sugere-que-indigenas-possam-criar-gado-e-explorar-minerio-em-terras.ghtml",
@@ -74,7 +74,7 @@
     },
     {
       "id": "f9",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "'Se depender de mim, não haverá nenhuma demarcação indígena', diz Flávio Bolsonaro (discurso na Norte Show, Sinop-MT)",
       "veiculo": "CBN",
       "url": "https://cbn.globo.com/politica/noticia/2026/04/22/se-depender-de-mim-nao-havera-nenhuma-demarcacao-indigena-diz-flavio-bolsonaro.ghtml",
@@ -82,7 +82,7 @@
     },
     {
       "id": "f10",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Em ato na Paulista, Flávio diz que 'quem vota em Lula está votando em Alexandre de Moraes' e diz que indicará cinco ministros ao STF",
       "veiculo": "O Globo",
       "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/07/em-ato-na-paulista-flavio-diz-que-quem-vota-em-lula-esta-votando-em-alexandre-de-moraes-e-diz-que-indicara-cinco-ministros-ao-stf.ghtml",
@@ -90,7 +90,7 @@
     },
     {
       "id": "f11",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Flávio Bolsonaro promete novo programa contra dívidas dos brasileiros (live nas redes sociais)",
       "veiculo": "g1",
       "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/23/flavio-bolsonaro-live-dividas.ghtml",
@@ -98,11 +98,91 @@
     },
     {
       "id": "f12",
-      "tipo": "noticia",
+      "tipo": "reportagem",
       "titulo": "Em aceno ao agro, Flávio defende marco temporal: \"Demarcou, está demarcado\" (discurso na 86ª Expogrande)",
       "veiculo": "CNN Brasil",
       "url": "https://www.cnnbrasil.com.br/politica/em-aceno-ao-agro-flavio-defende-marco-temporal-demarcou-esta-demarcado/",
       "data": "2026-04-10"
+    },
+    {
+      "id": "f13",
+      "tipo": "reportagem",
+      "titulo": "Flávio Bolsonaro evita dizer como votará projeto da escala 6x1 em entrevista exclusiva à RECORD (Domingo Espetacular)",
+      "veiculo": "R7 / TV Record",
+      "url": "https://noticias.r7.com/eleicoes/2026/video/flavio-bolsonaro-evita-dizer-como-votara-projeto-da-escala-6x1-em-entrevista-exclusiva-a-record-30082026/",
+      "data": "2026-08-30"
+    },
+    {
+      "id": "f14",
+      "tipo": "reportagem",
+      "titulo": "Flávio critica decisão de Barroso sobre o uso de câmeras em SP (post no X)",
+      "veiculo": "Poder360",
+      "url": "https://www.poder360.com.br/poder-congresso/flavio-critica-decisao-de-barroso-sobre-o-uso-de-cameras-em-sp/",
+      "data": "2024-12-09"
+    },
+    {
+      "id": "f15",
+      "tipo": "reportagem",
+      "titulo": "Flávio chama decreto de Lula contra big techs de \"censura\" (fala em sessão do Senado)",
+      "veiculo": "Poder360",
+      "url": "https://www.poder360.com.br/poder-congresso/flavio-chama-decreto-de-lula-contra-big-techs-de-censura/",
+      "data": "2026-05-21"
+    },
+    {
+      "id": "f16",
+      "tipo": "reportagem",
+      "titulo": "Flávio propõe fim do regime de partilha do petróleo e detalha programa contra endividamento (live semanal)",
+      "veiculo": "Valor Econômico",
+      "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/23/flavio-propoe-fim-do-regime-de-partilha-do-petroleo-e-detalha-programa-contra-endividamento.ghtml",
+      "data": "2026-09-23"
+    },
+    {
+      "id": "f17",
+      "tipo": "reportagem",
+      "titulo": "Flávio Bolsonaro defende mudança em leilões de petróleo e fala em privatizar estatais no 1º ano (evento da CNI)",
+      "veiculo": "Broadcast (Estadão)",
+      "url": "https://www.broadcast.com.br/ultimas-noticias/flavio-bolsonaro-defende-mudanca-em-leiloes-de-petroleo-e-fala-em-privatizar-estatais-no-1o-ano/",
+      "data": "2026-06-22"
+    },
+    {
+      "id": "f18",
+      "tipo": "reportagem",
+      "titulo": "Flávio diz que buscará setor privado para concluir Angra 3 (ato em Angra dos Reis)",
+      "veiculo": "Poder360",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-diz-que-buscara-setor-privado-para-concluir-angra-3/",
+      "data": "2026-08-29"
+    },
+    {
+      "id": "f19",
+      "tipo": "reportagem",
+      "titulo": "Flávio faz \"barqueata\" e defende apoio privado para concluir Angra 3",
+      "veiculo": "Metrópoles",
+      "url": "https://www.metropoles.com/brasil/flavio-faz-barqueata-e-defende-apoio-privado-para-concluir-angra-3",
+      "data": "2026-08-29"
+    },
+    {
+      "id": "f20",
+      "tipo": "reportagem",
+      "titulo": "Flávio Bolsonaro diz que fará nova reforma tributária se for eleito (evento \"Indústria na Agenda dos Presidenciáveis\", CNI)",
+      "veiculo": "Poder360",
+      "url": "https://www.poder360.com.br/poder-eleicoes/flavio-bolsonaro-diz-que-fara-nova-reforma-tributaria-se-for-eleito/",
+      "data": "2026-06-22"
+    },
+    {
+      "id": "f21",
+      "tipo": "reportagem",
+      "titulo": "As promessas de Flávio Bolsonaro: privatização de 95% das estatais e corte de gastos e de impostos (CEO Conference do BTG Pactual)",
+      "veiculo": "NeoFeed",
+      "url": "https://neofeed.com.br/economia/as-promessas-de-flavio-bolsonaro-privatizacao-de-95-das-estatais-e-corte-de-gastos-e-de-impostos/",
+      "data": "2026-02-11"
+    },
+    {
+      "id": "f22",
+      "tipo": "reportagem",
+      "titulo": "Em sabatina, Flávio Bolsonaro diz que vai governar com autonomia e reduzir ministérios (sabatina O Antagonista/G4)",
+      "veiculo": "Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-diz-que-vai-governar-com-autonomia-e-reduzir-ministerios/",
+      "data": "2026-08-04"
     }
   ],
   "propostas": [
@@ -111,7 +191,7 @@
       "tema": "seguranca",
       "subtema": "facções / crime organizado",
       "resumo": "Propõe declarar PCC, CV, milícias e demais facções como organizações narcoterroristas e bloquear ativos e combater a lavagem de dinheiro das facções.",
-      "trecho": "Vamos declarar guerra ao crime organizado. PCC, CV, milícias e todas as outras facções serão declaradas como organizações narcoterroristas. Elas serão combatidas com força, inteligência e integração para que seus líderes sejam presos e seus negócios ilícitos, asfixiados. Vamos seguir o dinheiro do crime: bloquearemos ativos e desarticularemos a lavagem de dinheiro que sustenta as facções.",
+      "trecho": "PCC, CV, milícias e todas as outras facções serão declaradas como organizações narcoterroristas. Elas serão combatidas com força, inteligência e integração para que seus líderes sejam presos e seus negócios ilícitos, asfixiados. Vamos seguir o dinheiro do crime: bloquearemos ativos e desarticularemos a lavagem de dinheiro que sustenta as facções.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
       "numeros": null
@@ -150,7 +230,7 @@
       "id": "p5",
       "tema": "seguranca",
       "subtema": "fronteiras",
-      "resumo": "Propõe criar o Sistema Nacional de Fronteira, tropa formada por Exército, Marinha e Aeronáutica para interceptar armas e drogas nas fronteiras.",
+      "resumo": "Propõe criar o Sistema Nacional de Fronteira, tropa de elite do Exército, da Marinha e da Aeronáutica encarregada de criar um 'paredão' na fronteira.",
       "trecho": "Vamos criar o Sistema Nacional de Fronteira, uma tropa de elite do Exército, da Marinha e da Força Aérea Brasileira, equipada com armas de guerra, inteligência e tecnologia, responsável por criar um paredão na fronteira.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -160,8 +240,8 @@
       "id": "p6",
       "tema": "seguranca",
       "subtema": "presídios federais",
-      "resumo": "Prevê 5 novos presídios federais de segurança máxima no modelo de El Salvador, formando com os 5 atuais o complexo chamado TREVA, sem celular, sem visita íntima e com visitas monitoradas.",
-      "trecho": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador. Junto com os atuais 5 presídios federais, eles formarão o Complexo Federal de Segurança Máxima. Para tirar o medo do cidadão e botar medo no bandido, ele vai se chamar TREVA. Chefes de quadrilha e marginais de alta periculosidade serão tirados de circulação e isolados. Com isso, os bandidos vão deixar de controlar as facções criminosas de dentro dos presídios, como ocorre hoje. Eles vão viver sem celular, sem visita íntima e com visitas monitoradas.",
+      "resumo": "Prevê 5 novos presídios federais de segurança máxima no modelo de El Salvador, que formariam com os 5 atuais o complexo chamado TREVA.",
+      "trecho": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador. Junto com os atuais 5 presídios federais, eles formarão o Complexo Federal de Segurança Máxima. Para tirar o medo do cidadão e botar medo no bandido, ele vai se chamar TREVA.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
       "numeros": "5 novos presídios federais de segurança máxima"
@@ -260,8 +340,8 @@
       "id": "p16",
       "tema": "seguranca",
       "subtema": "territórios dominados por facções",
-      "resumo": "Prometeu, a partir de janeiro de 2027, classificar PCC, Comando Vermelho e milícias como terroristas e livrar moradores de áreas dominadas, com integrantes das facções presos ou 'neutralizados' pela polícia.",
-      "trecho": "A partir de janeiro do ano que vem, eu vou declarar guerra aos narcoterroristas desse país. PCC, Comando Vermelho e milícias vão ser classificados como terroristas. Você, que mora em uma área dominada por esses marginais e tem que pagar pedágio para abrir sua loja, tem que pagar taxa para a sua internet e para o seu gás, eu vou livrar você desses caras. A partir do ano que vem, você não vai mais precisar olhar para a cara deles, porque eles vão estar presos ou serão neutralizados pela nossa polícia",
+      "resumo": "Prometeu classificar PCC, Comando Vermelho e milícias como terroristas e livrar moradores de áreas dominadas, com integrantes das facções presos ou 'neutralizados' pela polícia a partir do ano seguinte.",
+      "trecho": "PCC, Comando Vermelho e milícias vão ser classificados como terroristas. Você, que mora em uma área dominada por esses marginais e tem que pagar pedágio para abrir sua loja, tem que pagar taxa para a sua internet e para o seu gás, eu vou livrar você desses caras. A partir do ano que vem, você não vai mais precisar olhar para a cara deles, porque eles vão estar presos ou serão neutralizados pela nossa polícia",
       "fonte_id": "f10",
       "compromisso_concreto": true,
       "numeros": "A partir de janeiro de 2027"
@@ -330,8 +410,8 @@
       "id": "p23",
       "tema": "direitos",
       "subtema": "terras indígenas – atividades econômicas",
-      "resumo": "Defendeu que indígenas decidam se plantam, criam gado, exploram minérios ou fazem turismo em suas terras, recebendo royalties, sem que a decisão caiba a juízes.",
-      "trecho": "Se é plantar, se é botar gado, se é explorar minérios, se é implementar algum empreendimento de turismo, os indígenas têm que falar o que é melhor, têm que decidir o que é melhor para eles. Vão ganhar royalties, dinheiro disso. Vão prosperar, vão evoluir com isso, como alguns povos indígenas já estão fazendo. Não pode ser mais a caneta de um juiz que vai decidir qual é esse futuro",
+      "resumo": "Defendeu que indígenas decidam se plantam, criam gado, exploram minérios ou fazem turismo em suas terras, recebendo royalties.",
+      "trecho": "Se é plantar, se é botar gado, se é explorar minérios, se é implementar algum empreendimento de turismo, os indígenas têm que falar o que é melhor, têm que decidir o que é melhor para eles. Vão ganhar royalties, dinheiro disso. Vão prosperar, vão evoluir com isso, como alguns povos indígenas já estão fazendo.",
       "fonte_id": "f8",
       "compromisso_concreto": false,
       "numeros": null
@@ -370,7 +450,7 @@
       "id": "p27",
       "tema": "direitos",
       "subtema": "liberdade de expressão / desinformação",
-      "resumo": "Propõe extinguir estruturas estatais de combate à desinformação que classifica como 'Ministério da Verdade' e revogar atos do atual governo que considera censura.",
+      "resumo": "Propõe acabar com estruturas estatais que funcionem como um 'Ministério da Verdade', encarregadas de vigiar, rotular ou punir o que as pessoas dizem, e revogar atos do atual governo que o plano diz terem sido produzidos para silenciar críticos.",
       "trecho": "Vamos fazer um Tesouraço da Censura: acabar com qualquer estrutura estatal que funcione como um “Ministério da Verdade\", encarregada de vigiar, rotular ou punir o que as pessoas dizem. E vamos revogar todos os atos que o atual governo produziu para silenciar seus críticos",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -381,7 +461,7 @@
       "tema": "direitos",
       "subtema": "liberdade de imprensa",
       "resumo": "Afirmou que manterá liberdade de imprensa e de expressão e que a relação do governo do pai com a imprensa e a publicidade oficial deve mudar.",
-      "trecho": "No que depender de mim, vai ter sempre liberdade de imprensa, liberdade de expressão, independente de matérias injustas contra mim, ainda que eu as ache injustas.",
+      "trecho": "No que depender de mim, vai ter sempre liberdade de imprensa, liberdade de expressão, independente de matérias injustas contra mim, ainda que eu as ache injustas. E foi um dos problemas que eu identifico no governo do presidente Bolsonaro, o relacionamento com a imprensa, o preconceito, muitas vezes, de quem estava gerindo o orçamento para a publicidade, com relação a alguns veículos de comunicação. Isso tem que ser mudado radicalmente.",
       "fonte_id": "f3",
       "compromisso_concreto": false,
       "numeros": null
@@ -430,7 +510,7 @@
       "id": "p33",
       "tema": "economia",
       "subtema": "imposto de renda",
-      "resumo": "Declarou ser favorável à isenção do Imposto de Renda para quem ganha até R$ 5 mil, com compensação de receita sem criar ou aumentar impostos.",
+      "resumo": "Declarou ser favorável à isenção do Imposto de Renda para quem ganha até R$ 5 mil e disse que, com Jair Bolsonaro, haveria compensação dessa receita sem aumentar ou criar impostos.",
       "trecho": "Eu sou favorável, era uma promessa de campanha também do presidente Bolsonaro. A única diferença é que, com o Bolsonaro, certamente, você teria uma compensação de abrir mão dessa receita, você teria de onde tirar, sem precisar aumentar ou criar impostos.",
       "fonte_id": "f3",
       "compromisso_concreto": false,
@@ -460,7 +540,7 @@
       "id": "p36",
       "tema": "economia",
       "subtema": "ajuste fiscal / fontes",
-      "resumo": "Afirmou que o ajuste fiscal virá de cortes em corrupção e burocracia e da redução de impostos, sem cortes sobre quem ganha salário mínimo ou aposentados.",
+      "resumo": "Afirmou que não fará economia com quem ganha salário mínimo nem com aposentados, e sim cortando corrupção e burocracia e reduzindo impostos.",
       "trecho": "Não farei economia com quem ganha salário mínimo, não farei economia com aposentados. Eu vou fazer economia cortando corrupção, fazendo tesouraço na burocracia, reduzindo os impostos.",
       "fonte_id": "f2",
       "compromisso_concreto": false,
@@ -531,7 +611,7 @@
       "tema": "trabalho",
       "subtema": "negociado sobre o legislado / jornada flexível",
       "resumo": "Defende jornada flexível e a prevalência do negociado entre trabalhador e empresa sobre o legislado.",
-      "trecho": "Por isso defendemos o negociado sobre o legislado, ou seja, permitir que trabalhador e empresa combinem diretamente as condições de trabalho que funcionam para os dois, dentro da lei, em vez de seguir uma regra única imposta a todos.",
+      "trecho": "Vamos também dar mais liberdade a quem trabalha, com jornada flexível que caiba na vida de mães, jovens e de quem tem mais dificuldade de entrar no mercado. Por isso defendemos o negociado sobre o legislado, ou seja, permitir que trabalhador e empresa combinem diretamente as condições de trabalho que funcionam para os dois, dentro da lei, em vez de seguir uma regra única imposta a todos.",
       "fonte_id": "f1",
       "compromisso_concreto": false,
       "numeros": null
@@ -540,8 +620,8 @@
       "id": "p44",
       "tema": "trabalho",
       "subtema": "escala 6x1",
-      "resumo": "Não se comprometeu com a PEC do fim da escala 6x1; defende como alternativa que o trabalhador escolha a própria jornada, mantidos os direitos constitucionais.",
-      "trecho": "A minha posição é a alternativa melhor que nós estamos dando, de liberdade total para o trabalhador poder fazer a sua própria escala. Tem muita mulher, por exemplo, que não consegue trabalhar sete ou oito horas por dia para cumprir essa escala engessada que o governo está propondo. Ela pode trabalhar, de repente, meio período só, quatro horas por dia. Então vamos dar liberdade para que o trabalhador possa fazer a sua própria escala, com todos os direitos trabalhistas garantidos na Constituição.",
+      "resumo": "Defende, como alternativa à escala proposta pelo governo, liberdade para o trabalhador fazer a própria escala, mantidos os direitos trabalhistas previstos na Constituição.",
+      "trecho": "Tem muita mulher, por exemplo, que não consegue trabalhar sete ou oito horas por dia para cumprir essa escala engessada que o governo está propondo. Ela pode trabalhar, de repente, meio período só, quatro horas por dia. Então vamos dar liberdade para que o trabalhador possa fazer a sua própria escala, com todos os direitos trabalhistas garantidos na Constituição.",
       "fonte_id": "f7",
       "compromisso_concreto": false,
       "numeros": null
@@ -650,8 +730,8 @@
       "id": "p55",
       "tema": "programas-sociais",
       "subtema": "Bolsa Família – cashback e plataforma",
-      "resumo": "Propôs plataforma que conecte beneficiários a cursos e oportunidades, com cashback para quem poupar parte do benefício.",
-      "trecho": "Vai ser mais ou menos assim para simplificar. A pessoa precisa de um curso de qualificação. Ela vai ter nessa plataforma. E ela vai ganhar um cashback, um incentivo dentro do aplicativo, como quando usa o cartão de crédito. [...] Se você recebe R$ 600 de Bolsa Família e gastou só R$ 500 nesse mês, economizou R$ 100, o governo vai te dar mais R$ 100 para você ter educação financeira",
+      "resumo": "Propôs que beneficiários do Bolsa Família recebam cashback em um aplicativo do governo, incluindo um bônus igual ao valor que economizarem do benefício no mês.",
+      "trecho": "E ela vai ganhar um cashback, um incentivo dentro do aplicativo, como quando usa o cartão de crédito. [...] Se você recebe R$ 600 de Bolsa Família e gastou só R$ 500 nesse mês, economizou R$ 100, o governo vai te dar mais R$ 100 para você ter educação financeira",
       "fonte_id": "f5",
       "compromisso_concreto": true,
       "numeros": null
@@ -840,7 +920,7 @@
       "id": "p74",
       "tema": "educacao",
       "subtema": "escolas cívico-militares",
-      "resumo": "Propõe ampliar as Escolas Cívico-Militares e implementar a política nacional para alunos com altas habilidades.",
+      "resumo": "Propõe ampliar as Escolas Cívico-Militares e garantir atendimento a alunos com altas habilidades.",
       "trecho": "Vamos ampliar as Escolas Cívico-Militares, que uniram disciplina e bom desempenho onde foram implantadas, e garantir atendimento ao aluno com altas habilidades",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -920,7 +1000,7 @@
       "id": "p82",
       "tema": "previdencia",
       "subtema": "fila do INSS",
-      "resumo": "Propõe digitalizar os processos do INSS e profissionalizar sua gestão para reduzir a fila.",
+      "resumo": "Propõe investir em tecnologia, digitalizar os processos do INSS e profissionalizar a gestão do órgão.",
       "trecho": "Vamos investir em tecnologia e digitalizar os processos do INSS, dando continuidade ao caminho do Meu INSS, e profissionalizar a gestão do órgão.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
@@ -1000,8 +1080,8 @@
       "id": "p90",
       "tema": "meio-ambiente",
       "subtema": "moradores da floresta",
-      "resumo": "Afirma que a fiscalização na Amazônia mirará o crime organizado e não moradores, ribeirinhos, pequenos produtores e extrativistas.",
-      "trecho": "Vamos acabar com a política que criminaliza o morador da floresta, substituindo a punição cega por um caminho de orientação, regularização e oportunidade.",
+      "resumo": "Afirma que a fiscalização na Amazônia será dirigida a quem comanda o crime organizado, e não a moradores, ribeirinhos, pequenos produtores e extrativistas.",
+      "trecho": "O rigor da fiscalização será dirigido a quem comanda o crime organizado, não a quem vive na floresta. O morador da Amazônia, o ribeirinho, o pequeno produtor, o extrativista, não será tratado como criminoso por tirar da terra o seu sustento.",
       "fonte_id": "f1",
       "compromisso_concreto": false,
       "numeros": null
@@ -1021,7 +1101,7 @@
       "tema": "meio-ambiente",
       "subtema": "licenciamento ambiental",
       "resumo": "Propõe prazos definidos para o licenciamento e concessão da licença quando o órgão não decidir no prazo.",
-      "trecho": "Se não decidir nem se manifestar dentro desse prazo, a licença deve ser concedida, porque a demora do Estado não pode ser um castigo para quem fez a sua parte.",
+      "trecho": "Quando o empreendedor cumpre a lei e apresenta tudo o que a norma exige, o órgão responsável deve ter um prazo definido para concluir a análise. Se não decidir nem se manifestar dentro desse prazo, a licença deve ser concedida, porque a demora do Estado não pode ser um castigo para quem fez a sua parte.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
       "numeros": null
@@ -1060,7 +1140,7 @@
       "id": "p96",
       "tema": "meio-ambiente",
       "subtema": "mudanças climáticas",
-      "resumo": "Afirmou considerar os eventos climáticos extremos cíclicos e não ligados diretamente apenas à ação humana; apontou o saneamento básico como principal medida ambiental.",
+      "resumo": "Afirmou considerar os eventos climáticos extremos cíclicos e disse não achar que tenham a ver 'diretamente só' com a influência humana.",
       "trecho": "Eu acho que tem eventos climáticos extremos. Tem épocas cíclicas que fazem mais calor, tem épocas que fazem mais frio, tem época que chove mais. E eu não acho que isso tenha a ver diretamente só com a influência do ser humano no ambiente.",
       "fonte_id": "f2",
       "compromisso_concreto": false,
@@ -1151,7 +1231,7 @@
       "tema": "infraestrutura-transporte",
       "subtema": "internet / conectividade",
       "resumo": "Prevê pacotes de conexão à internet, com prioridade para mulheres do Brasil por Elas, e levar conectividade a escolas, áreas rurais e fronteiras.",
-      "trecho": "Vamos garantir pacotes de conexão para que nenhum brasileiro deixe de estudar, se capacitar, buscar emprego, empreender ou pedir ajuda por falta de internet, com prioridade para as mulheres alcançadas pelo Brasil por Elas.",
+      "trecho": "Vamos garantir pacotes de conexão para que nenhum brasileiro deixe de estudar, se capacitar, buscar emprego, empreender ou pedir ajuda por falta de internet, com prioridade para as mulheres alcançadas pelo Brasil por Elas. E vamos levar conectividade às localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira, dando continuidade ao trabalho que, no governo Bolsonaro, já havia conectado mais de 11 milhões de pessoas, por meio da instalação de mais de 21.000 pontos de inclusão digital pelo Programa Wi-Fi Brasil.",
       "fonte_id": "f1",
       "compromisso_concreto": true,
       "numeros": null
@@ -1170,7 +1250,7 @@
       "id": "p107",
       "tema": "gestao",
       "subtema": "reforma administrativa",
-      "resumo": "Propõe dar continuidade à reforma administrativa discutida no governo Jair Bolsonaro, incluindo a carreira do servidor.",
+      "resumo": "Propõe dar continuidade à reforma administrativa que o grupo diz já ter colocado em discussão, para modernizar o Estado e a carreira do servidor.",
       "trecho": "Daremos continuidade à reforma administrativa que já colocamos em discussão, para modernizar o funcionamento do Estado e a carreira do servidor.",
       "fonte_id": "f1",
       "compromisso_concreto": false,
@@ -1365,26 +1445,513 @@
       "fonte_id": "f1",
       "compromisso_concreto": false,
       "numeros": null
+    },
+    {
+      "id": "p127",
+      "tema": "seguranca",
+      "subtema": "presídios – isolamento de lideranças",
+      "resumo": "Prevê isolar chefes de quadrilha em presídios de segurança máxima, sem celular, sem visita íntima e com visitas monitoradas, para impedir que controlem facções de dentro das prisões.",
+      "trecho": "Chefes de quadrilha e marginais de alta periculosidade serão tirados de circulação e isolados. Com isso, os bandidos vão deixar de controlar as facções criminosas de dentro dos presídios, como ocorre hoje. Eles vão viver sem celular, sem visita íntima e com visitas monitoradas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p128",
+      "tema": "trabalho",
+      "subtema": "jornada / negociado sobre o legislado",
+      "resumo": "Critica a discussão de jornada conduzida pelo governo por, segundo o plano, ignorar a prevalência do negociado sobre o legislado e reabrir pontos já pacificados pela reforma trabalhista.",
+      "trecho": "É mais do mesmo: insegurança jurídica e retrocesso. Situações que se repetem na discussão de jornada – onde o governo deseja ignorar a prevalência do negociado sobre o legislado – ou na discussão de situações já pacificadas pela reforma trabalhista, aprovada há quase dez anos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p129",
+      "tema": "trabalho",
+      "subtema": "programas sociais e emprego",
+      "resumo": "Prevê prioridade aos beneficiários de programas sociais nos programas de primeiro emprego, qualificação profissional e intermediação de mão de obra.",
+      "trecho": "Por isso, o beneficiário de programa social terá prioridade em todas as ações do Estado voltadas ao trabalho: prioridade nos programas de primeiro emprego, nas ações de qualificação profissional e na intermediação de mão de obra.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p130",
+      "tema": "educacao",
+      "subtema": "escola em tempo integral",
+      "resumo": "Declara apoio à escola em tempo integral, sem meta de cobertura.",
+      "trecho": "Apoiamos a escola em tempo integral, para que a criança tenha mais tempo de aprendizado, reforço e atividades formativas, e não fique entregue à própria sorte no contraturno.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p131",
+      "tema": "educacao",
+      "subtema": "escola nas férias",
+      "resumo": "Propõe o programa Escola nas Férias, com escolas abertas nas férias oferecendo esporte, arte, música e literatura.",
+      "trecho": "Manteremos as escolas abertas nas férias com o Escola nas Férias, oferecendo esporte, arte, música e literatura em vez de deixar a criança ociosa.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p132",
+      "tema": "educacao",
+      "subtema": "ensino técnico / parceria com o setor produtivo",
+      "resumo": "Prevê ensino técnico em parceria com o setor produtivo, que poderá custear bolsas de formação técnica.",
+      "trecho": "E vamos fazer essa formação técnica em parceria com o setor produtivo, com foco na inovação, de modo que quem forma o profissional converse diretamente com quem vai contratá-lo. Nessa parceria, o setor produtivo poderá custear bolsas de formação técnica, financiando a qualificação dos profissionais de que precisa.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p133",
+      "tema": "educacao",
+      "subtema": "esporte escolar / evasão",
+      "resumo": "Apresenta o programa de esporte competitivo nas escolas como instrumento contra a evasão escolar e a repetência.",
+      "trecho": "O programa é também uma arma contra a evasão escolar e a repetência: o aluno que treina, que joga pelo time da escola e que sonha com a próxima competição é o aluno que continua estudando. A quadra puxa a sala de aula.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p134",
+      "tema": "educacao",
+      "subtema": "ensino superior / pesquisa",
+      "resumo": "Prevê que CAPES e CNPq priorizem impacto produtivo, inovação e transferência de tecnologia.",
+      "trecho": "A CAPES e o CNPq passarão a priorizar o impacto produtivo, a inovação e a transferência de tecnologia, para que a pesquisa feita na universidade chegue à indústria e vire produto, emprego e renda, em vez de ficar na estante.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p135",
+      "tema": "saude",
+      "subtema": "telessaúde / regiões distantes",
+      "resumo": "Prevê telessaúde e teleatendimento por aplicativo para que médicos de regiões com baixa demanda atendam pacientes de regiões com filas longas.",
+      "trecho": "Vamos também levar o atendimento até quem não consegue chegar até ele. Com a telessaúde e o teleatendimento por aplicativo, médicos de regiões com baixa demanda poderão atender pacientes onde as filas são longas, aproximando o cuidado de quem vive longe de um grande centro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p136",
+      "tema": "saude",
+      "subtema": "hospitais universitários",
+      "resumo": "Prevê fortalecer a rede EBSERH e modernizar os hospitais universitários federais.",
+      "trecho": "Vamos também fortalecer a Rede Nacional de Hospitais Inteligentes (EBSERH), modernizando os hospitais universitários federais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p137",
+      "tema": "saude",
+      "subtema": "prevenção / inteligência artificial",
+      "resumo": "Prevê uso de inteligência artificial para identificar pessoas com maior risco de adoecer e chamá-las para se cuidar.",
+      "trecho": "Com inteligência artificial de apoio à prevenção, o sistema poderá identificar quem corre maior risco de adoecer e chamar essa pessoa para se cuidar a tempo, em vez de esperar que ela chegue ao pronto-socorro quando já é grave.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p138",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo e gás",
+      "resumo": "Afirma que o governo vai transformar a riqueza de petróleo e gás do país em energia e emprego.",
+      "trecho": "E vamos transformar em energia e emprego a nossa riqueza de petróleo e gás.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p139",
+      "tema": "meio-ambiente",
+      "subtema": "refino e combustíveis",
+      "resumo": "Prevê estimular a modernização do refino, o escoamento de combustível ao Centro-Oeste por modais mais baratos e a produção de fertilizantes a partir do gás.",
+      "trecho": "Com o mesmo princípio, vamos estimular a modernização do refino rumo ao aproveitamento do petróleo nacional, incentivar o escoamento de combustível ao Centro-Oeste por modais mais baratos que o caminhão, e favorecer a produção nacional de fertilizantes a partir do gás, para reduzir a dependência externa que fragiliza o agronegócio e a nossa segurança alimentar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p140",
+      "tema": "meio-ambiente",
+      "subtema": "energia elétrica / armazenamento e data centers",
+      "resumo": "Prevê regular as fontes pelo menor preço ao consumidor, criar programa de armazenamento de energia com baterias e atrair data centers.",
+      "trecho": "Vamos regular as diversas fontes buscando o menor preço ao consumidor final, implantar um programa de armazenamento de energia, com baterias de grande porte e outras tecnologias, e transformar o país em polo global de data centers sustentáveis, aproveitando a matriz elétrica renovável.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p141",
+      "tema": "meio-ambiente",
+      "subtema": "transição energética",
+      "resumo": "Estabelece a meta de, até 2030, posicionar o Brasil entre os principais destinos de investimento em transição energética, com biocombustíveis, solar, eólica e hidrogênio verde.",
+      "trecho": "Nossa energia limpa e a sustentabilidade são vantagens competitivas que sustentam essa projeção: nossa meta para 2030 é posicionar o Brasil entre os principais destinos mundiais de investimento em transição energética, tendo os biocombustíveis, a energia solar, a eólica e o hidrogênio verde como alavancas e a diplomacia como instrumento permanente.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Meta para 2030 (sem indicador numérico)"
+    },
+    {
+      "id": "p142",
+      "tema": "meio-ambiente",
+      "subtema": "fiscalização / queimadas e crime ambiental",
+      "resumo": "Prevê fortalecer a fiscalização ambiental nas áreas de maior pressão de desmatamento e queimadas e combater organizações criminosas ligadas a desmatamento, madeira ilegal e garimpo ilegal.",
+      "trecho": "Vamos fortalecer a fiscalização ambiental, com prioridade para as áreas de maior pressão de desmatamento e queimadas, usando inteligência, satélite e atuação coordenada dos órgãos federais para identificar as áreas críticas com mais rapidez. Vamos ampliar a cooperação com os países vizinhos contra os crimes ambientais transfronteiriços e reforçar o combate às organizações criminosas envolvidas em desmatamento, extração ilegal de madeira, garimpo ilegal e ocupação irregular de terras públicas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p143",
+      "tema": "meio-ambiente",
+      "subtema": "pagamento por serviços ambientais",
+      "resumo": "Prevê ampliar o pagamento por serviços ambientais a quem conserva vegetação nativa, recupera áreas degradadas e protege recursos hídricos.",
+      "trecho": "Vamos criar mecanismos de incentivo econômico à preservação, ampliando o pagamento por serviços ambientais e desenvolvendo instrumentos capazes de remunerar produtores, comunidades e proprietários rurais que conservam a vegetação nativa, recuperam áreas degradadas e protegem os recursos hídricos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p144",
+      "tema": "infraestrutura-transporte",
+      "subtema": "obras hídricas no Nordeste",
+      "resumo": "Lista obras hídricas no Nordeste a concluir ou iniciar, como Ramal do Apodi, Adutora do Seridó, Canal do Xingó e Canais do Sertão.",
+      "trecho": "Iremos concluir, iniciar, executar estruturas como o Ramal do Apodi, o Ramal do Salgado, a Adutora do Seridó, o Canal do Xingó, o Ramal do Piancó, os Canais do Sertão Baiano, Piauiense e Alagoano, o CAC e a duplicação do Eixão das Águas do Ceará, sem o abandono de obras que marcou gestões anteriores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p145",
+      "tema": "infraestrutura-transporte",
+      "subtema": "irrigação",
+      "resumo": "Prevê ampliar a área irrigada, simplificar outorgas, criar polos de irrigação no Matopiba e no semiárido e expandir a água de reuso na estiagem.",
+      "trecho": "Na irrigação, vamos ampliar significativamente a área irrigada do país, que hoje aproveita apenas uma fração do seu enorme potencial, simplificar as outorgas, cujo prazo médio hoje é de 24 meses, desenvolver polos de irrigação no Matopiba e no semiárido nordestino e expandir a água de reuso para os períodos de estiagem.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p146",
+      "tema": "economia",
+      "subtema": "armazenagem de safras",
+      "resumo": "Prevê ampliar a capacidade de armazenamento de safras.",
+      "trecho": "Vamos também ampliar a capacidade de armazenamento das safras, hoje insuficiente para o que o país produz.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p147",
+      "tema": "seguranca",
+      "subtema": "territórios dominados por facções",
+      "resumo": "Promete retomar as áreas sob domínio de facções.",
+      "trecho": "Alinhado ao Brasil sem Medo, vamos retomar as áreas hoje sob domínio de facções, devolvendo aos moradores a liberdade de ir e vir na própria comunidade — ninguém é dono de verdade da sua casa enquanto o tráfico manda na esquina.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p148",
+      "tema": "direitos",
+      "subtema": "mulheres – avaliação de risco e tornozeleira",
+      "resumo": "Prevê sistema nacional de avaliação de risco das denúncias e tornozeleira eletrônica para agressores sob medida protetiva de maior risco, com alerta às autoridades e à vítima.",
+      "trecho": "Vamos implantar um sistema nacional de avaliação de risco, para que cada denúncia receba atendimento proporcional ao nível da ameaça, priorizando os casos mais graves. E vamos monitorar por tornozeleira eletrônica os agressores sob medida protetiva de maior risco, alertando de imediato as autoridades e a vítima em caso de descumprimento da ordem judicial ou de aproximação indevida.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p149",
+      "tema": "programas-sociais",
+      "subtema": "creches em período integral",
+      "resumo": "Prevê ampliar a oferta de creches em período integral desde a primeira infância.",
+      "trecho": "Vamos ampliar a oferta de creches para as crianças desde a primeira infância, em período integral, com alimentação digna e foco no desenvolvimento infantil.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p150",
+      "tema": "economia",
+      "subtema": "regulação da inovação / inteligência artificial",
+      "resumo": "Propõe legislação voltada à liberdade de criar e inovar, para que a tecnologia seja desenvolvida sem entraves regulatórios.",
+      "trecho": "Proporemos uma legislação voltada à liberdade de criar e inovar, inspirada nas melhores práticas internacionais, para que a tecnologia seja desenvolvida aqui sem entraves, em vez de sufocada por regras que afugentam o investimento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p151",
+      "tema": "gestao",
+      "subtema": "proteção de dados / defesa cibernética",
+      "resumo": "Prevê privacidade dos dados do cidadão, fortalecimento da defesa cibernética e uso da IA a serviço das pessoas.",
+      "trecho": "Os dados do cidadão são dele, não do governo, e serão tratados com privacidade e segurança. Vamos fortalecer a defesa cibernética do país, protegendo serviços públicos, infraestrutura crítica e cidadãos contra ataques e fraudes, e garantir que a inteligência artificial seja usada a serviço das pessoas, não contra elas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p152",
+      "tema": "gestao",
+      "subtema": "fundos de pensão das estatais",
+      "resumo": "Propõe blindar os fundos de pensão das estatais contra indicações políticas.",
+      "trecho": "Vamos blindar os fundos de pensão das estatais da indicação política, porque a aposentadoria do trabalhador não pode virar cofre de projeto de poder.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p153",
+      "tema": "gestao",
+      "subtema": "pacto federativo / orçamento",
+      "resumo": "Propõe revisar o pacto federativo e as regras e processos orçamentários para agilizar a liberação de recursos.",
+      "trecho": "Promoveremos a revisão do pacto federativo e a redefinição das regras e dos processos orçamentários, e revisar a legislação para agilizar a aprovação, a liberação dos recursos e a prestação de contas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p154",
+      "tema": "gestao",
+      "subtema": "avaliação de políticas públicas",
+      "resumo": "Prevê agenda permanente de transparência e avaliação de políticas públicas, identificando beneficiários e medindo o impacto de cada gasto.",
+      "trecho": "Junto disso, um choque de gestão vai colocar o patrimônio público a serviço da sociedade, com reforma do processo orçamentário e uma agenda permanente de transparência e avaliação de políticas públicas, identificando quem são os beneficiários de cada programa e medindo o impacto real de cada gasto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p155",
+      "tema": "economia",
+      "subtema": "reforma tributária / exceções",
+      "resumo": "Defende continuar a simplificação tributária com menos impostos, legislação unificada, desoneração de exportações e investimentos e redução das exceções.",
+      "trecho": "O esforço de simplificação continuará: menos impostos, legislação unificada, desoneração das exportações e dos investimentos e redução das exceções, para que grupos parecidos paguem impostos parecidos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p156",
+      "tema": "trabalho",
+      "subtema": "escala 6x1 / jornada por hora",
+      "resumo": "Defendeu, em entrevista à Record, que o trabalhador escolha quantas horas quer trabalhar e seja remunerado pela quantidade de horas trabalhadas.",
+      "trecho": "Eu defendo a liberdade do trabalhador. O trabalhador vai trabalhar quantas horas ele quiser. Ele vai ter a flexibilidade, a liberdade de decidir e vai ser remunerado pela quantidade de horas que ele quer trabalhar",
+      "fonte_id": "f13",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p157",
+      "tema": "trabalho",
+      "subtema": "escala 6x1 / voto na PEC",
+      "resumo": "Questionado sobre seu voto na PEC do fim da escala 6x1, disse que votaria a favor da proposta alternativa de seu grupo e que não daria a resposta pedida pelos jornalistas.",
+      "trecho": "Vocês estão querendo arrancar uma palavra da minha boca. O que vocês querem é uma resposta que eu não vou dar para vocês. Eu vou votar a favor da nossa proposta, já estou falando.",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p158",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais",
+      "resumo": "Em dezembro de 2024, como senador, criticou a decisão do STF que tornou obrigatório o uso de câmeras corporais pela PM de São Paulo, dizendo que policiais deixariam de trabalhar por medo de virar réus.",
+      "trecho": "Criam dificuldade para as polícias e os v4g4bund0s agradecem! A consequência em SP vai ser só uma: a maioria dos policiais vai preferir não correr o risco de errar em serviço, não vão trabalhar por medo de virarem réus.",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p159",
+      "tema": "direitos",
+      "subtema": "regulação das plataformas digitais",
+      "resumo": "Chamou de censura o decreto do governo que ampliou a responsabilização das big techs por conteúdos criminosos.",
+      "trecho": "Um decreto da censura de Lula. É mais uma ofensiva contra a liberdade de expressão, uma ameaça ao trabalho da imprensa.",
+      "fonte_id": "f15",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p160",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo / Margem Equatorial e regime de partilha",
+      "resumo": "Prometeu atualizar a legislação de petróleo e gás, trocando o regime de partilha pelo de concessão, e resolver a exploração da Margem Equatorial.",
+      "trecho": "Vamos resolver a questão da margem equatorial e atualizar a legislação de óleo e gás, sair da partilha e ir para concessão de novo",
+      "fonte_id": "f16",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p161",
+      "tema": "economia",
+      "subtema": "dívidas das famílias / refinanciamento",
+      "resumo": "Afirmou que o governo compraria dívidas das famílias junto aos bancos e as refinanciaria pela Caixa, sem informar valores ou critérios.",
+      "trecho": "O governo vai comprar sua dívida do banco e refinanciar pela Caixa Econômica Federal",
+      "fonte_id": "f16",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p162",
+      "tema": "gestao",
+      "subtema": "Petrobras / leilões de petróleo e privatizações",
+      "resumo": "Afirmou que pretende mudar os leilões de petróleo para voltar ao regime de concessão e que estatais, inclusive partes da Petrobras, podem ser privatizadas talvez já no primeiro ano de governo.",
+      "trecho": "Temos aqui o pré-sal na margem equatorial. Olha a burocracia demora em se fazer a concessão, e é o que eu pretendo fazer, mudar o método desses leilões de petróleo para voltar a valer a concessão, ao invés da partilha. Temos algumas estatais que podem ser privatizadas, como algumas dentro da própria Petrobras, que podem dar um impacto de algumas centenas de bilhões de reais, de uma forma, talvez, dentro do primeiro ano de governo ainda",
+      "fonte_id": "f17",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p163",
+      "tema": "meio-ambiente",
+      "subtema": "energia nuclear / Angra 3",
+      "resumo": "Defendeu concluir a usina nuclear Angra 3 em parceria com a iniciativa privada.",
+      "trecho": "Energia é uma questão a ser enfrentada no Brasil e aqui, em Angra, temos as usinas nucleares Angra 1, Angra 2 e Angra 3, que está até hoje sem terminar. Consome quase R$ 1 bilhão por ano dos cofres públicos. Então, junto da iniciativa privada, temos que concluir essa obra",
+      "fonte_id": "f18",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p164",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo e energias limpas",
+      "resumo": "Afirmou que investirá em energias limpas e que a produção de petróleo no Brasil voltará a ser pujante.",
+      "trecho": "Porque essa é uma energia, uma riqueza que Deus deu para o povo brasileiro, que não tá se revertendo para o próprio povo brasileiro. Eu vou, além de fazer o investimento também em energias limpas, a energia de petróleo no Brasil vai voltar a ser pujante",
+      "fonte_id": "f19",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p165",
+      "tema": "economia",
+      "subtema": "reforma tributária / suspensão da regulamentação",
+      "resumo": "Em junho, como pré-candidato, afirmou que suspenderia a regulamentação da reforma tributária para fazer outra, com redução gradual da carga.",
+      "trecho": "Quando eu falo disso, vou suspender a regulamentação da reforma tributária. É para dar tempo de fazermos uma reforma tributária de verdade, com redução de carga tributária ao longo dos anos, previsibilidade e ajuste fiscal",
+      "fonte_id": "f20",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p166",
+      "tema": "economia",
+      "subtema": "tributação de profissionais liberais e dividendos",
+      "resumo": "Criticou a carga sobre profissionais liberais na reforma tributária e a cobrança adicional de 10% sobre lucros distribuídos acima de R$ 50 mil.",
+      "trecho": "Como a gente pode falar de uma reforma tributária que vai meter quase 30% do lucro de um profissional liberal, médico, advogado ou dentista, e mais 10% sobre o que exceder R$ 50 mil para passar o dinheiro da pessoa jurídica para a pessoa física? É uma maluquice",
+      "fonte_id": "f20",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p167",
+      "tema": "gestao",
+      "subtema": "privatizações",
+      "resumo": "Afirmou que não é possível privatizar tudo, mas que privatizará onde for possível.",
+      "trecho": "\"Não dá para privatizar tudo\", disse. \"Mas, obviamente, onde puder privatizar, nós vamos privatizar.\"",
+      "fonte_id": "f21",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p168",
+      "tema": "gestao",
+      "subtema": "ministérios",
+      "resumo": "Disse querer reduzir no mínimo 10 ministérios, chegando a algo em torno de 26 ou 27 pastas.",
+      "trecho": "Eu já falei que eu quero no mínimo a redução de 10 ministérios. Podemos chegar aí a 25. Então, se hoje nós temos 39 ministérios, chegar algo em torno de 26, 27 ministérios, eu acho que é um número ideal",
+      "fonte_id": "f22",
+      "compromisso_concreto": true,
+      "numeros": "De 39 para cerca de 26 ou 27 ministérios"
+    },
+    {
+      "id": "p169",
+      "tema": "gestao",
+      "subtema": "reforma política / reeleição",
+      "resumo": "Comprometeu-se a buscar, ainda na transição, a aprovação da PEC do fim da reeleição valendo para o próprio mandato.",
+      "trecho": "Quero assumir esse compromisso público ainda na transição, conseguir aprovar essa PEC do fim da reeleição para que ela já valha para o meu mandato",
+      "fonte_id": "f22",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p170",
+      "tema": "meio-ambiente",
+      "subtema": "mudanças climáticas / resposta de política",
+      "resumo": "Perguntado sobre medidas para proteger a população das mudanças climáticas, apontou o saneamento básico como a melhor forma de proteger o meio ambiente.",
+      "trecho": "Tralli, a melhor forma que nós temos de proteger o meio ambiente é oferecendo saneamento básico para a população. Isso impacta, inclusive, na saúde.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p171",
+      "tema": "economia",
+      "subtema": "juros / expectativa de queda",
+      "resumo": "Afirmou que a eleição dele e a composição da equipe fariam os juros caírem já na reunião seguinte do Copom, abrindo cerca de R$ 90 bilhões no Orçamento por ponto percentual.",
+      "trecho": "Só com o anúncio da eleição de Flávio Bolsonaro como presidente da República e com a equipe que vai ter essa cara que todos estão vendo, com uma equipe de técnicos, economistas, pessoas sérias, pessoas competentes, a taxa de juros já vai cair na reunião seguinte do Copom, do Banco Central. E cada 1% de taxa de juro a menos que nós pagamos é cerca de R$ 90 bilhões que abre dentro do Orçamento.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "Cerca de R$ 90 bilhões por ponto percentual de juros"
+    },
+    {
+      "id": "p172",
+      "tema": "meio-ambiente",
+      "subtema": "Amazônia / crime organizado",
+      "resumo": "Afirmou que, na Amazônia, o problema é muitas vezes mais criminal do que ambiental e que será combatido em seu governo.",
+      "trecho": "Com relação às grandes áreas, como a Amazônia, muitas vezes o problema é até mais criminal do que ambiental. Acabamos de ver o Comando Vermelho agora também explorando ouro em reserva indígena. Então, é um problema que vai ser combatido no meu governo.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p173",
+      "tema": "programas-sociais",
+      "subtema": "Bolsa Família – manutenção",
+      "resumo": "Afirmou que o Bolsa Família virou direito adquirido e que ninguém pode acabar com o programa.",
+      "trecho": "Esse programa virou direito adquirido do povo brasileiro. Ninguém tem o direito de tocar ou de acabar com esse programa.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p174",
+      "tema": "programas-sociais",
+      "subtema": "Bolsa Família – microcrédito",
+      "resumo": "Propôs que a plataforma para beneficiários do Bolsa Família oriente a formalização de negócios e ofereça microcrédito a juros baixos.",
+      "trecho": "Se você é uma manicure que quer formalizar o seu próprio negócio e não sabe como, vai saber como fazer nessa plataforma. E vai ter um microcrédito aprovado nessa plataforma, a juros baixos, para poder caminhar com as próprias pernas e parar de depender do governo",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
     }
   ],
   "lacunas": [
-    "seguranca/armas civis: o plano de governo não trata de posse e porte de armas por civis. As falas sobre revogar o Estatuto do Desarmamento são do deputado Marcos Pollon (Gazeta do Povo, 07/08/2026), apresentado como integrante da equipe de transição; a única manifestação do candidato encontrada foi o compartilhamento de um post de terceiro (jan/2026). Nada registrado.",
-    "seguranca/polícias: não há proposta sobre câmeras corporais, letalidade policial, controle externo ou carreira das polícias além de 'valorização do policial' (genérico).",
+    "seguranca/armas civis: o plano não trata de posse e porte de armas por civis. As falas sobre revogar o Estatuto do Desarmamento são do deputado Marcos Pollon (Gazeta do Povo, 07/08/2026), anunciado como integrante da equipe de transição. Como senador, Flávio é autor do PDL 193/2023, que susta o Decreto 11.615/2023 (regras mais restritivas para armas e CACs), segundo a Agência Senado (20/02/2026). Não foi encontrada fala própria dele em 2026 sobre o tema. Nada registrado.",
+    "seguranca/polícias: não há proposta sobre letalidade policial, controle externo ou carreira das polícias além de \"valorização do policial\" (genérico). Câmeras corporais: o plano não trata do tema; a única fala do candidato encontrada é de dezembro de 2024, contra a obrigatoriedade imposta pelo STF à PM de SP (p158). Nenhuma fala de 2026 foi encontrada, e ele não aparece em reportagens de 2026 comentando o tema diretamente. O plano também não trata de GLO ou de criar um Ministério da Segurança Pública; há só a retomada de territórios (p147).",
     "trabalho/salário mínimo: o plano não menciona a política de valorização do salário mínimo. Na TV Globo (28/08) ele disse que não fará 'economia' com quem ganha o mínimo, mas não respondeu diretamente se manterá o aumento real. A promessa de manter o reajuste acima da inflação (SBT News, 19/06) aparece só em paráfrase da Folha/Valor; a citação literal é um 'não pretendo' genérico (ver p49).",
-    "trabalho/escala 6x1: não declarou voto sobre a PEC que acaba com a escala 6x1; registrada só a alternativa que defende (p44).",
-    "economia/imposto de renda: além do apoio à isenção até R$ 5 mil (fala de junho, como pré-candidato), não há proposta sobre tabela do IR, tributação de altas rendas, lucros e dividendos ou compensação.",
+    "trabalho/escala 6x1: continua sem voto declarado sobre a PEC que acaba com a escala 6x1. Em 01/09 disse que votaria \"a favor da nossa proposta\" e recusou-se a responder sobre o texto do governo (p157); na Record (30/08) defendeu jornada escolhida pelo trabalhador com remuneração por hora (p156). A CCJ do Senado aprovou a PEC em 02/09 em votação simbólica; Flávio, suplente na comissão, estava em agenda no RS e não há registro de voto dele (Folha, 01 e 02/09). Ele é coautor da PEC 12/2026 (Rogério Marinho e outros; https://www25.senado.leg.br/web/atividade/materias/-/materia/174362), que cria regime por hora com contrato individual prevalecendo sobre a negociação coletiva e direitos proporcionais às horas. O Valor (30/08) escreveu que ele \"disse ser contra\" o fim da 6x1, mas é paráfrase; a fala literal disponível não diz isso. Nada disso foi registrado além de p44, p156 e p157.",
+    "economia/imposto de renda: além do apoio à isenção até R$ 5 mil (p33, junho), não há proposta sobre correção da tabela. Segundo o UOL Confere (22/04/2026), votou a favor da isenção no Senado em 05/11/2025. Na mesma tramitação, apresentou emenda ao PL 1.087/2025 para isentar da tributação mínima os dividendos de sociedades de profissionais liberais (texto da emenda: https://legis.senado.leg.br/sdleg-getter/documento?dm=10092134&ts=1762384276891), e em junho chamou de \"maluquice\" a cobrança de 10% sobre dividendos acima de R$ 50 mil (p166). Não há posição encontrada sobre o Imposto Seletivo; a Folha (blog Que imposto é esse, 30/08) relata, em paráfrase, que ele apoiou a redução do imposto sobre armas de fogo na regulamentação da reforma.",
     "economia/dívida: nem o plano nem a entrevista à Globo trazem meta numérica de resultado primário ou de Dívida/PIB. A entrevistadora observou que o plano não traz 'números nem prazos'.",
-    "economia/renegociação de dívidas das famílias: a promessa de um programa para 'mais de 100 milhões de brasileiros' com ativos da União foi feita pela assessora Daniella Marques (26/08), não pelo candidato, e não foi registrada. Registrado só o fundo SOS Brasil, anunciado por ele em live (p35 e p97), cuja fala literal trata do pagamento da dívida pública.",
-    "gestao/privatizações: O Globo (15/06) relata que ele é favorável à privatização dos Correios, mas só em paráfrase, sem citação literal. Não foi registrado.",
-    "previdencia: não há proposta sobre idade mínima, regras de cálculo ou desvinculação dos benefícios do salário mínimo. O coordenador Rogério Marinho falou em 'revisitar a Previdência', mas isso não é atribuível ao candidato. Circulam boatos de 'aposentadoria aos 75 anos' desmentidos por checagens (Estadão Verifica, AFP).",
+    "economia/renegociação de dívidas das famílias: em live de 23/09 o próprio candidato disse que \"O governo vai comprar sua dívida do banco e refinanciar pela Caixa Econômica Federal\" (p161), sem valores, critérios ou número de beneficiados. A promessa de alcançar \"mais de 100 milhões de brasileiros\" continua atribuível só à assessora Daniella Marques (26/08) e não foi registrada. O fundo SOS Brasil está em p35, p97 e p160.",
+    "gestao/privatizações: em fevereiro (BTG), segundo o NeoFeed, disse que dá para privatizar \"95% das estatais\"; o número é paráfrase, e só a frase \"onde puder privatizar, nós vamos privatizar\" foi registrada (p167). Sobre a Petrobras: em 15/06 disse ser contra privatizá-la \"como um todo\" e que partes dela poderiam ser privatizadas, mas que isso \"não dá para cravar agora\" (p112). Em 22/06 (CNI) disse que algumas estatais \"dentro da própria Petrobras\" podem ser privatizadas \"talvez, dentro do primeiro ano de governo\" (p162). O plano diz só \"caso a caso\" (p111), sem citar a Petrobras. O Globo (15/06) relata, em paráfrase, que ele é favorável à privatização dos Correios; isso não foi registrado.",
+    "previdencia: não há proposta sobre idade mínima, regras de cálculo ou desvinculação dos benefícios do salário mínimo. Em 21/04 a Folha relatou que a equipe econômica estudava desvincular os pisos de saúde e educação e corrigir aposentadorias e BPC só pela inflação; a assessoria negou. Em 19/06 o candidato disse \"não pretendo\" mexer nesses temas (p49). O plano final não trata disso. As falas de Rogério Marinho sobre \"revisitar a Previdência\" são do coordenador, não do candidato. Circulam boatos de \"aposentadoria aos 75 anos\" desmentidos por checagens (Estadão Verifica, AFP).",
     "direitos/população negra: nenhuma proposta encontrada no plano ou em falas do candidato.",
     "direitos/LGBT+: nenhuma proposta de direitos ou de proteção. Só a regra da categoria feminina no esporte (p20) e o critério 'contra a ideologia de gênero nas escolas' para indicar ministros ao STF (p26).",
     "direitos/aborto: nenhuma proposta legislativa específica. Há a menção a 'vida desde a concepção' entre os valores do plano (p25) e a promessa de indicar ao STF ministros 'contra o aborto' (p26).",
     "direitos/drogas: não há proposta de política de drogas além do critério para indicar ministros ao STF.",
-    "meio-ambiente/clima: o plano não traz metas de emissão nem posição sobre o Acordo de Paris ou a exploração de petróleo na Margem Equatorial. Questionado sobre por que o plano não trata da mitigação climática, ele respondeu com saneamento básico.",
+    "meio-ambiente/clima: o plano não traz metas de emissão nem posição sobre o Acordo de Paris. Na Globo (28/08) o candidato disse ver os eventos extremos como \"cíclicos\" e não ligados \"diretamente só\" à ação humana (p96). Apontou o saneamento como a melhor forma de proteger o meio ambiente (p170) e tratou a Amazônia como problema \"mais criminal do que ambiental\" (p172). Sobre petróleo: defende explorar a Margem Equatorial/Foz do Amazonas e trocar a partilha pela concessão (p160, p162), e diz que a produção de petróleo \"vai voltar a ser pujante\" (p164). Ao mesmo tempo, o plano fixa como meta de 2030 atrair investimento em transição energética (p141) e zerar o desmatamento ilegal até 2029 (p88). Não há posição encontrada sobre expandir hidrelétricas ou reduzir o uso de carvão; na energia elétrica há só armazenamento, data centers e Angra 3 (p140, p163).",
     "saude: não há proposta de financiamento do SUS (piso constitucional, valores) além da correção da tabela SUS. A declaração de não mexer nos pisos de saúde e educação aparece só como 'não pretendo' em resposta a pergunta composta (p49).",
     "educacao: nenhuma proposta sobre piso salarial de professores, Fundeb, cotas ou financiamento das universidades federais.",
     "relacoes-exteriores: não há posição concreta sobre Venezuela, Mercosul-UE, BRICS ou guerras em curso. O plano só critica a política externa atual.",
-    "debates: até 24/09/2026 Flávio não participou de nenhum debate presidencial (Band 23/08 sem sua presença; os de 14/09 e 27/09 foram cancelados). Não há falas de debate no dossiê."
+    "debates: até 25/09/2026 Flávio não participou de nenhum debate presidencial. A Band (23/08) fez o debate sem ele. O do pool de emissoras (14/09) e o da Record (27/09) foram cancelados após Lula e Flávio não confirmarem presença. O da Globo (01/10) segue sem confirmação dele; aliados dizem que ele só irá se Lula for. Não há falas de debate no dossiê.",
+    "trabalho/tensão entre falas e PEC 12/2026: nas falas, o candidato diz que o trabalhador terá \"todos os direitos trabalhistas garantidos\" (p44; Folha 30/08). A PEC 12/2026, que ele assinou, prevê que férias, 13º e FGTS sejam proporcionais à carga horária e que o contrato individual prevaleça sobre acordos coletivos. O plano fala em reduzir o custo do trabalho \"sem retirar direitos\" (p40). Registrado como tensão a ser observada; não é contradição literal.",
+    "economia/juros e Banco Central: nenhuma fala do candidato em 2026 sobre manter ou rever a autonomia do Banco Central foi encontrada. Ele atribui os juros altos ao gasto público (p32, Globo 28/08) e diz que a taxa cairia já na reunião seguinte do Copom após sua eleição (p171). Em 2024, segundo o Jornal O Sul, votou a favor de Gabriel Galípolo para o BC; a página não foi aberta e o fato não foi registrado.",
+    "economia/reforma tributária – mudança de tom: em 22/06 (CNI) disse que suspenderia a regulamentação da reforma tributária (p165). O plano registrado em agosto fala em \"revisão e redimensionamento\", \"preservando a simplificação\" (p30, p155). O Estadão (19/08) relata que o candidato e a equipe deixaram de falar em suspensão. A Folha (30/08) aponta que, como senador, ele apresentou 67 emendas à reforma, algumas para ampliar exceções setoriais, enquanto o plano critica exceções obtidas por \"lobbies\". Esse dado é paráfrase de jornal e não foi registrado como proposta.",
+    "direitos/mulheres – inconsistência interna do plano: na seção Brasil sem Medo, o plano diz que os agressores das \"mais de meio milhão de mulheres com medida protetiva\" serão monitorados por tornozeleira (p9). Na seção Brasil por Elas, fala em tornozeleira só para os agressores \"de maior risco\" (p148).",
+    "internet/crianças e redes: o plano não traz medidas específicas de proteção de crianças no ambiente digital, como ECA Digital ou limites de uso de telas (g1, 30/08). Não foi encontrada fala do candidato sobre o ECA Digital. Ele chamou de \"decreto da censura\" a regulamentação de maio de 2026 que ampliou a responsabilização das plataformas (p159).",
+    "educacao/Pé-de-Meia e universidades: não há posição encontrada sobre manter ou ampliar o Pé-de-Meia nem sobre abrir vagas em universidades públicas; o plano não cita nenhum dos dois. Em 22/07 O Globo relatou que \"interlocutores da pré-campanha\" discutiam homeschooling e a desindexação do piso da educação. Nenhum dos dois temas aparece no plano final nem em fala do candidato; nada foi registrado.",
+    "fontes/tipos: as fontes f3 a f12 estavam com tipo \"noticia\", fora da lista permitida, e foram reclassificadas como \"reportagem\" em 25/09/2026. As novas fontes f13 a f22 são reportagens que reproduzem falas literais do candidato. f14 é de dezembro de 2024: é a única manifestação própria encontrada sobre câmeras corporais."
   ]
 }
