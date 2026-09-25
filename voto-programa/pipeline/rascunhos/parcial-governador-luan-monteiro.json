@@ -1,0 +1,55 @@
+{
+  "candidato_id": "luan-monteiro",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p38"
+        ],
+        "justificativa": "Defende devolver metrô, trens e ônibus ao controle estatal por serem serviços essenciais."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 55,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Item do programa nacional defende passe livre nos transportes para desempregados e trabalhadores informais, sem proposta de redução geral da tarifa."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p36",
+          "p8"
+        ],
+        "justificativa": "Defende recuperar a Cedae e reestatizar empresas estratégicas, e item do programa nacional defende cancelar todas as privatizações."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}

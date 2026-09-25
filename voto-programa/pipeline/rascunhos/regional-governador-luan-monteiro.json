@@ -1,0 +1,91 @@
+{
+  "candidato_id": "luan-monteiro",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 25,
+        "evidencias": [
+          "p38"
+        ],
+        "justificativa": "Defende que metrô, trens e ônibus voltem ao controle estatal em vez de ficar com empresas privadas, sem citar as barcas."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p38",
+          "p5"
+        ],
+        "justificativa": "Defende controle estatal de metrô, trens e ônibus, sem citar as barcas, e item do programa nacional prevê passe livre nos transportes para desempregados e informais."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p38",
+          "p8"
+        ],
+        "justificativa": "Defende que serviços essenciais de transporte não fiquem com empresas privadas, e item do programa nacional prevê cancelar todas as privatizações, sem mencionar rodovias."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Item do programa nacional prevê passe livre nos transportes para desempregados e informais, sem redução geral da passagem intermunicipal."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 65,
+        "evidencias": [
+          "p25",
+          "p37"
+        ],
+        "justificativa": "Item do programa nacional propõe plano de emergência para construir hospitais e postos de saúde, e defende saúde totalmente pública, sem especificar o interior do estado."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p25"
+        ],
+        "justificativa": "Item do programa nacional propõe construir hospitais e postos de saúde, sem mencionar oncologia ou diagnóstico de alta complexidade."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p24"
+        ],
+        "justificativa": "Item do programa nacional defende mais verbas para a saúde pública sem limite de gastos, sem condicionar o custeio a metas."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro de servidores, sem mencionar médicos ou especialistas."
+      }
+    }
+  }
+}

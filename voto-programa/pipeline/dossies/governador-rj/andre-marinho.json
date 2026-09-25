@@ -1,0 +1,707 @@
+{
+  "candidato_id": "andre-marinho",
+  "nome": "André Marinho",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf",
+    "observacao": "Texto lido no espelho do Nexo Jornal ('Agenda de Governo André Marinho 2027–2030 – Diretrizes Gerais | Metas e Ações', cerca de 140 páginas), que reproduz os planos registrados no TSE; candidatura nº 190002537524 (situação 'Deferido' na API do DivulgaCandContas em 24/09/2026). Download direto do TSE não testado (domínio bloqueado localmente) e não houve comparação byte a byte com o arquivo do TSE; data de protocolo não verificada (o plano já constava no DivulgaCand segundo a Agenda do Poder de 25/08/2026). O próprio plano marca quase todas as metas como 'meta do plano — a confirmar na estimação técnica'. A Parte V diz que o plano de segurança 'Sai Fuzil, Entra Brasil' tem 74 páginas anexadas 'ao final deste dossiê'; só o resumo dessa Parte foi lido. Há divergências entre plano e falas de campanha: o g1 (10/09) resumiu promessa de retomar '30 territórios' (o plano diz 20; a citação literal da reportagem não traz o número) e, na Rádio Manchete (09/09), ele disse que 60 km de monotrilho em quatro anos é 'inviável', enquanto o plano lista essa implantação como meta 2027–2030."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Agenda de Governo André Marinho 2027–2030 – Diretrizes Gerais | Metas e Ações (plano registrado no TSE; cópia espelhada pelo Nexo)",
+      "veiculo": "TSE / Nexo Jornal (espelho)",
+      "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-andre-marinho.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Marinho propõe parceria com EUA contra facções no Rio (sabatina SBT Rio)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/marinho-propoe-parceria-com-eua-contra-faccoes-no-rio",
+      "data": "2026-09-07"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Marinho propõe metrô pela Ponte Rio-Niterói e controladoria independente para fiscalizar governo (sabatina Rádio Manchete)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/marinho-propoe-metro-pela-ponte-rio-niteroi-e-controladoria-independente-para-fiscalizar-governo/",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "André Marinho cita expansão do metrô e políticas públicas para jovens da comunidade (sabatina O Dia/Fecomércio RJ)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301117-andre-marinho-cita-expansao-do-metro-e-politicas-publicas-para-jovens-da-comunidade.html",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Marinho promete retomar 30 territórios dominados pelo tráfico até 2030 (agenda de campanha em São Gonçalo)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/10/andre-marinho-agenda-retomar-30-territorios-dominados-pelo-trafico.ghtml",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f6",
+      "tipo": "noticia",
+      "titulo": "Marinho propõe ampliar Batalhão Motociclístico em vias expressas do RJ (agenda de campanha)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/andre-marinho-propoe-ampliar-batalhao-tatico-motociclistico.ghtml",
+      "data": "2026-09-17"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Marinho propõe presídio de segurança máxima na Ilha Grande inspirado em Bukele (entrevista)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/marinho-propoe-presidio-de-seguranca-maxima-na-ilha-grande-inspirado-em-bukele/",
+      "data": "2026-09-16"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "letalidade violenta / meta",
+      "resumo": "Fixa como meta-âncora do plano de segurança reduzir a letalidade violenta de cerca de 21 para 12 mortes por 100 mil habitantes.",
+      "trecho": "Meta-âncora: reduzir a letalidade de cerca de 21 para 12 mortes por 100 mil habitantes — patamar que outros estados já atingiram e ponto em que o retorno econômico (estimado em cerca de R$ 156 bilhões e ~700 mil postos de trabalho) se materializa (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "De ~21 para 12 mortes por 100 mil hab.; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "Lei do Cerco / financiamento",
+      "resumo": "Promete enviar à Alerj a 'Lei do Cerco' nos primeiros 100 dias e financiar o plano de segurança sem imposto novo, com ativos confiscados do crime, captação federal e mercado recuperado.",
+      "trecho": "Financiamento sem imposto novo: ativos confiscados do crime, captação federal e mercado recuperado. Primeiro ato: Lei do Cerco enviada à Assembleia nos primeiros 100 dias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Primeiros 100 dias"
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "fronteira / fiscalização de divisas (Escudo Rio)",
+      "resumo": "Propõe o 'Escudo Rio', com anéis de fiscalização marítimo, terrestre e aéreo e um centro integrado (COIF-RJ) com Marinha, Receita, PF, PRF e polícias estaduais, com custo estimado de R$ 1,5 a 2,5 bilhões em quatro anos.",
+      "trecho": "Investimento: R$ 1,5 a 2,5 bilhões em 4 anos, com custo zero ao contribuinte — financiado por captação federal, cooperação multilateral e recursos do próprio crime apreendido, sem aumento de imposto.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "R$ 1,5 a 2,5 bilhões em 4 anos"
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios (Cinturões de Soberania)",
+      "resumo": "Promete retomar 20 territórios dominados pelo crime até 2030, um a cada 60 dias, na Capital, Baixada e Interior.",
+      "trecho": "O programa liberta 20 territórios até 2030, um a cada 60 dias, distribuídos entre Capital, Baixada e Interior.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "20 territórios até 2030; 1 a cada 60 dias"
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "ocupação permanente / serviços nos territórios",
+      "resumo": "Cada território retomado receberia base policial 24 horas permanente, videomonitoramento com reconhecimento facial e serviços como iluminação, regularização de imóveis, UPA, creche e escola.",
+      "trecho": "Cada território retomado recebe, no mesmo ato, um pacote completo e permanente: base policial 24 horas que nunca mais sai, videomonitoramento com reconhecimento facial, e a infraestrutura urbana que o Estado devia há décadas — iluminação, asfalto, regularização de documento e de imóvel, internet pública, UPA, creche e escola.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "asfixia financeira do crime",
+      "resumo": "Propõe força-tarefa de inteligência patrimonial ('Operação Asfixia') para congelar e confiscar bens de facções e milícias, com investimento de R$ 0,8 a 1,2 bilhão e projeção de recuperar R$ 15 a 25 bilhões em quatro anos.",
+      "trecho": "Investindo de R$ 0,8 a 1,2 bilhão, a projeção é recuperar de R$ 15 a 25 bilhões em quatro anos — cada real investido voltando entre 12 e 30 ao cofre público.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Investimento R$ 0,8–1,2 bi; recuperação projetada R$ 15–25 bi em 4 anos"
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / isolamento de lideranças",
+      "resumo": "Propõe construir na Ilha Grande uma unidade de segurança máxima exclusiva para lideranças de facção, com isolamento individual, sem celular e sem visita íntima.",
+      "trecho": "O Projeto Ilha Grande reconstrói, no mesmo sítio onde o Comando Vermelho nasceu nos anos 1970, uma unidade de segurança máxima destinada exclusivamente às lideranças de facção — isolamento individual, sem celular, sem visita íntima, bloqueio total de sinal, acesso apenas marítimo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / presídio na Ilha Grande (entrevista)",
+      "resumo": "Em entrevista, reafirmou a construção de presídio de contenção máxima na Ilha Grande, inspirado no CECOT de El Salvador.",
+      "trecho": "E vamos construir em Ilha Grande, em Angra dos Reis, um presídio de contenção máxima, inspirado no modelo do CECOT, para cortar o vínculo entre o chefe preso e a rua.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "seguranca",
+      "subtema": "trabalho de presos",
+      "resumo": "Propõe regime 'dual' no sistema prisional: presos que trabalham cumprem pena com remição; os que recusam ficam no mínimo legal.",
+      "trecho": "Cria-se o regime dual — quem trabalha cumpre pena com dignidade e remição; quem recusa fica no mínimo legal.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "seguranca",
+      "subtema": "valorização policial / salário",
+      "resumo": "Propõe recomposição salarial em três anos para colocar o salário inicial do soldado entre os cinco melhores do país, adicional de risco por território e seguro-família para a família de policial morto em serviço.",
+      "trecho": "A face do abraço é o Escudo Azul: recomposição salarial em três anos para colocar o soldado entre os cinco melhores salários iniciais do país, adicional de risco indexado à periculosidade do território, e um seguro-família permanente — pensão integral, bolsa de estudo para os filhos e plano de saúde para a família do policial morto em serviço.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Recomposição em 3 anos; salário inicial entre os 5 melhores do país"
+    },
+    {
+      "id": "p11",
+      "tema": "seguranca",
+      "subtema": "corrupção policial / corregedorias",
+      "resumo": "Propõe corregedorias com autonomia, inteligência interna, tribunal de honra acelerado e cadastro estadual que impede recontratar policial demitido por corrupção.",
+      "trecho": "A face da limpeza é o Policial de Ferro: corregedorias com autonomia e tecnologia, inteligência interna permanente para detectar a infiltração cedo, tribunal de honra acelerado e cadastro estadual que impede a recontratação do demitido por corrupção.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "seguranca",
+      "subtema": "cooperação internacional",
+      "resumo": "Em sabatina, defendeu intercâmbio de inteligência e tecnologia entre as polícias fluminenses e agências dos EUA como DEA, FBI e CIA.",
+      "trecho": "A gente precisa se apoiar na maior potência militar, articulação e interlocução essa que eu vou estar colocando a disposição para esse intercâmbio inter-agências. O governador do estado pode fazer isso, ou seja, DEA, ATF, Homeland Security, FBI, CIA, ajudando nesse compartilhamento direto com as instâncias da Polícia Civil, da Polícia Militar",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p13",
+      "tema": "seguranca",
+      "subtema": "policiamento ostensivo / Batalhão Tático Motociclístico",
+      "resumo": "Promete ampliar o Batalhão Tático Motociclístico da PM de 5 para 30 guarnições e tirar agentes de escoltas para o patrulhamento.",
+      "trecho": "Hoje são cinco guarnições a gente vai investir pesadamente para 30. Parar de apenas eles fazerem escolta de autoridade e escolta de carro forte e sim a escolta do povo",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": "De 5 para 30 guarnições"
+    },
+    {
+      "id": "p14",
+      "tema": "seguranca",
+      "subtema": "corregedoria externa",
+      "resumo": "Em sabatina, defendeu corregedoria externa e autônoma para as polícias, com rondas aleatórias em delegacias e batalhões.",
+      "trecho": "Temos que fortalecer nossos policiais, com corregedoria externa e autônoma, fazendo rondas aleatórias dentro das delegacias e batalhões que estão eventualmente corrompidos.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "transporte",
+      "subtema": "Baixada / corredor de alta capacidade",
+      "resumo": "Propõe um eixo de VLT/metrô leve de mais de 20 km e 22 estações atravessando cinco municípios da Baixada, via PPP.",
+      "trecho": "Implantar um eixo ferroviário de transporte de alta capacidade — VLT/Metrô Leve — de mais de 20 km com 22 estações, atravessando cinco municípios da Baixada, para funcionar como âncora estruturante do desenvolvimento ao longo do Arco do Mar à Montanha, corrigindo a exclusão histórica em mobilidade e organizando o adensamento urbano em torno do transporte.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": ">20 km, 22 estações, 5 municípios"
+    },
+    {
+      "id": "p16",
+      "tema": "transporte",
+      "subtema": "tempo de deslocamento",
+      "resumo": "Estabelece meta de reduzir em 25% o tempo médio de deslocamento metropolitano em quatro anos.",
+      "trecho": "Reduzir o tempo médio de deslocamento metropolitano em 25% em quatro anos (meta do plano — a confirmar na estimação técnica), partindo da linha de base de 52 minutos (Quanta-Lerner/PNAD).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "-25% sobre 52 min em 4 anos; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p17",
+      "tema": "transporte",
+      "subtema": "monotrilho no Arco Metropolitano",
+      "resumo": "O plano lista como meta implantar os 60 km iniciais de um monotrilho suspenso ao longo do Arco Metropolitano.",
+      "trecho": "Implantar os 60 km iniciais do Monotrilho Suspenso ao longo do Arco (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "60 km; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p18",
+      "tema": "transporte",
+      "subtema": "monotrilho no Arco Metropolitano (prazo)",
+      "resumo": "Em sabatina, afirmou que a implantação completa dos 60 km do monotrilho não caberia em quatro anos.",
+      "trecho": "Eu sempre vou jogar limpo, 60 quilômetros em quatro anos é inviável",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "60 km"
+    },
+    {
+      "id": "p19",
+      "tema": "transporte",
+      "subtema": "governança / Autoridade Metropolitana de Mobilidade",
+      "resumo": "Propõe criar uma Autoridade Metropolitana de Mobilidade para integrar trem, metrô, ônibus, BRT, vans e barcas, repactuar concessões e implantar o Bilhete Único Metropolitano.",
+      "trecho": "Criar a Autoridade Metropolitana de Mobilidade, órgão estadual de comando único que planeje e integre trem, metrô, ônibus, BRT, vans e barcas, retome o controle dos dados do sistema, redesenhe as concessões com metas e fiscalização e implante o Bilhete Único Metropolitano de fato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "transporte",
+      "subtema": "tarifa / integração / passe livre",
+      "resumo": "Prevê Bilhete Único Metropolitano, aplicativo de informação em tempo real e passe livre para jovens em formação técnica.",
+      "trecho": "Bilhete Único Metropolitano, aplicativo estadual de informação em tempo real e Passe Livre para jovens em formação técnica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "transporte",
+      "subtema": "trens / recuperação",
+      "resumo": "Prevê renovação de frota e requalificação de estações ferroviárias, começando por Senador Camará, Belford Roxo e Japeri.",
+      "trecho": "Renovação de frota e requalificação de estações ferroviárias, começando por Senador Camará, Belford Roxo e Japeri.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "transporte",
+      "subtema": "metrô / Linha 3",
+      "resumo": "O plano lista apoio à expansão do metrô, incluindo a Linha 3 (Praça XV–Niterói–São Gonçalo) com travessia da Baía.",
+      "trecho": "Apoio à expansão do Metrô, incluindo a Linha 3 (Praça XV–Niterói–São Gonçalo), de 21,7 km e 15 estações, com travessia da Baía (A Tribuna RJ).",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "21,7 km, 15 estações"
+    },
+    {
+      "id": "p23",
+      "tema": "transporte",
+      "subtema": "metrô / Linha Azul na Ponte Rio-Niterói",
+      "resumo": "Em campanha, propôs a 'Linha Azul', metrô acoplado à Ponte Rio-Niterói ligando Niterói e São Gonçalo ao Rio.",
+      "trecho": "A gente vai oferecer para todo o povo de São Gonçalo, de Niterói a Linha Azul, baseada nos melhores modelos aí rodo-Ferroviários do planeta. Um trabalho arquitetonicamente muito sólido, onde serão dois metrôs ali acoplados na estrutura da própria ponte Rio-Niterói",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "transporte",
+      "subtema": "metrô na capital",
+      "resumo": "Em sabatina, defendeu concluir projetos de metrô já estudados, como o fim do compartilhamento de trilhos entre Linhas 1 e 2 e a extensão do Estácio à Praça XV.",
+      "trecho": "Na questão do metrô, terminar urgentemente projetos que já estão provisionados, já estão estudados e viabilizados tecnicamente. Ou seja, terminar o compartilhamento de trilhos entre a Linha 1 e a Linha 2, serão oito vagões ali para a Linha 2, que vai aumentar a demanda em 35%, estendendo também a Estácio até a Praça XV.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": "Aumento de demanda de 35% citado"
+    },
+    {
+      "id": "p25",
+      "tema": "transporte",
+      "subtema": "metrô / túnel no Maciço da Tijuca",
+      "resumo": "Em sabatina, defendeu ligação de metrô sob o Maciço da Tijuca entre a Estação Uruguai e a Gávea.",
+      "trecho": "furar o Maciço da Tijuca. Estação Uruguai, favorecendo a Zona Norte também, Grajaú, Méier, Tijuca, em vez de ter que fazer todo o perímetro em torno da cidade do Rio de Janeiro, em cinco minutos, finalmente, furando o Maciço da Tijuca, chegando lá na Estação Gávea.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "transporte",
+      "subtema": "rodovias estaduais / concessão",
+      "resumo": "Propõe conceder cerca de 700 km de rodovias estaduais em lotes, sem criar novos pedágios.",
+      "trecho": "Estruturar a concessão de cerca de 700 km de rodovias estaduais em lotes que melhorem a qualidade e a segurança das vias, com prazo ampliado e garantias robustas, sem criar novos pedágios nem transferir a conta ao usuário.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "~700 km"
+    },
+    {
+      "id": "p27",
+      "tema": "transporte",
+      "subtema": "vans / transporte alternativo sob milícia",
+      "resumo": "Propõe mapear e confiscar bens ligados ao transporte alternativo controlado por milícias e leiloar os bens para financiar trens e BRT.",
+      "trecho": "Operação Asfixia no Transporte: mapeamento da frota irregular e da rede de \"laranjas\", identificação dos chefes beneficiários e sequestro de bens, com leilão carimbado para renovar SuperVia/Nova Via e BRT.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p28",
+      "tema": "economia",
+      "subtema": "emprego / meta",
+      "resumo": "Projeta abertura líquida de mais de um milhão de postos de trabalho no mandato.",
+      "trecho": "a Agenda 2027–2030 projeta a abertura líquida de mais de um milhão de postos de trabalho ao longo do mandato, com ênfase em empregos formais, salários valorizados e oportunidades distribuídas por todas as regiões do estado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": ">1 milhão de postos em 4 anos"
+    },
+    {
+      "id": "p29",
+      "tema": "economia",
+      "subtema": "dívida com a União / Propag",
+      "resumo": "Compromete-se a cumprir integralmente as metas do Propag.",
+      "trecho": "Cumprir integralmente as metas do PROPAG, preservando a economia de cerca de R$ 3,1 bilhões até 2026 e a trajetória de longo prazo (linha de base: Casa Civil, 2026) — meta do plano — a confirmar na estimação técnica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p30",
+      "tema": "economia",
+      "subtema": "incentivos e renúncias fiscais",
+      "resumo": "Propõe auditar todas as renúncias e benefícios fiscais e cortar os que não têm contrapartida.",
+      "trecho": "Auditar 100% das renúncias e benefícios fiscais e cortar os sem contrapartida, a partir da base de 44,1% da receita em renúncias em 2023 (Fenafisco/Poder360) — meta do plano — a confirmar na estimação técnica.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "100% das renúncias auditadas; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p31",
+      "tema": "economia",
+      "subtema": "royalties / fundo soberano",
+      "resumo": "Propõe criar um Fundo Soberano estadual abastecido por fração das rendas do petróleo, com rendimentos destinados a educação, ciência e infraestrutura.",
+      "trecho": "Criar o Fundo Soberano do Rio de Janeiro, o primeiro fundo soberano estadual do Brasil, poupando e investindo uma fração das rendas do petróleo com governança técnica e transparência, para custear educação, ciência e infraestrutura e constituir a reserva que protege o estado quando a renda do petróleo declinar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "economia",
+      "subtema": "reforma tributária / ICMS-IBS",
+      "resumo": "Propõe grupo de trabalho permanente para a transição da reforma tributária, adequação dos benefícios fiscais e defesa do estado no Conselho Federativo do IBS.",
+      "trecho": "Criar um Grupo de Trabalho Permanente da Reforma Tributária para mapear os impactos da transição sobre as receitas estaduais, adequar os benefícios fiscais ao novo regime, defender os interesses do estado no Conselho Federativo do IBS e desenvolver novas fontes de receita própria.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "economia",
+      "subtema": "desestatização",
+      "resumo": "Propõe programa de desestatização de estatais deficitárias, participações e ativos ociosos, com tarifa social e cláusulas de desempenho nas concessões.",
+      "trecho": "Organizar a desestatização de estatais deficitárias, participações e ativos ociosos com quatro travas de proteção ao cidadão, melhorando o serviço prestado, gerando receita e liberando espaço fiscal — sem entregar o interesse público.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p34",
+      "tema": "economia",
+      "subtema": "relação com a União / compensação histórica",
+      "resumo": "Propõe negociar com a União um Fundo de Reparação Fluminense para compensar perdas da transferência da capital e da fusão, com recursos vinculados a serviços e ao abatimento da dívida.",
+      "trecho": "Constituir o Fundo de Reparação Fluminense (FRF), com âncora jurídica no precedente do Fundo Constitucional do DF, para que a União reconheça e compense, de forma negociada, as perdas históricas do Rio decorrentes da transferência da capital e da fusão, com recursos vinculados por lei a segurança, saúde, educação e ao abatimento estruturado da dívida.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "economia",
+      "subtema": "polos econômicos regionais",
+      "resumo": "Propõe estruturar ao menos 27 áreas econômicas (distritos industriais, condomínios logísticos) ao longo do Arco Metropolitano.",
+      "trecho": "Estruturar ao menos 27 áreas econômicas ao longo do Arco do Mar à Montanha (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "27 áreas; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p36",
+      "tema": "economia",
+      "subtema": "atração de investimentos",
+      "resumo": "Em sabatina, prometeu um balcão único de investimentos para empresas e associações de classe.",
+      "trecho": "Pretendo criar um balcão único de investimentos para facilitar, trazer todas as associações de classe e todo o empresariado que, muitas vezes, se sente repelido no RJ",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "saude",
+      "subtema": "filas de cirurgias e exames",
+      "resumo": "Promete zerar as filas de exames e cirurgias eletivas de oftalmologia, cirurgia geral e ortopedia no primeiro ano de operação plena de mutirões com redes pública, filantrópica e privada.",
+      "trecho": "Zerar as principais filas de exames e cirurgias eletivas de oftalmologia, cirurgia geral e ortopedia no primeiro ano de operação plena do Mutirão, começando pelo interior e pela Baixada (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Primeiro ano de operação plena; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p38",
+      "tema": "saude",
+      "subtema": "regulação / tempo de espera",
+      "resumo": "Estabelece meta de reduzir o tempo médio do atendimento regulado de cerca de 57 para menos de 30 dias.",
+      "trecho": "Reduzir o tempo médio do atendimento regulado no Estado dos atuais ~57 dias para patamar inferior a 30 dias (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "De ~57 para <30 dias; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p39",
+      "tema": "saude",
+      "subtema": "prontuário eletrônico / saúde digital",
+      "resumo": "Propõe prontuário eletrônico unificado do SUS com adesão dos 92 municípios e uso de IA na triagem e regulação de leitos.",
+      "trecho": "Implantar o prontuário eletrônico unificado com adesão de todos os 92 municípios até o fim do período (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "92 municípios até 2030; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p40",
+      "tema": "saude",
+      "subtema": "oncologia no interior",
+      "resumo": "Propõe ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada região do interior desassistida.",
+      "trecho": "Implantar ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada uma das regiões do interior hoje desassistidas (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p41",
+      "tema": "saude",
+      "subtema": "saúde mental",
+      "resumo": "Propõe 15 novas unidades de saúde mental, priorizando interior e periferia metropolitana, e teleconsulta nos 92 municípios.",
+      "trecho": "Implantação de 15 novas unidades de saúde mental, priorizando as regiões do interior e da periferia metropolitana hoje descobertas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "15 unidades"
+    },
+    {
+      "id": "p42",
+      "tema": "saude",
+      "subtema": "emergência na saúde / policlínicas regionais",
+      "resumo": "Em sabatina, prometeu decretar um 'código vermelho da saúde' e investir em policlínicas regionais de média e alta complexidade no interior.",
+      "trecho": "Eu vou decretar o código vermelho da saúde como uma política de governo. A gente precisa investir pesado em policlínicas regionais de polos de média e alta complexidade.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p43",
+      "tema": "educacao",
+      "subtema": "ensino técnico / aprendizagem dual",
+      "resumo": "Propõe o programa Aprendiz Rio, de aprendizagem dual para jovens de 15 a 18 anos, com salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado por Estado (30%) e empresa (70%).",
+      "trecho": "Programa Aprendiz Rio: aprendizagem dual para jovens de 15 a 18 anos, com 3 dias na escola e 2 dias na empresa, salário-aprendiz de R$ 800 a R$ 1.200 cofinanciado (Estado 30%, empresa 70%), contrato CLT, vale-transporte e mentor designado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "R$ 800 a R$ 1.200; Estado 30% / empresa 70%"
+    },
+    {
+      "id": "p44",
+      "tema": "educacao",
+      "subtema": "ensino técnico / meta de vagas",
+      "resumo": "Estabelece meta de 200 mil jovens em aprendizagem dual em quatro anos, com mais vagas na Baixada.",
+      "trecho": "200 mil jovens em aprendizagem dual (Aprendiz Rio) ao longo de quatro anos (meta do plano — a confirmar na estimação técnica), com a maior concentração de vagas na Baixada Fluminense.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "200 mil jovens em 4 anos; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p45",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Propõe lançar e expandir escolas cívico-militares na rede estadual, com formação técnica integrada.",
+      "trecho": "Lançar e expandir o modelo cívico-militar na rede estadual, integrando de forma pioneira itinerários de educação técnica profissional ao currículo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "educacao",
+      "subtema": "jornada ampliada",
+      "resumo": "Propõe a 'Escola 18h', com jornada escolar até o fim da tarde com reforço, esporte, cultura e apoio psicossocial.",
+      "trecho": "Ampliar a jornada escolar para até o fim da tarde (Escola 18h), integrando reforço acadêmico, esporte, cultura e apoio psicossocial, de modo a reter o jovem na escola, atacar a distorção idade-série e disputar seu tempo com o tráfico.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "educacao",
+      "subtema": "desempenho / Ideb",
+      "resumo": "Em campanha, prometeu ao menos 10 escolas estaduais entre as 100 melhores do Ideb nacional.",
+      "trecho": "Eu prometo que o Rio de Janeiro terá no mínimo 10 escolas estaduais Fluminenses figurando ali no top 100 do Ideb Brasileiro, hoje, não tem nenhum isso aí inaceitável",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": "≥10 escolas no top 100 do Ideb"
+    },
+    {
+      "id": "p48",
+      "tema": "moradia",
+      "subtema": "habitação de interesse social / áreas de risco",
+      "resumo": "Propõe o programa Morada Fluminense de habitação de interesse social, com prioridade para reassentar famílias de áreas de risco, combinado a obras de drenagem e contenção de encostas.",
+      "trecho": "Ampliar o estoque de habitação de interesse social para famílias de baixa renda, com prioridade para o reassentamento seguro de quem vive em áreas de risco, combinando a produção habitacional a macroprojetos de drenagem, contenção de encostas e desassoreamento de rios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p49",
+      "tema": "meio-ambiente",
+      "subtema": "Baía de Guanabara",
+      "resumo": "Prevê despoluição da Baía de Guanabara com emissário submarino, ecobarreiras e desassoreamento.",
+      "trecho": "Despoluição da Baía de Guanabara com emissário submarino, ecobarreiras em rios e canais, desassoreamento de calhas e tecnologias inovadoras de recuperação aquática.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento / concessão",
+      "resumo": "Prevê ampliar e fiscalizar as metas de coleta e tratamento de esgoto na bacia da Baía em articulação com a concessionária e as agências reguladoras.",
+      "trecho": "Ampliação e fiscalização das metas de coleta e tratamento de esgoto na bacia, em articulação com a concessionária e as agências reguladoras.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p51",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae / fiscalização das concessionárias",
+      "resumo": "Em sabatina, criticou a falta de água na Baixada e defendeu fortalecer a fiscalização das concessionárias de saneamento e o uso dos repasses da Cedae.",
+      "trecho": "Temos que fortalecer nossos mecanismos de fiscalização e lidar diretamente com as concessionárias e fazer com que todos os repasses da Cedae sejam usados",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p52",
+      "tema": "meio-ambiente",
+      "subtema": "reflorestamento",
+      "resumo": "Propõe plantar 2,5 milhões de árvores em 20 unidades de conservação estaduais até 2030.",
+      "trecho": "Plantar 2,5 milhões de árvores em 20 unidades de conservação até 2030 (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "2,5 milhões de árvores; 20 UCs; até 2030; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p53",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher / feminicídio",
+      "resumo": "Propõe renovar o Pacto Estadual de Enfrentamento à Violência contra a Mulher com metas anuais de redução do feminicídio e criar um Observatório do Feminicídio.",
+      "trecho": "Renovação do Pacto Estadual de Enfrentamento à Violência contra a Mulher, com metas anuais de redução do feminicídio pactuadas e monitoradas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "direitos",
+      "subtema": "igualdade racial",
+      "resumo": "Propõe comitê intersetorial de promoção da igualdade racial, fomento ao empreendedorismo negro e canais de denúncia de racismo.",
+      "trecho": "Criação de Comitê Intersetorial de Promoção da Igualdade Racial, fomento ao empreendedorismo negro e afrodescendente e mecanismos robustos de enfrentamento ao racismo, com canais de denúncia e acompanhamento de casos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "direitos",
+      "subtema": "pessoas com deficiência / autismo",
+      "resumo": "Em sabatina, defendeu política pública com Senai, Senac, Firjan e Fecomércio de acolhimento a famílias com membros neurodivergentes e prioridade à terapia ocupacional para crianças autistas.",
+      "trecho": "A gente tem que trabalhar em conjunto não só com o Senai e o Senac, mas também com a Firjan e a Fecomércio, e trazer isso como uma política pública definida, junto aos centros regionais do Estado. Para que a gente possa dar uma mão absolutamente acolhedora a todas as famílias que lidam com membros neurodivergentes, dando prioridade também à terapia ocupacional para as crianças autistas, que muitas vezes ficam largadas à própria sorte.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p56",
+      "tema": "gestao",
+      "subtema": "Rioprevidência",
+      "resumo": "Propõe atacar o déficit do Rioprevidência com combate a fraudes e privilégios, sem cortar direitos de aposentados, e reduzir a dependência de royalties.",
+      "trecho": "Recuperar a sustentabilidade do Rioprevidência atacando o déficit pela raiz — fraude, privilégio e ineficiência —, sem punir o aposentado honesto, e reduzindo progressivamente a dependência da receita volátil do petróleo por meio de tecnologia, controle atuarial transparente e centralização da gestão de benefícios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p57",
+      "tema": "gestao",
+      "subtema": "Rioprevidência / recadastramento",
+      "resumo": "Prevê recadastramento biométrico de todos os beneficiários do Rioprevidência até o fim de 2028.",
+      "trecho": "Recadastramento biométrico de 100% da base concluído até o fim de 2028 (meta do plano — a confirmar na estimação técnica).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "100% até fim de 2028; meta do plano, a confirmar na estimação técnica"
+    },
+    {
+      "id": "p58",
+      "tema": "gestao",
+      "subtema": "eficiência / LEGE-RJ",
+      "resumo": "Compromete-se a enviar, nos primeiros 90 dias, um projeto de Lei de Eficiência na Gestão do Estado com indicadores públicos por secretaria.",
+      "trecho": "André Marinho se compromete a apresentar, nos primeiros noventa dias de mandato, um Projeto de Lei de Eficiência na Gestão do Estado (LEGE-RJ), iniciativa pioneira no Brasil, com princípios práticos e indicadores públicos de desempenho para cada secretaria.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Primeiros 90 dias"
+    },
+    {
+      "id": "p59",
+      "tema": "gestao",
+      "subtema": "avaliação de gestores",
+      "resumo": "Prevê avaliações anuais de desempenho de gestores vinculadas à permanência no cargo.",
+      "trecho": "Avaliações anuais de desempenho dos gestores, vinculadas à permanência no cargo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p60",
+      "tema": "gestao",
+      "subtema": "corrupção / auditoria inicial",
+      "resumo": "Promete auditoria forense de todas as secretarias e estatais nos primeiros 90 dias, com relatório público.",
+      "trecho": "Auditoria forense de todas as secretarias e estatais nos primeiros 90 dias de mandato, com relatório público de achados e priorização das áreas de maior risco.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Primeiros 90 dias"
+    },
+    {
+      "id": "p61",
+      "tema": "gestao",
+      "subtema": "corrupção / compliance em contratos",
+      "resumo": "Propõe lei estadual tornando obrigatório programa de integridade para contratos acima de R$ 5 milhões, com lista de fornecedores punidos.",
+      "trecho": "Lei estadual de compliance, tornando o programa de integridade obrigatório para contratos acima de R$ 5 milhões, com lista negra automática de fornecedores punidos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Contratos > R$ 5 milhões"
+    },
+    {
+      "id": "p62",
+      "tema": "gestao",
+      "subtema": "corrupção / controladoria independente",
+      "resumo": "Propõe Controladoria-Geral independente, com chefia escolhida por lista tríplice e mandato fixo, sem demissão pelo governador.",
+      "trecho": "É a dona institucional do Sentinelia — o órgão que o opera com autonomia real, chefia escolhida por lista tríplice e mandato fixo, sem poder ser demitido pelo governador.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "seguranca: letalidade policial / ADPF 635 e câmeras corporais — sem proposta encontrada (o plano cita 797 mortes por intervenção policial em 2025 só como diagnóstico)",
+    "seguranca: número de territórios — o g1 (10/09/2026) resume promessa de '30 territórios até 2030', mas a citação literal da reportagem não traz o número; plano e Agenda do Poder (09/09) falam em 20; registrado o número do plano",
+    "seguranca: unificação do comando das polícias e deslocamento de policiais de funções administrativas — só em paráfrase (Folha da Baixada 09/09; g1 17/09; Agenda do Poder 16/09); não registrado como proposta própria",
+    "educacao: piso nacional do magistério e recomposição salarial de professores — só em paráfrase (g1 17/09/2026); não registrado",
+    "educacao: retorno do Saerj/Saerjinho e 'Pacto pela Escola Rio' — só em paráfrase (SBT News 07/09/2026); não registrados",
+    "economia: ICMS — sem proposta de alteração de alíquotas; o plano cita crédito de ICMS como incentivo à contratação de jovens (programa CIR) e reivindica mudanças federativas sobre o ICMS do petróleo",
+    "economia: royalties — posição contra a redistribuição federal não encontrada como proposta; só o Fundo Soberano e a menção genérica à defesa do estado 'na distribuição dos royalties'",
+    "meio-ambiente: concessão da Cedae (manter, rever ou reestatizar) — sem posição explícita; o plano fala em articulação com 'a concessionária' e, em sabatina (O Dia 11/09), ele defendeu fiscalizar as concessionárias",
+    "transporte: tarifa (valor de passagens de trem, metrô, barcas e ônibus intermunicipais) — sem proposta de redução ou congelamento",
+    "transporte: barcas — sem proposta específica além da integração na Autoridade Metropolitana",
+    "moradia: urbanização de favelas e regularização fundiária em larga escala — só o projeto 'Chave na Mão' dentro da frente de segurança, sem detalhes",
+    "direitos: população LGBT+ — sem proposta encontrada",
+    "direitos: cotas raciais/sociais (UERJ, concursos) — sem posição encontrada",
+    "gestao: reajuste/recomposição salarial geral dos servidores e data-base — sem proposta encontrada no plano (só policiais)",
+    "debates: nenhuma transcrição de debate de TV foi consultada; as falas vêm de sabatinas, entrevistas e agendas de campanha"
+  ]
+}

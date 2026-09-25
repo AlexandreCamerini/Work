@@ -1,0 +1,879 @@
+{
+  "versao": "1.3.0",
+  "titulo": "Qual proposta combina com o seu dia a dia?",
+  "eleicao": "Presidente da República 2026",
+  "descricao": "situações da vida real em todo o país: jornada de trabalho, fila do SUS, juros, celular roubado",
+  "temas": [
+    {
+      "id": "trabalho",
+      "nome": "Trabalho"
+    },
+    {
+      "id": "economia",
+      "nome": "Dinheiro e impostos"
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde"
+    },
+    {
+      "id": "seguranca",
+      "nome": "Segurança"
+    },
+    {
+      "id": "educacao",
+      "nome": "Escola e faculdade"
+    },
+    {
+      "id": "energia",
+      "nome": "Luz e combustível"
+    },
+    {
+      "id": "clima",
+      "nome": "Clima e meio ambiente"
+    },
+    {
+      "id": "internet",
+      "nome": "Internet"
+    },
+    {
+      "id": "contas",
+      "nome": "Governo e gastos"
+    },
+    {
+      "id": "mulheres",
+      "nome": "Mulheres"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "escala-6x1",
+      "grupo": "jornada",
+      "tema": "trabalho",
+      "cena": "Você, ou alguém da sua casa, trabalha seis dias por semana e folga um. No domingo, mal dá pra ver a família.",
+      "pergunta": "O que você queria pra sua jornada?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Acabar com a escala 6x1: 40 horas por semana, sem cortar salário.",
+          "preferencia": "Aprovar o fim da escala 6x1 e reduzir a jornada legal para 40 horas semanais sem redução salarial."
+        },
+        {
+          "id": "b",
+          "texto": "Poder combinar a minha jornada direto com a empresa.",
+          "preferencia": "Prevalência do negociado entre trabalhador e empresa sobre o legislado, com liberdade para escolher a própria escala."
+        },
+        {
+          "id": "c",
+          "texto": "Rever pontos da reforma trabalhista e da terceirização.",
+          "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+        },
+        {
+          "id": "d",
+          "texto": "Menos imposto na carteira, pra empresa contratar mais gente.",
+          "preferencia": "Reduzir encargos sobre a folha de pagamento para estimular a contratação formal."
+        }
+      ],
+      "fato": {
+        "texto": "Cerca de 14,8 milhões de trabalhadores com carteira assinada estão na escala 6x1: seis dias de trabalho para um de folga.",
+        "fonte": "Ministério do Trabalho, via g1 (28/05/2026)",
+        "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/05/28/fim-da-escala-6x1-trabalhadores-afetados.ghtml"
+      }
+    },
+    {
+      "id": "custo-contratar",
+      "grupo": "jornada",
+      "publico": {
+        "trabalho": [
+          "empresario"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Contratar com carteira custa caro, e você pensa duas vezes antes de abrir uma vaga.",
+      "pergunta": "O que te faria contratar mais?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Baixar aos poucos o custo de ter empregado, sem tirar direito.",
+          "preferencia": "Redução gradual do custo do trabalho formal sem retirada de direitos."
+        },
+        {
+          "id": "b",
+          "texto": "Contrato mais barato pro 1º emprego e pra desempregado acima de 50.",
+          "preferencia": "Contratos com menor custo na folha para jovens em primeiro emprego e desempregados com 50 anos ou mais."
+        },
+        {
+          "id": "c",
+          "texto": "Aumentar o limite de quanto o MEI pode faturar por ano.",
+          "preferencia": "Elevar o teto de faturamento do MEI."
+        },
+        {
+          "id": "d",
+          "texto": "Fiscalizar quem troca carteira por PJ ou terceirizado pra tirar direitos.",
+          "preferencia": "Combater a pejotização fraudulenta e terceirizações precarizantes com fiscalização."
+        }
+      ],
+      "fato": {
+        "texto": "No 2º trimestre de 2026, 37,4% dos trabalhadores ocupados no Brasil estavam na informalidade.",
+        "fonte": "IBGE, PNAD Contínua (14/08/2026)",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+      }
+    },
+    {
+      "id": "trabalho-app",
+      "grupo": "jornada",
+      "publico": {
+        "trabalho": [
+          "autonomo"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Você roda de aplicativo dez horas por dia e, se ficar doente, não tem de onde tirar.",
+      "pergunta": "O que te daria mais segurança?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Lei do trabalho por app, com ganho mínimo e direitos.",
+          "preferencia": "Regulação do trabalho por plataformas com regras de remuneração, relação de trabalho e direitos."
+        },
+        {
+          "id": "b",
+          "texto": "Previdência pra quem trabalha em app, sem sindicato no meio.",
+          "preferencia": "Proteção social e previdenciária para trabalhadores de aplicativo, sem protagonismo de dirigentes sindicais, mantendo a flexibilidade."
+        },
+        {
+          "id": "c",
+          "texto": "Contribuir pro INSS de um jeito mais flexível, quando der.",
+          "preferencia": "Mecanismos contributivos previdenciários flexíveis para trajetórias de trabalho descontínuas."
+        },
+        {
+          "id": "d",
+          "texto": "Deixar como está, sem lei nova sobre trabalho por app.",
+          "preferencia": "Manter o trabalho por aplicativo sem nova regulação trabalhista, preservando a flexibilidade."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2024, 1,7 milhão de pessoas trabalhavam por aplicativo no Brasil, e só 35,9% delas contribuíam para a Previdência.",
+        "fonte": "IBGE, PNAD Contínua (17/10/2025)",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44806-numero-de-trabalhadores-por-aplicativos-cresceu-25-4-entre-2022-e-2024"
+      }
+    },
+    {
+      "id": "salario-minimo",
+      "grupo": "renda",
+      "tema": "economia",
+      "cena": "Você, ou alguém da sua casa, vive com um salário mínimo, e no fim do mês a conta não fecha.",
+      "pergunta": "O que faria mais diferença no seu bolso?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Salário mínimo subindo acima da inflação todo ano.",
+          "preferencia": "Política de reajuste do salário mínimo com ganho real anual."
+        },
+        {
+          "id": "b",
+          "texto": "Cesta básica sem imposto, e imposto de volta pra quem ganha pouco.",
+          "preferencia": "Isenção de tributos sobre a cesta básica e devolução de impostos (cashback) para a baixa renda."
+        },
+        {
+          "id": "c",
+          "texto": "Juro menor e desconto pra quem paga em dia e faz curso.",
+          "preferencia": "Programa voluntário que recompensa comportamentos como qualificação e adimplência com crédito, juros menores e cashback."
+        },
+        {
+          "id": "d",
+          "texto": "Cortar imposto e burocracia pra tudo ficar mais barato.",
+          "preferencia": "Reduzir a carga tributária e a burocracia para baratear preços e aliviar o orçamento."
+        }
+      ],
+      "fato": {
+        "texto": "O salário mínimo de 2026 é R$ 1.621, e cerca de 61,9 milhões de brasileiros têm renda ligada a ele.",
+        "fonte": "Dieese, via Agência Brasil (02/02/2026)",
+        "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-02/salario-minimo-de-r-1621-comeca-ser-pago-nesta-segunda"
+      }
+    },
+    {
+      "id": "imposto-renda",
+      "grupo": "renda",
+      "publico": {
+        "faixa": [
+          "misto",
+          "privado"
+        ]
+      },
+      "tema": "economia",
+      "cena": "Declarando o imposto de renda, você soma quanto vai pro governo: no salário e nas compras.",
+      "pergunta": "O que você defenderia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Continuar sem imposto até R$ 5 mil, com tabela corrigida todo ano.",
+          "preferencia": "Manter a isenção do IR até R$ 5 mil e reajustar a tabela para preservá-la."
+        },
+        {
+          "id": "b",
+          "texto": "Rever a reforma tributária e baixar imposto sobre produção e compras.",
+          "preferencia": "Revisar a reforma tributária e reduzir a alíquota do IVA e a carga sobre produção e consumo."
+        },
+        {
+          "id": "c",
+          "texto": "Acabar aos poucos com o imposto sobre dólar e outras moedas.",
+          "preferencia": "Fim gradual do IOF sobre operações de câmbio."
+        },
+        {
+          "id": "d",
+          "texto": "Imposto maior sobre produto que faz mal à saúde.",
+          "preferencia": "Uso do Imposto Seletivo para desestimular produtos nocivos à saúde."
+        }
+      ],
+      "fato": {
+        "texto": "Desde janeiro de 2026, quem ganha até R$ 5 mil por mês não paga IR; a estimativa oficial é que cerca de 10 milhões deixem de pagar.",
+        "fonte": "Agência Senado (27/11/2025)",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes"
+      }
+    },
+    {
+      "id": "juros-altos",
+      "grupo": "juros",
+      "tema": "economia",
+      "cena": "Os juros do cartão, do crediário e do financiamento continuam altos, e qualquer compra parcelada pesa.",
+      "pergunta": "Como o governo devia fazer os juros caírem?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Manter as regras de gasto de hoje e fazer o país crescer.",
+          "preferencia": "Manter o arcabouço fiscal vigente, com resultado fiscal vindo do crescimento e do controle do gasto primário."
+        },
+        {
+          "id": "b",
+          "texto": "Trocar as regras: gastar menos do que entra, pra dívida cair.",
+          "preferencia": "Substituir as regras fiscais por metas de superávit primário e redução da dívida pública, com controle de gastos dos três Poderes."
+        },
+        {
+          "id": "c",
+          "texto": "Usar imóveis do governo e dinheiro do petróleo pra pagar a dívida.",
+          "preferencia": "Criar fundo com imóveis e ativos da União e royalties do petróleo para abater a dívida pública."
+        },
+        {
+          "id": "d",
+          "texto": "Mudar as regras do Banco Central pra ele olhar mais pro emprego.",
+          "preferencia": "Rever o modelo de autonomia do Banco Central para que a política de juros priorize crescimento e emprego."
+        }
+      ],
+      "fato": {
+        "texto": "Em junho de 2026, as famílias usavam em média 28,9% da renda para pagar dívidas, o maior nível desde 2011.",
+        "fonte": "Banco Central, via SBT News (28/08/2026)",
+        "url": "https://sbtnews.sbt.com.br/noticia/economia/comprometimento-renda-familias-dividas-recorde-banco-central"
+      }
+    },
+    {
+      "id": "fila-cirurgia",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "Sua mãe espera há meses por uma cirurgia pelo SUS.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "Em janeiro de 2025, ao menos 5,7 milhões de pessoas esperavam consulta com especialista no SUS. O dado é parcial: vários estados não informam a fila.",
+        "fonte": "O Globo, com dados do Ministério da Saúde",
+        "url": "https://oglobo.globo.com/saude/especial/entre-a-fila-do-sus-e-a-vida-espera-para-consultas-bate-recorde.ghtml"
+      }
+    },
+    {
+      "id": "especialista-longe",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "Pra consultar com especialista, sua mãe viaja dois dias de barco até a capital. E a fila ainda é de meses.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "Pacientes do Norte percorrem em média 442 km para fazer radioterapia, seis vezes mais que os do Sul e do Sudeste (cerca de 70 km).",
+        "fonte": "g1, 08/04/2026",
+        "url": "https://g1.globo.com/saude/noticia/2026/04/08/pacientes-do-norte-viajam-ate-6-vezes-mais-que-os-do-sul-para-tratar-cancer-acesso-ainda-depende-do-cep.ghtml"
+      },
+      "publico": {
+        "regiao": [
+          "norte"
+        ]
+      }
+    },
+    {
+      "id": "plano-voltou-sus",
+      "grupo": "fila-sus",
+      "tema": "saude",
+      "cena": "O plano de saúde da sua mãe ficou caro demais depois dos 60, e ela voltou pro SUS. Agora espera uma cirurgia há meses.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+          "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+        },
+        {
+          "id": "b",
+          "texto": "Fila única pela internet, organizada por gravidade.",
+          "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+          "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+        },
+        {
+          "id": "d",
+          "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
+          "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+        }
+      ],
+      "fato": {
+        "texto": "Em janeiro de 2025, ao menos 5,7 milhões de pessoas esperavam consulta com especialista no SUS. O dado é parcial: vários estados não informam a fila.",
+        "fonte": "O Globo, com dados do Ministério da Saúde",
+        "url": "https://oglobo.globo.com/saude/especial/entre-a-fila-do-sus-e-a-vida-espera-para-consultas-bate-recorde.ghtml"
+      },
+      "publico": {
+        "saude": [
+          "plano_empresa",
+          "plano_proprio"
+        ]
+      }
+    },
+    {
+      "id": "faccao-bairro",
+      "grupo": "faccao",
+      "tema": "seguranca",
+      "cena": "Em muitos bairros, talvez no de alguém que você conhece, a facção manda na rua. Ela cobra taxa até do gás e da internet.",
+      "pergunta": "O que o presidente devia fazer?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Tratar facção como grupo terrorista, com apoio de outros países.",
+          "preferencia": "Classificar facções e milícias como organizações narcoterroristas e integrar coalizão internacional liderada pelos EUA contra elas."
+        },
+        {
+          "id": "b",
+          "texto": "Criar o Ministério da Segurança e dar dinheiro a estados e cidades.",
+          "preferencia": "Criar o Ministério da Segurança Pública e financiar estados e municípios no combate ao crime organizado."
+        },
+        {
+          "id": "c",
+          "texto": "Presídio de segurança máxima pra isolar chefe de facção.",
+          "preferencia": "Ampliar presídios de segurança máxima para isolar lideranças de facções."
+        },
+        {
+          "id": "d",
+          "texto": "Polícia fixa no bairro, em vez do Exército entrar e sair.",
+          "preferencia": "Presença policial permanente nos territórios, em vez de operações de Garantia da Lei e da Ordem com as Forças Armadas."
+        }
+      ],
+      "fato": {
+        "texto": "19% dos brasileiros dizem que facções ou milícias estão presentes no bairro onde moram.",
+        "fonte": "Datafolha para o Fórum Brasileiro de Segurança Pública, via g1 (16/10/2025)",
+        "url": "https://g1.globo.com/politica/noticia/2025/10/16/pessoas-vivem-em-area-dominada-por-faccoes-e-milicias-diz-datafolha.ghtml"
+      }
+    },
+    {
+      "id": "celular-roubado",
+      "grupo": "celular",
+      "tema": "seguranca",
+      "cena": "Levaram seu celular no ponto de ônibus. É a segunda vez este ano.",
+      "pergunta": "O que funcionaria melhor?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
+          "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
+        },
+        {
+          "id": "b",
+          "texto": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
+          "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
+        },
+        {
+          "id": "c",
+          "texto": "Câmera no uniforme do policial, com padrão nacional.",
+          "preferencia": "Incentivo federal ao uso de câmeras corporais pelas polícias, com padrões nacionais."
+        },
+        {
+          "id": "d",
+          "texto": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+          "preferencia": "Dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, 830.890 celulares foram roubados ou furtados no Brasil: uma média de 95 por hora.",
+        "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      }
+    },
+    {
+      "id": "celular-sinal",
+      "grupo": "celular",
+      "tema": "seguranca",
+      "cena": "Parado no sinal, com o vidro aberto, levaram o celular da sua mão. Alguém da sua família já tinha passado pela mesma coisa.",
+      "pergunta": "O que funcionaria melhor?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
+          "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
+        },
+        {
+          "id": "b",
+          "texto": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
+          "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
+        },
+        {
+          "id": "c",
+          "texto": "Câmera no uniforme do policial, com padrão nacional.",
+          "preferencia": "Incentivo federal ao uso de câmeras corporais pelas polícias, com padrões nacionais."
+        },
+        {
+          "id": "d",
+          "texto": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+          "preferencia": "Dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, 830.890 celulares foram roubados ou furtados no Brasil: uma média de 95 por hora.",
+        "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+      },
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
+      }
+    },
+    {
+      "id": "largar-escola",
+      "grupo": "escola",
+      "tema": "educacao",
+      "cena": "Seu filho está no ensino médio público e fala em largar a escola pra trabalhar.",
+      "pergunta": "O que segurava ele na escola?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Uma poupança mensal pra todo aluno do ensino médio público.",
+          "preferencia": "Estender o incentivo financeiro de permanência (Pé-de-Meia) a todos os alunos do ensino médio público."
+        },
+        {
+          "id": "b",
+          "texto": "Curso técnico no ensino médio, pra sair com profissão.",
+          "preferencia": "Ampliar a educação técnica no ensino médio."
+        },
+        {
+          "id": "c",
+          "texto": "Escola cívico-militar, com mais disciplina.",
+          "preferencia": "Ampliar as escolas cívico-militares."
+        },
+        {
+          "id": "d",
+          "texto": "Escola em tempo integral em toda a rede pública.",
+          "preferencia": "Escola em tempo integral em toda a rede pública."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, cerca de 1 em cada 4 jovens de 19 anos (25,7%) ainda não tinha concluído o ensino médio.",
+        "fonte": "Anuário Brasileiro da Educação Básica 2026, Todos Pela Educação",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/capitulo-4-ensino-medio.html"
+      }
+    },
+    {
+      "id": "pagar-faculdade",
+      "grupo": "escola",
+      "publico": {
+        "escola": [
+          "particular",
+          "nenhuma"
+        ]
+      },
+      "tema": "educacao",
+      "cena": "Seu filho, ou você, quer fazer faculdade, e a dívida do financiamento assusta.",
+      "pergunta": "O que você preferia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Empréstimo pago com parte do salário, só depois de empregado.",
+          "preferencia": "Substituir o financiamento estudantil por empréstimo contingente à renda."
+        },
+        {
+          "id": "b",
+          "texto": "Mais vagas em universidade pública de graça.",
+          "preferencia": "Criar novas vagas em universidades públicas."
+        },
+        {
+          "id": "c",
+          "texto": "Governo paga escola particular quando faltar vaga na pública.",
+          "preferencia": "Voucher educacional para matrícula em escola privada onde faltar vaga na rede pública."
+        },
+        {
+          "id": "d",
+          "texto": "Mais vagas de graça em curso técnico e tecnólogo.",
+          "preferencia": "Ampliar a oferta gratuita de educação técnica e tecnológica (institutos federais e ensino técnico)."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, só 24,5% dos jovens de 18 a 24 anos cursavam faculdade.",
+        "fonte": "IBGE, PNAD Contínua Educação 2025",
+        "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102286_informativo.pdf"
+      }
+    },
+    {
+      "id": "conta-luz",
+      "grupo": "energia",
+      "tema": "energia",
+      "cena": "A conta de luz não para de subir, e encher o tanque ou comprar o botijão assusta.",
+      "pergunta": "O que você defenderia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Petrobras voltar a vender combustível aos postos e refinar mais.",
+          "preferencia": "Retorno da Petrobras à distribuição de combustíveis e ampliação do refino."
+        },
+        {
+          "id": "b",
+          "texto": "Baixar as taxas extras da conta de luz e imposto de energia.",
+          "preferencia": "Reduzir encargos e subsídios cruzados na conta de luz (CDE) e os impostos sobre energia e combustíveis."
+        },
+        {
+          "id": "c",
+          "texto": "Liberar a extração de gás de xisto, o chamado fracking.",
+          "preferencia": "Permitir a exploração de gás não convencional (fracking)."
+        },
+        {
+          "id": "d",
+          "texto": "Construir mais usina hidrelétrica e gerar menos energia com carvão.",
+          "preferencia": "Expandir a geração hidrelétrica e reduzir a produção de energia a carvão."
+        }
+      ],
+      "fato": {
+        "texto": "Na semana de 13 a 19/09/2026, o litro da gasolina custou em média R$ 6,54 nos postos do Brasil.",
+        "fonte": "ANP, Síntese Semanal de Preços",
+        "url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-38.pdf"
+      }
+    },
+    {
+      "id": "enchente-seca",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Num ano, a enchente leva a casa de conhecidos. No outro, a seca deixa a luz e a comida mais caras.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "As enchentes de 2024 no Rio Grande do Sul atingiram cerca de 2,4 milhões de pessoas em 478 municípios e deixaram mais de 180 mortos.",
+        "fonte": "Agência Nacional de Águas (30/04/2025)",
+        "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+      }
+    },
+    {
+      "id": "enchente-sul",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Desde a enchente de 2024, cada chuva forte deixa a cidade em alerta. Tem gente que ainda não recuperou a casa.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "As enchentes de 2024 no Rio Grande do Sul atingiram cerca de 2,4 milhões de pessoas em 478 municípios e deixaram mais de 180 mortos.",
+        "fonte": "Agência Nacional de Águas (30/04/2025)",
+        "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+      },
+      "publico": {
+        "regiao": [
+          "sul"
+        ]
+      }
+    },
+    {
+      "id": "fumaca-queimada",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "Na seca, a fumaça das queimadas cobre a cidade por semanas. E o rio baixa tanto que o barco não passa.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2024, o fogo atingiu 30,8 milhões de hectares no Brasil, 79% a mais que em 2023; a Amazônia teve 58% dessa área.",
+        "fonte": "MapBiomas, Monitor do Fogo (22/01/2025)",
+        "url": "https://brasil.mapbiomas.org/2025/01/22/area-queimada-no-brasil-cresce-79-em-2024-e-supera-os-30-milhoes-de-hectares/"
+      },
+      "publico": {
+        "regiao": [
+          "norte",
+          "centro-oeste"
+        ]
+      }
+    },
+    {
+      "id": "seca-nordeste",
+      "grupo": "clima",
+      "tema": "clima",
+      "cena": "O açude secou de novo, o carro-pipa passa uma vez por semana e a feira ficou mais cara.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+          "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+        },
+        {
+          "id": "b",
+          "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+          "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+        },
+        {
+          "id": "c",
+          "texto": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+          "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+        },
+        {
+          "id": "d",
+          "texto": "Continuar procurando e tirando petróleo em lugares novos.",
+          "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+        }
+      ],
+      "fato": {
+        "texto": "Em julho de 2025, 578 cidades do Nordeste estavam em situação de emergência por seca reconhecida pelo governo federal.",
+        "fonte": "Ministério da Integração, via PE News (17/07/2025)",
+        "url": "https://penews.com.br/governo-libera-r-17-milhao-para-apoiar-municipios-do-nordeste-atingidos-por-seca-e-estiagem/"
+      },
+      "publico": {
+        "regiao": [
+          "nordeste"
+        ]
+      }
+    },
+    {
+      "id": "video-falso",
+      "grupo": "internet",
+      "tema": "internet",
+      "cena": "Um vídeo falso viralizou no grupo da família e metade acreditou.",
+      "pergunta": "O que o governo devia fazer com as redes sociais?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Criar regras pras redes sociais conterem mentira e discurso de ódio.",
+          "preferencia": "Regulação das redes sociais e plataformas digitais para conter desinformação e discurso de ódio."
+        },
+        {
+          "id": "b",
+          "texto": "Nenhuma regra nova e fim dos órgãos do governo que apontam mentira.",
+          "preferencia": "Extinguir estruturas estatais de combate à desinformação e revogar atos considerados censura, priorizando a liberdade de expressão."
+        },
+        {
+          "id": "c",
+          "texto": "Regras pra proteger criança nas telas e nos jogos.",
+          "preferencia": "Regular o uso de telas por faixa etária e as plataformas de jogos para proteger crianças e adolescentes."
+        },
+        {
+          "id": "d",
+          "texto": "A Justiça pune quem espalha mentira, sem órgão do governo decidindo.",
+          "preferencia": "Responsabilização judicial individual por desinformação, sem estruturas estatais de moderação de conteúdo."
+        }
+      ],
+      "fato": {
+        "texto": "41% dos brasileiros com 16 anos ou mais dizem ter contato diário com deepfakes: vídeos, áudios ou imagens falsos feitos por IA.",
+        "fonte": "Cetic.br, via O Globo (10/04/2026)",
+        "url": "https://oglobo.globo.com/brasil/noticia/2026/04/10/pesquisa-inedita-mostra-que-41percent-dos-brasileiros-de-16-anos-ou-mais-tem-contato-diario-com-deepfakes.ghtml"
+      }
+    },
+    {
+      "id": "gasto-governo",
+      "grupo": "contas",
+      "tema": "contas",
+      "cena": "O governo diz que falta dinheiro pra saúde e escola, e a conta da própria máquina não para de crescer.",
+      "pergunta": "Por onde o próximo presidente devia começar?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Cortar ministérios, cargos de indicação política e supersalários.",
+          "preferencia": "Cortar ministérios, cargos comissionados e supersalários."
+        },
+        {
+          "id": "b",
+          "texto": "Mudar as regras do dinheiro que deputados e senadores escolhem onde gastar.",
+          "preferencia": "Reformar o sistema de emendas parlamentares ao orçamento."
+        },
+        {
+          "id": "c",
+          "texto": "Privatizar estatal onde o governo não precisa estar.",
+          "preferencia": "Retomar o programa de desestatização, avaliando caso a caso."
+        },
+        {
+          "id": "d",
+          "texto": "Manter e recuperar estatais como Correios e Petrobras.",
+          "preferencia": "Manter o controle estatal e recuperar empresas públicas como Correios e Petrobras."
+        }
+      ],
+      "fato": {
+        "texto": "O Orçamento federal de 2026 reserva cerca de R$ 61 bilhões para emendas parlamentares, verba cujo destino é indicado por deputados e senadores.",
+        "fonte": "Agência Senado (15/01/2026)",
+        "url": "https://www12.senado.leg.br/noticias/materias/2026/01/15/orcamento-2026-e-sancionado-com-previsao-de-superavit-de-rs-34-2-bi"
+      }
+    },
+    {
+      "id": "agressor-rondando",
+      "grupo": "mulheres",
+      "tema": "mulheres",
+      "consenso": true,
+      "cena": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+      "pergunta": "O que protegeria ela de verdade?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Tornozeleira no agressor, com alerta pra polícia.",
+          "preferencia": "Monitoramento de agressores por tornozeleira eletrônica com alerta às autoridades."
+        },
+        {
+          "id": "b",
+          "texto": "Mais abrigos e centros de apoio pra mulher que sofre violência.",
+          "preferencia": "Ampliar casas e centros de atendimento e acolhimento a mulheres em situação de violência."
+        },
+        {
+          "id": "c",
+          "texto": "Botão de emergência no celular ligado direto à polícia.",
+          "preferencia": "Plataforma integrada com botão de emergência no celular, Ligue 180 e centrais de monitoramento."
+        },
+        {
+          "id": "d",
+          "texto": "Pena mais dura, sem sair antes, pra quem descumprir a medida protetiva.",
+          "preferencia": "Endurecer a punição e obrigar o cumprimento integral para quem descumpre medida protetiva."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, o Brasil registrou 1.571 feminicídios, recorde desde 2015: uma média de 4 mulheres mortas por dia.",
+        "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
+        "url": "https://g1.globo.com/politica/noticia/2026/07/23/anuario-seguranca-publica-2025.ghtml"
+      }
+    }
+  ],
+  "regioes": {
+    "pergunta": "Em que região do Brasil você mora?",
+    "opcoes": [
+      {
+        "valor": "norte",
+        "rotulo": "Norte"
+      },
+      {
+        "valor": "nordeste",
+        "rotulo": "Nordeste"
+      },
+      {
+        "valor": "centro-oeste",
+        "rotulo": "Centro-Oeste"
+      },
+      {
+        "valor": "sudeste",
+        "rotulo": "Sudeste"
+      },
+      {
+        "valor": "sul",
+        "rotulo": "Sul"
+      }
+    ]
+  }
+}

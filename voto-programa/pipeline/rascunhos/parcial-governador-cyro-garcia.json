@@ -1,0 +1,62 @@
+{
+  "candidato_id": "cyro-garcia",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p49",
+          "p7",
+          "p50"
+        ],
+        "justificativa": "Defende reestatizar metrô, trens e barcas e revogar a privatização da SuperVia, com gestão sob controle de trabalhadores e usuários."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p50",
+          "p9"
+        ],
+        "justificativa": "Defende tarifa zero no transporte e tarifas sociais como caminho até ela."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 70,
+        "evidencias": [
+          "p50",
+          "p22"
+        ],
+        "justificativa": "Defende reestatizar todas as empresas privatizadas em governos anteriores e estatizar as que descumprirem normas ambientais, sem citar a Cedae nominalmente."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p29",
+          "p37",
+          "p35"
+        ],
+        "justificativa": "Defende acabar com todas as isenções fiscais concedidas a grandes empresas, com auditoria pública desses acordos."
+      }
+    }
+  }
+}

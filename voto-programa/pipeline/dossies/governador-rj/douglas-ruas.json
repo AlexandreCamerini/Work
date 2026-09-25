@@ -1,0 +1,1935 @@
+{
+  "candidato_id": "douglas-ruas",
+  "nome": "Douglas Ruas",
+  "coletado_em": "2026-09-25",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf",
+    "observacao": "Proposta de governo registrada no TSE confirmada pela API do DivulgaCandContas (candidato 190002542887, eleição 20322002026; arquivo codTipo 5 'PDG20272030GOVERNADORDOUGLAS RUASA4v2.pdf', idArquivo 190017018638, caminho candidaturas/oficial/2026/BR/RJ/6259/candidatos/16471/). O download direto do PDF no TSE falhou por timeout (via Exa) e bloqueio do proxy (curl); o ZIP estadual do CDN do TSE veio em binário e não pôde ser descompactado. O texto usado ('Plano do Rio Real 2027-2030') vem do espelho do Nexo Jornal, que reproduz os planos registrados no TSE. Não houve comparação byte a byte com o arquivo do TSE. O próprio plano diz ser 'um documento em construção' e 'sujeito a revisões'. Data de protocolo não verificada. Em 2026-09-25 o texto integral do espelho do Nexo foi relido seção por seção (Carta de Compromisso, Introdução, Eixo 1 Rio Seguro, Eixo 2 Rio que Cuida, Eixo 3 Rio Próspero, Eixo 4 Rio que Avança e Considerações Finais); o plano não traz metas numéricas (nem as 200 escolas cívico-militares, nem os 60 mil PMs, nem a tarifa de R$ 5 do metrô, que só aparecem em falas)."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Plano do Rio Real 2027-2030 (proposta de governo registrada no TSE; cópia espelhada pelo Nexo)",
+      "veiculo": "TSE / Nexo Jornal (espelho)",
+      "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-douglas-ruas.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Ruas propõe novos presídios com iniciativa privada e unidade de regime disciplinar mais rigoroso (entrevista pingue-pongue)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/ruas-propoe-novos-presidios-com-iniciativa-privada-e-unidade-de-regime-disciplinar-mais-rigoroso/",
+      "data": "2026-09-12"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas defende posse imediata de governador eleito no Rio após resultado das urnas (PoderCast)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/douglas-ruas-defende-posse-imediata-de-governador-eleito-no-rio-apos-resultado-das-urnas/",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Em sabatina, Douglas Ruas promete reduzir tarifa do metrô para R$ 5 (sabatina RJ1/TV Globo)",
+      "veiculo": "Boletim RJ (com informações do g1)",
+      "url": "https://boletimrj.com.br/em-sabatina-douglas-ruas-promete-reduzir-tarifa-do-metro-para-r-5/",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f5",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas promete 'retomada de territórios' dominados pelo crime e metrô a R$ 5 (sabatina RJ1/TV Globo)",
+      "veiculo": "GP Baixada News",
+      "url": "https://gpbaixadanews.com/douglas-ruas-promete-retomada-de-territorios-dominados-pelo-crime-e-metro-a-r-5/",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f6",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas propõe assumir fiscalização de contratos e reduzir metrô",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/douglas-fiscalizacao-de-contratos.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f7",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas promete metrô a R$ 5 e cobra melhor serviço de concessionárias no Rio",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/09/16/douglas-ruas-promete-metro-a-rs-5-e-cobra-melhor-servico-de-concessionarias-no-rio.html",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f8",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas busca se desvencilhar de Castro e Bacellar e associa Paes a envolvidos com crime durante sabatina (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/politica/noticia/2026/09/douglas-ruas-busca-se-desvencilhar-de-castro-e-bacellar-e-associa-paes-a-envolvidos-com-crime-durante-sabatina.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f9",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas propõe ampliar metrô e reduzir tarifa no Rio (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/08/douglas-ruas-sabatina-transporte.ghtml",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f10",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas critica Castro sobre mobilidade e afirma que não conseguiria inaugurar linha 3 porque 'não dá tempo'",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/08/douglas-ruas-critica-mobilidade-no-rio-e-afirma-que-nao-conseguiria-inaugurar-linha-3-porque-nao-da-tempo.ghtml",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f11",
+      "tipo": "reportagem",
+      "titulo": "Ruas (PL) defende teto de gastos para o Rio e promete gabinete contra crime organizado (evento Firjan)",
+      "veiculo": "O Povo / Agência Estado",
+      "url": "https://www.opovo.com.br/noticias/politica/2026/09/11/ruas-pl-defende-teto-de-gastos-para-o-rio-e-promete-gabinete-contra-crime-organizado.html",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f12",
+      "tipo": "entrevista",
+      "titulo": "Eleições 2026: veja as propostas de candidatos ao governo estadual do Rio para servidores",
+      "veiculo": "Extra (coluna Servidor Público)",
+      "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml",
+      "data": "2026-09-13"
+    },
+    {
+      "id": "f13",
+      "tipo": "reportagem",
+      "titulo": "Em encontro com PMs e bombeiros, Douglas Ruas propõe simetria remuneratória para agentes de segurança",
+      "veiculo": "ZM Notícias",
+      "url": "https://www.zmnoticias.com.br/em-encontro-com-pms-e-bombeiros-douglas-ruas-propoe-simetria-remuneratoria-para-agentes-de-seguranca/",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f14",
+      "tipo": "reportagem",
+      "titulo": "Ruas propõe unidades de saúde para a Baixada e o interior do RJ",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/douglas-ruas-agenda-rj.ghtml",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f15",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas promete tornar Rio referência em políticas de inclusão",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/21/douglas-ruas-promete-transformar-o-rj-em-referencia-nacional-em-politicas-de-inclusao.ghtml",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "f16",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas propõe ampliar parcerias entre estado e prefeituras",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/22/douglas-ruas-propoe-ampliar-parcerias-entre-estado-e-prefeituras.ghtml",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f19",
+      "tipo": "debate",
+      "titulo": "Debate ao governo do RJ é marcado por ataques a Paes e associação do candidato de Flávio a Bacellar (debate Band)",
+      "veiculo": "Estadão",
+      "url": "https://www.estadao.com.br/politica/paes-desiste-de-debate-e-se-torna-alvo-de-ataques-homem-de-geleia-e-agressor-de-mulheres/",
+      "data": "2026-08-09"
+    },
+    {
+      "id": "f20",
+      "tipo": "debate",
+      "titulo": "Debate governo do RJ: Segurança e ataques a Paes marcam encontro (debate Band)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/09/discussoes-seguranca-corrupcao-candidato-ausente-debate.ghtml",
+      "data": "2026-08-09"
+    },
+    {
+      "id": "f22",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas promete retomada de territórios e marca distância da gestão Castro (Sabatina Manchete, Rádio Manchete)",
+      "veiculo": "Boletim RJ",
+      "url": "https://boletimrj.com.br/douglas-ruas-promete-retomada-de-territorios-e-marca-distancia-da-gestao-castro/",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f24",
+      "tipo": "reportagem",
+      "titulo": "PL lança Douglas Ruas como candidato ao governo do Rio de Janeiro (convenção partidária)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/07/24/pl-lanca-douglas-ruas-como-candidato-ao-governo-do-rio-de-janeiro.ghtml",
+      "data": "2026-07-24"
+    },
+    {
+      "id": "f25",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas nega divisão de prefeitos do PL e promete reduzir tarifa do metrô (agenda na Central do Brasil)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/08/24/douglas-ruas-nega-divisao-de-prefeitos-do-pl-e-promete-reduzir-tarifa-do-metro.ghtml",
+      "data": "2026-08-24"
+    },
+    {
+      "id": "f26",
+      "tipo": "reportagem",
+      "titulo": "Expansão do metrô e integração de tarifa desafiam próximo governador do Rio, com divergências entre Paes e Ruas",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/13/expansao-do-metro-e-integracao-de-tarifa-desafiam-proximo-governador-do-rio-com-divergencias-entre-paes-e-ruas.ghtml",
+      "data": "2026-09-13"
+    },
+    {
+      "id": "f27",
+      "tipo": "entrevista",
+      "titulo": "Ruas promete retirar organizações sociais da saúde caso seja eleito (entrevista à Super Rádio Tupi)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/ruas-promete-retirar-organizacoes-sociais-da-saude-caso-seja-eleito/",
+      "data": "2026-08-25"
+    },
+    {
+      "id": "f28",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas promete operações para retomar áreas dominadas pelo crime (agenda no Méier)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/douglas-ruas-promete-operacoes-para-retomar-areas-dominadas-pelo-crime/",
+      "data": "2026-09-14"
+    },
+    {
+      "id": "f29",
+      "tipo": "sabatina",
+      "titulo": "Ruas descarta modelo Bukele no Rio e diz que ‘preso terá de trabalhar’ (sabatina VEJA)",
+      "veiculo": "VEJA",
+      "url": "https://veja.abril.com.br/politica/ruas-descarta-modelo-bukele-no-rio-e-diz-que-preso-tera-de-trabalhar/",
+      "data": "2026-08-19"
+    },
+    {
+      "id": "f30",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas (entrevista sobre educação, perguntas e respostas)",
+      "veiculo": "Revistapontocom",
+      "url": "https://revista.planetapontocom.org.br/nao-categorizada/douglas-ruas",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f31",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas propõe qualificação profissional a partir do 1º ano do ensino médio (caminhada no Saara)",
+      "veiculo": "Diário do Rio",
+      "url": "https://www.diariodorio.com/politica/2026/09/09/douglas-ruas-propoe-qualificacao-profissional-a-partir-do-1-ano-do-ensino-medio.html",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f32",
+      "tipo": "reportagem",
+      "titulo": "Na Ilha do Governador, Douglas Ruas promete cobrar melhorias nas barcas e na mobilidade",
+      "veiculo": "Diário do Rio",
+      "url": "https://www.diariodorio.com/politica/2026/08/27/na-ilha-do-governador-douglas-ruas-promete-cobrar-melhorias-nas-barcas-e-na-mobilidade.html",
+      "data": "2026-08-27"
+    },
+    {
+      "id": "f33",
+      "tipo": "entrevista",
+      "titulo": "Câmeras em policiais não podem ser \"caça às bruxas\", diz Douglas Ruas à CNN",
+      "veiculo": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/cameras-em-policiais-nao-podem-ser-caca-as-bruxas-diz-douglas-ruas-a-cnn/",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f34",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas muda tom em entrevista, ataca ‘pessoal da esquerda’ e ‘galera dos direitos humanos’ e critica Lula (entrevista ao canal Cláudio Dantas)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/08/25/douglas-ruas-muda-tom-em-entrevista-ataca-pessoal-da-esquerda-e-galera-dos-direitos-humanos-e-critica-lula.ghtml",
+      "data": "2026-08-25"
+    },
+    {
+      "id": "f35",
+      "tipo": "sabatina",
+      "titulo": "Em sabatina, Douglas Ruas defende proteção a policiais e permanência do governo nas comunidades (sabatina CBN/O Globo/Extra/Valor)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/08/em-sabatina-douglas-ruas-defende-que-estado-precisa-permanecer-em-comunidades-apos-operacoes.ghtml",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f36",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas propõe centros integrados de saúde no Rio de Janeiro (visita ao Inca)",
+      "veiculo": "g1 / RJ2",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/03/douglas-ruas-acesso-a-exames-e-consultas.ghtml",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "f37",
+      "tipo": "entrevista",
+      "titulo": "Douglas Ruas erra ônibus do ‘Rio real’ e prefere ser governador do que salvar Vasco (entrevista Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/douglas-ruas-erra-onibus-do-rio-real-e-prefere-ser-governador-do-que-salvar-vasco-tem-coisas-que-nao-conseguimos-mudar.ghtml",
+      "data": "2026-09-23"
+    },
+    {
+      "id": "f38",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas visita Expo Cordeiro e defende melhorias nas estradas do interior",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/douglas-ruas-visita-expo-cordeiro-e-defende-melhorias-nas-estradas-do-interior/",
+      "data": "2026-07-12"
+    },
+    {
+      "id": "f39",
+      "tipo": "reportagem",
+      "titulo": "Douglas Ruas manifesta apoio a mobilização contra pedágio em Tanguá (declaração em vídeo divulgado em rede social)",
+      "veiculo": "Jornal Folha da Terra",
+      "url": "https://folhadaterradigital.com.br/cidades/douglas-ruas-7/",
+      "data": "2026-05-27"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "efetivo policial / concursos",
+      "resumo": "Promete convocar no primeiro mês de governo os excedentes aprovados em concursos das forças de segurança e estabelecer um cronograma de novos concursos.",
+      "trecho": "Então nós precisamos — e eu já me comprometi —, logo no primeiro mês de governo, convocar todos os excedentes aprovados nos concursos para todas as forças de segurança do Estado do Rio de Janeiro e estabelecer um cronograma para a realização de novos concursos.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "Convocação no 1º mês de governo; déficit citado de 16 mil PMs"
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "efetivo da Polícia Militar",
+      "resumo": "Propõe elevar o efetivo da Polícia Militar para 60 mil agentes em quatro anos.",
+      "trecho": "Também vamos abrir novos concursos e elevar para 60 mil o efetivo da Polícia Militar em quatro anos.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": "De 44 mil para 60 mil PMs em quatro anos"
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "indicadores de desempenho policial / letalidade",
+      "resumo": "Propõe deixar de classificar como letalidade violenta as mortes decorrentes de legítima defesa policial.",
+      "trecho": "Letalidade violenta vai estar classificada como os crimes praticados pelos criminosos. Porque a legítima defesa do policial não é crime, então não tem que ser enxergada como letalidade violenta.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios",
+      "resumo": "Propõe criar um indicador de retomada dos territórios, que seria o principal critério na avaliação de desempenho dos gestores da segurança pública.",
+      "trecho": "Além disso, nós vamos criar um outro indicador, e esse será o principal na avaliação de desempenho dos gestores da segurança pública: a retomada dos territórios.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "ocupação permanente de territórios",
+      "resumo": "Afirma que o erro de uma grande operação policial foi sair do território no dia seguinte e defende permanecer para afirmar o controle do Estado.",
+      "trecho": "O erro foi sair no dia seguinte. Aquela era uma grande oportunidade de fincar uma bandeira e determinar bem claro que o crime organizado não mandaria mais em nenhum palmo daquele território",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais",
+      "resumo": "Considera câmeras corporais úteis, mas defende que seu uso não seja padronizado para todas as situações da atividade policial.",
+      "trecho": "Câmeras corporais são úteis, mas seu uso deveria ser melhor avaliado. Elas deveriam ser utilizadas em determinadas situações do cotidiano, mas não em outras. Não pode ser algo padronizado.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "sistema prisional",
+      "resumo": "Propõe construir novos presídios em parceria com a iniciativa privada, incluindo uma unidade de regime disciplinar mais rígido.",
+      "trecho": "Construir novos presídios em parceria com a iniciativa privada, incluindo uma unidade de regime disciplinar mais rigorosa do que qualquer referência existente.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p8",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / facções",
+      "resumo": "Propõe condicionar benefícios penais a trabalho e rompimento com a facção dentro dos presídios, com parte da remuneração ressarcindo vítimas e o Estado.",
+      "trecho": "Trabalhar e qualificar: benefício só com trabalho e rompimento com a facção dentro dos presídios, com parte da remuneração ressarcindo as vítimas e o Estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p9",
+      "tema": "seguranca",
+      "subtema": "milícia / asfixia financeira",
+      "resumo": "Propõe bloquear fontes de renda do crime como extorsão, gás, transporte clandestino e internet ilegal.",
+      "trecho": "Bloqueio das fontes de renda do crime: extorsão, gás, transporte clandestino, internet ilegal.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p10",
+      "tema": "seguranca",
+      "subtema": "tráfico de armas e drogas (Escudo Fluminense)",
+      "resumo": "Propõe drones em patrulhamento contínuo e scanners de carga nas rodovias e nas saídas de portos e aeroportos.",
+      "trecho": "Drones em patrulhamento contínuo e scanners de carga nas rodovias e nas saídas de portos e aeroportos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p11",
+      "tema": "seguranca",
+      "subtema": "integração com a União",
+      "resumo": "Propõe um gabinete permanente com a União, a Polícia Federal e as Forças Armadas para coordenar o combate à entrada de armas e drogas.",
+      "trecho": "Haverá a criação de um gabinete permanente, junto com a União, com a Polícia Federal e com as Forças Armadas. É política de Estado, não política de governo, para que a gente possa ter uma atuação coordenada e impedir que armas e drogas cheguem às nossas cidades fluminenses",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p12",
+      "tema": "seguranca",
+      "subtema": "barricadas",
+      "resumo": "Propõe equipes móveis com calendário permanente para retirar barricadas, priorizando entornos de escolas, hospitais e eixos de ônibus.",
+      "trecho": "Equipes móveis, com calendário permanente, farão a desobstrução contínua das vias priorizando entornos de escolas, hospitais e eixos de ônibus.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p13",
+      "tema": "seguranca",
+      "subtema": "nomeações e gestão por resultados",
+      "resumo": "Propõe indicar comandantes de batalhão, delegados titulares e diretores de presídio por critério técnico, com compromisso assinado por resultados.",
+      "trecho": "Comandantes de batalhão, delegados titulares e diretores de presídio indicados por critério técnico, com compromisso assinado por resultados.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p14",
+      "tema": "seguranca",
+      "subtema": "valorização policial / defesa jurídica",
+      "resumo": "Propõe revisão de carreira, bonificação por resultado e defesa jurídica para policiais no cumprimento do dever.",
+      "trecho": "Valorização integral do policial no cumprimento do dever com carreira revisada e bonificação para quem entrega resultado, defesa jurídica da primeira hora ao fim do processo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p15",
+      "tema": "seguranca",
+      "subtema": "roubo de celulares / receptação",
+      "resumo": "Propõe trabalho permanente de inteligência para desarticular quadrilhas de receptação e prender receptadores.",
+      "trecho": "Então, faremos um trabalho permanente de inteligência para desarticular as quadrilhas de receptação. O receptador é tão criminoso quanto o ladrão. E vai para cadeia.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p16",
+      "tema": "seguranca",
+      "subtema": "perícia e investigação",
+      "resumo": "Propõe um Complexo Integrado de Perícia reunindo IML, Instituto de Criminalística, Instituto de Identificação e Instituto de Genética Forense.",
+      "trecho": "Complexo Integrado de Perícia: reunindo em um único espaço o Instituto Médico Legal (IML), o Instituto de Criminalística (ICCE), o Instituto de Identificação Félix Pacheco (IIFP) e o Instituto de Genética Forense (IPPGF).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p17",
+      "tema": "seguranca",
+      "subtema": "Baía de Guanabara (policiamento)",
+      "resumo": "Propõe recuperar grupamentos especializados para o controle da Baía de Guanabara.",
+      "trecho": "Recuperação de grupamentos especializados para o controle da Baía de Guanabara.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p18",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher / medidas protetivas",
+      "resumo": "Propõe tornozeleira com alerta sonoro que avisa vítima e polícia quando o agressor viola a distância fixada pela Justiça.",
+      "trecho": "Alerta de proximidade: quando o agressor violar o limite de afastamento fixado pela justiça, a tornozeleira eletrônica emitirá um alerta sonoro e acionará simultaneamente a vítima e as forças de segurança.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p19",
+      "tema": "direitos",
+      "subtema": "delegacias da mulher / Patrulha Maria da Penha",
+      "resumo": "Propõe novas delegacias da mulher com atendimento 24 horas e presença no interior, e Patrulha Maria da Penha em todas as regiões do estado.",
+      "trecho": "Novas unidades das delegacias da mulher, com atendimento 24 horas e presença no interior do Estado. Patrulha Maria da Penha em todas as regiões fluminenses.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p20",
+      "tema": "direitos",
+      "subtema": "mulheres / acolhimento",
+      "resumo": "Propõe acolhimento fora da delegacia, apoio jurídico e psicológico, auxílio de transição e abrigos sigilosos para mulheres ameaçadas.",
+      "trecho": "Acolhimento fora da delegacia, apoio jurídico e psicológico, capacitação e auxílio de transição, além de abrigos sigilosos para mulheres ameaçadas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p21",
+      "tema": "direitos",
+      "subtema": "mulheres / transporte",
+      "resumo": "Propõe isenção tarifária em viagens de cuidado nos sistemas estaduais para mulheres de baixa renda responsáveis por crianças, idosos ou pessoas com deficiência.",
+      "trecho": "Isenção para viagens de cuidado nos sistemas estaduais, permitindo combinar ônibus intermunicipais, trens, metrô e barcas para mulheres de baixa renda responsáveis por crianças, idosos ou pessoas com deficiência.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p22",
+      "tema": "direitos",
+      "subtema": "mulheres / dignidade menstrual",
+      "resumo": "Propõe distribuição de absorventes em toda a rede estadual de ensino e acompanhamento para permanência escolar de mães adolescentes.",
+      "trecho": "permanência escolar de mães adolescentes com acompanhamento pedagógico; e dignidade menstrual com distribuição de absorventes em toda a rede estadual.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p23",
+      "tema": "direitos",
+      "subtema": "pessoas com autismo / neurodivergentes",
+      "resumo": "Propõe polos regionais de alta complexidade que reúnam diagnóstico, intervenções terapêuticas e orientação e capacitação das famílias.",
+      "trecho": "Polos regionais de alta complexidade reunindo num só lugar o diagnóstico, as intervenções terapêuticas e a orientação e capacitação às famílias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p24",
+      "tema": "direitos",
+      "subtema": "pessoas com deficiência / educação inclusiva",
+      "resumo": "Defende professores de apoio, e não apenas tutores, como forma de inclusão pelo aprendizado.",
+      "trecho": "A nossa proposta é clara de termos professores de apoio, porque não basta tutores. A verdadeira inclusão, a inclusão de verdade, ela vem através do aprendizado",
+      "fonte_id": "f15",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p25",
+      "tema": "saude",
+      "subtema": "regionalização / centros integrados",
+      "resumo": "Propõe Centros Integrados de Saúde em cada região com consulta especializada, exames de imagem e pequenas cirurgias no mesmo equipamento.",
+      "trecho": "Nós vamos levar à saúde para perto da casa das pessoas, com os Centros Integrado de Saúde em cada região, no único equipamento. O cidadão vai encontrar consulta com especialistas, exames de diagnóstico por imagem e até mesmo pequenas cirurgias",
+      "fonte_id": "f14",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p26",
+      "tema": "saude",
+      "subtema": "filas / cirurgias eletivas",
+      "resumo": "Propõe mutirão permanente de cirurgias eletivas, com centros cirúrgicos à noite e nos fins de semana e contratação da rede privada.",
+      "trecho": "Mutirão permanente das cirurgias eletivas que mais travam, com centro cirúrgico funcionando à noite e no fim de semana, circuito rápido que reúne avaliação, exames e cirurgia e também através da contratação da rede privada para dar celeridade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p27",
+      "tema": "saude",
+      "subtema": "compra de serviços na rede privada",
+      "resumo": "Defende comprar serviços na rede privada para acabar com a espera nas filas.",
+      "trecho": "Não é nada de inovador comprar serviços na rede privada para entregar aquilo que tem de melhor para o nosso povo e tirar de uma vez por todas essa espera da fila.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p28",
+      "tema": "saude",
+      "subtema": "regulação",
+      "resumo": "Propõe uma central estadual unificada de regulação digital com prontuário eletrônico único aberto aos municípios.",
+      "trecho": "Central estadual unificada de regulação digital, com prontuário eletrônico único aberto aos municípios e fila organizada pela gravidade de cada caso.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p29",
+      "tema": "saude",
+      "subtema": "oncologia",
+      "resumo": "Propõe um novo Instituto Estadual de Oncologia na capital e o fortalecimento da oncologia no interior.",
+      "trecho": "Novo Instituto Estadual de Oncologia na capital e fortalecimento da oncologia nas regiões do interior, encurtando o tempo entre o diagnóstico e o início do tratamento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p30",
+      "tema": "saude",
+      "subtema": "saúde da mulher / maternidade",
+      "resumo": "Propõe nova maternidade de referência para gestações de risco na região metropolitana e contratação de leitos no interior.",
+      "trecho": "Nova maternidade de referência para gestações de risco na região metropolitana mais desassistida e contratação de leitos no interior.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p31",
+      "tema": "saude",
+      "subtema": "HPV / câncer de colo de útero",
+      "resumo": "Propõe programa de vacinação contra HPV, rastreamento ativo e tratamento rápido, com meta de tornar o estado referência na erradicação do câncer de colo de útero.",
+      "trecho": "Todos Contra o HPV com vacinação de meninas e mulheres, rastreamento ativo e tratamento rápido, com a meta de fazer o Estado do Rio referência na erradicação do câncer de colo de útero.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p32",
+      "tema": "saude",
+      "subtema": "hospitais do interior",
+      "resumo": "Propõe apoio e custeio a hospitais do interior condicionados a metas, com ranking público de desempenho.",
+      "trecho": "Apoio e custeio aos hospitais do interior com metas assumidas por cada unidade e ranking público de desempenho.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p33",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares",
+      "resumo": "Propõe implantar o modelo cívico-militar em pelo menos 200 escolas estaduais, após apresentação à comunidade escolar.",
+      "trecho": "Pretendo franquear visitas às unidades já existentes para pais, alunos e profissionais da educação conhecerem, com muito diálogo, e depois implantar esse modelo em pelo menos 200 escolas.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "Pelo menos 200 escolas (hoje 17, segundo o candidato)"
+    },
+    {
+      "id": "p34",
+      "tema": "educacao",
+      "subtema": "escolas cívico-militares (modelo)",
+      "resumo": "Define no plano que, nas escolas cívico-militares, militar da reserva cuida da disciplina e a gestão pedagógica permanece civil.",
+      "trecho": "Escolas cívico-militares: o militar da reserva responde pela disciplina e pela ordem, a gestão pedagógica permanece civil e cada unidade assume metas de desempenho com neutralidade político-partidária como princípio inegociável de toda a rede.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p35",
+      "tema": "educacao",
+      "subtema": "ensino técnico no ensino médio",
+      "resumo": "Propõe levar a Faetec para dentro das escolas e oferecer qualificação profissional a partir do primeiro ano do ensino médio.",
+      "trecho": "Nós vamos levar a Faetec para dentro das escolas. Quero antecipar esse debate, trazer a qualificação profissional para o primeiro ano do ensino médio",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p36",
+      "tema": "educacao",
+      "subtema": "alfabetização",
+      "resumo": "Propõe alfabetização na idade certa em colaboração com municípios, com investimento condicionado a metas de aprendizagem.",
+      "trecho": "Alfabetização na idade certa em regime de colaboração com os municípios, com apoio técnico, avaliação da leitura, capacitação de professores e gestores e investimento condicionado ao cumprimento de metas de aprendizagem",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p37",
+      "tema": "educacao",
+      "subtema": "recomposição da aprendizagem",
+      "resumo": "Propõe diagnóstico de todo aluno na entrada do ensino médio e reforço em português e matemática no contraturno.",
+      "trecho": "Ninguém Fica Para Atrás: diagnóstico de todo aluno na entrada do ensino médio, reforço intensivo em português e matemática no contraturno para quem está atrasado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p38",
+      "tema": "educacao",
+      "subtema": "bonificação de professores",
+      "resumo": "Propõe premiação de escolas e bonificação de professores por resultado.",
+      "trecho": "Gestão por resultados e valorização de quem ensina: premiação para escolas e bonificação de professores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p39",
+      "tema": "educacao",
+      "subtema": "evasão escolar",
+      "resumo": "Propõe alerta precoce de evasão por frequência e notas, busca ativa e caminhos flexíveis de conclusão.",
+      "trecho": "Vem Pra Aula: alerta precoce de evasão pela frequência e pelas notas, busca ativa de cada estudante em risco e caminhos flexíveis de conclusão para quem precisa trabalhar.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p40",
+      "tema": "educacao",
+      "subtema": "ensino superior / universidades estaduais",
+      "resumo": "Propõe apoio à permanência de estudantes de baixa renda nas universidades estaduais e ampliação de vagas de ensino a distância.",
+      "trecho": "Ensino superior como motor de oportunidades, com apoio à permanência de estudantes de baixa renda nas universidades estaduais, modernização de laboratórios e conectividade, ampliação de vagas de ensino a distância",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p41",
+      "tema": "transporte",
+      "subtema": "tarifa do metrô",
+      "resumo": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5, de acordo com a capacidade dos cofres estaduais.",
+      "trecho": "Nosso objetivo é chegar a 5 reais, mas isso deve ser um trabalho gradativo, de acordo com a possibilidade dos cofres públicos do Estado do Rio de Janeiro",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": "Tarifa de R$ 7,90 para R$ 5, de forma gradativa"
+    },
+    {
+      "id": "p42",
+      "tema": "transporte",
+      "subtema": "Linha 3 do metrô",
+      "resumo": "Afirma que a Linha 3 do metrô exigirá alto volume de recursos do governo federal e, possivelmente, uma PPP para trazer recursos privados ao início da obra.",
+      "trecho": "É uma obra que vai ser de uma monta muito alta de recursos do governo federal e, quem sabe, através de uma PPP [parceria público-privada], trazer o [recurso] privado para o início da obra",
+      "fonte_id": "f9",
+      "compromisso_concreto": false,
+      "numeros": "Estudo da UFRJ com conclusão prevista para dezembro de 2027, segundo o candidato"
+    },
+    {
+      "id": "p43",
+      "tema": "transporte",
+      "subtema": "expansão do metrô / planejamento",
+      "resumo": "Defende planejamento de expansão do metrô como política de Estado contínua entre governos.",
+      "trecho": "Eu defendo que nós tenhamos uma política de Estado e é isso que eu quero inaugurar aqui, essa política de Estado de continuidade",
+      "fonte_id": "f10",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p44",
+      "tema": "transporte",
+      "subtema": "Bilhete Único / integração",
+      "resumo": "Propõe revisar a bilhetagem única estadual com integração progressiva entre metrô, trem, barcas, BRT e ônibus intermunicipais.",
+      "trecho": "Revisão e modernização da bilhetagem única estadual, com integração progressiva entre metrô, trem, barcas, BRT e ônibus intermunicipais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p45",
+      "tema": "transporte",
+      "subtema": "tarifa social",
+      "resumo": "Propõe integração tarifária com responsabilidade fiscal e tarifa social focalizada na população de baixa renda.",
+      "trecho": "Integração tarifária com responsabilidade fiscal, critérios técnicos, sustentabilidade financeira e tarifa social focalizada para a população de baixa renda.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p46",
+      "tema": "transporte",
+      "subtema": "concessões (trens, metrô, barcas, saneamento)",
+      "resumo": "Afirma que acompanhará contratos de concessionárias a partir do gabinete do governador e que rescindirá contratos em caso de descumprimento.",
+      "trecho": "Não vamos ficar à mercê das agências reguladoras para que os serviços prestados pelas concessionárias sejam cumpridos. Vou trazer isso para dentro do gabinete do governador, cobrar que as agências cumpram o contrato e que as empresas prestem um serviço de qualidade. Em caso de descumprimento, vamos rescindir",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p47",
+      "tema": "transporte",
+      "subtema": "barcas",
+      "resumo": "Propõe cobrar da concessionária das barcas pontualidade, regularidade e redução de cancelamentos, e modernizar terminais aquaviários.",
+      "trecho": "Cobrança das obrigações contratuais das barcas, especialmente pontualidade, regularidade das travessias e redução dos cancelamentos que prejudicam o Leste Metropolitano, com modernização dos terminais aquaviários, incluindo acessibilidade, iluminação, organização operacional e videomonitoramento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p48",
+      "tema": "transporte",
+      "subtema": "corredor da Baixada Fluminense",
+      "resumo": "Propõe novo corredor viário de alta capacidade com faixa exclusiva ligando Duque de Caxias, Belford Roxo, Nilópolis, Mesquita e São João de Meriti.",
+      "trecho": "Novo corredor viário de alta capacidade da Baixada Fluminense conectando Duque de Caxias, Belford Roxo, Nilópolis, Mesquita e São João de Meriti, com faixa exclusiva, estações acessíveis e requalificação urbana no entorno.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p49",
+      "tema": "transporte",
+      "subtema": "ônibus intermunicipais",
+      "resumo": "Propõe reordenar linhas de ônibus intermunicipais para alimentar corredores existentes e reduzir sobreposições.",
+      "trecho": "Reordenação das linhas de ônibus intermunicipais, com função alimentadora dos corredores existentes e redução de sobreposições desnecessárias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p50",
+      "tema": "transporte",
+      "subtema": "Via Light",
+      "resumo": "Propõe estudar conexões da Via Light com a Linha Vermelha, a Avenida Brasil e a Via Dutra.",
+      "trecho": "Nós temos hoje, na Baixada Fluminense, oito dos dez municípios com maior tempo de deslocamento. Então, é preciso pensar em soluções para conectar a Via Light à Linha Vermelha, à Avenida Brasil e à Via Dutra, desafogando aquele eixo Rio-São Paulo.",
+      "fonte_id": "f25",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p51",
+      "tema": "moradia",
+      "subtema": "regularização fundiária",
+      "resumo": "Propõe titulação de imóveis para quem já mora neles, com mutirões anuais de documentação e prioridade para mulheres chefes de família.",
+      "trecho": "Regularização fundiária: título da casa própria para quem já mora nela, por meio da integração entre Estado, Municípios e cartórios para acelerar os processos e de mutirões anuais de documentação em todas as regiões, com prioridade para mulheres chefes de família.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p52",
+      "tema": "moradia",
+      "subtema": "produção habitacional",
+      "resumo": "Propõe ampliar a oferta de moradias com prioridade para famílias de baixa renda e servidores da segurança, em parceria com municípios e iniciativa privada.",
+      "trecho": "Produção habitacional: ampliar a oferta de moradias dignas, com prioridade para famílias de baixa renda, servidores de segurança, em regiões com maior déficit habitacional, em parceria com municípios e iniciativa privada.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p53",
+      "tema": "moradia",
+      "subtema": "financiamento para servidores",
+      "resumo": "Propõe financiamento facilitado da casa própria para servidores públicos estaduais.",
+      "trecho": "Financiamento facilitado da casa própria para os servidores públicos estaduais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p54",
+      "tema": "moradia",
+      "subtema": "áreas de risco / encostas",
+      "resumo": "Propõe sistema estadual integrado de monitoramento de riscos geológicos com os municípios e continuidade de contenção de encostas.",
+      "trecho": "Prevenção de riscos geológicos: sistema estadual integrado de monitoramento e resposta com os municípios, base unificada de informações habitacionais e de risco, continuidade das tecnologias de contenção de encostas, em especial na Região Serrana e Costa Verde.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p55",
+      "tema": "moradia",
+      "subtema": "moradia para idosos",
+      "resumo": "Propõe Vilas da Longevidade: moradia assistida para idosos de baixa renda em parceria com municípios e iniciativa privada.",
+      "trecho": "Vilas da Longevidade: moradia assistida, adaptada, segura e integrada a serviços de saúde, convivência e assistência para idosos com baixa renda, em parceria com municípios e iniciativa privada.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p56",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento / concessionárias",
+      "resumo": "Propõe reforçar o monitoramento das concessionárias de saneamento para cumprimento das metas de universalização, redução de perdas de água e expansão da coleta e tratamento de esgoto.",
+      "trecho": "Fortalecimento do monitoramento das concessionárias de saneamento para assegurar o cumprimento integral das metas contratuais, com prioridade à universalização dos serviços, à redução das perdas de água por meio do acompanhamento permanente dos índices de distribuição e da exigência de investimentos corretivos, à expansão das redes de coleta e tratamento de esgoto, especialmente em áreas e municípios com maior déficit de cobertura",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p57",
+      "tema": "meio-ambiente",
+      "subtema": "enchentes / drenagem",
+      "resumo": "Propõe cronograma anual de limpeza e desobstrução de canais, com mapeamento de áreas prioritárias, equipes permanentes e resultados publicados.",
+      "trecho": "Cronograma anual de limpeza e desobstrução de canais, com mapeamento das áreas prioritárias, equipes permanentes e resultados publicados para acompanhamento da população.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p58",
+      "tema": "meio-ambiente",
+      "subtema": "alertas de desastres",
+      "resumo": "Propõe fortalecer o CEMADEN-RJ com alertas antecipados no celular do morador.",
+      "trecho": "Fortalecimento do CEMADEN-RJ, como centro estadual de inteligência de riscos, com alertas antecipados integrados ao celular do morador, especialmente na Região Serrana, Costa Verde e demais áreas críticas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p59",
+      "tema": "meio-ambiente",
+      "subtema": "resíduos sólidos",
+      "resumo": "Propõe encerrar lixões ativos por meio de consórcios intermunicipais.",
+      "trecho": "Encerramento dos lixões ativos, por meio de consórcios intermunicipais, apoiando municípios que não conseguem resolver sozinhos a destinação adequada dos resíduos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p60",
+      "tema": "meio-ambiente",
+      "subtema": "energia solar em prédios públicos",
+      "resumo": "Propõe instalar painéis solares em prédios públicos estaduais.",
+      "trecho": "RJ Solar: com instalação de painéis solares em prédios públicos estaduais, como escolas, hospitais, batalhões e secretarias, reduzindo gastos com energia e liberando recursos para outros investimentos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p61",
+      "tema": "meio-ambiente",
+      "subtema": "petróleo / diversificação do Norte Fluminense",
+      "resumo": "Propõe atrair tecnologia, data centers, agronegócio e novas cadeias produtivas para Macaé, Campos e Rio das Ostras, para reduzir a dependência do petróleo.",
+      "trecho": "Diversificação econômica do Norte Fluminense, com estratégia ativa para atrair tecnologia, data centers, agronegócio, serviços especializados e novas cadeias produtivas para Macaé, Campos, Rio das Ostras e região, reduzindo a dependência exclusiva do ciclo do petróleo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p62",
+      "tema": "meio-ambiente",
+      "subtema": "proteção animal",
+      "resumo": "Propõe ampliar a política estadual de proteção animal com castração gratuita e unidades móveis em parceria com os municípios.",
+      "trecho": "Proteção animal: ampliação da política estadual de proteção e bem-estar animal, com castração gratuita, unidades móveis em parceria com os municípios",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p63",
+      "tema": "economia",
+      "subtema": "impostos",
+      "resumo": "Afirma que pretende aumentar a receita estadual sem aumentar impostos, por meio da política de segurança.",
+      "trecho": "Eu creio que através da política de segurança que a gente vai implementar aqui nós vamos aumentar a receita dos cofres públicos sem aumentar o imposto para quem já paga muito aqui no estado do Rio de Janeiro.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p64",
+      "tema": "economia",
+      "subtema": "incentivos fiscais / ICMS",
+      "resumo": "Propõe simplificar a legislação de incentivos fiscais com contrapartidas de emprego e devolução quando as metas não forem cumpridas.",
+      "trecho": "Simplificação da legislação de incentivos fiscais, com regras claras, contrapartidas objetivas de geração de emprego e mecanismos de devolução quando as metas pactuadas não forem cumpridas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p65",
+      "tema": "economia",
+      "subtema": "atração de investimentos / ICMS",
+      "resumo": "Prevê usar instrumentos como ICMS, FUNDES, concessões e parcerias privadas para atrair refino, indústria naval e serviços de engenharia, com contrapartida de emprego.",
+      "trecho": "Indústria, energia e serviços de engenharia, usando instrumentos como ICMS, FUNDES, concessões e parcerias privadas com responsabilidade fiscal, contrapartida de emprego, segurança jurídica e licenciamento ágil para atrair refino leve, indústria naval, serviços de engenharia, tecnologia e novos investimentos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p66",
+      "tema": "economia",
+      "subtema": "desburocratização / balcão único",
+      "resumo": "Propõe balcão único digital de investimentos reunindo AgeRio, CODIN, SEFAZ, INEA e JUCERJA.",
+      "trecho": "Balcão único estadual de atração e retenção de investimentos, reunindo em fluxo digital a AgeRio, CODIN, SEFAZ, INEA e JUCERJA, e demais órgãos estratégicos, para reduzir burocracia, dar previsibilidade e acelerar decisões.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p67",
+      "tema": "economia",
+      "subtema": "licenciamento regional",
+      "resumo": "Afirma que o balcão regional terá autonomia para licenciar atividades de alto impacto, evitando deslocamentos à sede do Inea na capital.",
+      "trecho": "Esse balcão terá autonomia para licenciar atividades de alto impacto. É inadmissível que quem mora no Sul Fluminense tenha que vir à capital até o Instituto Estadual do Ambiente (Inea)",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p68",
+      "tema": "economia",
+      "subtema": "emprego jovem",
+      "resumo": "Propõe o programa Meu Primeiro Emprego com aprendizagem técnica e incentivos à contratação.",
+      "trecho": "Implantação do programa Meu Primeiro Emprego, aproximando jovens do mercado de trabalho por meio da aprendizagem técnica, incentivos à contratação, formação em tecnologia e criação de hubs regionais de inovação e empreendedorismo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p69",
+      "tema": "economia",
+      "subtema": "trabalhadores autônomos / motos",
+      "resumo": "Propõe crédito para veículos de trabalho e conversão para GNV, benefícios tributários para motos de até 180 cilindradas e incentivos para MEIs.",
+      "trecho": "RJ na Pista: crédito para aquisição ou renovação de veículos de trabalho e conversão para GNV, benefícios de tributos para motos de até 180 cilindradas, incentivos tributários para MEIs e mutirões de formalização.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Motos de até 180 cilindradas"
+    },
+    {
+      "id": "p70",
+      "tema": "economia",
+      "subtema": "papel do Estado na economia",
+      "resumo": "Afirma que a geração de emprego cabe ao setor privado e que o setor público deve priorizar investimentos em segurança.",
+      "trecho": "Quem tem que gerar emprego é o setor privado; o setor público é responsável pelos investimentos em segurança",
+      "fonte_id": "f11",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p71",
+      "tema": "economia",
+      "subtema": "municípios / investimentos regionais",
+      "resumo": "Defende apoiar os municípios para que investimentos em obras de infraestrutura cheguem perto da casa das pessoas.",
+      "trecho": "Estender a mão para esses municípios para permitir que os investimentos cheguem perto da casa das pessoas. As obras de infraestruturas geram emprego e renda, aquecem a economia local e também ajudam a gerar oportunidades de emprego perto da casa das pessoas",
+      "fonte_id": "f16",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p72",
+      "tema": "economia",
+      "subtema": "cultura (editais de fomento)",
+      "resumo": "Defende dar estrutura mínima para que fazedores de cultura das comunidades exponham sua arte perto de casa.",
+      "trecho": "É trazer para perto da casa das pessoas. Dentro de muitas comunidades, nós temos inúmeros fazedores de Cultura, gente com talento que precisa do mínimo de estrutura para expor a sua arte e por que não expor perto de casa",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p73",
+      "tema": "gestao",
+      "subtema": "teto de gastos",
+      "resumo": "Defende teto de gastos estadual que vincule o crescimento das despesas ao da receita.",
+      "trecho": "Tivemos aumento de receitas de 21% nos últimos cinco anos, mas as despesas subiram 43%. Apresentei uma proposta para ter um teto de gastos indexando o aumento das despesas ao da receita. É um princípio básico.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p74",
+      "tema": "gestao",
+      "subtema": "enxugamento da máquina",
+      "resumo": "Afirma que o plano prevê enxugamento da máquina pública maior que o feito pelo governo interino, para ampliar investimentos.",
+      "trecho": "O nosso plano de governo prevê um enxugamento muito maior. Ainda tem muita coisa a ser cortada na máquina pública, com o objetivo sempre de abrir mais espaço no orçamento para ampliar os investimentos e garantir a qualidade dos serviços públicos para o cidadão.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p75",
+      "tema": "gestao",
+      "subtema": "gastos com eventos (camarote na Sapucaí)",
+      "resumo": "Afirma que não haverá recursos do governo estadual para camarote na Sapucaí.",
+      "trecho": "Por exemplo, não vai ter no meu governo recurso para camarote na Sapucaí.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p76",
+      "tema": "gestao",
+      "subtema": "custeio e investimento",
+      "resumo": "Defende máquina estadual com menor despesa de custeio e maior capacidade de investimento em infraestrutura.",
+      "trecho": "Nós podemos ter uma máquina enxuta, com menos despesa de custeio e maior capacidade de investimento em infraestrutura, que gera emprego e renda nas cidades para as pessoas",
+      "fonte_id": "f24",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p77",
+      "tema": "gestao",
+      "subtema": "servidores / recomposição salarial",
+      "resumo": "Promete recomposição salarial anual dos servidores e correção de injustiças, com transparência e responsabilidade fiscal.",
+      "trecho": "A ideia é ter recomposiçãotodo ano. Buscaremos fazer correções de injustiças, com transparência e responsabilidade fiscal.",
+      "fonte_id": "f12",
+      "compromisso_concreto": true,
+      "numeros": "Recomposição anual"
+    },
+    {
+      "id": "p78",
+      "tema": "gestao",
+      "subtema": "previdência estadual (Rioprevidência)",
+      "resumo": "Afirma que orientará a PGE-RJ a atuar no STF para repor ao Rioprevidência os recursos aplicados no Banco Master.",
+      "trecho": "Vou orientar a PGE-RJ a atuar junto ao STF no Caso Master para garantir a reposição do ativo do Rioprevidência.",
+      "fonte_id": "f12",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p79",
+      "tema": "gestao",
+      "subtema": "servidores militares inativos",
+      "resumo": "Propõe um complemento de simetria remuneratória para buscar paridade para todos os inativos, independentemente da data em que passaram à inatividade.",
+      "trecho": "Nós estamos propondo criar um complemento de simetria remuneratória para buscar alcançar a paridade para todos aqueles inativos, independentemente da data em que passaram à inatividade",
+      "fonte_id": "f13",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p80",
+      "tema": "gestao",
+      "subtema": "corrupção / cargos fantasmas",
+      "resumo": "Defende punir tanto ocupantes de cargos fantasmas quanto quem os nomeou.",
+      "trecho": "Em relação a eventuais cargos fantasmas que possam ter sido identificados, eu defendo que sejam punidos não apenas aqueles que ocupavam os cargos, mas também quem nomeou",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p81",
+      "tema": "gestao",
+      "subtema": "transparência de obras",
+      "resumo": "Propõe plataforma pública com status, prazo, investimento e responsável técnico de cada projeto estadual.",
+      "trecho": "Plataforma pública de acompanhamento, com status de cada projeto, etapa de execução, prazo, investimento previsto, município beneficiado e responsável técnico.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p82",
+      "tema": "gestao",
+      "subtema": "relação com municípios",
+      "resumo": "Propõe um Balcão Estadual de Projetos Municipais para prefeituras apresentarem demandas e receberem resposta técnica em prazo definido.",
+      "trecho": "Balcão Estadual de Projetos Municipais, com canal direto para que prefeituras apresentem demandas prioritárias e recebam resposta técnica em prazo definido.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p83",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios (debate)",
+      "resumo": "Defende que a retomada de territórios restabeleça a liberdade econômica e o direito de ir e vir de moradores de comunidades.",
+      "trecho": "Precisamos devolver a liberdade econômica para as pessoas que moram nessas comunidades. Não é possível que essas pessoas não tenham garantido o seu direito de ir e vir",
+      "fonte_id": "f20",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p84",
+      "tema": "seguranca",
+      "subtema": "domínio territorial do crime",
+      "resumo": "Afirma que pretende desmontar, e não administrar, o domínio territorial exercido por facções.",
+      "trecho": "Hoje nós estamos tratando apenas os sintomas. O estado do Rio de Janeiro, nos últimos anos, resolveu administrar o domínio territorial exercido pelo crime. A minha proposta é completamente diferente. Eu não quero administrar isso, eu quero desmontar o domínio do crime nesses territórios",
+      "fonte_id": "f22",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p85",
+      "tema": "seguranca",
+      "subtema": "serviços públicos em áreas retomadas",
+      "resumo": "Defende que a presença do Estado em comunidades inclua todos os serviços públicos, além das forças de segurança.",
+      "trecho": "Quando a gente fala de presença do Estado, não são só as forças de segurança. O Estado precisa se fazer presente com todos os serviços públicos a que a população que mora nessas comunidades tem direito",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p86",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher (debate)",
+      "resumo": "Afirma que agressores de mulheres serão presos e, se soltos pela Justiça, monitorados por tornozeleira eletrônica.",
+      "trecho": "no meu governo, agressor de mulher vai para cadeia. E se a justiça soltar, nós vamos colocar uma tornozeleira eletrônica e vamos monitorar esse agressor, para que ele não mais chegue perto dessas vítimas",
+      "fonte_id": "f19",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p87",
+      "tema": "seguranca",
+      "subtema": "Escudo Fluminense / câmeras nas vias",
+      "resumo": "Propõe câmeras de leitura de placas e reconhecimento facial nas principais vias do estado.",
+      "trecho": "Câmeras de leitura de placas e reconhecimento facial nas principais vias do Estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p88",
+      "tema": "seguranca",
+      "subtema": "Escudo Fluminense / blitzes",
+      "resumo": "Propõe blitzes integradas entre vários órgãos para apreender fuzis e drogas e capturar procurados.",
+      "trecho": "Blitzes integradas e multiagência para apreender fuzis, drogas e capturar procurados.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p89",
+      "tema": "seguranca",
+      "subtema": "integração com municípios",
+      "resumo": "Propõe integrar a segurança estadual aos centros de comando dos municípios.",
+      "trecho": "Integração com os centros de comando dos municípios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p90",
+      "tema": "seguranca",
+      "subtema": "milícia / lavagem de dinheiro",
+      "resumo": "Propõe reforçar as equipes que investigam lavagem de dinheiro e empresas de fachada das milícias.",
+      "trecho": "Reforço das equipes que investigam a lavagem de dinheiro e as empresas de fachada das milícias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p91",
+      "tema": "seguranca",
+      "subtema": "bens apreendidos do crime",
+      "resumo": "Propõe converter imóveis tomados de criminosos em equipamentos públicos.",
+      "trecho": "Recuperação ágil de bens: imóvel tomado de bandido vira equipamento público.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p92",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / lideranças de facção",
+      "resumo": "Propõe separar lideranças de facções do convívio comum e aplicar o Regime Disciplinar Diferenciado quando houver decisão judicial.",
+      "trecho": "Separar e isolar: separar e afastar lideranças do convívio comum e aplicar o Regime Disciplinar Diferenciado, quando houver decisão judicial.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p93",
+      "tema": "seguranca",
+      "subtema": "policiamento em comunidades",
+      "resumo": "Propõe policiamento adaptado a cada comunidade, com patrulhamento contínuo e monitoramento integrado.",
+      "trecho": "Policiamento adaptado à realidade de cada comunidade com patrulhamento contínuo e monitoramento integrado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p94",
+      "tema": "educacao",
+      "subtema": "tempo integral em áreas retomadas",
+      "resumo": "Propõe transformar escolas estaduais de áreas retomadas em complexos de cidadania com ensino em tempo integral.",
+      "trecho": "Escolas estaduais transformadas em complexos de cidadania com ensino em tempo integral, qualificação profissional à noite, biblioteca, esporte e lazer.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p95",
+      "tema": "seguranca",
+      "subtema": "Segurança Presente / pontos quentes",
+      "resumo": "Propõe um novo Segurança Presente com bases definidas pelo mapa de pontos quentes de crime.",
+      "trecho": "Novo Segurança Presente com bases definidas pelo mapa de pontos quentes.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p96",
+      "tema": "seguranca",
+      "subtema": "policiamento ostensivo em microterritórios",
+      "resumo": "Propõe selecionar microterritórios de maior incidência criminal para policiamento ostensivo nos horários de pico.",
+      "trecho": "Seleção de microterritórios de maior incidência para policiamento ostensivo nos horários de pico.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p97",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher / medidas protetivas",
+      "resumo": "Propõe defender decisão rápida sobre medidas protetivas e visita policial frequente ao agressor enquanto a proteção não é deferida.",
+      "trecho": "Propor e defender uma decisão rápida e visita policial frequente ao agressor enquanto a proteção não for deferida.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p98",
+      "tema": "seguranca",
+      "subtema": "gestão por resultados (GIST)",
+      "resumo": "Propõe acompanhamento mensal de metas de segurança por um Gabinete Integrado de Segurança e Território coordenado pelo governador.",
+      "trecho": "Monitoramento e articulação mensal de metas através do Gabinete Integrado de Segurança e Território (GIST), com coordenação direta do Governador.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Acompanhamento mensal"
+    },
+    {
+      "id": "p99",
+      "tema": "seguranca",
+      "subtema": "investigação / crime cibernético",
+      "resumo": "Propõe reestruturar delegacias de homicídios, reforçar delegacias especializadas com meta de elucidação e atenção ao crime cibernético.",
+      "trecho": "Modernização da investigação com reestruturação de delegacias de homicídios e o fortalecimento das delegacias especializadas com equipes técnicas e meta de elucidação e atenção à política estadual contra o crime cibernético.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p100",
+      "tema": "seguranca",
+      "subtema": "saúde do policial",
+      "resumo": "Propõe policlínica da Polícia Civil no interior, reestruturação do Hospital da PM e rede de saúde mental com prevenção ao suicídio.",
+      "trecho": "Saúde Integral do Policial: Policlínica da Polícia Civil interiorizada, Hospital da PM reestruturado, rede de saúde mental com prevenção ao suicídio e protocolo pós-eventos de estresse extremo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p101",
+      "tema": "saude",
+      "subtema": "centros regionais de especialidades (CIAME)",
+      "resumo": "Propõe um centro de consultas especializadas e exames de baixa e média complexidade em cada região, com carretas de exames nos municípios distantes.",
+      "trecho": "CIAME - Centro Integrado de Atenção Médica e Exames de baixa e média complexidade em cada região do Estado: o especialista e o exame no mesmo lugar e no mesmo dia, com carretas de exames vinculadas rodando os municípios mais distantes.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Um por região"
+    },
+    {
+      "id": "p102",
+      "tema": "saude",
+      "subtema": "alta complexidade",
+      "resumo": "Propõe Hospitais de Alta Resolução que resolvam avaliação, exame, diagnóstico e cirurgia em uma só ida.",
+      "trecho": "Criação de Hospitais de Alta Resolução para atendimento de complexidade alta com avaliação, exame, diagnóstico e cirurgia resolvidos numa só ida, em unidades modernas, digitalizadas e humanizadas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p103",
+      "tema": "saude",
+      "subtema": "hospitais regionais",
+      "resumo": "Propõe fortalecer hospitais regionais de referência, com pactuação por região e prioridade ao reaproveitamento de unidades existentes.",
+      "trecho": "Hospitais regionais de referência fortalecidos, com pactuação de atendimento por região, fiscalização do giro de leitos e prioridade para o reaproveitamento de unidades existentes.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p104",
+      "tema": "saude",
+      "subtema": "transporte sanitário",
+      "resumo": "Propõe transporte sanitário eletivo integrado à regulação estadual.",
+      "trecho": "Transporte sanitário eletivo integrado à regulação estadual, para que nenhum paciente perca consulta, exame ou tratamento por falta de condução.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p105",
+      "tema": "saude",
+      "subtema": "médicos especialistas no interior",
+      "resumo": "Propõe atrair e fixar médicos especialistas no interior com incentivos e concursos direcionados.",
+      "trecho": "Atração e fixação de especialistas no interior, com incentivos e concursos direcionados e qualificação da atenção básica dos municípios com repasse vinculado a metas de saúde.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p106",
+      "tema": "saude",
+      "subtema": "saúde da mulher",
+      "resumo": "Propõe Centros de Saúde da Mulher em todas as regiões, com rastreamento de câncer, ginecologia especializada e carretas de mamografia no interior.",
+      "trecho": "Centros de Saúde da Mulher em todas as regiões com rastreamento do câncer de mama e de colo de útero, ginecologia especializada, endometriose, climatério e acolhimento à vítima de violência, com carretas da mulher levando mamografia e exames ao interior.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Todas as regiões"
+    },
+    {
+      "id": "p107",
+      "tema": "direitos",
+      "subtema": "pessoas com autismo / interior",
+      "resumo": "Propõe carretas que levem avaliação especializada de autismo aos municípios do interior.",
+      "trecho": "Carretas de apoio ao diagnóstico levando a avaliação especializada aos municípios do interior.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p108",
+      "tema": "educacao",
+      "subtema": "educação inclusiva",
+      "resumo": "Propõe escola inclusiva com plano educacional individualizado, salas de recursos, tutores especializados e formação de professores.",
+      "trecho": "Escola Inclusiva com plano educacional individualizado, salas de recursos, tutores especializados e formação de professores e gestores, em articulação permanente entre escola, família e saúde, para garantir desenvolvimento e autonomia.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p109",
+      "tema": "educacao",
+      "subtema": "infraestrutura escolar",
+      "resumo": "Propõe climatização, internet, quadras, bibliotecas, merenda reforçada e escolas abertas às famílias.",
+      "trecho": "Estrutura digna e escola aberta: climatização, internet de qualidade, quadras, bibliotecas, merenda reforçada e cursos rápidos abertos às famílias, transformando a escola em equipamento das famílias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p110",
+      "tema": "educacao",
+      "subtema": "ensino técnico regionalizado",
+      "resumo": "Propõe cursos técnicos definidos pela demanda do mercado de cada região, com parceria com empresas e rede de estágios.",
+      "trecho": "Ensino técnico com cursos definidos pelas demandas reais do mercado em cada região, parceria com empresas, rede de estágios e acompanhamento dos alunos formados, para transformar ensino técnico em emprego, renda e oportunidade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p111",
+      "tema": "educacao",
+      "subtema": "segurança escolar / bullying",
+      "resumo": "Propõe policiamento no entorno das escolas integrado à patrulha escolar, com mediação de conflitos e combate ao bullying.",
+      "trecho": "Segurança no entorno e no interior das unidades: policiamento nas imediações, integrado aos centros de comando e à patrulha escolar, com mediação de conflitos e enfrentamento firme ao bullying e às agressões contra alunas e professoras.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p112",
+      "tema": "educacao",
+      "subtema": "apoio psicossocial",
+      "resumo": "Propõe currículo socioemocional e plantões de atendimento psicossocial nas escolas.",
+      "trecho": "Do Teu Lado nas escolas: currículo socioemocional e plantões de atendimento psicossocial com equipes especializadas, integração com as famílias e telessaúde quando necessário, com atenção especial a meninas, mães e mulheres.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p113",
+      "tema": "saude",
+      "subtema": "dependência química",
+      "resumo": "Propõe ampliar e credenciar comunidades terapêuticas, com vistoria técnica e vagas reguladas pela rede de saúde.",
+      "trecho": "Enfrentamento à dependência química: ampliação e credenciamento de comunidades terapêuticas com vistoria técnica, equipe mínima especializada e regulação de vagas integrada à rede de saúde.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p114",
+      "tema": "economia",
+      "subtema": "PPPs e concessões",
+      "resumo": "Propõe uma carteira pública de PPPs e concessões divulgada com antecedência aos investidores.",
+      "trecho": "Carteira pública de PPPs e concessões, permitindo que investidores conheçam com antecedência os projetos disponíveis, as prioridades do Estado e as oportunidades de parceria.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p115",
+      "tema": "economia",
+      "subtema": "licenciamento com prazo",
+      "resumo": "Propõe licenciamento integrado e digital com prazos máximos para setores estratégicos, sem abrir mão do rigor ambiental.",
+      "trecho": "Licenciamento integrado, digital e com prazos máximos, para setores estratégicos, respeitadas as competências legais e sem abrir mão do rigor ambiental e regulatório.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p116",
+      "tema": "economia",
+      "subtema": "segurança jurídica",
+      "resumo": "Propõe marcos regulatórios claros e estáveis para dar previsibilidade a quem investe.",
+      "trecho": "Marcos regulatórios claros e estáveis, garantindo segurança jurídica para quem investe, previsibilidade para quem empreende e cobrança de resultado para quem recebe apoio do Estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p117",
+      "tema": "economia",
+      "subtema": "desenvolvimento regional",
+      "resumo": "Propõe um Escritório Regional de Desenvolvimento em cada uma das 8 regiões para apoiar prefeituras em projetos, recursos e licenciamento.",
+      "trecho": "Escritórios Regionais de Desenvolvimento, um em cada uma das 8 regiões do estado, preferencialmente aproveitando estruturas existentes, para apoiar prefeituras na formulação de projetos, captação de recursos, licenciamento, parcerias e atração de investimentos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "8 escritórios, um por região"
+    },
+    {
+      "id": "p118",
+      "tema": "economia",
+      "subtema": "gás canalizado",
+      "resumo": "Propõe revisar o modelo da concessão de distribuição de gás canalizado para o próximo ciclo, com expansão da rede.",
+      "trecho": "Revisão do modelo de prestação do serviço de distribuição de gás canalizado para o próximo ciclo, aproveitando o potencial energético do Estado para ampliar a infraestrutura e a rede de distribuição, expandir o atendimento aos municípios, estimular o uso do gás natural nos setores produtivos e na mobilidade, modernizar os sistemas de distribuição e assegurar mecanismos efetivos de fiscalização e cumprimento das obrigações.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p119",
+      "tema": "economia",
+      "subtema": "qualificação para a indústria",
+      "resumo": "Propõe formar trabalhadores pela Faetec, Senai e setor produtivo em logística, offshore, automação e manutenção industrial.",
+      "trecho": "Qualificação para a nova infraestrutura produtiva, formando trabalhadores pela FAETEC, SENAI e setor produtivo em áreas como logística, operação de plataformas, automação, elétrica offshore, inspeção de solda, manutenção industrial, tecnologia e serviços especializados.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p120",
+      "tema": "economia",
+      "subtema": "entregadores e trabalhadores de rua",
+      "resumo": "Propõe pontos de apoio seguros, com iluminação e videomonitoramento, para motoristas, entregadores e autônomos.",
+      "trecho": "Pontos de apoio seguros para quem trabalha nas ruas, com iluminação, videomonitoramento, estrutura básica, integração com o policiamento territorial e monitoramento de áreas críticas para motoristas, entregadores e trabalhadores autônomos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p121",
+      "tema": "economia",
+      "subtema": "autonomia econômica das mulheres",
+      "resumo": "Propõe ampliar crédito, qualificação e empreendedorismo para mulheres e fortalecer com os municípios a rede de cuidados.",
+      "trecho": "Promoção da autonomia econômica das mulheres, ampliando o acesso ao crédito, à qualificação, ao empreendedorismo, apoiando desde as pequenas empreendedoras que iniciam seus negócios até empresas lideradas por mulheres em fase de expansão, e fortalecendo, em parceria com os municípios, a rede de cuidados para ampliar sua participação no mercado de trabalho.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p122",
+      "tema": "economia",
+      "subtema": "agropecuária",
+      "resumo": "Propõe modernizar a Emater-RJ com assistência técnica, priorizando Norte, Noroeste e Região Serrana.",
+      "trecho": "Modernização e fortalecimento da EMATER-RJ, com assistência técnica voltada à produtividade, conservação, regularização no campo e acesso a crédito, priorizando Norte, Noroeste e Região Serrana.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p123",
+      "tema": "economia",
+      "subtema": "turismo regional",
+      "resumo": "Propõe estruturar 8 regiões turísticas integradas com rotas entre litoral, serra e campo.",
+      "trecho": "Estruturação de 8 regiões turísticas integradas, com rotas que conectem litoral, serra, campo, gastronomia, cultura, natureza e eventos, ampliando o fluxo de visitantes para além da capital.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "8 regiões turísticas"
+    },
+    {
+      "id": "p124",
+      "tema": "economia",
+      "subtema": "cultura / audiovisual",
+      "resumo": "Propõe programa estadual de atração de produções audiovisuais limitado por teto orçamentário e com contrapartidas de gasto local.",
+      "trecho": "Implantação de um programa estadual de atração de produções audiovisuais, limitado por teto orçamentário, critérios técnicos, transparência e contrapartidas obrigatórias de gasto local, contratação de profissionais fluminenses e movimentação da economia no estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p125",
+      "tema": "transporte",
+      "subtema": "Linha 3 do metrô (plano)",
+      "resumo": "Propõe acompanhar a finalização do projeto da Linha 3 do metrô e captar recursos para sua implementação.",
+      "trecho": "Acompanhar a finalização do projeto da Linha 3 do metrô e realizar a captação de recursos para sua implementação.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p126",
+      "tema": "transporte",
+      "subtema": "faixas exclusivas",
+      "resumo": "Propõe ampliar faixas exclusivas e prioridade operacional para o transporte coletivo nos principais corredores metropolitanos.",
+      "trecho": "Ampliação e expansão de faixas exclusivas e prioridade operacional, garantindo mais velocidade, previsibilidade e regularidade ao transporte coletivo nos principais corredores metropolitanos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p127",
+      "tema": "transporte",
+      "subtema": "integração tarifária no interior",
+      "resumo": "Propõe expandir gradualmente a integração tarifária para os principais polos regionais.",
+      "trecho": "Expansão gradual da integração tarifária para os principais polos regionais, fazendo da mobilidade integrada uma política para todo o Estado do Rio de Janeiro.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p128",
+      "tema": "transporte",
+      "subtema": "rodovias estaduais",
+      "resumo": "Propõe recuperar e ampliar rodovias estratégicas para o agro, a indústria, a logística e o turismo do interior.",
+      "trecho": "Estradas para Produzir, com recuperação e ampliação de rodovias estratégicas para o agro, a indústria, a logística e o turismo do interior.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p129",
+      "tema": "transporte",
+      "subtema": "DER-RJ",
+      "resumo": "Propõe reequipar o DER-RJ com máquinas, equipes e sistemas de gestão para a manutenção das rodovias.",
+      "trecho": "Reequipamento do DER-RJ, com máquinas, equipes, tecnologia e sistemas modernos de gestão da malha estadual e fortalecimento das operações de manutenção das rodovias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p130",
+      "tema": "transporte",
+      "subtema": "concessão de rodovias",
+      "resumo": "Propõe novos contratos de concessão de rodovias baseados em manutenção permanente, iluminação, atendimento emergencial e câmeras.",
+      "trecho": "Concessões inteligentes, com novos contratos baseados em manutenção permanente, iluminação, atendimento emergencial, câmeras e leitura de placas para tornar nossas estradas mais seguras.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p131",
+      "tema": "transporte",
+      "subtema": "fiscalização de trens, metrô, ônibus e vans",
+      "resumo": "Propõe fiscalizar trens, metrô, ônibus e vans com indicadores públicos, cobrança de renovação da frota e penalidades.",
+      "trecho": "Fortalecimento da fiscalização dos serviços de transporte público estadual, abrangendo trens, metrô, ônibus e vans intermunicipais, com monitoramento permanente de indicadores de desempenho, como pontualidade, regularidade, velocidade operacional e qualidade do atendimento, transparência por meio de painel aberto ao cidadão, cobrança do cumprimento das obrigações assumidas, renovação da frota, modernização da infraestrutura e aplicação efetiva de penalidades quando cabíveis.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p132",
+      "tema": "transporte",
+      "subtema": "segurança em estações",
+      "resumo": "Propõe exigir das concessionárias estações e terminais com iluminação, câmeras, comunicação de emergência e elevadores funcionando.",
+      "trecho": "Estações e terminais seguros e acessíveis como obrigação das concessionárias, com iluminação, câmeras, comunicação de emergência, funcionamento garantido de elevadores e rampas, e atendimento capacitado e prioritário a mulheres, passageiras com crianças, idosos e pessoas com deficiência, com intervenções prioritárias nos pontos de maior insegurança.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p133",
+      "tema": "direitos",
+      "subtema": "mulheres / assédio no transporte",
+      "resumo": "Propõe protocolo único de prevenção e atendimento à violência contra a mulher em trens, metrô, barcas, ônibus intermunicipais e terminais.",
+      "trecho": "Implementação de protocolo único de prevenção e atendimento à violência contra a mulher em trens, metrô, barcas, ônibus intermunicipais e terminais estaduais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p134",
+      "tema": "direitos",
+      "subtema": "mulheres em obras públicas",
+      "resumo": "Propõe ampliar a participação mínima de mulheres na força de trabalho das obras públicas estaduais.",
+      "trecho": "Ampliar a participação mínima de mulheres na força de trabalho das obras públicas estaduais, promovendo qualificação profissional, fiscalização do cumprimento da medida e estímulo para que obras executadas em parceria com os municípios também ampliem as oportunidades de inserção feminina na construção civil.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p135",
+      "tema": "meio-ambiente",
+      "subtema": "enchentes / soluções baseadas na natureza",
+      "resumo": "Propõe parques alagáveis e recuperação de várzeas e mangues para reduzir pontos de alagamento.",
+      "trecho": "Parques alagáveis e soluções baseadas na natureza, especialmente em áreas de maiores riscos socioambientais, com sistemas capazes de reter água da chuva, recuperar várzeas e mangues e reduzir pontos recorrentes de alagamento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p136",
+      "tema": "meio-ambiente",
+      "subtema": "defesa civil comunitária",
+      "resumo": "Propõe núcleos de defesa civil nas comunidades de maior risco, com capacitação de lideranças locais.",
+      "trecho": "Defesa civil comunitária, com núcleos de proteção nas comunidades de maior risco, capacitação de lideranças locais e comunicação simples, direta e acessível.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p137",
+      "tema": "meio-ambiente",
+      "subtema": "encostas / monitoramento",
+      "resumo": "Propõe monitorar encostas e áreas vulneráveis com tecnologia e apoio técnico às prefeituras.",
+      "trecho": "Monitoramento de encostas e áreas vulneráveis, com uso de tecnologia, fiscalização em parceria com os municípios e apoio técnico às prefeituras, com atuação coordenada antes que o risco se transforme em tragédia.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p138",
+      "tema": "meio-ambiente",
+      "subtema": "transição energética",
+      "resumo": "Propõe incentivar energias renováveis, especialmente eólica, solar e geração distribuída.",
+      "trecho": "Transição energética: incentivo à expansão das energias renováveis, especialmente da energia eólica, da energia solar fotovoltaica e da geração distribuída, aproveitando o potencial do litoral fluminense para impulsionar o desenvolvimento sustentável, ampliar a eficiência e diversificar a matriz energética na indústria, nas empresas e nas residências.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p139",
+      "tema": "transporte",
+      "subtema": "subsídio ao metrô",
+      "resumo": "Promete aumentar o subsídio estadual à tarifa do metrô para que a passagem possa chegar a R$ 5.",
+      "trecho": "Vamos aumentar o subsídio da tarifa do metrô para pesar menos no bolso do cidadão, com a passagem podendo chegar a R$ 5",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "Tarifa podendo chegar a R$ 5"
+    },
+    {
+      "id": "p140",
+      "tema": "transporte",
+      "subtema": "metrô na Baixada",
+      "resumo": "Defende incluir a Baixada Fluminense no planejamento da expansão do metrô, sem prometer estações antes de projeto e recursos.",
+      "trecho": "A Baixada também precisa entrar definitivamente no planejamento da expansão da rede metroviária. Mas não vamos prometer estação sem projeto e recursos. É preciso definir demanda, traçado, custo e modelagem para então buscar financiamento no BNDES, no governo federal e na iniciativa privada.",
+      "fonte_id": "f26",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p141",
+      "tema": "transporte",
+      "subtema": "Linha 3 do metrô (financiamento)",
+      "resumo": "Afirma que, com o projeto pronto, buscará recursos da União e da iniciativa privada para a Linha 3.",
+      "trecho": "Espero que, estando pronto o projeto, a gente possa sentar à mesa com a União e com a iniciativa privada para reunir recursos necessários e tirar esse sonho do papel.",
+      "fonte_id": "f37",
+      "compromisso_concreto": false,
+      "numeros": "Estudo da Coppe/UFRJ previsto para dezembro de 2027, segundo o candidato"
+    },
+    {
+      "id": "p142",
+      "tema": "transporte",
+      "subtema": "barcas (contrato)",
+      "resumo": "Promete cobrar no início do mandato o cumprimento do novo contrato das barcas.",
+      "trecho": "Tem um contrato novo que foi assinado e, logo no início do nosso mandato, eu vou me debruçar para cobrar que seja cumprido",
+      "fonte_id": "f32",
+      "compromisso_concreto": true,
+      "numeros": "Início do mandato"
+    },
+    {
+      "id": "p143",
+      "tema": "transporte",
+      "subtema": "concessões / maus prestadores",
+      "resumo": "Afirma que concessionárias que não cumprirem contrato serão afastadas.",
+      "trecho": "Os contratos consorciados aqui no Estado do Rio vão passar a entender que, se assinou o contrato, ele precisa ser cumprido. Tem que entregar serviço público de qualidade para o nosso povo. Caso contrário, nós vamos colocar para fora esses maus prestadores de serviço",
+      "fonte_id": "f32",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p144",
+      "tema": "saude",
+      "subtema": "UPA da Ilha do Governador",
+      "resumo": "Promete devolver o atendimento de emergência para adultos na UPA da Ilha do Governador, mantendo o pediátrico.",
+      "trecho": "Nós queremos devolver esse atendimento para os adultos. Não retirar a UPA pediátrica, mas também oferecer o serviço para todos os adultos, um serviço de emergência próximo da casa das pessoas",
+      "fonte_id": "f32",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p145",
+      "tema": "transporte",
+      "subtema": "estradas do interior",
+      "resumo": "Defende modernizar as estradas do interior e criar rotas alternativas para evitar o isolamento de cidades.",
+      "trecho": "Precisamos modernizar nossas estradas. Hoje, não contamos com rotas alternativas e, quando acontece um acidente, muitas regiões ficam isoladas, sem condições de deslocamento.",
+      "fonte_id": "f38",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p146",
+      "tema": "transporte",
+      "subtema": "pedágios",
+      "resumo": "Declarou-se contra a instalação de pedágios free flow na BR-101 em Tanguá, Itaboraí e São Gonçalo.",
+      "trecho": "Sou contra a instalação desse pedágio. Precisamos defender a população, que já enfrenta muitas dificuldades",
+      "fonte_id": "f39",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p147",
+      "tema": "saude",
+      "subtema": "Organizações Sociais (OSs)",
+      "resumo": "Afirma que o Estado assumirá a gestão das unidades e contratará serviços privados diretamente, sem OSs, e que os contratos atuais não continuarão.",
+      "trecho": "O governo vai fazer a gestão e buscar o que precisa da iniciativa privada, e não por intermediários como as OSS. Os contratos que estão ativos vão ter que ser analisados caso a caso, mas não vão prosperar",
+      "fonte_id": "f27",
+      "compromisso_concreto": true,
+      "numeros": "Saída gradual, contrato a contrato"
+    },
+    {
+      "id": "p148",
+      "tema": "saude",
+      "subtema": "oncologia / Nova Friburgo",
+      "resumo": "Promete inaugurar o Hospital do Câncer de Nova Friburgo nos primeiros 100 dias de governo.",
+      "trecho": "Na questão da oncologia, eu já me comprometi logo nos primeiros 100 dias de governo a inaugurar o tão sonhado e esperado Hospital do Câncer de Nova Friburgo, que já vai atender uma importante região do nosso Estado do rio de janeiro",
+      "fonte_id": "f36",
+      "compromisso_concreto": true,
+      "numeros": "Primeiros 100 dias de governo"
+    },
+    {
+      "id": "p149",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / trabalho do preso",
+      "resumo": "Afirma que o preso no estado terá de trabalhar para arcar com suas despesas.",
+      "trecho": "Se for preso aqui no estado do Rio de Janeiro, vai trabalhar. Vai ter que trabalhar para arcar com suas despesas",
+      "fonte_id": "f29",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p150",
+      "tema": "seguranca",
+      "subtema": "modelo Bukele",
+      "resumo": "Descarta aplicar integralmente o modelo de Bukele, por depender de reformulação do sistema de Justiça nacional.",
+      "trecho": "Para aplicar aquele modelo na risca do que o Bukele faz lá, precisa ter toda uma reformulação do sistema de Justiça nacional. Não é uma questão em que qualquer governador de estado tem autonomia total para poder implementar",
+      "fonte_id": "f29",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p151",
+      "tema": "seguranca",
+      "subtema": "Segurança Presente / policiamento de proximidade",
+      "resumo": "Promete expandir o Segurança Presente a mais bairros e centros comerciais.",
+      "trecho": "Temos que aproveitar tudo aquilo que funcionou e expandir para todas as localidades, principalmente para esses centros comerciais, porque eles garantem a livre circulação das pessoas. E as pessoas acreditam nesse modelo de segurança de proximidade. Nós vamos fazer com que ele possa chegar a muitos outros bairros do Rio de Janeiro",
+      "fonte_id": "f28",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p152",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais (decisão do STF)",
+      "resumo": "Afirma que a decisão do STF sobre câmeras corporais será cumprida, mas que não deve servir como caça às bruxas contra policiais.",
+      "trecho": "A questão das câmeras corporais já teve uma decisão do STF (Supremo Tribunal Federal) que deve e será cumprida, mas não deve servir como caça às bruxas de nossos bravos guerreiros policiais",
+      "fonte_id": "f33",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p153",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais (punição a quem burlar)",
+      "resumo": "Afirma que policial que inviabilizar o funcionamento da câmera corporal será punido conforme a lei.",
+      "trecho": "Aquele policial que, porventura, transgredir, utilizando de algum artifício para inviabilizar o funcionamento do equipamento será punido de acordo com o que está previsto na legislação",
+      "fonte_id": "f33",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p154",
+      "tema": "seguranca",
+      "subtema": "ADPF 635",
+      "resumo": "Critica a ADPF 635, que regula operações policiais no Rio, e a responsabiliza pela expansão do crime no estado.",
+      "trecho": "Essa ADPF 635 fez com que o estado do Rio de Janeiro se tornasse resort para vagabundo de tudo o que é canto do nosso país",
+      "fonte_id": "f34",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p155",
+      "tema": "seguranca",
+      "subtema": "letalidade em operações",
+      "resumo": "Afirma que avisa na campanha que sua política de enfrentamento pode levar a críticas de aumento da letalidade violenta.",
+      "trecho": "Eu já estou avisando na campanha logo o que eu vou fazer, para depois ninguém chegar para mim e dizer: “Você vai aumentar a letalidade violenta”. Eu avisei antes. É minha proposta de governo.",
+      "fonte_id": "f34",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p156",
+      "tema": "seguranca",
+      "subtema": "defesa jurídica do policial",
+      "resumo": "Propõe criar a carreira de advogado do policial para assistir agentes desde o registro da ocorrência até o fim do processo.",
+      "trecho": "Eu vou retirar a legítima defesa do policial desse indicador de letalidade violenta e vou garantir aos nossos policiais que eles possam cumprir a sua missão de servir e proteger a população de bem do Estado do Rio de Janeiro. E além disso, eu ainda vou criar uma outra carreira no serviço público, que é do advogado do policial, para que ele seja assistido desde o primeiro momento no registro de ocorrência na delegacia até o final do processo",
+      "fonte_id": "f35",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p157",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios / ISP",
+      "resumo": "Afirma que delegados e comandantes terão de provar ao ISP que restabeleceram o direito de ir e vir e a liberdade econômica nas comunidades.",
+      "trecho": "Eles vão ter que provar ao ISP que aquelas comunidades foram reestabelecidas o direito de ir e vir e a liberdade econômica para que aquelas pessoas possam escolher, por exemplo, o seu fornecedor de sinal de internet, fornecedor de sinal de TV a cabo. E esse, sim, será o principal indicador da avaliação de desempenho, que vai fazer jus à atual gratificação que já é percebida",
+      "fonte_id": "f35",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p158",
+      "tema": "educacao",
+      "subtema": "aprovação automática",
+      "resumo": "Critica a aprovação automática e defende não usá-la para melhorar indicadores do Ideb.",
+      "trecho": "Porque eu tenho um projeto de Educação de verdade para o Rio. De valorização dos professores, de levar ensino técnico para as escolas, de não maquiar os dados do Ideb com a falácia da aprovação automática, como faz atualmente a prefeitura do Rio.",
+      "fonte_id": "f30",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p159",
+      "tema": "educacao",
+      "subtema": "ensino profissionalizante com a Faetec",
+      "resumo": "Afirma que vai reestruturar todas as escolas estaduais para levar ensino profissionalizante, integrando a Faetec.",
+      "trecho": "Mas, para além desse modelo, vamos reestruturar todas as escolas, levando ensino profissionalizante. É possível fazer isso, integrando a Faetec ao processo.",
+      "fonte_id": "f30",
+      "compromisso_concreto": true,
+      "numeros": "Todas as escolas estaduais"
+    },
+    {
+      "id": "p160",
+      "tema": "educacao",
+      "subtema": "ensino técnico e vocações regionais",
+      "resumo": "Defende definir a formação profissional no ensino médio em diálogo com a iniciativa privada e as vocações de cada região.",
+      "trecho": "Vamos fazer isso com muito diálogo com a iniciativa privada, respeitando as vocações regionais de cada canto do nosso estado, para que os nossos jovens possam concluir uma formação naquilo que verdadeiramente vão encontrar uma oportunidade no mercado de trabalho",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    }
+  ],
+  "lacunas": [
+    "economia/dívida com a União (Propag): noticiado (Extra, 09/09/2026) que ele manteria o RJ no Propag, mas não foi localizada citação literal dele com esse compromisso; não registrado",
+    "economia/royalties do petróleo: posição contra a redistribuição (Lei 12.734/2012) só encontrada em atos como presidente da Alerj (abr-mai/2026), não apresentada como proposta de governo; não registrada",
+    "economia/ICMS: sem proposta de alteração de alíquotas; só menção ao ICMS como instrumento de atração de investimentos",
+    "saude: posição sobre OSs agora registrada (entrevista à Super Rádio Tupi, 25/08/2026, via Agenda do Poder): fim gradual das OSs; o plano registrado não menciona OSs. Reportagens (Jornal Daki, 06/09/2026; Conexão Regional, 09/09/2026) apontam que a prefeitura de São Gonçalo, governada por seu pai, e o governo Castro, do qual foi secretário, mantêm contratos com OSs",
+    "saude: promessa de inaugurar o Hospital do Câncer de Nova Friburgo em 100 dias agora registrada com citação literal (g1, 03/09/2026); unidade de oncologia na Zona Oeste citada só em paráfrase (Diário do Rio e O Dia, 03/09/2026)",
+    "educacao: piso salarial nacional do magistério não encontrado; crítica à aprovação automática agora registrada com citação literal (Revistapontocom, 22/09/2026); ensino em tempo integral só aparece no plano para escolas de áreas retomadas do crime, sem proposta geral para a rede",
+    "seguranca: posição sobre unificar Polícia Militar e Civil em uma só secretaria só em paráfrase (O Globo, 20/09/2026)",
+    "seguranca: custo de R$ 1,6 bilhão para chegar a 60 mil PMs segue só em paráfrase (Agenda do Poder, 25/08 e 15/09/2026); o efetivo atual citado varia entre 44 mil e 46 mil conforme a reportagem; nenhuma das fontes diz de onde viria o recurso nem o prazo além de \"quatro anos\" (f2)",
+    "seguranca: ADPF 635: há crítica literal (entrevista ao canal Cláudio Dantas, 25/08/2026, via O Globo), mas nenhuma proposta de protocolo estadual de uso da força; o plano não trata de redução de letalidade",
+    "transporte/trens (Trens RJ, operadora desde 30/05/2026): O Globo (13/09/2026) informa em paráfrase que Ruas defende renovar a frota e é contra criar empresa pública para os trens; o compromisso de convocar a concessionária e rescindir se as metas não forem cumpridas segue só em paráfrase (g1, 16/09/2026). No plano há só a fiscalização com cobrança de renovação da frota e penalidades; não há proposta de segurança específica a bordo dos trens nem de modernização em padrão BRT",
+    "transporte/BRT: citado só dentro da integração do Bilhete Único; sem proposta específica",
+    "transporte/extensão da Linha 4 do metrô e investimentos da União em transporte de massa: citadas só em paráfrase (Ultima Hora, 18/09/2026); rodovias (conservação, rotas alternativas, roubo de cargas) e ferrovia EF-118 citadas só em paráfrase após reunião na Associação Comercial (CBN, 18/09/2026)",
+    "moradia: urbanização de favelas não encontrada como proposta específica",
+    "meio-ambiente: Cedae (privatização, reestatização ou anulação do contrato) sem posição encontrada",
+    "meio-ambiente: despoluição da Baía de Guanabara sem proposta específica (o plano fala em despoluição dos principais corpos hídricos em geral)",
+    "direitos: cotas raciais/sociais (UERJ, concursos) sem posição encontrada",
+    "direitos: população LGBT+ sem posição encontrada",
+    "direitos: população negra / igualdade racial sem proposta encontrada (a Alma Preta, 31/08/2026, também afirma que o plano não traz propostas para a população negra)",
+    "gestao: reforma administrativa estrutural (número de secretarias, estatais) sem detalhamento literal",
+    "gestao: reforma da previdência estadual (alíquotas, regras) sem posição encontrada",
+    "economia/dívida (Propag): O Globo (31/08/2026) e Agenda do Poder (31/08/2026) informam em paráfrase que ele apoia o Propag e quer renegociar a lei federal; a citação literal disponível (O Globo, 31/08) trata apenas do teto de gastos",
+    "seguranca: guardas municipais armadas / integração das guardas ao policiamento ostensivo: sem posição encontrada; o plano só prevê integração com os centros de comando dos municípios",
+    "seguranca: câmeras corporais nos trens, segurança própria a bordo dos trens: sem proposta encontrada",
+    "transporte/barcas: novas linhas ou terminais (inclusive São Gonçalo): sem posição encontrada; plano e falas tratam só de cobrar o contrato e modernizar terminais existentes",
+    "transporte/prioridade ao trem de passageiros sobre o rodoviário: sem posição encontrada",
+    "transporte/Riocard e nova licitação da bilhetagem: disse (paráfrase, O Globo 13/09/2026) que não tem compromisso a favor ou contra nenhuma empresa",
+    "meio-ambiente/agua: revisão dos reajustes de tarifa de água e esgoto: sem posição encontrada; as falas sobre água (16/09/2026) tratam de fiscalização e rescisão, não de tarifa",
+    "saude: contratar mais médicos para a rede estadual em geral: sem posição encontrada; o plano prevê apenas atrair e fixar especialistas no interior com incentivos e concursos direcionados",
+    "direitos/pessoas com deficiência: carta-compromisso assinada em 21/09/2026 (g1) com criação de secretaria específica, esporte adaptado e acessibilidade em prédios públicos aparece só em paráfrase",
+    "cultura: Valor (15/09/2026) relata em paráfrase que ele prometeu cortar \"investimentos em cultura, como megashows\"; g1 (18/09/2026) relata em paráfrase promessa de ampliar editais de fomento na Baixada e no interior; o plano prevê calendário estadual de música e eventos e o Circuito Prosperidade de grandes eventos",
+    "transporte/rodovias: o programa \"Estrada Boa\", que ele disse estar \"previsto em seu projeto de governo\" (Diário do Rio, 12/07/2026), não aparece com esse nome no plano registrado (há \"Estradas para Produzir\")",
+    "debates: não foi localizado nenhum debate de TV entre candidatos ao governo do RJ realizado em setembro de 2026; o único debate encontrado é o da Band em 09/08/2026 (já em f19/f20). Em setembro houve sabatinas (O Globo/Extra/Valor/CBN 08/09; RJ1/TV Globo 15/09; CNN 08/09) e entrevistas",
+    "contradição: tarifa. O plano defende \"tarifa social focalizada para a população de baixa renda\" com responsabilidade fiscal (p45), mas nas falas ele promete ampliar o subsídio para reduzir a tarifa do metrô para todos até R$ 5 (p41, p139); ao mesmo tempo, defende teto de gastos (p73) e condiciona a meta à \"possibilidade dos cofres públicos\" (p41); O Globo (13/09/2026) relata que ele não se compromete com valores de subsídio",
+    "contradição: câmeras corporais. Diz que a decisão do STF sobre câmeras \"deve e será cumprida\" (p152, CNN, 08/09/2026) e, na mesma entrevista de p6, que o uso \"já é obrigatório\", mas defende que o uso \"não pode ser algo padronizado\" (p6, Agenda do Poder, 12/09/2026); também ataca a ADPF 635 no STF, que é a origem das regras de operações e câmeras no Rio (p154, O Globo, 25/08/2026)",
+    "contradição: OSs e parceria privada. Em entrevista (25/08/2026) promete tirar as OSs da saúde estadual (p147), mas o plano não menciona OSs e defende repasse condicionado a metas e parceria com o setor privado; reportagens registram que governos dos quais ele fez parte ou que são de seu grupo mantêm OSs",
+    "contradição: educação inclusiva. O plano prevê \"tutores especializados\" na Escola Inclusiva (p108), mas em 21/09/2026 ele disse que a proposta é ter professores de apoio \"porque não basta tutores\" (p24)",
+    "contradição: sistema prisional. O plano condiciona benefícios penais a trabalho (\"benefício só com trabalho\", p8), enquanto na sabatina da VEJA (19/08/2026) disse que todo preso \"vai ter que trabalhar para arcar com suas despesas\" (p149)",
+    "contradição: número de escolas cívico-militares. Em 07/09/2026 disse \"Vou ampliar para 200 o número de escolas cívico-militares\" (Diário do Rio), mas em 09/09/2026 falou em levar o modelo \"para pelo menos 200 escolas já existentes\" e o Diário do Rio relatou \"mais 200\"; o plano não fixa número",
+    "mudança de tom: em entrevista ao canal Cláudio Dantas (25/08/2026) chamou criminosos de \"vagabundos\" e disse avisar que a letalidade pode subir (p155); O Globo registra que o discurso destoa do adotado em caminhadas"
+  ]
+}

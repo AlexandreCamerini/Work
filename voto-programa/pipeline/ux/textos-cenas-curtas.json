@@ -1,0 +1,20 @@
+[
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "operacao-policial",
+    "campo": "cena",
+    "antes": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair de casa.",
+    "depois": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair.",
+    "palavras_depois": 20,
+    "motivo": "cena + pergunta passava de 170 caracteres (173 → 165); 'de casa' sai sem mudar o sentido"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "cena",
+    "antes": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem notícia de cargo sobrando e de imposto perdoado pra empresa grande.",
+    "depois": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem cargo sobrando e imposto perdoado pra empresa.",
+    "palavras_depois": 21,
+    "motivo": "cena + pergunta passava de 170 caracteres (183 → 162); continua citando cargos (a, b, c) e imposto perdoado (d); 'grande' sai porque a opção d agora vale para empresas em geral, como a preferência"
+  }
+]

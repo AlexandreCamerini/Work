@@ -1,0 +1,91 @@
+{
+  "candidato_id": "coronel-busnello",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Propõe estender a Linha 2 até Arariboia, em Niterói, e depois implantar a Linha 3 até São Gonçalo, após auditoria da licitação suspensa."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p30",
+          "p31"
+        ],
+        "justificativa": "Propõe novas rotas de ferry-boats e catamarãs com terminal em Gradim (São Gonçalo) e outros pontos da Baía e defendeu terminal de barcas em São Gonçalo; o trecho do plano não menciona a concessão ou PPP citada no resumo."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p28",
+          "p33"
+        ],
+        "justificativa": "Propõe recuperar os trens com nova frota e sinalização e implantar VLT em leito ferroviário, mas também corredores de BRT, sem priorizar o trilho sobre a rodovia."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Propõe equipar hospitais já existentes com UTIs nas regiões Noroeste, Serrana, Baixada Litorânea e Médio Paraíba, sem construção de novos hospitais."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p16",
+          "p12"
+        ],
+        "justificativa": "Propõe UTIs em hospitais existentes das regiões do interior e a Central de Vagas RJ, sem mencionar polos de oncologia ou de diagnóstico."
+      },
+      "c": {
+        "nota": 70,
+        "evidencias": [
+          "p16",
+          "p15",
+          "p19"
+        ],
+        "justificativa": "Propõe equipar hospitais existentes no interior, painel público de metas das OSs com auditoria e fórmula técnica obrigatória de repasse, sem vincular custeio a metas especificamente nos hospitais do interior."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p14"
+        ],
+        "justificativa": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família nos municípios, sem mencionar especialistas na rede estadual."
+      }
+    }
+  }
+}

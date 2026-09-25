@@ -1,0 +1,372 @@
+{
+  "candidato_id": "anthony-garotinho",
+  "nome": "Anthony Garotinho",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": false,
+    "url": null,
+    "observacao": "Candidatura sub judice: registro indeferido por unanimidade pelo TRE-RJ em 11/09/2026 (direitos políticos suspensos por condenação por improbidade), com recurso ao TSE; em 28/08/2026 uma liminar do TSE autorizou atos de campanha, horário eleitoral e acesso aos fundos; na API do DivulgaCandContas (24/09/2026) a situação é 'Indeferido em prazo recursal ou com recurso', com totalização 'Concorrendo'. O plano ('Diretrizes do Programa de Governo 2027-2030', 386 páginas) foi juntado ao processo de registro (RCand 0602359-26.2026.6.19.0000) em 18/08/2026, segundo o Blog do Rodrigo Luz, e resumido por g1, CBN e Tempo Real RJ. Não foi possível ler o texto. A API do DivulgaCandContas (candidato 190002550196) não lista arquivo de proposta de governo, só certidões. O espelho do Nexo (rj-governador-anthony-garotinho.pdf / rj-governador-garotinho.pdf) deu 'não encontrado' ou timeout. O padrão da ND+ (2026RJ190002550196_01.pdf) não existe. O ZIP estadual do TSE não pôde ser lido nesta coleta. Por isso nenhuma proposta vem do plano: todas são falas literais do próprio candidato em sabatinas, entrevistas e agendas de campanha. Itens que a imprensa atribui ao plano, sem trecho literal, estão em 'lacunas'. Recomenda-se nova tentativa de obter o PDF (ZIP proposta_governo_2026_RJ.zip do portal de dados abertos do TSE ou autos do PJe)."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "entrevista",
+      "titulo": "Garotinho defende Bope 2.0 e corte de incentivos fiscais no RJ1",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/14/rj1-entrevista-garotinho-candidato-do-republicanos-ao-governo-do-rj.ghtml",
+      "data": "2026-09-14"
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Garotinho propõe retomar 20 comunidades para reduzir roubos no RJ (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/10/garotinho-participa-de-sabatina.ghtml",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Anthony Garotinho propõe modelo de SP para zerar fila do Sisreg (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/10/garotinho-participa-de-entrevista.ghtml",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Garotinho afirma que seu plano de segurança não tem relação com UPP (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/10/garotinho-afirma-que-seu-plano-de-seguranca-nao-tem-relacao-com-upp-mas-diz-nao-poder-falar-sobre.ghtml",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f5",
+      "tipo": "entrevista",
+      "titulo": "Garotinho minimiza rejeição e prisões em sabatina (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/politica/noticia/2026/09/garotinho-participa-nesta-quinta-feira-de-sabatina-com-candidatos-ao-governo-do-rio-assista.ghtml",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Garotinho promete Bope 2.0 para ocupar comunidades no RJ (sabatina SBT Rio)",
+      "veiculo": "SBT News",
+      "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/garotinho-promete-bope-2-0-para-ocupar-comunidades-no-rj",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f8",
+      "tipo": "entrevista",
+      "titulo": "Eleições 2026: veja as propostas de candidatos ao governo estadual do Rio para servidores (entrevistas da coluna Servidor Público)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml",
+      "data": "2026-09-13"
+    },
+    {
+      "id": "f9",
+      "tipo": "noticia",
+      "titulo": "Garotinho promete ampliar cirurgias e usar hospitais privados para reduzir filas do SUS (agenda de campanha)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/26/garotinho-agenda-reduzir-filas-do-sus.ghtml",
+      "data": "2026-08-26"
+    },
+    {
+      "id": "f10",
+      "tipo": "noticia",
+      "titulo": "Garotinho propõe 72 novas linhas de barcas no Rio de Janeiro (agenda de campanha)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/21/garotinho-barcas-modernas.ghtml",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "f11",
+      "tipo": "noticia",
+      "titulo": "Republicanos escolhe Garotinho como pré-candidato ao governo do Rio (falas em transmissão ao vivo)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/07/7279786-republicanos-escolhe-garotinho-como-pre-candidato-ao-governo-do-rio.html",
+      "data": "2026-07-20"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "Bope 2.0 / efetivo",
+      "resumo": "Propõe criar o 'Bope 2.0' retreinando cerca de 3.200 policiais hoje em UPPs e convocando todos os concursados.",
+      "trecho": "Você tem hoje ainda trabalhando em UPP, que não tem nenhuma utilidade, 3.200 homens. Esses homens vão ser retreinados e chamados para iniciar o Bope 2.0. Vamos chamar todos os concursados",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "3.200 policiais de UPP"
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "Bope 2.0 / modelo de ocupação",
+      "resumo": "Descreve a ocupação de comunidades com cerco por forças federais, ocupação pelo Bope 2.0, investigação da Polícia Civil e uma 'tropa social' de programas do estado.",
+      "trecho": "Um grupo faz o cerco, o Bope ocupa, a Polícia Civil investiga e prende e a tropa social dialoga com a comunidade.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "Bope 2.0 / tamanho da força",
+      "resumo": "Em sabatina, disse que o Bope 2.0 teria 5 mil homens, com 600 a 700 por ocupação, apoio da inteligência da Polícia Civil, programas sociais e cerco por forças federais.",
+      "trecho": "Esse BOPE vai ter 5 mil homens no geral, mas para fazer esse tipo de ocupação, dependendo do tamanho, nós vamos precisar de 600 a 700 homens dessa força especial. Junto dela entra a polícia civil, com o setor de inteligência.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": "5 mil homens; 600 a 700 por ocupação"
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios / 20 comunidades",
+      "resumo": "Propõe concentrar a retomada em 20 comunidades que, segundo ele, abrigam as 'casas de diretoria' do Comando Vermelho.",
+      "trecho": "Se você desarticula essas 20 comunidades, você tem impacto em 80% do restante, porque ali estão os comandos",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": "20 comunidades"
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "efetivo / concursados",
+      "resumo": "Promete convocar os concursados da PM, Polícia Civil, Degase e Polícia Penal, pagos com recursos hoje destinados a incentivos fiscais.",
+      "trecho": "Vamos chamar todos os concursados da Polícia Militar, Civil, Degase [Departamento Geral de Ações Socioeducativas] e Polícia Penal com o dinheiro que é dado hoje para empresas em incentivo fiscal",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "efetivo / excedentes e novos concursos",
+      "resumo": "Diz que primeiro chamará os excedentes de concursos das polícias, Degase e Bombeiros e só depois fará novos concursos, se necessário.",
+      "trecho": "Vamos chamar os concursados excedentes da Polícia Civil, Militar, do Degase e do Corpo de Bombeiros. Depois, se for necessário, faremos concurso.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "ocupação permanente",
+      "resumo": "Defende que as forças entrem nas comunidades para permanecer, em vez de operações de entrar e sair.",
+      "trecho": "Ao invés de entrar e sair, entra e fica",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "saude",
+      "subtema": "Organizações Sociais",
+      "resumo": "Defende encerrar a gestão de unidades de saúde por Organizações Sociais; segundo o SBT, os funcionários seriam reaproveitados na Fundação Saúde.",
+      "trecho": "Negócio de OS é a maior roubalheira que existe",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "economia",
+      "subtema": "incentivos fiscais",
+      "resumo": "Promete cortar R$ 12 bilhões dos R$ 24 bilhões que, segundo ele, o estado concede em incentivos fiscais.",
+      "trecho": "O estado dá R$ 24 bilhões de incentivo fiscal para empresa que não precisa. Eu vou cortar R$ 12 bilhões",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Corte de R$ 12 bilhões (de R$ 24 bilhões, número dele)"
+    },
+    {
+      "id": "p10",
+      "tema": "transporte",
+      "subtema": "tarifas",
+      "resumo": "Promete reduzir tarifas de transporte; segundo levantamento da campanha citado por ele, estariam ao menos 12% acima do devido.",
+      "trecho": "Você lembra que eu baixei as tarifas da outra vez. Baixei 15% e, se precisar baixar, vou baixar de novo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Levantamento da campanha: tarifas ≥12% acima do devido (paráfrase do g1)"
+    },
+    {
+      "id": "p11",
+      "tema": "transporte",
+      "subtema": "cálculo tarifário / agência reguladora",
+      "resumo": "Defende rever o cálculo das tarifas pelo índice de passageiros por quilômetro (IPK) e critica a agência reguladora de transportes.",
+      "trecho": "Sabe o que é IPK? Índice de passageiros por quilômetro. É só fazer certo. Hoje quem controla a agência de transportes são os empresários",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "transporte",
+      "subtema": "Linha 3 / barcas",
+      "resumo": "Propõe substituir o túnel da Linha 3 do metrô sob a Baía por 70 linhas de 'superbarcas', que diz custarem dez vezes menos.",
+      "trecho": "Em vez de fazer por baixo (da Baía de Guanabara), vamos fazer 70 linhas com super barcas velozes. Vamos integrar toda a região metropolitana, inclusive a Barra da Tijuca. Custará dez vezes menos do que se fizesse escavação. A Linha 3 será um metro de superfície feito por barcas",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": "70 linhas; custo '10 vezes menor' (estimativa dele)"
+    },
+    {
+      "id": "p13",
+      "tema": "transporte",
+      "subtema": "barcas / Aqua Mobile",
+      "resumo": "Em campanha, falou em 72 linhas de barcas no sistema 'Aqua Mobile', atendendo Niterói, São Gonçalo, Magé, aeroporto e Barra da Tijuca.",
+      "trecho": "Atenderão Niterói, São Gonçalo, Magé e todo o Rio de Janeiro. Aeroporto, Barra da Tijuca, todos os pontos da cidade serão atendidos no sistema de Aqua mobile, que é um sistema que funciona muito bem",
+      "fonte_id": "f10",
+      "compromisso_concreto": true,
+      "numeros": "72 linhas (número do g1; em 10/09 ele falou em 70)"
+    },
+    {
+      "id": "p14",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae / concessão do saneamento",
+      "resumo": "No RJ1, disse que a tarifa de água ficou alta após a privatização e que avaliará romper o contrato de venda da Cedae, alegando fraude.",
+      "trecho": "A tarifa de água no Rio depois da privatização, um absurdo. Olha, tem fraude escancarada. Eu devo inclusive avaliar o rompimento do contrato da venda da Cedae.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae / anulação da venda",
+      "resumo": "No SBT, afirmou que anulará a venda da Cedae.",
+      "trecho": "Vou anular a venda da Cedae",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "saude",
+      "subtema": "fila do Sisreg",
+      "resumo": "Promete zerar a fila do Sisreg por convênios com hospitais, começando por catarata, hérnia e coluna.",
+      "trecho": "Vamos zerar [a fila do Sisreg]. Depende do convênio. Vou impor um convênio no hospital? Vamos pegar pelas áreas. Quais são as cirurgias eletivas que estão mais atrasadas? Catarata, hérnia e, se eu não me engano, coluna. Vamos começar por essas",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p17",
+      "tema": "saude",
+      "subtema": "tabela complementar ao SUS",
+      "resumo": "Propõe uma 'tabela Fluminense' complementar à do SUS para atrair hospitais privados, nos moldes da tabela paulista.",
+      "trecho": "Tem que fazer no Rio o que o governador de São Paulo fez, complementar a tabela com a tabela Paulista, que no caso vai ser a tabela Fluminense, para pagar melhor",
+      "fonte_id": "f9",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "saude",
+      "subtema": "cirurgias à noite / rede privada",
+      "resumo": "Propõe pagar a diferença da tabela SUS a hospitais conveniados e privados e usar centros cirúrgicos também à noite.",
+      "trecho": "Vamos chamar os hospitais conveniados e privados, pagar a diferença do valor do SUS com a complementação e acabar com fila. E aí o hospital vai trabalhar de manhã e de dia. À noite, os centros cirúrgicos ficam vazios, quanta gente trabalha durante o dia e podia ser operada à noite?",
+      "fonte_id": "f9",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "educacao",
+      "subtema": "tecnologia nas escolas / tempo integral",
+      "resumo": "Propõe escolas com mais tecnologia, com disciplinas tradicionais num turno e atividades de tecnologia no outro.",
+      "trecho": "Nós precisamos acabar com essa história de quadro negro e giz. Escola moderna é mouse e uma tela para que os alunos possam aprender tecnologia",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "educacao",
+      "subtema": "piso do magistério / formação",
+      "resumo": "Promete pagar o piso nacional dos professores sem complementação por gratificação e custear capacitação com bolsas da Faperj.",
+      "trecho": "Para capacitar os professores, eu vou pagar pela bolsa da Faperj. Eu vou pagar o piso nacional dos professores a partir do piso. E não com gratificação, como eles estão fazendo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "direitos",
+      "subtema": "programas sociais (geral)",
+      "resumo": "Na pré-candidatura, prometeu criar programas sociais para juventude, idosos e crianças com deficiência.",
+      "trecho": "Eu vou ser o Garotinho do social, eu vou ser o Garotinho que vai criar programas para a juventude, para os idosos, para as crianças especiais, mas vou ser um governador duro.",
+      "fonte_id": "f11",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "gestao",
+      "subtema": "servidores / data-base",
+      "resumo": "Promete data-base dos servidores em 1º de maio e revisão parcelada das perdas salariais anteriores.",
+      "trecho": "Vamos ter data-base em 1º de maio. Vamos rever as perdas anteriores, parcelando.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": "Data-base em 1º de maio"
+    },
+    {
+      "id": "p23",
+      "tema": "gestao",
+      "subtema": "servidores / cashback",
+      "resumo": "Propõe 'cashback do servidor': devolução de 70% do imposto sobre alimentos, remédios e produtos de higiene comprados pelo servidor.",
+      "trecho": "Vamos criar o cashback do servidor, que vai receber 70% do imposto dos produtos que comprar em gêneros alimentícios, remédios e de higiene.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": "70% do imposto"
+    },
+    {
+      "id": "p24",
+      "tema": "gestao",
+      "subtema": "servidores / dívidas e Rioprevidência",
+      "resumo": "Propõe o programa 'Servidor Ficha Limpa', no qual o Rioprevidência compraria e refinanciaria dívidas de servidores.",
+      "trecho": "Teremos o programa Servidor Ficha Limpa, em que o Rioprevidência comprará a dívida do servidor e refinanciará.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p25",
+      "tema": "gestao",
+      "subtema": "servidores militares da reserva",
+      "resumo": "Promete estender a Gratificação de Risco de Atividade Militar (Gram) aos militares da reserva.",
+      "trecho": "Aos militares da reserva, vamos estender a Gram (Gratificação de Risco de Atividade Militar).",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "gestao",
+      "subtema": "corrupção / primeira medida",
+      "resumo": "Diz que sua primeira medida seria nomear o procurador-geral do Estado e oficiar órgãos federais e o STF pedindo a prisão de 32 autoridades que diz ter identificado. Não apresentou nomes nem provas.",
+      "trecho": "Minha primeira medida como governador: vou nomear o procurador-geral do Estado e vou oficiar ao Ministério Público Federal, a Polícia Federal, ao Supremo Tribunal Federal e aos órgãos responsáveis para prender 32 pessoas. Autoridades: juiz, promotor, deputados. Tenho lista e tenho provas",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": "32 pessoas (lista não divulgada)"
+    }
+  ],
+  "lacunas": [
+    "fonte descartada: a matéria do O Dia sobre a sabatina O Dia/Fecomércio (10/09/2026) traz um parágrafo que parece instrução de edição/IA ('Essa versão fica mais forte para publicação...'); por dúvida sobre a fidelidade das aspas, não foi usada. Temas que só apareciam nela: ocupação de 3 a 4 meses, corrupção dentro da polícia, redução da dependência do petróleo, preparo para IA e 'cortar na carne' contra a corrupção",
+    "seguranca: corregedoria externa para as polícias e afastamento de agentes ligados ao crime — só em paráfrase (g1 19/08/2026)",
+    "plano de governo: o texto do plano (386 p.) não foi obtido; nenhuma proposta abaixo vem dele",
+    "plano (via imprensa, sem trecho literal): retomada do Cheque Cidadão/Cartão Cidadão, restaurantes populares, Café do Trabalhador, Sopa da Cidadania, Jovens pela Paz e Reservistas da Paz (Tempo Real RJ 23/08; g1 26/08 só em paráfrase)",
+    "plano (via imprensa, sem trecho literal): segurança — Corregedoria-Geral Unificada, Programa Rastreia Fuzil, presídios de segurança máxima com trabalho obrigatório inspirados em El Salvador, auditoria da segurança em 100 dias, Cidade da PM em Sulacap (CBN 19/08; Tempo Real RJ 23/08)",
+    "plano (via imprensa, sem trecho literal): economia — Regra de Responsabilidade de Investimento, pente-fino em incentivos com metas de emprego, incentivos regionalizados (Baixada, Norte e Noroeste), compras públicas de fornecedores fluminenses, microcrédito BD Rio/AgeRio, royalties prioritariamente para investimento, PPPs e concessões (g1 30/08)",
+    "plano (via imprensa, sem trecho literal): transporte — 11 'viadutos inteligentes' na Avenida Brasil em até 7 anos; rede lagunar na Barra e em Jacarepaguá (Tempo Real RJ 23/08)",
+    "plano (via imprensa, sem trecho literal): saúde — auditoria geral em 100 dias, Rede Fluminense de Cuidado, revisão de contratos com OSs, Rede Estadual de Atenção ao Autismo e 'Carteira de Vida do Autista' (CBN 20/08)",
+    "plano (via imprensa, sem trecho literal): educação — Programa Geração Fluminense, Bolsa-Tech, meta de Ideb do ensino médio de 5,2 até o 4º ano (Tempo Real RJ 23/08); a CBN (20/08) relatou um comando de IA ('prompt') esquecido no trecho sobre educação inclusiva",
+    "economia: ICMS social (zerar ICMS da conta de luz e telefone de famílias do CadÚnico) — só em paráfrase (g1 21/09/2026); não registrado",
+    "economia: Propag / dívida com a União — sem posição literal encontrada",
+    "seguranca: letalidade policial, ADPF 635 e câmeras corporais — sem posição encontrada",
+    "transporte: número de linhas de barcas varia entre falas (70 na sabatina de 10/09; 72 no g1 de 21/09); na BandNews TV (02/07) disse que o sistema custaria 'um terço' do valor da Linha 3; em 10/09 falou em 'dez vezes menos'",
+    "moradia: nenhuma proposta literal encontrada (habitação, favelas, regularização fundiária)",
+    "direitos: população LGBT+, igualdade racial e cotas — sem posição encontrada; violência contra a mulher (Delegacias da Mulher e Patrulha Maria da Penha) só em resumo do plano pela CBN (19/08)",
+    "gestao: empréstimo do Rioprevidência a servidores com metade dos juros dos bancos — relatado pelo Blog do Ralfe Reis (28/08) com fala parcial; registrado só o 'Servidor Ficha Limpa' (Extra 13/09)"
+  ]
+}

@@ -1,0 +1,1036 @@
+{
+  "versao": "3.4.0",
+  "titulo": "Qual proposta combina com o seu dia a dia?",
+  "eleicao": "Governador do Rio de Janeiro 2026",
+  "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
+  "temas": [
+    {
+      "id": "seguranca",
+      "nome": "Segurança"
+    },
+    {
+      "id": "transporte",
+      "nome": "Transporte"
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde"
+    },
+    {
+      "id": "educacao",
+      "nome": "Escola"
+    },
+    {
+      "id": "trabalho",
+      "nome": "Trabalho"
+    },
+    {
+      "id": "agua-chuva",
+      "nome": "Água e chuva"
+    },
+    {
+      "id": "mulheres",
+      "nome": "Mulheres"
+    },
+    {
+      "id": "contas",
+      "nome": "Dinheiro público"
+    }
+  ],
+  "perguntas": [
+    {
+      "id": "trem-parado",
+      "grupo": "trem-parado",
+      "tema": "transporte",
+      "cena": "Segunda, 6h. O ramal de Japeri parou de novo e o trem não fecha a porta de tanta gente.",
+      "pergunta": "O que o governo devia fazer com a empresa do trem?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Romper o contrato se a empresa não cumprir as metas.",
+          "preferencia": "Rescindir contratos de concessão de transporte quando a concessionária descumpre metas."
+        },
+        {
+          "id": "b",
+          "texto": "Manter a empresa, mas conferir o contrato e cobrar o combinado.",
+          "preferencia": "Auditar contratos de concessão e cobrar obrigações, sem ameaçar romper os contratos."
+        },
+        {
+          "id": "c",
+          "texto": "Trem novo, no horário e com segurança própria a bordo.",
+          "preferencia": "Modernizar o sistema de trens em padrão BRT e criar programa de segurança específico nos trens."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar o trem da empresa privada e passar pra uma empresa pública.",
+          "preferencia": "Reestatizar o sistema ferroviário metropolitano, com operação por empresa pública."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2026, uma viagem de Japeri à Central levou 97 minutos, 22 a mais que em 1998.",
+        "fonte": "O Globo, 29/05/2026",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/05/29/apos-27-anos-ultima-viagem-dos-trens-do-rio-operados-pela-supervia-acontece-nesta-sexta-feira.ghtml"
+      }
+    },
+    {
+      "id": "estrada-interior",
+      "tema": "transporte",
+      "grupo": "trem-parado",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "Pra ir à cidade vizinha, você pega estrada estadual com buraco e sem acostamento. O ônibus passa de hora em hora.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Refazer o asfalto e vigiar as estradas com dinheiro do estado.",
+          "preferencia": "Recuperar as rodovias estaduais do interior com recapeamento e vigilância, com recursos do estado."
+        },
+        {
+          "id": "b",
+          "texto": "Passar as estradas pra empresas privadas cuidarem, sem pedágio novo.",
+          "preferencia": "Conceder rodovias estaduais à iniciativa privada em lotes, sem criar novos pedágios."
+        },
+        {
+          "id": "c",
+          "texto": "Voltar a ter trem de passageiros entre as cidades.",
+          "preferencia": "Priorizar o transporte ferroviário de passageiros sobre o rodoviário."
+        },
+        {
+          "id": "d",
+          "texto": "Passagem de ônibus entre cidades mais barata, com dinheiro do estado.",
+          "preferencia": "Subsídio estadual ao ônibus intermunicipal para reduzir as passagens."
+        }
+      ],
+      "fato": {
+        "texto": "Na pesquisa CNT de 2024, 19,1% das rodovias avaliadas no estado do Rio estavam ruins ou péssimas, e as cinco piores eram geridas pelo poder público.",
+        "fonte": "Gazeta do Povo, com dados da CNT (03/01/2025)",
+        "url": "https://www.gazetadopovo.com.br/brasil/melhores-e-piores-rodovias-rio-de-janeiro/"
+      }
+    },
+    {
+      "id": "barca-leste",
+      "tema": "transporte",
+      "grupo": "trem-parado",
+      "publico": {
+        "regiao": [
+          "leste"
+        ]
+      },
+      "cena": "7h em Niterói. A barca atrasou de novo, a fila dobra a estação e a Ponte está parada.",
+      "pergunta": "O que tirava você desse aperto?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Metrô chegando a Niterói e São Gonçalo, com a Linha 3.",
+          "preferencia": "Construir a Linha 3 do metrô ligando Rio, Niterói e São Gonçalo."
+        },
+        {
+          "id": "b",
+          "texto": "Mais linhas de barca, com terminal em São Gonçalo.",
+          "preferencia": "Criar novas linhas e terminais de barcas e catamarãs na Baía de Guanabara, incluindo São Gonçalo."
+        },
+        {
+          "id": "c",
+          "texto": "Cobrar e multar a empresa da barca por atraso e cancelamento.",
+          "preferencia": "Cobrar da concessionária das barcas pontualidade, regularidade e menos cancelamentos, com fiscalização e sanção."
+        },
+        {
+          "id": "d",
+          "texto": "O Estado assume a barca e baixa a passagem.",
+          "preferencia": "Estatizar o transporte aquaviário, com tarifa social ou tarifa zero."
+        }
+      ],
+      "fato": {
+        "texto": "Um ano depois da troca de gestão das barcas, passageiros relatam atrasos, superlotação e falta de ar-condicionado; a passagem Praça XV–Arariboia caiu de R$ 7,70 para R$ 4,70.",
+        "fonte": "O Globo, 15/03/2026",
+        "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/03/15/atrasos-calor-e-ma-estrutura-nova-gestao-das-barcas-faz-um-ano-sob-reclamacoes-de-passageiros.ghtml"
+      }
+    },
+    {
+      "id": "transito-carro",
+      "grupo": "trem-parado",
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
+      },
+      "tema": "transporte",
+      "cena": "Fim de tarde, Linha Vermelha parada. Dez quilômetros levam quase meia hora, e amanhã tem de novo.",
+      "pergunta": "O que tiraria mais carro da rua?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Metrô novo: Linha 3 até São Gonçalo e metrô na Baixada.",
+          "preferencia": "Expandir a rede de metrô (Linha 3 para Niterói e São Gonçalo e extensões na Baixada)."
+        },
+        {
+          "id": "b",
+          "texto": "Mais BRT, ônibus com pista própria, ligando a Baixada ao Rio.",
+          "preferencia": "Expandir corredores de BRT na Baixada Fluminense integrados à rede da capital."
+        },
+        {
+          "id": "c",
+          "texto": "Novas pistas ligando as vias expressas, como Linha Vermelha e Avenida Brasil.",
+          "preferencia": "Construir novas conexões viárias rodoviárias entre as vias expressas metropolitanas."
+        },
+        {
+          "id": "d",
+          "texto": "Baixar a passagem aos poucos, até ficar de graça.",
+          "preferencia": "Reduzir progressivamente as tarifas do transporte público até a tarifa zero."
+        }
+      ],
+      "fato": {
+        "texto": "No pico da tarde de 2025, rodar 10 km no Rio levava em média 25 minutos e 58 segundos.",
+        "fonte": "TomTom Traffic Index",
+        "url": "https://www.tomtom.com/traffic-index/city/rio-de-janeiro/"
+      }
+    },
+    {
+      "id": "passagem-cara",
+      "grupo": "passagem-cara",
+      "tema": "transporte",
+      "cena": "De Nova Iguaçu pro Centro do Rio, o ônibus chega a R$ 14,25. Ida e volta, todo dia.",
+      "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "O Bilhete Único Intermunicipal subiu para R$ 9,40 em dezembro de 2025, e os ônibus intermunicipais tiveram reajuste de até 12,61% em fevereiro de 2026.",
+        "fonte": "g1 e Detro",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/11/21/tarifa-do-bilhete-unico-intermunicipal-tem-reajuste.ghtml"
+      }
+    },
+    {
+      "id": "vale-transporte",
+      "grupo": "passagem-cara",
+      "tema": "transporte",
+      "cena": "Quem trabalha com você, ou na sua casa, vem de Nova Iguaçu. São R$ 14,25 por trecho, e o vale-transporte pesa pra todo mundo.",
+      "pergunta": "Pra passagem pesar menos, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "O Bilhete Único Intermunicipal subiu para R$ 9,40 em dezembro de 2025, e os ônibus intermunicipais tiveram reajuste de até 12,61% em fevereiro de 2026.",
+        "fonte": "g1 e Detro",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/11/21/tarifa-do-bilhete-unico-intermunicipal-tem-reajuste.ghtml"
+      },
+      "publico": {
+        "deslocamento": [
+          "carro"
+        ]
+      }
+    },
+    {
+      "id": "fila-especialista",
+      "grupo": "fila-especialista",
+      "tema": "saude",
+      "cena": "Sua mãe tá há mais de 5 meses na fila pra consultar com especialista.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga hospital particular pra atender quem tá na fila.",
+          "preferencia": "Comprar serviços da rede privada para reduzir filas de consultas e cirurgias."
+        },
+        {
+          "id": "b",
+          "texto": "Centro público de médico especialista em cada região do estado.",
+          "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+          "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
+        },
+        {
+          "id": "d",
+          "texto": "Contratar mais médico e especialista pro estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+        }
+      ],
+      "fato": {
+        "texto": "Na capital, a espera por consulta com cirurgião de hérnia foi de 78 dias em 2024 para cerca de 164 dias em 2026.",
+        "fonte": "g1, 28/07/2026",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+      }
+    },
+    {
+      "id": "saude-interior",
+      "tema": "saude",
+      "grupo": "fila-especialista",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "Pra fazer quimioterapia, sua tia pega a van pro Rio às 4h da manhã. Só volta depois das 20h.",
+      "pergunta": "O que resolvia pra ela?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Hospital público regional no interior, pra ninguém precisar ir ao Rio.",
+          "preferencia": "Construir hospitais regionais públicos no interior e acabar com o deslocamento de pacientes à capital."
+        },
+        {
+          "id": "b",
+          "texto": "Centro de câncer e de exames complexos em cada região.",
+          "preferencia": "Criar polos regionais de oncologia e de diagnóstico de alta complexidade no interior."
+        },
+        {
+          "id": "c",
+          "texto": "Mais dinheiro pros hospitais do interior que já existem, cobrando metas.",
+          "preferencia": "Custeio estadual a hospitais do interior condicionado a metas de desempenho."
+        },
+        {
+          "id": "d",
+          "texto": "Contratar mais médico e especialista pra rede do estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+        }
+      ],
+      "fato": {
+        "texto": "Nova Friburgo ampliou de 12 para 15 as vans que levam pacientes do SUS para tratamento em outras cidades, como quimioterapia e radioterapia.",
+        "fonte": "A Voz da Serra, 31/08/2026",
+        "url": "https://avozdaserra.com.br/noticias/nova-frota-de-vans-para-o-transporte-de-pacientes-do-sus"
+      }
+    },
+    {
+      "id": "plano-voltou-sus",
+      "grupo": "fila-especialista",
+      "tema": "saude",
+      "cena": "O plano de saúde da sua mãe ficou caro demais depois dos 60, e ela voltou pro SUS. Já são 5 meses esperando consulta com especialista.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga hospital particular pra atender quem tá na fila.",
+          "preferencia": "Comprar serviços da rede privada para reduzir filas de consultas e cirurgias."
+        },
+        {
+          "id": "b",
+          "texto": "Centro público de médico especialista em cada região do estado.",
+          "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+          "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
+        },
+        {
+          "id": "d",
+          "texto": "Contratar mais médico e especialista pro estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+        }
+      ],
+      "fato": {
+        "texto": "Na capital, a espera por consulta com cirurgião de hérnia foi de 78 dias em 2024 para cerca de 164 dias em 2026.",
+        "fonte": "g1, 28/07/2026",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+      },
+      "publico": {
+        "saude": [
+          "plano_empresa",
+          "plano_proprio"
+        ]
+      }
+    },
+    {
+      "id": "escola-bagunca",
+      "grupo": "escola-bagunca",
+      "tema": "educacao",
+      "cena": "Na escola estadual do seu sobrinho tem briga toda semana, e faltou professor de matemática o semestre inteiro.",
+      "pergunta": "O que mudaria a escola dele?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Escola cívico-militar, com militar aposentado cuidando da disciplina.",
+          "preferencia": "Implantar o modelo de escola cívico-militar, com militar da reserva responsável pela disciplina."
+        },
+        {
+          "id": "b",
+          "texto": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
+          "preferencia": "Ampliar o ensino médio em tempo integral com foco em ciência, tecnologia e matemática."
+        },
+        {
+          "id": "c",
+          "texto": "Aula de reforço em português e matemática, no outro turno.",
+          "preferencia": "Diagnóstico de aprendizagem e reforço de português e matemática no contraturno."
+        },
+        {
+          "id": "d",
+          "texto": "Curso técnico já no ensino médio.",
+          "preferencia": "Levar ensino técnico e profissionalizante para o ensino médio estadual."
+        }
+      ],
+      "fato": {
+        "texto": "No estado do Rio, só 13,9% dos alunos do ensino médio estudam em tempo integral; no Brasil, são 22,8%.",
+        "fonte": "Anuário da Educação Básica 2026, Todos Pela Educação (Censo Escolar)",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/estados-rj.html"
+      }
+    },
+    {
+      "id": "falta-tecnico",
+      "grupo": "escola-bagunca",
+      "publico": {
+        "escola": [
+          "particular",
+          "nenhuma"
+        ],
+        "trabalho": [
+          "carteira",
+          "empresario"
+        ]
+      },
+      "tema": "educacao",
+      "cena": "Na empresa onde você trabalha, a vaga de técnico fica meses aberta porque não aparece gente formada.",
+      "pergunta": "O que a escola estadual devia fazer primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Curso técnico dentro da escola desde o 1º ano do ensino médio.",
+          "preferencia": "Levar o ensino técnico para dentro das escolas estaduais desde o início do ensino médio."
+        },
+        {
+          "id": "b",
+          "texto": "Cursos técnicos do estado voltados às empresas de cada região.",
+          "preferencia": "Alinhar os cursos técnicos estaduais às vocações econômicas de cada região."
+        },
+        {
+          "id": "c",
+          "texto": "Programa de primeiro emprego com incentivo pra contratar jovem.",
+          "preferencia": "Programa estadual de primeiro emprego com aprendizagem e incentivo à contratação."
+        },
+        {
+          "id": "d",
+          "texto": "Escola o dia inteiro, com foco em ciência, tecnologia e matemática.",
+          "preferencia": "Ampliar o ensino médio em tempo integral com foco em ciência, tecnologia e matemática."
+        }
+      ],
+      "fato": {
+        "texto": "No estado do Rio, só 16,4% dos alunos do ensino médio estão no ensino profissional e tecnológico.",
+        "fonte": "Anuário da Educação Básica 2026, Todos Pela Educação",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/estados-rj.html"
+      }
+    },
+    {
+      "id": "operacao-policial",
+      "grupo": "operacao-policial",
+      "tema": "seguranca",
+      "cena": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair.",
+      "pergunta": "Pra você, uma operação policial deu certo quando…",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "A polícia retomou a área e o crime não manda mais ali.",
+          "preferencia": "Retomada de território como principal critério de sucesso das operações e da avaliação das polícias."
+        },
+        {
+          "id": "b",
+          "texto": "Prendeu quem manda, com investigação e sem guerra na rua.",
+          "preferencia": "Operações orientadas por inteligência com o objetivo de prender, e não de neutralizar."
+        },
+        {
+          "id": "c",
+          "texto": "A polícia ficou, e o governo chegou com serviço público depois.",
+          "preferencia": "Presença permanente do Estado, com polícia e serviços públicos, após as operações."
+        },
+        {
+          "id": "d",
+          "texto": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
+          "preferencia": "Redução da letalidade das operações, contando todas as mortes decorrentes de intervenção policial como indicador a reduzir."
+        }
+      ],
+      "fato": {
+        "texto": "No 1º semestre de 2026, ações policiais estavam presentes em 47% dos tiroteios no Grande Rio, o maior patamar desde 2017.",
+        "fonte": "Fogo Cruzado, via Folha",
+        "url": "https://www1.folha.uol.com.br/cotidiano/2026/07/policia-se-envolve-em-4-a-cada-10-tiroteios-no-primeiro-semestre-em-salvador-belem-recife-e-rio.shtml"
+      }
+    },
+    {
+      "id": "via-expressa-fechada",
+      "grupo": "operacao-policial",
+      "publico": {
+        "deslocamento": [
+          "carro",
+          "app"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Você pegou a Avenida Brasil cedo e a pista foi fechada por tiroteio. Ficou parado sem saber se voltava ou esperava.",
+      "pergunta": "Pra você, uma operação policial deu certo quando…",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "A polícia retomou a área e o crime não manda mais ali.",
+          "preferencia": "Retomada de território como principal critério de sucesso das operações e da avaliação das polícias."
+        },
+        {
+          "id": "b",
+          "texto": "Prendeu quem manda, com investigação e sem guerra na rua.",
+          "preferencia": "Operações orientadas por inteligência com o objetivo de prender, e não de neutralizar."
+        },
+        {
+          "id": "c",
+          "texto": "A polícia ficou, e o governo chegou com serviço público depois.",
+          "preferencia": "Presença permanente do Estado, com polícia e serviços públicos, após as operações."
+        },
+        {
+          "id": "d",
+          "texto": "Morreu menos gente na ação da polícia, e toda morte foi contada.",
+          "preferencia": "Redução da letalidade das operações, contando todas as mortes decorrentes de intervenção policial como indicador a reduzir."
+        }
+      ],
+      "fato": {
+        "texto": "Só no primeiro semestre de 2025, a Avenida Brasil foi interditada 11 vezes por violência armada.",
+        "fonte": "Folha, 10/06/2025, com dados do COR-Rio",
+        "url": "https://www1.folha.uol.com.br/cotidiano/2025/06/violencia-no-rio-ja-fechou-avenida-brasil-uma-das-principais-da-cidade-11-vezes-neste-ano.shtml"
+      }
+    },
+    {
+      "id": "celular-roubado",
+      "grupo": "celular-roubado",
+      "tema": "seguranca",
+      "cena": "Levaram seu celular no ponto de ônibus. É a terceira vez que acontece com alguém da família este ano.",
+      "pergunta": "O que você queria ver na sua rua?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Guarda municipal armada fazendo ronda junto com a PM.",
+          "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo contra roubos e furtos."
+        },
+        {
+          "id": "b",
+          "texto": "Mais PM na rua, chamando quem passou no concurso.",
+          "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
+        },
+        {
+          "id": "c",
+          "texto": "Ir atrás de quem compra celular roubado.",
+          "preferencia": "Investigação permanente para desarticular a receptação de celulares roubados."
+        },
+        {
+          "id": "d",
+          "texto": "Câmera inteligente nas ruas, ligada direto à polícia.",
+          "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+        }
+      ],
+      "fato": {
+        "texto": "Entre eleitores com ensino fundamental, combater o roubo de rua é a prioridade nº 1 na segurança (23%), à frente da retomada de territórios.",
+        "fonte": "Quaest, agosto de 2026",
+        "url": "https://agendadopoder.com.br/seguranca-no-rj-eleitor-cobra-retomada-de-territorios-e-combate-a-roubos-diz-quaest/"
+      }
+    },
+    {
+      "id": "roubo-carro",
+      "grupo": "celular-roubado",
+      "publico": {
+        "deslocamento": [
+          "carro"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Você chega em casa e fica olhando o retrovisor antes de abrir o portão da garagem.",
+      "pergunta": "O que te daria mais tranquilidade?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Guarda municipal armada fazendo ronda junto com a PM.",
+          "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo contra roubos e furtos."
+        },
+        {
+          "id": "b",
+          "texto": "Mais PM na rua, chamando quem passou no concurso.",
+          "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
+        },
+        {
+          "id": "c",
+          "texto": "Ir atrás de desmanche e de quem compra peça roubada.",
+          "preferencia": "Investigação permanente contra quadrilhas de receptação de bens roubados."
+        },
+        {
+          "id": "d",
+          "texto": "Câmera que lê placa nas ruas, ligada direto à polícia.",
+          "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+        }
+      ],
+      "fato": {
+        "texto": "De janeiro a agosto de 2026, o estado teve 16.310 roubos de veículo, alta de 6,3% sobre 2025.",
+        "fonte": "O Globo, 17/09/2026, com dados corrigidos do ISP",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/09/17/homicidios-roubos-de-celular-e-de-veiculo-caem-em-agosto-mas-tem-alta-expressiva-no-acumulado-do-ano-segundo-dados-do-isp.ghtml"
+      }
+    },
+    {
+      "id": "medida-protetiva",
+      "grupo": "medida-protetiva",
+      "tema": "mulheres",
+      "consenso": true,
+      "cena": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+      "pergunta": "O que protegeria ela de verdade?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Tornozeleira no agressor, com alarme se ele chegar perto.",
+          "preferencia": "Monitoramento de agressores por tornozeleira eletrônica com alerta à vítima e à polícia."
+        },
+        {
+          "id": "b",
+          "texto": "Delegacia da mulher aberta 24 horas, perto de casa.",
+          "preferencia": "Delegacias da mulher com funcionamento 24 horas e presença em todas as regiões."
+        },
+        {
+          "id": "c",
+          "texto": "Abrigo pra ela, com advogado, psicólogo e ajuda em dinheiro.",
+          "preferencia": "Casas de acolhimento e abrigos com apoio jurídico, psicológico e financeiro para mulheres ameaçadas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais Patrulha Maria da Penha, visitando e acompanhando ela de perto.",
+          "preferencia": "Ampliar a Patrulha/Ronda Maria da Penha para acompanhar mulheres com medida protetiva."
+        }
+      ],
+      "fato": {
+        "texto": "Em 2025, o estado registrou 159.041 mulheres vítimas de violência: uma a cada 3 minutos.",
+        "fonte": "ISP, Dossiê Mulher 2026",
+        "url": "https://sbtnews.sbt.com.br/noticia/brasil/uma-mulher-e-vitima-de-violencia-a-cada-3-minutos-no-rj"
+      }
+    },
+    {
+      "id": "rua-alagada",
+      "grupo": "rua-alagada",
+      "tema": "agua-chuva",
+      "cena": "Choveu forte e a rua encheu de novo. Na última vez, você perdeu a geladeira.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
+          "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+        },
+        {
+          "id": "b",
+          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+        },
+        {
+          "id": "c",
+          "texto": "Alerta no celular e sirene antes da chuva chegar.",
+          "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+        }
+      ],
+      "fato": {
+        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
+        "fonte": "g1 / Jornal Nacional",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
+      }
+    },
+    {
+      "id": "encosta-serra",
+      "grupo": "rua-alagada",
+      "tema": "agua-chuva",
+      "cena": "Choveu três dias seguidos na serra, e apareceu uma rachadura na encosta atrás da sua rua.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
+          "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+        },
+        {
+          "id": "b",
+          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+        },
+        {
+          "id": "c",
+          "texto": "Alerta no celular e sirene antes da chuva chegar.",
+          "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+        }
+      ],
+      "fato": {
+        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
+        "fonte": "g1 / Jornal Nacional",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
+      },
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      }
+    },
+    {
+      "id": "garagem-alagada",
+      "grupo": "rua-alagada",
+      "tema": "agua-chuva",
+      "cena": "Choveu forte, a garagem do prédio encheu e a rua virou rio. Você perdeu o dia preso no trânsito, e o carro de um vizinho ficou debaixo d'água.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
+          "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+        },
+        {
+          "id": "b",
+          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+        },
+        {
+          "id": "c",
+          "texto": "Alerta no celular e sirene antes da chuva chegar.",
+          "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+        },
+        {
+          "id": "d",
+          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+        }
+      ],
+      "fato": {
+        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
+        "fonte": "g1 / Jornal Nacional",
+        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
+      },
+      "publico": {
+        "faixa": [
+          "privado"
+        ]
+      }
+    },
+    {
+      "id": "falta-agua",
+      "grupo": "falta-agua",
+      "tema": "agua-chuva",
+      "cena": "Faltou água aqui na rua desde ontem, e a conta desse mês veio mais cara.",
+      "pergunta": "O que fazer com a empresa de água e esgoto?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Rever o aumento da conta, que tá pesando no bolso.",
+          "preferencia": "Revisar os aumentos de tarifa da concessão de água e esgoto."
+        },
+        {
+          "id": "b",
+          "texto": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
+          "preferencia": "Reforçar a fiscalização das metas contratuais de universalização de água e esgoto."
+        },
+        {
+          "id": "c",
+          "texto": "Romper o contrato se a empresa não cumprir o combinado.",
+          "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
+        },
+        {
+          "id": "d",
+          "texto": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
+          "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
+        }
+      ],
+      "fato": {
+        "texto": "Em setembro de 2026, a parada do Sistema Acari afetou a água em seis cidades da Baixada, e a orientação oficial foi usar a água da caixa.",
+        "fonte": "Diário Baixada Fluminense, 15/09/2026",
+        "url": "https://diariobaixadafluminense.com.br/chuvas-afetam-abastecimento-de-agua-em-seis-cidades-da-baixada-fluminense-veja-lista/"
+      }
+    },
+    {
+      "id": "caminhao-pipa",
+      "grupo": "falta-agua",
+      "tema": "agua-chuva",
+      "cena": "Faltou água no prédio por três dias. O condomínio chamou caminhão-pipa, e a cota extra veio no boleto.",
+      "pergunta": "O que fazer com a empresa de água e esgoto?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Rever o aumento da conta, que tá pesando no bolso.",
+          "preferencia": "Revisar os aumentos de tarifa da concessão de água e esgoto."
+        },
+        {
+          "id": "b",
+          "texto": "Fiscalizar de perto a meta de levar água e esgoto a todos.",
+          "preferencia": "Reforçar a fiscalização das metas contratuais de universalização de água e esgoto."
+        },
+        {
+          "id": "c",
+          "texto": "Romper o contrato se a empresa não cumprir o combinado.",
+          "preferencia": "Rescindir contratos de concessão de saneamento em caso de descumprimento."
+        },
+        {
+          "id": "d",
+          "texto": "Devolver a água e o esgoto pra Cedae, a empresa do estado.",
+          "preferencia": "Anular a concessão e reestatizar os serviços de água e esgoto (Cedae)."
+        }
+      ],
+      "fato": {
+        "texto": "Em setembro de 2026, a parada do Sistema Acari afetou a água em seis cidades da Baixada, e a orientação oficial foi usar a água da caixa.",
+        "fonte": "Diário Baixada Fluminense, 15/09/2026",
+        "url": "https://diariobaixadafluminense.com.br/chuvas-afetam-abastecimento-de-agua-em-seis-cidades-da-baixada-fluminense-veja-lista/"
+      },
+      "publico": {
+        "faixa": [
+          "privado"
+        ]
+      }
+    },
+    {
+      "id": "primo-desempregado",
+      "grupo": "primo-desempregado",
+      "tema": "trabalho",
+      "cena": "Seu primo tá há 8 meses sem carteira assinada e vive de bico de entrega.",
+      "pergunta": "O que ajudaria gente como ele?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Programa de primeiro emprego com curso técnico.",
+          "preferencia": "Programa estadual de primeiro emprego com aprendizagem técnica e incentivo à contratação."
+        },
+        {
+          "id": "b",
+          "texto": "Trazer estaleiro e fábrica de volta, com incentivo do estado.",
+          "preferencia": "Atrair indústria naval e outras indústrias com incentivos estaduais."
+        },
+        {
+          "id": "c",
+          "texto": "Deixar o emprego com as empresas; o estado investe em segurança.",
+          "preferencia": "Limitar o papel do Estado na geração de emprego, deixando-a ao setor privado, e concentrar o investimento público em segurança."
+        },
+        {
+          "id": "d",
+          "texto": "Baixar ou zerar o IPVA da moto de quem trabalha com ela.",
+          "preferencia": "Isenção ou redução de IPVA para motos de até 180 cilindradas usadas para trabalho."
+        }
+      ],
+      "fato": {
+        "texto": "O desemprego no estado foi de 7,1% no 2º trimestre de 2026, acima da média nacional de 5,4%.",
+        "fonte": "IBGE, PNAD Contínua",
+        "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+      }
+    },
+    {
+      "id": "servidor-recomposicao",
+      "grupo": "primo-desempregado",
+      "publico": {
+        "trabalho": [
+          "servidor"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "Você é servidor do estado e esperou quatro anos por um reajuste que já estava na lei.",
+      "pergunta": "O que você cobraria do próximo governador?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Salário corrigido pela inflação todo ano, sem atraso.",
+          "preferencia": "Recomposição salarial anual dos servidores estaduais."
+        },
+        {
+          "id": "b",
+          "texto": "Bônus pra quem bate a meta combinada com o governo.",
+          "preferencia": "Acordos de resultado com metas e bonificação para servidores."
+        },
+        {
+          "id": "c",
+          "texto": "Recuperar na Justiça o dinheiro das aposentadorias aplicado no Banco Master.",
+          "preferencia": "Atuação jurídica do estado para recompor os ativos do Rioprevidência aplicados no Banco Master."
+        },
+        {
+          "id": "d",
+          "texto": "Chamar logo os aprovados em concurso que estão esperando.",
+          "preferencia": "Convocação dos excedentes aprovados em concursos públicos."
+        }
+      ],
+      "fato": {
+        "texto": "A lei de 2021 previa recompor 26,11% em três parcelas; só a primeira saiu em 2022, e as outras duas foram pagas apenas em 2026.",
+        "fonte": "Extra, 05/07/2026",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/07/recomposicao-de-562percent-para-servidores-estaduais-entrara-na-folha-deste-mes-veja-tabela.ghtml"
+      }
+    },
+    {
+      "id": "licenca-empresa",
+      "grupo": "primo-desempregado",
+      "publico": {
+        "trabalho": [
+          "empresario"
+        ]
+      },
+      "tema": "trabalho",
+      "cena": "A licença do seu galpão está parada há meses no órgão ambiental do estado. O investimento não sai do papel.",
+      "pergunta": "O que destravaria o seu negócio?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Um só site pra abrir a empresa, tirar licença e pedir incentivo.",
+          "preferencia": "Balcão único digital de investimentos integrando os órgãos estaduais de licença, fazenda e registro."
+        },
+        {
+          "id": "b",
+          "texto": "Licença decidida na sua própria região, sem depender da capital.",
+          "preferencia": "Descentralizar o licenciamento ambiental para balcões regionais com autonomia de decisão."
+        },
+        {
+          "id": "c",
+          "texto": "Regras estáveis e menos burocracia, sem mudar o jogo toda hora.",
+          "preferencia": "Previsibilidade regulatória, regras estáveis e redução de burocracia para investidores."
+        },
+        {
+          "id": "d",
+          "texto": "Desconto de imposto só pra quem cria emprego; se não criar, devolve.",
+          "preferencia": "Incentivos fiscais condicionados a contrapartidas de emprego, com devolução em caso de descumprimento."
+        }
+      ],
+      "fato": {
+        "texto": "Das quase 700 demandas de empresas sobre meio ambiente em cinco anos, mais de um terço era por problema no licenciamento, segundo a Firjan.",
+        "fonte": "Firjan, 16/07/2026",
+        "url": "https://www.firjan.com.br/noticias/parceria-entre-firjan-e-inea-propoe-mais-eficiencia-ao-processo-de-licenciamento-ambiental.htm"
+      }
+    },
+    {
+      "id": "correria-praia",
+      "grupo": "orla",
+      "publico": {
+        "faixa": [
+          "privado",
+          "misto"
+        ]
+      },
+      "tema": "seguranca",
+      "cena": "Fim de tarde na praia, começa uma correria e ninguém sabe se é arrastão.",
+      "pergunta": "O que devia vir primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Mais PM fixo na orla e nas ruas do bairro.",
+          "preferencia": "Ampliar o efetivo e a presença permanente da Polícia Militar."
+        },
+        {
+          "id": "b",
+          "texto": "Guarda municipal armada patrulhando junto com a PM.",
+          "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo."
+        },
+        {
+          "id": "c",
+          "texto": "Retomar da mão das facções as áreas que elas dominam.",
+          "preferencia": "Retomada de territórios dominados por facções como prioridade da segurança."
+        },
+        {
+          "id": "d",
+          "texto": "Câmera inteligente nas ruas, ligada direto à polícia.",
+          "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+        }
+      ],
+      "fato": {
+        "texto": "Em 21/07/2026, a saída das praias de Arpoador, Ipanema e Copacabana teve tumulto e ônibus depredados.",
+        "fonte": "O Globo, 22/07/2026",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/07/22/saida-de-praias-na-zona-sul-do-rio-tem-tumulto-correria-e-onibus-depredados-internautas-citam-arrastao.ghtml"
+      }
+    },
+    {
+      "id": "dinheiro-publico",
+      "grupo": "dinheiro-publico",
+      "tema": "contas",
+      "cena": "O estado diz que falta dinheiro, e no posto falta remédio. No jornal, tem cargo sobrando e imposto perdoado pra empresa.",
+      "pergunta": "O que você cobraria do próximo governador?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Teto: o gasto do governo só cresce se o que entra crescer.",
+          "preferencia": "Teto de gastos estadual vinculando o crescimento da despesa ao da receita."
+        },
+        {
+          "id": "b",
+          "texto": "Conferir todo contrato e criar órgão pra vigiar quem ganha cargo.",
+          "preferencia": "Auditorias em todos os contratos e secretaria de integridade para fiscalizar nomeados."
+        },
+        {
+          "id": "c",
+          "texto": "Cortar cargos e gastos do dia a dia do governo.",
+          "preferencia": "Enxugamento da máquina pública e corte de cargos e despesas de custeio."
+        },
+        {
+          "id": "d",
+          "texto": "Rever e cortar os descontos de imposto dados a empresas.",
+          "preferencia": "Revisar e cortar renúncias e benefícios fiscais concedidos a empresas."
+        }
+      ],
+      "fato": {
+        "texto": "Corrupção aparece entre os 3 maiores problemas do estado para 60,7% dos eleitores.",
+        "fonte": "AtlasIntel/Estadão, agosto de 2026, via Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-rio-de-janeiro-setembro-2026/"
+      }
+    }
+  ],
+  "regioes": {
+    "pergunta": "Onde você mora?",
+    "opcoes": [
+      {
+        "valor": "capital",
+        "rotulo": "Cidade do Rio"
+      },
+      {
+        "valor": "baixada",
+        "rotulo": "Baixada Fluminense"
+      },
+      {
+        "valor": "leste",
+        "rotulo": "Niterói, São Gonçalo, Maricá ou Itaboraí"
+      },
+      {
+        "valor": "interior",
+        "rotulo": "Interior do estado"
+      },
+      {
+        "valor": "fora",
+        "rotulo": "Não moro no estado do Rio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "candidato_id": "cyro-garcia",
+  "nome": "Cyro Garcia",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf",
+    "observacao": "Documento 'Programa de Governo – PSTU. Eleições 2026 – Governo do Estado do Rio de Janeiro' (Cyro Garcia / vice Perciliana Rodrigues). Texto lido via Exa em dois espelhos, com o mesmo conteúdo: Nexo Jornal (URL acima) e ND+ (https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002540198_01.pdf). O nome do arquivo do ND+ segue o padrão do TSE (2026RJ + registro 190002540198 + _01). O acesso direto ao TSE e o download local (curl) foram bloqueados, então não houve comparação byte a byte com o arquivo do TSE. O Tempo Real RJ (23/08) diz que o documento tem 7 páginas. O plano diz 'Não se trata de uma lista de promessas eleitorais' e não traz custos, cronogramas nem metas numéricas, exceto pisos de gasto (25% educação, acima de 12% saúde). Vários dados do diagnóstico são de 2021. Data de protocolo não verificada."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Programa de Governo – PSTU. Eleições 2026 – Governo do Estado do Rio de Janeiro (Cyro Garcia / Perciliana Rodrigues), registrado no TSE; espelho do Nexo",
+      "veiculo": "TSE / Nexo Jornal (espelho)",
+      "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-cyro-garcia.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Ao RJ1, Cyro Garcia propõe suspender pagamento da dívida do RJ, taxar super-ricos e descriminalizar drogas",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/ao-rj1-cyro-garcia-propoe-suspender-pagamento-da-divida-do-rj-taxar-super-ricos-e-descriminalizar-drogas.ghtml",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Cyro Garcia defende fim das OSs na Saúde e estatização de hospitais privados (sabatina Rio em Frente, O Dia/Fecomércio RJ)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7300687-cyro-garcia-defende-fim-das-oss-na-saude-e-estatizacao-de-hospitais-privados.html",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f4",
+      "tipo": "noticia",
+      "titulo": "Cyro Garcia propõe acabar com contratos de OSs e terceirizadas na saúde do RJ (agenda de campanha no Méier)",
+      "veiculo": "g1 / TV Globo (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/15/cyro-garcia-propoe-acabar-com-contratos-de-oss-e-terceirizadas-na-saude-do-rj.ghtml",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Cyro Garcia defende implantação de tarifa zero no transporte público (agenda em Belford Roxo)",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/03/cyro-garcia-defende-implantacao-de-tarifa-zero-no-transporte-publico.ghtml",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "f6",
+      "tipo": "entrevista",
+      "titulo": "Cyro Garcia propõe desmilitarização das polícias e controle da segurança através de conselhos populares (entrevista pingue-pongue)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/cyro-garcia-propoe-desmilitarizacao-das-policias-e-controle-da-seguranca-atraves-de-conselhos-populares/",
+      "data": "2026-09-17"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Cyro Garcia, do PSTU, propõe tarifa zero e vê calote como manifestação política (entrevista à coluna Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/cyro-garcia-do-pstu-propoe-tarifa-zero-e-ve-calote-como-manifestacao-politica-pode-ser-ilegal-mas-nao-e-ilegitimo.ghtml",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "f8",
+      "tipo": "noticia",
+      "titulo": "Cyro Garcia pretende lançar editais para novos concursos públicos e aumentar os investimentos na educação (agenda na Ilha do Fundão)",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/26/cyro-garcia-pretende-lancar-editais-para-novos-concursos-publicos-e-aumentar-os-investimentos-na-educacao.ghtml",
+      "data": "2026-08-26"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "economia",
+      "subtema": "renda emergencial / desempregados",
+      "resumo": "Propõe auxílio emergencial de um salário mínimo para todo desempregado, isenção de tarifas de água, luz e IPTU para esse grupo, passe livre no transporte e suspensão de aluguéis de inquilinos de grandes proprietários.",
+      "trecho": "Propomos auxílio emergencial de um salário mínimo para todo desempregado, isenção de tarifas de água, luz e IPTU para essa população, passe livre em transporte público e suspensão dos aluguéis para inquilinos de grandes proprietários.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "auxílio de 1 salário mínimo por desempregado"
+    },
+    {
+      "id": "p2",
+      "tema": "economia",
+      "subtema": "jornada e piso salarial",
+      "resumo": "Defende reduzir a jornada para 30 horas semanais sem redução de salário e instituir um piso salarial estadual.",
+      "trecho": "defendemos a redução da jornada para 30 horas semanais sem redução de salário, um piso salarial estadual digno",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "jornada de 30 horas semanais; valor do piso não informado"
+    },
+    {
+      "id": "p3",
+      "tema": "gestao",
+      "subtema": "terceirização e concursos",
+      "resumo": "Defende proibir terceirizações, efetivar terceirizados em empresas e órgãos públicos e convocar imediatamente todos os aprovados em concursos públicos.",
+      "trecho": "a proibição das terceirizações e a efetivação de trabalhadores terceirizados em empresas e órgãos públicos, além da convocação imediata de todos os aprovados em concursos públicos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p4",
+      "tema": "economia",
+      "subtema": "plano de obras públicas",
+      "resumo": "Propõe um plano de obras públicas financiado por taxação de grandes fortunas, com creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia, saneamento, equipamentos culturais e esportivos e casas-abrigo.",
+      "trecho": "Propomos um amplo plano de obras públicas, financiado por taxação sobre as grandes fortunas, que construa creches, escolas, clínicas da família, hospitais, restaurantes populares, moradia popular capaz de zerar o déficit habitacional de quase meio milhão de unidades, saneamento básico, equipamentos culturais e esportivos nos subúrbios e favelas, além de casas-abrigo para mulheres e pessoas LGBTI vítimas de violência.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p5",
+      "tema": "moradia",
+      "subtema": "déficit habitacional",
+      "resumo": "Propõe construir moradia popular em volume capaz de zerar o déficit habitacional, estimado no plano em quase meio milhão de unidades, dentro do plano de obras públicas.",
+      "trecho": "moradia popular capaz de zerar o déficit habitacional de quase meio milhão de unidades",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "zerar déficit de quase 500 mil moradias; sem prazo"
+    },
+    {
+      "id": "p6",
+      "tema": "moradia",
+      "subtema": "aluguel",
+      "resumo": "Propõe suspender aluguéis de inquilinos de grandes proprietários, como parte do plano emergencial.",
+      "trecho": "suspensão dos aluguéis para inquilinos de grandes proprietários",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "transporte",
+      "subtema": "trens e metrô / concessões",
+      "resumo": "Defende revogar as privatizações da SuperVia e do MetrôRio sem indenização às empresas, com gestão sob controle de trabalhadores e usuários.",
+      "trecho": "Defendemos a revogação das privatizações da Supervia e do MetrôRio, sem indenização às empresas, com gestão sob controle dos trabalhadores do setor e da população usuária.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "transporte",
+      "subtema": "auditoria das concessões e expansão sobre trilhos",
+      "resumo": "Propõe auditoria pública das concessões, apuração de desvios e plano de ampliação da malha metroferroviária como eixo da mobilidade.",
+      "trecho": "Propomos auditoria pública das concessões, apuração de responsabilidades por desvios e corrupção, e um plano de ampliação da malha metroferroviária, priorizando o transporte sobre trilhos como espinha dorsal da mobilidade urbana",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "transporte",
+      "subtema": "barcas, ônibus e tarifa",
+      "resumo": "Defende estatizar barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
+      "trecho": "Defendemos também a estatização dos serviços de barcas e ônibus municipais, com tarifas sociais, passe livre para desempregados e caminho para a tarifa zero.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "educacao",
+      "subtema": "financiamento",
+      "resumo": "Defende aplicar no mínimo 25% do orçamento em educação e revogar mecanismos que limitam gastos sociais.",
+      "trecho": "Defendemos o investimento mínimo constitucional de 25% do orçamento em educação, patamar hoje sistematicamente descumprido, com a revogação de mecanismos que limitam gastos sociais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "mínimo de 25% do orçamento"
+    },
+    {
+      "id": "p11",
+      "tema": "educacao",
+      "subtema": "Novo Ensino Médio e escolas cívico-militares",
+      "resumo": "Propõe suspender a implementação do Novo Ensino Médio e declara-se contrário à Escola Sem Partido e às escolas cívico-militares.",
+      "trecho": "Propomos a suspensão da implementação autoritária do Novo Ensino Médio e a construção coletiva de propostas pedagógicas pela comunidade escolar, sem interferência da iniciativa privada. Somos contrários a projetos como Escola Sem Partido e às escolas cívico-militares.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "educacao",
+      "subtema": "ensino superior estadual e Faetec",
+      "resumo": "Defende aumento imediato de recursos para UERJ, UENF e FAETEC.",
+      "trecho": "Diante da estagnação orçamentária de mais de uma década no ensino superior estadual, defendemos aumento substancial e imediato de recursos para UERJ, UENF e FAETEC.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "valor não informado"
+    },
+    {
+      "id": "p13",
+      "tema": "educacao",
+      "subtema": "ensino superior privado",
+      "resumo": "Defende estatizar instituições privadas de ensino superior, extinguir dívidas estudantis e ampliar a rede pública em todas as regiões do estado.",
+      "trecho": "Defendemos a estatização das instituições privadas de ensino superior, o fim das dívidas estudantis, a ampliação da rede pública em todas as regiões do estado",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "educacao",
+      "subtema": "cotas e políticas afirmativas",
+      "resumo": "Defende manter e ampliar cotas raciais e políticas afirmativas e incluir educação sexual e combate à LGBTIfobia nas escolas.",
+      "trecho": "Defendemos a manutenção e ampliação das cotas raciais, políticas afirmativas para povos indígenas, refugiados e pessoas LGBTI, além de educação sexual nas escolas e combate à LGBTIfobia.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "saude",
+      "subtema": "Organizações Sociais",
+      "resumo": "Defende encerrar a gestão da saúde por Organizações Sociais e qualquer forma de privatização do setor.",
+      "trecho": "Defendemos o fim do modelo de gestão por Organizações Sociais e qualquer forma de privatização da saúde, modelo que já custou bilhões de reais em recursos públicos sem garantir qualidade de atendimento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "saude",
+      "subtema": "financiamento e pessoal",
+      "resumo": "Defende gasto em saúde acima do piso de 12%, concursos imediatos com plano de carreira e reabertura de vagas fechadas em clínicas da família, UPAs e hospitais.",
+      "trecho": "Defendemos investimento acima do piso constitucional de 12%, hoje tratado pelo governo estadual como teto. Propomos concursos públicos imediatos com plano de cargos e carreira em todos os níveis de atenção, reabertura de vagas fechadas em clínicas da família, UPAs e hospitais, recuperação da rede federal e estadual, e ampliação da vacinação.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "acima de 12% do orçamento"
+    },
+    {
+      "id": "p17",
+      "tema": "saude",
+      "subtema": "rede privada",
+      "resumo": "Defende integrar ao SUS unidades de grandes grupos privados de saúde, mediante taxação das fortunas do setor.",
+      "trecho": "Defendemos que unidades de saúde de grandes grupos privados sejam integradas ao SUS mediante taxação das fortunas do setor, garantindo saúde totalmente pública e gratuita para todos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "seguranca",
+      "subtema": "desmilitarização da PM",
+      "resumo": "Defende desmilitarizar a segurança pública e a PM, criar uma polícia civil única e garantir direito de organização aos policiais; opõe-se às UPPs e ao programa Cidade Integrada.",
+      "trecho": "Defendemos a desmilitarização da segurança pública e da Polícia Militar, com constituição de uma polícia civil única, democracia interna e direito de organização dos policiais de base. Somos contrários às UPPs e ao programa Cidade Integrada, que reeditam a mesma lógica militarizada e racista.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "seguranca",
+      "subtema": "drogas e chacinas",
+      "resumo": "Defende punir agentes envolvidos em chacinas e tortura e descriminalizar as drogas, com controle estatal da produção e venda e reparação à juventude negra encarcerada.",
+      "trecho": "Defendemos a punição de agentes envolvidos em chacinas e tortura, e a descriminalização das drogas, com controle estatal da produção e comercialização, revertendo os lucros para investimento social e acompanhada de política de reparação à juventude negra encarcerada pela guerra às drogas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "seguranca",
+      "subtema": "milícias",
+      "resumo": "Defende investigar e punir agentes públicos envolvidos com milícias e expropriar seu patrimônio ilícito.",
+      "trecho": "defendemos investigação e punição rigorosa de agentes públicos envolvidos nessas organizações, com expropriação de seu patrimônio ilícito.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "seguranca",
+      "subtema": "autodefesa",
+      "resumo": "Defende o direito à autodefesa de trabalhadores, moradores de favelas e setores oprimidos frente à violência do Estado, das milícias e da extrema direita.",
+      "trecho": "Defendemos ainda o direito à autodefesa dos trabalhadores, moradores de favelas e setores oprimidos frente à violência do Estado, das milícias e da extrema direita.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento e Baía de Guanabara",
+      "resumo": "Defende universalizar o saneamento, acabar com o despejo de esgoto sem tratamento na Baía de Guanabara e nos rios e obrigar grandes empresas a tratar efluentes, com estatização das que descumprirem normas ambientais.",
+      "trecho": "Defendemos a universalização do saneamento básico, com fim do despejo de esgoto in natura na Baía de Guanabara, onde apenas cerca de 24% do esgoto coletado é efetivamente tratado, e nos demais rios do estado, e obrigatoriedade de tratamento de efluentes e emissões pelas grandes empresas, com estatização daquelas que descumprirem normas ambientais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "meio-ambiente",
+      "subtema": "energia nuclear e termelétricas",
+      "resumo": "Propõe plano de fechamento controlado das usinas nucleares de Angra e das termelétricas, com realocação dos trabalhadores.",
+      "trecho": "Propomos plano de fechamento controlado das usinas nucleares de Angra e das termelétricas, garantindo realocação com emprego e direitos para os trabalhadores do setor.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "meio-ambiente",
+      "subtema": "estatização de indústrias poluidoras",
+      "resumo": "Defende estatizar Petrobras, CSN e grandes metalúrgicas sob controle dos trabalhadores para reduzir impactos ambientais, e expandir o transporte sobre trilhos.",
+      "trecho": "Defendemos a estatização, sob controle dos trabalhadores, da Petrobras, CSN e grandes metalúrgicas, com o objetivo de reduzir impactos ambientais, além de um plano de expansão do transporte sobre trilhos para reduzir a circulação de automóveis.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p25",
+      "tema": "direitos",
+      "subtema": "população negra, indígena e quilombola",
+      "resumo": "Defende reparação histórica a negros e indígenas, demarcação de terras indígenas e quilombolas e fim do encarceramento em massa da juventude negra.",
+      "trecho": "defendemos reparação histórica aos negros e povos indígenas, demarcação de terras indígenas e quilombolas, salário igual para trabalho igual e fim do encarceramento em massa da juventude negra.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "direitos",
+      "subtema": "violência contra a mulher",
+      "resumo": "Defende delegacias especializadas funcionando 24 horas, casas-abrigo, ampliação da Lei Maria da Penha, lavanderias e restaurantes públicos e creches em tempo integral.",
+      "trecho": "defendemos delegacias especializadas com funcionamento 24 horas, casas-abrigo, ampliação da Lei Maria da Penha, socialização do trabalho doméstico com lavanderias e restaurantes públicos, creches em tempo integral",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "delegacias 24 horas"
+    },
+    {
+      "id": "p27",
+      "tema": "direitos",
+      "subtema": "licenças e aborto legal",
+      "resumo": "Defende licença-maternidade e paternidade de um ano com estabilidade e o direito ao aborto legal, seguro e gratuito pelo SUS.",
+      "trecho": "licença maternidade e paternidade de um ano com estabilidade, e o direito ao aborto legal, seguro e gratuito pelo SUS.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "licenças de 1 ano"
+    },
+    {
+      "id": "p28",
+      "tema": "direitos",
+      "subtema": "população LGBTI",
+      "resumo": "Defende cotas para pessoas LGBTI em empresas públicas e privadas, acesso sem restrições a terapia hormonal e antirretroviral pelo SUS e delegacias especializadas.",
+      "trecho": "Para a população LGBTI, defendemos cotas em empresas públicas e privadas, ampliação do acesso à terapia hormonal e antirretroviral pelo SUS sem restrições, delegacias especializadas e combate efetivo à LGBTIfobia nas escolas e nas instituições.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p29",
+      "tema": "economia",
+      "subtema": "impostos e isenções fiscais",
+      "resumo": "Defende taxar grandes fortunas do estado, proibir remessa de lucros ao exterior e acabar com todas as isenções fiscais a grandes empresas, com auditoria pública desses acordos.",
+      "trecho": "Defendemos a taxação das grandes fortunas do estado, hoje concentradas em pouco mais de trinta famílias, a proibição de remessa de lucros ao exterior, o fim de todas as isenções fiscais concedidas a grandes empresas, com auditoria pública desses acordos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "economia",
+      "subtema": "petróleo e cadeia produtiva",
+      "resumo": "Defende a nacionalização da Petrobras sob controle dos trabalhadores para formar no estado uma cadeia produtiva de petróleo e derivados que gere emprego.",
+      "trecho": "e a nacionalização da Petrobras sob controle dos trabalhadores, de forma a constituir uma cadeia produtiva de petróleo e derivados que gere emprego e renda para a população fluminense",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "medida de competência federal apresentada no programa estadual"
+    },
+    {
+      "id": "p31",
+      "tema": "economia",
+      "subtema": "dívida estadual",
+      "resumo": "Defende suspender e auditar a dívida pública estadual e priorizar no orçamento saúde, educação e salários dos servidores.",
+      "trecho": "Defendemos a suspensão e auditoria da dívida pública estadual, hoje próxima de 200% da receita corrente líquida, e a inversão da lógica orçamentária, priorizando saúde, educação e salários dos servidores públicos",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "gestao",
+      "subtema": "previdência dos servidores",
+      "resumo": "Defende rever a alíquota previdenciária cobrada dos servidores estaduais.",
+      "trecho": "com revisão da alíquota previdenciária cobrada dos trabalhadores do estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "alíquota-alvo não informada"
+    },
+    {
+      "id": "p33",
+      "tema": "gestao",
+      "subtema": "conselhos populares",
+      "resumo": "Propõe que obras e políticas públicas sejam discutidas e fiscalizadas por conselhos populares com representantes eleitos e revogáveis.",
+      "trecho": "Defendemos que o plano de obras e as políticas públicas propostas neste programa sejam discutidos e fiscalizados diretamente pela população organizada, por meio de conselhos populares nos bairros, escolas, hospitais e locais de trabalho, com representantes eleitos e revogáveis a qualquer momento pelas bases.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p34",
+      "tema": "economia",
+      "subtema": "dívida com a União",
+      "resumo": "Na entrevista ao RJ1, repetiu a proposta de suspender o pagamento da dívida do estado, auditá-la e aplicar os recursos em saúde, educação, transporte e segurança.",
+      "trecho": "Nós temos que suspender o pagamento dessa dívida, fazer uma auditoria nela e o dinheiro que normalmente vai para o sistema financeiro ser investido em saúde, educação, transporte, segurança, as questões essenciais para o povo trabalhador do Rio de Janeiro.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "economia",
+      "subtema": "dívida / Propag",
+      "resumo": "Avalia que a adesão do estado ao Propag não resolve a dívida com a União e defende taxar super-ricos e acabar com isenções fiscais.",
+      "trecho": "Não, porque a gente vai continuar com uma dívida absurda com a União. Temos que mudar essa situação. Para começar, temos que taxar super-ricos. Expropriar os grandes tubarões de ensino para ampliar a oferta do ensino público gratuito, acabar com as isenções fiscais que são absurdas aqui.",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p36",
+      "tema": "economia",
+      "subtema": "reindustrialização e emprego",
+      "resumo": "Defende reindustrializar o estado com complexos industriais e um plano de obras públicas que gere emprego.",
+      "trecho": "Além disso, nós temos que reindustrializar o nosso estado, construir complexos industriais e também criar um plano de obras públicas que gere emprego, fazendo as obras realmente necessárias.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "economia",
+      "subtema": "isenção fiscal, sonegação e corrupção",
+      "resumo": "Defende acabar com isenções fiscais, combater a sonegação e recuperar recursos desviados por corrupção.",
+      "trecho": "É preciso acabar com a farra da isenção fiscal, da sonegação, e recuperar o dinheiro da corrupção para ser aplicado nas questões necessárias para os trabalhadores e trabalhadoras do nosso estado.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "economia",
+      "subtema": "carga tributária",
+      "resumo": "Defende taxar super-ricos e grandes grupos econômicos e reduzir a carga tributária de pequenos empresários.",
+      "trecho": "Temos que taxar os super-ricos e os grandes grupos econômicos. O pequeno empresário precisa de incentivo e de uma carga tributária menor",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "sem alíquotas ou tributos especificados"
+    },
+    {
+      "id": "p39",
+      "tema": "seguranca",
+      "subtema": "financiamento do crime",
+      "resumo": "Propõe investigar, com prevenção e inteligência, quem financia o tráfico de armas e de drogas e as milícias.",
+      "trecho": "Nós temos que, através de prevenção e inteligência, investigar aqueles que financiam o tráfico de armas, o tráfico de drogas, que financiam as milícias, porque são aqueles que se locupletam dessa situação e não estão nas favelas, não estão na periferia.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p40",
+      "tema": "seguranca",
+      "subtema": "estrutura das polícias",
+      "resumo": "Defende desmilitarizar as PMs, eleger comandantes e delegados e unificar as polícias em uma só, com parte ostensiva e parte de inteligência.",
+      "trecho": "Eu defendo a desmilitarização das PMs, com eleição de comandantes e delegados, e a formação de uma só polícia, com uma parte voltada ao policiamento ostensivo e outra à inteligência",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p41",
+      "tema": "seguranca",
+      "subtema": "operações em favelas",
+      "resumo": "Declara-se contrário às operações policiais em favelas.",
+      "trecho": "Nós somos radicalmente contra as operações policiais nas favelas. Cada operação significa crianças sem aula, trabalhadores impedidos de sair de casa e pessoas sem acesso aos postos de saúde",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p42",
+      "tema": "seguranca",
+      "subtema": "câmeras corporais e indicadores",
+      "resumo": "Promete tornar obrigatórias as câmeras corporais, monitorar viaturas em tempo real, controlar munições de forma automatizada e divulgar indicadores de letalidade e de esclarecimento de crimes.",
+      "trecho": "Tornarei obrigatório o uso de câmeras corporais, com fiscalização e acesso público às informações, respeitando os direitos envolvidos. Também será necessário monitorar as viaturas em tempo real e estabelecer controle automatizado de munições. O governo deverá divulgar indicadores de letalidade policial, mortes de agentes, confrontos, apreensões de armas, prisões e esclarecimento de crimes.",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p43",
+      "tema": "seguranca",
+      "subtema": "efetivo e valorização policial",
+      "resumo": "Defende recompor efetivos com concursos, formação continuada e direito de sindicalização dos policiais.",
+      "trecho": "Defendo a recomposição dos efetivos, realização de concursos, formação continuada e modernização das condições de trabalho. Também defendo a democratização e a desmilitarização das polícias, garantindo aos profissionais liberdade de organização, direito de sindicalização e participação nas decisões sobre suas condições de trabalho.",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": "sem número de vagas"
+    },
+    {
+      "id": "p44",
+      "tema": "seguranca",
+      "subtema": "investigação e perícia",
+      "resumo": "Defende fortalecer a investigação e a perícia da Polícia Civil para esclarecer mais crimes.",
+      "trecho": "É fundamental fortalecer a investigação e a perícia, porque não existe política de segurança efetiva sem capacidade de esclarecer crimes e responsabilizar seus autores.",
+      "fonte_id": "f6",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p45",
+      "tema": "seguranca",
+      "subtema": "sistema prisional",
+      "resumo": "Defende educação, trabalho, saúde e reinserção social para quem cumpre pena e responsabilização de servidores que protejam ou integrem facções.",
+      "trecho": "Também defendo educação, trabalho, saúde e reinserção social para quem cumprir a pena. Servidores públicos que atuarem como proteção ou integrantes desses grupos devem ser responsabilizados.",
+      "fonte_id": "f6",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "saude",
+      "subtema": "OSs e terceirizadas",
+      "resumo": "Propõe encerrar os contratos com OSs e terceirizadas e usar esses recursos para contratar médicos, enfermeiros, técnicos e assistentes sociais por concurso.",
+      "trecho": "Com esse dinheiro nós vamos contratar médicos, profissionais de saúde, enfermeiros, técnicos, assistentes sociais, através de concurso público, para que todas as unidades tenham equipes completas.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "saude",
+      "subtema": "equipamentos e alta complexidade",
+      "resumo": "Promete equipar as unidades de saúde com aparelhos para exames e cirurgias de alta complexidade.",
+      "trecho": "Vamos melhorar também a questão do atendimento, equipando efetivamente as unidades de saúde com aqueles aparelhos de ponta que são necessários para poder dar prosseguimento a exames de alta complexidade, cirurgias de alta complexidade.",
+      "fonte_id": "f4",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p48",
+      "tema": "saude",
+      "subtema": "hospitais privados",
+      "resumo": "Defende estatizar hospitais privados ligados a planos de saúde e colocá-los sob controle de trabalhadores e usuários para ampliar o atendimento do SUS.",
+      "trecho": "Defendemos estatizar os hospitais privados ligados aos planos de saúde e colocá-los sob controle dos trabalhadores e dos usuários para ampliar a oferta de atendimento do SUS",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p49",
+      "tema": "transporte",
+      "subtema": "reestatização",
+      "resumo": "Defende reestatizar metrô, trens e barcas.",
+      "trecho": "O transporte público é um bem essencial. Não pode estar a serviço do lucro de uma meia dúzia. Defendemos a reestatização do metrô, dos trens e das barcas",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "transporte",
+      "subtema": "tarifa zero e CTC",
+      "resumo": "Defende tarifa zero, reestatizar trem e metrô, recriar a CTC (empresa estadual de ônibus) e trocar o transporte rodoviário pelo ferroviário.",
+      "trecho": "Tarifa zero. Transporte público é um bem essencial. Não é mercadoria para enriquecer meia dúzia de empresários. Temos que reestatizar todas as empresas que foram privatizadas nos governos anteriores, como trem e metrô, recriar a CTC e mudar o modal de rodoviário para ferroviário.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "tarifa zero (prazo não informado)"
+    },
+    {
+      "id": "p51",
+      "tema": "transporte",
+      "subtema": "expansão do metrô e BRT",
+      "resumo": "Defende levar o metrô a São Gonçalo e à Zona Oeste, integrá-lo aos trens e transformar o BRT em VLT.",
+      "trecho": "Uma cidade do tamanho do Rio ter só duas linhas de metrô não existe. Tem que chegar a São Gonçalo, ir no sentido da Zona Oeste, ter interligação com os trens, e transformar o BRT em VLT.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p52",
+      "tema": "transporte",
+      "subtema": "modal ferroviário",
+      "resumo": "Defende migrar do transporte rodoviário para o ferroviário, que considera mais eficiente e adequado à crise climática.",
+      "trecho": "Outra questão central é a mudança do modal, de rodoviária para ferroviária. Além de ser um transporte mais eficiente carrega um número maior de pessoas.",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p53",
+      "tema": "educacao",
+      "subtema": "universidades estaduais",
+      "resumo": "Defende mais verbas e fomento à pesquisa nas universidades estaduais e parcerias com universidades públicas em vez de parcerias público-privadas.",
+      "trecho": "Queremos mais verbas para as universidades estaduais, fomento para pesquisa e parceria com as universidades públicas de uma maneira geral, inclusive, a UFRJ, para que nós possamos inibir as parceria público privadas",
+      "fonte_id": "f8",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "educacao",
+      "subtema": "UERJ",
+      "resumo": "Defende para a UERJ verbas públicas, autonomia financeira e concursos.",
+      "trecho": "Podemos acabar com os males da Uerj, garantir verbas públicas, autonomia financeira, concursos...",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "economia/royalties do petróleo: o plano só descreve a dependência dos royalties no diagnóstico e não traz proposta sobre eles; sem fala literal localizada",
+    "economia/ICMS: nenhuma proposta de alíquota. Há só o fim das isenções fiscais a grandes empresas e a fala genérica sobre 'carga tributária menor' para pequenos empresários",
+    "economia/Propag: não há proposta formal sobre o programa. Só a avaliação dele na entrevista ao Extra (p35) e a defesa de suspender e auditar a dívida. No RJ1 ele citou o Regime de Recuperação Fiscal, que segundo o g1 terminou em junho de 2026 com a adesão ao Propag",
+    "meio-ambiente/Cedae: o plano de 2026 critica a privatização de 2021 no diagnóstico, mas não propõe reestatizá-la; sem fala literal dele localizada. Uma matéria de O Estado do Rio (20/08) atribui a ele a reestatização da Cedae, mas admite se basear em documentos de eleições anteriores; não registrado",
+    "meio-ambiente/enchentes e Defesa Civil: sem proposta. O Dia (10/09) cita 'dragagem de rios' só em paráfrase",
+    "transporte/ônibus intermunicipal: o plano fala em estatizar 'ônibus municipais'. A 'empresa estadual de ônibus' aparece em paráfrase do O Dia e como 'recriar a CTC' no Extra (p50)",
+    "educacao/ensino integral: defesa da expansão registrada só em paráfrase (g1 26/08; O Dia 10/09), sem trecho literal",
+    "saude/hospitais estaduais no interior: construção citada só em paráfrase do g1 (15/09)",
+    "gestao/Rioprevidência: só a revisão da alíquota previdenciária. Nada sobre o déficit do fundo ou o caso Banco Master",
+    "gestao/reajuste de servidores: o plano prioriza 'salários dos servidores' no orçamento, sem índice nem calendário",
+    "seguranca: a resposta sobre estrutura das polícias na entrevista ao RJ1 (18/09) ficou incompleta na transcrição do g1; não registrada",
+    "metas: fora os pisos de gasto, quase nenhuma proposta tem valor, prazo ou meta. Na Agenda do Poder, o candidato disse considerar 'abstrato estabelecer metas numéricas' para a retomada de territórios"
+  ]
+}

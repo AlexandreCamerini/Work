@@ -1,0 +1,3542 @@
+{
+ "governador-rj": {
+  "dados": {
+   "estrutura": "68d755acfcc2fee7",
+   "aderencia": "99ed48a14cfb0ba2",
+   "versao_quiz": "3.4.0",
+   "nPerguntas": 26
+  },
+  "selecaoDeCenas": {
+   "perfisTestados": 16128,
+   "hash": "81ab0795a1e1a83a",
+   "combinacoesDistintas": 211
+  },
+  "perfisNomeados": {
+   "vazio@-": {
+    "faixa": null,
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "vazio@capital": {
+    "faixa": null,
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "vazio@baixada": {
+    "faixa": null,
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "vazio@leste": {
+    "faixa": null,
+    "cenas": [
+     "barca-leste",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "272d7b7cb347570b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:61:10:7/2/1/1",
+      "andre-marinho:58:8:6/1/1/3",
+      "douglas-ruas:55:9:7/1/1/2",
+      "coronel-busnello:54:7:4/3/0/4",
+      "juliete-pantoja:42:9:4/0/5/2",
+      "william-siri:38:7:3/2/2/4",
+      "luan-monteiro:34:7:0/2/5/4",
+      "cyro-garcia:29:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:76:7:6/1/0/4",
+      "william-siri:66:7:5/1/1/4",
+      "luan-monteiro:60:6:1/4/1/5",
+      "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "andre-marinho:42:8:4/1/3/3",
+      "douglas-ruas:36:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:70:10:9/1/0/0",
+      "juliete-pantoja:63:8:6/0/2/2",
+      "andre-marinho:60:6:4/1/1/4",
+      "coronel-busnello:59:7:5/2/0/3",
+      "cyro-garcia:59:8:5/2/1/2",
+      "william-siri:51:8:4/3/1/2",
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
+     ]
+    }
+   },
+   "vazio@interior": {
+    "faixa": null,
+    "cenas": [
+     "estrada-interior",
+     "passagem-cara",
+     "saude-interior",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "encosta-serra",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "43c9b2ea7599d6fe",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
+      "coronel-busnello:50:6:3/2/1/5",
+      "andre-marinho:49:8:4/2/2/3",
+      "william-siri:45:6:3/2/1/5",
+      "luan-monteiro:41:7:0/3/4/4",
+      "juliete-pantoja:40:8:3/1/4/3",
+      "cyro-garcia:29:7:1/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "juliete-pantoja:77:7:6/1/0/4",
+      "cyro-garcia:76:7:6/1/0/4",
+      "william-siri:64:7:5/1/1/4",
+      "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
+      "coronel-busnello:51:6:3/3/0/5",
+      "andre-marinho:46:8:4/1/3/3",
+      "douglas-ruas:41:11:5/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:67:10:9/1/0/0",
+      "juliete-pantoja:60:7:5/0/2/3",
+      "coronel-busnello:57:6:4/2/0/4",
+      "cyro-garcia:52:8:4/2/2/2",
+      "andre-marinho:51:6:3/1/2/4",
+      "william-siri:48:7:3/3/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
+      "luan-monteiro:42:5:0/3/2/5"
+     ]
+    }
+   },
+   "vazio@fora": {
+    "faixa": null,
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "sus_publico_onibus@-": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "sus_publico_onibus@capital": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "sus_publico_onibus@baixada": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "sus_publico_onibus@leste": {
+    "faixa": "publico",
+    "cenas": [
+     "barca-leste",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "272d7b7cb347570b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:61:10:7/2/1/1",
+      "andre-marinho:58:8:6/1/1/3",
+      "douglas-ruas:55:9:7/1/1/2",
+      "coronel-busnello:54:7:4/3/0/4",
+      "juliete-pantoja:42:9:4/0/5/2",
+      "william-siri:38:7:3/2/2/4",
+      "luan-monteiro:34:7:0/2/5/4",
+      "cyro-garcia:29:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:76:7:6/1/0/4",
+      "william-siri:66:7:5/1/1/4",
+      "luan-monteiro:60:6:1/4/1/5",
+      "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "andre-marinho:42:8:4/1/3/3",
+      "douglas-ruas:36:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:70:10:9/1/0/0",
+      "juliete-pantoja:63:8:6/0/2/2",
+      "andre-marinho:60:6:4/1/1/4",
+      "coronel-busnello:59:7:5/2/0/3",
+      "cyro-garcia:59:8:5/2/1/2",
+      "william-siri:51:8:4/3/1/2",
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
+     ]
+    }
+   },
+   "sus_publico_onibus@interior": {
+    "faixa": "publico",
+    "cenas": [
+     "estrada-interior",
+     "passagem-cara",
+     "saude-interior",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "encosta-serra",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "43c9b2ea7599d6fe",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
+      "coronel-busnello:50:6:3/2/1/5",
+      "andre-marinho:49:8:4/2/2/3",
+      "william-siri:45:6:3/2/1/5",
+      "luan-monteiro:41:7:0/3/4/4",
+      "juliete-pantoja:40:8:3/1/4/3",
+      "cyro-garcia:29:7:1/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "juliete-pantoja:77:7:6/1/0/4",
+      "cyro-garcia:76:7:6/1/0/4",
+      "william-siri:64:7:5/1/1/4",
+      "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
+      "coronel-busnello:51:6:3/3/0/5",
+      "andre-marinho:46:8:4/1/3/3",
+      "douglas-ruas:41:11:5/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:67:10:9/1/0/0",
+      "juliete-pantoja:60:7:5/0/2/3",
+      "coronel-busnello:57:6:4/2/0/4",
+      "cyro-garcia:52:8:4/2/2/2",
+      "andre-marinho:51:6:3/1/2/4",
+      "william-siri:48:7:3/3/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
+      "luan-monteiro:42:5:0/3/2/5"
+     ]
+    }
+   },
+   "sus_publico_onibus@fora": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "motoboy@-": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "motoboy@capital": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "motoboy@baixada": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "motoboy@leste": {
+    "faixa": "publico",
+    "cenas": [
+     "barca-leste",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "272d7b7cb347570b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:61:10:7/2/1/1",
+      "andre-marinho:58:8:6/1/1/3",
+      "douglas-ruas:55:9:7/1/1/2",
+      "coronel-busnello:54:7:4/3/0/4",
+      "juliete-pantoja:42:9:4/0/5/2",
+      "william-siri:38:7:3/2/2/4",
+      "luan-monteiro:34:7:0/2/5/4",
+      "cyro-garcia:29:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:76:7:6/1/0/4",
+      "william-siri:66:7:5/1/1/4",
+      "luan-monteiro:60:6:1/4/1/5",
+      "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "andre-marinho:42:8:4/1/3/3",
+      "douglas-ruas:36:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:70:10:9/1/0/0",
+      "juliete-pantoja:63:8:6/0/2/2",
+      "andre-marinho:60:6:4/1/1/4",
+      "coronel-busnello:59:7:5/2/0/3",
+      "cyro-garcia:59:8:5/2/1/2",
+      "william-siri:51:8:4/3/1/2",
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
+     ]
+    }
+   },
+   "motoboy@interior": {
+    "faixa": "publico",
+    "cenas": [
+     "estrada-interior",
+     "passagem-cara",
+     "saude-interior",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "encosta-serra",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "43c9b2ea7599d6fe",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
+      "coronel-busnello:50:6:3/2/1/5",
+      "andre-marinho:49:8:4/2/2/3",
+      "william-siri:45:6:3/2/1/5",
+      "luan-monteiro:41:7:0/3/4/4",
+      "juliete-pantoja:40:8:3/1/4/3",
+      "cyro-garcia:29:7:1/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "juliete-pantoja:77:7:6/1/0/4",
+      "cyro-garcia:76:7:6/1/0/4",
+      "william-siri:64:7:5/1/1/4",
+      "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
+      "coronel-busnello:51:6:3/3/0/5",
+      "andre-marinho:46:8:4/1/3/3",
+      "douglas-ruas:41:11:5/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:67:10:9/1/0/0",
+      "juliete-pantoja:60:7:5/0/2/3",
+      "coronel-busnello:57:6:4/2/0/4",
+      "cyro-garcia:52:8:4/2/2/2",
+      "andre-marinho:51:6:3/1/2/4",
+      "william-siri:48:7:3/3/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
+      "luan-monteiro:42:5:0/3/2/5"
+     ]
+    }
+   },
+   "motoboy@fora": {
+    "faixa": "publico",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "fila-especialista",
+     "escola-bagunca",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "primo-desempregado",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "bdf9c8abd14bc9c4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
+      "andre-marinho:54:8:5/1/2/3",
+      "coronel-busnello:49:7:3/3/1/4",
+      "william-siri:40:7:3/2/2/4",
+      "juliete-pantoja:39:9:3/1/5/2",
+      "luan-monteiro:37:8:0/3/5/3",
+      "cyro-garcia:30:7:2/1/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/4",
+      "juliete-pantoja:80:7:6/1/0/4",
+      "william-siri:69:7:5/1/1/4",
+      "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
+      "coronel-busnello:45:7:3/3/1/4",
+      "andre-marinho:43:8:4/1/3/3",
+      "douglas-ruas:37:11:5/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
+      "juliete-pantoja:61:8:5/1/2/2",
+      "cyro-garcia:60:8:5/2/1/2",
+      "andre-marinho:55:6:3/1/2/4",
+      "coronel-busnello:54:7:4/2/1/3",
+      "william-siri:53:8:4/3/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
+      "luan-monteiro:47:6:0/4/2/4"
+     ]
+    }
+   },
+   "servidor_carro@-": {
+    "faixa": "misto",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "b362a6945b2fb876",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:57:11:8/2/1/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:52:9:5/4/0/3",
+      "andre-marinho:51:9:5/3/1/3",
+      "william-siri:43:9:4/3/2/3",
+      "juliete-pantoja:41:10:4/0/6/2",
+      "luan-monteiro:39:9:1/2/6/3",
+      "cyro-garcia:36:9:3/2/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:8:7/1/0/4",
+      "juliete-pantoja:72:8:6/2/0/4",
+      "william-siri:67:8:6/1/1/4",
+      "luan-monteiro:58:8:1/5/2/4",
+      "coronel-busnello:55:8:5/3/0/4",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:62:11:9/2/0/0",
+      "coronel-busnello:60:8:6/2/0/3",
+      "cyro-garcia:56:9:5/2/2/2",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:50:6:2/3/1/5",
+      "william-siri:49:9:5/2/2/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "luan-monteiro:42:8:0/4/4/3"
+     ]
+    }
+   },
+   "servidor_carro@capital": {
+    "faixa": "misto",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "b362a6945b2fb876",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:57:11:8/2/1/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:52:9:5/4/0/3",
+      "andre-marinho:51:9:5/3/1/3",
+      "william-siri:43:9:4/3/2/3",
+      "juliete-pantoja:41:10:4/0/6/2",
+      "luan-monteiro:39:9:1/2/6/3",
+      "cyro-garcia:36:9:3/2/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:8:7/1/0/4",
+      "juliete-pantoja:72:8:6/2/0/4",
+      "william-siri:67:8:6/1/1/4",
+      "luan-monteiro:58:8:1/5/2/4",
+      "coronel-busnello:55:8:5/3/0/4",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:62:11:9/2/0/0",
+      "coronel-busnello:60:8:6/2/0/3",
+      "cyro-garcia:56:9:5/2/2/2",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:50:6:2/3/1/5",
+      "william-siri:49:9:5/2/2/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "luan-monteiro:42:8:0/4/4/3"
+     ]
+    }
+   },
+   "servidor_carro@baixada": {
+    "faixa": "misto",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "b362a6945b2fb876",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:57:11:8/2/1/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:52:9:5/4/0/3",
+      "andre-marinho:51:9:5/3/1/3",
+      "william-siri:43:9:4/3/2/3",
+      "juliete-pantoja:41:10:4/0/6/2",
+      "luan-monteiro:39:9:1/2/6/3",
+      "cyro-garcia:36:9:3/2/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:8:7/1/0/4",
+      "juliete-pantoja:72:8:6/2/0/4",
+      "william-siri:67:8:6/1/1/4",
+      "luan-monteiro:58:8:1/5/2/4",
+      "coronel-busnello:55:8:5/3/0/4",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:62:11:9/2/0/0",
+      "coronel-busnello:60:8:6/2/0/3",
+      "cyro-garcia:56:9:5/2/2/2",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:50:6:2/3/1/5",
+      "william-siri:49:9:5/2/2/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "luan-monteiro:42:8:0/4/4/3"
+     ]
+    }
+   },
+   "servidor_carro@leste": {
+    "faixa": "misto",
+    "cenas": [
+     "barca-leste",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "ee7571200cb3118e",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:58:11:8/2/1/1",
+      "douglas-ruas:56:10:8/1/1/2",
+      "andre-marinho:53:9:6/2/1/3",
+      "coronel-busnello:52:9:5/4/0/3",
+      "william-siri:42:9:4/3/2/3",
+      "juliete-pantoja:41:10:4/0/6/2",
+      "luan-monteiro:39:9:1/2/6/3",
+      "cyro-garcia:34:9:3/2/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:8:7/1/0/4",
+      "juliete-pantoja:73:8:6/2/0/4",
+      "william-siri:66:8:6/1/1/4",
+      "luan-monteiro:58:8:1/5/2/4",
+      "coronel-busnello:55:8:5/3/0/4",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:44:9:5/1/3/3",
+      "douglas-ruas:39:12:6/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:64:11:9/2/0/0",
+      "coronel-busnello:60:8:6/2/0/3",
+      "cyro-garcia:54:9:5/2/2/2",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:52:6:3/2/1/5",
+      "william-siri:48:9:5/2/2/2",
+      "douglas-ruas:47:9:5/3/1/2",
+      "luan-monteiro:42:8:0/4/4/3"
+     ]
+    }
+   },
+   "servidor_carro@interior": {
+    "faixa": "misto",
+    "cenas": [
+     "estrada-interior",
+     "vale-transporte",
+     "saude-interior",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "encosta-serra",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "28492f75def227a3",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:62:11:9/2/0/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "william-siri:48:8:4/3/1/4",
+      "coronel-busnello:48:8:4/3/1/4",
+      "andre-marinho:45:9:4/3/2/3",
+      "luan-monteiro:44:9:1/3/5/3",
+      "juliete-pantoja:40:9:3/1/5/3",
+      "cyro-garcia:34:9:2/3/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:76:8:7/1/0/4",
+      "juliete-pantoja:74:8:6/2/0/4",
+      "william-siri:64:8:6/1/1/4",
+      "luan-monteiro:56:8:1/5/2/4",
+      "coronel-busnello:54:8:5/3/0/4",
+      "eduardo-paes:50:12:7/3/2/0",
+      "andre-marinho:47:9:5/1/3/3",
+      "douglas-ruas:43:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:62:11:9/2/0/0",
+      "coronel-busnello:58:7:5/2/0/4",
+      "douglas-ruas:50:9:6/2/1/2",
+      "juliete-pantoja:49:9:4/1/4/2",
+      "cyro-garcia:48:9:4/2/3/2",
+      "william-siri:45:8:4/2/2/3",
+      "andre-marinho:44:6:2/2/2/5",
+      "luan-monteiro:41:8:0/4/4/3"
+     ]
+    }
+   },
+   "servidor_carro@fora": {
+    "faixa": "misto",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "rua-alagada",
+     "falta-agua",
+     "servidor-recomposicao",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "b362a6945b2fb876",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:57:11:8/2/1/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:52:9:5/4/0/3",
+      "andre-marinho:51:9:5/3/1/3",
+      "william-siri:43:9:4/3/2/3",
+      "juliete-pantoja:41:10:4/0/6/2",
+      "luan-monteiro:39:9:1/2/6/3",
+      "cyro-garcia:36:9:3/2/4/3"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:8:7/1/0/4",
+      "juliete-pantoja:72:8:6/2/0/4",
+      "william-siri:67:8:6/1/1/4",
+      "luan-monteiro:58:8:1/5/2/4",
+      "coronel-busnello:55:8:5/3/0/4",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:62:11:9/2/0/0",
+      "coronel-busnello:60:8:6/2/0/3",
+      "cyro-garcia:56:9:5/2/2/2",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:50:6:2/3/1/5",
+      "william-siri:49:9:5/2/2/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "luan-monteiro:42:8:0/4/4/3"
+     ]
+    }
+   },
+   "empresario_privado@-": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "cb819a15f1660620",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:12:9/2/1/0",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "andre-marinho:53:9:6/2/1/3",
+      "juliete-pantoja:42:9:3/1/5/3",
+      "william-siri:39:8:3/3/2/4",
+      "cyro-garcia:38:8:2/3/3/4",
+      "luan-monteiro:37:7:0/2/5/5"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:80:7:6/0/1/5",
+      "juliete-pantoja:72:8:7/1/0/4",
+      "william-siri:65:9:6/2/1/3",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "andre-marinho:47:10:6/2/2/2",
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:55:8:5/3/0/3",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:51:7:3/3/1/4",
+      "cyro-garcia:51:9:4/2/3/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:46:9:4/3/2/2",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "empresario_privado@capital": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "cb819a15f1660620",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:12:9/2/1/0",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "andre-marinho:53:9:6/2/1/3",
+      "juliete-pantoja:42:9:3/1/5/3",
+      "william-siri:39:8:3/3/2/4",
+      "cyro-garcia:38:8:2/3/3/4",
+      "luan-monteiro:37:7:0/2/5/5"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:80:7:6/0/1/5",
+      "juliete-pantoja:72:8:7/1/0/4",
+      "william-siri:65:9:6/2/1/3",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "andre-marinho:47:10:6/2/2/2",
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:55:8:5/3/0/3",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:51:7:3/3/1/4",
+      "cyro-garcia:51:9:4/2/3/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:46:9:4/3/2/2",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "empresario_privado@baixada": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "cb819a15f1660620",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:12:9/2/1/0",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "andre-marinho:53:9:6/2/1/3",
+      "juliete-pantoja:42:9:3/1/5/3",
+      "william-siri:39:8:3/3/2/4",
+      "cyro-garcia:38:8:2/3/3/4",
+      "luan-monteiro:37:7:0/2/5/5"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:80:7:6/0/1/5",
+      "juliete-pantoja:72:8:7/1/0/4",
+      "william-siri:65:9:6/2/1/3",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "andre-marinho:47:10:6/2/2/2",
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:55:8:5/3/0/3",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:51:7:3/3/1/4",
+      "cyro-garcia:51:9:4/2/3/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:46:9:4/3/2/2",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "empresario_privado@leste": {
+    "faixa": "privado",
+    "cenas": [
+     "barca-leste",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "3fa23a70ec899bf2",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:60:12:9/2/1/0",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:55:8:5/3/0/4",
+      "andre-marinho:54:9:7/1/1/3",
+      "juliete-pantoja:42:9:3/1/5/3",
+      "william-siri:38:8:3/3/2/4",
+      "luan-monteiro:37:7:0/2/5/5",
+      "cyro-garcia:36:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:79:7:6/0/1/5",
+      "juliete-pantoja:74:8:7/1/0/4",
+      "william-siri:64:9:6/2/1/3",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "eduardo-paes:44:12:5/5/2/0",
+      "andre-marinho:43:10:6/1/3/2",
+      "douglas-ruas:37:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:61:11:8/3/0/0",
+      "coronel-busnello:55:8:5/3/0/3",
+      "juliete-pantoja:54:10:5/1/4/1",
+      "andre-marinho:53:7:4/2/1/4",
+      "cyro-garcia:49:9:4/2/3/2",
+      "douglas-ruas:48:9:5/3/1/2",
+      "william-siri:45:9:4/3/2/2",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "empresario_privado@interior": {
+    "faixa": "privado",
+    "cenas": [
+     "estrada-interior",
+     "vale-transporte",
+     "saude-interior",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "encosta-serra",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "e0c58509e3fdf6d9",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:64:12:10/2/0/0",
+      "douglas-ruas:54:10:8/1/1/2",
+      "coronel-busnello:51:7:4/2/1/5",
+      "andre-marinho:47:9:5/2/2/3",
+      "william-siri:44:7:3/3/1/5",
+      "luan-monteiro:44:7:0/3/4/5",
+      "juliete-pantoja:40:8:2/2/4/4",
+      "cyro-garcia:36:8:1/4/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:74:7:6/0/1/5",
+      "juliete-pantoja:74:8:7/1/0/4",
+      "william-siri:62:9:6/2/1/3",
+      "luan-monteiro:57:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "eduardo-paes:48:12:6/4/2/0",
+      "andre-marinho:47:10:6/1/3/2",
+      "douglas-ruas:41:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:52:7:4/3/0/4",
+      "douglas-ruas:50:9:6/2/1/2",
+      "juliete-pantoja:50:9:4/1/4/2",
+      "andre-marinho:46:7:3/2/2/4",
+      "cyro-garcia:43:9:3/2/4/2",
+      "william-siri:42:8:3/3/2/3",
+      "luan-monteiro:41:7:0/3/4/4"
+     ]
+    }
+   },
+   "empresario_privado@fora": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "vale-transporte",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "via-expressa-fechada",
+     "roubo-carro",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "licenca-empresa",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "cb819a15f1660620",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:12:9/2/1/0",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "andre-marinho:53:9:6/2/1/3",
+      "juliete-pantoja:42:9:3/1/5/3",
+      "william-siri:39:8:3/3/2/4",
+      "cyro-garcia:38:8:2/3/3/4",
+      "luan-monteiro:37:7:0/2/5/5"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:80:7:6/0/1/5",
+      "juliete-pantoja:72:8:7/1/0/4",
+      "william-siri:65:9:6/2/1/3",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:51:8:4/4/0/4",
+      "andre-marinho:47:10:6/2/2/2",
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:55:8:5/3/0/3",
+      "juliete-pantoja:53:10:5/1/4/1",
+      "andre-marinho:51:7:3/3/1/4",
+      "cyro-garcia:51:9:4/2/3/2",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:46:9:4/3/2/2",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "aposentado_app@-": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "4c7fdab05722f136",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:58:11:8/2/1/1",
+      "andre-marinho:56:9:6/2/1/3",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "juliete-pantoja:43:10:4/0/6/2",
+      "william-siri:39:8:3/3/2/4",
+      "luan-monteiro:35:8:0/2/6/4",
+      "cyro-garcia:34:8:2/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:7:6/1/0/5",
+      "juliete-pantoja:75:7:6/1/0/5",
+      "william-siri:67:7:5/1/1/5",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "cyro-garcia:53:8:4/2/2/3",
+      "andre-marinho:50:6:2/3/1/5",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:45:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "aposentado_app@capital": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "4c7fdab05722f136",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:58:11:8/2/1/1",
+      "andre-marinho:56:9:6/2/1/3",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "juliete-pantoja:43:10:4/0/6/2",
+      "william-siri:39:8:3/3/2/4",
+      "luan-monteiro:35:8:0/2/6/4",
+      "cyro-garcia:34:8:2/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:7:6/1/0/5",
+      "juliete-pantoja:75:7:6/1/0/5",
+      "william-siri:67:7:5/1/1/5",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "cyro-garcia:53:8:4/2/2/3",
+      "andre-marinho:50:6:2/3/1/5",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:45:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "aposentado_app@baixada": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "4c7fdab05722f136",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:58:11:8/2/1/1",
+      "andre-marinho:56:9:6/2/1/3",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "juliete-pantoja:43:10:4/0/6/2",
+      "william-siri:39:8:3/3/2/4",
+      "luan-monteiro:35:8:0/2/6/4",
+      "cyro-garcia:34:8:2/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:7:6/1/0/5",
+      "juliete-pantoja:75:7:6/1/0/5",
+      "william-siri:67:7:5/1/1/5",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "cyro-garcia:53:8:4/2/2/3",
+      "andre-marinho:50:6:2/3/1/5",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:45:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "aposentado_app@leste": {
+    "faixa": "privado",
+    "cenas": [
+     "barca-leste",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "11aca2a8cf61b8b4",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:11:8/2/1/1",
+      "andre-marinho:57:9:7/1/1/3",
+      "douglas-ruas:56:10:8/1/1/2",
+      "coronel-busnello:55:8:5/3/0/4",
+      "juliete-pantoja:43:10:4/0/6/2",
+      "william-siri:38:8:3/3/2/4",
+      "luan-monteiro:35:8:0/2/6/4",
+      "cyro-garcia:32:8:2/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:81:7:6/1/0/5",
+      "juliete-pantoja:76:7:6/1/0/5",
+      "william-siri:66:7:5/1/1/5",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:44:9:5/1/3/3",
+      "douglas-ruas:39:12:6/3/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:64:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "andre-marinho:52:6:3/2/1/5",
+      "cyro-garcia:51:8:4/2/2/3",
+      "douglas-ruas:47:9:5/3/1/2",
+      "william-siri:44:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "aposentado_app@interior": {
+    "faixa": "privado",
+    "cenas": [
+     "estrada-interior",
+     "passagem-cara",
+     "saude-interior",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "encosta-serra",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "21fc50059bcc6274",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:63:11:9/2/0/1",
+      "douglas-ruas:55:10:8/1/1/2",
+      "coronel-busnello:51:7:4/2/1/5",
+      "andre-marinho:50:9:5/2/2/3",
+      "william-siri:44:7:3/3/1/5",
+      "juliete-pantoja:41:9:3/1/5/3",
+      "luan-monteiro:41:8:0/3/5/4",
+      "cyro-garcia:32:8:1/3/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "juliete-pantoja:77:7:6/1/0/5",
+      "cyro-garcia:76:7:6/1/0/5",
+      "william-siri:64:7:5/1/1/5",
+      "luan-monteiro:57:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:50:12:7/3/2/0",
+      "andre-marinho:47:9:5/1/3/3",
+      "douglas-ruas:43:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:56:6:4/2/0/5",
+      "douglas-ruas:50:9:6/2/1/2",
+      "juliete-pantoja:50:8:4/0/4/3",
+      "andre-marinho:44:6:2/2/2/5",
+      "cyro-garcia:44:8:3/2/3/3",
+      "luan-monteiro:41:7:0/3/4/4",
+      "william-siri:40:7:3/2/2/4"
+     ]
+    }
+   },
+   "aposentado_app@fora": {
+    "faixa": "privado",
+    "cenas": [
+     "transito-carro",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "escola-bagunca",
+     "via-expressa-fechada",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "4c7fdab05722f136",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:58:11:8/2/1/1",
+      "andre-marinho:56:9:6/2/1/3",
+      "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
+      "juliete-pantoja:43:10:4/0/6/2",
+      "william-siri:39:8:3/3/2/4",
+      "luan-monteiro:35:8:0/2/6/4",
+      "cyro-garcia:34:8:2/2/4/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:82:7:6/1/0/5",
+      "juliete-pantoja:75:7:6/1/0/5",
+      "william-siri:67:7:5/1/1/5",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "andre-marinho:48:9:5/2/2/3",
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "cyro-garcia:53:8:4/2/2/3",
+      "andre-marinho:50:6:2/3/1/5",
+      "douglas-ruas:46:9:5/3/1/2",
+      "william-siri:45:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "home_office@-": {
+    "faixa": "privado",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "d165dbdbb25ccba3",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
+      "andre-marinho:53:9:6/1/2/3",
+      "coronel-busnello:47:7:3/3/1/5",
+      "juliete-pantoja:44:10:3/2/5/2",
+      "william-siri:40:8:3/3/2/4",
+      "luan-monteiro:40:8:0/3/5/4",
+      "cyro-garcia:37:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:83:6:6/0/0/6",
+      "juliete-pantoja:79:7:7/0/0/5",
+      "william-siri:69:8:6/1/1/4",
+      "luan-monteiro:64:7:2/3/2/5",
+      "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:43:9:5/1/3/3",
+      "douglas-ruas:37:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:53:7:4/2/1/4",
+      "cyro-garcia:52:8:4/2/2/3",
+      "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
+      "andre-marinho:47:6:2/2/2/5",
+      "william-siri:46:8:4/2/2/3",
+      "luan-monteiro:45:8:0/4/4/3"
+     ]
+    }
+   },
+   "home_office@capital": {
+    "faixa": "privado",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "d165dbdbb25ccba3",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
+      "andre-marinho:53:9:6/1/2/3",
+      "coronel-busnello:47:7:3/3/1/5",
+      "juliete-pantoja:44:10:3/2/5/2",
+      "william-siri:40:8:3/3/2/4",
+      "luan-monteiro:40:8:0/3/5/4",
+      "cyro-garcia:37:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:83:6:6/0/0/6",
+      "juliete-pantoja:79:7:7/0/0/5",
+      "william-siri:69:8:6/1/1/4",
+      "luan-monteiro:64:7:2/3/2/5",
+      "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:43:9:5/1/3/3",
+      "douglas-ruas:37:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:53:7:4/2/1/4",
+      "cyro-garcia:52:8:4/2/2/3",
+      "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
+      "andre-marinho:47:6:2/2/2/5",
+      "william-siri:46:8:4/2/2/3",
+      "luan-monteiro:45:8:0/4/4/3"
+     ]
+    }
+   },
+   "home_office@baixada": {
+    "faixa": "privado",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "d165dbdbb25ccba3",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
+      "andre-marinho:53:9:6/1/2/3",
+      "coronel-busnello:47:7:3/3/1/5",
+      "juliete-pantoja:44:10:3/2/5/2",
+      "william-siri:40:8:3/3/2/4",
+      "luan-monteiro:40:8:0/3/5/4",
+      "cyro-garcia:37:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:83:6:6/0/0/6",
+      "juliete-pantoja:79:7:7/0/0/5",
+      "william-siri:69:8:6/1/1/4",
+      "luan-monteiro:64:7:2/3/2/5",
+      "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:43:9:5/1/3/3",
+      "douglas-ruas:37:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:53:7:4/2/1/4",
+      "cyro-garcia:52:8:4/2/2/3",
+      "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
+      "andre-marinho:47:6:2/2/2/5",
+      "william-siri:46:8:4/2/2/3",
+      "luan-monteiro:45:8:0/4/4/3"
+     ]
+    }
+   },
+   "home_office@leste": {
+    "faixa": "privado",
+    "cenas": [
+     "barca-leste",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "b414f48f8beaf18b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:59:12:9/2/1/0",
+      "andre-marinho:57:9:7/1/1/3",
+      "douglas-ruas:56:10:8/1/1/2",
+      "coronel-busnello:52:7:4/3/0/5",
+      "juliete-pantoja:46:10:4/1/5/2",
+      "william-siri:38:8:3/3/2/4",
+      "luan-monteiro:37:7:0/2/5/5",
+      "cyro-garcia:36:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:83:6:6/0/0/6",
+      "juliete-pantoja:76:7:7/0/0/5",
+      "william-siri:66:8:6/1/1/4",
+      "luan-monteiro:59:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:43:9:5/1/3/3",
+      "douglas-ruas:36:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:64:11:9/2/0/0",
+      "coronel-busnello:59:7:5/2/0/4",
+      "juliete-pantoja:54:9:5/0/4/2",
+      "andre-marinho:52:6:3/2/1/5",
+      "cyro-garcia:51:8:4/2/2/3",
+      "douglas-ruas:47:9:5/3/1/2",
+      "william-siri:44:8:4/2/2/3",
+      "luan-monteiro:42:7:0/3/4/4"
+     ]
+    }
+   },
+   "home_office@interior": {
+    "faixa": "privado",
+    "cenas": [
+     "estrada-interior",
+     "passagem-cara",
+     "saude-interior",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "encosta-serra",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "f27ad565b47a499a",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "eduardo-paes:63:12:10/2/0/0",
+      "douglas-ruas:55:10:8/1/1/2",
+      "andre-marinho:49:9:5/2/2/3",
+      "coronel-busnello:47:6:3/2/1/6",
+      "juliete-pantoja:45:9:3/2/4/3",
+      "william-siri:44:7:3/3/1/5",
+      "luan-monteiro:44:7:0/3/4/5",
+      "cyro-garcia:36:8:1/4/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:78:6:6/0/0/6",
+      "juliete-pantoja:77:7:7/0/0/5",
+      "william-siri:64:8:6/1/1/4",
+      "luan-monteiro:57:7:1/4/2/5",
+      "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:50:12:7/3/2/0",
+      "andre-marinho:46:9:5/1/3/3",
+      "douglas-ruas:40:12:5/5/2/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:63:11:9/2/0/0",
+      "coronel-busnello:56:6:4/2/0/5",
+      "douglas-ruas:50:9:6/2/1/2",
+      "juliete-pantoja:50:8:4/0/4/3",
+      "andre-marinho:44:6:2/2/2/5",
+      "cyro-garcia:44:8:3/2/3/3",
+      "luan-monteiro:41:7:0/3/4/4",
+      "william-siri:40:7:3/2/2/4"
+     ]
+    }
+   },
+   "home_office@fora": {
+    "faixa": "privado",
+    "cenas": [
+     "trem-parado",
+     "passagem-cara",
+     "plano-voltou-sus",
+     "falta-tecnico",
+     "operacao-policial",
+     "celular-roubado",
+     "medida-protetiva",
+     "garagem-alagada",
+     "caminhao-pipa",
+     "primo-desempregado",
+     "correria-praia",
+     "dinheiro-publico"
+    ],
+    "resultadosHash": "d165dbdbb25ccba3",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
+      "andre-marinho:53:9:6/1/2/3",
+      "coronel-busnello:47:7:3/3/1/5",
+      "juliete-pantoja:44:10:3/2/5/2",
+      "william-siri:40:8:3/3/2/4",
+      "luan-monteiro:40:8:0/3/5/4",
+      "cyro-garcia:37:8:2/3/3/4"
+     ],
+     "ultima|seguranca+transporte+saude": [
+      "cyro-garcia:83:6:6/0/0/6",
+      "juliete-pantoja:79:7:7/0/0/5",
+      "william-siri:69:8:6/1/1/4",
+      "luan-monteiro:64:7:2/3/2/5",
+      "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
+      "andre-marinho:43:9:5/1/3/3",
+      "douglas-ruas:37:12:5/4/3/0"
+     ],
+     "sorteio-1|-": [
+      "eduardo-paes:60:11:8/3/0/0",
+      "coronel-busnello:53:7:4/2/1/4",
+      "cyro-garcia:52:8:4/2/2/3",
+      "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
+      "andre-marinho:47:6:2/2/2/5",
+      "william-siri:46:8:4/2/2/3",
+      "luan-monteiro:45:8:0/4/4/3"
+     ]
+    }
+   }
+  }
+ },
+ "presidente": {
+  "dados": {
+   "estrutura": "d696f7fc37832371",
+   "aderencia": "d28a3bf187902cd2",
+   "versao_quiz": "1.3.0",
+   "nPerguntas": 22
+  },
+  "selecaoDeCenas": {
+   "perfisTestados": 16128,
+   "hash": "dc14e5601a6d434d",
+   "combinacoesDistintas": 208
+  },
+  "perfisNomeados": {
+   "vazio@-": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "vazio@norte": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "vazio@nordeste": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "vazio@centro-oeste": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "vazio@sudeste": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "vazio@sul": {
+    "faixa": null,
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@-": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@norte": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@nordeste": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@centro-oeste": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@sudeste": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "sus_publico_onibus@sul": {
+    "faixa": "publico",
+    "cenas": [
+     "escala-6x1",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "largar-escola",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "5bbddbfbcc8c3286",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:55:12:8/1/3/0",
+      "flavio-bolsonaro:39:11:5/3/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
+     ]
+    }
+   },
+   "motoboy@-": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "motoboy@norte": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "motoboy@nordeste": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "motoboy@centro-oeste": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "motoboy@sudeste": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "motoboy@sul": {
+    "faixa": "publico",
+    "cenas": [
+     "trabalho-app",
+     "salario-minimo",
+     "juros-altos",
+     "fila-cirurgia",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "109d291cb5fa839b",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:52:12:8/0/4/0",
+      "flavio-bolsonaro:42:12:6/4/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:49:8:5/3/0/3"
+     ]
+    }
+   },
+   "servidor_carro@-": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "servidor_carro@norte": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "servidor_carro@nordeste": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "servidor_carro@centro-oeste": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "servidor_carro@sudeste": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "servidor_carro@sul": {
+    "faixa": "misto",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "largar-escola",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "f3f503fdf090c6f5",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
+     ]
+    }
+   },
+   "empresario_privado@-": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "empresario_privado@norte": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "empresario_privado@nordeste": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "empresario_privado@centro-oeste": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "empresario_privado@sudeste": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "empresario_privado@sul": {
+    "faixa": "privado",
+    "cenas": [
+     "custo-contratar",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "b3e8b6cc54999ded",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:50:11:7/0/4/1",
+      "flavio-bolsonaro:48:12:8/2/2/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
+     ],
+     "sorteio-1|-": [
+      "lula:61:9:7/0/2/2",
+      "flavio-bolsonaro:58:8:7/1/0/3"
+     ]
+    }
+   },
+   "aposentado_app@-": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "aposentado_app@norte": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "aposentado_app@nordeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "aposentado_app@centro-oeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "aposentado_app@sudeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "aposentado_app@sul": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-sinal",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@-": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@norte": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "especialista-longe",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@nordeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "seca-nordeste",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@centro-oeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "fumaca-queimada",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@sudeste": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-seca",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   },
+   "home_office@sul": {
+    "faixa": "privado",
+    "cenas": [
+     "escala-6x1",
+     "imposto-renda",
+     "juros-altos",
+     "plano-voltou-sus",
+     "faccao-bairro",
+     "celular-roubado",
+     "pagar-faculdade",
+     "conta-luz",
+     "enchente-sul",
+     "video-falso",
+     "gasto-governo",
+     "agressor-rondando"
+    ],
+    "resultadosHash": "2cded79deef32aba",
+    "casos": 126,
+    "amostra": {
+     "primeira|-": [
+      "lula:53:12:8/0/4/0",
+      "flavio-bolsonaro:43:12:7/2/3/0"
+     ],
+     "ultima|trabalho+economia+saude": [
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
+     ],
+     "sorteio-1|-": [
+      "lula:63:10:8/0/2/1",
+      "flavio-bolsonaro:50:8:6/1/1/3"
+     ]
+    }
+   }
+  }
+ }
+}

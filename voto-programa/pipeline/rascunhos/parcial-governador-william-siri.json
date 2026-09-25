@@ -1,0 +1,63 @@
+{
+  "candidato_id": "william-siri",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 100,
+        "evidencias": [
+          "p13",
+          "p14",
+          "p17"
+        ],
+        "justificativa": "Propõe reestatizar o sistema ferroviário metropolitano, com operação por uma nova empresa pública de transporte."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 100,
+        "evidencias": [
+          "p15",
+          "p16"
+        ],
+        "justificativa": "Propõe redução progressiva das tarifas até a tarifa zero em todo o transporte público estadual."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": 25,
+        "evidencias": [
+          "p43",
+          "p42"
+        ],
+        "justificativa": "Propõe extinguir a atual política de remoções e priorizar moradia popular e urbanização de favelas, sem prever reassentamento de áreas de risco."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p21",
+          "p22"
+        ],
+        "justificativa": "Propõe iniciar a retomada pública e a reestatização da Cedae, com auditoria e processo contra os contratos de concessão."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p29"
+        ],
+        "justificativa": "Propõe reestruturar a política de renúncia de receitas para priorizar complexos industriais e pequenos negócios, sem mencionar corte."
+      }
+    }
+  }
+}

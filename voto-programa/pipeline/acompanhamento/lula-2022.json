@@ -1,0 +1,1105 @@
+{
+  "candidato_id": "lula",
+  "mandato": "Presidente da República 2023-2026",
+  "plano": {
+    "titulo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil - Lula Alckmin 2023-2026 (Coligação Brasil da Esperança)",
+    "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+    "observacao": "Texto da versão registrada no TSE (agosto de 2022), lido a partir de espelho fiel publicado pelo Poder360 (também disponível em multimidia.gazetadopovo.com.br); o original está no DivulgaCandContas do TSE, não acessado diretamente. O documento tem 121 itens numerados; os trechos citados foram conferidos contra o texto extraído do PDF. A data em fonte_promessa (15/08/2022) é a do registro da candidatura."
+  },
+  "metodologia": "Seleção feita antes da apuração dos status: 40 compromissos, 30 extraídos do plano registrado no TSE e 10 de falas ou peças de campanha de 2022 com fonte jornalística e citação literal. Critérios de seleção: verificabilidade (ação, lei, programa ou meta observável), relevância pública e cobertura de 11 temas; itens genéricos do plano (valores, diagnósticos) foram descartados, e itens compostos foram divididos quando as partes tiveram desfechos distintos (ex.: legislação trabalhista). Status atribuídos pela régua: cumprida (entregue no essencial), parcial (entregue em parte ou abaixo do escopo), em_andamento (iniciado, sem entrega), nao_cumprida (nada relevante ou prazo vencido), na_contramao (medida oposta), sem_informacao (dados insuficientes). Avalia-se se o governo fez o que prometeu, não o mérito da política nem se o resultado dependeu do Congresso ou do STF; quando a entrega dependeu de terceiros, isso é registrado na explicação. Evidências priorizam fonte primária (lei, decreto, dado oficial de IBGE, Inpe, FAO, ministérios) e ao menos uma fonte jornalística independente; o rastreador Promessas dos Políticos do g1 (jul/2026) foi usado como pista e citado quando é a fonte do dado. O discurso na COP27 (16/11/2022) foi feito como presidente eleito, após a eleição, e está identificado como tal. Data de corte: 24/09/2026.",
+  "atualizado_em": "2026-09-24",
+  "compromissos": [
+    {
+      "id": "c1",
+      "tema": "economia",
+      "compromisso": "Revogar o teto de gastos e substituir o regime fiscal vigente.",
+      "trecho_promessa": "Vamos recolocar os pobres e os trabalhadores no orçamento. Para isso, é preciso revogar o teto de gastos e rever o atual regime fiscal brasileiro, atualmente disfuncional e sem credibilidade.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 51",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei Complementar 200/2023, sancionada em 30/08/2023, instituiu o 'regime fiscal sustentável' (arcabouço fiscal) em substituição ao teto de gastos. O novo regime mantém limites para o crescimento das despesas primárias.",
+      "evidencias": [
+        {
+          "trecho": "Lei do arcabouço fiscal é sancionada; novo regime substitui o teto de gastos públicos",
+          "veiculo": "Agência Câmara",
+          "url": "https://www.camara.leg.br/noticias/993734-lei-do-arcabouco-fiscal-e-sancionada-novo-regime-substitui-o-teto-de-gastos-publicos/",
+          "data": "2023-08-31"
+        },
+        {
+          "trecho": "Fica instituído regime fiscal sustentável para garantir a estabilidade macroeconômica do País",
+          "veiculo": "Planalto (Lei Complementar 200/2023)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+          "data": "2023-08-30"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "tema": "economia",
+      "compromisso": "Propor e aprovar reforma tributária que simplifique tributos e torne a tributação mais progressiva.",
+      "trecho_promessa": "Proporemos uma reforma tributária solidária, justa e sustentável, que simplifique tributos e em que os pobres paguem menos e os ricos paguem mais.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 53",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Emenda Constitucional 132/2023 e a Lei Complementar 214/2025 substituíram tributos sobre o consumo por IBS, CBS e Imposto Seletivo, com cashback para famílias de baixa renda e alíquota zero para a cesta básica. A transição para o novo sistema está em curso e parte das medidas ainda não foi implementada.",
+      "evidencias": [
+        {
+          "trecho": "Altera o Sistema Tributário Nacional.",
+          "veiculo": "Planalto (Emenda Constitucional 132/2023)",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+          "data": "2023-12-20"
+        },
+        {
+          "trecho": "Institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS)",
+          "veiculo": "Planalto (Lei Complementar 214/2025)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+          "data": "2025-01-16"
+        },
+        {
+          "trecho": "A reforma criou o sistema de cashback para famílias de baixa renda, zerou impostos sobre medicamentos e alimentos da cesta básica. Contudo, muitas inovações ainda não foram implementadas",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "tema": "economia",
+      "compromisso": "Aumentar a tributação da renda das pessoas de renda muito alta.",
+      "trecho_promessa": "Vamos fazer os muito ricos pagarem imposto de renda, utilizando os recursos arrecadados para investir de maneira inteligente em programas e projetos com alta capacidade de induzir o crescimento, promover a igualdade e gerar ganhos de produtividade.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 54",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.754/2023 passou a tributar fundos exclusivos e aplicações em offshores; a Lei 15.270/2025 criou, a partir de 2026, tributação mínima de IR de até 10% para pessoas com rendimentos acima de R$ 600 mil por ano.",
+      "evidencias": [
+        {
+          "trecho": "para tributar ou aumentar as alíquotas incidentes sobre fundos exclusivos (fundos de investimento com um único cotista) e aplicações em offshores",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/12/13/sancionada-nova-tributacao-para-fundos-de-investimentos-e-offshores",
+          "data": "2023-12-13"
+        },
+        {
+          "trecho": "a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas",
+          "veiculo": "Câmara dos Deputados (Lei 15.270/2025)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15270-26-novembro-2025-798354-publicacaooriginal-177117-pl.html",
+          "data": "2025-11-26"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "tema": "economia",
+      "compromisso": "Isentar do Imposto de Renda quem ganha até R$ 5 mil por mês.",
+      "trecho_promessa": "É preciso que haja uma política tributária progressiva, em que quem ganha mais, paga mais. Por isso é que nós estamos propondo que até R$ 5 mil as pessoas não vão mais pagar imposto de renda",
+      "fonte_promessa": {
+        "veiculo": "Valor Econômico (fala de Lula em Salvador)",
+        "url": "https://valor.globo.com/politica/eleicoes-2022/noticia/2022/10/12/em-salvador-lula-reitera-promessa-de-isencao-do-ir-ate-r-5-mil-e-defende-politica-tributaria-progressiva.ghtml",
+        "data": "2022-10-12"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 15.270/2025, sancionada em 26/11/2025, zera o IR sobre rendimentos mensais de até R$ 5 mil a partir de janeiro de 2026 e reduz o imposto de forma decrescente até R$ 7.350.",
+      "evidencias": [
+        {
+          "trecho": "O presidente da República, Luiz Inácio Lula da Silva, sancionou na quarta-feira (26) a isenção do Imposto de Renda da Pessoa Física (IRPF) para quem ganha até R$ 5 mil por mês.",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+          "data": "2025-11-27"
+        },
+        {
+          "trecho": "A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal",
+          "veiculo": "Câmara dos Deputados (Lei 15.270/2025)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15270-26-novembro-2025-798354-publicacaooriginal-177117-pl.html",
+          "data": "2025-11-26"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "tema": "economia",
+      "compromisso": "Substituir a política de preços de combustíveis atrelada à paridade internacional.",
+      "trecho_promessa": "O país precisa de uma transição para uma nova política de preços dos combustíveis e do gás, que considere os custos nacionais e que seja adequada à ampliação dos investimentos em refino e distribuição e à redução da carestia.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 58",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "Em 16/05/2023 a Petrobras substituiu o Preço de Paridade de Importação (PPI) por uma estratégia comercial baseada no custo alternativo do cliente e no valor marginal para a empresa.",
+      "evidencias": [
+        {
+          "trecho": "O anúncio encerra a subordinação obrigatória ao preço de paridade de importação",
+          "veiculo": "Agência Petrobras",
+          "url": "https://agencia.petrobras.com.br/w/petrobras-aprova-estrategia-comercial-de-diesel-e-gasolina",
+          "data": "2023-05-16"
+        },
+        {
+          "trecho": "em substituição à política de paridade de importação (PPI)",
+          "veiculo": "Valor Investe",
+          "url": "https://valorinveste.globo.com/mercados/renda-variavel/empresas/noticia/2023/05/16/petrobras-aprova-nova-estrategia-comercial-de-precos-para-gasolina-e-diesel-que-substitui-paridade.ghtml",
+          "data": "2023-05-16"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "tema": "infraestrutura",
+      "compromisso": "Ampliar a produção nacional de derivados com expansão do parque de refino.",
+      "trecho_promessa": "é preciso abrasileirar o preço dos combustíveis e ampliar a produção nacional de derivados, com expansão do parque de refino.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 58",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "Entre 2023 e 2025 a Petrobras ampliou em cerca de 48 mil barris/dia a capacidade de processamento, principalmente na RNEST. A principal obra, o Trem 2 da RNEST, teve contratos assinados em 2025 e conclusão prevista para 2029.",
+      "evidencias": [
+        {
+          "trecho": "Os projetos implementados, no período, elevaram em cerca de 48 kbpd a capacidade de processamento de petróleo",
+          "veiculo": "Agência Petrobras",
+          "url": "https://agencia.petrobras.com.br/w/petrobras-opera-com-alta-efici%C3%AAncia-amplia-refino-e-aumenta-produ%C3%A7%C3%A3o-de-combust%C3%ADveis-mais-limpos",
+          "data": "2026-01-21"
+        },
+        {
+          "trecho": "A previsão de partida total do segundo trem da refinaria pernambucana está programada para acontecer até 2029",
+          "veiculo": "Agência Petrobras",
+          "url": "https://agencia.petrobras.com.br/w/petrobras-conclui-assinaturas-de-contratos-para-o-trem-2-da-rnest",
+          "data": "2025-10-24"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "tema": "economia",
+      "compromisso": "Promover a renegociação de dívidas das famílias por meio de bancos públicos e incentivos a bancos privados.",
+      "trecho_promessa": "vamos promover a renegociação das dívidas das famílias e das pequenas e médias empresas por meio dos bancos públicos e incentivos aos bancos privados para oferecer condições adequadas de negociação com os devedores.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 60",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O Desenrola Brasil (julho de 2023 a maio de 2024) renegociou R$ 53 bilhões em dívidas de cerca de 15 milhões de pessoas, com garantia do Tesouro na faixa de baixa renda. Em maio de 2026 foi lançado o 'Novo Desenrola'. Esta avaliação não apurou separadamente a parte referente a pequenas e médias empresas.",
+      "evidencias": [
+        {
+          "trecho": "O Desenrola Brasil renegociou R$ 53,07 bilhões em dívidas (0,5% do Produto Interno Bruto), beneficiando 15,06 milhões de pessoas",
+          "veiculo": "O Globo",
+          "url": "https://oglobo.globo.com/economia/noticia/2024/05/21/desenrola-chega-ao-fim-com-reducao-de-87percent-da-inadimplencia-da-populacao-mais-vulneravel.ghtml",
+          "data": "2024-05-21"
+        },
+        {
+          "trecho": "Em maio de 2026, o governo anunciou o \"Novo Desenrola\".",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "tema": "economia",
+      "compromisso": "Retomar os estoques públicos reguladores de alimentos.",
+      "trecho_promessa": "Vamos estabelecer uma política nacional de abastecimento, que inclui a retomada dos estoques reguladores e a ampliação das políticas de financiamento e de apoio à produção de alimentos, aos pequenos agricultores e à agricultura orgânica.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 57",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "Segundo a Conab, os estoques públicos estavam zerados no início do mandato. A formação de estoques de arroz, milho e feijão foi retomada a partir de 2025, com metas de algumas centenas de milhares de toneladas; o plano não fixou volume.",
+      "evidencias": [
+        {
+          "trecho": "Segundo o presidente da Conab, João Edegar Pretto, quando o governo atual assumiu, os estoques estavam zerados.",
+          "veiculo": "Agência Câmara",
+          "url": "https://www.camara.leg.br/noticias/1158588-presidente-da-conab-garante-que-estoques-reguladores-estao-crescendo-e-preve-queda-nos-precos-dos-alimentos",
+          "data": "2025-05-14"
+        },
+        {
+          "trecho": "Queremos chegar até 300 mil toneladas de milho, 200 mil toneladas de arroz e 45 mil toneladas de feijão.",
+          "veiculo": "Agro Estadão",
+          "url": "https://agro.estadao.com.br/agropolitica/arroz-feijao-e-milho-sao-prioridade-diz-presidente-da-conab-sobre-formacao-de-estoques",
+          "data": "2025-03-10"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "tema": "economia",
+      "compromisso": "Não privatizar Petrobras, Pré-Sal Petróleo (PPSA) e Correios.",
+      "trecho_promessa": "Opomo-nos fortemente à privatização, em curso, da Petrobras e da Pré-Sal Petróleo S.A. (PPSA). [...] Opomo-nos à privatização dos Correios, uma empresa com importante função social, logística e capilaridade em todo o território nacional.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 77 e 79",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "Despacho de 1º/01/2023 determinou a revogação dos atos de privatização de Petrobras, PPSA e Correios, entre outras; o Decreto 11.478/2023 retirou Correios do PND e revogou a qualificação da PPSA no PPI. As três seguem sob controle estatal; os Correios passam por plano de reestruturação financeira.",
+      "evidencias": [
+        {
+          "trecho": "VII - a empresa Petróleo Brasileiro S.A. - Petrobras; e",
+          "veiculo": "Diário Oficial da União (despacho presidencial, via Poder360)",
+          "url": "https://static.poder360.com.br/2023/01/DOU-revogar-privatizacoes-2-jan-2023.pdf",
+          "data": "2023-01-02"
+        },
+        {
+          "trecho": "Ficam excluídos do PND e revogadas as qualificações no PPI: I - da Empresa Brasileira de Correios e Telégrafos - ECT;",
+          "veiculo": "Planalto (Decreto 11.478/2023)",
+          "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11478.htm",
+          "data": "2023-04-06"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "tema": "economia",
+      "compromisso": "Recuperar o papel público da Eletrobras, cuja privatização o plano condenava.",
+      "trecho_promessa": "Opomo-nos à privatização da Eletrobras, maior empresa de geração de energia elétrica da América Latina, responsável por metade das linhas de transmissão do país. Precisamos recuperar seu papel como patrimônio do povo",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 78",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "A privatização foi concluída em 2022, antes do mandato. O governo contestou no STF o limite de 10% no poder de voto da União; acordo homologado em dezembro de 2025 garantiu à União 3 das 10 vagas no conselho de administração, e a empresa permanece privada.",
+      "evidencias": [
+        {
+          "trecho": "firmaram, em abril de 2025, um acordo que permite à União indicar três dos 10 membros do conselho de administração",
+          "veiculo": "STF (notícia oficial)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-homologa-acordo-sobre-participacao-da-uniao-na-eletrobras/",
+          "data": "2025-12-11"
+        },
+        {
+          "trecho": "Em troca, o governo se compromete a não contestar mais o voting cap (limite máximo de votos).",
+          "veiculo": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/stf-homologa-integralmente-acordo-da-desestatizacao-da-eletrobras/",
+          "data": "2025-12-11"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "tema": "trabalho",
+      "compromisso": "Retomar a política de valorização do salário mínimo com aumento real todo ano.",
+      "trecho_promessa": "Esperem e se preparem, porque, a partir de janeiro, o salário mínimo vai aumentar todo ano, de acordo com o crescimento da nossa economia",
+      "fonte_promessa": {
+        "veiculo": "Agência Brasil (ato de campanha em Nova Iguaçu)",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2022-09/lula-diz-que-aumentara-salario-minimo-acima-da-inflacao",
+        "data": "2022-09-09"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.663/2023 restabeleceu a regra INPC + crescimento do PIB de dois anos antes, e houve reajuste acima da inflação em todos os anos do mandato (R$ 1.621 em 2026). Desde 2025 o ganho real é limitado a 2,5% pela Lei 15.077/2024, abaixo do que a fórmula original daria.",
+      "evidencias": [
+        {
+          "trecho": "A partir de 1º de janeiro de 2026, o valor do salário mínimo será de R$ 1.621,00",
+          "veiculo": "Planalto (Decreto 12.797/2025)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm",
+          "data": "2025-12-23"
+        },
+        {
+          "trecho": "o novo arcabouço fiscal limita o ganho real a um intervalo entre 0,6% e 2,5%. Com a aplicação da trava, o crescimento econômico incorporado foi de 2,5%.",
+          "veiculo": "Exame",
+          "url": "https://exame.com/economia/salario-minimo-vai-a-r-1-621-em-2026-entenda-o-reajuste/",
+          "data": "2025-12-24"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "tema": "trabalho",
+      "compromisso": "Propor legislação de proteção a trabalhadores autônomos e mediados por aplicativos.",
+      "trecho_promessa": "O novo governo irá propor, a partir de um amplo debate e negociação, uma nova legislação trabalhista de extensa proteção social a todas as formas de ocupação, de emprego e de relação de trabalho, com especial atenção aos autônomos, aos que trabalham por conta própria, trabalhadores e trabalhadoras domésticas, teletrabalho e trabalhadores em home office, mediados por aplicativos e plataformas",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 13",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "em_andamento",
+      "explicacao": "O Executivo enviou em março de 2024 o PLP 12/2024 (motoristas de aplicativo), que não foi votado; uma comissão especial da Câmara analisa proposta alternativa (PLP 152/2025). Não há lei aprovada até 24/09/2026.",
+      "evidencias": [
+        {
+          "trecho": "Situação: Pronta para Pauta na Comissão de Indústria, Comércio e Serviços (CICS)",
+          "veiculo": "Câmara dos Deputados (ficha do PLP 12/2024)",
+          "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2419243",
+          "data": "2026-05-12"
+        },
+        {
+          "trecho": "A comissão especial da Câmara dos Deputados que analisa a regulamentação dos serviços de transporte e entrega por aplicativo no país cancelou a reunião desta terça-feira (14).",
+          "veiculo": "Agência Câmara",
+          "url": "https://www.camara.leg.br/noticias/1261809-comissao-pode-votar-regulamentacao-do-trabalho-por-aplicativo-conheca-a-proposta",
+          "data": "2026-04-14"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "tema": "trabalho",
+      "compromisso": "Revogar pontos da reforma trabalhista de 2017 e restabelecer o acesso gratuito à Justiça do Trabalho.",
+      "trecho_promessa": "revogando os marcos regressivos da atual legislação trabalhista, agravados pela última reforma e reestabelecendo o acesso gratuito à justiça do trabalho.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 13",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "nao_cumprida",
+      "explicacao": "Nenhuma lei revisando a reforma de 2017 foi aprovada; no início do mandato o ministro do Trabalho descartou a revogação e falou em revisão fatiada, que não chegou a ser votada. Levantamento do g1 registra que a gratuidade na Justiça do Trabalho não avançou.",
+      "evidencias": [
+        {
+          "trecho": "afirmou que o governo federal não vai revogar a legislação trabalhista",
+          "veiculo": "Valor Econômico",
+          "url": "https://valor.globo.com/politica/noticia/2023/01/03/governo-descarta-revogaco-mas-fara-reforma-trabalhista-fatiada-diz-marinho.ghtml",
+          "data": "2023-01-03"
+        },
+        {
+          "trecho": "E a retomada da gratuidade na Justiça do Trabalho não avançou.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "tema": "direitos",
+      "compromisso": "Garantir por lei salários iguais para mulheres e homens no mesmo trabalho.",
+      "trecho_promessa": "Vamos construir um país que caminhe rumo à equidade de direitos, salários iguais para trabalhos iguais em todas as profissões",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 36",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.611/2023 tornou obrigatória a igualdade salarial entre mulheres e homens e exige relatórios semestrais de transparência salarial de empresas com 100 ou mais empregados.",
+      "evidencias": [
+        {
+          "trecho": "A igualdade salarial e de critérios remuneratórios entre mulheres e homens para a realização de trabalho de igual valor ou no exercício da mesma função é obrigatória",
+          "veiculo": "Planalto (Lei 14.611/2023)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14611.htm",
+          "data": "2023-07-03"
+        },
+        {
+          "trecho": "A nova lei também obriga a publicação semestral de relatórios de transparência salarial pelas empresas",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2023/07/04/sancionada-lei-de-igualdade-salarial-entre-mulheres-e-homens",
+          "data": "2023-07-04"
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "tema": "programas_sociais",
+      "compromisso": "Bolsa Família com piso de R$ 600 e adicional de R$ 150 por criança de até 6 anos.",
+      "trecho_promessa": "O Lulinha vai garantir o Bolsa Família de R$ 600 com adicional de R$ 150 por criança de até 6 anos",
+      "fonte_promessa": {
+        "veiculo": "Folha de S.Paulo (peça da campanha 'Lulaverso')",
+        "url": "https://www1.folha.uol.com.br/mercado/2022/08/campanha-de-lula-lanca-ofensiva-e-promete-adicional-de-r-150-por-crianca-ate-6-anos-no-bolsa-familia.shtml",
+        "data": "2022-08-29"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.601/2023 recriou o Bolsa Família com valor mínimo de R$ 600 por família e Benefício Primeira Infância de R$ 150 por criança de 0 a 6 anos, pagos desde 2023.",
+      "evidencias": [
+        {
+          "trecho": "Benefício Primeira Infância, no valor de R$ 150,00 (cento e cinquenta reais) por criança",
+          "veiculo": "Planalto (Lei 14.601/2023)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+          "data": "2023-06-19"
+        },
+        {
+          "trecho": "Segundo o governo, todas as famílias beneficiárias recebem no mínimo R$ 600, acrescidos do adicional de R$ 150 por criança de até seis anos.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "tema": "programas_sociais",
+      "compromisso": "Priorizar o combate à fome até que todos tenham três refeições por dia (retirar o país do Mapa da Fome).",
+      "trecho_promessa": "Além de uma questão de soberania, o enfrentamento da fome exigirá mais empregos e mais renda para os mais pobres e será prioridade em nosso governo. Trabalharemos de forma incansável até que todos os brasileiros e as brasileiras tenham novamente direito ao menos a três refeições de qualidade por dia.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 18",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O relatório SOFI 2025 da FAO registrou subalimentação abaixo de 2,5% no triênio 2022-2024, critério que retira o país do Mapa da Fome. A insegurança alimentar grave caiu para 3,4% no mesmo triênio, ou seja, não foi zerada.",
+      "evidencias": [
+        {
+          "trecho": "No triênio de 2022 a 2024, o Brasil registrou, em média, menos de 2,5% da população em situação de subalimentação.",
+          "veiculo": "FAO Brasil",
+          "url": "https://www.fao.org/brasil/noticias/detail-events/en/c/1741586/",
+          "data": "2025-08-13"
+        },
+        {
+          "trecho": "houve uma redução de 6,6% entre 2021 e 2023 para 3,4% no último triênio (2022-2024)",
+          "veiculo": "FAO Brasil",
+          "url": "https://www.fao.org/brasil/noticias/detail-events/en/c/1741586/",
+          "data": "2025-08-13"
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "tema": "programas_sociais",
+      "compromisso": "Recuperar o poder de compra para que a população volte a consumir carne ('picanha') e cerveja.",
+      "trecho_promessa": "O povo tem que voltar a comer um churrasquinho, a comer uma picanha e tomar uma cervejinha",
+      "fonte_promessa": {
+        "veiculo": "Correio Braziliense (entrevista ao Jornal Nacional)",
+        "url": "https://www.correiobraziliense.com.br/politica/2022/08/5032120-lula-no-jn-o-povo-tem-que-voltar-a-comer-churrasquinho-e-picanha.html",
+        "data": "2022-08-25"
+      },
+      "status": "parcial",
+      "explicacao": "A promessa não fixou meta. O preço da picanha no IPCA caiu 10,69% em 2023 e subiu 8,74% em 2024 e 2,82% em 2025; o consumo de carne bovina por habitante atingiu 38 kg em 2024 (maior desde 2014) e recuou em 2025. Em junho de 2026, um salário mínimo comprava a menor quantidade de picanha da série iniciada em 2023.",
+      "evidencias": [
+        {
+          "trecho": "Conforme o IBGE, os preços da picanha haviam acumulado alta de 8,74% em 2024 e queda de 10,69% em 2023",
+          "veiculo": "Farol da Bahia (dados do IPCA/IBGE)",
+          "url": "https://www.faroldabahia.com.br/noticia/picanha-sobe-menos-no-3o-ano-do-governo-lula-3-e-inflacao-da-cerveja-acelera",
+          "data": "2026-01-09"
+        },
+        {
+          "trecho": "o poder de compra recuou para o menor patamar da série em junho: 19,05 quilos",
+          "veiculo": "CNN Brasil (levantamento Safras & Mercado)",
+          "url": "https://www.cnnbrasil.com.br/agro/preco-da-picanha-pode-mudar-debate-eleitoral/",
+          "data": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "tema": "saude",
+      "compromisso": "Retomar o programa Mais Médicos.",
+      "trecho_promessa": "Reafirmamos o nosso compromisso com o fortalecimento do SUS público e universal, o aprimoramento da sua gestão, a valorização e formação de profissionais de saúde, a retomada de políticas como o Mais Médicos e o Farmácia Popular",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 24",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O Mais Médicos foi relançado em 2023 (Lei 14.621/2023) e passou de cerca de 13,7 mil médicos em 2022 para mais de 26 mil em 2025, segundo o Ministério da Saúde.",
+      "evidencias": [
+        {
+          "trecho": "No total, são 26,4 mil profissionais, o que representa o dobro de médicos em comparação a 2022.",
+          "veiculo": "Ministério da Saúde",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-com-ciencia/noticias/2025/agosto/tudo-o-que-voce-precisa-saber-sobre-o-programa-mais-medicos",
+          "data": "2025-08-15"
+        },
+        {
+          "trecho": "O número de médicos participantes subiu de 13.716 em 2022 para 27.329 em 2025.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c19",
+      "tema": "saude",
+      "compromisso": "Retomar e fortalecer o Farmácia Popular.",
+      "trecho_promessa": "a retomada de políticas como o Mais Médicos e o Farmácia Popular",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 24",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O credenciamento de farmácias foi reaberto em 2023, beneficiários do Bolsa Família passaram a ter gratuidade total e, desde fevereiro de 2025, os 41 itens do programa são gratuitos para toda a população; o número de atendidos subiu de 20,7 milhões (2022) para 24,7 milhões (2024).",
+      "evidencias": [
+        {
+          "trecho": "A partir de agora, todos os 41 itens do programa passam a ser distribuídos de graça nas farmácias credenciadas.",
+          "veiculo": "Secom/Presidência",
+          "url": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/noticias/2025/02/todos-os-medicamentos-do-farmacia-popular-serao-gratuitos-a-toda-a-populacao",
+          "data": "2025-02-13"
+        },
+        {
+          "trecho": "Em 2024, o total de pessoas atendidas pelo Farmácia Popular foi de 24,7 milhões, que representa um aumento de 20% em relação a 2022",
+          "veiculo": "g1",
+          "url": "https://g1.globo.com/saude/noticia/2025/02/13/farmacia-popular-tera-100percent-de-gratuidade-anuncia-ministerio-da-saude.ghtml",
+          "data": "2025-02-13"
+        }
+      ]
+    },
+    {
+      "id": "c20",
+      "tema": "saude",
+      "compromisso": "Retomar o Programa Nacional de Imunizações e recuperar as coberturas vacinais.",
+      "trecho_promessa": "É urgente dar condições ao SUS para retomar o atendimento às demandas que foram represadas durante a pandemia, atender as pessoas com sequelas da covid-19 e retomar o reconhecido programa nacional de vacinação.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 23",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "Após o Movimento Nacional pela Vacinação (2023), as coberturas infantis voltaram a subir e o número de crianças sem a primeira dose da pentavalente caiu de 360 mil (2023) para 50 mil (2025), segundo OMS/Unicef. Parte das vacinas ainda não atinge a meta de 95% em todos os estados.",
+      "evidencias": [
+        {
+          "trecho": "o número de crianças zero-dose no Brasil caiu de 360 mil, em 2023, para 255 mil em 2024, alcançando 50 mil em 2025.",
+          "veiculo": "Ministério da Saúde (dados WUENIC OMS/Unicef)",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/oms-e-unicef-destacam-avanco-do-brasil-em-vacinacao",
+          "data": "2026-07-15"
+        },
+        {
+          "trecho": "nenhuma das vacinas infantis do calendário nacional atingiu as metas de cobertura estabelecidas pelo PNI em todos os estados em 2023",
+          "veiculo": "SBIm (Anuário VacinaBR 2025)",
+          "url": "https://sbim.org.br/noticias/anuario-vacinabr-analisa-cenario-das-coberturas-vacinais-no-brasil",
+          "data": "2025-06-18"
+        }
+      ]
+    },
+    {
+      "id": "c21",
+      "tema": "saude",
+      "compromisso": "Atender a demanda de consultas, exames e cirurgias represada na pandemia.",
+      "trecho_promessa": "É urgente dar condições ao SUS para retomar o atendimento às demandas que foram represadas durante a pandemia",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 23",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "O governo criou o Programa Nacional de Redução das Filas (2023), depois incorporado ao Agora Tem Especialistas (2025), e ampliou cirurgias eletivas; o Ministério da Saúde reconhece que a fila não foi eliminada e não há medida pública do tamanho atual da espera.",
+      "evidencias": [
+        {
+          "trecho": "O Ministério da Saúde afirma que o programa Agora Tem Especialistas, em 2025, promoveu 14,9 milhões de cirurgias eletivas e mais de um bilhão de consultas e exames. No entanto, a pasta afirma não ter havido a extinção total da fila.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c22",
+      "tema": "educacao",
+      "compromisso": "Criar programa de recuperação da aprendizagem para alunos defasados pela pandemia.",
+      "trecho_promessa": "afirmamos o compromisso do novo governo com um programa de recuperação educacional concomitante a educação regular, para que possam superar esse grave déficit de aprendizagem.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 21",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O Pacto Nacional pela Recomposição das Aprendizagens foi apresentado em 2024 e instituído pelo Decreto 12.391/2025, com apoio técnico e financeiro a redes estaduais e municipais; não há dados públicos consolidados sobre sua execução nas redes.",
+      "evidencias": [
+        {
+          "trecho": "O Governo Federal instituiu o Pacto Nacional pela Recomposição das Aprendizagens, voltado à educação básica, nesta quarta-feira, 5 de março.",
+          "veiculo": "Ministério da Educação",
+          "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2025/marco/decreto-institui-pacto-pela-recomposicao-das-aprendizagens",
+          "data": "2025-03-05"
+        },
+        {
+          "trecho": "O programa, portanto, foi instituído, mas o governo não forneceu dados que permitam aferir se os estados e municípios colocaram as medidas em prática.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c23",
+      "tema": "educacao",
+      "compromisso": "Universalizar internet de qualidade na rede pública de educação básica.",
+      "trecho_promessa": "Paralelamente, é dever do Estado universalizar o acesso à internet de qualidade, garantindo a democratização de seu uso por toda a população, especialmente na rede pública de educação básica.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 119",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "A Estratégia Nacional de Escolas Conectadas (2023) elevou a parcela de escolas públicas com conectividade adequada de 45,4% (2023) para 78,7% (julho de 2026); a universalização não foi alcançada.",
+      "evidencias": [
+        {
+          "trecho": "108.658 escolas estão conectadas dentro dos parâmetros adequados, classificadas nos níveis 4 e 5 do Indicador Escolas Conectadas (Inec), o que corresponde a 78,7% das 138.086 escolas monitoradas.",
+          "veiculo": "Ministério da Educação",
+          "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/setembro/painel-do-mec-mostra-dados-de-conectividade-de-138-mil-escolas-publicas",
+          "data": "2026-09-03"
+        },
+        {
+          "trecho": "A universalização prometida, contudo, não foi entregue",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c24",
+      "tema": "educacao",
+      "compromisso": "Recompor o financiamento de ciência e tecnologia (FNDCT, CNPq e Capes).",
+      "trecho_promessa": "Para tal, é necessário recompor o sistema nacional de fomento do desenvolvimento científico e tecnológico, via fundos e agências públicas como o FNDCT, o CNPq e a CAPES.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 81",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O FNDCT foi executado integralmente, sem contingenciamento, em 2023 e 2024 (R$ 12,7 bilhões em 2024), e as bolsas do CNPq e da Capes foram reajustadas em 2023 (40% no mestrado e doutorado), primeiro reajuste desde 2013.",
+      "evidencias": [
+        {
+          "trecho": "em 2023, o presidente Luiz Inácio Lula da Silva assegurou a liberação total do fundo",
+          "veiculo": "Ministério da Ciência, Tecnologia e Inovação",
+          "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/01/fndct-bate-recordes-seguidos-em-investimentos-em-ct-i",
+          "data": "2025-01-17"
+        },
+        {
+          "trecho": "O aumento das bolsas será de 40% para os alunos do mestrado e doutorado",
+          "veiculo": "CNPq",
+          "url": "https://www.gov.br/cnpq/pt-br/assuntos/noticias/cnpq-em-acao/governo-federal-anuncia-reajuste-de-bolsas-do-cnpq-e-da-capes",
+          "data": "2023-02-16"
+        }
+      ]
+    },
+    {
+      "id": "c25",
+      "tema": "direitos",
+      "compromisso": "Manter e ampliar as cotas sociais e raciais no ensino superior e em concursos federais.",
+      "trecho_promessa": "Asseguraremos a continuidade das políticas de cotas sociais e raciais na educação superior e nos concursos públicos federais, bem como sua ampliação para outras políticas públicas.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 39",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.723/2023 renovou e alterou a Lei de Cotas no ensino federal; a Lei 15.142/2025 elevou de 20% para 30% a reserva em concursos federais e incluiu indígenas e quilombolas.",
+      "evidencias": [
+        {
+          "trecho": "Altera a Lei nº 12.711, de 29 de agosto de 2012, para dispor sobre o programa especial para o acesso às instituições federais de educação superior",
+          "veiculo": "Câmara dos Deputados (Lei 14.723/2023)",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14723-13-novembro-2023-794926-publicacaooriginal-169999-pl.html",
+          "data": "2023-11-13"
+        },
+        {
+          "trecho": "Por pelo menos mais dez anos, está garantida às pessoas pretas e pardas, aos indígenas e aos quilombolas a reserva de 30% das vagas oferecidas em concursos públicos e em processos seletivos da União.",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2025/06/06/lei-amplia-a-30-as-vagas-para-negros-indigenas-e-quilombolas-em-concursos",
+          "data": "2025-06-06"
+        }
+      ]
+    },
+    {
+      "id": "c26",
+      "tema": "seguranca",
+      "compromisso": "Implementar e aprimorar o Sistema Único de Segurança Pública, com reformas institucionais.",
+      "trecho_promessa": "O governo federal vai implementar e aprimorar o Sistema Único de Segurança Pública, modernizando estratégias, instrumentos e mecanismos de governança e gestão.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 32",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "em_andamento",
+      "explicacao": "A PEC da Segurança Pública (PEC 18/2025), enviada em abril de 2025, constitucionaliza o Susp; foi aprovada pela Câmara em março de 2026 e pela CCJ do Senado em 02/09/2026, e aguarda votação no plenário do Senado.",
+      "evidencias": [
+        {
+          "trecho": "A Comissão de Constituição e Justiça (CCJ) aprovou nesta quarta-feira (2) a PEC da Segurança Pública.",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/09/02/pec-da-seguranca-ccj-aprova-texto-base-com-retirada-de-regra-sobre-bets",
+          "data": "2026-09-02"
+        },
+        {
+          "trecho": "a PEC da Segurança Pública só deve ser votada em plenário no próximo esforço concentrado, previsto para a segunda semana de outubro",
+          "veiculo": "Brasil de Fato",
+          "url": "https://www.brasildefato.com.br/2026/09/02/ccj-do-senado-aprova-texto-base-da-pec-da-seguranca-publica/",
+          "data": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "id": "c27",
+      "tema": "seguranca",
+      "compromisso": "Criar (recriar) o Ministério da Segurança Pública.",
+      "trecho_promessa": "Nós estamos propondo a criação do Ministério da Segurança Pública, sem que haja nenhuma interferência na política do estado.",
+      "fonte_promessa": {
+        "veiculo": "g1 (encontro com governadores em São Paulo)",
+        "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2022/noticia/2022/08/30/lula-se-reune-com-governadores-e-propoe-recriacao-do-ministerio-da-seguranca-publica.ghtml",
+        "data": "2022-08-30"
+      },
+      "status": "nao_cumprida",
+      "explicacao": "O ministério não foi criado; a Segurança Pública continua no Ministério da Justiça. Em 2026 Lula condicionou a criação à aprovação da PEC da Segurança, ainda pendente no Senado.",
+      "evidencias": [
+        {
+          "trecho": "O presidente Lula decidiu não criar um ministério exclusivo para Segurança Pública, ideia considerada arriscada em ano eleitoral.",
+          "veiculo": "O Globo",
+          "url": "https://oglobo.globo.com/politica/noticia/2026/01/13/lula-desiste-de-criar-ministerio-para-seguranca-e-governo-teme-o-futuro-de-pec-no-congresso.ghtml",
+          "data": "2026-01-13"
+        },
+        {
+          "trecho": "A promessa de recriar um ministério da área, que existiu no governo de Michel Temer, não foi cumprida até o momento.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c28",
+      "tema": "moradia",
+      "compromisso": "Retomar um amplo programa habitacional com financiamento adequado a cada público.",
+      "trecho_promessa": "Voltaremos a ter um amplo programa de acesso à moradia, com mecanismos de financiamento adequados a cada tipo de público.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 30",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O Minha Casa, Minha Vida foi relançado (Lei 14.620/2023) com faixas até renda de classe média; o governo informa 2 milhões de unidades contratadas até janeiro de 2026 e 1,4 milhão entregues desde 2023.",
+      "evidencias": [
+        {
+          "trecho": "O Ministério das Cidades também celebra, na ocasião, a marca de 2 milhões de moradias contratadas pelo programa desde 2023",
+          "veiculo": "Ministério das Cidades",
+          "url": "https://www.gov.br/cidades/pt-br/assuntos/noticias-1/noticia-mcid-1896",
+          "data": "2026-01-21"
+        },
+        {
+          "trecho": "Em todo o país, são 1,4 milhão de unidades finalizadas e entregues pelo programa habitacional desde 2023.",
+          "veiculo": "Secom/Presidência",
+          "url": "https://www.gov.br/secom/pt-br/assuntos/noticias-regionalizadas/mcmv-2023-a-jan.2026/minha-casa-minha-vida-entrega-63-4-mil-residencias-no-rio-de-janeiro-desde-2023",
+          "data": "2026-03-30"
+        }
+      ]
+    },
+    {
+      "id": "c29",
+      "tema": "infraestrutura",
+      "compromisso": "Retomar obras públicas paralisadas.",
+      "trecho_promessa": "Retomaremos obras importantes que foram paralisadas pelo atual governo, que não faz, mas tenta se apropriar de obras que recebeu praticamente concluídas.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 73",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "O Pacto Nacional pela Retomada de Obras (Lei 14.719/2023) repactuou milhares de obras de educação e um pacto semelhante foi criado na saúde; das cerca de 3,7 mil obras de educação que aderiram, 753 (20%) estavam concluídas em abril de 2026.",
+      "evidencias": [
+        {
+          "trecho": "Dessas, 3,7 mil aderiram ao programa, mas só 753 (20%) foram concluídas três anos depois.",
+          "veiculo": "O Globo",
+          "url": "https://oglobo.globo.com/brasil/educacao/noticia/2026/04/24/pacto-de-lula-3-para-retomar-obras-na-educacao-so-concluiu-20percent-das-construcoes-em-tres-anos.ghtml",
+          "data": "2026-04-24"
+        },
+        {
+          "trecho": "Lei nº 14.719/23 já permitiu a retomada de 1.295 obras da educação básica em todo o país e a conclusão de outras 206",
+          "veiculo": "FNDE",
+          "url": "https://www.gov.br/fnde/pt-br/assuntos/noticias/brasil-reduz-quase-50-das-obras-inacabadas-e-paralisadas-na-educacao-em-um-ano-de-vigencia-da-lei-do-pacto-pela-retomada",
+          "data": "2024-10-16"
+        }
+      ]
+    },
+    {
+      "id": "c30",
+      "tema": "meio_ambiente",
+      "compromisso": "Zerar o desmatamento na Amazônia e demais biomas até 2030.",
+      "trecho_promessa": "Não há segurança climática para o mundo sem Amazônia protegida. Não mediremos esforços para zerar o desmatamento e a degradação de nossos biomas até 2030",
+      "fonte_promessa": {
+        "veiculo": "Conexão Planeta/Observatório do Clima (discurso na COP27 como presidente eleito; o plano, item 94, fala em 'desmatamento líquido zero')",
+        "url": "https://conexaoplaneta.com.br/blog/nao-ha-seguranca-climatica-para-o-mundo-sem-amazonia-protegida-afirma-lula-na-cop27/",
+        "data": "2022-11-17"
+      },
+      "status": "em_andamento",
+      "explicacao": "A taxa anual de desmatamento na Amazônia (Prodes/Inpe) caiu de 11.594 km² (2022) para 5.731 km² (2025), menor em onze anos, mas ainda distante de zero; o prazo prometido é 2030.",
+      "evidencias": [
+        {
+          "trecho": "O valor consolidado da taxa de desmatamento para os nove estados da ALB entre o período de 1º de agosto de 2024 e 31 de julho de 2025 foi de 5.731 km",
+          "veiculo": "Inpe (nota técnica Prodes 2025)",
+          "url": "https://data.inpe.br/wp-content/uploads/sites/3/2026/03/A-taxa-consolidada-de-desmatamento-para-os-nove-estados-da-Amazonia-Legal-para-2025-e-de-5.731-km2.pdf",
+          "data": "2026-03-03"
+        },
+        {
+          "trecho": "A taxa consolidada de desmatamento para os nove estados da Amazônia Legal em 2022 foi de 11.594 km²",
+          "veiculo": "Inpe (Biblioteca Digital)",
+          "url": "http://urlib.net/sid.inpe.br/mtc-m21d/2023/12.29.14.20",
+          "data": "2023-12-29"
+        }
+      ]
+    },
+    {
+      "id": "c31",
+      "tema": "meio_ambiente",
+      "compromisso": "Combater a mineração ilegal, sobretudo na Amazônia.",
+      "trecho_promessa": "O padrão de regulação minerária deve ser aperfeiçoado e a mineração ilegal, particularmente na Amazônia, será duramente combatida.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 70",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O governo mantém operação permanente contra o garimpo na Terra Indígena Yanomami desde 2023, com redução de mais de 90% da área de garimpo ativo segundo o governo; o Instituto Socioambiental registra que a atividade continua em áreas menores. O aperfeiçoamento da regulação minerária não foi avaliado aqui.",
+      "evidencias": [
+        {
+          "trecho": "A área de garimpo ativo dentro do território indígena sofreu uma redução expressiva de 94,11%",
+          "veiculo": "Ministério dos Povos Indígenas",
+          "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2025/03/casa-de-governo-completa-1-ano-com-queda-historica-do-garimpo-ilegal-na-terra-indigena-yanomami",
+          "data": "2025-03-25"
+        },
+        {
+          "trecho": "Apesar da redução, a atividade garimpeira continua no território três anos após o governo federal decretar emergência em saúde na região",
+          "veiculo": "g1 (relatório do ISA)",
+          "url": "https://g1.globo.com/rr/roraima/noticia/2026/05/22/area-degradada-pelo-garimpo-cai-mas-atividade-muda-estrategia-e-segue-na-terra-indigena-yanomami.ghtml",
+          "data": "2026-05-22"
+        }
+      ]
+    },
+    {
+      "id": "c32",
+      "tema": "direitos",
+      "compromisso": "Assegurar a posse das terras indígenas (demarcação).",
+      "trecho_promessa": "Estamos comprometidos com a proteção dos direitos e dos territórios dos povos indígenas, quilombolas e populações tradicionais. Temos o dever de assegurar a posse de suas terras, impedindo atividades predatórias, que prejudiquem seus direitos.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 40",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "O governo homologou 20 terras indígenas entre 2023 e novembro de 2025 (nenhuma havia sido homologada em 2019-2022), mas a maioria das reivindicações segue pendente; o Congresso aprovou a Lei 14.701/2023 (marco temporal) e derrubou o veto presidencial.",
+      "evidencias": [
+        {
+          "trecho": "Com isso, chega a 20 o número de territórios homologados desde 2023",
+          "veiculo": "Funai",
+          "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2025/com-mais-quatro-homologacoes-sobe-para-20-o-numero-de-terras-homologadas-pelo-presidente-lula",
+          "data": "2025-11-18"
+        },
+        {
+          "trecho": "Dessas, 62,2% ainda aguardam alguma medida administrativa para regularização.",
+          "veiculo": "Metrópoles (relatório do Cimi)",
+          "url": "https://www.metropoles.com/brasil/lula-registra-menor-media-de-terras-indigenas-demarcadas-no-3o-mandato",
+          "data": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "id": "c33",
+      "tema": "direitos",
+      "compromisso": "Criar um ministério para os povos indígenas, chefiado por indígena.",
+      "trecho_promessa": "Ora, se a gente criou o Ministério da Igualdade Racial, se a gente criou o dos Direitos Humanos, se a gente criou o Ministério da Pesca, por que a gente não pode criar o ministério para discutir as questões indígenas?",
+      "fonte_promessa": {
+        "veiculo": "Folha de S.Paulo (discurso no Acampamento Terra Livre)",
+        "url": "https://www1.folha.uol.com.br/poder/2022/04/lula-promete-ministerio-a-indigenas-e-faz-mea-culpa-em-visita-a-acampamento.shtml",
+        "data": "2022-04-12"
+      },
+      "status": "cumprida",
+      "explicacao": "O Ministério dos Povos Indígenas foi criado em 1º de janeiro de 2023, sob comando de Sonia Guajajara.",
+      "evidencias": [
+        {
+          "trecho": "O ministério foi criado em 1º de janeiro de 2023, sob o comando de Sonia Guajajara.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c34",
+      "tema": "direitos",
+      "compromisso": "Implantar o Sistema Nacional de Cultura.",
+      "trecho_promessa": "Defendemos a implantação do Sistema Nacional de Cultura e a adoção da política de descentralização de recursos para Estados e o maior número possível de municípios",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 26",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "A Lei 14.835/2024 instituiu o marco regulatório do Sistema Nacional de Cultura, previsto na Constituição desde 2012. A descentralização de recursos não foi avaliada separadamente aqui.",
+      "evidencias": [
+        {
+          "trecho": "Esta Lei institui o marco regulatório do Sistema Nacional de Cultura (SNC)",
+          "veiculo": "Planalto (Lei 14.835/2024)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14835.htm",
+          "data": "2024-04-04"
+        },
+        {
+          "trecho": "O presidente da República, Luiz Inácio Lula da Silva, sancionou, com veto parcial, o marco regulatório do Sistema Nacional de Cultura.",
+          "veiculo": "Agência Senado",
+          "url": "https://www12.senado.leg.br/noticias/materias/2024/04/05/sancionado-o-marco-regulatorio-do-sistema-nacional-de-cultura",
+          "data": "2024-04-05"
+        }
+      ]
+    },
+    {
+      "id": "c35",
+      "tema": "gestao",
+      "compromisso": "Restaurar instâncias de participação social extintas e criar participação popular na elaboração do orçamento.",
+      "trecho_promessa": "Precisamos retomar o processo coletivo e participativo de construção de políticas públicas por meio da restauração de todas as instâncias de participação social extintas pelo atual governo [...] Constituiremos novas instâncias de participação popular direta para assegurar ainda maior participação social, inclusive na elaboração do orçamento federal",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 108 e 109",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "Em 2023 o governo criou o Conselho de Participação Social, reinstalou o Consea e restabeleceu ou reorganizou outros conselhos; o PPA 2024-2027 foi elaborado com 27 plenárias estaduais e plataforma digital. Não foi localizado inventário público confirmando a restauração de cada uma das instâncias extintas em 2019.",
+      "evidencias": [
+        {
+          "trecho": "assinou dois decretos que criam o Conselho de Participação Social e o Sistema de Participação Social Interministerial",
+          "veiculo": "Secretaria-Geral da Presidência",
+          "url": "https://www.gov.br/secretariageral/pt-br/noticias/2023/janeiro/governo-cria-conselho-de-participacao-social-e-reabre-dialogo-com-movimentos-sociais",
+          "data": "2023-01-31"
+        },
+        {
+          "trecho": "editou na quinta-feira, 6, decretos que restabelecem ou reorganizam o funcionamento de oito conselhos do governo federal",
+          "veiculo": "Correio Braziliense (Agência Estado)",
+          "url": "https://www.correiobraziliense.com.br/politica/2023/04/5085752-lula-restabelece-8-conselhos-do-governo-com-participacao-da-sociedade-civil.html",
+          "data": "2023-04-07"
+        },
+        {
+          "trecho": "Com a presença de 34.310 pessoas em plenárias nas 27 capitais brasileiras, com 1,4 milhão de inscritos na plataforma digital",
+          "veiculo": "Secretaria-Geral da Presidência",
+          "url": "https://www.gov.br/secretariageral/pt-br/ppa-participativo/noticias/ppa-participativo-entregue-ao-congresso-nacional-incluiu-76-das-principais-propostas-e-programas-analisados-pelo-governo-federal",
+          "data": "2023-09-01"
+        }
+      ]
+    },
+    {
+      "id": "c36",
+      "tema": "gestao",
+      "compromisso": "Revogar os sigilos de 100 anos impostos no governo anterior e garantir a Lei de Acesso à Informação.",
+      "trecho_promessa": "Eu vou revogar todos os decretos de sigilo de 100 anos porque não há possibilidade.",
+      "fonte_promessa": {
+        "veiculo": "g1 (entrevista à Rádio Metrópole; o plano, item 113, promete 'garantir o cumprimento da Lei de Acesso à Informação')",
+        "url": "https://g1.globo.com/ba/bahia/eleicoes/2022/noticia/2022/07/01/lula-diz-que-se-eleito-revogara-decretos-de-bolsonaro-sob-sigilo-de-100-anos-no-1o-dia-de-governo.ghtml",
+        "data": "2022-07-01"
+      },
+      "status": "parcial",
+      "explicacao": "A CGU revisou sigilos do governo anterior e abriu a maioria dos casos analisados (2023) e depois limitou o prazo presumido a 15 anos (2024). O próprio governo negou 1.339 pedidos em 2023 com base em dados pessoais, patamar semelhante a 2022, e o projeto de lei anunciado para acabar com o prazo de 100 anos não havia sido enviado até janeiro de 2025.",
+      "evidencias": [
+        {
+          "trecho": "A CGU (Controladoria-Geral da União) revisou 234 sigilos a informações públicas impostos durante o governo de Jair Bolsonaro (PL)",
+          "veiculo": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/poder/2023/02/governo-lula-revisa-sigilos-de-bolsonaro-e-determina-abertura-da-maioria-dos-casos.shtml",
+          "data": "2023-02-03"
+        },
+        {
+          "trecho": "O governo do presidente Luiz Inácio Lula da Silva (PT) negou, no ano passado, 1.339 pedidos de informações sob a justificativa de conter dados pessoais.",
+          "veiculo": "Estadão",
+          "url": "https://www.estadao.com.br/politica/governo-lula-impoe-sigilo-de-100-anos-de-visitas-a-janja-a-telegramas-sobre-robinho/",
+          "data": "2024-03-21"
+        },
+        {
+          "trecho": "A pasta também anunciou, em setembro de 2024, que o governo enviaria ao Congresso um projeto de lei para acabar com esse prazo",
+          "veiculo": "g1",
+          "url": "https://g1.globo.com/politica/noticia/2025/01/04/governo-lula-mantem-sigilo-sobre-informacoes-consideradas-pessoais-apesar-de-ter-criticado-bolsonaro.ghtml",
+          "data": "2025-01-04"
+        }
+      ]
+    },
+    {
+      "id": "c37",
+      "tema": "gestao",
+      "compromisso": "Acabar com o 'orçamento secreto' (emendas sem transparência sobre autoria e destino).",
+      "trecho_promessa": "É preciso votar nos deputados e deputadas do time do Lula. Porque vamos ter que acabar com o orçamento secreto",
+      "fonte_promessa": {
+        "veiculo": "BBC News Brasil (reproduz publicação da campanha de 25/09/2022)",
+        "url": "https://www.bbc.com/portuguese/brasil-63829415",
+        "data": "2022-12-02"
+      },
+      "status": "nao_cumprida",
+      "explicacao": "As emendas de relator foram declaradas inconstitucionais pelo STF em dezembro de 2022, antes da posse; depois disso, mecanismos com baixa transparência sobre autoria (emendas de comissão, emendas Pix) continuaram e o governo pagou saldos herdados do orçamento secreto.",
+      "evidencias": [
+        {
+          "trecho": "Na prática, continua existindo a distribuição de dinheiro público com pouca transparência sobre quem pediu, para onde foi o recurso e quais critérios foram usados.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        },
+        {
+          "trecho": "R$ 9,1 bilhões são fruto do extinto orçamento secreto, que sobrevive com sobras do governo Bolsonaro pagas por Lula",
+          "veiculo": "Estadão",
+          "url": "https://www.estadao.com.br/politica/lula-se-torna-o-presidente-que-mais-pagou-emendas-parlamentares-na-historia/",
+          "data": "2026-01-10"
+        }
+      ]
+    },
+    {
+      "id": "c38",
+      "tema": "gestao",
+      "compromisso": "Fortalecer a legislação sobre plataformas digitais (proteção de dados, desinformação, discurso de ódio).",
+      "trecho_promessa": "É preciso, ainda, fortalecer a legislação, dando mais instrumentos ao Sistema de Justiça para atuação junto às plataformas digitais no sentido de garantir a neutralidade da rede, a pluralidade, a proteção de dados e coibir a propagação de mentiras e mensagens antidemocráticas ou de ódio.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 119",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "parcial",
+      "explicacao": "Foi sancionado o ECA Digital (Lei 15.211/2025), restrito à proteção de crianças e adolescentes, e em maio de 2026 decretos atribuíram à ANPD a fiscalização de deveres das plataformas definidos pelo STF. Uma lei geral de regulação de plataformas não foi aprovada pelo Congresso.",
+      "evidencias": [
+        {
+          "trecho": "Dispõe sobre a proteção de crianças e adolescentes em ambientes digitais (Estatuto Digital da Criança e do Adolescente).",
+          "veiculo": "Planalto (Lei 15.211/2025)",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15211.htm",
+          "data": "2025-09-17"
+        },
+        {
+          "trecho": "A Agência Nacional de Proteção de Dados - ANPD atuará na regulação, na fiscalização e na apuração de infrações quanto à garantia dos direitos dos usuários e ao cumprimento dos deveres dos provedores de aplicações de internet",
+          "veiculo": "Câmara dos Deputados (Decreto 12.975/2026)",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2026/decreto-12975-20-maio-2026-799136-publicacaooriginal-179396-pe.html",
+          "data": "2026-05-20"
+        },
+        {
+          "trecho": "Com exceção do ECA Digital, as iniciativas de aprovar regulação de redes no Congresso não avançaram nos últimos anos.",
+          "veiculo": "Folha de S.Paulo",
+          "url": "https://www1.folha.uol.com.br/poder/2026/05/governo-lula-avalia-ampliar-decreto-sobre-big-techs-com-agencia-fiscalizando-deveres-previstos-pelo-stf.shtml",
+          "data": "2026-05-14"
+        }
+      ]
+    },
+    {
+      "id": "c39",
+      "tema": "gestao",
+      "compromisso": "Exercer um único mandato, sem disputar a reeleição em 2026.",
+      "trecho_promessa": "Eu, se eleito, serei um presidente de um mandato só",
+      "fonte_promessa": {
+        "veiculo": "Valor Econômico (publicação de Lula no Twitter em 25/10/2022)",
+        "url": "https://valor.globo.com/politica/eleicoes-2022/noticia/2022/10/26/lula-diz-que-sera-presidente-de-um-mandato-so.ghtml",
+        "data": "2022-10-26"
+      },
+      "status": "na_contramao",
+      "explicacao": "Lula foi oficializado candidato à reeleição na convenção do PT de 02/08/2026, e o registro da chapa foi pedido ao TSE em 07/08/2026.",
+      "evidencias": [
+        {
+          "trecho": "apresentou ao Tribunal Superior Eleitoral (TSE) o pedido de registro da chapa formada pelo presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição",
+          "veiculo": "g1",
+          "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/08/pt-registra-candidatura-lula-alckmin-tse-eleicoes-2026.ghtml",
+          "data": "2026-08-08"
+        },
+        {
+          "trecho": "Essa promessa não foi cumprida, e ele será candidato mais uma vez neste ano tendo Geraldo Alckmin como vice.",
+          "veiculo": "g1 (Promessas dos Políticos)",
+          "url": "https://g1.globo.com/politica/noticia/2026/07/22/promessas-de-lula-governo-aprovou-reforma-tributaria-e-isencao-do-ir-e-nao-recriou-ministerio-da-seguranca.ghtml",
+          "data": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "id": "c40",
+      "tema": "relacoes_exteriores",
+      "compromisso": "Voltar a integrar e fortalecer Unasul e Celac.",
+      "trecho_promessa": "É fortalecer novamente o Mercosul, a Unasul, a Celac e os Brics.",
+      "fonte_promessa": {
+        "veiculo": "Diretrizes para o Programa de Reconstrução e Transformação do Brasil (plano registrado no TSE), item 101",
+        "url": "https://static.poder360.com.br/2022/08/plano-de-governo-lula-versao-tse.pdf",
+        "data": "2022-08-15"
+      },
+      "status": "cumprida",
+      "explicacao": "O Brasil retornou à Celac em 05/01/2023 e promulgou novamente o tratado da Unasul em abril de 2023, com vigência a partir de maio de 2023.",
+      "evidencias": [
+        {
+          "trecho": "O Ministério das Relações Exteriores informou nesta quinta-feira (5) que o Brasil retornou para a Comunidade dos Estados Latino-Americanos e Caribenhos (Celac).",
+          "veiculo": "g1",
+          "url": "https://g1.globo.com/politica/noticia/2023/01/05/brasil-retorna-a-celac-dois-anos-depois-de-ter-deixado-o-grupo-que-reune-america-latina-e-caribe.ghtml",
+          "data": "2023-01-05"
+        },
+        {
+          "trecho": "O governo federal anunciou nesta sexta-feira (7) o retorno do Brasil à União de Nações Sul-americanas (Unasul).",
+          "veiculo": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/governo-lula-anuncia-retorno-do-brasil-a-unasul-quatro-anos-apos-saida-do-bloco/",
+          "data": "2023-04-07"
+        }
+      ]
+    }
+  ]
+}
