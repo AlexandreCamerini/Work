@@ -181,6 +181,7 @@ for (const eleicao of ['governador-rj', 'presidente'] as Eleicao[]) {
       await semNomes(`cena ${i + 1}`)
       await page.locator('main[data-etapa="cena"] input[type="radio"]').first().check()
       await page.getByTestId('fato-chip').click()
+      await expect(page.getByTestId('contexto-leia')).toBeVisible()
       await semNomes(`fato da cena ${i + 1}`)
       await page.keyboard.press('Escape')
       await page.getByTestId('cena-avancar').click()

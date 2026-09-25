@@ -24,6 +24,8 @@ src/data/quiz*.json                 cenas; cada opção tem uma "preferencia" de
         ▼  pipeline/aderencia.py     (Claude, offline) → revisão humana
 src/data/aderencia*.json            nota 0-100 (ou null) por cena × opção × candidato, com evidências
 src/data/evidencias*.json           só os trechos citados, para o site mostrar
+src/data/contexto*.json             texto longo do "Leia" por cena (3-4 parágrafos + fontes), baixado ao abrir a folha
+src/cenas/ilustracoes/              45 SVGs à mão (id → grupo → tema → genérica), chunk próprio; guia em pipeline/ux/F-ilustracoes.md
         │
         ▼  site (React, 100% no navegador, sem IA em tempo de uso)
 perfil (6 toques) → escolhe as cenas → afinidade = média dos pontos centrados por cena
@@ -174,6 +176,14 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       Busnello 40 em letalidade (d) e 40 em fila-especialista; Cyro 60 em falta-agua/c
       por inferência; Luan 40 em letalidade; Juliete 40 no BRT da Baixada e 30 em
       presença do Estado pós-operação.
+- [ ] **Pesquisa profunda dos líderes (25/09)**: dossiês de Paes, Ruas, Lula e Flávio
+      ampliados e notas reavaliadas; 5 quedas revertidas na revisão. Notas sensíveis a
+      revisar em `pipeline/pesquisa-profunda/resumo-reavaliacao.md` (Paes licenca-empresa/c
+      e operação policial b; Lula Pé-de-Meia; clima null → 80/90 nas 4 cenas regionais).
+      A calibração entre avaliadores piora: líderes com dossiês 2x maiores têm menos null
+      que os outros 6.
+- [ ] **Contexto do "Leia"**: 3 números são conta do agente sobre dados das fontes
+      (registrados em `pipeline/ux/contexto-*.md`); lacunas de dado declaradas no texto.
 - [ ] **Resumos de dossiê que dizem mais que o trecho**: Marinho p41, Busnello p30, Ruas p47
       (ver `pipeline/curadoria-cenas.md`, seção Região).
 - [ ] **Situação do registro** de Marinho, Siri, Busnello, Cyro, Juliete e Luan no
@@ -185,7 +195,7 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       ND+, Poder360), porque o download direto do TSE falhou deste ambiente.
 - [ ] **Pontos marcados pelos agentes**: contradições entre plano e falas de André
       Marinho; plano de Luan Monteiro é o programa nacional do PCO; Garotinho sem plano
-      oficial e com candidatura sub judice (fora do quiz); falas de Lula só na TVT News;
+      oficial e com candidatura sub judice (fora do quiz); falas de Lula diversificadas em 25/09 (Estadão, SBT, g1, Valor e outros);
       trechos de notícia de Flávio copiados à mão.
 - [ ] **Validar a heurística de perfil**: os cortes 0,34 e 0,66 são ponto de partida;
       calibrar com um piloto contra o Critério Brasil completo.

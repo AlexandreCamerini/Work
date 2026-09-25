@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useIlustracoes } from '../cenas/ilustracoes/carregar'
 import { useFluxoCtx } from '../fluxo/contexto'
+import { ContextoLeia } from './ContextoLeia'
 import { Folha } from '../ui/Folha'
 import { Check, SetaEsquerda } from '../ui/icones'
 import { Segmentos, Tela } from '../ui/Tela'
@@ -182,6 +183,7 @@ export function Cena({ indice }: { indice: number }) {
             <span className="sr-only"> (abre em nova aba)</span>
           </a>
           {pergunta.consenso && <p className="mt-3 mb-0 font-bold">Aqui os candidatos propõem quase a mesma coisa.</p>}
+          <ContextoLeia eleicao={dados.id} perguntaId={pergunta.id} />
         </Folha>
       )}
     </Tela>

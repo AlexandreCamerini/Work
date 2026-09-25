@@ -69,6 +69,7 @@ for (const eleicao of ELEICOES) {
     await opcoes(page).first().check()
     await passo('cena-escolhida')
     await page.getByTestId('fato-chip').click()
+    await expect(page.getByTestId('contexto-leia')).toBeVisible()
     await passo('fato-aberto')
     await page.keyboard.press('Escape')
     await responderCenas(page)
