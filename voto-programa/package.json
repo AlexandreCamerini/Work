@@ -9,6 +9,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:e2e": "playwright test",
     "start": "tsx server/node.ts",
     "dev:api": "wrangler dev",
     "db:migrar": "wrangler d1 migrations apply voto-programa --remote",
@@ -27,7 +28,9 @@
     "tsx": "^4.23.15"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@cloudflare/workers-types": "^5.20260924.1",
+    "@playwright/test": "^1.63.0",
     "@tailwindcss/vite": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",

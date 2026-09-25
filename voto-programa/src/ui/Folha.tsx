@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, type KeyboardEvent, type MouseEvent, type ReactNode } from 'react'
+import { useRolavelFocavel } from './useRolavel'
 
 interface FolhaProps {
   titulo: ReactNode
@@ -18,6 +19,8 @@ const FOCAVEIS = 'a[href], button:not([disabled]), input:not([disabled]), summar
 export function Folha({ titulo, onFechar, children, acoes, testid }: FolhaProps) {
   const ref = useRef<HTMLDialogElement>(null)
   const tituloRef = useRef<HTMLHeadingElement>(null)
+  const corpo = useRef<HTMLDivElement>(null)
+  useRolavelFocavel(corpo)
   const fechar = useRef(onFechar)
   useEffect(() => {
     fechar.current = onFechar
@@ -75,7 +78,9 @@ export function Folha({ titulo, onFechar, children, acoes, testid }: FolhaProps)
       <h2 id="folha-titulo" ref={tituloRef} tabIndex={-1}>
         {titulo}
       </h2>
-      <div className="corpo">{children}</div>
+      <div className="corpo" ref={corpo}>
+        {children}
+      </div>
       <div className="acoes">
         {acoes ?? (
           <button type="button" className="btn btn-sec" onClick={() => fechar.current()}>

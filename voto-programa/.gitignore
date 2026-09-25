@@ -25,3 +25,7 @@ dist-ssr
 __pycache__/
 .wrangler
 pipeline/ux/capturas/depois/
+
+# Playwright
+test-results/
+playwright-report/

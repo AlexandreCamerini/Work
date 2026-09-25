@@ -66,7 +66,7 @@ export function DetalheCandidato({ resultado, indice, revelado, onFechar }: Prop
       )}
       {revelado ? (
         <p className="mt-3 mb-0">
-          <a href={c.planoGovernoUrl} target="_blank" rel="noreferrer">
+          <a className="inline-flex min-h-11 items-center" href={c.planoGovernoUrl} target="_blank" rel="noreferrer">
             Ler o plano de governo completo<span className="sr-only"> (abre em nova aba)</span>
           </a>
         </p>

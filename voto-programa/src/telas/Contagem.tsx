@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import { useFluxoCtx } from '../fluxo/contexto'
 import { movimentoReduzido } from '../ui/useFoco'
 
@@ -7,7 +7,9 @@ export function Contagem() {
   const { enviar, anunciar } = useFluxoCtx()
   const [numero, setNumero] = useState(3)
 
-  useEffect(() => {
+  // layout effect: com movimento reduzido, avança antes da 1ª pintura (sem piscar a tela escura);
+  // com useEffect, depois do voto (que espera o fetch) a contagem chegava a aparecer por um quadro
+  useLayoutEffect(() => {
     anunciar('Revelando os nomes.')
     if (movimentoReduzido()) {
       enviar({ tipo: 'avancar' })

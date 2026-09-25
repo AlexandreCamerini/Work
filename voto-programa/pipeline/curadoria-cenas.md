@@ -157,3 +157,13 @@ As três cenas com opções novas foram avaliadas para os 8 candidatos pelos mes
 Limite conhecido: no interior, a cena da passagem ainda usa o exemplo de Nova Iguaçu. A
 variante precisaria de uma quarta opção nova (a opção "metrô a R$ 5" não faz sentido fora
 da região metropolitana).
+
+## Correção de cegamento no fato (25/09/2026)
+
+O QA automático (e2e/fluxo.spec.ts, critério 7) achou o nome de um candidato na fonte do
+fato de `escola-bagunca` ("O Dia, 11/09/2026 (dado citado por Eduardo Paes)", com o nome
+também no endereço da notícia). Além de quebrar o anonimato durante o quiz, o dado vinha de
+fala de campanha sobre tempo integral, que é a proposta de uma das opções. Trocado por dado
+de fonte primária: 13,9% do ensino médio do RJ em tempo integral, contra 22,8% no Brasil
+(Anuário da Educação Básica 2026, Todos Pela Educação, com dados do Censo Escolar).
+Varredura por nome e sobrenome em textos e links achou mais um caso só no endereço: o fato de `dinheiro-publico` apontava para "…atlasintel-eduardo-paes-lidera…"; trocado pelo link da mesma pesquisa na Gazeta do Povo. `src/lib/cegamento.test.ts` passa a barrar nome de candidato em cena, pergunta, opção, fato, fonte e link.

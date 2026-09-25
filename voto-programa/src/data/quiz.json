@@ -405,9 +405,9 @@
         }
       ],
       "fato": {
-        "texto": "Só cerca de 13% do ensino médio estadual funciona em tempo integral.",
-        "fonte": "O Dia, 11/09/2026 (dado citado por Eduardo Paes)",
-        "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301148-paes-defende-retomada-de-territorios-e-fala-em-autoridade-moral-para-reconstruir-o-rio.html"
+        "texto": "No estado do Rio, só 13,9% dos alunos do ensino médio estudam em tempo integral; no Brasil, são 22,8%.",
+        "fonte": "Anuário da Educação Básica 2026, Todos Pela Educação (Censo Escolar)",
+        "url": "https://anuario.todospelaeducacao.org.br/2026/estados-rj.html"
       }
     },
     {
@@ -1003,8 +1003,8 @@
       ],
       "fato": {
         "texto": "Corrupção aparece entre os 3 maiores problemas do estado para 60,7% dos eleitores.",
-        "fonte": "AtlasIntel/Estadão, agosto de 2026",
-        "url": "https://veja.abril.com.br/politica/atlasintel-eduardo-paes-lidera-disputa-pelo-governo-do-rio-com-folga/"
+        "fonte": "AtlasIntel/Estadão, agosto de 2026, via Gazeta do Povo",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-rio-de-janeiro-setembro-2026/"
       }
     }
   ],

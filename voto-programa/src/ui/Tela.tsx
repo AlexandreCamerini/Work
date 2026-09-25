@@ -1,5 +1,6 @@
-import type { ReactNode } from 'react'
+import { useRef, type ReactNode } from 'react'
 import type { TipoEtapa } from '../fluxo/maquina'
+import { useRolavelFocavel } from './useRolavel'
 
 interface TelaProps {
   etapa: TipoEtapa
@@ -14,10 +15,12 @@ interface TelaProps {
 
 /** Casca de todas as telas do fluxo: topo (44 px), meio e doca fixa com área segura. */
 export function Tela({ etapa, topo, rodape, children, className = '', animar, rotulo }: TelaProps) {
+  const meio = useRef<HTMLElement>(null)
+  useRolavelFocavel(meio)
   return (
     <div className={`tela ${className}`}>
       <header className="topo">{topo}</header>
-      <main id="meio" className={`meio ${animar ? `entra-${animar}` : ''}`} data-etapa={etapa} aria-label={rotulo}>
+      <main ref={meio} id="meio" className={`meio ${animar ? `entra-${animar}` : ''}`} data-etapa={etapa} aria-label={rotulo}>
         {children}
       </main>
       {rodape ? <footer className="doca">{rodape}</footer> : <div />}
