@@ -2,7 +2,7 @@
  "governador-rj": {
   "dados": {
    "estrutura": "68d755acfcc2fee7",
-   "aderencia": "226b18ef1508b0c1",
+   "aderencia": "99ed48a14cfb0ba2",
    "versao_quiz": "3.4.0",
    "nPerguntas": 26
   },
@@ -27,13 +27,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -45,19 +45,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -77,13 +77,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -95,19 +95,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -127,13 +127,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -145,19 +145,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -177,13 +177,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "5e7090c1e26e874e",
+    "resultadosHash": "272d7b7cb347570b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:60:10:7/2/1/1",
+      "eduardo-paes:61:10:7/2/1/1",
       "andre-marinho:58:8:6/1/1/3",
-      "douglas-ruas:56:9:7/1/1/2",
+      "douglas-ruas:55:9:7/1/1/2",
       "coronel-busnello:54:7:4/3/0/4",
       "juliete-pantoja:42:9:4/0/5/2",
       "william-siri:38:7:3/2/2/4",
@@ -196,19 +196,19 @@
       "william-siri:66:7:5/1/1/4",
       "luan-monteiro:60:6:1/4/1/5",
       "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "andre-marinho:42:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:33:10:4/3/3/1"
+      "douglas-ruas:36:11:5/3/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:68:10:9/1/0/0",
+      "eduardo-paes:70:10:9/1/0/0",
       "juliete-pantoja:63:8:6/0/2/2",
       "andre-marinho:60:6:4/1/1/4",
       "coronel-busnello:59:7:5/2/0/3",
       "cyro-garcia:59:8:5/2/1/2",
       "william-siri:51:8:4/3/1/2",
-      "douglas-ruas:47:8:4/3/1/2",
-      "luan-monteiro:45:5:0/3/2/5"
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
      ]
     }
    },
@@ -227,12 +227,12 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "b28361d58806c64a",
+    "resultadosHash": "43c9b2ea7599d6fe",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:64:10:8/2/0/1",
-      "douglas-ruas:52:8:6/1/1/3",
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
       "coronel-busnello:50:6:3/2/1/5",
       "andre-marinho:49:8:4/2/2/3",
       "william-siri:45:6:3/2/1/5",
@@ -245,19 +245,19 @@
       "cyro-garcia:76:7:6/1/0/4",
       "william-siri:64:7:5/1/1/4",
       "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
       "coronel-busnello:51:6:3/3/0/5",
-      "eduardo-paes:48:11:6/3/2/0",
       "andre-marinho:46:8:4/1/3/3",
-      "douglas-ruas:38:10:4/4/2/1"
+      "douglas-ruas:41:11:5/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:65:10:9/1/0/0",
+      "eduardo-paes:67:10:9/1/0/0",
       "juliete-pantoja:60:7:5/0/2/3",
       "coronel-busnello:57:6:4/2/0/4",
       "cyro-garcia:52:8:4/2/2/2",
       "andre-marinho:51:6:3/1/2/4",
       "william-siri:48:7:3/3/1/3",
-      "douglas-ruas:47:7:4/2/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
       "luan-monteiro:42:5:0/3/2/5"
      ]
     }
@@ -277,13 +277,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -295,19 +295,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -327,13 +327,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -345,19 +345,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -377,13 +377,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -395,19 +395,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -427,13 +427,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -445,19 +445,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -477,13 +477,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "5e7090c1e26e874e",
+    "resultadosHash": "272d7b7cb347570b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:60:10:7/2/1/1",
+      "eduardo-paes:61:10:7/2/1/1",
       "andre-marinho:58:8:6/1/1/3",
-      "douglas-ruas:56:9:7/1/1/2",
+      "douglas-ruas:55:9:7/1/1/2",
       "coronel-busnello:54:7:4/3/0/4",
       "juliete-pantoja:42:9:4/0/5/2",
       "william-siri:38:7:3/2/2/4",
@@ -496,19 +496,19 @@
       "william-siri:66:7:5/1/1/4",
       "luan-monteiro:60:6:1/4/1/5",
       "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "andre-marinho:42:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:33:10:4/3/3/1"
+      "douglas-ruas:36:11:5/3/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:68:10:9/1/0/0",
+      "eduardo-paes:70:10:9/1/0/0",
       "juliete-pantoja:63:8:6/0/2/2",
       "andre-marinho:60:6:4/1/1/4",
       "coronel-busnello:59:7:5/2/0/3",
       "cyro-garcia:59:8:5/2/1/2",
       "william-siri:51:8:4/3/1/2",
-      "douglas-ruas:47:8:4/3/1/2",
-      "luan-monteiro:45:5:0/3/2/5"
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
      ]
     }
    },
@@ -527,12 +527,12 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "b28361d58806c64a",
+    "resultadosHash": "43c9b2ea7599d6fe",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:64:10:8/2/0/1",
-      "douglas-ruas:52:8:6/1/1/3",
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
       "coronel-busnello:50:6:3/2/1/5",
       "andre-marinho:49:8:4/2/2/3",
       "william-siri:45:6:3/2/1/5",
@@ -545,19 +545,19 @@
       "cyro-garcia:76:7:6/1/0/4",
       "william-siri:64:7:5/1/1/4",
       "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
       "coronel-busnello:51:6:3/3/0/5",
-      "eduardo-paes:48:11:6/3/2/0",
       "andre-marinho:46:8:4/1/3/3",
-      "douglas-ruas:38:10:4/4/2/1"
+      "douglas-ruas:41:11:5/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:65:10:9/1/0/0",
+      "eduardo-paes:67:10:9/1/0/0",
       "juliete-pantoja:60:7:5/0/2/3",
       "coronel-busnello:57:6:4/2/0/4",
       "cyro-garcia:52:8:4/2/2/2",
       "andre-marinho:51:6:3/1/2/4",
       "william-siri:48:7:3/3/1/3",
-      "douglas-ruas:47:7:4/2/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
       "luan-monteiro:42:5:0/3/2/5"
      ]
     }
@@ -577,13 +577,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -595,19 +595,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -627,13 +627,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -645,19 +645,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -677,13 +677,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -695,19 +695,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -727,13 +727,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -745,19 +745,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -777,13 +777,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "5e7090c1e26e874e",
+    "resultadosHash": "272d7b7cb347570b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:60:10:7/2/1/1",
+      "eduardo-paes:61:10:7/2/1/1",
       "andre-marinho:58:8:6/1/1/3",
-      "douglas-ruas:56:9:7/1/1/2",
+      "douglas-ruas:55:9:7/1/1/2",
       "coronel-busnello:54:7:4/3/0/4",
       "juliete-pantoja:42:9:4/0/5/2",
       "william-siri:38:7:3/2/2/4",
@@ -796,19 +796,19 @@
       "william-siri:66:7:5/1/1/4",
       "luan-monteiro:60:6:1/4/1/5",
       "coronel-busnello:52:6:3/3/0/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "andre-marinho:42:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:33:10:4/3/3/1"
+      "douglas-ruas:36:11:5/3/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:68:10:9/1/0/0",
+      "eduardo-paes:70:10:9/1/0/0",
       "juliete-pantoja:63:8:6/0/2/2",
       "andre-marinho:60:6:4/1/1/4",
       "coronel-busnello:59:7:5/2/0/3",
       "cyro-garcia:59:8:5/2/1/2",
       "william-siri:51:8:4/3/1/2",
-      "douglas-ruas:47:8:4/3/1/2",
-      "luan-monteiro:45:5:0/3/2/5"
+      "luan-monteiro:45:5:0/3/2/5",
+      "douglas-ruas:44:9:4/4/1/1"
      ]
     }
    },
@@ -827,12 +827,12 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "b28361d58806c64a",
+    "resultadosHash": "43c9b2ea7599d6fe",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:64:10:8/2/0/1",
-      "douglas-ruas:52:8:6/1/1/3",
+      "eduardo-paes:65:10:8/2/0/1",
+      "douglas-ruas:54:9:7/1/1/2",
       "coronel-busnello:50:6:3/2/1/5",
       "andre-marinho:49:8:4/2/2/3",
       "william-siri:45:6:3/2/1/5",
@@ -845,19 +845,19 @@
       "cyro-garcia:76:7:6/1/0/4",
       "william-siri:64:7:5/1/1/4",
       "luan-monteiro:57:6:1/4/1/5",
+      "eduardo-paes:51:11:6/3/2/0",
       "coronel-busnello:51:6:3/3/0/5",
-      "eduardo-paes:48:11:6/3/2/0",
       "andre-marinho:46:8:4/1/3/3",
-      "douglas-ruas:38:10:4/4/2/1"
+      "douglas-ruas:41:11:5/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:65:10:9/1/0/0",
+      "eduardo-paes:67:10:9/1/0/0",
       "juliete-pantoja:60:7:5/0/2/3",
       "coronel-busnello:57:6:4/2/0/4",
       "cyro-garcia:52:8:4/2/2/2",
       "andre-marinho:51:6:3/1/2/4",
       "william-siri:48:7:3/3/1/3",
-      "douglas-ruas:47:7:4/2/1/3",
+      "douglas-ruas:47:9:5/3/1/1",
       "luan-monteiro:42:5:0/3/2/5"
      ]
     }
@@ -877,13 +877,13 @@
      "primo-desempregado",
      "dinheiro-publico"
     ],
-    "resultadosHash": "996828c4542bba0d",
+    "resultadosHash": "bdf9c8abd14bc9c4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:60:9:8/0/1/2",
+      "douglas-ruas:58:9:8/0/1/2",
+      "eduardo-paes:57:10:6/3/1/1",
       "andre-marinho:54:8:5/1/2/3",
-      "eduardo-paes:52:10:6/2/2/1",
       "coronel-busnello:49:7:3/3/1/4",
       "william-siri:40:7:3/2/2/4",
       "juliete-pantoja:39:9:3/1/5/2",
@@ -895,19 +895,19 @@
       "juliete-pantoja:80:7:6/1/0/4",
       "william-siri:69:7:5/1/1/4",
       "luan-monteiro:65:6:2/3/1/5",
+      "eduardo-paes:46:11:5/4/2/0",
       "coronel-busnello:45:7:3/3/1/4",
       "andre-marinho:43:8:4/1/3/3",
-      "eduardo-paes:40:11:5/3/3/0",
-      "douglas-ruas:34:10:4/3/3/1"
+      "douglas-ruas:37:11:5/3/3/0"
      ],
      "sorteio-1|-": [
+      "eduardo-paes:65:10:8/2/0/0",
       "juliete-pantoja:61:8:5/1/2/2",
       "cyro-garcia:60:8:5/2/1/2",
-      "eduardo-paes:59:10:8/1/1/0",
       "andre-marinho:55:6:3/1/2/4",
       "coronel-busnello:54:7:4/2/1/3",
       "william-siri:53:8:4/3/1/2",
-      "douglas-ruas:52:8:5/2/1/2",
+      "douglas-ruas:48:9:5/3/1/1",
       "luan-monteiro:47:6:0/4/2/4"
      ]
     }
@@ -928,11 +928,11 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "e3d8342fc8bfbfa7",
+    "resultadosHash": "b362a6945b2fb876",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:57:10:8/1/1/2",
+      "eduardo-paes:57:11:8/2/1/1",
       "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:52:9:5/4/0/3",
       "andre-marinho:51:9:5/3/1/3",
@@ -948,17 +948,17 @@
       "luan-monteiro:58:8:1/5/2/4",
       "coronel-busnello:55:8:5/3/0/4",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:62:11:9/2/0/0",
       "coronel-busnello:60:8:6/2/0/3",
       "cyro-garcia:56:9:5/2/2/2",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:50:6:2/3/1/5",
       "william-siri:49:9:5/2/2/2",
-      "douglas-ruas:48:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "luan-monteiro:42:8:0/4/4/3"
      ]
     }
@@ -979,11 +979,11 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "e3d8342fc8bfbfa7",
+    "resultadosHash": "b362a6945b2fb876",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:57:10:8/1/1/2",
+      "eduardo-paes:57:11:8/2/1/1",
       "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:52:9:5/4/0/3",
       "andre-marinho:51:9:5/3/1/3",
@@ -999,17 +999,17 @@
       "luan-monteiro:58:8:1/5/2/4",
       "coronel-busnello:55:8:5/3/0/4",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:62:11:9/2/0/0",
       "coronel-busnello:60:8:6/2/0/3",
       "cyro-garcia:56:9:5/2/2/2",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:50:6:2/3/1/5",
       "william-siri:49:9:5/2/2/2",
-      "douglas-ruas:48:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "luan-monteiro:42:8:0/4/4/3"
      ]
     }
@@ -1030,11 +1030,11 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "e3d8342fc8bfbfa7",
+    "resultadosHash": "b362a6945b2fb876",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:57:10:8/1/1/2",
+      "eduardo-paes:57:11:8/2/1/1",
       "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:52:9:5/4/0/3",
       "andre-marinho:51:9:5/3/1/3",
@@ -1050,17 +1050,17 @@
       "luan-monteiro:58:8:1/5/2/4",
       "coronel-busnello:55:8:5/3/0/4",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:62:11:9/2/0/0",
       "coronel-busnello:60:8:6/2/0/3",
       "cyro-garcia:56:9:5/2/2/2",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:50:6:2/3/1/5",
       "william-siri:49:9:5/2/2/2",
-      "douglas-ruas:48:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "luan-monteiro:42:8:0/4/4/3"
      ]
     }
@@ -1081,12 +1081,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "e120ef16e54086cd",
+    "resultadosHash": "ee7571200cb3118e",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:60:10:8/1/1/2",
-      "douglas-ruas:57:10:8/1/1/2",
+      "eduardo-paes:58:11:8/2/1/1",
+      "douglas-ruas:56:10:8/1/1/2",
       "andre-marinho:53:9:6/2/1/3",
       "coronel-busnello:52:9:5/4/0/3",
       "william-siri:42:9:4/3/2/3",
@@ -1100,18 +1100,18 @@
       "william-siri:66:8:6/1/1/4",
       "luan-monteiro:58:8:1/5/2/4",
       "coronel-busnello:55:8:5/3/0/4",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:44:9:5/1/3/3",
-      "eduardo-paes:42:12:6/3/3/0",
-      "douglas-ruas:35:11:5/3/3/1"
+      "douglas-ruas:39:12:6/3/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:63:11:9/2/0/0",
+      "eduardo-paes:64:11:9/2/0/0",
       "coronel-busnello:60:8:6/2/0/3",
       "cyro-garcia:54:9:5/2/2/2",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:52:6:3/2/1/5",
-      "douglas-ruas:50:8:5/2/1/3",
       "william-siri:48:9:5/2/2/2",
+      "douglas-ruas:47:9:5/3/1/2",
       "luan-monteiro:42:8:0/4/4/3"
      ]
     }
@@ -1132,12 +1132,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "1378b4c006c6242f",
+    "resultadosHash": "28492f75def227a3",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:64:10:9/1/0/2",
-      "douglas-ruas:54:9:7/1/1/3",
+      "eduardo-paes:62:11:9/2/0/1",
+      "douglas-ruas:55:10:8/1/1/2",
       "william-siri:48:8:4/3/1/4",
       "coronel-busnello:48:8:4/3/1/4",
       "andre-marinho:45:9:4/3/2/3",
@@ -1151,14 +1151,14 @@
       "william-siri:64:8:6/1/1/4",
       "luan-monteiro:56:8:1/5/2/4",
       "coronel-busnello:54:8:5/3/0/4",
-      "eduardo-paes:49:12:7/3/2/0",
+      "eduardo-paes:50:12:7/3/2/0",
       "andre-marinho:47:9:5/1/3/3",
-      "douglas-ruas:39:11:5/4/2/1"
+      "douglas-ruas:43:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:62:11:9/2/0/0",
       "coronel-busnello:58:7:5/2/0/4",
-      "douglas-ruas:51:7:5/1/1/4",
+      "douglas-ruas:50:9:6/2/1/2",
       "juliete-pantoja:49:9:4/1/4/2",
       "cyro-garcia:48:9:4/2/3/2",
       "william-siri:45:8:4/2/2/3",
@@ -1183,11 +1183,11 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "e3d8342fc8bfbfa7",
+    "resultadosHash": "b362a6945b2fb876",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:57:10:8/1/1/2",
+      "eduardo-paes:57:11:8/2/1/1",
       "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:52:9:5/4/0/3",
       "andre-marinho:51:9:5/3/1/3",
@@ -1203,17 +1203,17 @@
       "luan-monteiro:58:8:1/5/2/4",
       "coronel-busnello:55:8:5/3/0/4",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:62:11:9/2/0/0",
       "coronel-busnello:60:8:6/2/0/3",
       "cyro-garcia:56:9:5/2/2/2",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:50:6:2/3/1/5",
       "william-siri:49:9:5/2/2/2",
-      "douglas-ruas:48:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "luan-monteiro:42:8:0/4/4/3"
      ]
     }
@@ -1234,13 +1234,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "fbaed3aee78f4dfe",
+    "resultadosHash": "cb819a15f1660620",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:12:9/2/1/0",
-      "douglas-ruas:56:10:8/1/1/2",
+      "eduardo-paes:59:12:9/2/1/0",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "andre-marinho:53:9:6/2/1/3",
       "juliete-pantoja:42:9:3/1/5/3",
       "william-siri:39:8:3/3/2/4",
@@ -1254,16 +1254,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
       "andre-marinho:47:10:6/2/2/2",
-      "eduardo-paes:42:11:5/4/2/1",
-      "douglas-ruas:36:10:4/4/2/2"
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:59:10:8/2/0/1",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:55:8:5/3/0/3",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:51:7:3/3/1/4",
       "cyro-garcia:51:9:4/2/3/2",
-      "douglas-ruas:49:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:46:9:4/3/2/2",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1285,13 +1285,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "fbaed3aee78f4dfe",
+    "resultadosHash": "cb819a15f1660620",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:12:9/2/1/0",
-      "douglas-ruas:56:10:8/1/1/2",
+      "eduardo-paes:59:12:9/2/1/0",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "andre-marinho:53:9:6/2/1/3",
       "juliete-pantoja:42:9:3/1/5/3",
       "william-siri:39:8:3/3/2/4",
@@ -1305,16 +1305,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
       "andre-marinho:47:10:6/2/2/2",
-      "eduardo-paes:42:11:5/4/2/1",
-      "douglas-ruas:36:10:4/4/2/2"
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:59:10:8/2/0/1",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:55:8:5/3/0/3",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:51:7:3/3/1/4",
       "cyro-garcia:51:9:4/2/3/2",
-      "douglas-ruas:49:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:46:9:4/3/2/2",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1336,13 +1336,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "fbaed3aee78f4dfe",
+    "resultadosHash": "cb819a15f1660620",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:12:9/2/1/0",
-      "douglas-ruas:56:10:8/1/1/2",
+      "eduardo-paes:59:12:9/2/1/0",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "andre-marinho:53:9:6/2/1/3",
       "juliete-pantoja:42:9:3/1/5/3",
       "william-siri:39:8:3/3/2/4",
@@ -1356,16 +1356,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
       "andre-marinho:47:10:6/2/2/2",
-      "eduardo-paes:42:11:5/4/2/1",
-      "douglas-ruas:36:10:4/4/2/2"
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:59:10:8/2/0/1",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:55:8:5/3/0/3",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:51:7:3/3/1/4",
       "cyro-garcia:51:9:4/2/3/2",
-      "douglas-ruas:49:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:46:9:4/3/2/2",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1387,12 +1387,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "d2053278ff62418f",
+    "resultadosHash": "3fa23a70ec899bf2",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:58:12:9/2/1/0",
-      "douglas-ruas:58:10:8/1/1/2",
+      "eduardo-paes:60:12:9/2/1/0",
+      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
       "andre-marinho:54:9:7/1/1/3",
       "juliete-pantoja:42:9:3/1/5/3",
@@ -1406,17 +1406,17 @@
       "william-siri:64:9:6/2/1/3",
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
+      "eduardo-paes:44:12:5/5/2/0",
       "andre-marinho:43:10:6/1/3/2",
-      "eduardo-paes:40:11:5/3/3/1",
-      "douglas-ruas:34:10:4/3/3/2"
+      "douglas-ruas:37:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:62:10:8/2/0/1",
+      "eduardo-paes:61:11:8/3/0/0",
       "coronel-busnello:55:8:5/3/0/3",
       "juliete-pantoja:54:10:5/1/4/1",
       "andre-marinho:53:7:4/2/1/4",
-      "douglas-ruas:52:8:5/2/1/3",
       "cyro-garcia:49:9:4/2/3/2",
+      "douglas-ruas:48:9:5/3/1/2",
       "william-siri:45:9:4/3/2/2",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1438,12 +1438,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "f0cc291698dd4750",
+    "resultadosHash": "e0c58509e3fdf6d9",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:61:12:10/2/0/0",
-      "douglas-ruas:55:9:7/1/1/3",
+      "eduardo-paes:64:12:10/2/0/0",
+      "douglas-ruas:54:10:8/1/1/2",
       "coronel-busnello:51:7:4/2/1/5",
       "andre-marinho:47:9:5/2/2/3",
       "william-siri:44:7:3/3/1/5",
@@ -1457,14 +1457,14 @@
       "william-siri:62:9:6/2/1/3",
       "luan-monteiro:57:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
-      "eduardo-paes:47:11:6/3/2/1",
+      "eduardo-paes:48:12:6/4/2/0",
       "andre-marinho:47:10:6/1/3/2",
-      "douglas-ruas:39:10:4/4/2/2"
+      "douglas-ruas:41:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:59:10:8/2/0/1",
-      "douglas-ruas:53:7:5/1/1/4",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:52:7:4/3/0/4",
+      "douglas-ruas:50:9:6/2/1/2",
       "juliete-pantoja:50:9:4/1/4/2",
       "andre-marinho:46:7:3/2/2/4",
       "cyro-garcia:43:9:3/2/4/2",
@@ -1489,13 +1489,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "fbaed3aee78f4dfe",
+    "resultadosHash": "cb819a15f1660620",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:12:9/2/1/0",
-      "douglas-ruas:56:10:8/1/1/2",
+      "eduardo-paes:59:12:9/2/1/0",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "andre-marinho:53:9:6/2/1/3",
       "juliete-pantoja:42:9:3/1/5/3",
       "william-siri:39:8:3/3/2/4",
@@ -1509,16 +1509,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:51:8:4/4/0/4",
       "andre-marinho:47:10:6/2/2/2",
-      "eduardo-paes:42:11:5/4/2/1",
-      "douglas-ruas:36:10:4/4/2/2"
+      "eduardo-paes:44:12:5/5/2/0",
+      "douglas-ruas:39:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:59:10:8/2/0/1",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:55:8:5/3/0/3",
       "juliete-pantoja:53:10:5/1/4/1",
       "andre-marinho:51:7:3/3/1/4",
       "cyro-garcia:51:9:4/2/3/2",
-      "douglas-ruas:49:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:46:9:4/3/2/2",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1540,14 +1540,14 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "c0123fe6b66764e5",
+    "resultadosHash": "4c7fdab05722f136",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:11:8/2/1/1",
+      "eduardo-paes:58:11:8/2/1/1",
       "andre-marinho:56:9:6/2/1/3",
-      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "juliete-pantoja:43:10:4/0/6/2",
       "william-siri:39:8:3/3/2/4",
       "luan-monteiro:35:8:0/2/6/4",
@@ -1560,16 +1560,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:61:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "cyro-garcia:53:8:4/2/2/3",
       "andre-marinho:50:6:2/3/1/5",
-      "douglas-ruas:47:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:45:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1591,14 +1591,14 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "c0123fe6b66764e5",
+    "resultadosHash": "4c7fdab05722f136",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:11:8/2/1/1",
+      "eduardo-paes:58:11:8/2/1/1",
       "andre-marinho:56:9:6/2/1/3",
-      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "juliete-pantoja:43:10:4/0/6/2",
       "william-siri:39:8:3/3/2/4",
       "luan-monteiro:35:8:0/2/6/4",
@@ -1611,16 +1611,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:61:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "cyro-garcia:53:8:4/2/2/3",
       "andre-marinho:50:6:2/3/1/5",
-      "douglas-ruas:47:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:45:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1642,14 +1642,14 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "c0123fe6b66764e5",
+    "resultadosHash": "4c7fdab05722f136",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:11:8/2/1/1",
+      "eduardo-paes:58:11:8/2/1/1",
       "andre-marinho:56:9:6/2/1/3",
-      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "juliete-pantoja:43:10:4/0/6/2",
       "william-siri:39:8:3/3/2/4",
       "luan-monteiro:35:8:0/2/6/4",
@@ -1662,16 +1662,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:61:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "cyro-garcia:53:8:4/2/2/3",
       "andre-marinho:50:6:2/3/1/5",
-      "douglas-ruas:47:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:45:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1693,13 +1693,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "3e45bb1fb2a3c76c",
+    "resultadosHash": "11aca2a8cf61b8b4",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:58:11:8/2/1/1",
-      "douglas-ruas:57:10:8/1/1/2",
+      "eduardo-paes:59:11:8/2/1/1",
       "andre-marinho:57:9:7/1/1/3",
+      "douglas-ruas:56:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
       "juliete-pantoja:43:10:4/0/6/2",
       "william-siri:38:8:3/3/2/4",
@@ -1712,17 +1712,17 @@
       "william-siri:66:7:5/1/1/5",
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:44:9:5/1/3/3",
-      "eduardo-paes:42:12:6/3/3/0",
-      "douglas-ruas:34:11:5/3/3/1"
+      "douglas-ruas:39:12:6/3/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:63:11:9/2/0/0",
+      "eduardo-paes:64:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "andre-marinho:52:6:3/2/1/5",
       "cyro-garcia:51:8:4/2/2/3",
-      "douglas-ruas:50:8:5/2/1/3",
+      "douglas-ruas:47:9:5/3/1/2",
       "william-siri:44:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1744,12 +1744,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "7931d1e54a51ace9",
+    "resultadosHash": "21fc50059bcc6274",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:61:11:9/2/0/1",
-      "douglas-ruas:54:9:7/1/1/3",
+      "eduardo-paes:63:11:9/2/0/1",
+      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:51:7:4/2/1/5",
       "andre-marinho:50:9:5/2/2/3",
       "william-siri:44:7:3/3/1/5",
@@ -1763,14 +1763,14 @@
       "william-siri:64:7:5/1/1/5",
       "luan-monteiro:57:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
-      "eduardo-paes:49:12:7/3/2/0",
+      "eduardo-paes:50:12:7/3/2/0",
       "andre-marinho:47:9:5/1/3/3",
-      "douglas-ruas:39:11:5/4/2/1"
+      "douglas-ruas:43:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:56:6:4/2/0/5",
-      "douglas-ruas:50:7:5/1/1/4",
+      "douglas-ruas:50:9:6/2/1/2",
       "juliete-pantoja:50:8:4/0/4/3",
       "andre-marinho:44:6:2/2/2/5",
       "cyro-garcia:44:8:3/2/3/3",
@@ -1795,14 +1795,14 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "c0123fe6b66764e5",
+    "resultadosHash": "4c7fdab05722f136",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:56:11:8/2/1/1",
+      "eduardo-paes:58:11:8/2/1/1",
       "andre-marinho:56:9:6/2/1/3",
-      "douglas-ruas:55:10:8/1/1/2",
       "coronel-busnello:55:8:5/3/0/4",
+      "douglas-ruas:54:10:8/1/1/2",
       "juliete-pantoja:43:10:4/0/6/2",
       "william-siri:39:8:3/3/2/4",
       "luan-monteiro:35:8:0/2/6/4",
@@ -1815,16 +1815,16 @@
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
       "andre-marinho:48:9:5/2/2/3",
-      "eduardo-paes:44:12:6/4/2/0",
-      "douglas-ruas:36:11:5/4/2/1"
+      "eduardo-paes:46:12:6/4/2/0",
+      "douglas-ruas:41:12:6/4/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:61:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "cyro-garcia:53:8:4/2/2/3",
       "andre-marinho:50:6:2/3/1/5",
-      "douglas-ruas:47:8:5/2/1/3",
+      "douglas-ruas:46:9:5/3/1/2",
       "william-siri:45:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -1846,13 +1846,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "0facc94b577d1b61",
+    "resultadosHash": "d165dbdbb25ccba3",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:61:10:9/0/1/2",
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
       "andre-marinho:53:9:6/1/2/3",
-      "eduardo-paes:51:12:8/2/2/0",
       "coronel-busnello:47:7:3/3/1/5",
       "juliete-pantoja:44:10:3/2/5/2",
       "william-siri:40:8:3/3/2/4",
@@ -1865,16 +1865,16 @@
       "william-siri:69:8:6/1/1/4",
       "luan-monteiro:64:7:2/3/2/5",
       "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:43:9:5/1/3/3",
-      "eduardo-paes:41:12:6/3/3/0",
-      "douglas-ruas:33:10:4/3/3/2"
+      "douglas-ruas:37:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:56:11:8/2/1/0",
-      "douglas-ruas:55:8:6/1/1/3",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:53:7:4/2/1/4",
       "cyro-garcia:52:8:4/2/2/3",
       "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
       "andre-marinho:47:6:2/2/2/5",
       "william-siri:46:8:4/2/2/3",
       "luan-monteiro:45:8:0/4/4/3"
@@ -1897,13 +1897,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "0facc94b577d1b61",
+    "resultadosHash": "d165dbdbb25ccba3",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:61:10:9/0/1/2",
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
       "andre-marinho:53:9:6/1/2/3",
-      "eduardo-paes:51:12:8/2/2/0",
       "coronel-busnello:47:7:3/3/1/5",
       "juliete-pantoja:44:10:3/2/5/2",
       "william-siri:40:8:3/3/2/4",
@@ -1916,16 +1916,16 @@
       "william-siri:69:8:6/1/1/4",
       "luan-monteiro:64:7:2/3/2/5",
       "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:43:9:5/1/3/3",
-      "eduardo-paes:41:12:6/3/3/0",
-      "douglas-ruas:33:10:4/3/3/2"
+      "douglas-ruas:37:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:56:11:8/2/1/0",
-      "douglas-ruas:55:8:6/1/1/3",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:53:7:4/2/1/4",
       "cyro-garcia:52:8:4/2/2/3",
       "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
       "andre-marinho:47:6:2/2/2/5",
       "william-siri:46:8:4/2/2/3",
       "luan-monteiro:45:8:0/4/4/3"
@@ -1948,13 +1948,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "0facc94b577d1b61",
+    "resultadosHash": "d165dbdbb25ccba3",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:61:10:9/0/1/2",
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
       "andre-marinho:53:9:6/1/2/3",
-      "eduardo-paes:51:12:8/2/2/0",
       "coronel-busnello:47:7:3/3/1/5",
       "juliete-pantoja:44:10:3/2/5/2",
       "william-siri:40:8:3/3/2/4",
@@ -1967,16 +1967,16 @@
       "william-siri:69:8:6/1/1/4",
       "luan-monteiro:64:7:2/3/2/5",
       "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:43:9:5/1/3/3",
-      "eduardo-paes:41:12:6/3/3/0",
-      "douglas-ruas:33:10:4/3/3/2"
+      "douglas-ruas:37:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:56:11:8/2/1/0",
-      "douglas-ruas:55:8:6/1/1/3",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:53:7:4/2/1/4",
       "cyro-garcia:52:8:4/2/2/3",
       "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
       "andre-marinho:47:6:2/2/2/5",
       "william-siri:46:8:4/2/2/3",
       "luan-monteiro:45:8:0/4/4/3"
@@ -1999,13 +1999,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "6037723d5f924800",
+    "resultadosHash": "b414f48f8beaf18b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:58:12:9/2/1/0",
-      "douglas-ruas:58:10:8/1/1/2",
+      "eduardo-paes:59:12:9/2/1/0",
       "andre-marinho:57:9:7/1/1/3",
+      "douglas-ruas:56:10:8/1/1/2",
       "coronel-busnello:52:7:4/3/0/5",
       "juliete-pantoja:46:10:4/1/5/2",
       "william-siri:38:8:3/3/2/4",
@@ -2018,17 +2018,17 @@
       "william-siri:66:8:6/1/1/4",
       "luan-monteiro:59:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:43:9:5/1/3/3",
-      "eduardo-paes:42:12:6/3/3/0",
-      "douglas-ruas:33:10:4/3/3/2"
+      "douglas-ruas:36:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:63:11:9/2/0/0",
+      "eduardo-paes:64:11:9/2/0/0",
       "coronel-busnello:59:7:5/2/0/4",
       "juliete-pantoja:54:9:5/0/4/2",
       "andre-marinho:52:6:3/2/1/5",
       "cyro-garcia:51:8:4/2/2/3",
-      "douglas-ruas:50:8:5/2/1/3",
+      "douglas-ruas:47:9:5/3/1/2",
       "william-siri:44:8:4/2/2/3",
       "luan-monteiro:42:7:0/3/4/4"
      ]
@@ -2050,12 +2050,12 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "aea8d2f14573f619",
+    "resultadosHash": "f27ad565b47a499a",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "eduardo-paes:61:12:10/2/0/0",
-      "douglas-ruas:55:9:7/1/1/3",
+      "eduardo-paes:63:12:10/2/0/0",
+      "douglas-ruas:55:10:8/1/1/2",
       "andre-marinho:49:9:5/2/2/3",
       "coronel-busnello:47:6:3/2/1/6",
       "juliete-pantoja:45:9:3/2/4/3",
@@ -2069,14 +2069,14 @@
       "william-siri:64:8:6/1/1/4",
       "luan-monteiro:57:7:1/4/2/5",
       "coronel-busnello:53:7:4/3/0/5",
-      "eduardo-paes:48:12:7/3/2/0",
+      "eduardo-paes:50:12:7/3/2/0",
       "andre-marinho:46:9:5/1/3/3",
-      "douglas-ruas:38:10:4/4/2/2"
+      "douglas-ruas:40:12:5/5/2/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:60:11:9/2/0/0",
+      "eduardo-paes:63:11:9/2/0/0",
       "coronel-busnello:56:6:4/2/0/5",
-      "douglas-ruas:50:7:5/1/1/4",
+      "douglas-ruas:50:9:6/2/1/2",
       "juliete-pantoja:50:8:4/0/4/3",
       "andre-marinho:44:6:2/2/2/5",
       "cyro-garcia:44:8:3/2/3/3",
@@ -2101,13 +2101,13 @@
      "correria-praia",
      "dinheiro-publico"
     ],
-    "resultadosHash": "0facc94b577d1b61",
+    "resultadosHash": "d165dbdbb25ccba3",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "douglas-ruas:61:10:9/0/1/2",
+      "douglas-ruas:59:10:9/0/1/2",
+      "eduardo-paes:55:12:8/3/1/0",
       "andre-marinho:53:9:6/1/2/3",
-      "eduardo-paes:51:12:8/2/2/0",
       "coronel-busnello:47:7:3/3/1/5",
       "juliete-pantoja:44:10:3/2/5/2",
       "william-siri:40:8:3/3/2/4",
@@ -2120,16 +2120,16 @@
       "william-siri:69:8:6/1/1/4",
       "luan-monteiro:64:7:2/3/2/5",
       "coronel-busnello:48:8:4/3/1/4",
+      "eduardo-paes:46:12:6/4/2/0",
       "andre-marinho:43:9:5/1/3/3",
-      "eduardo-paes:41:12:6/3/3/0",
-      "douglas-ruas:33:10:4/3/3/2"
+      "douglas-ruas:37:12:5/4/3/0"
      ],
      "sorteio-1|-": [
-      "eduardo-paes:56:11:8/2/1/0",
-      "douglas-ruas:55:8:6/1/1/3",
+      "eduardo-paes:60:11:8/3/0/0",
       "coronel-busnello:53:7:4/2/1/4",
       "cyro-garcia:52:8:4/2/2/3",
       "juliete-pantoja:52:9:4/1/4/2",
+      "douglas-ruas:50:9:6/2/1/2",
       "andre-marinho:47:6:2/2/2/5",
       "william-siri:46:8:4/2/2/3",
       "luan-monteiro:45:8:0/4/4/3"
@@ -2141,7 +2141,7 @@
  "presidente": {
   "dados": {
    "estrutura": "d696f7fc37832371",
-   "aderencia": "8c22fce0623aace5",
+   "aderencia": "d28a3bf187902cd2",
    "versao_quiz": "1.3.0",
    "nPerguntas": 22
   },
@@ -2167,20 +2167,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2200,20 +2200,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2233,20 +2233,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2266,20 +2266,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2299,20 +2299,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2332,20 +2332,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2365,20 +2365,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2398,20 +2398,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2431,20 +2431,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2464,20 +2464,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2497,20 +2497,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2530,20 +2530,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fe535d53e4eb3c6e",
+    "resultadosHash": "5bbddbfbcc8c3286",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:55:12:8/1/3/0",
       "flavio-bolsonaro:39:11:5/3/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:57:8:5/2/1/4",
-      "lula:54:9:6/2/1/3"
+      "lula:60:10:8/1/1/2",
+      "flavio-bolsonaro:56:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
-      "flavio-bolsonaro:50:9:6/2/1/2"
+      "lula:61:10:8/0/2/1",
+      "flavio-bolsonaro:49:9:6/2/1/2"
      ]
     }
    },
@@ -2563,19 +2563,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2596,19 +2596,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2629,19 +2629,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2662,19 +2662,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2695,19 +2695,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2728,19 +2728,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "fb69bf5991936cdc",
+    "resultadosHash": "109d291cb5fa839b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:52:12:8/0/4/0",
       "flavio-bolsonaro:42:12:6/4/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "flavio-bolsonaro:48:9:5/3/1/3",
-      "lula:47:10:6/2/2/2"
+      "lula:50:11:8/1/2/1",
+      "flavio-bolsonaro:49:10:6/3/1/2"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:49:8:5/3/0/3"
      ]
     }
@@ -2761,19 +2761,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2794,19 +2794,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2827,19 +2827,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2860,19 +2860,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2893,19 +2893,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2926,19 +2926,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "92a4656bdce80f98",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:74:9:9/0/0/3",
+      "lula:56:12:8/1/3/0",
       "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:63:9:7/1/1/3",
-      "flavio-bolsonaro:54:7:4/2/1/5"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:64:9:7/1/1/2",
+      "lula:62:10:8/0/2/1",
       "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
@@ -2959,19 +2959,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -2992,19 +2992,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -3025,19 +3025,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -3058,19 +3058,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -3091,19 +3091,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -3124,19 +3124,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "1931e64c1f9f5091",
+    "resultadosHash": "b3e8b6cc54999ded",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:7:7/0/0/5",
+      "lula:50:11:7/0/4/1",
       "flavio-bolsonaro:48:12:8/2/2/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:65:10:8/1/1/2",
-      "flavio-bolsonaro:36:8:4/2/2/4"
+      "lula:68:11:10/0/1/1",
+      "flavio-bolsonaro:39:9:5/2/2/3"
      ],
      "sorteio-1|-": [
-      "lula:65:8:6/1/1/3",
+      "lula:61:9:7/0/2/2",
       "flavio-bolsonaro:58:8:7/1/0/3"
      ]
     }
@@ -3157,19 +3157,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3190,19 +3190,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3223,19 +3223,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3256,19 +3256,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3289,19 +3289,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3322,19 +3322,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3355,19 +3355,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3388,19 +3388,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3421,19 +3421,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3454,19 +3454,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3487,19 +3487,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }
@@ -3520,19 +3520,19 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "3f487d5aad5b90bb",
+    "resultadosHash": "2cded79deef32aba",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:75:8:8/0/0/4",
+      "lula:53:12:8/0/4/0",
       "flavio-bolsonaro:43:12:7/2/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:64:9:7/1/1/3",
-      "flavio-bolsonaro:53:8:5/2/1/4"
+      "lula:68:10:9/0/1/2",
+      "flavio-bolsonaro:54:9:6/2/1/3"
      ],
      "sorteio-1|-": [
-      "lula:67:9:7/1/1/2",
+      "lula:63:10:8/0/2/1",
       "flavio-bolsonaro:50:8:6/1/1/3"
      ]
     }

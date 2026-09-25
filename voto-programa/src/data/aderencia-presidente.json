@@ -9,16 +9,20 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p16"
+            "p16",
+            "p141"
           ],
           "justificativa": "Afirma que atuará no Senado pelo fim da escala 6x1 e pela jornada de 40 horas sem redução salarial."
         },
         "flavio-bolsonaro": {
           "nota": 20,
           "evidencias": [
-            "p44"
+            "p44",
+            "p156",
+            "p157",
+            "p128"
           ],
-          "justificativa": "Não se compromete com o fim da 6x1; defende que o trabalhador escolha a própria escala."
+          "justificativa": "Não declara voto na PEC do fim da 6x1, diz que votará na proposta do seu grupo e defende jornada escolhida pelo trabalhador com remuneração por hora."
         }
       },
       "b": {
@@ -26,9 +30,11 @@
           "nota": 95,
           "evidencias": [
             "p43",
-            "p44"
+            "p44",
+            "p128",
+            "p156"
           ],
-          "justificativa": "Defende o negociado sobre o legislado e liberdade para o trabalhador fazer a própria escala."
+          "justificativa": "Defende o negociado sobre o legislado e liberdade para o trabalhador escolher a própria escala e quantas horas trabalhar."
         },
         "lula": {
           "nota": 15,
@@ -48,11 +54,12 @@
           "justificativa": "Propõe alterar regras da legislação trabalhista que induzem precarização e terceirizações fraudulentas."
         },
         "flavio-bolsonaro": {
-          "nota": 15,
+          "nota": 10,
           "evidencias": [
-            "p43"
+            "p43",
+            "p128"
           ],
-          "justificativa": "Defende flexibilizar as condições de trabalho pelo negociado sobre o legislado."
+          "justificativa": "Defende o negociado sobre o legislado e critica reabrir pontos já pacificados pela reforma trabalhista."
         }
       },
       "d": {
@@ -77,7 +84,8 @@
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p40"
+            "p40",
+            "p44"
           ],
           "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal sem retirar direitos."
         },
@@ -97,9 +105,12 @@
           "justificativa": "Propõe contratos com menor custo para o primeiro emprego e para desempregados com 50 anos ou mais."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 45,
+          "evidencias": [
+            "p116",
+            "p117"
+          ],
+          "justificativa": "Propõe reforçar a aprendizagem para inserir jovens e ampliar parcerias para contratar pessoas com mais de 60 anos, sem propor contrato com menor custo na folha."
         }
       },
       "c": {
@@ -130,9 +141,10 @@
         "flavio-bolsonaro": {
           "nota": 20,
           "evidencias": [
-            "p43"
+            "p43",
+            "p128"
           ],
-          "justificativa": "Defende o negociado sobre o legislado como regra das relações de trabalho."
+          "justificativa": "Defende o negociado sobre o legislado e critica reabrir pontos da reforma trabalhista, sem tratar de fiscalização da pejotização."
         }
       }
     },
@@ -174,7 +186,8 @@
           "nota": 95,
           "evidencias": [
             "p58",
-            "p59"
+            "p59",
+            "p118"
           ],
           "justificativa": "Propõe mecanismos contributivos mais flexíveis para trajetórias de trabalho descontínuas."
         },
@@ -209,7 +222,9 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p15"
+            "p15",
+            "p115",
+            "p133"
           ],
           "justificativa": "Propõe aumento do salário mínimo acima da inflação todo ano."
         },
@@ -264,12 +279,14 @@
           "justificativa": "Propõe reduzir a carga sobre produção e consumo, o IVA e impostos sobre energia e combustíveis, e cortar burocracia."
         },
         "lula": {
-          "nota": 45,
+          "nota": 50,
           "evidencias": [
             "p7",
-            "p8"
+            "p8",
+            "p113",
+            "p118"
           ],
-          "justificativa": "Propõe zerar impostos da cesta básica e devolver imposto à baixa renda, sem proposta de redução geral da carga ou da burocracia."
+          "justificativa": "Propõe zerar impostos da cesta básica, devolver imposto à baixa renda e simplificar o ambiente de negócios e a tributação de pequenos empreendedores, sem proposta de redução geral da carga tributária."
         }
       }
     },
@@ -287,21 +304,25 @@
           "evidencias": [
             "p33"
           ],
-          "justificativa": "Declara-se favorável à isenção até R$ 5 mil com compensação sem aumentar impostos, sem falar em corrigir a tabela."
+          "justificativa": "Declara-se favorável à isenção do IR até R$ 5 mil, sem falar em corrigir a tabela."
         }
       },
       "b": {
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p30"
+            "p30",
+            "p155",
+            "p165"
           ],
-          "justificativa": "Propõe revisar a reforma tributária e reduzir a alíquota do IVA."
+          "justificativa": "Propõe revisar a reforma tributária e reduzir o IVA e a carga; em junho falava em suspender a regulamentação, também para reduzir a carga."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 20,
+          "evidencias": [
+            "p112"
+          ],
+          "justificativa": "Propõe consolidar os avanços da reforma tributária aprovada, sem propor revisá-la nem reduzir a alíquota do IVA."
         }
       },
       "c": {
@@ -340,7 +361,8 @@
           "evidencias": [
             "p1",
             "p4",
-            "p5"
+            "p5",
+            "p132"
           ],
           "justificativa": "Propõe manter o arcabouço fiscal e diz que a dívida cai em relação ao PIB com o crescimento."
         },
@@ -374,9 +396,10 @@
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p35"
+            "p35",
+            "p97"
           ],
-          "justificativa": "Anuncia fundo estimado em R$ 3 trilhões com ativos da União, parte usada para pagar a dívida."
+          "justificativa": "Anuncia fundo com royalties do petróleo e imóveis da União, estimado em R$ 3 trilhões, com parte usada para pagar a dívida."
         },
         "lula": {
           "nota": null,
@@ -391,11 +414,13 @@
           "justificativa": "Sem proposta documentada sobre o tema."
         },
         "lula": {
-          "nota": 65,
+          "nota": 75,
           "evidencias": [
-            "p14"
+            "p14",
+            "p131",
+            "p136"
           ],
-          "justificativa": "Critica o modelo de autonomia do Banco Central, sem detalhar proposta de alteração."
+          "justificativa": "Critica a autonomia do Banco Central e diz que o presidente eleito deveria ter poder de interferir na economia, sem propor alteração da lei de autonomia."
         }
       }
     },
@@ -420,7 +445,8 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p31"
+            "p31",
+            "p124"
           ],
           "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
         },
@@ -475,9 +501,12 @@
           "justificativa": "Propõe classificar facções como narcoterroristas e integrar o Escudo das Américas."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 5,
+          "evidencias": [
+            "p143",
+            "p144"
+          ],
+          "justificativa": "Diz não aceitar a classificação de facções como terroristas e rejeita intervenção estrangeira, defendendo cooperação contra o fluxo de armas e dinheiro."
         }
       },
       "b": {
@@ -485,7 +514,8 @@
           "nota": 95,
           "evidencias": [
             "p47",
-            "p52"
+            "p52",
+            "p142"
           ],
           "justificativa": "Propõe criar o Ministério da Segurança Pública e reforçar o programa federal contra o crime organizado com estados e municípios."
         },
@@ -503,16 +533,18 @@
           "nota": 90,
           "evidencias": [
             "p49",
-            "p50"
+            "p50",
+            "p138"
           ],
           "justificativa": "Propõe transformar 138 presídios estaduais em segurança máxima e ampliar o sistema federal."
         },
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p6"
+            "p6",
+            "p127"
           ],
-          "justificativa": "Propõe 5 novos presídios federais de segurança máxima."
+          "justificativa": "Propõe 5 novos presídios federais de segurança máxima e isolar neles chefes de facções, sem celular e com visitas monitoradas."
         }
       },
       "d": {
@@ -520,16 +552,18 @@
           "nota": 95,
           "evidencias": [
             "p56",
-            "p48"
+            "p48",
+            "p102"
           ],
           "justificativa": "Diz ser contra operações de GLO e defende polícia fixa nos territórios."
         },
         "flavio-bolsonaro": {
           "nota": 45,
           "evidencias": [
-            "p3"
+            "p3",
+            "p147"
           ],
-          "justificativa": "Propõe retomada de territórios por convênios com estados, sem tratar de GLO."
+          "justificativa": "Propõe retomar territórios dominados por facções e convênios com estados, sem tratar de GLO nem de presença policial permanente."
         }
       }
     },
@@ -543,9 +577,12 @@
           "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 30,
+          "evidencias": [
+            "p101",
+            "p155"
+          ],
+          "justificativa": "Propõe ampliar o Celular Seguro e o enfrentamento às redes de receptação, sem propor aumento de penas, e diz que quem devolver celular roubado comprado sem saber não será preso."
         }
       },
       "b": {
@@ -571,16 +608,19 @@
           "justificativa": "Propõe ampliar o incentivo a câmeras corporais com padrões nacionais."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 15,
+          "evidencias": [
+            "p158"
+          ],
+          "justificativa": "Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema."
         }
       },
       "d": {
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p51"
+            "p51",
+            "p137"
           ],
           "justificativa": "Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
         },
@@ -596,11 +636,12 @@
     "largar-escola": {
       "a": {
         "lula": {
-          "nota": 95,
+          "nota": 55,
           "evidencias": [
-            "p40"
+            "p40",
+            "p126"
           ],
-          "justificativa": "Propõe estender o Pé-de-Meia a todos os alunos do ensino médio público."
+          "justificativa": "O site de campanha promete o Pé-de-Meia para todos os alunos do ensino médio público, mas o plano registrado propõe manter o programa com foco em jovens em situação de pobreza ou vulnerabilidade; as duas posições divergem."
         },
         "flavio-bolsonaro": {
           "nota": null,
@@ -612,14 +653,16 @@
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p76"
+            "p76",
+            "p132"
           ],
-          "justificativa": "Propõe ampliar a educação técnica no ensino médio."
+          "justificativa": "Propõe ampliar a educação técnica no ensino médio, em parceria com o setor produtivo."
         },
         "lula": {
           "nota": 80,
           "evidencias": [
-            "p43"
+            "p43",
+            "p129"
           ],
           "justificativa": "Propõe novos Institutos Federais com cursos técnicos."
         }
@@ -633,23 +676,29 @@
           "justificativa": "Propõe ampliar as escolas cívico-militares."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 5,
+          "evidencias": [
+            "p146"
+          ],
+          "justificativa": "Afirma que a educação pública não precisa de escolas cívico-militares."
         }
       },
       "d": {
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p39"
+            "p39",
+            "p127",
+            "p139"
           ],
           "justificativa": "Propõe escola em tempo integral em toda a rede pública."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 65,
+          "evidencias": [
+            "p130"
+          ],
+          "justificativa": "Declara apoio à escola em tempo integral, sem meta de cobertura da rede pública."
         }
       }
     },
@@ -663,16 +712,19 @@
           "justificativa": "Propõe substituir o financiamento estudantil por empréstimo pago só após emprego, proporcional à renda."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 30,
+          "evidencias": [
+            "p148"
+          ],
+          "justificativa": "Propõe incluir devedores do Fies em programa de renegociação de dívidas, sem propor substituir o financiamento estudantil por empréstimo contingente à renda."
         }
       },
       "b": {
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p41"
+            "p41",
+            "p128"
           ],
           "justificativa": "Propõe 120 mil novas vagas em universidades."
         },
@@ -700,14 +752,16 @@
         "flavio-bolsonaro": {
           "nota": 75,
           "evidencias": [
-            "p76"
+            "p76",
+            "p132"
           ],
-          "justificativa": "Propõe ampliar a educação técnica no ensino médio, sem mencionar institutos federais ou cursos tecnólogos."
+          "justificativa": "Propõe ampliar a educação técnica no ensino médio com parceria do setor produtivo, sem mencionar institutos federais ou cursos tecnólogos."
         },
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p43"
+            "p43",
+            "p129"
           ],
           "justificativa": "Propõe novos Institutos Federais com cursos técnicos gratuitos."
         }
@@ -725,9 +779,12 @@
         "flavio-bolsonaro": {
           "nota": 45,
           "evidencias": [
-            "p93"
+            "p93",
+            "p139",
+            "p112",
+            "p162"
           ],
-          "justificativa": "Propõe foco em refino, sem retorno da Petrobras à distribuição."
+          "justificativa": "Propõe estimular a modernização do refino, mas não dá papel à Petrobras na distribuição e admite privatizar partes da estatal, primeiro sem prazo e depois talvez no primeiro ano."
         }
       },
       "b": {
@@ -739,9 +796,12 @@
           "justificativa": "Propõe reduzir a CDE e os subsídios na conta de luz e os impostos sobre energia."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 45,
+          "evidencias": [
+            "p109",
+            "p151"
+          ],
+          "justificativa": "Anuncia um debate sobre o barateamento da energia e diz que continuará impedindo que a alta do petróleo chegue aos combustíveis, sem propor reduzir encargos da conta de luz ou tributos."
         }
       },
       "c": {
@@ -786,23 +846,31 @@
         "flavio-bolsonaro": {
           "nota": 55,
           "evidencias": [
-            "p88"
+            "p88",
+            "p142",
+            "p96"
           ],
-          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
         }
       },
       "b": {
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p102"
+            "p102",
+            "p144"
           ],
-          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 80,
+          "evidencias": [
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ],
+          "justificativa": "Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas."
         }
       },
       "c": {
@@ -823,14 +891,20 @@
         "lula": {
           "nota": 85,
           "evidencias": [
-            "p66"
+            "p66",
+            "p67",
+            "p150"
           ],
           "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 90,
+          "evidencias": [
+            "p160",
+            "p162",
+            "p164"
+          ],
+          "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
         }
       }
     },
@@ -839,16 +913,18 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p90"
+            "p90",
+            "p145"
           ],
           "justificativa": "Propõe avançar na regulação das redes sociais contra desinformação e discurso de ódio."
         },
         "flavio-bolsonaro": {
           "nota": 5,
           "evidencias": [
-            "p27"
+            "p27",
+            "p159"
           ],
-          "justificativa": "Propõe extinguir estruturas estatais de combate à desinformação, que chama de censura."
+          "justificativa": "Chama de decreto da censura a norma que ampliou a responsabilização das big techs e propõe acabar com estruturas estatais que rotulem ou punam o que as pessoas dizem."
         }
       },
       "b": {
@@ -856,14 +932,16 @@
           "nota": 95,
           "evidencias": [
             "p27",
-            "p28"
+            "p28",
+            "p159"
           ],
-          "justificativa": "Propõe extinguir estruturas de combate à desinformação e revogar atos que considera censura."
+          "justificativa": "Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, revogar atos que associa a silenciar críticos e chama de censura a regulação das big techs."
         },
         "lula": {
           "nota": 5,
           "evidencias": [
-            "p90"
+            "p90",
+            "p145"
           ],
           "justificativa": "Propõe regular as plataformas digitais."
         }
@@ -889,14 +967,17 @@
             "p27",
             "p28"
           ],
-          "justificativa": "Propõe extinguir estruturas estatais que rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial."
+          "justificativa": "Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial."
         },
         "lula": {
-          "nota": 20,
+          "nota": 35,
           "evidencias": [
-            "p90"
+            "p90",
+            "p122",
+            "p123",
+            "p145"
           ],
-          "justificativa": "Propõe regular as plataformas digitais para conter desinformação, sem tratar de responsabilização judicial individual."
+          "justificativa": "Defende que crimes do mundo físico sejam crimes também no ambiente digital, mas propõe regular as plataformas e criar estruturas estatais como um conselho de soberania digital e um centro de transparência algorítmica."
         }
       }
     },
@@ -905,14 +986,19 @@
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p106"
+            "p106",
+            "p168"
           ],
-          "justificativa": "Propõe cortar no mínimo 10 ministérios, cargos comissionados e supersalários."
+          "justificativa": "Propõe cortar no mínimo 10 ministérios, chegando a 26 ou 27, e reduzir cargos comissionados e supersalários."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 20,
+          "evidencias": [
+            "p47",
+            "p142",
+            "p119"
+          ],
+          "justificativa": "Propõe criar o Ministério da Segurança Pública e compartilhar serviços de suporte entre ministérios, sem propor corte de ministérios, cargos ou supersalários."
         }
       },
       "b": {
@@ -936,9 +1022,10 @@
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p111"
+            "p111",
+            "p167"
           ],
-          "justificativa": "Propõe retomar o programa de desestatização caso a caso."
+          "justificativa": "Propõe retomar o programa de desestatização caso a caso e diz que privatizará onde for possível."
         },
         "lula": {
           "nota": 10,
@@ -962,9 +1049,11 @@
           "nota": 35,
           "evidencias": [
             "p112",
-            "p111"
+            "p162",
+            "p111",
+            "p167"
           ],
-          "justificativa": "É contra privatizar a Petrobras inteira, mas propõe retomar desestatizações."
+          "justificativa": "É contra privatizar a Petrobras como um todo, mas admite vender partes dela, talvez no primeiro ano, e propõe retomar desestatizações."
         }
       }
     },
@@ -973,23 +1062,27 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p76"
+            "p76",
+            "p130",
+            "p147"
           ],
           "justificativa": "Propõe monitoramento de agressores por tornozeleira com alerta à polícia."
         },
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p9"
+            "p9",
+            "p148"
           ],
-          "justificativa": "Propõe monitorar com tornozeleira agressores de mulheres com medida protetiva."
+          "justificativa": "Propõe tornozeleira com alerta às autoridades para agressores sob medida protetiva; o plano fala em todos esses agressores numa seção e nos de maior risco em outra."
         }
       },
       "b": {
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p75"
+            "p75",
+            "p130"
           ],
           "justificativa": "Propõe concluir 30 Casas da Mulher Brasileira e 15 centros de referência."
         },
@@ -1013,7 +1106,8 @@
         "lula": {
           "nota": 60,
           "evidencias": [
-            "p76"
+            "p76",
+            "p130"
           ],
           "justificativa": "Propõe monitoramento de agressores com alerta integrado à polícia, sem mencionar botão de emergência no celular."
         }
@@ -1027,9 +1121,12 @@
           "justificativa": "Propõe endurecer a lei e obrigar agressores de mulheres a cumprir integralmente as penas."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 75,
+          "evidencias": [
+            "p147",
+            "p130"
+          ],
+          "justificativa": "Diz que vai endurecer a punição a agressores de mulheres, com tornozeleira e pena maior para feminicídio, sem tratar especificamente do descumprimento de medida protetiva."
         }
       }
     },
@@ -1054,7 +1151,8 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p31"
+            "p31",
+            "p124"
           ],
           "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
         },
@@ -1107,9 +1205,12 @@
           "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 30,
+          "evidencias": [
+            "p101",
+            "p155"
+          ],
+          "justificativa": "Propõe ampliar o Celular Seguro e o enfrentamento às redes de receptação, sem propor aumento de penas, e diz que quem devolver celular roubado comprado sem saber não será preso."
         }
       },
       "b": {
@@ -1135,16 +1236,19 @@
           "justificativa": "Propõe ampliar o incentivo a câmeras corporais com padrões nacionais."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 15,
+          "evidencias": [
+            "p158"
+          ],
+          "justificativa": "Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema."
         }
       },
       "d": {
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p51"
+            "p51",
+            "p137"
           ],
           "justificativa": "Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
         },
@@ -1170,23 +1274,31 @@
         "flavio-bolsonaro": {
           "nota": 55,
           "evidencias": [
-            "p88"
+            "p88",
+            "p142",
+            "p96"
           ],
-          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
         }
       },
       "b": {
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p102"
+            "p102",
+            "p144"
           ],
-          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 80,
+          "evidencias": [
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ],
+          "justificativa": "Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas."
         }
       },
       "c": {
@@ -1207,14 +1319,20 @@
         "lula": {
           "nota": 85,
           "evidencias": [
-            "p66"
+            "p66",
+            "p67",
+            "p150"
           ],
           "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 90,
+          "evidencias": [
+            "p160",
+            "p162",
+            "p164"
+          ],
+          "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
         }
       }
     },
@@ -1231,23 +1349,31 @@
         "flavio-bolsonaro": {
           "nota": 55,
           "evidencias": [
-            "p88"
+            "p88",
+            "p142",
+            "p96"
           ],
-          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
         }
       },
       "b": {
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p102"
+            "p102",
+            "p144"
           ],
-          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 80,
+          "evidencias": [
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ],
+          "justificativa": "Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas."
         }
       },
       "c": {
@@ -1268,14 +1394,20 @@
         "lula": {
           "nota": 85,
           "evidencias": [
-            "p66"
+            "p66",
+            "p67",
+            "p150"
           ],
           "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 90,
+          "evidencias": [
+            "p160",
+            "p162",
+            "p164"
+          ],
+          "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
         }
       }
     },
@@ -1292,23 +1424,31 @@
         "flavio-bolsonaro": {
           "nota": 55,
           "evidencias": [
-            "p88"
+            "p88",
+            "p142",
+            "p96"
           ],
-          "justificativa": "Propõe zerar o desmatamento ilegal até 2029, sem metas de emissões."
+          "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
         }
       },
       "b": {
         "flavio-bolsonaro": {
           "nota": 95,
           "evidencias": [
-            "p102"
+            "p102",
+            "p144"
           ],
-          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem."
+          "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
         },
         "lula": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 80,
+          "evidencias": [
+            "p104",
+            "p105",
+            "p106",
+            "p107"
+          ],
+          "justificativa": "Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas."
         }
       },
       "c": {
@@ -1329,14 +1469,20 @@
         "lula": {
           "nota": 85,
           "evidencias": [
-            "p66"
+            "p66",
+            "p67",
+            "p150"
           ],
           "justificativa": "Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial."
         },
         "flavio-bolsonaro": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 90,
+          "evidencias": [
+            "p160",
+            "p162",
+            "p164"
+          ],
+          "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
         }
       }
     },
@@ -1361,7 +1507,8 @@
         "lula": {
           "nota": 95,
           "evidencias": [
-            "p31"
+            "p31",
+            "p124"
           ],
           "justificativa": "Propõe fila única digital da atenção especializada, ordenada por risco clínico."
         },

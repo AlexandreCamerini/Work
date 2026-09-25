@@ -9,16 +9,20 @@
         "douglas-ruas": {
           "nota": 90,
           "evidencias": [
-            "p46"
+            "p46",
+            "p143"
           ],
           "justificativa": "Afirma que rescindirá contratos de concessionárias em caso de descumprimento."
         },
         "eduardo-paes": {
-          "nota": 10,
+          "nota": 50,
           "evidencias": [
-            "p74"
+            "p74",
+            "p109",
+            "p114",
+            "p91"
           ],
-          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+          "justificativa": "Posição contraditória no dossiê: diz que não vai sair ameaçando romper contratos de concessão, mas admite criar empresa pública se a concessionária dos trens não operar bem e diz não ter problema em rever contratos."
         },
         "andre-marinho": {
           "nota": 35,
@@ -68,19 +72,24 @@
       },
       "b": {
         "eduardo-paes": {
-          "nota": 90,
+          "nota": 55,
           "evidencias": [
             "p74",
-            "p73"
+            "p91",
+            "p73",
+            "p109",
+            "p114"
           ],
-          "justificativa": "Propõe auditar contratos de concessão sem ameaçar rompê-los."
+          "justificativa": "Posição contraditória no dossiê: propõe auditar os contratos de concessão sem ameaçar rompê-los, mas em outras falas admite substituir a concessionária dos trens por uma empresa pública."
         },
         "douglas-ruas": {
           "nota": 45,
           "evidencias": [
-            "p46"
+            "p131",
+            "p46",
+            "p143"
           ],
-          "justificativa": "Propõe cobrar as concessionárias a partir do gabinete, mas prevê rescisão em caso de descumprimento."
+          "justificativa": "O plano propõe fiscalizar as concessões com indicadores, cobrança de obrigações e penalidades, mas nas falas promete rescindir contratos em caso de descumprimento."
         },
         "andre-marinho": {
           "nota": 75,
@@ -133,14 +142,20 @@
           "nota": 95,
           "evidencias": [
             "p13",
-            "p47"
+            "p47",
+            "p112",
+            "p101"
           ],
           "justificativa": "Propõe colocar os trens no padrão do BRT e criar o programa Trem Seguro."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 55,
+          "evidencias": [
+            "p131",
+            "p132",
+            "p133"
+          ],
+          "justificativa": "O plano propõe cobrar das concessionárias renovação da frota e estações com câmeras e iluminação, e um protocolo contra violência à mulher nos trens, sem programa de segurança própria a bordo nem padrão BRT."
         },
         "andre-marinho": {
           "nota": 60,
@@ -212,17 +227,20 @@
         "douglas-ruas": {
           "nota": 30,
           "evidencias": [
+            "p131",
             "p46"
           ],
-          "justificativa": "Propõe cobrar as concessionárias e rescindir contratos em caso de descumprimento, sem mencionar operação por empresa pública."
+          "justificativa": "Propõe fiscalizar e cobrar as concessionárias de trens, com rescisão em caso de descumprimento, sem mencionar operação por empresa pública."
         },
         "eduardo-paes": {
-          "nota": 5,
+          "nota": 40,
           "evidencias": [
             "p74",
-            "p13"
+            "p114",
+            "p109",
+            "p111"
           ],
-          "justificativa": "Diz que não vai ameaçar romper contratos de concessão e propõe colocar a SuperVia no padrão do BRT."
+          "justificativa": "Posição contraditória no dossiê: diz não ter problema com concessões e não ameaçar rompê-las, mas não descarta criar uma empresa pública para os trens caso a concessionária falhe."
         },
         "juliete-pantoja": {
           "nota": 95,
@@ -256,6 +274,7 @@
           "nota": 85,
           "evidencias": [
             "p42",
+            "p101",
             "p41"
           ],
           "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
@@ -374,7 +393,8 @@
           "nota": 95,
           "evidencias": [
             "p40",
-            "p43"
+            "p43",
+            "p101"
           ],
           "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
         },
@@ -434,16 +454,19 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
+            "p139",
             "p41"
           ],
           "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 com subsídio estadual."
         },
         "eduardo-paes": {
-          "nota": 45,
+          "nota": 60,
           "evidencias": [
+            "p108",
+            "p102",
             "p41"
           ],
-          "justificativa": "Declara o objetivo de reduzir tarifas, sem se comprometer com valor."
+          "justificativa": "Diz que há como reduzir a tarifa do metrô depois de o poder público controlar a bilhetagem e saber que subsídio se paga, sem assumir valor ou prazo."
         },
         "andre-marinho": {
           "nota": 35,
@@ -494,7 +517,8 @@
           "nota": 95,
           "evidencias": [
             "p27",
-            "p26"
+            "p26",
+            "p147"
           ],
           "justificativa": "Defende comprar serviços da rede privada para reduzir filas."
         },
@@ -561,11 +585,12 @@
           "justificativa": "Propõe Super Centros Regionais de Especialidades em todas as regiões."
         },
         "douglas-ruas": {
-          "nota": 80,
+          "nota": 95,
           "evidencias": [
+            "p101",
             "p25"
           ],
-          "justificativa": "Propõe Centros Integrados de Saúde em cada região, com especialistas, exames e pequenas cirurgias."
+          "justificativa": "Propõe um centro integrado de consultas especializadas e exames em cada região do estado."
         },
         "andre-marinho": {
           "nota": 85,
@@ -626,7 +651,8 @@
         "eduardo-paes": {
           "nota": 50,
           "evidencias": [
-            "p60"
+            "p60",
+            "p82"
           ],
           "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
         },
@@ -673,14 +699,17 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p7"
+            "p7",
+            "p82"
           ],
           "justificativa": "Propõe contratar mais médicos e especialistas."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 65,
+          "evidencias": [
+            "p105"
+          ],
+          "justificativa": "Propõe atrair e fixar médicos especialistas no interior com incentivos e concursos direcionados, sem proposta de contratação geral para a rede estadual."
         },
         "andre-marinho": {
           "nota": null,
@@ -793,9 +822,11 @@
           "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 45,
+          "evidencias": [
+            "p94"
+          ],
+          "justificativa": "Propõe ensino em tempo integral só nas escolas de áreas retomadas do crime, sem proposta geral para a rede nem foco em ciência, tecnologia e matemática."
         },
         "andre-marinho": {
           "nota": 70,
@@ -896,11 +927,12 @@
           "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
         },
         "douglas-ruas": {
-          "nota": 90,
+          "nota": 95,
           "evidencias": [
-            "p35"
+            "p35",
+            "p159"
           ],
-          "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio."
+          "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio e reestruturar todas as escolas estaduais com ensino profissionalizante."
         },
         "andre-marinho": {
           "nota": 90,
@@ -946,20 +978,22 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
-            "p3",
             "p4",
+            "p157",
             "p84"
           ],
-          "justificativa": "Propõe a retomada de territórios como principal critério de avaliação das polícias."
+          "justificativa": "Propõe a retomada de territórios como principal indicador de avaliação dos gestores da segurança, a ser comprovada ao ISP."
         },
         "eduardo-paes": {
-          "nota": 70,
+          "nota": 80,
           "evidencias": [
             "p2",
+            "p85",
+            "p123",
             "p29",
-            "p30"
+            "p90"
           ],
-          "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+          "justificativa": "Põe a retomada de territórios no centro da política de segurança e critica operação sem ocupação posterior, sem defini-la como critério de avaliação das polícias."
         },
         "andre-marinho": {
           "nota": 75,
@@ -1014,19 +1048,25 @@
       },
       "b": {
         "eduardo-paes": {
-          "nota": 90,
+          "nota": 55,
           "evidencias": [
             "p31",
-            "p3"
+            "p87",
+            "p98",
+            "p32",
+            "p123"
           ],
-          "justificativa": "Afirma que o objetivo deve ser prender, com inteligência, e não neutralizar."
+          "justificativa": "Posição contraditória no dossiê: na sabatina diz que o objetivo deve ser prender, com inteligência, e não neutralizar; em entrevistas anteriores diz que quem enfrenta o Estado tem que ser neutralizado."
         },
         "douglas-ruas": {
-          "nota": 50,
+          "nota": 40,
           "evidencias": [
-            "p9"
+            "p99",
+            "p88",
+            "p90",
+            "p155"
           ],
-          "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+          "justificativa": "O plano propõe investigação, inteligência e blitzes para capturar procurados, mas em entrevista avisa que sua política de enfrentamento pode aumentar a letalidade."
         },
         "andre-marinho": {
           "nota": 55,
@@ -1083,16 +1123,20 @@
           "nota": 95,
           "evidencias": [
             "p5",
-            "p85"
+            "p85",
+            "p93"
           ],
           "justificativa": "Defende manter polícia e serviços públicos na área após as operações."
         },
         "eduardo-paes": {
-          "nota": 85,
+          "nota": 60,
           "evidencias": [
-            "p31"
+            "p88",
+            "p31",
+            "p29",
+            "p100"
           ],
-          "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+          "justificativa": "Defende plano de ocupação para o dia seguinte e bases do Bope nas áreas retomadas, mas questiona a ideia de que essas áreas precisam sobretudo de serviços sociais."
         },
         "andre-marinho": {
           "nota": 95,
@@ -1143,19 +1187,24 @@
       },
       "d": {
         "douglas-ruas": {
-          "nota": 10,
+          "nota": 5,
           "evidencias": [
-            "p3"
+            "p3",
+            "p156",
+            "p155"
           ],
-          "justificativa": "Propõe não contabilizar mortes em legítima defesa policial como letalidade violenta."
+          "justificativa": "Propõe retirar a legítima defesa policial do indicador de letalidade violenta e avisa que sua política pode aumentar a letalidade."
         },
         "eduardo-paes": {
           "nota": 45,
           "evidencias": [
             "p31",
-            "p32"
+            "p32",
+            "p123",
+            "p124",
+            "p86"
           ],
-          "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
+          "justificativa": "Posição contraditória no dossiê: diz que neutralizar não deve ser o objetivo, mas em outras entrevistas defende neutralizar quem enfrenta o Estado e o uso eventual da força letal, sem meta de redução da letalidade."
         },
         "andre-marinho": {
           "nota": 40,
@@ -1213,7 +1262,8 @@
           "nota": 95,
           "evidencias": [
             "p22",
-            "p23"
+            "p23",
+            "p89"
           ],
           "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
         },
@@ -1268,13 +1318,14 @@
           "justificativa": "Propõe convocar excedentes e elevar a PM a 60 mil agentes em quatro anos."
         },
         "eduardo-paes": {
-          "nota": 75,
+          "nota": 85,
           "evidencias": [
             "p34",
+            "p97",
             "p71",
-            "p36"
+            "p1"
           ],
-          "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+          "justificativa": "Propõe ampliar o efetivo segundo manchas criminais, preencher os quadros da Polícia Militar e convocar excedentes de concursos."
         },
         "andre-marinho": {
           "nota": 60,
@@ -1379,16 +1430,19 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p35"
+            "p35",
+            "p99"
           ],
           "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
         },
         "douglas-ruas": {
-          "nota": 70,
+          "nota": 95,
           "evidencias": [
-            "p10"
+            "p87",
+            "p10",
+            "p89"
           ],
-          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+          "justificativa": "Propõe câmeras de leitura de placas e reconhecimento facial nas principais vias, drones em patrulhamento e integração com os centros de comando dos municípios."
         },
         "andre-marinho": {
           "nota": 80,
@@ -1435,7 +1489,7 @@
           "evidencias": [
             "p39"
           ],
-          "justificativa": "Propõe monitorar agressores com tornozeleira eletrônica."
+          "justificativa": "Propõe trabalhar para que agressores sejam monitorados por tornozeleira eletrônica, sem citar alerta à vítima."
         },
         "douglas-ruas": {
           "nota": 95,
@@ -1603,11 +1657,12 @@
           "justificativa": "Sem proposta documentada sobre o tema."
         },
         "douglas-ruas": {
-          "nota": 60,
+          "nota": 95,
           "evidencias": [
-            "p19"
+            "p19",
+            "p97"
           ],
-          "justificativa": "O trecho literal propõe delegacias da mulher 24 horas no interior, outro meio de proteção; a Patrulha Maria da Penha aparece só no resumo, sem trecho."
+          "justificativa": "Propõe Patrulha Maria da Penha em todas as regiões e visita policial frequente ao agressor enquanto a medida protetiva não é deferida."
         },
         "eduardo-paes": {
           "nota": 95,
@@ -1647,9 +1702,10 @@
         "douglas-ruas": {
           "nota": 70,
           "evidencias": [
-            "p54"
+            "p54",
+            "p135"
           ],
-          "justificativa": "Propõe continuidade da contenção de encostas e monitoramento de riscos geológicos."
+          "justificativa": "Propõe continuidade da contenção de encostas e parques alagáveis para reduzir alagamentos, sem obras de macrodrenagem explícitas."
         },
         "andre-marinho": {
           "nota": 85,
@@ -1844,7 +1900,8 @@
         "eduardo-paes": {
           "nota": 95,
           "evidencias": [
-            "p75"
+            "p75",
+            "p115"
           ],
           "justificativa": "Afirma que o aumento de tarifa da concessão de água e esgoto terá de ser revisto."
         },
@@ -1905,9 +1962,10 @@
         "eduardo-paes": {
           "nota": 60,
           "evidencias": [
-            "p74"
+            "p74",
+            "p91"
           ],
-          "justificativa": "Propõe auditar os contratos de concessão."
+          "justificativa": "Propõe auditar os contratos de concessão e verificar se estão sendo cumpridos, sem citar as metas de universalização."
         },
         "andre-marinho": {
           "nota": 90,
@@ -1964,11 +2022,12 @@
           "justificativa": "Afirma que rescindirá contratos de concessionárias em caso de descumprimento."
         },
         "eduardo-paes": {
-          "nota": 10,
+          "nota": 20,
           "evidencias": [
-            "p74"
+            "p74",
+            "p91"
           ],
-          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, embora afirme que não terá problema em revê-los; não fala em rescisão."
         },
         "andre-marinho": {
           "nota": 35,
@@ -2090,7 +2149,9 @@
           "nota": 60,
           "evidencias": [
             "p12",
-            "p9"
+            "p9",
+            "p8",
+            "p121"
           ],
           "justificativa": "Propõe qualificação profissional contínua e ensino técnico, sem programa de primeiro emprego."
         },
@@ -2135,7 +2196,9 @@
           "nota": 90,
           "evidencias": [
             "p11",
-            "p52"
+            "p52",
+            "p120",
+            "p121"
           ],
           "justificativa": "Propõe atrair indústria naval e outros setores, com Refis para estaleiros."
         },
@@ -2206,12 +2269,14 @@
           "justificativa": "Afirma que gerar emprego cabe ao setor privado e que o setor público deve investir em segurança."
         },
         "eduardo-paes": {
-          "nota": 45,
+          "nota": 35,
           "evidencias": [
             "p12",
-            "p11"
+            "p11",
+            "p120",
+            "p121"
           ],
-          "justificativa": "Atribui a geração de emprego ao setor privado, mas propõe papel ativo do estado na atração de investimentos e na qualificação."
+          "justificativa": "Atribui a geração de emprego ao setor privado, mas propõe papel ativo do estado com atração de investimentos, incentivos e prioridade de industrialização regional."
         },
         "andre-marinho": {
           "nota": 30,
@@ -2322,7 +2387,8 @@
         "eduardo-paes": {
           "nota": 55,
           "evidencias": [
-            "p18"
+            "p18",
+            "p83"
           ],
           "justificativa": "Propõe reequilibrar as contas com responsabilidade fiscal, sem mencionar teto de gastos."
         },
@@ -2377,7 +2443,8 @@
           "nota": 95,
           "evidencias": [
             "p73",
-            "p72"
+            "p72",
+            "p93"
           ],
           "justificativa": "Defende aprofundar auditorias em todos os contratos e criar uma secretaria de integridade."
         },
@@ -2444,14 +2511,19 @@
           "nota": 95,
           "evidencias": [
             "p74",
-            "p76"
+            "p76",
+            "p75"
           ],
           "justificativa": "Afirma que o plano prevê enxugamento da máquina e menor despesa de custeio."
         },
         "eduardo-paes": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 55,
+          "evidencias": [
+            "p57",
+            "p92",
+            "p83"
+          ],
+          "justificativa": "Propõe revisar despesa por despesa e contrato por contrato e não admitir desperdício, sem propor corte de cargos ou enxugamento da estrutura."
         },
         "andre-marinho": {
           "nota": 60,
@@ -2542,9 +2614,10 @@
         "eduardo-paes": {
           "nota": 25,
           "evidencias": [
-            "p52"
+            "p52",
+            "p121"
           ],
-          "justificativa": "Propõe um Refis estadual para dívidas de estaleiros, sem mencionar revisão ou corte de benefícios fiscais a empresas."
+          "justificativa": "Propõe Refis estadual para estaleiros e mais incentivos para o Sul Fluminense, sem mencionar revisão ou corte de benefícios fiscais a empresas."
         },
         "juliete-pantoja": {
           "nota": 85,
@@ -2574,17 +2647,19 @@
           "evidencias": [
             "p14",
             "p44",
-            "p45"
+            "p45",
+            "p110"
           ],
           "justificativa": "Propõe iniciar a Linha 3 até São Gonçalo e expandir o metrô para a Baixada."
         },
         "douglas-ruas": {
-          "nota": 45,
+          "nota": 60,
           "evidencias": [
-            "p42",
-            "p43"
+            "p125",
+            "p141",
+            "p140"
           ],
-          "justificativa": "Defende buscar recursos federais ou PPP para a Linha 3, mas diz que a obra não se conclui em um mandato."
+          "justificativa": "Propõe captar recursos para implementar a Linha 3 e incluir a Baixada no planejamento da expansão do metrô, sem prometer estações antes de projeto e recursos."
         },
         "andre-marinho": {
           "nota": 55,
@@ -2637,16 +2712,18 @@
           "nota": 95,
           "evidencias": [
             "p48",
-            "p49"
+            "p49",
+            "p13"
           ],
           "justificativa": "Propõe levar o BRT da Transolímpica e da Via Light pela Baixada, conectado à rede do Rio."
         },
         "douglas-ruas": {
           "nota": 80,
           "evidencias": [
-            "p48"
+            "p48",
+            "p126"
           ],
-          "justificativa": "Propõe novo corredor de alta capacidade com faixa exclusiva na Baixada."
+          "justificativa": "Propõe novo corredor de alta capacidade com faixa exclusiva na Baixada e ampliação de faixas exclusivas nos corredores metropolitanos."
         },
         "andre-marinho": {
           "nota": 70,
@@ -2694,16 +2771,17 @@
       },
       "c": {
         "douglas-ruas": {
-          "nota": 95,
+          "nota": 80,
           "evidencias": [
             "p50"
           ],
-          "justificativa": "Propõe conectar a Via Light à Linha Vermelha, à Avenida Brasil e à Via Dutra."
+          "justificativa": "Defende buscar soluções para conectar a Via Light à Linha Vermelha, à Avenida Brasil e à Via Dutra, sem compromisso de obra definido."
         },
         "eduardo-paes": {
           "nota": 70,
           "evidencias": [
-            "p49"
+            "p49",
+            "p48"
           ],
           "justificativa": "Propõe estender a Via Light até a Avenida Brasil e Cabuçu, com BRT."
         },
@@ -2768,16 +2846,17 @@
           "nota": 55,
           "evidencias": [
             "p41",
-            "p45",
-            "p21"
+            "p139",
+            "p45"
           ],
-          "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 conforme a capacidade fiscal, com tarifa social focalizada, sem tarifa zero."
+          "justificativa": "Propõe subsídio para reduzir a tarifa do metrô até R$ 5 de forma gradual e, no plano, tarifa social focalizada, sem tarifa zero."
         },
         "eduardo-paes": {
           "nota": 60,
           "evidencias": [
             "p41",
-            "p42"
+            "p42",
+            "p101"
           ],
           "justificativa": "Declara o objetivo de reduzir as tarifas com subsídio ao transporte intermunicipal, sem mencionar tarifa zero."
         },
@@ -2812,7 +2891,8 @@
           "nota": 95,
           "evidencias": [
             "p22",
-            "p23"
+            "p23",
+            "p89"
           ],
           "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
         },
@@ -2867,13 +2947,14 @@
           "justificativa": "Propõe convocar excedentes e elevar a PM a 60 mil agentes em quatro anos."
         },
         "eduardo-paes": {
-          "nota": 75,
+          "nota": 85,
           "evidencias": [
             "p34",
+            "p97",
             "p71",
-            "p36"
+            "p1"
           ],
-          "justificativa": "Propõe ampliar e redistribuir o efetivo e convocar excedentes de concursos."
+          "justificativa": "Propõe ampliar o efetivo segundo manchas criminais, preencher os quadros da Polícia Militar e convocar excedentes de concursos."
         },
         "andre-marinho": {
           "nota": 60,
@@ -2978,16 +3059,19 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p35"
+            "p35",
+            "p99"
           ],
           "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
         },
         "douglas-ruas": {
-          "nota": 70,
+          "nota": 95,
           "evidencias": [
-            "p10"
+            "p87",
+            "p10",
+            "p89"
           ],
-          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+          "justificativa": "Propõe câmeras de leitura de placas e reconhecimento facial nas principais vias, drones em patrulhamento e integração com os centros de comando dos municípios."
         },
         "andre-marinho": {
           "nota": 80,
@@ -3037,9 +3121,11 @@
           "justificativa": "Promete recomposição salarial anual dos servidores."
         },
         "eduardo-paes": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 50,
+          "evidencias": [
+            "p96"
+          ],
+          "justificativa": "Apresenta como credencial ter dado reajuste aos servidores todos os anos como prefeito, sem compromisso explícito de recomposição anual no estado."
         },
         "andre-marinho": {
           "nota": 45,
@@ -3096,11 +3182,13 @@
           "justificativa": "Promete replicar no estado acordos de resultado com metas e bonificação."
         },
         "douglas-ruas": {
-          "nota": 70,
+          "nota": 80,
           "evidencias": [
-            "p38"
+            "p38",
+            "p13",
+            "p14"
           ],
-          "justificativa": "Propõe bonificação por resultado para professores, sem estender a todos os servidores."
+          "justificativa": "Propõe bonificação por resultado para professores e policiais e compromisso assinado por resultados para comandantes, delegados e diretores de presídio."
         },
         "andre-marinho": {
           "nota": 55,
@@ -3193,7 +3281,8 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p71"
+            "p71",
+            "p97"
           ],
           "justificativa": "Compromete-se a convocar os excedentes já aprovados em concursos."
         },
@@ -3260,7 +3349,8 @@
         "eduardo-paes": {
           "nota": 60,
           "evidencias": [
-            "p53"
+            "p53",
+            "p119"
           ],
           "justificativa": "Defende previsibilidade e menos burocracia, sem propor balcão único."
         },
@@ -3303,7 +3393,8 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
-            "p67"
+            "p67",
+            "p117"
           ],
           "justificativa": "Afirma que o balcão regional terá autonomia para licenciar atividades de alto impacto."
         },
@@ -3345,18 +3436,22 @@
       },
       "c": {
         "eduardo-paes": {
-          "nota": 95,
+          "nota": 55,
           "evidencias": [
-            "p53"
+            "p53",
+            "p119",
+            "p115"
           ],
-          "justificativa": "Defende previsibilidade, regras estáveis e menos burocracia para investidores."
+          "justificativa": "Posição contraditória no dossiê: defende previsibilidade, regra estável e menos burocracia para investidores, mas diz que em seu governo não haverá agência reguladora mandando."
         },
         "douglas-ruas": {
-          "nota": 65,
+          "nota": 95,
           "evidencias": [
-            "p66"
+            "p116",
+            "p66",
+            "p115"
           ],
-          "justificativa": "Propõe balcão único para reduzir burocracia e dar previsibilidade."
+          "justificativa": "Propõe marcos regulatórios claros e estáveis com segurança jurídica e previsibilidade, balcão único para reduzir burocracia e licenciamento com prazos máximos."
         },
         "andre-marinho": {
           "nota": 65,
@@ -3407,9 +3502,12 @@
           "justificativa": "Propõe incentivos fiscais com contrapartida de emprego e devolução se as metas não forem cumpridas."
         },
         "eduardo-paes": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 45,
+          "evidencias": [
+            "p121",
+            "p52"
+          ],
+          "justificativa": "Defende mais incentivos para o Sul Fluminense e Refis para estaleiros, sem tratar de contrapartidas de emprego ou devolução."
         },
         "andre-marinho": {
           "nota": 75,
@@ -3460,7 +3558,8 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
-            "p35"
+            "p35",
+            "p159"
           ],
           "justificativa": "Propõe levar a Faetec para dentro das escolas desde o 1º ano do ensino médio."
         },
@@ -3520,11 +3619,12 @@
           "justificativa": "Defende que os cursos da Faetec sejam ligados às vocações econômicas de cada região."
         },
         "douglas-ruas": {
-          "nota": 60,
+          "nota": 95,
           "evidencias": [
-            "p35"
+            "p110",
+            "p160"
           ],
-          "justificativa": "Propõe qualificação profissional nas escolas, sem mencionar vínculo com a economia regional."
+          "justificativa": "Propõe cursos técnicos definidos pelas demandas do mercado de cada região e formação alinhada às vocações regionais."
         },
         "andre-marinho": {
           "nota": 60,
@@ -3571,7 +3671,9 @@
         "eduardo-paes": {
           "nota": 55,
           "evidencias": [
-            "p12"
+            "p12",
+            "p8",
+            "p121"
           ],
           "justificativa": "Propõe qualificação profissional contínua, sem programa de primeiro emprego."
         },
@@ -3621,9 +3723,11 @@
           "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 45,
+          "evidencias": [
+            "p94"
+          ],
+          "justificativa": "Propõe ensino em tempo integral só nas escolas de áreas retomadas do crime, sem proposta geral para a rede nem foco em ciência, tecnologia e matemática."
         },
         "andre-marinho": {
           "nota": 70,
@@ -3670,17 +3774,20 @@
           "nota": 95,
           "evidencias": [
             "p2",
-            "p1"
+            "p1",
+            "p151"
           ],
           "justificativa": "Propõe elevar a PM a 60 mil agentes e convocar excedentes."
         },
         "eduardo-paes": {
-          "nota": 75,
+          "nota": 85,
           "evidencias": [
+            "p1",
             "p34",
+            "p97",
             "p36"
           ],
-          "justificativa": "Propõe redistribuir e ampliar o efetivo e devolver às ruas policiais cedidos a gabinetes."
+          "justificativa": "Propõe aumentar e redistribuir o efetivo do policiamento ostensivo, preencher os quadros da PM e devolver às ruas policiais cedidos a gabinetes."
         },
         "andre-marinho": {
           "nota": 75,
@@ -3785,18 +3892,21 @@
           "nota": 95,
           "evidencias": [
             "p84",
-            "p4"
+            "p4",
+            "p157"
           ],
           "justificativa": "Afirma que pretende desmontar, e não administrar, o domínio territorial das facções."
         },
         "eduardo-paes": {
-          "nota": 85,
+          "nota": 95,
           "evidencias": [
             "p2",
+            "p85",
+            "p123",
             "p29",
             "p30"
           ],
-          "justificativa": "Propõe retomar territórios dominados, começando pelo Complexo do Salgueiro."
+          "justificativa": "Propõe retomar os territórios dominados, sob condução direta do governador, começando pelo Complexo do Salgueiro."
         },
         "andre-marinho": {
           "nota": 90,
@@ -3852,16 +3962,19 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p35"
+            "p35",
+            "p99"
           ],
           "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
         },
         "douglas-ruas": {
-          "nota": 70,
+          "nota": 95,
           "evidencias": [
-            "p10"
+            "p87",
+            "p10",
+            "p89"
           ],
-          "justificativa": "Propõe drones em patrulhamento e scanners de carga (Escudo Fluminense)."
+          "justificativa": "Propõe câmeras de leitura de placas e reconhecimento facial nas principais vias, drones em patrulhamento e integração com os centros de comando dos municípios."
         },
         "andre-marinho": {
           "nota": 80,
@@ -3906,20 +4019,22 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
-            "p3",
             "p4",
+            "p157",
             "p84"
           ],
-          "justificativa": "Propõe a retomada de territórios como principal critério de avaliação das polícias."
+          "justificativa": "Propõe a retomada de territórios como principal indicador de avaliação dos gestores da segurança, a ser comprovada ao ISP."
         },
         "eduardo-paes": {
-          "nota": 70,
+          "nota": 80,
           "evidencias": [
             "p2",
+            "p85",
+            "p123",
             "p29",
-            "p30"
+            "p90"
           ],
-          "justificativa": "Propõe retomar territórios, mas define prender como objetivo das operações."
+          "justificativa": "Põe a retomada de territórios no centro da política de segurança e critica operação sem ocupação posterior, sem defini-la como critério de avaliação das polícias."
         },
         "andre-marinho": {
           "nota": 75,
@@ -3974,19 +4089,25 @@
       },
       "b": {
         "eduardo-paes": {
-          "nota": 90,
+          "nota": 55,
           "evidencias": [
             "p31",
-            "p3"
+            "p87",
+            "p98",
+            "p32",
+            "p123"
           ],
-          "justificativa": "Afirma que o objetivo deve ser prender, com inteligência, e não neutralizar."
+          "justificativa": "Posição contraditória no dossiê: na sabatina diz que o objetivo deve ser prender, com inteligência, e não neutralizar; em entrevistas anteriores diz que quem enfrenta o Estado tem que ser neutralizado."
         },
         "douglas-ruas": {
-          "nota": 50,
+          "nota": 40,
           "evidencias": [
-            "p9"
+            "p99",
+            "p88",
+            "p90",
+            "p155"
           ],
-          "justificativa": "Propõe investigação financeira de milícias, mas prioriza a retomada de território como critério."
+          "justificativa": "O plano propõe investigação, inteligência e blitzes para capturar procurados, mas em entrevista avisa que sua política de enfrentamento pode aumentar a letalidade."
         },
         "andre-marinho": {
           "nota": 55,
@@ -4043,16 +4164,20 @@
           "nota": 95,
           "evidencias": [
             "p5",
-            "p85"
+            "p85",
+            "p93"
           ],
           "justificativa": "Defende manter polícia e serviços públicos na área após as operações."
         },
         "eduardo-paes": {
-          "nota": 85,
+          "nota": 60,
           "evidencias": [
-            "p31"
+            "p88",
+            "p31",
+            "p29",
+            "p100"
           ],
-          "justificativa": "Defende um plano de ocupação para o dia seguinte às operações."
+          "justificativa": "Defende plano de ocupação para o dia seguinte e bases do Bope nas áreas retomadas, mas questiona a ideia de que essas áreas precisam sobretudo de serviços sociais."
         },
         "andre-marinho": {
           "nota": 95,
@@ -4103,19 +4228,24 @@
       },
       "d": {
         "douglas-ruas": {
-          "nota": 10,
+          "nota": 5,
           "evidencias": [
-            "p3"
+            "p3",
+            "p156",
+            "p155"
           ],
-          "justificativa": "Propõe não contabilizar mortes em legítima defesa policial como letalidade violenta."
+          "justificativa": "Propõe retirar a legítima defesa policial do indicador de letalidade violenta e avisa que sua política pode aumentar a letalidade."
         },
         "eduardo-paes": {
           "nota": 45,
           "evidencias": [
             "p31",
-            "p32"
+            "p32",
+            "p123",
+            "p124",
+            "p86"
           ],
-          "justificativa": "Diz que neutralizar não deve ser o objetivo, mas em outra entrevista defende neutralizar quem enfrenta a polícia com fuzil."
+          "justificativa": "Posição contraditória no dossiê: diz que neutralizar não deve ser o objetivo, mas em outras entrevistas defende neutralizar quem enfrenta o Estado e o uso eventual da força letal, sem meta de redução da letalidade."
         },
         "andre-marinho": {
           "nota": 40,
@@ -4173,7 +4303,8 @@
           "nota": 95,
           "evidencias": [
             "p27",
-            "p26"
+            "p26",
+            "p147"
           ],
           "justificativa": "Defende comprar serviços da rede privada para reduzir filas."
         },
@@ -4240,11 +4371,12 @@
           "justificativa": "Propõe Super Centros Regionais de Especialidades em todas as regiões."
         },
         "douglas-ruas": {
-          "nota": 80,
+          "nota": 95,
           "evidencias": [
+            "p101",
             "p25"
           ],
-          "justificativa": "Propõe Centros Integrados de Saúde em cada região, com especialistas, exames e pequenas cirurgias."
+          "justificativa": "Propõe um centro integrado de consultas especializadas e exames em cada região do estado."
         },
         "andre-marinho": {
           "nota": 85,
@@ -4305,7 +4437,8 @@
         "eduardo-paes": {
           "nota": 50,
           "evidencias": [
-            "p60"
+            "p60",
+            "p82"
           ],
           "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
         },
@@ -4352,14 +4485,17 @@
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p7"
+            "p7",
+            "p82"
           ],
           "justificativa": "Propõe contratar mais médicos e especialistas."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 65,
+          "evidencias": [
+            "p105"
+          ],
+          "justificativa": "Propõe atrair e fixar médicos especialistas no interior com incentivos e concursos direcionados, sem proposta de contratação geral para a rede estadual."
         },
         "andre-marinho": {
           "nota": null,
@@ -4418,9 +4554,10 @@
         "douglas-ruas": {
           "nota": 70,
           "evidencias": [
-            "p54"
+            "p54",
+            "p135"
           ],
-          "justificativa": "Propõe continuidade da contenção de encostas e monitoramento de riscos geológicos."
+          "justificativa": "Propõe continuidade da contenção de encostas e parques alagáveis para reduzir alagamentos, sem obras de macrodrenagem explícitas."
         },
         "andre-marinho": {
           "nota": 85,
@@ -4615,7 +4752,8 @@
         "eduardo-paes": {
           "nota": 95,
           "evidencias": [
-            "p75"
+            "p75",
+            "p115"
           ],
           "justificativa": "Afirma que o aumento de tarifa da concessão de água e esgoto terá de ser revisto."
         },
@@ -4676,9 +4814,10 @@
         "eduardo-paes": {
           "nota": 60,
           "evidencias": [
-            "p74"
+            "p74",
+            "p91"
           ],
-          "justificativa": "Propõe auditar os contratos de concessão."
+          "justificativa": "Propõe auditar os contratos de concessão e verificar se estão sendo cumpridos, sem citar as metas de universalização."
         },
         "andre-marinho": {
           "nota": 90,
@@ -4735,11 +4874,12 @@
           "justificativa": "Afirma que rescindirá contratos de concessionárias em caso de descumprimento."
         },
         "eduardo-paes": {
-          "nota": 10,
+          "nota": 20,
           "evidencias": [
-            "p74"
+            "p74",
+            "p91"
           ],
-          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão."
+          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, embora afirme que não terá problema em revê-los; não fala em rescisão."
         },
         "andre-marinho": {
           "nota": 35,
@@ -4854,6 +4994,7 @@
           "nota": 85,
           "evidencias": [
             "p42",
+            "p101",
             "p41"
           ],
           "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
@@ -4972,7 +5113,8 @@
           "nota": 95,
           "evidencias": [
             "p40",
-            "p43"
+            "p43",
+            "p101"
           ],
           "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
         },
@@ -5032,16 +5174,19 @@
         "douglas-ruas": {
           "nota": 95,
           "evidencias": [
+            "p139",
             "p41"
           ],
           "justificativa": "Propõe reduzir gradualmente a tarifa do metrô até R$ 5 com subsídio estadual."
         },
         "eduardo-paes": {
-          "nota": 45,
+          "nota": 60,
           "evidencias": [
+            "p108",
+            "p102",
             "p41"
           ],
-          "justificativa": "Declara o objetivo de reduzir tarifas, sem se comprometer com valor."
+          "justificativa": "Diz que há como reduzir a tarifa do metrô depois de o poder público controlar a bilhetagem e saber que subsídio se paga, sem assumir valor ou prazo."
         },
         "andre-marinho": {
           "nota": 35,
@@ -5099,9 +5244,10 @@
         "douglas-ruas": {
           "nota": 70,
           "evidencias": [
-            "p54"
+            "p54",
+            "p135"
           ],
-          "justificativa": "Propõe continuidade da contenção de encostas e monitoramento de riscos geológicos."
+          "justificativa": "Propõe continuidade da contenção de encostas e parques alagáveis para reduzir alagamentos, sem obras de macrodrenagem explícitas."
         },
         "andre-marinho": {
           "nota": 85,
@@ -5316,18 +5462,21 @@
           "justificativa": "Defende que o metrô chegue a São Gonçalo e se integre aos trens, sem citar Niterói ou a Linha 3."
         },
         "douglas-ruas": {
-          "nota": 55,
+          "nota": 65,
           "evidencias": [
-            "p42",
-            "p43"
+            "p125",
+            "p141",
+            "p42"
           ],
-          "justificativa": "Propõe acompanhar o estudo da Linha 3 e buscar recursos federais ou PPP, mas afirma que a obra não se conclui em um mandato."
+          "justificativa": "Propõe acompanhar a finalização do projeto da Linha 3 e captar recursos da União e da iniciativa privada para implementá-la, sem compromisso de construção no mandato."
         },
         "eduardo-paes": {
           "nota": 95,
           "evidencias": [
             "p14",
-            "p44"
+            "p44",
+            "p110",
+            "p101"
           ],
           "justificativa": "Propõe iniciar até o fim do mandato as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí, ligada à Linha 2 por túnel sob a Baía."
         },
@@ -5423,6 +5572,7 @@
           "nota": 95,
           "evidencias": [
             "p47",
+            "p142",
             "p46"
           ],
           "justificativa": "Propõe cobrar da concessionária das barcas pontualidade, regularidade e menos cancelamentos, com rescisão do contrato em caso de descumprimento."
@@ -5431,6 +5581,7 @@
           "nota": 55,
           "evidencias": [
             "p74",
+            "p91",
             "p73"
           ],
           "justificativa": "Defende auditar contratos de concessão e cobrar obrigações das partes, sem citar as barcas nem prever sanções."
@@ -5483,18 +5634,21 @@
         "douglas-ruas": {
           "nota": 30,
           "evidencias": [
+            "p142",
             "p46",
             "p45",
             "p21"
           ],
-          "justificativa": "Propõe cobrar as concessionárias e prevê tarifa social focalizada e isenção em barcas para viagens de cuidado, sem estatizar o transporte aquaviário."
+          "justificativa": "Propõe cobrar o contrato da concessionária das barcas e prevê tarifa social focalizada e isenção em barcas para viagens de cuidado, sem estatizar o transporte aquaviário."
         },
         "eduardo-paes": {
-          "nota": 10,
+          "nota": 40,
           "evidencias": [
-            "p74"
+            "p74",
+            "p111",
+            "p114"
           ],
-          "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, sem tratar especificamente das barcas."
+          "justificativa": "Posição contraditória no dossiê: diz que não vai ameaçar romper concessões, mas admite criar empresa pública de transporte se necessário; não trata das barcas nem de tarifa social ou zero."
         },
         "juliete-pantoja": {
           "nota": 80,
@@ -5546,15 +5700,20 @@
           "justificativa": "Defende mudar o modal do rodoviário para o ferroviário, sem proposta de recuperação de rodovias estaduais."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 85,
+          "evidencias": [
+            "p128",
+            "p129",
+            "p145"
+          ],
+          "justificativa": "Propõe recuperar e ampliar rodovias estratégicas do interior e reequipar o DER-RJ para a manutenção da malha estadual."
         },
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
             "p16",
-            "p13"
+            "p13",
+            "p95"
           ],
           "justificativa": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância, sem mencionar a fonte dos recursos."
         },
@@ -5596,16 +5755,20 @@
           "justificativa": "Defende reestatizar as empresas de transporte privatizadas e auditar as concessões, sem mencionar rodovias."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 70,
+          "evidencias": [
+            "p130",
+            "p146"
+          ],
+          "justificativa": "Propõe novos contratos de concessão de rodovias com manutenção e câmeras e declarou-se contra um pedágio específico na BR-101, sem mencionar lotes nem regra geral sobre novos pedágios."
         },
         "eduardo-paes": {
           "nota": 30,
           "evidencias": [
-            "p16"
+            "p16",
+            "p115"
           ],
-          "justificativa": "Propõe recuperar as estradas do interior com obras de recapeamento e vigilância, sem mencionar concessão à iniciativa privada."
+          "justificativa": "Propõe recuperar as estradas do interior com obras de recapeamento e vigilância, sem mencionar concessão à iniciativa privada; sobre pedágio, só adverte a ViaLagos contra abusos."
         },
         "juliete-pantoja": {
           "nota": 15,
@@ -5665,6 +5828,7 @@
           "evidencias": [
             "p45",
             "p46",
+            "p112",
             "p16"
           ],
           "justificativa": "Propõe recuperar a malha ferroviária e duplicar o ramal Saracuruna, mas também recuperar as estradas do interior, sem priorizar um modo sobre o outro."
@@ -5725,6 +5889,7 @@
           "nota": 95,
           "evidencias": [
             "p42",
+            "p101",
             "p41"
           ],
           "justificativa": "Propõe subsidiar o transporte intermunicipal, com base em dados de origem e destino, para reduzir as passagens."
@@ -5779,12 +5944,13 @@
           "justificativa": "Propõe construir hospitais em um plano de obras públicas e recuperar a rede estadual, sem especificar hospitais regionais no interior."
         },
         "douglas-ruas": {
-          "nota": 50,
+          "nota": 65,
           "evidencias": [
-            "p25",
-            "p30"
+            "p103",
+            "p148",
+            "p101"
           ],
-          "justificativa": "Propõe Centros Integrados de Saúde em cada região e contratação de leitos no interior, sem construção de hospitais regionais."
+          "justificativa": "Propõe fortalecer hospitais regionais de referência priorizando o reaproveitamento de unidades existentes, inaugurar o Hospital do Câncer de Nova Friburgo e centros de especialidades em cada região."
         },
         "eduardo-paes": {
           "nota": 95,
@@ -5843,17 +6009,19 @@
           "justificativa": "Promete equipar unidades de saúde para exames e cirurgias de alta complexidade, sem mencionar polos regionais ou oncologia."
         },
         "douglas-ruas": {
-          "nota": 80,
+          "nota": 85,
           "evidencias": [
             "p29",
+            "p148",
             "p25"
           ],
-          "justificativa": "Propõe fortalecer a oncologia nas regiões do interior e Centros Integrados de Saúde com exames de imagem em cada região, com o novo instituto de oncologia na capital."
+          "justificativa": "Propõe fortalecer a oncologia no interior, inaugurar o Hospital do Câncer de Nova Friburgo em 100 dias e centros com exames de imagem em cada região."
         },
         "eduardo-paes": {
           "nota": 80,
           "evidencias": [
             "p63",
+            "p122",
             "p59",
             "p64"
           ],
@@ -5916,6 +6084,7 @@
           "evidencias": [
             "p20",
             "p65",
+            "p82",
             "p5"
           ],
           "justificativa": "Propõe garantir os repasses de saúde aos municípios com critérios técnicos e recuperar os hospitais estaduais, sem condicionar o custeio de hospitais do interior a metas."
@@ -5965,14 +6134,17 @@
           "justificativa": "Propõe contratar médicos e profissionais de saúde por concurso para completar as equipes."
         },
         "douglas-ruas": {
-          "nota": null,
-          "evidencias": [],
-          "justificativa": "Sem proposta documentada sobre o tema."
+          "nota": 65,
+          "evidencias": [
+            "p105"
+          ],
+          "justificativa": "Propõe atrair e fixar médicos especialistas no interior com incentivos e concursos direcionados, sem proposta de contratação geral para a rede estadual."
         },
         "eduardo-paes": {
           "nota": 90,
           "evidencias": [
-            "p7"
+            "p7",
+            "p82"
           ],
           "justificativa": "Propõe contratar mais médicos e especialistas."
         },
