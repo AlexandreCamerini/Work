@@ -1,0 +1,68 @@
+[
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "trabalho-app",
+    "publico_antes": {
+      "trabalho": [
+        "autonomo"
+      ]
+    },
+    "publico_depois": {
+      "trabalho": [
+        "autonomo"
+      ],
+      "deslocamento": [
+        "moto",
+        "carro",
+        "app"
+      ]
+    },
+    "motivo": "\"Por conta própria, MEI ou aplicativo\" junta 26 milhões de conta-própria com 1,7 milhão de trabalhadores de app. Hoje todos veem \"você roda de aplicativo dez horas por dia\" (nota 1 para diarista, MEI, agricultor, pescador). Restringir a quem anda de moto, carro ou app mantém o entregador e o motorista, e manda os demais para conta-propria. Resíduo: autônomo não-app com moto ou carro (agricultor, pedreiro) segue vendo a cena do app; a correção definitiva é separar a resposta na tela do perfil."
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "publico_antes": {
+      "deslocamento": [
+        "carro"
+      ]
+    },
+    "publico_depois": {
+      "deslocamento": [
+        "carro",
+        "casa"
+      ],
+      "faixa": [
+        "misto",
+        "privado"
+      ],
+      "regiao": [
+        "capital",
+        "leste"
+      ]
+    },
+    "motivo": "A cena pressupõe empregar alguém (\"quem trabalha com você, ou na sua casa\") e morar longe de Nova Iguaçu. Hoje vai para o motorista de app da Baixada (faixa pública, sem empregado, mora na própria Baixada) e para o dono de carro do interior. Com o ajuste, eles veem a cena padrão (a passagem da família) ou a do interior; quem mora na capital ou em Niterói, de carro e com faixa média/alta, continua aqui. Entra quem trabalha em casa nessa faixa: não paga passagem, mas quem trabalha na casa dele, sim."
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "via-expressa-fechada",
+    "publico_antes": {
+      "deslocamento": [
+        "carro",
+        "app"
+      ]
+    },
+    "publico_depois": {
+      "deslocamento": [
+        "carro",
+        "app"
+      ],
+      "regiao": [
+        "capital",
+        "baixada",
+        "leste"
+      ]
+    },
+    "motivo": "Avenida Brasil fechada por tiroteio é rotina de quem dirige na região metropolitana, não de quem dirige em Macaé, Campos ou Petrópolis. No interior, o dono de carro passa a ver a cena padrão (operação no bairro), mais próxima do que acontece lá."
+  }
+]

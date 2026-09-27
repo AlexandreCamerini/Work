@@ -1,0 +1,747 @@
+[
+  {
+    "eleicao": "presidente",
+    "id_novo": "conta-propria",
+    "grupo": "jornada",
+    "publico": {
+      "trabalho": [
+        "autonomo"
+      ]
+    },
+    "origem_opcoes": "escala-6x1",
+    "inserir_depois_de": "trabalho-app",
+    "motivo": "Hoje todo autônomo (diarista, pedreiro, camelô, MEI, agricultor, pescador) vê \"você roda de aplicativo\". Por conta própria são 25,3% dos ocupados; por aplicativo, 1,7 milhão. Com o ajuste de trabalho-app (só para autônomo de moto, carro ou app), os demais autônomos caem aqui.",
+    "cena": "Você trabalha por conta própria: se parar um dia, não ganha. A vaga com carteira que aparece é 6x1 e paga pouco.",
+    "pergunta": "O que faria a carteira assinada valer a pena pra você?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Acabar com a escala 6x1: 40 horas por semana, sem cortar salário.",
+        "preferencia": "Aprovar o fim da escala 6x1 e reduzir a jornada legal para 40 horas semanais sem redução salarial."
+      },
+      {
+        "id": "b",
+        "texto": "Poder combinar a minha jornada direto com a empresa.",
+        "preferencia": "Prevalência do negociado entre trabalhador e empresa sobre o legislado, com liberdade para escolher a própria escala."
+      },
+      {
+        "id": "c",
+        "texto": "Rever pontos da reforma trabalhista e da terceirização.",
+        "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+      },
+      {
+        "id": "d",
+        "texto": "Menos imposto na carteira, pra empresa contratar mais gente.",
+        "preferencia": "Reduzir encargos sobre a folha de pagamento para estimular a contratação formal."
+      }
+    ],
+    "fato": {
+      "texto": "No 2º trimestre de 2026, 25,3% dos trabalhadores ocupados no Brasil trabalhavam por conta própria; no Maranhão, 33,8%.",
+      "fonte": "IBGE, PNAD Contínua (14/08/2026)",
+      "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+    },
+    "contexto": {
+      "paragrafos": [
+        "No 2º trimestre de 2026, 25,3% dos ocupados no país trabalhavam por conta própria. No Maranhão, eram 33,8%. A informalidade atingia 37,4% dos ocupados, e só 74,4% dos empregados do setor privado tinham carteira assinada.",
+        "O limite de 44 horas está na Constituição, e só o Congresso pode mudá-lo. A Câmara aprovou em maio de 2026 uma proposta de 40 horas com duas folgas. Uma comissão do Senado aprovou em setembro. Falta a votação no plenário do Senado, em dois turnos.",
+        "Acabar com a 6x1 sem cortar salário dá mais descanso, mas empresas apontam custo maior. Negociar direto com a empresa traz flexibilidade, mas quem negocia sozinho tem menos força. Rever a reforma de 2017 devolve proteções, mas pode encarecer contratações. Reduzir imposto na folha estimula vagas, mas tira receita do governo.",
+        "Desde 2017, acordos coletivos já podem mudar a jornada em vários pontos. Hoje, a empresa paga em geral 20% de INSS sobre a folha de salários."
+      ],
+      "fontes": [
+        {
+          "veiculo": "IBGE",
+          "titulo": "PNAD Contínua Trimestral: desocupação cai em 13 das 27 UFs no 2° trimestre de 2026",
+          "data": "2026-08-14",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/47774-pnad-continua-trimestral-desocupacao-cai-em-13-das-27-ufs-no-2-trimestre-de-2026"
+        },
+        {
+          "veiculo": "Estado de Minas",
+          "titulo": "PEC do fim da escala 6x1 aguarda votação final no Senado; entenda a tramitação em setembro de 2026",
+          "data": "2026-09-21",
+          "url": "https://www.em.com.br/politica/2026/09/7504982-pec-do-fim-da-escala-6x1-aguarda-votacao-final-no-senado-entenda-a-tramitacao-em-setembro-de-2026.html"
+        },
+        {
+          "veiculo": "Planalto",
+          "titulo": "Lei nº 13.467, de 13 de julho de 2017 (reforma trabalhista)",
+          "data": "2017-07-13",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm"
+        },
+        {
+          "veiculo": "Agência Câmara",
+          "titulo": "Sancionada lei que mantém desoneração da folha em 2024",
+          "data": "2024-09-17",
+          "url": "https://www.camara.leg.br/noticias/1097176-sancionada-lei-que-mantem-desoneracao-da-folha-em-2024/"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "presidente",
+    "id_novo": "fila-aposentado",
+    "grupo": "fila-sus",
+    "publico": {
+      "trabalho": [
+        "aposentado"
+      ]
+    },
+    "origem_opcoes": "fila-cirurgia",
+    "inserir_antes_de": "especialista-longe",
+    "motivo": "A padrão (\"sua mãe espera\") e plano-voltou-sus (\"o plano da sua mãe ficou caro depois dos 60\") não servem a quem já passou dos 60. Vai antes da variante do Norte, que também fala da mãe.",
+    "cena": "Você passou dos 60 e precisa operar. Pelo SUS, a espera já passa de meses, e plano nessa idade custa caro.",
+    "pergunta": "O que resolvia mais rápido?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Governo paga hospital particular pra fazer exame e cirurgia do SUS.",
+        "preferencia": "Contratar serviços, exames e cirurgias da rede privada para o SUS."
+      },
+      {
+        "id": "b",
+        "texto": "Fila única pela internet, organizada por gravidade.",
+        "preferencia": "Fila única digital de atenção especializada ordenada por risco clínico, com uso de inteligência artificial."
+      },
+      {
+        "id": "c",
+        "texto": "Mutirão e atendimento à noite pra consulta, exame e cirurgia.",
+        "preferencia": "Terceiro turno nos serviços de saúde, carretas e mutirões de consultas, exames e cirurgias."
+      },
+      {
+        "id": "d",
+        "texto": "Aumentar o que o SUS paga a hospitais e clínicas.",
+        "preferencia": "Correção efetiva dos valores da tabela SUS pagos aos prestadores."
+      }
+    ],
+    "fato": {
+      "texto": "Em 2022, o Brasil tinha 32,1 milhões de pessoas com 60 anos ou mais, 56% a mais que em 2010.",
+      "fonte": "IBGE, Censo Demográfico 2022",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
+    },
+    "contexto": {
+      "paragrafos": [
+        "Em 2022, o país tinha 32,1 milhões de pessoas com 60 anos ou mais, 56% a mais que em 2010. É a faixa que mais procura atendimento: em 2019, 27,5% dos idosos buscaram algum serviço de saúde em duas semanas.",
+        "A União financia e coordena o SUS; estados e municípios organizam as filas. Mais de 70% da atenção especializada é feita por prestadores privados contratados. Desde 2025, um programa federal paga hospitais particulares com abatimento de tributos. Há contratos para 600 mil procedimentos em 21 estados.",
+        "Comprar exames e cirurgias da rede privada amplia a oferta rápido, mas pode custar mais que a tabela SUS. Uma fila única digital por gravidade organiza a espera, mas exige ligar sistemas de estados e cidades. Mutirões e carretas zeram filas locais, mas são temporários. Pagar mais aos hospitais atrai prestadores, mas pede mais orçamento.",
+        "Pelo Estatuto da Pessoa Idosa, quem tem 60 anos ou mais tem atendimento preferencial nos serviços de saúde. O encaminhamento para cirurgia sai do posto de saúde, pela regulação."
+      ],
+      "fontes": [
+        {
+          "veiculo": "IBGE",
+          "titulo": "Censo Demográfico 2022: população por idade e sexo, pessoas de 60 anos ou mais de idade",
+          "data": "2023-10-27",
+          "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
+        },
+        {
+          "veiculo": "IBGE",
+          "titulo": "PNS 2019: sete em cada dez pessoas que procuram o mesmo serviço de saúde vão à rede pública",
+          "data": "2020-09-04",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/28793-pns-2019-sete-em-cada-dez-pessoas-que-procuram-o-mesmo-servico-de-saude-vao-a-rede-publica"
+        },
+        {
+          "veiculo": "Portal Drauzio Varella",
+          "titulo": "Um ano depois: o que mudou com o Agora Tem Especialistas — e o que ainda trava as filas do SUS",
+          "data": "2026-06-01",
+          "url": "https://drauziovarella.uol.com.br/saude-publica/um-ano-depois-o-que-mudou-com-o-agora-tem-especialistas-e-o-que-ainda-trava-as-filas-do-sus/"
+        },
+        {
+          "veiculo": "Ministério da Saúde",
+          "titulo": "Pacientes do SUS serão atendidos por hospitais particulares para a realização de 600 mil cirurgias e exames",
+          "data": "2026-08-29",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/pacientes-do-sus-serao-atendidos-por-hospitais-particulares-para-a-realizacao-de-600-mil-cirurgias-e-exames"
+        },
+        {
+          "veiculo": "Futuro da Saúde",
+          "titulo": "Santas casas buscam reajuste da Tabela SUS no STJ",
+          "data": "2026-05-20",
+          "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/"
+        },
+        {
+          "veiculo": "Planalto (Presidência da República)",
+          "titulo": "Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa)",
+          "data": "2003-10-01",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "governador-rj",
+    "id_novo": "fila-aposentado",
+    "grupo": "fila-especialista",
+    "publico": {
+      "trabalho": [
+        "aposentado"
+      ]
+    },
+    "origem_opcoes": "fila-especialista",
+    "inserir_depois_de": "saude-interior",
+    "motivo": "Mesma lacuna do presidente: \"sua mãe\" e \"o plano da sua mãe depois dos 60\" não servem a quem já tem 60+. O estado do Rio tem a 2ª maior fatia de idosos do país (18,8%). Fica depois da variante do interior, que fala da tia e continua plausível para o aposentado de lá.",
+    "cena": "Você passou dos 60 e precisa de um especialista. No SUS, a espera passa de 5 meses, e plano nessa idade custa caro.",
+    "pergunta": "O que resolvia mais rápido?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Estado paga hospital particular pra atender quem tá na fila.",
+        "preferencia": "Comprar serviços da rede privada para reduzir filas de consultas e cirurgias."
+      },
+      {
+        "id": "b",
+        "texto": "Centro público de médico especialista em cada região do estado.",
+        "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
+      },
+      {
+        "id": "c",
+        "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+        "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
+      },
+      {
+        "id": "d",
+        "texto": "Contratar mais médico e especialista pro estado.",
+        "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+      }
+    ],
+    "fato": {
+      "texto": "No estado do Rio, 18,8% dos moradores têm 60 anos ou mais, a 2ª maior fatia do país, atrás só do Rio Grande do Sul.",
+      "fonte": "IBGE, Censo Demográfico 2022",
+      "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
+    },
+    "contexto": {
+      "paragrafos": [
+        "No Censo 2022, 18,8% dos moradores do estado do Rio tinham 60 anos ou mais, atrás só do Rio Grande do Sul. Na capital, a espera por consulta com cirurgião de hérnia subiu de 78 dias em 2024 para cerca de 164 dias em 2026.",
+        "No SUS, consultas simples são das prefeituras. Casos mais complexos vão para a fila do estado, o SER. O estado depende das vagas que cada hospital oferece. A União também troca dívidas de hospitais privados por atendimentos.",
+        "Pagar hospital particular acelera a fila, mas custa caro e exige fiscalização. Centros públicos regionais aproximam o atendimento, mas levam anos para abrir. Mutirões à noite usam salas paradas, mas dependem de equipe extra. Contratar médicos amplia a rede, mas pesa na folha, que tem teto de gastos.",
+        "Pelo Estatuto da Pessoa Idosa, quem tem 60 anos ou mais tem atendimento preferencial. Mantenha o telefone atualizado na clínica: o estado manda lembretes pelo celular."
+      ],
+      "fontes": [
+        {
+          "veiculo": "IBGE",
+          "titulo": "Censo Demográfico 2022: população por idade e sexo, pessoas de 60 anos ou mais de idade",
+          "data": "2023-10-27",
+          "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
+        },
+        {
+          "veiculo": "g1",
+          "titulo": "Idosa espera há 5 anos por cirurgia de hérnia no Rio e descobre que nem entrou na fila do Sisreg",
+          "data": "2026-07-28",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+        },
+        {
+          "veiculo": "O Globo",
+          "titulo": "Além da morte na UPA: Rio tem 427 mil pessoas na fila por uma consulta, uma cirurgia ou um exame",
+          "data": "2024-12-17",
+          "url": "https://oglobo.globo.com/rio/noticia/2024/12/17/rio-tem-427-mil-pessoas-na-fila-por-uma-consulta-cirurgia-ou-exame.ghtml"
+        },
+        {
+          "veiculo": "Ministério da Saúde",
+          "titulo": "Primeiro hospital privado do estado do Rio de Janeiro já está realizando cirurgias oncológicas para o SUS pelo Agora Tem Especialistas",
+          "data": "2026-01-05",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/janeiro/primeiro-hospital-privado-do-estado-do-rio-de-janeiro-ja-esta-realizando-cirurgias-oncologicas-em-pacientes-do-sus-pelo-agora-tem-especialistas"
+        },
+        {
+          "veiculo": "Extra",
+          "titulo": "Governo estadual do Rio adere ao Propag: como isso afeta o servidor?",
+          "data": "2026-06-22",
+          "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/06/governo-do-rio-adere-ao-propag-como-isso-afeta-o-servidor.ghtml"
+        },
+        {
+          "veiculo": "SBT News",
+          "titulo": "Tecnologia ajuda a reduzir filas na rede pública de saúde do Rio de Janeiro",
+          "data": "2025-11-13",
+          "url": "https://sbtnews.sbt.com.br/noticia/saude/tecnologia-ajuda-a-reduzir-filas-na-rede-publica-de-saude-do-rio-de-janeiro"
+        },
+        {
+          "veiculo": "Planalto (Presidência da República)",
+          "titulo": "Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa)",
+          "data": "2003-10-01",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "presidente",
+    "id_novo": "neto-escola",
+    "grupo": "escola",
+    "publico": {
+      "trabalho": [
+        "aposentado"
+      ]
+    },
+    "origem_opcoes": "largar-escola",
+    "inserir_antes_de": "pagar-faculdade",
+    "motivo": "Aposentado sem criança em casa marca \"não tem criança em idade escolar\" e cai em pagar-faculdade (\"seu filho, ou você, quer fazer faculdade\"), implausível aos 70. Com o neto, a cena volta a ser dele.",
+    "cena": "Seu neto está no ensino médio público e fala em largar a escola pra trabalhar.",
+    "pergunta": "O que segurava ele na escola?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Uma poupança mensal pra todo aluno do ensino médio público.",
+        "preferencia": "Estender o incentivo financeiro de permanência (Pé-de-Meia) a todos os alunos do ensino médio público."
+      },
+      {
+        "id": "b",
+        "texto": "Curso técnico no ensino médio, pra sair com profissão.",
+        "preferencia": "Ampliar a educação técnica no ensino médio."
+      },
+      {
+        "id": "c",
+        "texto": "Escola cívico-militar, com mais disciplina.",
+        "preferencia": "Ampliar as escolas cívico-militares."
+      },
+      {
+        "id": "d",
+        "texto": "Escola em tempo integral em toda a rede pública.",
+        "preferencia": "Escola em tempo integral em toda a rede pública."
+      }
+    ],
+    "fato": {
+      "texto": "Em 2025, cerca de 1 em cada 4 jovens de 19 anos (25,7%) ainda não tinha concluído o ensino médio.",
+      "fonte": "Anuário Brasileiro da Educação Básica 2026, Todos Pela Educação",
+      "url": "https://anuario.todospelaeducacao.org.br/2026/capitulo-4-ensino-medio.html"
+    },
+    "contexto": {
+      "paragrafos": [
+        "Em 2025, 74,3% dos jovens de 19 anos tinham concluído o ensino médio, o maior patamar já registrado. Ainda assim, cerca de 1 em cada 4 não tinha terminado. O abandono no ensino médio público caiu de 3,8% em 2023 para 2,5% em 2025.",
+        "A União paga o Pé-de-Meia a alunos de baixa renda: até R$ 9.200 no ensino médio. O programa custa cerca de R$ 12 bilhões por ano. Em 2025, 26,8% das matrículas do ensino médio eram em tempo integral. Em 2026, havia 1.578 escolas militarizadas, a maioria de redes estaduais.",
+        "Poupança para todos amplia o incentivo, mas custa mais, e parte receberia sem precisar. Curso técnico dá profissão, mas exige laboratórios e professores. Escola cívico-militar foca em disciplina, mas ações no STF questionam o modelo. Tempo integral aumenta o estudo, mas quem já trabalha pode não conseguir ficar.",
+        "Em 2025, a educação profissional de nível médio chegou a 1,29 milhão de matrículas."
+      ],
+      "fontes": [
+        {
+          "veiculo": "Todos Pela Educação",
+          "titulo": "Anuário Brasileiro da Educação Básica 2026, capítulo 4: Ensino Médio",
+          "data": "2026-06-01",
+          "url": "https://anuario.todospelaeducacao.org.br/2026/capitulo-4-ensino-medio.html"
+        },
+        {
+          "veiculo": "Folha de S.Paulo",
+          "titulo": "MEC não sabe quantos alunos do Pé-de-Meia abandonam a escola; pesquisa indica melhora",
+          "data": "2026-07-06",
+          "url": "https://www1.folha.uol.com.br/educacao/2026/07/mec-nao-sabe-quantos-beneficiados-do-pe-de-meia-abandonaram-a-escola-pesquisa-indica-melhora.shtml"
+        },
+        {
+          "veiculo": "Agência Brasil",
+          "titulo": "Um em cada quatro alunos da rede pública estuda em tempo integral",
+          "data": "2026-02-26",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-02/um-em-cada-quatro-alunos-da-rede-publica-estuda-em-tempo-integral"
+        },
+        {
+          "veiculo": "g1",
+          "titulo": "Ensino técnico e educação integral têm aumento no número de matrículas",
+          "data": "2026-02-26",
+          "url": "https://g1.globo.com/educacao/noticia/2026/02/26/ensino-tecnico-e-educacao-integral-crescem-em-2025-mesmo-em-cenario-desfavoravel-mostra-censo.ghtml"
+        },
+        {
+          "veiculo": "Folha de S.Paulo",
+          "titulo": "Escolas cívico-militares sextuplicam no Brasil em 7 anos",
+          "data": "2026-05-21",
+          "url": "https://www1.folha.uol.com.br/educacao/2026/05/sem-definicao-sobre-constitucionalidade-escolas-militarizadas-sextuplicam-no-brasil-em-7-anos.shtml"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "governador-rj",
+    "id_novo": "chuva-interior",
+    "grupo": "rua-alagada",
+    "publico": {
+      "regiao": [
+        "interior"
+      ]
+    },
+    "origem_opcoes": "rua-alagada",
+    "inserir_antes_de": "encosta-serra",
+    "substitui": "encosta-serra",
+    "motivo": "encosta-serra (\"choveu três dias na serra\") vai para todo o interior, mas Norte, Noroeste, Lagos e Sul Fluminense sofrem mais com rio que transborda e barreira na estrada. A cena nova cabe na serra e na planície. Com ela antes, encosta-serra fica inalcançável: retirar (e seu contexto).",
+    "cena": "Três dias de chuva no interior: o rio subiu, a água entrou nas casas e a barreira caiu na estrada.",
+    "pergunta": "O que devia vir primeiro?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Obra grande pra escoar a água da chuva e segurar os morros.",
+        "preferencia": "Obras estruturais de macrodrenagem e contenção de encostas."
+      },
+      {
+        "id": "b",
+        "texto": "Limpar os canais e valões todo ano, com calendário publicado.",
+        "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
+      },
+      {
+        "id": "c",
+        "texto": "Alerta no celular e sirene antes da chuva chegar.",
+        "preferencia": "Sistemas de alerta antecipado de chuvas, com sirenes e avisos no celular do morador."
+      },
+      {
+        "id": "d",
+        "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+        "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
+      }
+    ],
+    "fato": {
+      "texto": "Em fevereiro de 2026, as chuvas deixaram 2.600 pessoas afetadas e 315 desalojadas só em Itaperuna, no Noroeste Fluminense.",
+      "fonte": "g1, 07/02/2026, com dados da Defesa Civil",
+      "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/02/07/chuvas-afetam-quase-3-mil-pessoas-no-norte-e-noroeste-fluminense-itaperuna-tem-315-desalojados-e-9-desabrigados.ghtml"
+    },
+    "contexto": {
+      "paragrafos": [
+        "Em fevereiro de 2026, as chuvas afetaram 2.600 pessoas em Itaperuna, com 315 desalojados. No fim do mês, os rios Pomba e Muriaé passaram da cota de transbordo. Deslizamentos fecharam trechos de estradas estaduais, como a RJ-192 e a RJ-230.",
+        "Conter encostas envolve prefeitura e estado. A Defesa Civil municipal vistoria e interdita casas. Os rios são do estado, pelo Inea, que também faz a limpeza de calhas.",
+        "Obras grandes de drenagem e contenção atacam a causa, mas custam bilhões e levam anos. Limpar canais todo ano é mais rápido, mas o lixo volta sem coleta. Alertas no celular salvam vidas, mas não evitam perdas materiais. Reassentar famílias tira gente do risco, mas exige moradia perto e aceitação.",
+        "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro."
+      ],
+      "fontes": [
+        {
+          "veiculo": "g1",
+          "titulo": "Chuvas afetam quase 3 mil pessoas no Norte e Noroeste Fluminense; Itaperuna tem 315 desalojados e 9 desabrigados",
+          "data": "2026-02-07",
+          "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/02/07/chuvas-afetam-quase-3-mil-pessoas-no-norte-e-noroeste-fluminense-itaperuna-tem-315-desalojados-e-9-desabrigados.ghtml"
+        },
+        {
+          "veiculo": "CamposRJ",
+          "titulo": "Rios do Noroeste Fluminense voltam a subir, transbordam e preocupam população",
+          "data": "2026-02-28",
+          "url": "https://camposrj.com.br/rios-do-noroeste-fluminense-voltam-a-subir-transbordam-e-preocupam-populacao/"
+        },
+        {
+          "veiculo": "NF10",
+          "titulo": "Chuvas elevam rios e colocam cidades do Norte Fluminense em alerta",
+          "data": "2026-02-27",
+          "url": "https://nf10.com.br/chuvas-elevam-rios-e-colocam-cidades-do-norte-fluminense-em-alerta/"
+        },
+        {
+          "veiculo": "g1 (dados do Cemaden)",
+          "titulo": "RJ tem 925 mil pessoas vivendo em áreas de risco de enchentes ou deslizamentos, diz estudo",
+          "data": "2022-02-25",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/02/25/rj-tem-925-mil-pessoas-vivendo-em-areas-de-risco-de-enchentes-ou-deslizamentos-diz-estudo.ghtml"
+        },
+        {
+          "veiculo": "Ministério das Comunicações",
+          "titulo": "Como receber alertas da Defesa Civil sobre situações de emergência no celular",
+          "data": "2026-07-21",
+          "url": "https://www.gov.br/mcom/pt-br/noticias/noticias_alt/2026/julho/como-receber-alertas-da-defesa-civil-sobre-situacoes-de-emergencia-no-celular"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "governador-rj",
+    "id_novo": "passagem-moto",
+    "grupo": "passagem-cara",
+    "publico": {
+      "deslocamento": [
+        "moto"
+      ]
+    },
+    "origem_opcoes": "passagem-cara",
+    "inserir_depois_de": "vale-transporte",
+    "motivo": "Quem marca \"moto, bicicleta ou a pé\" não paga passagem todo dia e hoje vê a do ônibus de Nova Iguaçu. A cena conta por que a pessoa saiu do ônibus e serve às três formas de se deslocar desse grupo.",
+    "cena": "Você trocou o ônibus pela moto, pela bicicleta ou pela caminhada. A passagem pesava demais no mês.",
+    "pergunta": "Pra passagem voltar a caber no bolso, o que você prefere?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+        "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+      },
+      {
+        "id": "b",
+        "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+        "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+      },
+      {
+        "id": "c",
+        "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+        "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+      },
+      {
+        "id": "d",
+        "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+        "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+      }
+    ],
+    "fato": {
+      "texto": "No Brasil, 69,6% de quem deixou de andar de ônibus diz que voltaria se a passagem ficasse mais barata.",
+      "fonte": "CNT, Pesquisa Mobilidade da População Urbana 2024, via Technibus (27/01/2025)",
+      "url": "https://technibus.com.br/2025/01/27/pesquisa-cnt-revela-mudanca-nos-habitos-de-mobilidade"
+    },
+    "contexto": {
+      "paragrafos": [
+        "No país, o uso de moto nos deslocamentos dobrou de 2017 a 2024, de 5,1% para 10,9%. Na Grande Rio, a Coppe/UFRJ ouviu quem trocou o coletivo pela moto em 2025: o tempo de viagem pesou mais, e 14% voltariam se ficasse mais barato.",
+        "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+        "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+        "Com o Bilhete Único Intermunicipal, quem ganha até R$ 3.205,20 paga no máximo R$ 9,40 por até duas conduções em 3 horas."
+      ],
+      "fontes": [
+        {
+          "veiculo": "Correio Braziliense (dados da CNT)",
+          "titulo": "Ônibus perdem passageiros para carro, moto e app, mostra pesquisa",
+          "data": "2024-08-07",
+          "url": "https://www.correiobraziliense.com.br/economia/2024/08/6915554-onibus-perdem-passageiros-para-carro-moto-e-app-mostra-pesquisa.html"
+        },
+        {
+          "veiculo": "Diário do Transporte (pesquisa Coppe/UFRJ)",
+          "titulo": "Pesquisa da UFRJ aponta migração acelerada de usuários do transporte coletivo para motos no Rio de Janeiro",
+          "data": "2025-12-03",
+          "url": "https://diariodotransporte.com.br/2025/12/03/pesquisa-da-ufrj-aponta-migracao-acelerada-de-usuarios-do-transporte-coletivo-para-motos-no-rio-de-janeiro-e-reforca-urgencia-de-prioridade-aos-sistemas-publicos/"
+        },
+        {
+          "veiculo": "Technibus (dados da CNT)",
+          "titulo": "Pesquisa CNT revela mudança nos hábitos de mobilidade",
+          "data": "2025-01-27",
+          "url": "https://technibus.com.br/2025/01/27/pesquisa-cnt-revela-mudanca-nos-habitos-de-mobilidade"
+        },
+        {
+          "veiculo": "g1",
+          "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+          "data": "2025-05-06",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+        },
+        {
+          "veiculo": "O Globo",
+          "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+          "data": "2025-12-19",
+          "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "governador-rj",
+    "id_novo": "passagem-interior",
+    "grupo": "passagem-cara",
+    "publico": {
+      "regiao": [
+        "interior"
+      ]
+    },
+    "origem_opcoes": "passagem-cara",
+    "inserir_depois_de": "passagem-moto",
+    "motivo": "No interior, a cena de Nova Iguaçu ao Centro do Rio é de outra região. A variante fala da passagem até a cidade vizinha. Limite conhecido: a opção d (metrô) continua de fora do mundo de quem mora lá, mas é preferência real e diferencia candidatos.",
+    "cena": "No interior, o ônibus pra cidade vizinha pode passar de R$ 20. Quem estuda ou se trata fora paga ida e volta.",
+    "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+        "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+      },
+      {
+        "id": "b",
+        "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+        "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+      },
+      {
+        "id": "c",
+        "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+        "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+      },
+      {
+        "id": "d",
+        "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+        "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+      }
+    ],
+    "fato": {
+      "texto": "Desde fevereiro de 2026, as passagens intermunicipais do interior estão 11,69% mais caras; de Nova Friburgo a Cordeiro, são R$ 20.",
+      "fonte": "A Voz da Serra, 20/02/2026, com dados do Detro",
+      "url": "https://avozdaserra.com.br/noticias/onibus-intermunicipais-passagens-ja-estao-quase-12-mais-caras"
+    },
+    "contexto": {
+      "paragrafos": [
+        "Em fevereiro de 2026, o Detro reajustou em 11,69% as linhas intermunicipais do interior. De Nova Friburgo a Cordeiro, a passagem foi a R$ 20. De Campos à Rodoviária Novo Rio, a R$ 130,07. Em várias regiões, uma só empresa opera quase todas as linhas.",
+        "As linhas entre cidades são do estado: o Detro autoriza as tarifas e fiscaliza. O Bilhete Único Intermunicipal, que limita o valor pago, vale só nas cidades da região metropolitana.",
+        "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+        "Pela portaria do reajuste, as empresas têm de afixar o valor novo dentro do ônibus e nos guichês de venda. Confira antes de pagar."
+      ],
+      "fontes": [
+        {
+          "veiculo": "A Voz da Serra",
+          "titulo": "Ônibus intermunicipais: Passagens já estão quase 12% mais caras",
+          "data": "2026-02-20",
+          "url": "https://avozdaserra.com.br/noticias/onibus-intermunicipais-passagens-ja-estao-quase-12-mais-caras"
+        },
+        {
+          "veiculo": "NF10",
+          "titulo": "Viajar de ônibus entre cidades fica 11,69% mais caro no Estado do Rio",
+          "data": "2026-02-19",
+          "url": "https://nf10.com.br/viajar-de-onibus-entre-cidades-fica-1169-mais-caro-no-estado-do-rio/"
+        },
+        {
+          "veiculo": "Extra",
+          "titulo": "Bilhete único Intermunicipal (BUI) continuará valendo nos transportes municipais",
+          "data": "2025-06-12",
+          "url": "https://extra.globo.com/rio/noticia/2025/06/bilhete-unico-intermunicipal-bui-continuara-valendo-nos-transportes-municipais.ghtml"
+        },
+        {
+          "veiculo": "g1",
+          "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+          "data": "2025-05-06",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+        },
+        {
+          "veiculo": "Diário do Transporte",
+          "titulo": "Tarifas de ônibus intermunicipais do Rio de Janeiro têm reajuste a partir de domingo, 15 de fevereiro de 2026",
+          "data": "2026-02-13",
+          "url": "https://diariodotransporte.com.br/2026/02/13/tarifas-de-onibus-intermunicipais-do-rio-de-janeiro-tem-reajuste-a-partir-de-domingo-15-de-fevereiro-de-2026-confira-todos-os-valores/"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "governador-rj",
+    "id_novo": "passagem-leste",
+    "grupo": "passagem-cara",
+    "publico": {
+      "regiao": [
+        "leste"
+      ]
+    },
+    "origem_opcoes": "passagem-cara",
+    "inserir_depois_de": "passagem-interior",
+    "motivo": "São Gonçalo, Itaboraí e Maricá dependem de ônibus até Niterói e da barca ou da Ponte até o Rio; a cena de Nova Iguaçu é de outra região. Carro em Niterói continua em vale-transporte (vem antes).",
+    "cena": "De São Gonçalo a Niterói, o ônibus custa R$ 7,10. Quem segue pro Rio ainda paga a barca, todo dia.",
+    "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+        "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+      },
+      {
+        "id": "b",
+        "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+        "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+      },
+      {
+        "id": "c",
+        "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+        "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+      },
+      {
+        "id": "d",
+        "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+        "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+      }
+    ],
+    "fato": {
+      "texto": "Desde fevereiro de 2026, a maior parte dos ônibus entre São Gonçalo e Niterói custa R$ 7,10, depois de reajuste de 12,61%.",
+      "fonte": "Tempo Real RJ, 13/02/2026, com dados do Detro",
+      "url": "https://temporealrj.com/passagens-onibus-intermunicipais-mais-caras-domingo/"
+    },
+    "contexto": {
+      "paragrafos": [
+        "Em fevereiro de 2026, as linhas intermunicipais metropolitanas subiram 12,61%. Entre São Gonçalo e Niterói, a maioria passou a custar R$ 7,10. A barca Arariboia–Praça XV custa R$ 4,70.",
+        "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+        "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+        "Na hora de recarregar, confira se o seu Bilhete Único está ativo. Em setembro de 2026, o estado assinou com a RioCard um contrato emergencial de sete meses."
+      ],
+      "fontes": [
+        {
+          "veiculo": "Tempo Real RJ",
+          "titulo": "Passagens de ônibus intermunicipais ficam mais caras no estado do Rio a partir de domingo (15)",
+          "data": "2026-02-13",
+          "url": "https://temporealrj.com/passagens-onibus-intermunicipais-mais-caras-domingo/"
+        },
+        {
+          "veiculo": "O Globo",
+          "titulo": "Atrasos, calor e má estrutura: nova gestão das barcas faz um ano sob reclamações de passageiros",
+          "data": "2026-03-15",
+          "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/03/15/atrasos-calor-e-ma-estrutura-nova-gestao-das-barcas-faz-um-ano-sob-reclamacoes-de-passageiros.ghtml"
+        },
+        {
+          "veiculo": "O Globo",
+          "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+          "data": "2025-12-19",
+          "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+        },
+        {
+          "veiculo": "g1",
+          "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+          "data": "2025-05-06",
+          "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+        },
+        {
+          "veiculo": "O Globo",
+          "titulo": "Estado assina contrato emergencial com a RioCard para repasse de arrecadação do Bilhete Único Intermunicipal",
+          "data": "2026-09-11",
+          "url": "https://oglobo.globo.com/rio/noticia/2026/09/11/estado-assina-contrato-emergencial-com-a-riocard-para-repasse-de-arrecadacao-do-bilhete-unico-intermunicipal.ghtml"
+        }
+      ]
+    }
+  },
+  {
+    "eleicao": "presidente",
+    "id_novo": "jornada-familia",
+    "grupo": "jornada",
+    "publico": {
+      "trabalho": [
+        "aposentado"
+      ]
+    },
+    "origem_opcoes": "escala-6x1",
+    "inserir_depois_de": "conta-propria",
+    "motivo": "Aposentado não tem jornada; a padrão (\"você, ou alguém da sua casa\") só serve se ele mora com quem trabalha. Filho ou neto em 6x1 é a forma como a escala chega a ele. A opção b mantém o texto protegido.",
+    "cena": "Seu filho, ou seu neto, trabalha seis dias por semana e folga um. No domingo, mal dá pra ver a família.",
+    "pergunta": "O que você defenderia pra jornada de trabalho?",
+    "opcoes": [
+      {
+        "id": "a",
+        "texto": "Acabar com a escala 6x1: 40 horas por semana, sem cortar salário.",
+        "preferencia": "Aprovar o fim da escala 6x1 e reduzir a jornada legal para 40 horas semanais sem redução salarial."
+      },
+      {
+        "id": "b",
+        "texto": "Poder combinar a minha jornada direto com a empresa.",
+        "preferencia": "Prevalência do negociado entre trabalhador e empresa sobre o legislado, com liberdade para escolher a própria escala."
+      },
+      {
+        "id": "c",
+        "texto": "Rever pontos da reforma trabalhista e da terceirização.",
+        "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+      },
+      {
+        "id": "d",
+        "texto": "Menos imposto na carteira, pra empresa contratar mais gente.",
+        "preferencia": "Reduzir encargos sobre a folha de pagamento para estimular a contratação formal."
+      }
+    ],
+    "fato": {
+      "texto": "Cerca de 14,8 milhões de trabalhadores com carteira assinada estão na escala 6x1: seis dias de trabalho para um de folga.",
+      "fonte": "Ministério do Trabalho, via g1 (28/05/2026)",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/05/28/fim-da-escala-6x1-trabalhadores-afetados.ghtml"
+    },
+    "contexto": {
+      "paragrafos": [
+        "O Brasil tem 50,2 milhões de trabalhadores com carteira assinada. Desses, 37,2 milhões cumprem 44 horas por semana. Além deles, 1,4 milhão de trabalhadoras domésticas estão na escala 6x1. Tocantins, Santa Catarina e Roraima têm a maior fatia de celetistas nessa escala.",
+        "O limite de 44 horas está na Constituição, e só o Congresso pode mudá-lo. A Câmara aprovou em maio de 2026 uma proposta de 40 horas com duas folgas. Uma comissão do Senado aprovou em setembro. Falta a votação no plenário do Senado, em dois turnos.",
+        "Acabar com a 6x1 sem cortar salário dá mais descanso, mas empresas apontam custo maior. Negociar direto com a empresa traz flexibilidade, mas quem negocia sozinho tem menos força. Rever a reforma de 2017 devolve proteções, mas pode encarecer contratações. Reduzir imposto na folha estimula vagas, mas tira receita do governo.",
+        "Desde 2017, acordos coletivos já podem mudar a jornada em vários pontos. Hoje, a empresa paga em geral 20% de INSS sobre a folha de salários."
+      ],
+      "fontes": [
+        {
+          "veiculo": "g1",
+          "titulo": "Escala 6x1: quantos trabalhadores podem ser afetados por mudança",
+          "data": "2026-05-28",
+          "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/05/28/fim-da-escala-6x1-trabalhadores-afetados.ghtml"
+        },
+        {
+          "veiculo": "Estado de Minas",
+          "titulo": "PEC do fim da escala 6x1 aguarda votação final no Senado; entenda a tramitação em setembro de 2026",
+          "data": "2026-09-21",
+          "url": "https://www.em.com.br/politica/2026/09/7504982-pec-do-fim-da-escala-6x1-aguarda-votacao-final-no-senado-entenda-a-tramitacao-em-setembro-de-2026.html"
+        },
+        {
+          "veiculo": "Planalto",
+          "titulo": "Lei nº 13.467, de 13 de julho de 2017 (reforma trabalhista)",
+          "data": "2017-07-13",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm"
+        },
+        {
+          "veiculo": "Agência Câmara",
+          "titulo": "Sancionada lei que mantém desoneração da folha em 2024",
+          "data": "2024-09-17",
+          "url": "https://www.camara.leg.br/noticias/1097176-sancionada-lei-que-mantem-desoneracao-da-folha-em-2024/"
+        }
+      ]
+    }
+  }
+]
