@@ -1,0 +1,416 @@
+[
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "barca-leste",
+    "campo": "cena",
+    "antes": "7h em Niterói. A barca atrasou de novo, a fila dobra a estação e a Ponte está parada.",
+    "depois": "7h em Niterói. A barca atrasou de novo, a fila vai até a rua e a Ponte está parada.",
+    "palavras_depois": 19,
+    "motivo": "expressão idiomática: 'a fila dobra a estação' pode ser lida como 'a estação dobrou de tamanho'; 'vai até a rua' diz o mesmo de forma literal"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "barca-leste",
+    "campo": "opcao:d",
+    "antes": "O Estado assume a barca e baixa a passagem.",
+    "depois": "Passar a barca pro governo e baixar a passagem.",
+    "palavras_depois": 9,
+    "motivo": "'O Estado assume' é sujeito abstrato; começa por verbo, como as outras três opções da cena; mesma preferência (estatizar, com passagem mais barata)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "transito-carro",
+    "campo": "pergunta",
+    "antes": "O que tiraria mais carro da rua?",
+    "depois": "O que faria o trânsito andar melhor?",
+    "palavras_depois": 7,
+    "motivo": "equilíbrio: 'tirar carro da rua' só combina com a, b e d; a opção c (novas pistas) não tira carro, melhora o fluxo. A nova pergunta serve às quatro"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "passagem-cara",
+    "campo": "opcao:c",
+    "antes": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+    "depois": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
+    "palavras_depois": 12,
+    "motivo": "ambiguidade: 'das empresas' sozinho pode ser lido como a empresa onde a pessoa trabalha (que paga o vale-transporte, justamente a cena vale-transporte); a preferência fala das empresas de ônibus"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "vale-transporte",
+    "campo": "opcao:c",
+    "antes": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+    "depois": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
+    "palavras_depois": 12,
+    "motivo": "ambiguidade: 'das empresas' sozinho pode ser lido como a empresa onde a pessoa trabalha (que paga o vale-transporte, justamente a cena vale-transporte); a preferência fala das empresas de ônibus"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "saude-interior",
+    "campo": "opcao:b",
+    "antes": "Centro de câncer e de exames complexos em cada região.",
+    "depois": "Centro de câncer e de exames mais complicados em cada região.",
+    "palavras_depois": 11,
+    "motivo": "'complexos' é palavra técnica e, no Rio, lembra 'complexo' de favelas; 'mais complicados' diz alta complexidade em palavra do dia a dia"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "escola-bagunca",
+    "campo": "opcao:d",
+    "antes": "Curso técnico já no ensino médio.",
+    "depois": "Levar curso técnico pra dentro da escola, no ensino médio.",
+    "palavras_depois": 10,
+    "motivo": "equilíbrio de tamanho (6 palavras contra 8 a 11 das outras); começa por verbo e fica mais perto da preferência ('levar ensino técnico para o ensino médio estadual')"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-tecnico",
+    "campo": "pergunta",
+    "antes": "O que a escola estadual devia fazer primeiro?",
+    "depois": "O que o estado devia fazer primeiro?",
+    "palavras_depois": 7,
+    "motivo": "equilíbrio: a opção c (programa de primeiro emprego) não é coisa da escola; perguntar só da escola deixava c fora da pergunta"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-tecnico",
+    "campo": "opcao:c",
+    "antes": "Programa de primeiro emprego com incentivo pra contratar jovem.",
+    "depois": "Primeiro emprego, com incentivo pra empresa contratar jovem.",
+    "palavras_depois": 8,
+    "motivo": "ambiguidade: 'incentivo pra contratar jovem' não diz quem recebe o incentivo; a preferência é incentivo à contratação (para a empresa). 'Programa de' saiu para caber no limite de 260 caracteres da cena; 'Primeiro emprego, com incentivo…' continua lido como programa"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "operacao-policial",
+    "campo": "cena",
+    "antes": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair.",
+    "depois": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo vendo no celular se dá pra sair.",
+    "palavras_depois": 21,
+    "motivo": "'checando o app' mistura anglicismo e 'app' sem dizer qual; 'vendo no celular se dá pra sair' diz o que a pessoa faz"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "celular-roubado",
+    "campo": "pergunta",
+    "antes": "O que você queria ver na sua rua?",
+    "depois": "O que funcionaria melhor?",
+    "palavras_depois": 4,
+    "motivo": "equilíbrio: 'o que você queria ver na sua rua' favorece o que se vê (guarda, PM, câmera) e deixa de fora a opção c (investigação, que não aparece na rua); mesma pergunta da cena do presidente"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:c",
+    "antes": "Ir atrás de quem compra celular roubado.",
+    "depois": "Investigar sem parar quem compra celular roubado.",
+    "palavras_depois": 7,
+    "motivo": "equilíbrio: com a pergunta nova ('o que funcionaria melhor?'), 'ir atrás de' soava informal perto das outras; 'investigar sem parar' diz a investigação permanente da preferência"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "medida-protetiva",
+    "campo": "cena",
+    "antes": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+    "depois": "Sua vizinha tem medida protetiva: a Justiça mandou o ex ficar longe. Mas ele continua rondando a casa dela.",
+    "palavras_depois": 19,
+    "motivo": "termo jurídico sem explicação ('medida protetiva'); a explicação curta ajuda quem não conhece e não infantiliza quem conhece; o termo continua porque aparece nas opções"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "rua-alagada",
+    "campo": "opcao:d",
+    "antes": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+    "depois": "Levar as famílias da área de risco pra casa popular perto dali.",
+    "palavras_depois": 12,
+    "motivo": "equilíbrio: 'digna' é adjetivo de valor que só esta opção tinha; 'casa popular' é o nome do dia a dia de 'habitação de interesse social' (a preferência), mais preciso que 'moradia'; 'Tirar' soa como remoção à força"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "encosta-serra",
+    "campo": "opcao:d",
+    "antes": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+    "depois": "Levar as famílias da área de risco pra casa popular perto dali.",
+    "palavras_depois": 12,
+    "motivo": "equilíbrio: 'digna' é adjetivo de valor que só esta opção tinha; 'casa popular' é o nome do dia a dia de 'habitação de interesse social' (a preferência), mais preciso que 'moradia'; 'Tirar' soa como remoção à força"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "garagem-alagada",
+    "campo": "opcao:d",
+    "antes": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+    "depois": "Levar as famílias da área de risco pra casa popular perto dali.",
+    "palavras_depois": 12,
+    "motivo": "equilíbrio: 'digna' é adjetivo de valor que só esta opção tinha; 'casa popular' é o nome do dia a dia de 'habitação de interesse social' (a preferência), mais preciso que 'moradia'; 'Tirar' soa como remoção à força"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "falta-agua",
+    "campo": "opcao:a",
+    "antes": "Rever o aumento da conta, que tá pesando no bolso.",
+    "depois": "Rever os aumentos da conta de água e esgoto.",
+    "palavras_depois": 9,
+    "motivo": "equilíbrio: 'que tá pesando no bolso' é argumento emocional que só esta opção tinha; a preferência é revisar os aumentos de tarifa (sem dizer quem os deu: quem autoriza é a agência reguladora, não só a empresa)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "campo": "opcao:a",
+    "antes": "Rever o aumento da conta, que tá pesando no bolso.",
+    "depois": "Rever os aumentos da conta de água e esgoto.",
+    "palavras_depois": 9,
+    "motivo": "equilíbrio: 'que tá pesando no bolso' é argumento emocional que só esta opção tinha; a preferência é revisar os aumentos de tarifa (sem dizer quem os deu: quem autoriza é a agência reguladora, não só a empresa)"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "primo-desempregado",
+    "campo": "opcao:a",
+    "antes": "Programa de primeiro emprego com curso técnico.",
+    "depois": "Primeiro emprego, com curso técnico e incentivo pra empresa contratar.",
+    "palavras_depois": 10,
+    "motivo": "equilíbrio de tamanho (7 palavras contra 10 a 12) e mais perto da preferência, que inclui 'incentivo à contratação'. Mesmo início da opção c de falta-tecnico; 'Programa de' saiu para caber no limite de 260 caracteres"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "primo-desempregado",
+    "campo": "opcao:c",
+    "antes": "Deixar o emprego com as empresas; o estado investe em segurança.",
+    "depois": "Criar emprego fica com as empresas, e o estado investe em segurança.",
+    "palavras_depois": 12,
+    "motivo": "ponto e vírgula e 'deixar o emprego com as empresas' (pode ser lido como 'deixar o seu emprego'); diz quem faz o quê"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "opcao:c",
+    "antes": "Regras estáveis e menos burocracia, sem mudar o jogo toda hora.",
+    "depois": "Menos burocracia e regras que não mudam toda hora.",
+    "palavras_depois": 9,
+    "motivo": "'estáveis' é abstrato e 'mudar o jogo' é metáfora; 'regras que não mudam toda hora' diz previsibilidade em palavras concretas"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "licenca-empresa",
+    "campo": "opcao:d",
+    "antes": "Desconto de imposto só pra quem cria emprego; se não criar, devolve.",
+    "depois": "Desconto de imposto só pra quem criar emprego. Se não criar, devolve.",
+    "palavras_depois": 12,
+    "motivo": "ponto e vírgula dificulta a leitura; duas frases curtas"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:a",
+    "antes": "Teto: o gasto do governo só cresce se o que entra crescer.",
+    "depois": "Pôr teto no gasto: só cresce se o dinheiro que entra crescer.",
+    "palavras_depois": 12,
+    "motivo": "'Teto:' solto é rótulo de jargão; começa por verbo e diz 'o dinheiro que entra' em vez de 'o que entra'"
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "dinheiro-publico",
+    "campo": "opcao:b",
+    "antes": "Conferir todo contrato e criar órgão pra vigiar quem ganha cargo.",
+    "depois": "Conferir todo contrato e criar secretaria pra vigiar quem ganha cargo.",
+    "palavras_depois": 11,
+    "motivo": "'órgão' é palavra abstrata (e ambígua); 'secretaria' é concreta e é o que a preferência diz (secretaria de integridade)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "escala-6x1",
+    "campo": "pergunta",
+    "antes": "O que você queria pra sua jornada?",
+    "depois": "O que você mudaria nas regras do trabalho?",
+    "palavras_depois": 8,
+    "motivo": "equilíbrio: 'pra sua jornada' favorece a e b (jornada) e deixa c e d (reforma trabalhista, imposto na carteira) deslocadas; a nova pergunta serve às quatro. A opção b (protegida) continua igual"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "escala-6x1",
+    "campo": "opcao:c",
+    "antes": "Rever pontos da reforma trabalhista e da terceirização.",
+    "depois": "Mudar partes da reforma trabalhista e da lei da terceirização.",
+    "palavras_depois": 10,
+    "motivo": "'Rever pontos' é vago ('pontos' é figurado); 'mudar partes' é concreto e mais perto da preferência ('alterar pontos da legislação')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fila-cirurgia",
+    "campo": "opcao:b",
+    "antes": "Fila única pela internet, organizada por gravidade.",
+    "depois": "Fila única pela internet, com quem está mais grave na frente.",
+    "palavras_depois": 11,
+    "motivo": "'organizada por gravidade': quem lê devagar confunde 'gravidade' com 'gravidez'; diz o critério (risco clínico) em palavras do dia a dia"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "especialista-longe",
+    "campo": "opcao:b",
+    "antes": "Fila única pela internet, organizada por gravidade.",
+    "depois": "Fila única pela internet, com quem está mais grave na frente.",
+    "palavras_depois": 11,
+    "motivo": "'organizada por gravidade': quem lê devagar confunde 'gravidade' com 'gravidez'; diz o critério (risco clínico) em palavras do dia a dia"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "plano-voltou-sus",
+    "campo": "opcao:b",
+    "antes": "Fila única pela internet, organizada por gravidade.",
+    "depois": "Fila única pela internet, com quem está mais grave na frente.",
+    "palavras_depois": 11,
+    "motivo": "'organizada por gravidade': quem lê devagar confunde 'gravidade' com 'gravidez'; diz o critério (risco clínico) em palavras do dia a dia"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:c",
+    "antes": "Câmera no uniforme do policial, com padrão nacional.",
+    "depois": "Câmera no uniforme do policial, com regras iguais no país todo.",
+    "palavras_depois": 11,
+    "motivo": "'padrão nacional' é abstrato; 'regras iguais no país todo' diz o mesmo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-sinal",
+    "campo": "opcao:c",
+    "antes": "Câmera no uniforme do policial, com padrão nacional.",
+    "depois": "Câmera no uniforme do policial, com regras iguais no país todo.",
+    "palavras_depois": 11,
+    "motivo": "'padrão nacional' é abstrato; 'regras iguais no país todo' diz o mesmo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-roubado",
+    "campo": "opcao:d",
+    "antes": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+    "depois": "Dobrar o número de policiais federais e rodoviários federais.",
+    "palavras_depois": 9,
+    "motivo": "'Dobrar a Polícia Federal' é ambíguo (dobrar = vergar) e não diz o quê; a preferência fala do efetivo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-sinal",
+    "campo": "opcao:d",
+    "antes": "Dobrar a Polícia Federal e a Rodoviária Federal.",
+    "depois": "Dobrar o número de policiais federais e rodoviários federais.",
+    "palavras_depois": 9,
+    "motivo": "'Dobrar a Polícia Federal' é ambíguo (dobrar = vergar) e não diz o quê; a preferência fala do efetivo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "celular-sinal",
+    "campo": "cena",
+    "antes": "Parado no sinal, com o vidro aberto, levaram o celular da sua mão. Alguém da sua família já tinha passado pela mesma coisa.",
+    "depois": "Parado no semáforo, com o vidro aberto, levaram o celular da sua mão. Alguém da sua família já tinha passado pela mesma coisa.",
+    "palavras_depois": 23,
+    "motivo": "'sinal' é palavra regional (Rio e Nordeste); em SP é 'farol', no Sul 'sinaleira'. Quiz nacional: 'semáforo' todo mundo entende"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "largar-escola",
+    "campo": "opcao:b",
+    "antes": "Curso técnico no ensino médio, pra sair com profissão.",
+    "depois": "Mais curso técnico dentro do ensino médio.",
+    "palavras_depois": 7,
+    "motivo": "equilíbrio: 'pra sair com profissão' é argumento de venda que só esta opção tinha (a mesma regra já tirou 'que já leva pro emprego' em pagar-faculdade)"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "largar-escola",
+    "campo": "opcao:d",
+    "antes": "Escola em tempo integral em toda a rede pública.",
+    "depois": "Aula o dia inteiro em todas as escolas públicas.",
+    "palavras_depois": 9,
+    "motivo": "'tempo integral' e 'rede pública' são termos de gestão; mesmo glossário das opções do governador ('o dia inteiro')"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "conta-luz",
+    "campo": "opcao:c",
+    "antes": "Liberar a extração de gás de xisto, o chamado fracking.",
+    "depois": "Liberar o fracking, que tira gás de dentro da rocha.",
+    "palavras_depois": 10,
+    "motivo": "'extração' e 'xisto' são palavras técnicas; o termo 'fracking' fica (é o nome da política) e ganha explicação neutra"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-seca",
+    "campo": "opcao:c",
+    "antes": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+    "depois": "Licença ambiental com prazo: se o governo atrasar, ela sai sozinha.",
+    "palavras_depois": 11,
+    "motivo": "'o órgão' é abstrato (qual órgão?); 'se o governo atrasar, ela sai sozinha' diz a concessão automática no prazo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "enchente-sul",
+    "campo": "opcao:c",
+    "antes": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+    "depois": "Licença ambiental com prazo: se o governo atrasar, ela sai sozinha.",
+    "palavras_depois": 11,
+    "motivo": "'o órgão' é abstrato (qual órgão?); 'se o governo atrasar, ela sai sozinha' diz a concessão automática no prazo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fumaca-queimada",
+    "campo": "opcao:c",
+    "antes": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+    "depois": "Licença ambiental com prazo: se o governo atrasar, ela sai sozinha.",
+    "palavras_depois": 11,
+    "motivo": "'o órgão' é abstrato (qual órgão?); 'se o governo atrasar, ela sai sozinha' diz a concessão automática no prazo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "seca-nordeste",
+    "campo": "opcao:c",
+    "antes": "Licença ambiental com prazo: se o órgão não decidir, a licença sai.",
+    "depois": "Licença ambiental com prazo: se o governo atrasar, ela sai sozinha.",
+    "palavras_depois": 11,
+    "motivo": "'o órgão' é abstrato (qual órgão?); 'se o governo atrasar, ela sai sozinha' diz a concessão automática no prazo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "video-falso",
+    "campo": "opcao:a",
+    "antes": "Criar regras pras redes sociais conterem mentira e discurso de ódio.",
+    "depois": "Criar regras pras redes sociais barrarem mentira e discurso de ódio.",
+    "palavras_depois": 11,
+    "motivo": "'conterem' é verbo pouco usado no dia a dia; 'barrarem' diz o mesmo"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "gasto-governo",
+    "campo": "cena",
+    "antes": "O governo diz que falta dinheiro pra saúde e escola, e a conta da própria máquina não para de crescer.",
+    "depois": "O governo diz que falta dinheiro pra saúde e escola, e o gasto do próprio governo não para de crescer.",
+    "palavras_depois": 20,
+    "motivo": "jargão: 'a conta da própria máquina' (máquina pública); diz de quem é o gasto"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "gasto-governo",
+    "campo": "opcao:c",
+    "antes": "Privatizar estatal onde o governo não precisa estar.",
+    "depois": "Privatizar empresas que o governo não precisa ter.",
+    "palavras_depois": 8,
+    "motivo": "'estatal' é substantivo técnico; 'empresas que o governo não precisa ter' é concreto e mantém o 'caso a caso'"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "gasto-governo",
+    "campo": "opcao:d",
+    "antes": "Manter e recuperar estatais como Correios e Petrobras.",
+    "depois": "Manter com o governo e recuperar empresas como Correios e Petrobras.",
+    "palavras_depois": 11,
+    "motivo": "'estatais' é técnico; 'manter com o governo' diz o controle estatal da preferência"
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "agressor-rondando",
+    "campo": "cena",
+    "antes": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+    "depois": "Sua vizinha tem medida protetiva: a Justiça mandou o ex ficar longe. Mas ele continua rondando a casa dela.",
+    "palavras_depois": 19,
+    "motivo": "termo jurídico sem explicação ('medida protetiva'); a explicação curta ajuda quem não conhece e não infantiliza quem conhece; o termo continua porque aparece na opção d"
+  }
+]
