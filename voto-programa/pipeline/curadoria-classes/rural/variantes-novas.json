@@ -1,0 +1,526 @@
+[
+ {
+  "eleicao": "presidente",
+  "id_novo": "celular-estrada",
+  "grupo": "celular",
+  "publico": {
+   "zona": [
+    "rural"
+   ]
+  },
+  "origem_opcoes": "celular-roubado",
+  "inserir_antes_de": "celular-sinal",
+  "motivo": "Quem mora na zona rural vê \"levaram seu celular no ponto de ônibus\" (nota 2: não há ponto de ônibus) ou, se tem carro, \"parado no semáforo, com o vidro aberto\" (nota 1-2). No campo, o roubo de celular acontece em estrada de terra, por dupla de moto. Entra antes de celular-sinal para cobrir também o rural que dirige.",
+  "cena": "Na estrada de terra, voltando pra casa, dois homens de moto levaram seu celular. Na vizinhança, já é o terceiro caso este ano.",
+  "pergunta": "O que funcionaria melhor?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Pena mais dura, sem sair antes, pra quem rouba ou revende celular.",
+    "preferencia": "Endurecer penas para roubo, furto e receptação de celulares, sem benefícios."
+   },
+   {
+    "id": "b",
+    "texto": "Câmera que reconhece rosto, ligada aos dados da polícia no país todo.",
+    "preferencia": "Sistema nacional de reconhecimento facial integrado a bancos de dados criminais."
+   },
+   {
+    "id": "c",
+    "texto": "Câmera no uniforme do policial, com regras iguais no país todo.",
+    "preferencia": "Incentivo federal ao uso de câmeras corporais pelas polícias, com padrões nacionais."
+   },
+   {
+    "id": "d",
+    "texto": "Dobrar o número de policiais federais e rodoviários federais.",
+    "preferencia": "Dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal."
+   }
+  ],
+  "fato": {
+   "texto": "Em 2025, 830.890 celulares foram roubados ou furtados no Brasil: uma média de 95 por hora.",
+   "fonte": "Anuário Brasileiro de Segurança Pública, via g1 (23/07/2026)",
+   "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+  },
+  "contexto": {
+   "paragrafos": [
+    "No campo, o roubo tem outro jeito: em estrada de terra, de moto, longe da polícia. Em fevereiro de 2026, em Barrocas (BA), dois homens armados levaram a moto e o celular de um trabalhador. No Paraná, os roubos na zona rural caíram 50,7% de 2022 a 2025.",
+    "Roubo de rua é tarefa das polícias estaduais: a Militar patrulha, a Civil investiga. O Congresso define as penas, e a União comanda a Polícia Federal e a Rodoviária Federal. A PF tem cerca de 13 mil integrantes, e sua direção propõe dobrar esse número. Em 2025, PMs de 13 estados usavam câmeras corporais.",
+    "Pena mais dura pode desestimular o crime, mas aumenta a população presa. Reconhecimento facial ajuda a achar foragidos, mas erra mais com pessoas negras. Câmera no uniforme registra a abordagem, mas custa caro aos estados. Dobrar a PF e a PRF reforça fronteiras e estradas, mas o patrulhamento das ruas é das PMs.",
+    "Mesmo longe da cidade, registre ocorrência. Os pesquisadores alertam que esse crime é subnotificado. Muita vítima não vai à polícia, e o caso some da estatística."
+   ],
+   "fontes": [
+    {
+     "veiculo": "Jornal A Nossa Voz (Barrocas, BA)",
+     "titulo": "Moto é tomada de assalto na zona rural de Barrocas; criminosos estavam encapuzados e armados",
+     "data": "2026-02-19",
+     "url": "https://www.jornalanossavoz.com.br/2026/02/moto-e-tomada-de-assalto-na-zona-rural.html"
+    },
+    {
+     "veiculo": "Polícia Militar do Paraná",
+     "titulo": "Patrulha Rural Comunitária: Crimes no campo caem mais 50% no Paraná entre 2022 e 2025",
+     "data": "2026-01-16",
+     "url": "https://www.pmpr.pr.gov.br/Noticia/Patrulha-Rural-Comunitaria-Crimes-no-campo-caem-mais-50-no-Parana-entre-2022-e-2025"
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "95 celulares são roubados ou furtados por hora no Brasil",
+     "data": "2026-07-23",
+     "url": "https://g1.globo.com/politica/noticia/2026/07/23/celulares-furto-roubo-anuario-seguranca-publica.ghtml"
+    },
+    {
+     "veiculo": "Ponte Jornalismo",
+     "titulo": "PM adota câmeras corporais na maioria dos estados, mas para menor parte do efetivo",
+     "data": "2025-07-08",
+     "url": "https://ponte.org/pm-adota-cameras-corporais-na-maioria-dos-estados-mas-para-menor-parte-do-efetivo/"
+    },
+    {
+     "veiculo": "Agência Brasil",
+     "titulo": "Estudo aponta riscos das tecnologias de reconhecimento facial",
+     "data": "2025-05-07",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/estudo-aponta-riscos-das-tecnologias-de-reconhecimento-facial"
+    },
+    {
+     "veiculo": "Agência Brasil",
+     "titulo": "Em CPI, PF pede aumento de 38% em orçamento e sugere dobrar efetivo",
+     "data": "2025-11-18",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-11/em-cpi-pf-pede-aumento-de-38-em-orcamento-e-sugere-dobrar-efetivo"
+    },
+    {
+     "veiculo": "g1 (dados do Anuário Brasileiro de Segurança Pública)",
+     "titulo": "RJ é o único estado do país a registrar alta nos roubos de celulares",
+     "data": "2026-07-23",
+     "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/23/roubos-celulares-anuario-brasileiro-seguranca-publica.ghtml"
+    }
+   ]
+  }
+ },
+ {
+  "eleicao": "presidente",
+  "id_novo": "jornada-roca",
+  "grupo": "jornada",
+  "publico": {
+   "zona": [
+    "rural"
+   ],
+   "trabalho": [
+    "autonomo",
+    "sem_trabalho"
+   ]
+  },
+  "origem_opcoes": "escala-6x1",
+  "inserir_antes_de": "conta-propria",
+  "motivo": "O agricultor familiar, o diarista da roça e o jovem rural sem trabalho fixo caem hoje em conta-propria (\"a vaga com carteira que aparece é 6x1\", nota 3) ou na padrão da 6x1 (nota 3). No campo, 64% de quem trabalha na roça é informal: o que pesa é a diária sem carteira e a colheita sem folga. Entra antes de conta-propria para que o autônomo rural pegue esta; o rural com carteira, servidor ou aposentado continua na padrão, que já serve.",
+  "cena": "Na roça, a maior parte do trabalho é por diária, sem carteira. Na colheita, não tem folga nem no domingo.",
+  "pergunta": "O que você mudaria nas regras do trabalho?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Acabar com a escala 6x1: 40 horas por semana, sem cortar salário.",
+    "preferencia": "Aprovar o fim da escala 6x1 e reduzir a jornada legal para 40 horas semanais sem redução salarial."
+   },
+   {
+    "id": "b",
+    "texto": "Poder combinar a minha jornada direto com a empresa.",
+    "preferencia": "Prevalência do negociado entre trabalhador e empresa sobre o legislado, com liberdade para escolher a própria escala."
+   },
+   {
+    "id": "c",
+    "texto": "Mudar partes da reforma trabalhista e da lei da terceirização.",
+    "preferencia": "Alterar pontos da legislação trabalhista associados à precarização e às terceirizações."
+   },
+   {
+    "id": "d",
+    "texto": "Menos imposto na carteira, pra empresa contratar mais gente.",
+    "preferencia": "Reduzir encargos sobre a folha de pagamento para estimular a contratação formal."
+   }
+  ],
+  "fato": {
+   "texto": "Em 2022, 64% de quem morava no campo e trabalhava na roça estava na informalidade, sem carteira nem INSS. Na cidade, fora da roça, eram 31%.",
+   "fonte": "Revista de Economia e Sociologia Rural, com dados da PNAD Contínua (04/04/2025)",
+   "url": "https://www.scielo.br/j/resr/a/S7CZkgzvHqWS8PSv9YJ3yjD/?lang=pt"
+  },
+  "contexto": {
+   "paragrafos": [
+    "No campo, 64% de quem trabalha na roça está na informalidade, sem carteira nem INSS. Na cidade, fora da roça, são 31%. Em 2025, o trabalho dentro de sítios e fazendas perdeu 87 mil pessoas. Já as vagas com carteira no agro como um todo cresceram 4,6%.",
+    "O limite de 44 horas está na Constituição, e só o Congresso pode mudá-lo. A Câmara aprovou em maio de 2026 uma proposta de 40 horas com duas folgas. Uma comissão do Senado aprovou em setembro. Falta a votação no plenário do Senado, em dois turnos.",
+    "Acabar com a 6x1 sem cortar salário dá mais descanso, mas empresas apontam custo maior. Negociar direto com a empresa traz flexibilidade, mas quem negocia sozinho tem menos força. Rever a reforma de 2017 devolve proteções, mas pode encarecer contratações. Reduzir imposto na folha estimula vagas, mas tira receita do governo.",
+    "Desde 2017, acordos coletivos já podem mudar a jornada em vários pontos. Hoje, a empresa paga em geral 20% de INSS sobre a folha de salários."
+   ],
+   "fontes": [
+    {
+     "veiculo": "Revista de Economia e Sociologia Rural (dados da PNAD Contínua, IBGE)",
+     "titulo": "Mercado de trabalho rural e urbano no Brasil, 2012-2022: uma análise das atividades agrícolas e não agrícolas",
+     "data": "2025-04-04",
+     "url": "https://www.scielo.br/j/resr/a/S7CZkgzvHqWS8PSv9YJ3yjD/?lang=pt"
+    },
+    {
+     "veiculo": "Cepea/Esalq-USP e CNA (dados da PNAD Contínua, IBGE)",
+     "titulo": "Mercado de Trabalho do Agronegócio Brasileiro – Boletim do 4º trimestre de 2025",
+     "data": "2026-04-23",
+     "url": "https://www.cepea.org.br/upload/kceditor/files/dtec.mt_agronegocio_boletim_4tri2025.23abr2026.v2.diagramado.pdf"
+    },
+    {
+     "veiculo": "Estado de Minas",
+     "titulo": "PEC do fim da escala 6x1 aguarda votação final no Senado; entenda a tramitação em setembro de 2026",
+     "data": "2026-09-21",
+     "url": "https://www.em.com.br/politica/2026/09/7504982-pec-do-fim-da-escala-6x1-aguarda-votacao-final-no-senado-entenda-a-tramitacao-em-setembro-de-2026.html"
+    },
+    {
+     "veiculo": "Planalto",
+     "titulo": "Lei nº 13.467, de 13 de julho de 2017 (reforma trabalhista)",
+     "data": "2017-07-13",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13467.htm"
+    },
+    {
+     "veiculo": "Agência Câmara",
+     "titulo": "Sancionada lei que mantém desoneração da folha em 2024",
+     "data": "2024-09-17",
+     "url": "https://www.camara.leg.br/noticias/1097176-sancionada-lei-que-mantem-desoneracao-da-folha-em-2024/"
+    }
+   ]
+  }
+ },
+ {
+  "eleicao": "presidente",
+  "id_novo": "seca-lavoura",
+  "grupo": "clima",
+  "publico": {
+   "zona": [
+    "rural"
+   ],
+   "regiao": [
+    "sul",
+    "sudeste"
+   ]
+  },
+  "origem_opcoes": "enchente-seca",
+  "inserir_antes_de": "enchente-sul",
+  "motivo": "No Sul e no Sudeste, o morador rural vê \"cada chuva forte deixa a cidade em alerta\" (enchente-sul) ou \"a seca deixa a luz e a comida mais caras\" (padrão): as duas falam da cidade e do preço, não da lavoura e do pasto que ele perde (nota 3). Nordeste, Norte e Centro-Oeste rurais continuam com seca-nordeste e fumaca-queimada, que já são cenas do campo.",
+  "cena": "Um ano, a seca queima a lavoura e o pasto. No outro, a chuva forte leva a plantação e a estrada.",
+  "pergunta": "O que devia vir primeiro?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Zerar o desmatamento e cortar a poluição que esquenta o planeta.",
+    "preferencia": "Zerar o desmatamento e cumprir as metas nacionais de redução de emissões."
+   },
+   {
+    "id": "b",
+    "texto": "Obras contra enchente e seca, como barragens, diques e reservatórios.",
+    "preferencia": "Ampliar obras de prevenção a eventos extremos, como barragens, reservatórios, diques e drenagem."
+   },
+   {
+    "id": "c",
+    "texto": "Licença ambiental com prazo: se o governo atrasar, ela sai sozinha.",
+    "preferencia": "Prazos definidos para o licenciamento ambiental, com concessão automática da licença quando o órgão não decide no prazo."
+   },
+   {
+    "id": "d",
+    "texto": "Continuar procurando e tirando petróleo em lugares novos.",
+    "preferencia": "Continuar a pesquisa e a exploração de novas reservas de petróleo."
+   }
+  ],
+  "fato": {
+   "texto": "Em maio de 2024, as enchentes atingiram 206.604 propriedades rurais no Rio Grande do Sul, depois de anos seguidos de estiagem nas lavouras.",
+   "fonte": "Governo do Rio Grande do Sul, com dados da Emater/RS (29/08/2024)",
+   "url": "https://www.estado.rs.gov.br/painel-do-agronegocio-2024-analisa-impacto-das-chuvas-severas-no-rio-grande-do-sul"
+  },
+  "contexto": {
+   "paragrafos": [
+    "No Rio Grande do Sul, faltou chuva nas lavouras de 2020 a 2023. Em maio de 2024, a enchente atingiu 206 mil propriedades rurais. No Sudeste, a seca de 2024 fez a Faemg prever queda de 23% no café de Minas. Em São Paulo, o fogo atingiu 232 mil hectares de cana.",
+    "Obras de prevenção envolvem União, estados e municípios. O licenciamento segue a lei geral de 2025, que criou uma licença por autodeclaração para obras de menor impacto. O Brasil prometeu cortar de 59% a 67% das emissões até 2035.",
+    "Zerar o desmatamento corta emissões, mas exige fiscalização constante e limita a abertura de novas áreas para produzir. Obras contra cheia e seca protegem logo, mas são caras e demoram. Licença automática após o prazo acelera obras, mas pode liberar projetos sem análise. Buscar petróleo novo gera renda e royalties, mas aumenta emissões futuras.",
+    "Estudos indicam que, no Sul, as cheias extremas podem ficar até cinco vezes mais frequentes. Em 2024, 6,7 milhões de hectares de pastagens queimaram no país."
+   ],
+   "fontes": [
+    {
+     "veiculo": "Governo do Rio Grande do Sul (dados da Emater/RS)",
+     "titulo": "Painel do Agronegócio 2024 analisa impacto das chuvas severas no Rio Grande do Sul",
+     "data": "2024-08-29",
+     "url": "https://www.estado.rs.gov.br/painel-do-agronegocio-2024-analisa-impacto-das-chuvas-severas-no-rio-grande-do-sul"
+    },
+    {
+     "veiculo": "CBN (dados da Faemg)",
+     "titulo": "Mudanças climáticas provocam queda de 23% na safra do café de Minas Gerais neste ano",
+     "data": "2024-09-22",
+     "url": "https://cbn.globo.com/brasil/noticia/2024/09/22/mudancas-climaticas-provocam-queda-de-23percent-na-safra-do-cafe-de-minas-gerais-neste-ano.ghtml"
+    },
+    {
+     "veiculo": "O Globo",
+     "titulo": "Queimadas sinalizam que seca poderá levar a uma segunda queda seguida na safra",
+     "data": "2024-09-17",
+     "url": "https://oglobo.globo.com/economia/noticia/2024/09/17/queimadas-sinalizam-que-estiagem-podera-levar-a-uma-segunda-queda-seguida-na-producao-agricola.ghtml"
+    },
+    {
+     "veiculo": "Agência Senado",
+     "titulo": "Congresso derruba 52 itens de veto à Lei Geral do Licenciamento Ambiental",
+     "data": "2025-11-27",
+     "url": "https://www12.senado.leg.br/noticias/materias/2025/11/27/congresso-derruba-52-itens-de-veto-a-lei-geral-do-licenciamento-ambiental"
+    },
+    {
+     "veiculo": "Ministério dos Povos Indígenas",
+     "titulo": "Brasil entrega à ONU nova NDC alinhada ao Acordo de Paris",
+     "data": "2024-11-13",
+     "url": "https://www.gov.br/povosindigenas/pt-br/assuntos/noticias/2024/11/brasil-entrega-a-onu-nova-ndc-alinhada-ao-acordo-de-paris"
+    },
+    {
+     "veiculo": "ANA",
+     "titulo": "Estudo aponta que enchentes de 2024 foram maior desastre natural da história do RS e sugere caminhos para futuro com eventos extremos mais frequentes",
+     "data": "2025-04-30",
+     "url": "https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/estudo-aponta-que-enchentes-de-2024-foram-maior-desastre-natural-da-historia-do-rs-e-sugere-caminhos-para-futuro-com-eventos-extremos-mais-frequentes"
+    },
+    {
+     "veiculo": "MapBiomas",
+     "titulo": "Área queimada no Brasil cresce 79% em 2024 e supera os 30 milhões de hectares",
+     "data": "2025-01-22",
+     "url": "https://brasil.mapbiomas.org/2025/01/22/area-queimada-no-brasil-cresce-79-em-2024-e-supera-os-30-milhoes-de-hectares/"
+    }
+   ]
+  }
+ },
+ {
+  "eleicao": "governador-rj",
+  "id_novo": "estrada-roca",
+  "grupo": "trem-parado",
+  "publico": {
+   "zona": [
+    "rural"
+   ]
+  },
+  "origem_opcoes": "estrada-interior",
+  "inserir_depois_de": "estrada-interior",
+  "motivo": "O rural do interior já vê estrada-interior (nota 5). Mas quem mora na roça em Magé, Guapimirim, Itaboraí, Maricá ou Nova Iguaçu vê o trem de Japeri, a barca de Niterói ou, se tem carro, a Linha Vermelha parada (nota 2). Entra logo depois de estrada-interior e antes de barca-leste e transito-carro, para pegar o rural de fora do interior, com ou sem carro.",
+  "cena": "Da roça até a cidade, a estrada estadual tem buraco e não tem acostamento. O ônibus passa poucas vezes por dia.",
+  "pergunta": "O que devia vir primeiro?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Refazer o asfalto e vigiar as estradas com dinheiro do estado.",
+    "preferencia": "Recuperar as rodovias estaduais do interior com recapeamento e vigilância, com recursos do estado."
+   },
+   {
+    "id": "b",
+    "texto": "Passar as estradas pra empresas privadas cuidarem, sem pedágio novo.",
+    "preferencia": "Conceder rodovias estaduais à iniciativa privada em lotes, sem criar novos pedágios."
+   },
+   {
+    "id": "c",
+    "texto": "Voltar a ter trem de passageiros entre as cidades.",
+    "preferencia": "Priorizar o transporte ferroviário de passageiros sobre o rodoviário."
+   },
+   {
+    "id": "d",
+    "texto": "Passagem de ônibus entre cidades mais barata, com dinheiro do estado.",
+    "preferencia": "Subsídio estadual ao ônibus intermunicipal para reduzir as passagens."
+   }
+  ],
+  "fato": {
+   "texto": "Na pesquisa CNT de 2024, 19,1% das rodovias avaliadas no estado do Rio estavam ruins ou péssimas, e as cinco piores eram geridas pelo poder público.",
+   "fonte": "Gazeta do Povo, com dados da CNT (03/01/2025)",
+   "url": "https://www.gazetadopovo.com.br/brasil/melhores-e-piores-rodovias-rio-de-janeiro/"
+  },
+  "contexto": {
+   "paragrafos": [
+    "Só 2,1% dos moradores do estado vivem na zona rural, a menor fatia do país. Para eles, a estrada ruim pesa mais: é por ela que se chega ao médico, à escola e à feira. Em 2024, só 52,9% dos 2.651 km de rodovias avaliados pela CNT no estado estavam ótimos ou bons.",
+    "As estradas estaduais são do governo do estado, pelo DER-RJ. Algumas já foram concedidas a empresas, com pedágio. Em 2026, o DER informou que só 4 de 20 contratos de conservação seguiam valendo.",
+    "Recuperar com dinheiro do estado mantém controle público, mas disputa verba com saúde e escola. Conceder sem pedágio novo traz investimento privado, mas o estado precisa pagar a empresa de outro jeito. Trem de passageiros tira carros da estrada, mas leva anos. Passagem subsidiada alivia o bolso, mas não conserta o asfalto.",
+    "Fique de olho: a ferrovia federal Vitória-Rio, prevista para 2033, é de carga, mas o contrato admite trem de passageiros. Na RJ-116, concedida desde 2001, a agência reguladora apontou R$ 87 milhões em obras não feitas."
+   ],
+   "fontes": [
+    {
+     "veiculo": "Nexo Jornal (dados do IBGE, Censo 2022)",
+     "titulo": "A população urbana e rural do Brasil no Censo de 2022",
+     "data": "2024-11-20",
+     "url": "https://www.nexojornal.com.br/grafico/2024/11/20/populacao-rural-urbana-censo-ibge"
+    },
+    {
+     "veiculo": "Gazeta do Povo (dados da CNT)",
+     "titulo": "As melhores e as piores rodovias do Rio de Janeiro segundo análise da CNT",
+     "data": "2025-01-03",
+     "url": "https://www.gazetadopovo.com.br/brasil/melhores-e-piores-rodovias-rio-de-janeiro/"
+    },
+    {
+     "veiculo": "Tempo Real RJ",
+     "titulo": "Urgência previsível: governo do estado pretende gastar R$ 190 milhões em contratos emergenciais para conservação de rodovias",
+     "data": "2026-04-15",
+     "url": "https://temporealrj.com/contratos-emergenciais-der-rj/"
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Governo do RJ prorroga concessão da RJ-116 por mais 25 anos",
+     "data": "2026-03-26",
+     "url": "https://g1.globo.com/rj/regiao-serrana/noticia/2026/03/26/governo-do-rj-prorroga-concessao-da-rj-116-por-mais-25-anos.ghtml"
+    },
+    {
+     "veiculo": "A Gazeta (ES)",
+     "titulo": "Entidades pedem inclusão de trem de passageiros no projeto da Vitória-Rio",
+     "data": "2025-01-30",
+     "url": "https://www.agazeta.com.br/es/economia/entidades-pedem-inclusao-de-trem-de-passageiros-no-projeto-da-vitoria-rio-0125"
+    }
+   ]
+  }
+ },
+ {
+  "eleicao": "governador-rj",
+  "id_novo": "assalto-estrada",
+  "grupo": "celular-roubado",
+  "publico": {
+   "zona": [
+    "rural"
+   ]
+  },
+  "origem_opcoes": "celular-roubado",
+  "inserir_antes_de": "roubo-carro",
+  "motivo": "Hoje o rural vê \"levaram seu celular no ponto de ônibus\" (nota 2) ou, se tem carro, \"olhando o retrovisor antes de abrir o portão da garagem\" (nota 2). Na roça do estado, o roubo acontece em estrada de terra, por dupla de moto, como na série de assaltos de São Francisco de Itabapoana em 2025. Entra antes de roubo-carro para cobrir também o rural que dirige.",
+  "cena": "Na estrada de terra, dois homens de moto assaltaram vizinhos seus. Levaram celulares e dinheiro.",
+  "pergunta": "O que funcionaria melhor?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Guarda municipal armada fazendo ronda junto com a PM.",
+    "preferencia": "Integrar guardas municipais armadas ao policiamento ostensivo contra roubos e furtos."
+   },
+   {
+    "id": "b",
+    "texto": "Mais PM na rua, chamando quem passou no concurso.",
+    "preferencia": "Ampliar o efetivo da Polícia Militar com concursos e convocação de aprovados."
+   },
+   {
+    "id": "c",
+    "texto": "Investigação permanente contra quem compra celular roubado.",
+    "preferencia": "Investigação permanente para desarticular a receptação de celulares roubados."
+   },
+   {
+    "id": "d",
+    "texto": "Câmera inteligente nas ruas e estradas, ligada direto à polícia.",
+    "preferencia": "Videomonitoramento, câmeras inteligentes e tecnologia de vigilância integradas às polícias."
+   }
+  ],
+  "fato": {
+   "texto": "Em setembro de 2025, assaltantes de moto fizeram uma série de roubos na zona rural de São Francisco de Itabapoana e levaram celulares e dinheiro.",
+   "fonte": "Jornal do Estado RJ (19/09/2025)",
+   "url": "https://jornaldoestadorj.com.br/assaltos-em-serie-na-zona-rural-de-sfi/"
+  },
+  "contexto": {
+   "paragrafos": [
+    "Em 2025, o estado teve 25.625 roubos de celular, e um em cada quatro foi fora da capital. Na roça, o roubo costuma ser em estrada de terra, de moto. Em setembro de 2025, assaltos em série na zona rural de São Francisco de Itabapoana levaram celulares, cartões e dinheiro.",
+    "O policiamento de rua é da PM; a investigação, da Polícia Civil. As duas são do estado. Desde 2025, o STF permite que guardas municipais façam policiamento, se a cidade aprovar lei. Em 2024, a PM tinha 42 mil policiais e déficit de 17 mil.",
+    "Guarda armada soma gente na rua, mas depende da prefeitura e de treino. Mais PM amplia a presença, mas demora a formar e pesa na folha. Ir atrás de quem compra roubado ataca o lucro do crime, mas a investigação é longa. Câmeras inteligentes vigiam sem parar, mas custam caro e geram dúvidas sobre privacidade.",
+    "Se levarem seu celular, registre ocorrência. As estatísticas oficiais só contam os casos que chegam à delegacia."
+   ],
+   "fontes": [
+    {
+     "veiculo": "Jornal do Estado RJ",
+     "titulo": "Assaltos em série na Zona Rural de São Francisco de Itabapoana",
+     "data": "2025-09-19",
+     "url": "https://jornaldoestadorj.com.br/assaltos-em-serie-na-zona-rural-de-sfi/"
+    },
+    {
+     "veiculo": "O Globo (dados do ISP)",
+     "titulo": "ISP: Rio fecha 2025 com quase 200 celulares roubados por dia, queda no roubo de veículos e recorde na apreensão de fuzis",
+     "data": "2026-01-17",
+     "url": "https://oglobo.globo.com/rio/noticia/2026/01/17/isp-rio-fecha-2025-com-quase-200-celulares-roubados-por-dia-queda-no-roubo-de-veiculos-e-recorde-na-apreensao-de-fuzis.ghtml"
+    },
+    {
+     "veiculo": "STF",
+     "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
+     "data": "2025-02-20",
+     "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
+    },
+    {
+     "veiculo": "O Globo",
+     "titulo": "PM do Rio tem déficit de 17 mil militares e só metade do efetivo atua no policiamento",
+     "data": "2024-04-28",
+     "url": "https://oglobo.globo.com/rio/noticia/2024/04/28/pm-do-rio-tem-deficit-de-17-mil-militares-e-so-metade-do-efetivo-atua-no-policiamento.ghtml"
+    },
+    {
+     "veiculo": "O Globo",
+     "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
+     "data": "2026-01-27",
+     "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
+    }
+   ]
+  }
+ },
+ {
+  "eleicao": "governador-rj",
+  "id_novo": "primo-roca",
+  "grupo": "primo-desempregado",
+  "publico": {
+   "zona": [
+    "rural"
+   ]
+  },
+  "origem_opcoes": "primo-desempregado",
+  "inserir_depois_de": "licenca-empresa",
+  "motivo": "A padrão fala de \"bico de entrega\", que é da cidade (nota 3 para o rural). No campo, o trabalho que falta é o fixo, e o que sobra é a diária na lavoura. Entra no fim do grupo: o servidor rural continua com servidor-recomposicao e o produtor com empregados, com licenca-empresa (licença ambiental também é do agro).",
+  "cena": "Seu primo mora na roça e não acha trabalho fixo. Vive de diária na lavoura, quando aparece.",
+  "pergunta": "O que ajudaria gente como ele?",
+  "opcoes": [
+   {
+    "id": "a",
+    "texto": "Primeiro emprego, com curso técnico e incentivo pra empresa contratar.",
+    "preferencia": "Programa estadual de primeiro emprego com aprendizagem técnica e incentivo à contratação."
+   },
+   {
+    "id": "b",
+    "texto": "Trazer estaleiro e fábrica de volta, com incentivo do estado.",
+    "preferencia": "Atrair indústria naval e outras indústrias com incentivos estaduais."
+   },
+   {
+    "id": "c",
+    "texto": "Deixar a criação de emprego com as empresas e investir em segurança.",
+    "preferencia": "Limitar o papel do Estado na geração de emprego, deixando-a ao setor privado, e concentrar o investimento público em segurança."
+   },
+   {
+    "id": "d",
+    "texto": "Baixar ou zerar o IPVA da moto de quem trabalha com ela.",
+    "preferencia": "Isenção ou redução de IPVA para motos de até 180 cilindradas usadas para trabalho."
+   }
+  ],
+  "fato": {
+   "texto": "No Censo Agro de 2017, sítios e fazendas do estado do Rio ocupavam 160.571 pessoas; quase 7 em cada 10 eram da família do produtor.",
+   "fonte": "IBGE, Censo Agropecuário 2017",
+   "url": "https://cidades.ibge.gov.br/brasil/rj/pesquisa/24/25888"
+  },
+  "contexto": {
+   "paragrafos": [
+    "Sítios e fazendas do estado ocupavam 160 mil pessoas em 2017, quase 7 em cada 10 da família do dono. No país, 64% de quem mora no campo e trabalha na roça é informal. Em 2025, o trabalho dentro de sítios e fazendas perdeu 87 mil pessoas.",
+    "Emprego depende da economia, mas o estado influencia com impostos, cursos e obras. O Rio tem 24 dos 49 estaleiros do país e 66 mil empregos navais. O IPVA de moto no estado é de 2%.",
+    "Primeiro emprego com curso ajuda jovens a entrar, mas custa dinheiro público. Atrair estaleiros gera muitas vagas, mas depende de encomendas e de desconto de imposto. Deixar o emprego às empresas libera verba para segurança, mas dá menos apoio direto. Zerar o IPVA da moto alivia quem trabalha com ela, mas reduz a arrecadação.",
+    "Segundo o Cepea, máquinas no campo e a ida dos jovens para a cidade reduzem o trabalho na roça. Os pequenos produtores são os mais afetados."
+   ],
+   "fontes": [
+    {
+     "veiculo": "IBGE, Cidades@",
+     "titulo": "Rio de Janeiro: Censo Agropecuário 2017 – características dos estabelecimentos",
+     "data": "2019-10-25",
+     "url": "https://cidades.ibge.gov.br/brasil/rj/pesquisa/24/25888"
+    },
+    {
+     "veiculo": "Revista de Economia e Sociologia Rural (dados da PNAD Contínua, IBGE)",
+     "titulo": "Mercado de trabalho rural e urbano no Brasil, 2012-2022: uma análise das atividades agrícolas e não agrícolas",
+     "data": "2025-04-04",
+     "url": "https://www.scielo.br/j/resr/a/S7CZkgzvHqWS8PSv9YJ3yjD/?lang=pt"
+    },
+    {
+     "veiculo": "Cepea/Esalq-USP e CNA (dados da PNAD Contínua, IBGE)",
+     "titulo": "Mercado de Trabalho do Agronegócio Brasileiro – Boletim do 4º trimestre de 2025",
+     "data": "2026-04-23",
+     "url": "https://www.cepea.org.br/upload/kceditor/files/dtec.mt_agronegocio_boletim_4tri2025.23abr2026.v2.diagramado.pdf"
+    },
+    {
+     "veiculo": "Sinaval (dados do Panorama Naval da Firjan)",
+     "titulo": "Indústria naval se recupera e começa expansão",
+     "data": "2026-08-19",
+     "url": "https://sinaval.org.br/2026/08/industria-naval-se-recupera-e-comeca-expansao/"
+    },
+    {
+     "veiculo": "Extra",
+     "titulo": "Tabelão do IPVA 2026: saiba quanto os motoristas do Estado do Rio vão pagar de imposto anual",
+     "data": "2025-12-17",
+     "url": "https://extra.globo.com/economia/noticia/2025/12/tabelao-do-ipva-2026-saiba-quanto-os-motoristas-do-estado-do-rio-vao-pagar-de-imposto-anual.ghtml"
+    }
+   ]
+  }
+ }
+]

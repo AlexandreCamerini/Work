@@ -32,7 +32,7 @@ export function cenasEsperadas(eleicao: Eleicao, perfil: Partial<Perfil>): strin
 
 /** Rótulos das perguntas "sobre você" (src/telas/PerfilPasso.tsx), na ordem da tela. */
 const ROTULOS: Record<Exclude<keyof Perfil, 'regiao'>, Record<string, string>> = {
-  zona: { urbana: 'Na cidade', rural: 'Na zona rural: sítio, fazenda, roça ou comunidade' },
+  zona: { urbana: 'Na cidade', rural: 'Na zona rural: sítio, fazenda, roça ou aldeia' },
   saude: { sus: 'Posto, UPA ou hospital público', plano_empresa: 'Plano de saúde pago pela empresa', plano_proprio: 'Plano pago pela família, ou consulta particular' },
   escola: { publica: 'Escola pública', particular: 'Escola particular', nenhuma: 'Não tem criança ou adolescente na escola' },
   deslocamento: {

@@ -57,7 +57,9 @@ export function estimarFaixa(perfil: Perfil): Faixa | null {
 function atende(publico: Publico, perfil: Perfil, faixa: Faixa | null): boolean {
   const checagens: [readonly string[] | undefined, string | null][] = [
     [publico.faixa, faixa],
-    [publico.zona, perfil.zona],
+    // quem pula a zona conta como cidade (87% do país): cena só-cidade continua chegando e
+    // cena rural exige que a pessoa diga que mora na zona rural
+    [publico.zona, perfil.zona ?? 'urbana'],
     [publico.saude, perfil.saude],
     [publico.deslocamento, perfil.deslocamento],
     [publico.escola, perfil.escola],

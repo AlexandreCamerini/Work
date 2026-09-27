@@ -12,7 +12,7 @@ const PERGUNTAS: Record<Exclude<CampoPerfil, 'regiao'>, { titulo: string; opcoes
     titulo: 'Onde fica a sua casa?',
     opcoes: [
       { valor: 'urbana', rotulo: 'Na cidade' },
-      { valor: 'rural', rotulo: 'Na zona rural: sítio, fazenda, roça ou comunidade' },
+      { valor: 'rural', rotulo: 'Na zona rural: sítio, fazenda, roça ou aldeia' },
     ],
   },
   saude: {
