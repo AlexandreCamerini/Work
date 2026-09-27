@@ -21,6 +21,7 @@ Garantias (aborta sem gravar se falhar):
 
 Uso:
   python3 pipeline/curadoria-classes/aplicar_curadoria.py            # aplica e grava
+  python3 pipeline/curadoria-classes/aplicar_curadoria.py --lote rural   # lote de pipeline/curadoria-classes/rural/
   python3 pipeline/curadoria-classes/aplicar_curadoria.py --conferir # só lista o que faria
 """
 from __future__ import annotations
@@ -38,14 +39,19 @@ import aderencia  # noqa: E402
 
 QUIZ = {"governador-rj": RAIZ / "src/data/quiz.json", "presidente": RAIZ / "src/data/quiz-presidente.json"}
 CONTEXTO = {"governador-rj": RAIZ / "src/data/contexto.json", "presidente": RAIZ / "src/data/contexto-presidente.json"}
-NOVA_VERSAO = {"governador-rj": "3.5.0", "presidente": "1.4.0"}
+LOTE = AQUI  # pasta do lote; --lote rural usa pipeline/curadoria-classes/rural/
 PROTEGIDAS = {("presidente", "escala-6x1", "b"), ("governador-rj", "operacao-policial", "b"),
               ("governador-rj", "via-expressa-fechada", "b"), ("presidente", "trabalho-app", "b")}
 EXCLUIR = {"governador-rj": ["anthony-garotinho"], "presidente": []}
 
 
+def subir_versao(versao: str) -> str:
+    maior, menor, _ = versao.split(".")
+    return f"{maior}.{int(menor) + 1}.0"
+
+
 def ler(nome: str, padrao=None):
-    p = AQUI / nome
+    p = LOTE / nome
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else padrao
 
 
@@ -117,20 +123,23 @@ def trocar_texto(quiz: dict, eleicao: str, t: dict, log: list) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--conferir", action="store_true")
+    ap.add_argument("--lote", default="", help="subpasta com outro lote (ex.: rural)")
     args = ap.parse_args()
+    global LOTE
+    LOTE = AQUI / args.lote if args.lote else AQUI
 
     veredito = ler("veredito.json")
     if veredito is None:
         raise SystemExit("falta veredito.json (verificação independente)")
     decisoes = ler("decisoes.json", {})
-    textos = aprovados(ler("textos-letramento.json", []), veredito["letramento"], ("eleicao", "pergunta_id", "campo"))
-    textos += aprovados(ler("cenas-padrao.json", []), veredito["cenas_padrao"], ("eleicao", "pergunta_id"))
+    textos = aprovados(ler("textos-letramento.json", []), veredito.get("letramento", []), ("eleicao", "pergunta_id", "campo"))
+    textos += aprovados(ler("cenas-padrao.json", []), veredito.get("cenas_padrao", []), ("eleicao", "pergunta_id"))
     textos += decisoes.get("textos_extras", [])
-    ajustes = aprovados(ler("ajustes-publico.json", []), veredito["ajustes_publico"], ("eleicao", "pergunta_id"))
+    ajustes = aprovados(ler("ajustes-publico.json", []), veredito.get("ajustes_publico", []), ("eleicao", "pergunta_id"))
     ignorar = {(i["eleicao"], i["pergunta_id"]) for i in decisoes.get("ignorar_ajustes_publico", [])}
     ajustes = [a for a in ajustes if (a["eleicao"], a["pergunta_id"]) not in ignorar]
     ajustes += decisoes.get("ajustes_publico_extras", [])
-    variantes = aprovados(ler("variantes-novas.json", []), veredito["variantes"], ("eleicao", "id_novo"))
+    variantes = aprovados(ler("variantes-novas.json", []), veredito.get("variantes", []), ("eleicao", "id_novo"))
     fora = {(r["eleicao"], r["id_novo"]) for r in decisoes.get("rejeitar_variantes", [])}
     variantes = [v for v in variantes if (v["eleicao"], v["id_novo"]) not in fora]
     remover = decisoes.get("remover", [])  # [{eleicao, pergunta_id, motivo}]
@@ -177,7 +186,10 @@ def main() -> None:
                 log.append(f"propagado {eleicao}/{p['id']}/{pr['opcao']}")
 
         # 2. textos
+        ids_removidos = {r["pergunta_id"] for r in remover if r["eleicao"] == eleicao}
         for t in (x for x in textos if x["eleicao"] == eleicao):
+            if t["pergunta_id"] in ids_removidos and not por_id(t["pergunta_id"]):
+                continue  # pergunta já removida numa aplicação anterior
             trocar_texto(quiz, eleicao, t, log)
 
         # 3. público
@@ -210,7 +222,7 @@ def main() -> None:
         if not mudou:
             continue
         if quiz["versao"] == original["versao"]:
-            quiz["versao"] = NOVA_VERSAO[eleicao]
+            quiz["versao"] = subir_versao(original["versao"])
 
         # 5. aderência: copia notas da origem, tira removidas, nova versão
         aderencia.usar_eleicao(eleicao)
