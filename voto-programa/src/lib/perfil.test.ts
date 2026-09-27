@@ -67,8 +67,8 @@ describe('cenas publicadas por perfil', () => {
     expect(ids(gov, { ...motoboy, trabalho: 'carteira' })).toContain('falta-tecnico')
   })
 
-  it('faixa de serviço privado vê alagamento e falta d’água do prédio', () => {
-    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3, regiao: null }
+  it('faixa de serviço privado na capital vê alagamento, falta d’água do prédio e vale-transporte', () => {
+    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3, regiao: 'capital' }
     expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa', 'vale-transporte']))
   })
 })
@@ -85,8 +85,23 @@ describe('cenas por região', () => {
     expect(ids(gov.perguntas, { regiao: 'leste', deslocamento: 'carro' })).not.toContain('transito-carro')
   })
 
-  it('interior vê estrada, saúde longe de casa e encosta na serra', () => {
-    expect(ids(gov.perguntas, { regiao: 'interior' })).toEqual(expect.arrayContaining(['estrada-interior', 'saude-interior', 'encosta-serra']))
+  it('interior vê estrada, saúde longe de casa, chuva no interior e a passagem do interior', () => {
+    expect(ids(gov.perguntas, { regiao: 'interior' })).toEqual(
+      expect.arrayContaining(['estrada-interior', 'saude-interior', 'chuva-interior', 'passagem-interior']),
+    )
+  })
+
+  it('curadoria por classe: aposentado, conta própria, aplicativo e quem anda a pé têm cena própria', () => {
+    const pres = eleicoes.find((e) => e.id === 'presidente')!.quiz
+    expect(ids(gov.perguntas, { trabalho: 'aposentado' })).toContain('fila-aposentado')
+    expect(ids(pres.perguntas, { trabalho: 'aposentado' })).toContain('fila-aposentado')
+    expect(ids(pres.perguntas, { trabalho: 'aposentado', escola: 'nenhuma' })).toContain('neto-escola')
+    expect(ids(pres.perguntas, { trabalho: 'aposentado', escola: 'particular' })).not.toContain('neto-escola')
+    expect(ids(pres.perguntas, { trabalho: 'autonomo' })).toContain('conta-propria')
+    expect(ids(pres.perguntas, { trabalho: 'autonomo' })).not.toContain('trabalho-app')
+    expect(ids(pres.perguntas, { trabalho: 'aplicativo' })).toContain('trabalho-app')
+    for (const deslocamento of ['moto', 'a_pe'] as const) expect(ids(gov.perguntas, { deslocamento })).toContain('passagem-moto')
+    expect(ids(gov.perguntas, { regiao: 'leste' })).toContain('passagem-leste')
   })
 
   it('capital, Baixada e quem não mora no estado ficam nas cenas padrão de transporte', () => {

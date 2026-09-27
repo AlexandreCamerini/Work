@@ -20,7 +20,7 @@ export function RuaAlagada() {
   )
 }
 
-/** encosta-serra: três dias de chuva, rachadura na encosta atrás da rua. */
+/** chuva-interior (antes encosta-serra): três dias de chuva, rachadura na encosta atrás da rua. */
 export function EncostaSerra() {
   return (
     <Quadro>

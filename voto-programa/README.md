@@ -182,7 +182,9 @@ VITE_PUBLICAR_ACOMPANHAMENTO=true npm run build
       e operação policial b; Lula Pé-de-Meia; clima null → 80/90 nas 4 cenas regionais).
       A calibração entre avaliadores piora: líderes com dossiês 2x maiores têm menos null
       que os outros 6.
-- [ ] **Contexto do "Leia"**: 3 números são conta do agente sobre dados das fontes
+- [ ] **Curadoria por classe (27/09)**: ver `pipeline/curadoria-classes/README.md`. Zona
+      rural sem campo no perfil; licença ambiental não serve a comércio/serviço; sem pré-teste.
+- [ ] **Contexto do "Leia": 3 números são conta do agente sobre dados das fontes
       (registrados em `pipeline/ux/contexto-*.md`); lacunas de dado declaradas no texto.
 - [ ] **Resumos de dossiê que dizem mais que o trecho**: Marinho p41, Busnello p30, Ruas p47
       (ver `pipeline/curadoria-cenas.md`, seção Região).

@@ -27,7 +27,7 @@ export const porId: Record<string, ComponentType> = {
   'roubo-carro': RouboCarro,
   'celular-sinal': CelularSinal,
   'correria-praia': CorreriaPraia,
-  'encosta-serra': EncostaSerra,
+  'chuva-interior': EncostaSerra,
   'garagem-alagada': GaragemAlagada,
   'caminhao-pipa': CaminhaoPipa,
   'enchente-sul': EnchenteSul,

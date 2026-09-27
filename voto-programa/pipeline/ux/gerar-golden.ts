@@ -59,8 +59,8 @@ function sorteioFixo(semente: number) {
 const VALORES = {
   saude: [null, 'sus', 'plano_empresa', 'plano_proprio'],
   escola: [null, 'publica', 'particular', 'nenhuma'],
-  deslocamento: [null, 'publico', 'carro', 'moto', 'app', 'casa'],
-  trabalho: [null, 'carteira', 'servidor', 'autonomo', 'empresario', 'aposentado', 'sem_trabalho'],
+  deslocamento: [null, 'publico', 'carro', 'moto', 'a_pe', 'app', 'casa'],
+  trabalho: [null, 'carteira', 'servidor', 'autonomo', 'aplicativo', 'empresario', 'aposentado', 'sem_trabalho'],
   banheiros: [null, 1, 2, 3],
 } as const
 

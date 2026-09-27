@@ -64,8 +64,8 @@
   "barca-leste": {
     "paragrafos": [
       "As barcas levaram mais de 28 milhões de passageiros em 2014. Em 2024, foram pouco mais de 12 milhões. A linha Praça XV–Arariboia concentra cerca de 85% da demanda.",
-      "Desde fevereiro de 2025, o estado comanda o serviço. O consórcio Barcas Rio só opera e recebe por milha navegada. Segundo o governo, a passagem cobre só 25% do custo. O resto sai de impostos.",
-      "A Linha 3 do metrô levaria muita gente sob a baía, mas custa R$ 14,6 bilhões e segue em estudo. Novas barcas e terminal em São Gonçalo saem antes, mas exigem subsídio. Multar a operadora pressiona por horário, mas não cria viagens. Estatizar com tarifa baixa alivia o bolso, mas amplia o gasto público.",
+      "Desde fevereiro de 2025, o estado contrata e comanda o serviço. Quem opera é uma empresa privada, o consórcio Barcas Rio, que recebe por milha navegada. Desde fevereiro de 2026, a passagem custa R$ 5. Segundo o governo, ela cobre só 25% do custo.",
+      "A Linha 3 do metrô levaria muita gente sob a baía, mas custa R$ 14,6 bilhões e segue em estudo. Novas barcas e terminal em São Gonçalo saem antes, mas exigem subsídio. Multar a operadora pressiona por horário, mas não cria viagens. Empresa pública com passagem baixa alivia o bolso, mas aumenta o gasto público.",
       "No dia a dia, compare o horário publicado com a partida real. Veja também se a climatização prometida chegou ao seu barco."
     ],
     "fontes": [
@@ -77,9 +77,9 @@
       },
       {
         "veiculo": "g1",
-        "titulo": "Governo do RJ anuncia redução de passagem das barcas entre Rio e Niterói para R$ 4,70",
-        "data": "2025-03-13",
-        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/03/13/governo-do-rj-anuncia-reducao-de-passagem-das-barcas-entre-rio-e-niteroi.ghtml"
+        "titulo": "Tarifa das barcas sobe para R$ 5, e passageiros reclamam da qualidade do serviço",
+        "data": "2026-02-10",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/02/10/tarifa-das-barcas-sobe-para-r-5-e-passageiros-reclamam-da-qualidade-do-servico.ghtml"
       },
       {
         "veiculo": "g1",
@@ -191,6 +191,132 @@
       }
     ]
   },
+  "passagem-moto": {
+    "paragrafos": [
+      "No país, o uso de moto nos deslocamentos dobrou de 2017 a 2024, de 5,1% para 10,9%. Na Grande Rio, a Coppe/UFRJ ouviu quem trocou o coletivo pela moto em 2025: o tempo de viagem pesou mais, e 14% voltariam se ficasse mais barato.",
+      "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+      "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+      "Com o Bilhete Único Intermunicipal, quem ganha até R$ 3.205,20 paga no máximo R$ 9,40 por até duas conduções em 3 horas."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Correio Braziliense (dados da CNT)",
+        "titulo": "Ônibus perdem passageiros para carro, moto e app, mostra pesquisa",
+        "data": "2024-08-07",
+        "url": "https://www.correiobraziliense.com.br/economia/2024/08/6915554-onibus-perdem-passageiros-para-carro-moto-e-app-mostra-pesquisa.html"
+      },
+      {
+        "veiculo": "Diário do Transporte (pesquisa Coppe/UFRJ)",
+        "titulo": "Pesquisa da UFRJ aponta migração acelerada de usuários do transporte coletivo para motos no Rio de Janeiro",
+        "data": "2025-12-03",
+        "url": "https://diariodotransporte.com.br/2025/12/03/pesquisa-da-ufrj-aponta-migracao-acelerada-de-usuarios-do-transporte-coletivo-para-motos-no-rio-de-janeiro-e-reforca-urgencia-de-prioridade-aos-sistemas-publicos/"
+      },
+      {
+        "veiculo": "Technibus (dados da CNT)",
+        "titulo": "Pesquisa CNT revela mudança nos hábitos de mobilidade",
+        "data": "2025-01-27",
+        "url": "https://technibus.com.br/2025/01/27/pesquisa-cnt-revela-mudanca-nos-habitos-de-mobilidade"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+        "data": "2025-05-06",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+        "data": "2025-12-19",
+        "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+      }
+    ]
+  },
+  "passagem-interior": {
+    "paragrafos": [
+      "Em fevereiro de 2026, o Detro reajustou em 11,69% as linhas intermunicipais do interior. De Nova Friburgo a Cordeiro, a passagem foi a R$ 20. De Campos à Rodoviária Novo Rio, a R$ 130,07. Em várias regiões, uma só empresa opera quase todas as linhas.",
+      "As linhas entre cidades são do estado: o Detro autoriza as tarifas e fiscaliza. O Bilhete Único Intermunicipal, que limita o valor pago, vale só nas cidades da região metropolitana.",
+      "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+      "Pela portaria do reajuste, as empresas têm de afixar o valor novo dentro do ônibus e nos guichês de venda. Confira antes de pagar."
+    ],
+    "fontes": [
+      {
+        "veiculo": "A Voz da Serra",
+        "titulo": "Ônibus intermunicipais: Passagens já estão quase 12% mais caras",
+        "data": "2026-02-20",
+        "url": "https://avozdaserra.com.br/noticias/onibus-intermunicipais-passagens-ja-estao-quase-12-mais-caras"
+      },
+      {
+        "veiculo": "NF10",
+        "titulo": "Viajar de ônibus entre cidades fica 11,69% mais caro no Estado do Rio",
+        "data": "2026-02-19",
+        "url": "https://nf10.com.br/viajar-de-onibus-entre-cidades-fica-1169-mais-caro-no-estado-do-rio/"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Bilhete único Intermunicipal (BUI) continuará valendo nos transportes municipais",
+        "data": "2025-06-12",
+        "url": "https://extra.globo.com/rio/noticia/2025/06/bilhete-unico-intermunicipal-bui-continuara-valendo-nos-transportes-municipais.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+        "data": "2025-05-06",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+      },
+      {
+        "veiculo": "Diário do Transporte",
+        "titulo": "Tarifas de ônibus intermunicipais do Rio de Janeiro têm reajuste a partir de domingo, 15 de fevereiro de 2026",
+        "data": "2026-02-13",
+        "url": "https://diariodotransporte.com.br/2026/02/13/tarifas-de-onibus-intermunicipais-do-rio-de-janeiro-tem-reajuste-a-partir-de-domingo-15-de-fevereiro-de-2026-confira-todos-os-valores/"
+      }
+    ]
+  },
+  "passagem-leste": {
+    "paragrafos": [
+      "Em fevereiro de 2026, as linhas intermunicipais metropolitanas subiram 12,61%. Entre São Gonçalo e Niterói, a maioria passou a custar R$ 7,10. Desde 8 de fevereiro, a barca Arariboia–Praça XV custa R$ 5.",
+      "Quem paga a diferença é o estado. O TCE estimou repasses de cerca de R$ 1 bilhão só em 2025. O cartão é operado pela RioCard, ligada às empresas de transporte. O TCE critica a falta de controle desses dados.",
+      "Subsídio para todos baixa a passagem de uma vez, mas custa mais ao estado. Desconto só para baixa renda gasta menos, mas exige cadastro e fiscalização. Tirar o cartão das empresas mostra o custo real, mas a troca é lenta. Subsidiar o metrô ajuda quem usa trilho, mas não quem só pega ônibus.",
+      "Na hora de recarregar, confira se o seu Bilhete Único está ativo. Em setembro de 2026, o estado assinou com a RioCard um contrato emergencial de sete meses."
+    ],
+    "fontes": [
+      {
+        "veiculo": "Tempo Real RJ",
+        "titulo": "Passagens de ônibus intermunicipais ficam mais caras no estado do Rio a partir de domingo (15)",
+        "data": "2026-02-13",
+        "url": "https://temporealrj.com/passagens-onibus-intermunicipais-mais-caras-domingo/"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Tarifa das barcas sobe para R$ 5, e passageiros reclamam da qualidade do serviço",
+        "data": "2026-02-10",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/02/10/tarifa-das-barcas-sobe-para-r-5-e-passageiros-reclamam-da-qualidade-do-servico.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Atrasos, calor e má estrutura: nova gestão das barcas faz um ano sob reclamações de passageiros",
+        "data": "2026-03-15",
+        "url": "https://oglobo.globo.com/rio/bairros/niteroi/noticia/2026/03/15/atrasos-calor-e-ma-estrutura-nova-gestao-das-barcas-faz-um-ano-sob-reclamacoes-de-passageiros.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Tarifa do Bilhete Único Intermunicipal sobe nesta sexta-feira para R$ 9,40",
+        "data": "2025-12-19",
+        "url": "https://oglobo.globo.com/rio/noticia/2025/12/19/tarifa-do-bilhete-unico-intermunicipal-sobe-nesta-sexta-feira-para-r-940.ghtml"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "TCE aponta 'gestão temerária' no sistema do Bilhete Único e cobra transparência",
+        "data": "2025-05-06",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/05/06/tce-aponta-gestao-temeraria-no-sistema-do-bilhete-unico-e-cobra-transparencia.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Estado assina contrato emergencial com a RioCard para repasse de arrecadação do Bilhete Único Intermunicipal",
+        "data": "2026-09-11",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/09/11/estado-assina-contrato-emergencial-com-a-riocard-para-repasse-de-arrecadacao-do-bilhete-unico-intermunicipal.ghtml"
+      }
+    ]
+  },
   "fila-especialista": {
     "paragrafos": [
       "Em novembro de 2025, mais de 314 mil pessoas esperavam consulta, exame ou cirurgia na fila do estado. De cada dez pacientes agendados, quatro faltavam, e a vaga se perdia.",
@@ -250,6 +376,58 @@
         "titulo": "Mega estrutura de combate ao câncer é finalizada no interior do Rio e promete ajudar milhares de pacientes",
         "data": "2026-03-25",
         "url": "https://ecoserrano.com.br/mega-estrutura-de-combate-ao-cancer-e-finalizada-no-interior-do-rio-e-promete-ajudar-milhares-de-pacientes/"
+      }
+    ]
+  },
+  "fila-aposentado": {
+    "paragrafos": [
+      "No Censo 2022, 18,8% dos moradores do estado do Rio tinham 60 anos ou mais, atrás só do Rio Grande do Sul. Na capital, a espera por consulta com cirurgião de hérnia subiu de 78 dias em 2024 para cerca de 164 dias em 2026.",
+      "No SUS, consultas simples são das prefeituras. Casos mais complexos vão para a fila do estado, o SER. O estado depende das vagas que cada hospital oferece. A União também troca dívidas de hospitais privados por atendimentos.",
+      "Pagar hospital particular acelera a fila, mas custa caro e exige fiscalização. Centros públicos regionais aproximam o atendimento, mas levam anos para abrir. Mutirões à noite usam salas paradas, mas dependem de equipe extra. Contratar médicos amplia a rede, mas pesa na folha, que tem teto de gastos.",
+      "Pelo Estatuto da Pessoa Idosa, quem tem 60 anos ou mais tem atendimento preferencial. Mantenha o telefone atualizado na clínica: o estado manda lembretes pelo celular."
+    ],
+    "fontes": [
+      {
+        "veiculo": "IBGE",
+        "titulo": "Censo Demográfico 2022: população por idade e sexo, pessoas de 60 anos ou mais de idade",
+        "data": "2023-10-27",
+        "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
+      },
+      {
+        "veiculo": "g1",
+        "titulo": "Idosa espera há 5 anos por cirurgia de hérnia no Rio e descobre que nem entrou na fila do Sisreg",
+        "data": "2026-07-28",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/28/idosa-espera-ha-anos-por-cirurgia-de-hernia-no-rio-e-descobre-que-nem-entrou-na-fila-do-sisreg.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Além da morte na UPA: Rio tem 427 mil pessoas na fila por uma consulta, uma cirurgia ou um exame",
+        "data": "2024-12-17",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/12/17/rio-tem-427-mil-pessoas-na-fila-por-uma-consulta-cirurgia-ou-exame.ghtml"
+      },
+      {
+        "veiculo": "Ministério da Saúde",
+        "titulo": "Primeiro hospital privado do estado do Rio de Janeiro já está realizando cirurgias oncológicas para o SUS pelo Agora Tem Especialistas",
+        "data": "2026-01-05",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/janeiro/primeiro-hospital-privado-do-estado-do-rio-de-janeiro-ja-esta-realizando-cirurgias-oncologicas-em-pacientes-do-sus-pelo-agora-tem-especialistas"
+      },
+      {
+        "veiculo": "Extra",
+        "titulo": "Governo estadual do Rio adere ao Propag: como isso afeta o servidor?",
+        "data": "2026-06-22",
+        "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/06/governo-do-rio-adere-ao-propag-como-isso-afeta-o-servidor.ghtml"
+      },
+      {
+        "veiculo": "SBT News",
+        "titulo": "Tecnologia ajuda a reduzir filas na rede pública de saúde do Rio de Janeiro",
+        "data": "2025-11-13",
+        "url": "https://sbtnews.sbt.com.br/noticia/saude/tecnologia-ajuda-a-reduzir-filas-na-rede-publica-de-saude-do-rio-de-janeiro"
+      },
+      {
+        "veiculo": "Planalto (Presidência da República)",
+        "titulo": "Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa)",
+        "data": "2003-10-01",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm"
       }
     ]
   },
@@ -485,40 +663,6 @@
       }
     ]
   },
-  "correria-praia": {
-    "paragrafos": [
-      "No verão 2025/2026, a PM escalou 1.380 policiais por dia, com foco na orla e nas vias até as praias. A prefeitura somou cerca de mil agentes municipais na operação.",
-      "O policiamento de rua é da PM, do estado. A guarda municipal cuida da ordem urbana. Desde 2025, ela pode patrulhar, se a cidade aprovar lei. Em 2024, a PM tinha déficit de 17 mil policiais.",
-      "Mais PM fixo na orla dá presença visível, mas tira efetivo de outros bairros. Guarda armada soma gente, mas depende da prefeitura e de treino. Retomar áreas de facções ataca a origem do crime, mas o efeito na praia é indireto. Câmeras vigiam o dia todo, mas custam caro e levantam dúvidas sobre privacidade.",
-      "Na praia, combine um ponto de encontro com a família. Crianças podem usar pulseira de identificação, distribuída na orla."
-    ],
-    "fontes": [
-      {
-        "veiculo": "g1",
-        "titulo": "Operação Verão no Rio: PM e Seop antecipam ações",
-        "data": "2025-09-05",
-        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/09/05/pm-e-seop-operacao-verao-na-orla-do-rio.ghtml"
-      },
-      {
-        "veiculo": "STF",
-        "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
-        "data": "2025-02-20",
-        "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
-      },
-      {
-        "veiculo": "O Globo",
-        "titulo": "PM do Rio tem déficit de 17 mil militares e só metade do efetivo atua no policiamento",
-        "data": "2024-04-28",
-        "url": "https://oglobo.globo.com/rio/noticia/2024/04/28/pm-do-rio-tem-deficit-de-17-mil-militares-e-so-metade-do-efetivo-atua-no-policiamento.ghtml"
-      },
-      {
-        "veiculo": "O Globo",
-        "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
-        "data": "2026-01-27",
-        "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
-      }
-    ]
-  },
   "medida-protetiva": {
     "paragrafos": [
       "Em 2025, o estado teve 5.870 descumprimentos de medidas protetivas, o maior número desde 2018. Houve 105 feminicídios. Das vítimas, 77,1% não tinham medida protetiva.",
@@ -581,25 +725,37 @@
       }
     ]
   },
-  "encosta-serra": {
+  "chuva-interior": {
     "paragrafos": [
-      "Cerca de 925 mil pessoas moram em áreas de risco de enchente ou deslizamento no estado, segundo o Cemaden. Na serra, rachadura nova em encosta é sinal de alerta.",
-      "Conter encostas envolve prefeitura e estado. A Defesa Civil municipal vistoria e interdita casas. Os rios são do estado, pelo Inea, que também faz a limpeza de calhas.",
+      "Em fevereiro de 2026, as chuvas afetaram 2.600 pessoas em Itaperuna, com 315 desalojados. No fim do mês, os rios Pomba e Muriaé passaram da cota de transbordo. Deslizamentos fecharam trechos de estradas estaduais, como a RJ-192 e a RJ-230.",
+      "Conter encostas envolve prefeitura e estado. A Defesa Civil municipal vistoria e interdita casas. Rios que ficam só no estado são do Inea. Os que vêm de Minas, como o Pomba e o Muriaé, são da União.",
       "Obras grandes de drenagem e contenção atacam a causa, mas custam bilhões e levam anos. Limpar canais todo ano é mais rápido, mas o lixo volta sem coleta. Alertas no celular salvam vidas, mas não evitam perdas materiais. Reassentar famílias tira gente do risco, mas exige moradia perto e aceitação.",
-      "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro. Viu rachadura nova? Chame a Defesa Civil."
+      "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro. Viu rachadura nova no morro? Chame a Defesa Civil."
     ],
     "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Chuvas afetam quase 3 mil pessoas no Norte e Noroeste Fluminense; Itaperuna tem 315 desalojados e 9 desabrigados",
+        "data": "2026-02-07",
+        "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/02/07/chuvas-afetam-quase-3-mil-pessoas-no-norte-e-noroeste-fluminense-itaperuna-tem-315-desalojados-e-9-desabrigados.ghtml"
+      },
+      {
+        "veiculo": "CamposRJ",
+        "titulo": "Rios do Noroeste Fluminense voltam a subir, transbordam e preocupam população",
+        "data": "2026-02-28",
+        "url": "https://camposrj.com.br/rios-do-noroeste-fluminense-voltam-a-subir-transbordam-e-preocupam-populacao/"
+      },
+      {
+        "veiculo": "NF10",
+        "titulo": "Chuvas elevam rios e colocam cidades do Norte Fluminense em alerta",
+        "data": "2026-02-27",
+        "url": "https://nf10.com.br/chuvas-elevam-rios-e-colocam-cidades-do-norte-fluminense-em-alerta/"
+      },
       {
         "veiculo": "g1 (dados do Cemaden)",
         "titulo": "RJ tem 925 mil pessoas vivendo em áreas de risco de enchentes ou deslizamentos, diz estudo",
         "data": "2022-02-25",
         "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2022/02/25/rj-tem-925-mil-pessoas-vivendo-em-areas-de-risco-de-enchentes-ou-deslizamentos-diz-estudo.ghtml"
-      },
-      {
-        "veiculo": "g1",
-        "titulo": "Obras contra enchentes na Baixada só devem começar no fim de 2026",
-        "data": "2026-03-04",
-        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/03/04/obras-de-projeto-contra-enchentes-na-baixada-fluminense-mp.ghtml"
       },
       {
         "veiculo": "Ministério das Comunicações",
@@ -786,6 +942,40 @@
         "titulo": "Auditoria do TCE aponta descontrole na concessão de benefícios fiscais pelo Governo do Estado",
         "data": "2024-06-13",
         "url": "https://agendadopoder.com.br/auditoria-do-tce-aponta-descontrole-na-concessao-de-beneficios-fiscais-pelo-governo-do-estado/"
+      }
+    ]
+  },
+  "correria-praia": {
+    "paragrafos": [
+      "No verão 2025/2026, a PM escalou 1.380 policiais por dia, com foco na orla e nas vias até as praias. A prefeitura somou cerca de mil agentes municipais na operação.",
+      "O policiamento de rua é da PM, do estado. A guarda municipal cuida da ordem urbana. Desde 2025, ela pode patrulhar, se a cidade aprovar lei. Em 2024, a PM tinha déficit de 17 mil policiais.",
+      "Mais PM fixo na orla dá presença visível, mas tira efetivo de outros bairros. Guarda armada soma gente, mas depende da prefeitura e de treino. Retomar áreas de facções ataca a origem do crime, mas o efeito na praia é indireto. Câmeras vigiam o dia todo, mas custam caro e levantam dúvidas sobre privacidade.",
+      "Na praia, combine um ponto de encontro com a família. Crianças podem usar pulseira de identificação, distribuída na orla."
+    ],
+    "fontes": [
+      {
+        "veiculo": "g1",
+        "titulo": "Operação Verão no Rio: PM e Seop antecipam ações",
+        "data": "2025-09-05",
+        "url": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2025/09/05/pm-e-seop-operacao-verao-na-orla-do-rio.ghtml"
+      },
+      {
+        "veiculo": "STF",
+        "titulo": "Guardas municipais podem fazer policiamento urbano, decide STF",
+        "data": "2025-02-20",
+        "url": "https://noticias.stf.jus.br/postsnoticias/guardas-municipais-podem-fazer-policiamento-urbano-decide-stf/"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "PM do Rio tem déficit de 17 mil militares e só metade do efetivo atua no policiamento",
+        "data": "2024-04-28",
+        "url": "https://oglobo.globo.com/rio/noticia/2024/04/28/pm-do-rio-tem-deficit-de-17-mil-militares-e-so-metade-do-efetivo-atua-no-policiamento.ghtml"
+      },
+      {
+        "veiculo": "O Globo",
+        "titulo": "Cerco digital: até 2028, centro de monitoramento terá acesso a imagens de mais de 245 mil câmeras em todo o Estado do Rio",
+        "data": "2026-01-27",
+        "url": "https://oglobo.globo.com/rio/noticia/2026/01/27/cerco-digital-ate-2028-centro-de-monitoramento-tera-acesso-a-imagens-de-mais-de-245-mil-cameras-em-todo-o-estado-do-rio.ghtml"
       }
     ]
   },

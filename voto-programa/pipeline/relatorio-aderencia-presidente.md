@@ -6,7 +6,7 @@
 |---|---|---|
 | a: Acabar com a escala 6x1: 40 horas por semana, sem cortar salário. | 20 (p44, p156, p157, p128): Não declara voto na PEC do fim da 6x1, diz que votará na proposta do seu grupo e defende jornada escolhida pelo trabalhador com remuneração por hora. | 95 (p16, p141): Afirma que atuará no Senado pelo fim da escala 6x1 e pela jornada de 40 horas sem redução salarial. |
 | b: Poder combinar a minha jornada direto com a empresa. | 95 (p43, p44, p128, p156): Defende o negociado sobre o legislado e liberdade para o trabalhador escolher a própria escala e quantas horas trabalhar. | 15 (p19, p16): Propõe alterar regras trabalhistas associadas à precarização e defende jornada legal de 40 horas. |
-| c: Rever pontos da reforma trabalhista e da terceirização. | 10 (p43, p128): Defende o negociado sobre o legislado e critica reabrir pontos já pacificados pela reforma trabalhista. | 95 (p19): Propõe alterar regras da legislação trabalhista que induzem precarização e terceirizações fraudulentas. |
+| c: Mudar partes da reforma trabalhista e da lei da terceirização. | 10 (p43, p128): Defende o negociado sobre o legislado e critica reabrir pontos já pacificados pela reforma trabalhista. | 95 (p19): Propõe alterar regras da legislação trabalhista que induzem precarização e terceirizações fraudulentas. |
 | d: Menos imposto na carteira, pra empresa contratar mais gente. | 95 (p40, p41, p42): Propõe reduzir gradualmente o custo do trabalho formal e contratos com menor custo na folha para grupos específicos. | sem dado |
 
 ## custo-contratar: discriminação 75, opções com evidência de um só candidato: 1
@@ -26,6 +26,15 @@
 | b: Previdência pra quem trabalha em app, sem sindicato no meio. | 95 (p45): Propõe proteção social e previdenciária para trabalhadores de app sem protagonismo de dirigentes sindicais. | 65 (p59): Propõe incluir a previdência na regulação do trabalho por plataformas, dentro de um sistema de regras trabalhistas. |
 | c: Contribuir pro INSS de um jeito mais flexível, quando der. | 60 (p45): Promete proteção previdenciária a trabalhadores de app, sem detalhar a forma de contribuição. | 95 (p58, p59, p118): Propõe mecanismos contributivos mais flexíveis para trajetórias de trabalho descontínuas. |
 | d: Deixar como está, sem lei nova sobre trabalho por app. | 50 (p45): Promete manter as oportunidades do trabalho por aplicativo, mas também proteção social e previdenciária a esses trabalhadores. | 5 (p17, p59): Propõe um sistema de regras para o trabalho por plataformas, com relação de trabalho, remuneração e direitos. |
+
+## conta-propria: discriminação 85, opções com evidência de um só candidato: 1
+
+| opção | flavio-bolsonaro | lula |
+|---|---|---|
+| a: Acabar com a escala 6x1: 40 horas por semana, sem cortar salário. | 20 (p44, p156, p157, p128): Não declara voto na PEC do fim da 6x1, diz que votará na proposta do seu grupo e defende jornada escolhida pelo trabalhador com remuneração por hora. | 95 (p16, p141): Afirma que atuará no Senado pelo fim da escala 6x1 e pela jornada de 40 horas sem redução salarial. |
+| b: Poder combinar a minha jornada direto com a empresa. | 95 (p43, p44, p128, p156): Defende o negociado sobre o legislado e liberdade para o trabalhador escolher a própria escala e quantas horas trabalhar. | 15 (p19, p16): Propõe alterar regras trabalhistas associadas à precarização e defende jornada legal de 40 horas. |
+| c: Mudar partes da reforma trabalhista e da lei da terceirização. | 10 (p43, p128): Defende o negociado sobre o legislado e critica reabrir pontos já pacificados pela reforma trabalhista. | 95 (p19): Propõe alterar regras da legislação trabalhista que induzem precarização e terceirizações fraudulentas. |
+| d: Menos imposto na carteira, pra empresa contratar mais gente. | 95 (p40, p41, p42): Propõe reduzir gradualmente o custo do trabalho formal e contratos com menor custo na folha para grupos específicos. | sem dado |
 
 ## salario-minimo: discriminação 50, opções com evidência de um só candidato: 1
 
@@ -59,7 +68,16 @@
 | opção | flavio-bolsonaro | lula |
 |---|---|---|
 | a: Governo paga hospital particular pra fazer exame e cirurgia do SUS. | 95 (p62): Propõe contratar serviços e exames da rede privada em horários ociosos. | 85 (p30): Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS. |
-| b: Fila única pela internet, organizada por gravidade. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
+| b: Fila única pela internet, com quem está mais grave na frente. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
+| c: Mutirão e atendimento à noite pra consulta, exame e cirurgia. | 50 (p69): Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões. | 95 (p29): Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias. |
+| d: Aumentar o que o SUS paga a hospitais e clínicas. | 95 (p59): Propõe garantir condições para a correção efetiva da tabela SUS. | sem dado |
+
+## fila-aposentado: discriminação 45, opções com evidência de um só candidato: 1
+
+| opção | flavio-bolsonaro | lula |
+|---|---|---|
+| a: Governo paga hospital particular pra fazer exame e cirurgia do SUS. | 95 (p62): Propõe contratar serviços e exames da rede privada em horários ociosos. | 85 (p30): Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS. |
+| b: Fila única pela internet, com quem está mais grave na frente. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
 | c: Mutirão e atendimento à noite pra consulta, exame e cirurgia. | 50 (p69): Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões. | 95 (p29): Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias. |
 | d: Aumentar o que o SUS paga a hospitais e clínicas. | 95 (p59): Propõe garantir condições para a correção efetiva da tabela SUS. | sem dado |
 
@@ -68,7 +86,7 @@
 | opção | flavio-bolsonaro | lula |
 |---|---|---|
 | a: Governo paga hospital particular pra fazer exame e cirurgia do SUS. | 95 (p62): Propõe contratar serviços e exames da rede privada em horários ociosos. | 85 (p30): Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS. |
-| b: Fila única pela internet, organizada por gravidade. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
+| b: Fila única pela internet, com quem está mais grave na frente. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
 | c: Mutirão e atendimento à noite pra consulta, exame e cirurgia. | 50 (p69): Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões. | 95 (p29): Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias. |
 | d: Aumentar o que o SUS paga a hospitais e clínicas. | 95 (p59): Propõe garantir condições para a correção efetiva da tabela SUS. | sem dado |
 
@@ -77,7 +95,7 @@
 | opção | flavio-bolsonaro | lula |
 |---|---|---|
 | a: Governo paga hospital particular pra fazer exame e cirurgia do SUS. | 95 (p62): Propõe contratar serviços e exames da rede privada em horários ociosos. | 85 (p30): Propõe continuar a parceria com hospitais privados para exames e cirurgias do SUS. |
-| b: Fila única pela internet, organizada por gravidade. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
+| b: Fila única pela internet, com quem está mais grave na frente. | 75 (p61): Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade. | 95 (p31, p124): Propõe fila única digital da atenção especializada, ordenada por risco clínico. |
 | c: Mutirão e atendimento à noite pra consulta, exame e cirurgia. | 50 (p69): Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões. | 95 (p29): Propõe expandir o terceiro turno, as carretas e os mutirões de consultas, exames e cirurgias. |
 | d: Aumentar o que o SUS paga a hospitais e clínicas. | 95 (p59): Propõe garantir condições para a correção efetiva da tabela SUS. | sem dado |
 
@@ -96,8 +114,8 @@
 |---|---|---|
 | a: Pena mais dura, sem sair antes, pra quem rouba ou revende celular. | 95 (p15): Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende. | 30 (p101, p155): Propõe ampliar o Celular Seguro e o enfrentamento às redes de receptação, sem propor aumento de penas, e diz que quem devolver celular roubado comprado sem saber não será preso. |
 | b: Câmera que reconhece rosto, ligada aos dados da polícia no país todo. | 95 (p12): Propõe o sistema nacional de reconhecimento facial Muralha Brasileira. | sem dado |
-| c: Câmera no uniforme do policial, com padrão nacional. | 15 (p158): Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema. | 95 (p55): Propõe ampliar o incentivo a câmeras corporais com padrões nacionais. |
-| d: Dobrar a Polícia Federal e a Rodoviária Federal. | 55 (p11): Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF. | 95 (p51, p137): Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal. |
+| c: Câmera no uniforme do policial, com regras iguais no país todo. | 15 (p158): Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema. | 95 (p55): Propõe ampliar o incentivo a câmeras corporais com padrões nacionais. |
+| d: Dobrar o número de policiais federais e rodoviários federais. | 55 (p11): Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF. | 95 (p51, p137): Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal. |
 
 ## celular-sinal: discriminação 80, opções com evidência de um só candidato: 1
 
@@ -105,17 +123,26 @@
 |---|---|---|
 | a: Pena mais dura, sem sair antes, pra quem rouba ou revende celular. | 95 (p15): Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende. | 30 (p101, p155): Propõe ampliar o Celular Seguro e o enfrentamento às redes de receptação, sem propor aumento de penas, e diz que quem devolver celular roubado comprado sem saber não será preso. |
 | b: Câmera que reconhece rosto, ligada aos dados da polícia no país todo. | 95 (p12): Propõe o sistema nacional de reconhecimento facial Muralha Brasileira. | sem dado |
-| c: Câmera no uniforme do policial, com padrão nacional. | 15 (p158): Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema. | 95 (p55): Propõe ampliar o incentivo a câmeras corporais com padrões nacionais. |
-| d: Dobrar a Polícia Federal e a Rodoviária Federal. | 55 (p11): Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF. | 95 (p51, p137): Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal. |
+| c: Câmera no uniforme do policial, com regras iguais no país todo. | 15 (p158): Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema. | 95 (p55): Propõe ampliar o incentivo a câmeras corporais com padrões nacionais. |
+| d: Dobrar o número de policiais federais e rodoviários federais. | 55 (p11): Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF. | 95 (p51, p137): Declara querer dobrar o efetivo da Polícia Federal e da Polícia Rodoviária Federal. |
 
 ## largar-escola: discriminação 90, opções com evidência de um só candidato: 1
 
 | opção | flavio-bolsonaro | lula |
 |---|---|---|
 | a: Uma poupança mensal pra todo aluno do ensino médio público. | sem dado | 55 (p40, p126): O site de campanha promete o Pé-de-Meia para todos os alunos do ensino médio público, mas o plano registrado propõe manter o programa com foco em jovens em situação de pobreza ou vulnerabilidade; as duas posições divergem. |
-| b: Curso técnico no ensino médio, pra sair com profissão. | 95 (p76, p132): Propõe ampliar a educação técnica no ensino médio, em parceria com o setor produtivo. | 80 (p43, p129): Propõe novos Institutos Federais com cursos técnicos. |
+| b: Mais curso técnico dentro do ensino médio. | 95 (p76, p132): Propõe ampliar a educação técnica no ensino médio, em parceria com o setor produtivo. | 80 (p43, p129): Propõe novos Institutos Federais com cursos técnicos. |
 | c: Escola cívico-militar, com mais disciplina. | 95 (p74): Propõe ampliar as escolas cívico-militares. | 5 (p146): Afirma que a educação pública não precisa de escolas cívico-militares. |
-| d: Escola em tempo integral em toda a rede pública. | 65 (p130): Declara apoio à escola em tempo integral, sem meta de cobertura da rede pública. | 95 (p39, p127, p139): Propõe escola em tempo integral em toda a rede pública. |
+| d: Escola o dia inteiro, em toda escola pública. | 65 (p130): Declara apoio à escola em tempo integral, sem meta de cobertura da rede pública. | 95 (p39, p127, p139): Propõe escola em tempo integral em toda a rede pública. |
+
+## neto-escola: discriminação 90, opções com evidência de um só candidato: 1
+
+| opção | flavio-bolsonaro | lula |
+|---|---|---|
+| a: Uma poupança mensal pra todo aluno do ensino médio público. | sem dado | 55 (p40, p126): O site de campanha promete o Pé-de-Meia para todos os alunos do ensino médio público, mas o plano registrado propõe manter o programa com foco em jovens em situação de pobreza ou vulnerabilidade; as duas posições divergem. |
+| b: Mais curso técnico dentro do ensino médio. | 95 (p76, p132): Propõe ampliar a educação técnica no ensino médio, em parceria com o setor produtivo. | 80 (p43, p129): Propõe novos Institutos Federais com cursos técnicos. |
+| c: Escola cívico-militar, com mais disciplina. | 95 (p74): Propõe ampliar as escolas cívico-militares. | 5 (p146): Afirma que a educação pública não precisa de escolas cívico-militares. |
+| d: Escola o dia inteiro, em toda escola pública. | 65 (p130): Declara apoio à escola em tempo integral, sem meta de cobertura da rede pública. | 95 (p39, p127, p139): Propõe escola em tempo integral em toda a rede pública. |
 
 ## pagar-faculdade: discriminação 65, opções com evidência de um só candidato: 2
 
@@ -132,7 +159,7 @@
 |---|---|---|
 | a: Petrobras voltar a vender combustível aos postos e refinar mais. | 45 (p93, p139, p112, p162): Propõe estimular a modernização do refino, mas não dá papel à Petrobras na distribuição e admite privatizar partes da estatal, primeiro sem prazo e depois talvez no primeiro ano. | 95 (p88): Defende que a Petrobras volte à distribuição de combustíveis e amplie o refino. |
 | b: Baixar as taxas extras da conta de luz e imposto de energia. | 95 (p94): Propõe reduzir a CDE e os subsídios na conta de luz e os impostos sobre energia. | 45 (p109, p151): Anuncia um debate sobre o barateamento da energia e diz que continuará impedindo que a alta do petróleo chegue aos combustíveis, sem propor reduzir encargos da conta de luz ou tributos. |
-| c: Liberar a extração de gás de xisto, o chamado fracking. | 95 (p93): Propõe permitir a exploração de gás não convencional (fracking). | sem dado |
+| c: Liberar o fracking, que tira gás de dentro da rocha. | 95 (p93): Propõe permitir a exploração de gás não convencional (fracking). | sem dado |
 | d: Construir mais usina hidrelétrica e gerar menos energia com carvão. | sem dado | 95 (p68): Propõe expandir a geração hidrelétrica e acelerar a redução do carvão. |
 
 ## enchente-seca: discriminação 40, opções com evidência de um só candidato: 1
@@ -141,7 +168,7 @@
 |---|---|---|
 | a: Zerar o desmatamento e cortar a poluição que esquenta o planeta. | 55 (p88, p142, p96): Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana. | 95 (p63, p64): Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC. |
 | b: Obras contra enchente e seca, como barragens, diques e reservatórios. | 95 (p102, p144): Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste. | 80 (p104, p105, p106, p107): Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas. |
-| c: Licença ambiental com prazo: se o órgão não decidir, a licença sai. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
+| c: Licença ambiental com prazo: se o governo atrasar, ela sai sozinha. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
 | d: Continuar procurando e tirando petróleo em lugares novos. | 90 (p160, p162, p164): Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer. | 85 (p66, p67, p150): Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial. |
 
 ## enchente-sul: discriminação 40, opções com evidência de um só candidato: 1
@@ -150,7 +177,7 @@
 |---|---|---|
 | a: Zerar o desmatamento e cortar a poluição que esquenta o planeta. | 55 (p88, p142, p96): Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana. | 95 (p63, p64): Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC. |
 | b: Obras contra enchente e seca, como barragens, diques e reservatórios. | 95 (p102, p144): Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste. | 80 (p104, p105, p106, p107): Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas. |
-| c: Licença ambiental com prazo: se o órgão não decidir, a licença sai. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
+| c: Licença ambiental com prazo: se o governo atrasar, ela sai sozinha. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
 | d: Continuar procurando e tirando petróleo em lugares novos. | 90 (p160, p162, p164): Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer. | 85 (p66, p67, p150): Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial. |
 
 ## fumaca-queimada: discriminação 40, opções com evidência de um só candidato: 1
@@ -159,7 +186,7 @@
 |---|---|---|
 | a: Zerar o desmatamento e cortar a poluição que esquenta o planeta. | 55 (p88, p142, p96): Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana. | 95 (p63, p64): Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC. |
 | b: Obras contra enchente e seca, como barragens, diques e reservatórios. | 95 (p102, p144): Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste. | 80 (p104, p105, p106, p107): Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas. |
-| c: Licença ambiental com prazo: se o órgão não decidir, a licença sai. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
+| c: Licença ambiental com prazo: se o governo atrasar, ela sai sozinha. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
 | d: Continuar procurando e tirando petróleo em lugares novos. | 90 (p160, p162, p164): Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer. | 85 (p66, p67, p150): Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial. |
 
 ## seca-nordeste: discriminação 40, opções com evidência de um só candidato: 1
@@ -168,14 +195,14 @@
 |---|---|---|
 | a: Zerar o desmatamento e cortar a poluição que esquenta o planeta. | 55 (p88, p142, p96): Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana. | 95 (p63, p64): Reafirma a meta de desmatamento líquido zero até 2030 e o cumprimento da nova NDC. |
 | b: Obras contra enchente e seca, como barragens, diques e reservatórios. | 95 (p102, p144): Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste. | 80 (p104, p105, p106, p107): Propõe ampliar o investimento em prevenção de desastres e as infraestruturas de segurança hídrica e de proteção contra cheias e enchentes, sem listar obras específicas. |
-| c: Licença ambiental com prazo: se o órgão não decidir, a licença sai. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
+| c: Licença ambiental com prazo: se o governo atrasar, ela sai sozinha. | 95 (p92): Propõe licença concedida quando o órgão ambiental não decidir no prazo. | sem dado |
 | d: Continuar procurando e tirando petróleo em lugares novos. | 90 (p160, p162, p164): Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer. | 85 (p66, p67, p150): Afirma que o país seguirá pesquisando novas reservas de petróleo, como a da margem equatorial. |
 
 ## video-falso: discriminação 90, opções com evidência de um só candidato: 1
 
 | opção | flavio-bolsonaro | lula |
 |---|---|---|
-| a: Criar regras pras redes sociais conterem mentira e discurso de ódio. | 5 (p27, p159): Chama de decreto da censura a norma que ampliou a responsabilização das big techs e propõe acabar com estruturas estatais que rotulem ou punam o que as pessoas dizem. | 95 (p90, p145): Propõe avançar na regulação das redes sociais contra desinformação e discurso de ódio. |
+| a: Criar regras pras redes sociais combaterem mentira e discurso de ódio. | 5 (p27, p159): Chama de decreto da censura a norma que ampliou a responsabilização das big techs e propõe acabar com estruturas estatais que rotulem ou punam o que as pessoas dizem. | 95 (p90, p145): Propõe avançar na regulação das redes sociais contra desinformação e discurso de ódio. |
 | b: Nenhuma regra nova e fim dos órgãos do governo que apontam mentira. | 95 (p27, p28, p159): Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, revogar atos que associa a silenciar críticos e chama de censura a regulação das big techs. | 5 (p90, p145): Propõe regular as plataformas digitais. |
 | c: Regras pra proteger criança nas telas e nos jogos. | sem dado | 95 (p83): Propõe aprimorar o ECA Digital e regulamentar telas por faixa etária e jogos. |
 | d: A Justiça pune quem espalha mentira, sem órgão do governo decidindo. | 70 (p27, p28): Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial. | 35 (p90, p122, p123, p145): Defende que crimes do mundo físico sejam crimes também no ambiente digital, mas propõe regular as plataformas e criar estruturas estatais como um conselho de soberania digital e um centro de transparência algorítmica. |
@@ -186,8 +213,8 @@
 |---|---|---|
 | a: Cortar ministérios, cargos de indicação política e supersalários. | 95 (p106, p168): Propõe cortar no mínimo 10 ministérios, chegando a 26 ou 27, e reduzir cargos comissionados e supersalários. | 20 (p47, p142, p119): Propõe criar o Ministério da Segurança Pública e compartilhar serviços de suporte entre ministérios, sem propor corte de ministérios, cargos ou supersalários. |
 | b: Mudar as regras do dinheiro que deputados e senadores escolhem onde gastar. | 70 (p114): Propõe mais transparência e rastreabilidade às emendas, sem mudar o sistema. | 95 (p85, p86): Propõe enfrentar o atual sistema de emendas parlamentares. |
-| c: Privatizar estatal onde o governo não precisa estar. | 95 (p111, p167): Propõe retomar o programa de desestatização caso a caso e diz que privatizará onde for possível. | 10 (p87, p88): Diz que não considera vender os Correios e defende ampliar a atuação da Petrobras. |
-| d: Manter e recuperar estatais como Correios e Petrobras. | 35 (p112, p162, p111, p167): É contra privatizar a Petrobras como um todo, mas admite vender partes dela, talvez no primeiro ano, e propõe retomar desestatizações. | 95 (p87, p88): Defende recuperar os Correios e ampliar a atuação da Petrobras. |
+| c: Privatizar empresas que o governo não precisa ter. | 95 (p111, p167): Propõe retomar o programa de desestatização caso a caso e diz que privatizará onde for possível. | 10 (p87, p88): Diz que não considera vender os Correios e defende ampliar a atuação da Petrobras. |
+| d: Manter com o governo e recuperar empresas como Correios e Petrobras. | 35 (p112, p162, p111, p167): É contra privatizar a Petrobras como um todo, mas admite vender partes dela, talvez no primeiro ano, e propõe retomar desestatizações. | 95 (p87, p88): Defende recuperar os Correios e ampliar a atuação da Petrobras. |
 
 ## agressor-rondando: discriminação 35, opções com evidência de um só candidato: 0 (cena de consenso: baixa discriminação é esperada)
 

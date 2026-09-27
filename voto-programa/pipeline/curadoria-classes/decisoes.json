@@ -1,0 +1,32 @@
+{
+  "rejeitar_variantes": [
+    {
+      "eleicao": "presidente",
+      "id_novo": "jornada-familia",
+      "motivo": "A padrão escala-6x1 já diz 'Você, ou alguém da sua casa'; a opção b protegida ('a minha jornada') fica torta na voz do avô. O revisor a apontou como a que menos acrescenta."
+    }
+  ],
+  "remover": [
+    {
+      "eleicao": "governador-rj",
+      "pergunta_id": "encosta-serra",
+      "motivo": "Substituída por chuva-interior (rio que transborda e barreira no morro), que cobre todo o interior; aprovada com condições pelo revisor (ilustração remapeada, dica da Defesa Civil no contexto)."
+    }
+  ],
+  "correcoes_manuais": [
+    {
+      "eleicao": "governador-rj",
+      "arquivo": "src/data/contexto.json",
+      "pergunta_id": "passagem-leste",
+      "campo": "fontes",
+      "motivo": "O veredito trouxe a fonte nova como instrução em texto; aplicada à mão como 2ª fonte da lista (g1, 10/02/2026, barca a R$ 5). Aberta pelo revisor; o proxy desta sessão bloqueia g1.globo.com, então não foi reaberta pelo orquestrador."
+    },
+    {
+      "eleicao": "governador-rj",
+      "arquivo": "src/data/contexto.json",
+      "pergunta_id": "barca-leste",
+      "campo": "paragrafos[1], paragrafos[2], fontes",
+      "motivo": "Problema antigo apontado pelo revisor: o texto dizia que o estado já comanda as barcas sem dizer que a operação é privada, o que confundia a opção d (estatizar). Passagem atualizada para R$ 5 (g1 10/02/2026) no lugar da notícia de R$ 4,70 de 2025."
+    }
+  ]
+}

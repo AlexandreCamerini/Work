@@ -23,7 +23,7 @@ export const NOMES: Record<Eleicao, string[]> = {
 
 export const NOME_POR_ID: Record<string, string> = Object.fromEntries([...candidatos, ...candidatosPresidente].map((c) => [c.id, c.nome]))
 
-const QUIZ = { 'governador-rj': quizRJ, presidente: quizPR } as const
+export const QUIZ = { 'governador-rj': quizRJ, presidente: quizPR } as const
 
 /** Cenas que o app deve sortear para este perfil (mesma função do app: src/lib/perfil.ts). */
 export function cenasEsperadas(eleicao: Eleicao, perfil: Partial<Perfil>): string[] {
@@ -76,12 +76,15 @@ export const PERFIS: Record<Eleicao, PerfilNomeado[]> = {
     { nome: 'leste-privado', perfil: { regiao: 'leste', saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 } },
     { nome: 'interior-publico', perfil: { regiao: 'interior', saude: 'sus', escola: 'publica', deslocamento: 'publico', trabalho: 'servidor', banheiros: 1 } },
     { nome: 'capital-app', perfil: { regiao: 'capital', saude: 'plano_empresa', escola: 'nenhuma', deslocamento: 'app', trabalho: 'carteira', banheiros: 2 } },
+    { nome: 'capital-privado', perfil: { regiao: 'capital', saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 } },
+    { nome: 'baixada-aposentado-a-pe', perfil: { regiao: 'baixada', trabalho: 'aposentado', deslocamento: 'a_pe' } },
   ],
   presidente: [
     { nome: 'vazio', perfil: {} },
     { nome: 'nordeste-autonomo', perfil: { regiao: 'nordeste', trabalho: 'autonomo' } },
     { nome: 'norte-privado', perfil: { regiao: 'norte', saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 } },
-    { nome: 'sul-plano', perfil: { regiao: 'sul', saude: 'plano_empresa' } },
+    { nome: 'sul-plano-aplicativo', perfil: { regiao: 'sul', saude: 'plano_empresa', trabalho: 'aplicativo' } },
+    { nome: 'sudeste-aposentado', perfil: { regiao: 'sudeste', trabalho: 'aposentado', escola: 'nenhuma' } },
   ],
 }
 

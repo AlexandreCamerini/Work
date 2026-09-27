@@ -6,6 +6,7 @@ import type { Page } from '@playwright/test'
 import {
   ELEICOES,
   PERFIS,
+  QUIZ,
   avancarBtn,
   avancarCena,
   cartoesOpcao,
@@ -67,6 +68,12 @@ async function inteiroENaFrente(page: Page, m: Medida, rotulo: string) {
 
 for (const eleicao of ELEICOES) {
   test.describe(`${eleicao} · cena`, () => {
+    test('0. os perfis de teste, somados, passam por todas as cenas do quiz', () => {
+      const vistas = new Set(PERFIS[eleicao].flatMap((p) => cenasEsperadas(eleicao, p.perfil)))
+      const todas = QUIZ[eleicao].perguntas.map((p) => p.id)
+      expect(todas.filter((id) => !vistas.has(id))).toEqual([])
+    })
+
     // ---------------------------------------------------------------- critério 1 (A1–A4, A7, A13)
     for (const { nome, perfil } of PERFIS[eleicao]) {
       test(`1. layout estável em todas as cenas · perfil ${nome}`, async ({ page }) => {

@@ -1,5 +1,5 @@
 {
-  "versao": "3.4.0",
+  "versao": "3.5.0",
   "titulo": "Qual proposta combina com o seu dia a dia?",
   "eleicao": "Governador do Rio de Janeiro 2026",
   "descricao": "situações da vida real no estado do Rio: trem parado, fila do posto, rua alagada",
@@ -120,7 +120,7 @@
           "leste"
         ]
       },
-      "cena": "7h em Niterói. A barca atrasou de novo, a fila dobra a estação e a Ponte está parada.",
+      "cena": "7h em Niterói. A barca atrasou de novo, a fila vai até a rua e a Ponte está parada.",
       "pergunta": "O que tirava você desse aperto?",
       "opcoes": [
         {
@@ -140,7 +140,7 @@
         },
         {
           "id": "d",
-          "texto": "O Estado assume a barca e baixa a passagem.",
+          "texto": "Passar a barca pro estado e baixar a passagem.",
           "preferencia": "Estatizar o transporte aquaviário, com tarifa social ou tarifa zero."
         }
       ],
@@ -161,7 +161,7 @@
       },
       "tema": "transporte",
       "cena": "Fim de tarde, Linha Vermelha parada. Dez quilômetros levam quase meia hora, e amanhã tem de novo.",
-      "pergunta": "O que tiraria mais carro da rua?",
+      "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
           "id": "a",
@@ -209,7 +209,7 @@
         },
         {
           "id": "c",
-          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+          "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
           "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
         },
         {
@@ -243,7 +243,7 @@
         },
         {
           "id": "c",
-          "texto": "Tirar o cartão de passagem das empresas e mostrar o custo real.",
+          "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
           "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
         },
         {
@@ -259,15 +259,141 @@
       },
       "publico": {
         "deslocamento": [
-          "carro"
+          "carro",
+          "casa"
+        ],
+        "faixa": [
+          "misto",
+          "privado"
+        ],
+        "regiao": [
+          "capital"
         ]
+      }
+    },
+    {
+      "id": "passagem-moto",
+      "tema": "transporte",
+      "grupo": "passagem-cara",
+      "publico": {
+        "deslocamento": [
+          "moto",
+          "a_pe"
+        ]
+      },
+      "cena": "Você anda de moto, de bicicleta ou a pé. Quando precisa de ônibus, a passagem pesa.",
+      "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "No Brasil, 69,6% de quem deixou de andar de ônibus diz que voltaria se a passagem ficasse mais barata.",
+        "fonte": "CNT, Pesquisa Mobilidade da População Urbana 2024, via Technibus (27/01/2025)",
+        "url": "https://technibus.com.br/2025/01/27/pesquisa-cnt-revela-mudanca-nos-habitos-de-mobilidade"
+      }
+    },
+    {
+      "id": "passagem-interior",
+      "tema": "transporte",
+      "grupo": "passagem-cara",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "No interior, o ônibus pra cidade vizinha pode passar de R$ 20. Quem estuda ou se trata fora paga ida e volta.",
+      "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "Desde fevereiro de 2026, as passagens intermunicipais do interior estão 11,69% mais caras; de Nova Friburgo a Cordeiro, são R$ 20.",
+        "fonte": "A Voz da Serra, 20/02/2026, com dados do Detro",
+        "url": "https://avozdaserra.com.br/noticias/onibus-intermunicipais-passagens-ja-estao-quase-12-mais-caras"
+      }
+    },
+    {
+      "id": "passagem-leste",
+      "tema": "transporte",
+      "grupo": "passagem-cara",
+      "publico": {
+        "regiao": [
+          "leste"
+        ]
+      },
+      "cena": "De São Gonçalo a Niterói, o ônibus custa R$ 7,10. Quem segue pro Rio ainda paga a barca, todo dia.",
+      "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga parte da passagem do ônibus entre cidades, pra todos.",
+          "preferencia": "Subsídio estadual amplo ao ônibus intermunicipal para reduzir as passagens de todos os usuários."
+        },
+        {
+          "id": "b",
+          "texto": "Desconto só pra quem ganha pouco, sem estourar as contas do estado.",
+          "preferencia": "Tarifa social focalizada na população de baixa renda, com responsabilidade fiscal."
+        },
+        {
+          "id": "c",
+          "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real.",
+          "preferencia": "Retirar a bilhetagem eletrônica do controle das empresas de ônibus e dar transparência ao custo das tarifas."
+        },
+        {
+          "id": "d",
+          "texto": "Mais dinheiro do estado pra baixar a passagem do metrô.",
+          "preferencia": "Ampliar subsídio estadual para reduzir a tarifa do metrô."
+        }
+      ],
+      "fato": {
+        "texto": "Desde fevereiro de 2026, a maior parte dos ônibus entre São Gonçalo e Niterói custa R$ 7,10, depois de reajuste de 12,61%.",
+        "fonte": "Tempo Real RJ, 13/02/2026, com dados do Detro",
+        "url": "https://temporealrj.com/passagens-onibus-intermunicipais-mais-caras-domingo/"
       }
     },
     {
       "id": "fila-especialista",
       "grupo": "fila-especialista",
       "tema": "saude",
-      "cena": "Sua mãe tá há mais de 5 meses na fila pra consultar com especialista.",
+      "cena": "Sua mãe, ou alguém da família, tá há mais de 5 meses na fila pra consultar com especialista.",
       "pergunta": "O que resolvia mais rápido?",
       "opcoes": [
         {
@@ -316,7 +442,7 @@
         },
         {
           "id": "b",
-          "texto": "Centro de câncer e de exames complexos em cada região.",
+          "texto": "Centro de câncer e de exames mais complicados em cada região.",
           "preferencia": "Criar polos regionais de oncologia e de diagnóstico de alta complexidade no interior."
         },
         {
@@ -334,6 +460,45 @@
         "texto": "Nova Friburgo ampliou de 12 para 15 as vans que levam pacientes do SUS para tratamento em outras cidades, como quimioterapia e radioterapia.",
         "fonte": "A Voz da Serra, 31/08/2026",
         "url": "https://avozdaserra.com.br/noticias/nova-frota-de-vans-para-o-transporte-de-pacientes-do-sus"
+      }
+    },
+    {
+      "id": "fila-aposentado",
+      "tema": "saude",
+      "grupo": "fila-especialista",
+      "publico": {
+        "trabalho": [
+          "aposentado"
+        ]
+      },
+      "cena": "Você já se aposentou e precisa de um especialista. No SUS, a espera passa de 5 meses, e plano na sua idade custa caro.",
+      "pergunta": "O que resolvia mais rápido?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Estado paga hospital particular pra atender quem tá na fila.",
+          "preferencia": "Comprar serviços da rede privada para reduzir filas de consultas e cirurgias."
+        },
+        {
+          "id": "b",
+          "texto": "Centro público de médico especialista em cada região do estado.",
+          "preferencia": "Criar centros públicos regionais de especialidades médicas em todas as regiões do estado."
+        },
+        {
+          "id": "c",
+          "texto": "Mutirão fixo de cirurgia, à noite e no fim de semana.",
+          "preferencia": "Mutirão permanente de cirurgias eletivas com centros cirúrgicos funcionando à noite e nos fins de semana."
+        },
+        {
+          "id": "d",
+          "texto": "Contratar mais médico e especialista pro estado.",
+          "preferencia": "Contratar mais médicos e especialistas para a rede estadual."
+        }
+      ],
+      "fato": {
+        "texto": "No estado do Rio, 18,8% dos moradores têm 60 anos ou mais, a 2ª maior fatia do país, atrás só do Rio Grande do Sul.",
+        "fonte": "IBGE, Censo Demográfico 2022",
+        "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102038.pdf"
       }
     },
     {
@@ -400,7 +565,7 @@
         },
         {
           "id": "d",
-          "texto": "Curso técnico já no ensino médio.",
+          "texto": "Levar curso técnico pra dentro da escola, no ensino médio.",
           "preferencia": "Levar ensino técnico e profissionalizante para o ensino médio estadual."
         }
       ],
@@ -425,7 +590,7 @@
       },
       "tema": "educacao",
       "cena": "Na empresa onde você trabalha, a vaga de técnico fica meses aberta porque não aparece gente formada.",
-      "pergunta": "O que a escola estadual devia fazer primeiro?",
+      "pergunta": "O que o estado devia fazer primeiro?",
       "opcoes": [
         {
           "id": "a",
@@ -439,7 +604,7 @@
         },
         {
           "id": "c",
-          "texto": "Programa de primeiro emprego com incentivo pra contratar jovem.",
+          "texto": "Primeiro emprego, com incentivo pra empresa contratar jovem.",
           "preferencia": "Programa estadual de primeiro emprego com aprendizagem e incentivo à contratação."
         },
         {
@@ -458,7 +623,7 @@
       "id": "operacao-policial",
       "grupo": "operacao-policial",
       "tema": "seguranca",
-      "cena": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo checando o app antes de sair.",
+      "cena": "Deu no grupo do bairro: operação policial. Escola fechada, ônibus parado, e todo mundo vendo no celular se dá pra sair.",
       "pergunta": "Pra você, uma operação policial deu certo quando…",
       "opcoes": [
         {
@@ -495,6 +660,11 @@
         "deslocamento": [
           "carro",
           "app"
+        ],
+        "regiao": [
+          "capital",
+          "baixada",
+          "leste"
         ]
       },
       "tema": "seguranca",
@@ -533,7 +703,7 @@
       "grupo": "celular-roubado",
       "tema": "seguranca",
       "cena": "Levaram seu celular no ponto de ônibus. É a terceira vez que acontece com alguém da família este ano.",
-      "pergunta": "O que você queria ver na sua rua?",
+      "pergunta": "O que funcionaria melhor?",
       "opcoes": [
         {
           "id": "a",
@@ -547,7 +717,7 @@
         },
         {
           "id": "c",
-          "texto": "Ir atrás de quem compra celular roubado.",
+          "texto": "Investigação permanente contra quem compra celular roubado.",
           "preferencia": "Investigação permanente para desarticular a receptação de celulares roubados."
         },
         {
@@ -606,7 +776,7 @@
       "grupo": "medida-protetiva",
       "tema": "mulheres",
       "consenso": true,
-      "cena": "Sua vizinha tem medida protetiva, mas o ex continua rondando a casa dela.",
+      "cena": "Sua vizinha tem medida protetiva: a Justiça mandou o ex ficar longe. Mas ele continua rondando a casa dela.",
       "pergunta": "O que protegeria ela de verdade?",
       "opcoes": [
         {
@@ -660,7 +830,7 @@
         },
         {
           "id": "d",
-          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "texto": "Levar as famílias da área de risco pra casa popular perto dali.",
           "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
         }
       ],
@@ -671,10 +841,15 @@
       }
     },
     {
-      "id": "encosta-serra",
-      "grupo": "rua-alagada",
+      "id": "chuva-interior",
       "tema": "agua-chuva",
-      "cena": "Choveu três dias seguidos na serra, e apareceu uma rachadura na encosta atrás da sua rua.",
+      "grupo": "rua-alagada",
+      "publico": {
+        "regiao": [
+          "interior"
+        ]
+      },
+      "cena": "Três dias de chuva no interior: o rio subiu, a água entrou nas casas e caiu barreira no morro.",
       "pergunta": "O que devia vir primeiro?",
       "opcoes": [
         {
@@ -684,7 +859,7 @@
         },
         {
           "id": "b",
-          "texto": "Limpar os canais todo ano, com calendário publicado.",
+          "texto": "Limpar os canais e valões todo ano, com calendário publicado.",
           "preferencia": "Cronograma anual e público de limpeza e desobstrução de canais."
         },
         {
@@ -694,19 +869,14 @@
         },
         {
           "id": "d",
-          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "texto": "Levar as famílias da área de risco pra casa popular perto dali.",
           "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
         }
       ],
       "fato": {
-        "texto": "Em fevereiro de 2026, caíram 100 mm de chuva em menos de 1 hora em São João de Meriti, e 600 pessoas ficaram desalojadas.",
-        "fonte": "g1 / Jornal Nacional",
-        "url": "https://g1.globo.com/jornal-nacional/noticia/2026/02/24/em-sao-joao-de-meriti-na-baixada-fluminense-uma-pessoa-morre-e-600-ficam-desalojadas-por-causa-de-alagamentos.ghtml"
-      },
-      "publico": {
-        "regiao": [
-          "interior"
-        ]
+        "texto": "Em fevereiro de 2026, as chuvas deixaram 2.600 pessoas afetadas e 315 desalojadas só em Itaperuna, no Noroeste Fluminense.",
+        "fonte": "g1, 07/02/2026, com dados da Defesa Civil",
+        "url": "https://g1.globo.com/rj/norte-fluminense/noticia/2026/02/07/chuvas-afetam-quase-3-mil-pessoas-no-norte-e-noroeste-fluminense-itaperuna-tem-315-desalojados-e-9-desabrigados.ghtml"
       }
     },
     {
@@ -733,7 +903,7 @@
         },
         {
           "id": "d",
-          "texto": "Tirar as famílias da área de risco, com moradia digna perto dali.",
+          "texto": "Levar as famílias da área de risco pra casa popular perto dali.",
           "preferencia": "Reassentar famílias de áreas de risco em habitação de interesse social próxima."
         }
       ],
@@ -757,7 +927,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Rever o aumento da conta, que tá pesando no bolso.",
+          "texto": "Rever os aumentos da conta de água e esgoto.",
           "preferencia": "Revisar os aumentos de tarifa da concessão de água e esgoto."
         },
         {
@@ -791,7 +961,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Rever o aumento da conta, que tá pesando no bolso.",
+          "texto": "Rever os aumentos da conta de água e esgoto.",
           "preferencia": "Revisar os aumentos de tarifa da concessão de água e esgoto."
         },
         {
@@ -830,7 +1000,7 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Programa de primeiro emprego com curso técnico.",
+          "texto": "Primeiro emprego, com curso técnico e incentivo pra empresa contratar.",
           "preferencia": "Programa estadual de primeiro emprego com aprendizagem técnica e incentivo à contratação."
         },
         {
@@ -840,7 +1010,7 @@
         },
         {
           "id": "c",
-          "texto": "Deixar o emprego com as empresas; o estado investe em segurança.",
+          "texto": "Deixar a criação de emprego com as empresas e investir em segurança.",
           "preferencia": "Limitar o papel do Estado na geração de emprego, deixando-a ao setor privado, e concentrar o investimento público em segurança."
         },
         {
@@ -918,12 +1088,12 @@
         },
         {
           "id": "c",
-          "texto": "Regras estáveis e menos burocracia, sem mudar o jogo toda hora.",
+          "texto": "Menos burocracia e regras que não mudam toda hora.",
           "preferencia": "Previsibilidade regulatória, regras estáveis e redução de burocracia para investidores."
         },
         {
           "id": "d",
-          "texto": "Desconto de imposto só pra quem cria emprego; se não criar, devolve.",
+          "texto": "Desconto de imposto só pra quem criar emprego. Se não criar, devolve.",
           "preferencia": "Incentivos fiscais condicionados a contrapartidas de emprego, com devolução em caso de descumprimento."
         }
       ],
@@ -982,12 +1152,12 @@
       "opcoes": [
         {
           "id": "a",
-          "texto": "Teto: o gasto do governo só cresce se o que entra crescer.",
+          "texto": "Pôr teto no gasto: só cresce se o dinheiro que entra crescer.",
           "preferencia": "Teto de gastos estadual vinculando o crescimento da despesa ao da receita."
         },
         {
           "id": "b",
-          "texto": "Conferir todo contrato e criar órgão pra vigiar quem ganha cargo.",
+          "texto": "Conferir todo contrato e criar secretaria pra vigiar quem ganha cargo.",
           "preferencia": "Auditorias em todos os contratos e secretaria de integridade para fiscalizar nomeados."
         },
         {

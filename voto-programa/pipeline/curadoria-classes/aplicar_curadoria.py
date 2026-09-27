@@ -8,7 +8,7 @@ Entradas (pipeline/curadoria-classes/):
   variantes-novas.json     variantes novas que REUSAM as preferências de uma pergunta de origem
   veredito.json            veredito do revisor independente (aprovar | ajustar | rejeitar)
   decisoes.json            decisões do orquestrador por cima do veredito (opcional): textos_extras,
-                           ajustes_publico_extras, ignorar_ajustes_publico, remover
+                           ajustes_publico_extras, ignorar_ajustes_publico, rejeitar_variantes, remover
 
 Garantias (aborta sem gravar se falhar):
   - troca de texto só se o texto atual == "antes" (ou já == "depois": idempotente);
@@ -64,18 +64,20 @@ def aprovados(propostas: list, vereditos: list, campos: tuple[str, ...]) -> list
         if v["veredito"] == "rejeitar":
             continue
         p = copy.deepcopy(p)
-        if v["veredito"] == "ajustar":
-            if v.get("depois_corrigido"):
-                p["depois"] = v["depois_corrigido"]
-            for caminho, valor in (v.get("correcoes") or {}).items():
-                definir(p, caminho, valor)
+        # correções valem também em "aprovar" (ex.: propagar um texto que o letramento trocou)
+        if v.get("depois_corrigido"):
+            p["depois"] = v["depois_corrigido"]
+        if v.get("publico_corrigido"):
+            p["publico_depois"] = v["publico_corrigido"]
+        for caminho, valor in (v.get("correcoes") or {}).items():
+            definir(p, caminho, valor)
         saida.append(p)
     return saida
 
 
 def definir(obj: dict, caminho: str, valor) -> None:
-    """'cena' | 'publico' | 'opcoes.a.texto' | 'fato.url' | 'contexto.paragrafos.0'."""
-    partes = caminho.split(".")
+    """'cena' | 'publico' | 'opcoes.a.texto' | 'fato.url' | 'contexto.paragrafos[0]' (ou .0)."""
+    partes = caminho.replace("[", ".").replace("]", "").split(".")
     alvo = obj
     for parte in partes[:-1]:
         if isinstance(alvo, list):
@@ -122,13 +124,15 @@ def main() -> None:
         raise SystemExit("falta veredito.json (verificação independente)")
     decisoes = ler("decisoes.json", {})
     textos = aprovados(ler("textos-letramento.json", []), veredito["letramento"], ("eleicao", "pergunta_id", "campo"))
-    textos += aprovados(ler("cenas-padrao.json", []), veredito["cenas_padrao"], ("eleicao", "pergunta_id", "campo"))
+    textos += aprovados(ler("cenas-padrao.json", []), veredito["cenas_padrao"], ("eleicao", "pergunta_id"))
     textos += decisoes.get("textos_extras", [])
     ajustes = aprovados(ler("ajustes-publico.json", []), veredito["ajustes_publico"], ("eleicao", "pergunta_id"))
     ignorar = {(i["eleicao"], i["pergunta_id"]) for i in decisoes.get("ignorar_ajustes_publico", [])}
     ajustes = [a for a in ajustes if (a["eleicao"], a["pergunta_id"]) not in ignorar]
     ajustes += decisoes.get("ajustes_publico_extras", [])
     variantes = aprovados(ler("variantes-novas.json", []), veredito["variantes"], ("eleicao", "id_novo"))
+    fora = {(r["eleicao"], r["id_novo"]) for r in decisoes.get("rejeitar_variantes", [])}
+    variantes = [v for v in variantes if (v["eleicao"], v["id_novo"]) not in fora]
     remover = decisoes.get("remover", [])  # [{eleicao, pergunta_id, motivo}]
 
     log: list[str] = []
@@ -164,7 +168,7 @@ def main() -> None:
             log.append(f"variante {eleicao}/{v['id_novo']} (notas de {origem['id']})")
 
         for pr in veredito.get("propagar", []):
-            if pr["eleicao"] != eleicao:
+            if pr["eleicao"] != eleicao or (eleicao, pr["id_variante"]) in fora:
                 continue
             p = por_id(pr["id_variante"])
             op = next(o for o in p["opcoes"] if o["id"] == pr["opcao"])

@@ -1,15 +1,15 @@
 {
  "governador-rj": {
   "dados": {
-   "estrutura": "68d755acfcc2fee7",
-   "aderencia": "99ed48a14cfb0ba2",
-   "versao_quiz": "3.4.0",
-   "nPerguntas": 26
+   "estrutura": "80e8acdc04cc9726",
+   "aderencia": "66b51029879d04e9",
+   "versao_quiz": "3.5.0",
+   "nPerguntas": 30
   },
   "selecaoDeCenas": {
-   "perfisTestados": 16128,
-   "hash": "81ab0795a1e1a83a",
-   "combinacoesDistintas": 211
+   "perfisTestados": 21504,
+   "hash": "5a541e333ce51092",
+   "combinacoesDistintas": 390
   },
   "perfisNomeados": {
    "vazio@-": {
@@ -166,7 +166,7 @@
     "faixa": null,
     "cenas": [
      "barca-leste",
-     "passagem-cara",
+     "passagem-leste",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -216,13 +216,13 @@
     "faixa": null,
     "cenas": [
      "estrada-interior",
-     "passagem-cara",
+     "passagem-interior",
      "saude-interior",
      "escola-bagunca",
      "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "falta-agua",
      "primo-desempregado",
      "dinheiro-publico"
@@ -466,7 +466,7 @@
     "faixa": "publico",
     "cenas": [
      "barca-leste",
-     "passagem-cara",
+     "passagem-leste",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -516,13 +516,13 @@
     "faixa": "publico",
     "cenas": [
      "estrada-interior",
-     "passagem-cara",
+     "passagem-interior",
      "saude-interior",
      "escola-bagunca",
      "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "falta-agua",
      "primo-desempregado",
      "dinheiro-publico"
@@ -616,7 +616,7 @@
     "faixa": "publico",
     "cenas": [
      "trem-parado",
-     "passagem-cara",
+     "passagem-moto",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -666,7 +666,7 @@
     "faixa": "publico",
     "cenas": [
      "trem-parado",
-     "passagem-cara",
+     "passagem-moto",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -716,7 +716,7 @@
     "faixa": "publico",
     "cenas": [
      "trem-parado",
-     "passagem-cara",
+     "passagem-moto",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -766,7 +766,7 @@
     "faixa": "publico",
     "cenas": [
      "barca-leste",
-     "passagem-cara",
+     "passagem-moto",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -816,13 +816,13 @@
     "faixa": "publico",
     "cenas": [
      "estrada-interior",
-     "passagem-cara",
+     "passagem-moto",
      "saude-interior",
      "escola-bagunca",
      "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "falta-agua",
      "primo-desempregado",
      "dinheiro-publico"
@@ -866,7 +866,7 @@
     "faixa": "publico",
     "cenas": [
      "trem-parado",
-     "passagem-cara",
+     "passagem-moto",
      "fila-especialista",
      "escola-bagunca",
      "operacao-policial",
@@ -916,10 +916,10 @@
     "faixa": "misto",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
      "rua-alagada",
@@ -1018,7 +1018,7 @@
     "faixa": "misto",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "escola-bagunca",
      "via-expressa-fechada",
@@ -1069,7 +1069,7 @@
     "faixa": "misto",
     "cenas": [
      "barca-leste",
-     "vale-transporte",
+     "passagem-leste",
      "plano-voltou-sus",
      "escola-bagunca",
      "via-expressa-fechada",
@@ -1120,13 +1120,13 @@
     "faixa": "misto",
     "cenas": [
      "estrada-interior",
-     "vale-transporte",
+     "passagem-interior",
      "saude-interior",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "falta-agua",
      "servidor-recomposicao",
      "correria-praia",
@@ -1171,10 +1171,10 @@
     "faixa": "misto",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
      "rua-alagada",
@@ -1222,10 +1222,10 @@
     "faixa": "privado",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "falta-tecnico",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
      "garagem-alagada",
@@ -1324,7 +1324,7 @@
     "faixa": "privado",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "falta-tecnico",
      "via-expressa-fechada",
@@ -1375,7 +1375,7 @@
     "faixa": "privado",
     "cenas": [
      "barca-leste",
-     "vale-transporte",
+     "passagem-leste",
      "plano-voltou-sus",
      "falta-tecnico",
      "via-expressa-fechada",
@@ -1426,13 +1426,13 @@
     "faixa": "privado",
     "cenas": [
      "estrada-interior",
-     "vale-transporte",
+     "passagem-interior",
      "saude-interior",
      "falta-tecnico",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "caminhao-pipa",
      "licenca-empresa",
      "correria-praia",
@@ -1477,10 +1477,10 @@
     "faixa": "privado",
     "cenas": [
      "transito-carro",
-     "vale-transporte",
+     "passagem-cara",
      "plano-voltou-sus",
      "falta-tecnico",
-     "via-expressa-fechada",
+     "operacao-policial",
      "roubo-carro",
      "medida-protetiva",
      "garagem-alagada",
@@ -1529,9 +1529,9 @@
     "cenas": [
      "transito-carro",
      "passagem-cara",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
      "garagem-alagada",
@@ -1580,7 +1580,7 @@
     "cenas": [
      "transito-carro",
      "passagem-cara",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "escola-bagunca",
      "via-expressa-fechada",
      "celular-roubado",
@@ -1631,7 +1631,7 @@
     "cenas": [
      "transito-carro",
      "passagem-cara",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "escola-bagunca",
      "via-expressa-fechada",
      "celular-roubado",
@@ -1681,8 +1681,8 @@
     "faixa": "privado",
     "cenas": [
      "barca-leste",
-     "passagem-cara",
-     "plano-voltou-sus",
+     "passagem-leste",
+     "fila-aposentado",
      "escola-bagunca",
      "via-expressa-fechada",
      "celular-roubado",
@@ -1732,13 +1732,13 @@
     "faixa": "privado",
     "cenas": [
      "estrada-interior",
-     "passagem-cara",
+     "passagem-interior",
      "saude-interior",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "caminhao-pipa",
      "primo-desempregado",
      "correria-praia",
@@ -1784,9 +1784,9 @@
     "cenas": [
      "transito-carro",
      "passagem-cara",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "escola-bagunca",
-     "via-expressa-fechada",
+     "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
      "garagem-alagada",
@@ -1885,7 +1885,7 @@
     "faixa": "privado",
     "cenas": [
      "trem-parado",
-     "passagem-cara",
+     "vale-transporte",
      "plano-voltou-sus",
      "falta-tecnico",
      "operacao-policial",
@@ -1987,7 +1987,7 @@
     "faixa": "privado",
     "cenas": [
      "barca-leste",
-     "passagem-cara",
+     "passagem-leste",
      "plano-voltou-sus",
      "falta-tecnico",
      "operacao-policial",
@@ -2038,13 +2038,13 @@
     "faixa": "privado",
     "cenas": [
      "estrada-interior",
-     "passagem-cara",
+     "passagem-interior",
      "saude-interior",
      "falta-tecnico",
      "operacao-policial",
      "celular-roubado",
      "medida-protetiva",
-     "encosta-serra",
+     "chuva-interior",
      "caminhao-pipa",
      "primo-desempregado",
      "correria-praia",
@@ -2140,15 +2140,15 @@
  },
  "presidente": {
   "dados": {
-   "estrutura": "d696f7fc37832371",
-   "aderencia": "d28a3bf187902cd2",
-   "versao_quiz": "1.3.0",
-   "nPerguntas": 22
+   "estrutura": "ce5b0bfcb2d2ac62",
+   "aderencia": "b1451ed44ad710b7",
+   "versao_quiz": "1.4.0",
+   "nPerguntas": 25
   },
   "selecaoDeCenas": {
-   "perfisTestados": 16128,
-   "hash": "dc14e5601a6d434d",
-   "combinacoesDistintas": 208
+   "perfisTestados": 21504,
+   "hash": "e19b051261e0ab05",
+   "combinacoesDistintas": 328
   },
   "perfisNomeados": {
    "vazio@-": {
@@ -2550,7 +2550,7 @@
    "motoboy@-": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "fila-cirurgia",
@@ -2563,27 +2563,27 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
    "motoboy@norte": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "especialista-longe",
@@ -2596,27 +2596,27 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
    "motoboy@nordeste": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "fila-cirurgia",
@@ -2629,27 +2629,27 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
    "motoboy@centro-oeste": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "fila-cirurgia",
@@ -2662,27 +2662,27 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
    "motoboy@sudeste": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "fila-cirurgia",
@@ -2695,27 +2695,27 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
    "motoboy@sul": {
     "faixa": "publico",
     "cenas": [
-     "trabalho-app",
+     "conta-propria",
      "salario-minimo",
      "juros-altos",
      "fila-cirurgia",
@@ -2728,20 +2728,20 @@
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "109d291cb5fa839b",
+    "resultadosHash": "cfcb86269bedd98b",
     "casos": 126,
     "amostra": {
      "primeira|-": [
       "lula:52:12:8/0/4/0",
-      "flavio-bolsonaro:42:12:6/4/2/0"
+      "flavio-bolsonaro:41:12:6/3/3/0"
      ],
      "ultima|trabalho+economia+saude": [
-      "lula:50:11:8/1/2/1",
-      "flavio-bolsonaro:49:10:6/3/1/2"
+      "lula:59:10:8/1/1/2",
+      "flavio-bolsonaro:57:10:7/2/1/2"
      ],
      "sorteio-1|-": [
       "lula:62:10:8/0/2/1",
-      "flavio-bolsonaro:49:8:5/3/0/3"
+      "flavio-bolsonaro:47:8:5/2/1/3"
      ]
     }
    },
@@ -3147,30 +3147,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "enchente-seca",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },
@@ -3180,30 +3180,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "especialista-longe",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "fumaca-queimada",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },
@@ -3213,30 +3213,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "seca-nordeste",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },
@@ -3246,30 +3246,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "fumaca-queimada",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },
@@ -3279,30 +3279,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "enchente-seca",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },
@@ -3312,30 +3312,30 @@
      "escala-6x1",
      "imposto-renda",
      "juros-altos",
-     "plano-voltou-sus",
+     "fila-aposentado",
      "faccao-bairro",
      "celular-sinal",
-     "pagar-faculdade",
+     "neto-escola",
      "conta-luz",
      "enchente-sul",
      "video-falso",
      "gasto-governo",
      "agressor-rondando"
     ],
-    "resultadosHash": "2cded79deef32aba",
+    "resultadosHash": "f3f503fdf090c6f5",
     "casos": 126,
     "amostra": {
      "primeira|-": [
-      "lula:53:12:8/0/4/0",
-      "flavio-bolsonaro:43:12:7/2/3/0"
+      "lula:56:12:8/1/3/0",
+      "flavio-bolsonaro:41:11:6/2/3/1"
      ],
      "ultima|trabalho+economia+saude": [
       "lula:68:10:9/0/1/2",
-      "flavio-bolsonaro:54:9:6/2/1/3"
+      "flavio-bolsonaro:54:9:5/3/1/3"
      ],
      "sorteio-1|-": [
-      "lula:63:10:8/0/2/1",
-      "flavio-bolsonaro:50:8:6/1/1/3"
+      "lula:62:10:8/0/2/1",
+      "flavio-bolsonaro:52:9:7/1/1/2"
      ]
     }
    },

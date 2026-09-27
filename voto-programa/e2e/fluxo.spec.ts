@@ -42,7 +42,7 @@ const REGIONAIS: { eleicao: Eleicao; nome: string; perfil: Partial<Perfil>; regi
     eleicao: 'governador-rj',
     nome: 'interior',
     perfil: { regiao: 'interior', saude: 'sus', deslocamento: 'moto', trabalho: 'autonomo' },
-    regionais: ['estrada-interior', 'saude-interior', 'encosta-serra'],
+    regionais: ['estrada-interior', 'saude-interior', 'chuva-interior'],
     temas: ['Segurança'],
   },
   {
