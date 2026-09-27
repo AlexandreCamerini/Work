@@ -21,10 +21,10 @@ export function Prioridades() {
   }
 
   const aviso = erro
-    ? `Máximo de ${MAX_PRIORIDADES}. Desmarque um para trocar.`
+    ? `Só dá pra marcar ${MAX_PRIORIDADES}. Tire um pra marcar outro.`
     : n
       ? `${n} de ${MAX_PRIORIDADES} escolhidos`
-      : 'Nenhum marcado: todos os temas valem igual.'
+      : 'Nenhum marcado: todos os assuntos valem igual.'
 
   return (
     <Tela
@@ -59,7 +59,7 @@ export function Prioridades() {
       }
     >
       <h1 className="titulo" id="q-pri" tabIndex={-1} data-foco>
-        O que mais pesa no seu dia?
+        Quais assuntos importam mais pra você?
       </h1>
       <p className="sub">Marque até {MAX_PRIORIDADES} assuntos. Eles valem o dobro no seu resultado.</p>
       <div className="grade" role="group" aria-labelledby="q-pri">

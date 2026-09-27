@@ -44,7 +44,7 @@ function Cartao({ cartao }: { cartao: number }) {
         </h1>
         {estado.prioridades.length ? (
           <>
-            <p className="m-0">O que mais pesa pra você:</p>
+            <p className="m-0">O que mais importa pra você:</p>
             <ul className="pilulas">
               {estado.prioridades.map((p) => (
                 <li key={p}>{nomeTema(p)}</li>
@@ -52,7 +52,7 @@ function Cartao({ cartao }: { cartao: number }) {
             </ul>
           </>
         ) : (
-          <p>Você não marcou prioridades: todos os temas valeram igual.</p>
+          <p>Você não marcou prioridades: todos os assuntos valeram igual.</p>
         )}
       </>
     )

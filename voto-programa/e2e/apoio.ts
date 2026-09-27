@@ -32,21 +32,23 @@ export function cenasEsperadas(eleicao: Eleicao, perfil: Partial<Perfil>): strin
 
 /** Rótulos das perguntas "sobre você" (src/telas/PerfilPasso.tsx), na ordem da tela. */
 const ROTULOS: Record<Exclude<keyof Perfil, 'regiao'>, Record<string, string>> = {
-  saude: { sus: 'Posto, UPA ou hospital público', plano_empresa: 'Plano pago pela empresa', plano_proprio: 'Plano pago pela família ou particular' },
-  escola: { publica: 'Escola pública', particular: 'Escola particular', nenhuma: 'Não tem criança em idade escolar' },
+  saude: { sus: 'Posto, UPA ou hospital público', plano_empresa: 'Plano de saúde pago pela empresa', plano_proprio: 'Plano pago pela família, ou consulta particular' },
+  escola: { publica: 'Escola pública', particular: 'Escola particular', nenhuma: 'Não tem criança ou adolescente na escola' },
   deslocamento: {
     publico: 'Ônibus, trem, metrô, BRT ou van',
     carro: 'Carro próprio',
-    moto: 'Moto, bicicleta ou a pé',
-    app: 'Aplicativo ou táxi',
-    casa: 'Trabalho em casa',
+    moto: 'Moto',
+    a_pe: 'Bicicleta ou a pé',
+    app: 'Corrida de aplicativo ou táxi',
+    casa: 'Fico mais em casa',
   },
   trabalho: {
     carteira: 'Carteira assinada',
-    servidor: 'Servidor(a) público(a)',
-    autonomo: 'Por conta própria, MEI ou aplicativo',
+    servidor: 'Emprego público, concursado',
+    autonomo: 'Por conta própria, bico ou MEI',
+    aplicativo: 'Entrega ou corrida por aplicativo',
     empresario: 'Tenho empresa com funcionários',
-    aposentado: 'Aposentado(a)',
+    aposentado: 'Já me aposentei',
     sem_trabalho: 'Estudo, procuro trabalho ou cuido da casa',
   },
   banheiros: { '1': '1', '2': '2', '3': '3 ou mais' },

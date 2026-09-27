@@ -115,9 +115,9 @@ export interface Resultado {
 }
 
 export type Saude = 'sus' | 'plano_empresa' | 'plano_proprio'
-export type Deslocamento = 'publico' | 'carro' | 'moto' | 'app' | 'casa'
+export type Deslocamento = 'publico' | 'carro' | 'moto' | 'a_pe' | 'app' | 'casa'
 export type Escola = 'publica' | 'particular' | 'nenhuma'
-export type Trabalho = 'carteira' | 'servidor' | 'autonomo' | 'empresario' | 'aposentado' | 'sem_trabalho'
+export type Trabalho = 'carteira' | 'servidor' | 'autonomo' | 'aplicativo' | 'empresario' | 'aposentado' | 'sem_trabalho'
 /** Faixa larga de uso de serviços (aproxima C2/DE, C1/B2 e B1/A do Critério Brasil). Nunca exibida. */
 export type Faixa = 'publico' | 'misto' | 'privado'
 

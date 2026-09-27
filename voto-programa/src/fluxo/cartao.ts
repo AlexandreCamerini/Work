@@ -120,11 +120,11 @@ export function desenharCartao(g: Ctx, d: DadosCartao): string[] {
 
   y += 30
   g.font = `800 36px ${TEXTO}`
-  escrever('O que mais pesa pra mim:', M, y)
+  escrever('O que mais importa pra mim:', M, y)
   y += 24
   let x = M
   g.font = `800 36px ${TEXTO}`
-  for (const t of d.prioridades.length ? d.prioridades : ['Todos os temas valem igual']) {
+  for (const t of d.prioridades.length ? d.prioridades : ['Todos os assuntos valem igual']) {
     const largura = g.measureText(t).width + 52
     if (x + largura > M + L) {
       x = M

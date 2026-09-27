@@ -17,10 +17,10 @@ export const PERFIL_VAZIO: Perfil = {
 const PONTOS = {
   saude: { max: 3, valores: { sus: 0, plano_empresa: 2, plano_proprio: 3 } },
   escola: { max: 3, valores: { publica: 0, particular: 3, nenhuma: undefined } },
-  deslocamento: { max: 2, valores: { publico: 0, carro: 2, moto: 0, app: 1, casa: undefined } },
+  deslocamento: { max: 2, valores: { publico: 0, carro: 2, moto: 0, a_pe: 0, app: 1, casa: undefined } },
   trabalho: {
     max: 3,
-    valores: { carteira: 1, servidor: 1, autonomo: 0, empresario: 3, aposentado: undefined, sem_trabalho: 0 },
+    valores: { carteira: 1, servidor: 1, autonomo: 0, aplicativo: 0, empresario: 3, aposentado: undefined, sem_trabalho: 0 },
   },
   banheiros: { max: 3, valores: { 1: 0, 2: 2, 3: 3 } },
 } as const

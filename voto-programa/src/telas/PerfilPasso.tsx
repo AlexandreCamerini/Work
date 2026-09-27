@@ -12,8 +12,8 @@ const PERGUNTAS: Record<Exclude<CampoPerfil, 'regiao'>, { titulo: string; opcoes
     titulo: 'Quando alguém da casa precisa de médico, normalmente vai…',
     opcoes: [
       { valor: 'sus', rotulo: 'Posto, UPA ou hospital público' },
-      { valor: 'plano_empresa', rotulo: 'Plano pago pela empresa' },
-      { valor: 'plano_proprio', rotulo: 'Plano pago pela família ou particular' },
+      { valor: 'plano_empresa', rotulo: 'Plano de saúde pago pela empresa' },
+      { valor: 'plano_proprio', rotulo: 'Plano pago pela família, ou consulta particular' },
     ],
   },
   escola: {
@@ -21,27 +21,29 @@ const PERGUNTAS: Record<Exclude<CampoPerfil, 'regiao'>, { titulo: string; opcoes
     opcoes: [
       { valor: 'publica', rotulo: 'Escola pública' },
       { valor: 'particular', rotulo: 'Escola particular' },
-      { valor: 'nenhuma', rotulo: 'Não tem criança em idade escolar' },
+      { valor: 'nenhuma', rotulo: 'Não tem criança ou adolescente na escola' },
     ],
   },
   deslocamento: {
-    titulo: 'No dia a dia, você anda mais de…',
+    titulo: 'No dia a dia, como você mais vai de um lugar pro outro?',
     opcoes: [
       { valor: 'publico', rotulo: 'Ônibus, trem, metrô, BRT ou van' },
       { valor: 'carro', rotulo: 'Carro próprio' },
-      { valor: 'moto', rotulo: 'Moto, bicicleta ou a pé' },
-      { valor: 'app', rotulo: 'Aplicativo ou táxi' },
-      { valor: 'casa', rotulo: 'Trabalho em casa' },
+      { valor: 'moto', rotulo: 'Moto' },
+      { valor: 'a_pe', rotulo: 'Bicicleta ou a pé' },
+      { valor: 'app', rotulo: 'Corrida de aplicativo ou táxi' },
+      { valor: 'casa', rotulo: 'Fico mais em casa' },
     ],
   },
   trabalho: {
     titulo: 'Hoje seu trabalho principal é…',
     opcoes: [
       { valor: 'carteira', rotulo: 'Carteira assinada' },
-      { valor: 'servidor', rotulo: 'Servidor(a) público(a)' },
-      { valor: 'autonomo', rotulo: 'Por conta própria, MEI ou aplicativo' },
+      { valor: 'servidor', rotulo: 'Emprego público, concursado' },
+      { valor: 'autonomo', rotulo: 'Por conta própria, bico ou MEI' },
+      { valor: 'aplicativo', rotulo: 'Entrega ou corrida por aplicativo' },
       { valor: 'empresario', rotulo: 'Tenho empresa com funcionários' },
-      { valor: 'aposentado', rotulo: 'Aposentado(a)' },
+      { valor: 'aposentado', rotulo: 'Já me aposentei' },
       { valor: 'sem_trabalho', rotulo: 'Estudo, procuro trabalho ou cuido da casa' },
     ],
   },
@@ -108,7 +110,11 @@ export function PerfilPasso({ passo }: { passo: number }) {
       <h1 className="titulo" id="q-perfil" tabIndex={-1} data-foco>
         {q.titulo}
       </h1>
-      <p className="sub">Toque na resposta para seguir. Nada disso sai do seu celular.</p>
+      <p className="sub">
+        {passo === 0
+          ? 'Serve pra mostrar situações parecidas com a sua vida. Pode pular. Nada disso sai do seu celular ou computador.'
+          : 'Toque na resposta pra seguir. Nada disso sai do seu celular ou computador.'}
+      </p>
       <div className="lista" role="group" aria-labelledby="q-perfil">
         {q.opcoes.map((o) => (
           <button

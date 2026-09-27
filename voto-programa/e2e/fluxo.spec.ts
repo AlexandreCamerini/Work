@@ -79,7 +79,7 @@ for (const r of REGIONAIS) {
     const botoes = grupo.getByRole('button')
     for (let i = 0; i < 3; i++) await botoes.nth(i).click()
     await botoes.nth(3).click()
-    await expect(page.getByRole('alert')).toContainText('Máximo de 3')
+    await expect(page.getByRole('alert')).toContainText('Só dá pra marcar 3')
     await expect(botoes.nth(3)).toHaveAttribute('aria-pressed', 'false')
     for (let i = 0; i < 3; i++) await expect(botoes.nth(i)).toHaveAttribute('aria-pressed', 'true')
     // troca pelas prioridades do perfil

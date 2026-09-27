@@ -34,15 +34,15 @@
     },
     {
       "id": "internet",
-      "nome": "Internet"
+      "nome": "Redes sociais"
     },
     {
       "id": "contas",
-      "nome": "Governo e gastos"
+      "nome": "Gastos do governo"
     },
     {
       "id": "mulheres",
-      "nome": "Mulheres"
+      "nome": "Violência contra a mulher"
     }
   ],
   "perguntas": [
@@ -856,23 +856,23 @@
     "opcoes": [
       {
         "valor": "norte",
-        "rotulo": "Norte"
+        "rotulo": "Norte (Amazonas, Pará, Tocantins…)"
       },
       {
         "valor": "nordeste",
-        "rotulo": "Nordeste"
+        "rotulo": "Nordeste (Bahia, Pernambuco, Maranhão…)"
       },
       {
         "valor": "centro-oeste",
-        "rotulo": "Centro-Oeste"
+        "rotulo": "Centro-Oeste (Goiás, Mato Grosso, DF…)"
       },
       {
         "valor": "sudeste",
-        "rotulo": "Sudeste"
+        "rotulo": "Sudeste (São Paulo, Rio, Minas, Espírito Santo)"
       },
       {
         "valor": "sul",
-        "rotulo": "Sul"
+        "rotulo": "Sul (Paraná, Santa Catarina, Rio Grande do Sul)"
       }
     ]
   }
