@@ -7,6 +7,7 @@ import type { ComponentType } from 'react'
 import { CaminhaoPipa, Clima, EnchenteSul, EncostaSerra, FaltaAgua, FumacaQueimada, GaragemAlagada, RuaAlagada, SecaNordeste } from './agua-clima'
 import { DinheiroPublico, Energia, ImpostoRenda, Juros, Renda } from './dinheiro'
 import { Escola, EscolaBagunca, PagarFaculdade } from './escola'
+import { EstradaTerra, Lavoura, LavouraSeca } from './rural'
 import { Generica, Internet } from './outros'
 import { EspecialistaLonge, FilaEspecialista, FilaSus, PlanoVoltouSus, SaudeInterior } from './saude'
 import { CelularRoubado, CelularSinal, CorreriaPraia, Faccao, MedidaProtetiva, OperacaoPolicial, RouboCarro, ViaExpressaFechada } from './seguranca'
@@ -39,6 +40,13 @@ export const porId: Record<string, ComponentType> = {
   'trabalho-app': TrabalhoApp,
   'imposto-renda': ImpostoRenda,
   'pagar-faculdade': PagarFaculdade,
+  // zona rural
+  'estrada-roca': EstradaInterior,
+  'celular-estrada': EstradaTerra,
+  'assalto-estrada': EstradaTerra,
+  'jornada-roca': Lavoura,
+  'primo-roca': Lavoura,
+  'seca-lavoura': LavouraSeca,
 }
 
 /** Por grupo (a cena padrão e as variantes parecidas). */
