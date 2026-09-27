@@ -57,6 +57,7 @@ function sorteioFixo(semente: number) {
 }
 
 const VALORES = {
+  zona: [null, 'urbana', 'rural'],
   saude: [null, 'sus', 'plano_empresa', 'plano_proprio'],
   escola: [null, 'publica', 'particular', 'nenhuma'],
   deslocamento: [null, 'publico', 'carro', 'moto', 'a_pe', 'app', 'casa'],
@@ -71,13 +72,15 @@ function todosOsPerfis(regioes: (string | null)[]): Perfil[] {
       for (const deslocamento of VALORES.deslocamento)
         for (const trabalho of VALORES.trabalho)
           for (const banheiros of VALORES.banheiros)
-            for (const regiao of regioes) saida.push({ saude, escola, deslocamento, trabalho, banheiros, regiao } as Perfil)
+            for (const regiao of regioes)
+              for (const zona of VALORES.zona) saida.push({ zona, saude, escola, deslocamento, trabalho, banheiros, regiao } as Perfil)
   return saida
 }
 
 const PERFIS_NOMEADOS: Record<string, Partial<Perfil>> = {
   vazio: {},
   sus_publico_onibus: { saude: 'sus', escola: 'publica', deslocamento: 'publico', trabalho: 'carteira', banheiros: 1 },
+  agricultor: { zona: 'rural', saude: 'sus', escola: 'publica', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1 },
   motoboy: { saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1 },
   servidor_carro: { saude: 'plano_empresa', escola: 'publica', deslocamento: 'carro', trabalho: 'servidor', banheiros: 2 },
   empresario_privado: { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3 },

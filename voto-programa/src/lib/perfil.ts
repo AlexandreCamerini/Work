@@ -1,6 +1,7 @@
 import type { Faixa, Perfil, Pergunta, Publico } from '../types'
 
 export const PERFIL_VAZIO: Perfil = {
+  zona: null,
   saude: null,
   escola: null,
   deslocamento: null,
@@ -56,6 +57,7 @@ export function estimarFaixa(perfil: Perfil): Faixa | null {
 function atende(publico: Publico, perfil: Perfil, faixa: Faixa | null): boolean {
   const checagens: [readonly string[] | undefined, string | null][] = [
     [publico.faixa, faixa],
+    [publico.zona, perfil.zona],
     [publico.saude, perfil.saude],
     [publico.deslocamento, perfil.deslocamento],
     [publico.escola, perfil.escola],

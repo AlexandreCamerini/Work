@@ -62,13 +62,13 @@ describe('cenas publicadas por perfil', () => {
   })
 
   it('cena de empresa só vai para quem trabalha de carteira ou tem empresa', () => {
-    const motoboy: Perfil = { saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1, regiao: null }
+    const motoboy: Perfil = { zona: null, saude: 'sus', escola: 'nenhuma', deslocamento: 'moto', trabalho: 'autonomo', banheiros: 1, regiao: null }
     expect(ids(gov, motoboy)).not.toContain('falta-tecnico')
     expect(ids(gov, { ...motoboy, trabalho: 'carteira' })).toContain('falta-tecnico')
   })
 
   it('faixa de serviço privado na capital vê alagamento, falta d’água do prédio e vale-transporte', () => {
-    const privado: Perfil = { saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3, regiao: 'capital' }
+    const privado: Perfil = { zona: null, saude: 'plano_proprio', escola: 'particular', deslocamento: 'carro', trabalho: 'empresario', banheiros: 3, regiao: 'capital' }
     expect(ids(gov, privado)).toEqual(expect.arrayContaining(['garagem-alagada', 'caminhao-pipa', 'vale-transporte']))
   })
 })

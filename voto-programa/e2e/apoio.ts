@@ -32,6 +32,7 @@ export function cenasEsperadas(eleicao: Eleicao, perfil: Partial<Perfil>): strin
 
 /** Rótulos das perguntas "sobre você" (src/telas/PerfilPasso.tsx), na ordem da tela. */
 const ROTULOS: Record<Exclude<keyof Perfil, 'regiao'>, Record<string, string>> = {
+  zona: { urbana: 'Na cidade', rural: 'Na zona rural: sítio, fazenda, roça ou comunidade' },
   saude: { sus: 'Posto, UPA ou hospital público', plano_empresa: 'Plano de saúde pago pela empresa', plano_proprio: 'Plano pago pela família, ou consulta particular' },
   escola: { publica: 'Escola pública', particular: 'Escola particular', nenhuma: 'Não tem criança ou adolescente na escola' },
   deslocamento: {
@@ -53,7 +54,7 @@ const ROTULOS: Record<Exclude<keyof Perfil, 'regiao'>, Record<string, string>> =
   },
   banheiros: { '1': '1', '2': '2', '3': '3 ou mais' },
 }
-const ORDEM_PERFIL: (keyof Perfil)[] = ['regiao', 'saude', 'escola', 'deslocamento', 'trabalho', 'banheiros']
+const ORDEM_PERFIL: (keyof Perfil)[] = ['regiao', 'zona', 'saude', 'escola', 'deslocamento', 'trabalho', 'banheiros']
 
 function rotuloDoPerfil(eleicao: Eleicao, campo: keyof Perfil, valor: string | number): string {
   if (campo === 'regiao') {

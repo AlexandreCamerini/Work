@@ -118,11 +118,14 @@ export type Saude = 'sus' | 'plano_empresa' | 'plano_proprio'
 export type Deslocamento = 'publico' | 'carro' | 'moto' | 'a_pe' | 'app' | 'casa'
 export type Escola = 'publica' | 'particular' | 'nenhuma'
 export type Trabalho = 'carteira' | 'servidor' | 'autonomo' | 'aplicativo' | 'empresario' | 'aposentado' | 'sem_trabalho'
+/** Onde fica a casa: cidade ou zona rural. Não entra no cálculo da faixa. */
+export type Zona = 'urbana' | 'rural'
 /** Faixa larga de uso de serviços (aproxima C2/DE, C1/B2 e B1/A do Critério Brasil). Nunca exibida. */
 export type Faixa = 'publico' | 'misto' | 'privado'
 
 /** Respostas da tela "sobre você". Todas opcionais: quem pula vê as cenas padrão. */
 export interface Perfil {
+  zona: Zona | null
   saude: Saude | null
   escola: Escola | null
   deslocamento: Deslocamento | null
@@ -134,6 +137,7 @@ export interface Perfil {
 
 export interface Publico {
   faixa?: Faixa[]
+  zona?: Zona[]
   saude?: Saude[]
   deslocamento?: Deslocamento[]
   escola?: Escola[]

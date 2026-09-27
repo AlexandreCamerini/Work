@@ -17,8 +17,11 @@ const VERSAO = 1
 
 export type CampoPerfil = keyof Perfil
 
-/** Ordem das perguntas "sobre você". A de região só existe quando a eleição a define. */
-export const CAMPOS_PERFIL: CampoPerfil[] = ['saude', 'escola', 'deslocamento', 'trabalho', 'banheiros']
+/**
+ * Ordem das perguntas "sobre você". A de região só existe quando a eleição a define; a de zona
+ * (cidade ou rural) vem logo depois dela, porque as duas decidem as cenas de lugar.
+ */
+export const CAMPOS_PERFIL: CampoPerfil[] = ['zona', 'saude', 'escola', 'deslocamento', 'trabalho', 'banheiros']
 
 export type Etapa =
   | { tipo: 'abertura' }

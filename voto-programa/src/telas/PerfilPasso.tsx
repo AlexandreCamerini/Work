@@ -8,6 +8,13 @@ import { useFocoAoEntrar } from '../ui/useFoco'
 type Opcao = { valor: string | number; rotulo: string }
 
 const PERGUNTAS: Record<Exclude<CampoPerfil, 'regiao'>, { titulo: string; opcoes: Opcao[] }> = {
+  zona: {
+    titulo: 'Onde fica a sua casa?',
+    opcoes: [
+      { valor: 'urbana', rotulo: 'Na cidade' },
+      { valor: 'rural', rotulo: 'Na zona rural: sítio, fazenda, roça ou comunidade' },
+    ],
+  },
   saude: {
     titulo: 'Quando alguém da casa precisa de médico, normalmente vai…',
     opcoes: [
