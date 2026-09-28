@@ -1,0 +1,924 @@
+{
+  "candidato_id": "eduardo-paes",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p74",
+          "p109",
+          "p114",
+          "p91"
+        ],
+        "justificativa": "Posição contraditória no dossiê: diz que não vai sair ameaçando romper contratos de concessão, mas admite criar empresa pública se a concessionária dos trens não operar bem e diz não ter problema em rever contratos."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p74",
+          "p91",
+          "p73",
+          "p109",
+          "p114"
+        ],
+        "justificativa": "Posição contraditória no dossiê: propõe auditar os contratos de concessão sem ameaçar rompê-los, mas em outras falas admite substituir a concessionária dos trens por uma empresa pública."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p13",
+          "p47",
+          "p112",
+          "p101"
+        ],
+        "justificativa": "Propõe colocar os trens no padrão do BRT e criar o programa Trem Seguro."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p74",
+          "p114",
+          "p109",
+          "p111"
+        ],
+        "justificativa": "Posição contraditória no dossiê: diz não ter problema com concessões e não ameaçar rompê-las, mas não descarta criar uma empresa pública para os trens caso a concessionária falhe."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p16",
+          "p13",
+          "p95"
+        ],
+        "justificativa": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância, sem mencionar a fonte dos recursos."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p16",
+          "p115"
+        ],
+        "justificativa": "Propõe recuperar as estradas do interior com obras de recapeamento e vigilância, sem mencionar concessão à iniciativa privada; sobre pedágio, só adverte a ViaLagos contra abusos."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p45",
+          "p46",
+          "p112",
+          "p16"
+        ],
+        "justificativa": "Propõe recuperar a malha ferroviária e duplicar o ramal Saracuruna, mas também recuperar as estradas do interior, sem priorizar um modo sobre o outro."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p42",
+          "p101",
+          "p41"
+        ],
+        "justificativa": "Propõe subsidiar o transporte intermunicipal, com base em dados de origem e destino, para reduzir as passagens."
+      }
+    },
+    "barca-leste": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p14",
+          "p44",
+          "p110",
+          "p101"
+        ],
+        "justificativa": "Propõe iniciar até o fim do mandato as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí, ligada à Linha 2 por túnel sob a Baía."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p74",
+          "p91",
+          "p73"
+        ],
+        "justificativa": "Defende auditar contratos de concessão e cobrar obrigações das partes, sem citar as barcas nem prever sanções."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p74",
+          "p111",
+          "p114"
+        ],
+        "justificativa": "Posição contraditória no dossiê: diz que não vai ameaçar romper concessões, mas admite criar empresa pública de transporte se necessário; não trata das barcas nem de tarifa social ou zero."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p14",
+          "p44",
+          "p45",
+          "p110"
+        ],
+        "justificativa": "Propõe iniciar a Linha 3 até São Gonçalo e expandir o metrô para a Baixada."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p48",
+          "p49",
+          "p13"
+        ],
+        "justificativa": "Propõe levar o BRT da Transolímpica e da Via Light pela Baixada, conectado à rede do Rio."
+      },
+      "c": {
+        "nota": 70,
+        "evidencias": [
+          "p49",
+          "p48"
+        ],
+        "justificativa": "Propõe estender a Via Light até a Avenida Brasil e Cabuçu, com BRT."
+      },
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p41",
+          "p42",
+          "p101"
+        ],
+        "justificativa": "Declara o objetivo de reduzir as tarifas com subsídio ao transporte intermunicipal, sem mencionar tarifa zero."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p42",
+          "p101",
+          "p41"
+        ],
+        "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
+      },
+      "b": {
+        "nota": 35,
+        "evidencias": [
+          "p42"
+        ],
+        "justificativa": "Propõe subsídio para reduzir passagens em geral, sem focalização por renda."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p40",
+          "p43",
+          "p101"
+        ],
+        "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
+      },
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p108",
+          "p102",
+          "p41"
+        ],
+        "justificativa": "Diz que há como reduzir a tarifa do metrô depois de o poder público controlar a bilhetagem e saber que subsídio se paga, sem assumir valor ou prazo."
+      }
+    },
+    "vale-transporte": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p42",
+          "p101",
+          "p41"
+        ],
+        "justificativa": "Propõe subsídio ao transporte intermunicipal para reduzir as passagens."
+      },
+      "b": {
+        "nota": 35,
+        "evidencias": [
+          "p42"
+        ],
+        "justificativa": "Propõe subsídio para reduzir passagens em geral, sem focalização por renda."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p40",
+          "p43",
+          "p101"
+        ],
+        "justificativa": "Propõe tirar o RioCard do controle das empresas de ônibus e licitar a bilhetagem estadual."
+      },
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p108",
+          "p102",
+          "p41"
+        ],
+        "justificativa": "Diz que há como reduzir a tarifa do metrô depois de o poder público controlar a bilhetagem e saber que subsídio se paga, sem assumir valor ou prazo."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p59",
+          "p7"
+        ],
+        "justificativa": "Propõe ampliar a rede pública com supercentros e contratação de médicos, sem mencionar compra da rede privada."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p59",
+          "p61"
+        ],
+        "justificativa": "Propõe Super Centros Regionais de Especialidades em todas as regiões."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p60",
+          "p82"
+        ],
+        "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p7",
+          "p82"
+        ],
+        "justificativa": "Propõe contratar mais médicos e especialistas."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p62",
+          "p64"
+        ],
+        "justificativa": "Propõe dois hospitais regionais públicos, na Região Serrana e no Noroeste Fluminense, e defende acabar com o deslocamento de pacientes do interior para tratamento na capital."
+      },
+      "b": {
+        "nota": 80,
+        "evidencias": [
+          "p63",
+          "p122",
+          "p59",
+          "p64"
+        ],
+        "justificativa": "Promete pôr em funcionamento o Hospital do Câncer de Nova Friburgo e levar Super Centros Regionais de Especialidades a todas as regiões, sem citar diagnóstico de alta complexidade."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p20",
+          "p65",
+          "p82",
+          "p5"
+        ],
+        "justificativa": "Propõe garantir os repasses de saúde aos municípios com critérios técnicos e recuperar os hospitais estaduais, sem condicionar o custeio de hospitais do interior a metas."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p7",
+          "p82"
+        ],
+        "justificativa": "Propõe contratar mais médicos e especialistas."
+      }
+    },
+    "plano-voltou-sus": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p59",
+          "p7"
+        ],
+        "justificativa": "Propõe ampliar a rede pública com supercentros e contratação de médicos, sem mencionar compra da rede privada."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p59",
+          "p61"
+        ],
+        "justificativa": "Propõe Super Centros Regionais de Especialidades em todas as regiões."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p60",
+          "p82"
+        ],
+        "justificativa": "Estabelece meta de reduzir a fila do Sisreg, sem propor mutirão."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p7",
+          "p82"
+        ],
+        "justificativa": "Propõe contratar mais médicos e especialistas."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p66",
+          "p67",
+          "p8"
+        ],
+        "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p8",
+          "p9"
+        ],
+        "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p8",
+          "p9"
+        ],
+        "justificativa": "Propõe expandir o ensino médio profissionalizante e recuperar a Faetec."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p68",
+          "p9"
+        ],
+        "justificativa": "Defende que os cursos da Faetec sejam ligados às vocações econômicas de cada região."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p12",
+          "p8",
+          "p121"
+        ],
+        "justificativa": "Propõe qualificação profissional contínua, sem programa de primeiro emprego."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p66",
+          "p67"
+        ],
+        "justificativa": "Propõe tempo integral (meta de 30%) e o modelo dos GETs, com ciência e tecnologia."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 80,
+        "evidencias": [
+          "p2",
+          "p85",
+          "p123",
+          "p29",
+          "p90"
+        ],
+        "justificativa": "Põe a retomada de territórios no centro da política de segurança e critica operação sem ocupação posterior, sem defini-la como critério de avaliação das polícias."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p31",
+          "p87",
+          "p98",
+          "p32",
+          "p123"
+        ],
+        "justificativa": "Posição contraditória no dossiê: na sabatina diz que o objetivo deve ser prender, com inteligência, e não neutralizar; em entrevistas anteriores diz que quem enfrenta o Estado tem que ser neutralizado."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p88",
+          "p31",
+          "p29",
+          "p100"
+        ],
+        "justificativa": "Defende plano de ocupação para o dia seguinte e bases do Bope nas áreas retomadas, mas questiona a ideia de que essas áreas precisam sobretudo de serviços sociais."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p31",
+          "p32",
+          "p123",
+          "p124",
+          "p86"
+        ],
+        "justificativa": "Posição contraditória no dossiê: diz que neutralizar não deve ser o objetivo, mas em outras entrevistas defende neutralizar quem enfrenta o Estado e o uso eventual da força letal, sem meta de redução da letalidade."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 80,
+        "evidencias": [
+          "p2",
+          "p85",
+          "p123",
+          "p29",
+          "p90"
+        ],
+        "justificativa": "Põe a retomada de territórios no centro da política de segurança e critica operação sem ocupação posterior, sem defini-la como critério de avaliação das polícias."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p31",
+          "p87",
+          "p98",
+          "p32",
+          "p123"
+        ],
+        "justificativa": "Posição contraditória no dossiê: na sabatina diz que o objetivo deve ser prender, com inteligência, e não neutralizar; em entrevistas anteriores diz que quem enfrenta o Estado tem que ser neutralizado."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p88",
+          "p31",
+          "p29",
+          "p100"
+        ],
+        "justificativa": "Defende plano de ocupação para o dia seguinte e bases do Bope nas áreas retomadas, mas questiona a ideia de que essas áreas precisam sobretudo de serviços sociais."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p31",
+          "p32",
+          "p123",
+          "p124",
+          "p86"
+        ],
+        "justificativa": "Posição contraditória no dossiê: diz que neutralizar não deve ser o objetivo, mas em outras entrevistas defende neutralizar quem enfrenta o Estado e o uso eventual da força letal, sem meta de redução da letalidade."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p22",
+          "p23",
+          "p89"
+        ],
+        "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p34",
+          "p97",
+          "p71",
+          "p1"
+        ],
+        "justificativa": "Propõe ampliar o efetivo segundo manchas criminais, preencher os quadros da Polícia Militar e convocar excedentes de concursos."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p35",
+          "p99"
+        ],
+        "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p22",
+          "p23",
+          "p89"
+        ],
+        "justificativa": "Propõe guardas municipais armadas integradas à PM contra roubos e furtos."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p34",
+          "p97",
+          "p71",
+          "p1"
+        ],
+        "justificativa": "Propõe ampliar o efetivo segundo manchas criminais, preencher os quadros da Polícia Militar e convocar excedentes de concursos."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p35",
+          "p99"
+        ],
+        "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p39"
+        ],
+        "justificativa": "Propõe trabalhar para que agressores sejam monitorados por tornozeleira eletrônica, sem citar alerta à vítima."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p39"
+        ],
+        "justificativa": "Propõe delegacias da mulher funcionando 24 horas."
+      },
+      "c": {
+        "nota": 85,
+        "evidencias": [
+          "p39"
+        ],
+        "justificativa": "Propõe Casas da Mulher Fluminense em todas as regiões."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p39",
+          "p1"
+        ],
+        "justificativa": "Propõe triplicar a Ronda Maria da Penha para 150 equipes e fortalecer as patrulhas Maria da Penha."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p17",
+          "p77"
+        ],
+        "justificativa": "Propõe plano de obras de contenção e macrodrenagem contra enchentes e deslizamentos."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p76"
+        ],
+        "justificativa": "Propõe centros de operações regionais com sirenes e radares."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p79",
+          "p80"
+        ],
+        "justificativa": "Defende identificar o que pode permanecer em áreas de risco e critica a demora na entrega de moradias a vítimas das chuvas, sem propor reassentamento."
+      }
+    },
+    "encosta-serra": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p17",
+          "p77"
+        ],
+        "justificativa": "Propõe plano de obras de contenção e macrodrenagem contra enchentes e deslizamentos."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p76"
+        ],
+        "justificativa": "Propõe centros de operações regionais com sirenes e radares."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p79",
+          "p80"
+        ],
+        "justificativa": "Defende identificar o que pode permanecer em áreas de risco e critica a demora na entrega de moradias a vítimas das chuvas, sem propor reassentamento."
+      }
+    },
+    "garagem-alagada": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p17",
+          "p77"
+        ],
+        "justificativa": "Propõe plano de obras de contenção e macrodrenagem contra enchentes e deslizamentos."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p76"
+        ],
+        "justificativa": "Propõe centros de operações regionais com sirenes e radares."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p79",
+          "p80"
+        ],
+        "justificativa": "Defende identificar o que pode permanecer em áreas de risco e critica a demora na entrega de moradias a vítimas das chuvas, sem propor reassentamento."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p75",
+          "p115"
+        ],
+        "justificativa": "Afirma que o aumento de tarifa da concessão de água e esgoto terá de ser revisto."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p74",
+          "p91"
+        ],
+        "justificativa": "Propõe auditar os contratos de concessão e verificar se estão sendo cumpridos, sem citar as metas de universalização."
+      },
+      "c": {
+        "nota": 20,
+        "evidencias": [
+          "p74",
+          "p91"
+        ],
+        "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, embora afirme que não terá problema em revê-los; não fala em rescisão."
+      },
+      "d": {
+        "nota": 5,
+        "evidencias": [
+          "p74",
+          "p75"
+        ],
+        "justificativa": "Diz que não vai ameaçar romper contratos de concessão e propõe rever o aumento de tarifa da concessão de água e esgoto."
+      }
+    },
+    "caminhao-pipa": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p75",
+          "p115"
+        ],
+        "justificativa": "Afirma que o aumento de tarifa da concessão de água e esgoto terá de ser revisto."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p74",
+          "p91"
+        ],
+        "justificativa": "Propõe auditar os contratos de concessão e verificar se estão sendo cumpridos, sem citar as metas de universalização."
+      },
+      "c": {
+        "nota": 20,
+        "evidencias": [
+          "p74",
+          "p91"
+        ],
+        "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, embora afirme que não terá problema em revê-los; não fala em rescisão."
+      },
+      "d": {
+        "nota": 5,
+        "evidencias": [
+          "p74",
+          "p75"
+        ],
+        "justificativa": "Diz que não vai ameaçar romper contratos de concessão e propõe rever o aumento de tarifa da concessão de água e esgoto."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": 60,
+        "evidencias": [
+          "p12",
+          "p9",
+          "p8",
+          "p121"
+        ],
+        "justificativa": "Propõe qualificação profissional contínua e ensino técnico, sem programa de primeiro emprego."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p11",
+          "p52",
+          "p120",
+          "p121"
+        ],
+        "justificativa": "Propõe atrair indústria naval e outros setores, com Refis para estaleiros."
+      },
+      "c": {
+        "nota": 35,
+        "evidencias": [
+          "p12",
+          "p11",
+          "p120",
+          "p121"
+        ],
+        "justificativa": "Atribui a geração de emprego ao setor privado, mas propõe papel ativo do estado com atração de investimentos, incentivos e prioridade de industrialização regional."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p51"
+        ],
+        "justificativa": "Promete zerar o IPVA de motos de até 180 cilindradas."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p96"
+        ],
+        "justificativa": "Apresenta como credencial ter dado reajuste aos servidores todos os anos como prefeito, sem compromisso explícito de recomposição anual no estado."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p70"
+        ],
+        "justificativa": "Promete replicar no estado acordos de resultado com metas e bonificação."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p71",
+          "p97"
+        ],
+        "justificativa": "Compromete-se a convocar os excedentes já aprovados em concursos."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": 60,
+        "evidencias": [
+          "p53",
+          "p119"
+        ],
+        "justificativa": "Defende previsibilidade e menos burocracia, sem propor balcão único."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p53",
+          "p119",
+          "p115"
+        ],
+        "justificativa": "Posição contraditória no dossiê: defende previsibilidade, regra estável e menos burocracia para investidores, mas diz que em seu governo não haverá agência reguladora mandando."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p121",
+          "p52"
+        ],
+        "justificativa": "Defende mais incentivos para o Sul Fluminense e Refis para estaleiros, sem tratar de contrapartidas de emprego ou devolução."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p1",
+          "p34",
+          "p97",
+          "p36"
+        ],
+        "justificativa": "Propõe aumentar e redistribuir o efetivo do policiamento ostensivo, preencher os quadros da PM e devolver às ruas policiais cedidos a gabinetes."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p22",
+          "p23"
+        ],
+        "justificativa": "Propõe guardas municipais armadas integradas à PM no policiamento ostensivo."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p2",
+          "p85",
+          "p123",
+          "p29",
+          "p30"
+        ],
+        "justificativa": "Propõe retomar os territórios dominados, sob condução direta do governador, começando pelo Complexo do Salgueiro."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p35",
+          "p99"
+        ],
+        "justificativa": "Propõe câmeras inteligentes e barreiras digitais pelo estado."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p18",
+          "p83"
+        ],
+        "justificativa": "Propõe reequilibrar as contas com responsabilidade fiscal, sem mencionar teto de gastos."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p73",
+          "p72",
+          "p93"
+        ],
+        "justificativa": "Defende aprofundar auditorias em todos os contratos e criar uma secretaria de integridade."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p57",
+          "p92",
+          "p83"
+        ],
+        "justificativa": "Propõe revisar despesa por despesa e contrato por contrato e não admitir desperdício, sem propor corte de cargos ou enxugamento da estrutura."
+      },
+      "d": {
+        "nota": 25,
+        "evidencias": [
+          "p52",
+          "p121"
+        ],
+        "justificativa": "Propõe Refis estadual para estaleiros e mais incentivos para o Sul Fluminense, sem mencionar revisão ou corte de benefícios fiscais a empresas."
+      }
+    }
+  }
+}

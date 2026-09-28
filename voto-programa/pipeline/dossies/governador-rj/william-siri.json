@@ -1,0 +1,626 @@
+{
+  "candidato_id": "william-siri",
+  "nome": "William Siri",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf",
+    "observacao": "Texto lido no espelho do Nexo Jornal ('Programa Movimento Estado do Rio de Janeiro', PSOL, datado de agosto de 2026, 143 páginas segundo o Tempo Real RJ), que reproduz os planos registrados no TSE; candidatura nº 190002536162 (situação 'Deferido' na API do DivulgaCandContas em 24/09/2026). Download direto do TSE não testado (domínio bloqueado localmente) e não houve comparação byte a byte. O documento se apresenta como 'programa de governo do PSOL RJ' construído coletivamente, mas foi registrado como proposta da candidatura de Siri, por isso é tratado como dele. Quase não traz valores, prazos ou fontes de financiamento; as exceções registradas são 30 CIEPs no primeiro ano, Renda Básica para 600 mil famílias (teto de meio salário mínimo) e 6% da receita para as universidades estaduais."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Programa Movimento Estado do Rio de Janeiro – PSOL (proposta registrada no TSE; cópia espelhada pelo Nexo)",
+      "veiculo": "TSE / Nexo Jornal (espelho)",
+      "url": "https://candidatos.nexojornal.com.br/planos/rj-governador-william-siri.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "William Siri propõe grupo da PM para fiscalizar baías do RJ (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/william-siri-participa-de-sabatina.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "William Siri defende reestatizar Cedae e transportes no RJ (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/09/william-siri-sabatina.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Siri defende proibição de helicópteros da polícia em operações no Rio (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/09/siri-defende-proibicao-de-helicopteros-da-policia-em-operacoes-no-rio-e-aterrorizante-para-as-familias.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f5",
+      "tipo": "entrevista",
+      "titulo": "Ao RJ1, William Siri propõe mais patrulha na baía e reindustrialização",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-william-siri-propoe-grupamento-para-fiscalizar-baias-campus-da-uezo-em-campo-grande-e-reindustrializar-o-estado.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f6",
+      "tipo": "entrevista",
+      "titulo": "Eleições 2026: veja as propostas de candidatos ao governo estadual do Rio para servidores (entrevistas da coluna Servidor Público)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml",
+      "data": "2026-09-13"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "ADPF das Favelas / letalidade",
+      "resumo": "Propõe política de segurança alinhada às determinações da ADPF das Favelas, com protocolos para operações policiais, controle da atividade policial e redução da letalidade.",
+      "trecho": "Implementar uma política de segurança pública alinhada às determinações da ADPF das Favelas, priorizando inteligência e investigação, estabelecendo protocolos para operações policiais, garantindo transparência, controle da atividade policial, redução da letalidade e proteção da vida nos territórios;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "entrada de armas / fiscalização de divisas",
+      "resumo": "Propõe desarticular o comércio ilegal de armas fiscalizando vias terrestres, aéreas e marítimas em parceria com PF e PRF.",
+      "trecho": "Desarticular o comércio ilegal de armamento (armas, munições e explosivos), focando, principalmente, na fiscalização das vias terrestres, aéreas e marítimas de acesso ao Estado, em parceria com as polícias Federal e Rodoviária Federal;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "policiamento marítimo nas baías",
+      "resumo": "Promete criar grupamento marítimo da PM para fiscalizar as baías de Guanabara e Sepetiba e convênios com PRF, PF e Receita Federal.",
+      "trecho": "Nós precisamos fazer convênios com a Polícia Rodoviária para fiscalizar nas rodovias, com a Polícia Federal, Receita Federal para fiscalizar nos aeroportos, e eu vou criar um grupamento marítimo para fiscalizar a Baía de Guanabara e a Baía de Sepetiba.",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios",
+      "resumo": "Diz que retomará territórios dominados pelo crime com planejamento e oferta de serviços como saneamento e cultura, e que operações com blindados continuarão.",
+      "trecho": "O governador William Siri vai retomar todo o território do Rio de Janeiro para o cidadão e para a cidadã. Só que não vai ser feito como está sendo feito há 30 anos nesse estado. Morre polícia, morre bandido, morre sociedade, e não resolve nada",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p5",
+      "tema": "seguranca",
+      "subtema": "helicópteros em operações",
+      "resumo": "O plano propõe proibir disparos de armas letais e menos letais a partir de helicópteros da polícia.",
+      "trecho": "Proibir o uso tanto de armamento letal quanto de armamento menos letal a partir de helicópteros da polícia;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "seguranca",
+      "subtema": "helicópteros em operações (sabatina)",
+      "resumo": "Em sabatina, disse não ver possibilidade, num primeiro momento, de usar helicópteros em operações.",
+      "trecho": "Quero sentar com grandes especialistas. Pois é aterrorizante para as famílias. Não vejo a possibilidade em primeiro momento de usar os helicópteros.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "seguranca",
+      "subtema": "estrutura das secretarias de segurança",
+      "resumo": "Propõe extinguir as secretarias de Polícia Militar, Civil e Penal e subordiná-las a uma Secretaria de Segurança.",
+      "trecho": "Extinguir as Secretarias de Polícia Militar, Civil e Penal, implementando um organograma baseado em comandos e chefias subordinados à Secretaria de Segurança;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "seguranca",
+      "subtema": "desmilitarização da polícia",
+      "resumo": "Defende trabalhar junto ao Congresso pela desmilitarização da polícia e por uma polícia civil de ciclo completo.",
+      "trecho": "Trabalhar para garantir, junto ao Congresso Nacional, a desmilitarização da polícia, com a desvinculação da polícia das forças armadas e a construção de um novo modelo de polícia, de caráter civil, mediante a efetivação de uma carreira única de ciclo completo que garanta a integração entre todas as atividades policiais (ostensiva, preventiva e investigativa);",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "seguranca",
+      "subtema": "política de drogas",
+      "resumo": "Propõe tratar o uso abusivo de drogas como questão de saúde pública, com redução de danos, e defender junto ao Congresso a descriminalização e regulamentação das drogas ilícitas.",
+      "trecho": "Tratar o uso abusivo de drogas como um problema de saúde pública, investir na política de redução de danos da rede substitutiva de saúde mental (programas como Residências Terapêuticas, Centros de Atenção Psicossocial e Consultórios de Rua) e trabalhar para garantir, junto ao Congresso Nacional, a descriminalização e regulamentação das drogas consideradas ilícitas;",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "seguranca",
+      "subtema": "lavagem de dinheiro",
+      "resumo": "Propõe plano com Governo Federal e Coaf contra lavagem de dinheiro e o financiamento do crime organizado.",
+      "trecho": "Estabelecer em parceria com o Governo Federal e a COAF para elaborar um plano de combate à lavagem de dinheiro no Estado do Rio de Janeiro, buscando desmontar as relações de financiamento entre crime organizado, empresas privadas e o capital financeiro",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p11",
+      "tema": "seguranca",
+      "subtema": "roubo de celulares",
+      "resumo": "Propõe programa estadual de recuperação de celulares roubados por rastreamento de IMEI.",
+      "trecho": "Criar o Programa Estadual de Combate ao Roubo e Furto de Celulares, instituindo protocolo obrigatório para atuação imediata das forças de segurança na recuperação de aparelhos subtraídos, mediante rastreamento dos dispositivos por meio do número de IMEI",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "seguranca",
+      "subtema": "sistema prisional",
+      "resumo": "Propõe reverter a terceirização e a privatização da gestão do sistema prisional.",
+      "trecho": "Reverter o processo de terceirização de serviços e privatização da gestão do sistema prisional do Rio de Janeiro, na defesa de uma administração pública voltada para a defesa, promoção e garantia da dignidade dos presos;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p13",
+      "tema": "transporte",
+      "subtema": "trens / reestatização",
+      "resumo": "Propõe reestatizar o sistema ferroviário metropolitano, transferindo a operação para uma nova empresa pública de transporte.",
+      "trecho": "Promover a reestatização do sistema ferroviário da Região Metropolitana do Estado, encerrando o modelo de concessão privada e transferindo a operação, manutenção e gestão integral do sistema para a nova Empresa Pública de Transporte e Mobilidade",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "transporte",
+      "subtema": "trens, barcas e metrô / reestatização (sabatina)",
+      "resumo": "Em sabatina, afirmou que reestatizaria os trens no primeiro mês de mandato e, depois, barcas e metrô.",
+      "trecho": "O trem, certamente no meu 1º mês",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": "Trens no 1º mês de mandato"
+    },
+    {
+      "id": "p15",
+      "tema": "transporte",
+      "subtema": "tarifa / tarifa zero",
+      "resumo": "Propõe redução progressiva das tarifas de ônibus, metrô e barcas até a tarifa zero em todo o transporte público estadual.",
+      "trecho": "Planejar etapas de redução progressiva e acelerada do preço da tarifa até atingir a Tarifa Zero em todos os tipos de transporte público estadual, em diálogo com o governo federal, com o objetivo de atenuar o aumento de demanda decorrente da implementação do serviço gratuito e permitir que o poder público tenha tempo de resposta para fazer as adequações necessárias à melhor operação do serviço;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "transporte",
+      "subtema": "tarifa zero nos trens",
+      "resumo": "Propõe tarifa zero nos trens assim que forem reestatizados, subsidiada pelo Fundo Estadual de Transporte.",
+      "trecho": "Implementar a \"Tarifa Zero” nos trens assim que o serviço for reestatizado, com o objetivo de garantir o direito de ir e vir dos cidadãos e incentivar a livre circulação pelo estado, subsidiando o custo de operação destas linhas através do Fundo Estadual de Transporte, começando pelas regiões mais pobres e de maior fluxo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p17",
+      "tema": "transporte",
+      "subtema": "empresa pública de transporte",
+      "resumo": "Propõe criar Empresa Pública de Transporte e Mobilidade que substituiria Detro, Agetransp, Central e Rio Trilhos.",
+      "trecho": "Garantir o domínio público sobre a administração logística e os fluxos financeiros do sistema estadual de mobilidade, criando uma Empresa Pública de Transporte e Mobilidade",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "transporte",
+      "subtema": "metrô para a Baixada",
+      "resumo": "Propõe estender a Linha 2 do metrô a partir da Pavuna e estudar ligação com São João de Meriti, Belford Roxo, Duque de Caxias e Nova Iguaçu.",
+      "trecho": "Expandir a rede metroviária para a Baixada Fluminense, priorizando a extensão da Linha 2 a partir da Pavuna e realizando os estudos técnicos para sua ligação com São João de Meriti, Belford Roxo, Duque de Caxias e Nova Iguaçu, integrada aos trens, ônibus e demais modais da Região Metropolitana;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "transporte",
+      "subtema": "metrô / Linhas 2, 3 e 6",
+      "resumo": "Prevê concluir a ligação Estácio-Carioca (Linha 2) no curto prazo e, no longo prazo, Linhas 3 (até Itaboraí) e 6.",
+      "trecho": "Garantir investimentos contínuo para a expansão do metrô, visando, a curto prazo, a conclusão de ligações prioritárias como a ligação Estácio-Carioca (Linha 2), e, a longo prazo, a integração em rede entre as diferentes regiões da metrópole, com novas linhas ligando o centro da capital à região de Itaboraí (Linha 3) e o subúrbio da Zona Norte da capital à Baixada de Jacarepaguá (Linha 6);",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "transporte",
+      "subtema": "barcas",
+      "resumo": "Propõe estudar novas linhas de barcas (São Gonçalo, Ilha do Governador, Fundão, Ilha Grande, Baixada) e, no longo prazo, reestatizar o transporte hidroviário.",
+      "trecho": "Elaborar um plano de ampliação do transporte hidroviário, com estudos para novas linhas de barcas em São Gonçalo, Ilha do Governador, Ilha do Fundão, Baía da Ilha Grande e Baixada Fluminense, integradas aos demais modais, e avançar progressivamente na retomada do controle público e reestatização da rede de transporte hidroviário no longo prazo;",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae / concessão do saneamento",
+      "resumo": "Propõe iniciar a retomada pública e reestatização da Cedae, com auditoria dos contratos de concessão pela Agenersa e processo para cancelamento dos contratos.",
+      "trecho": "Iniciar o processo de retomada pública e reestatização da CEDAE, fortalecendo a Agenersa e os órgãos competentes para realizar uma auditoria rigorosa dos contratos de concessão, apurar irregularidades, cobranças abusivas, descumprimento de metas e falhas na prestação dos serviços.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae (sabatina)",
+      "resumo": "Em sabatina, disse que pretende intervir na Cedae via Agenersa e entrar com processo para reestatizá-la, respeitando contratos válidos.",
+      "trecho": "Hoje, na Cedae, vamos intervir diretamente. Tem a questão dos contratos, mas nós vamos com a Agenersa [Agência Reguladora de Energia e Saneamento Básico do Estado do Rio de Janeiro] intervir e entrar com um processo, pois a minha vontade é de reestatizar a Cedae",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "meio-ambiente",
+      "subtema": "despoluição das baías",
+      "resumo": "Propõe planos regionais de despoluição das baías de Guanabara, Sepetiba e Ilha Grande com prefeituras, universidades e comunidades.",
+      "trecho": "Construir planos regionais de despoluição das Baías de Guanabara, de Sepetiba, de Ilha Grande e das bacias hidrográficas estaduais, em parceria com as prefeituras dos municípios das regiões, envolvendo universidades, movimentos ambientalistas e as comunidades do entorno nas políticas de preservação e recuperação ambiental da região",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "meio-ambiente",
+      "subtema": "enchentes / infraestrutura verde",
+      "resumo": "Propõe política estadual de infraestrutura verde para reduzir enchentes e ampliar a cobertura vegetal.",
+      "trecho": "Instituir uma Política Estadual de Infraestrutura Verde, integrando soluções baseadas na natureza ao planejamento urbano e regional, visando reduzir enchentes, ampliar a cobertura vegetal, melhorar o conforto térmico e aumentar a resiliência climática das cidades.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p25",
+      "tema": "economia",
+      "subtema": "dívida com a União / Propag",
+      "resumo": "Defende cumprir o Propag sem novas medidas de austeridade, privatizações ou retirada de direitos, destinando a economia com a dívida a serviços e servidores.",
+      "trecho": "Garantir o cumprimento do Programa de Pleno Pagamento de Dívidas dos Estados (PROPAG) em condições que reduzam de forma sustentável o peso da dívida do Estado do Rio de Janeiro com a União, liberem recursos para investimentos e serviços públicos e não imponham novas medidas de austeridade, privatizações ou retirada de direitos da população e dos servidores;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "economia",
+      "subtema": "austeridade fiscal",
+      "resumo": "Declara rejeitar políticas de austeridade fiscal que retirem direitos.",
+      "trecho": "Rejeitar as políticas de austeridade fiscal que retiram direitos da população;",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p27",
+      "tema": "economia",
+      "subtema": "banco estadual de desenvolvimento",
+      "resumo": "Propõe criar o BADERJ, banco público estadual de fomento para reindustrialização, emprego e inovação.",
+      "trecho": "Criar o Banco de Desenvolvimento do Estado do Rio de Janeiro — BADERJ, instituição financeira pública estadual voltada ao financiamento de médio e longo prazo de projetos estratégicos para a reindustrialização, a geração de empregos, a inovação tecnológica e a redução das desigualdades regionais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p28",
+      "tema": "economia",
+      "subtema": "reindustrialização / dependência do petróleo",
+      "resumo": "Em entrevista ao RJ1, prometeu complexos produtivos em todo o estado para reduzir a dependência dos royalties do petróleo.",
+      "trecho": "Eu vou fazer complexos produtivos a partir da reindustrialização em todos os lugares do estado do Rio de Janeiro, utilizando suas potencialidades, porque não podemos ficar dependentes somente dos royalties do petróleo.",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p29",
+      "tema": "economia",
+      "subtema": "incentivos e renúncias fiscais",
+      "resumo": "Propõe reestruturar a política de renúncia de receitas para priorizar complexos industriais, pequenos e médios negócios e economia sustentável.",
+      "trecho": "Reestruturar a política de renúncia de receitas para incentivar a implantação complexos industriais, de tecnologia e infraestrutura, beneficiar os pequenos e médios comerciantes e produtores, bem como incentivar economias ecologicamente sustentáveis;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "economia",
+      "subtema": "impostos / justiça fiscal",
+      "resumo": "Propõe planejar reforma tributária estadual baseada em progressividade.",
+      "trecho": "Planejar a implementação de uma reforma tributária, baseada na proporcionalidade e na progressividade da cobrança de impostos, que objetive garantir equidade na taxação, reduzir as desigualdades sociais, promover a distribuição de renda e assegurar o cumprimento da função social da propriedade;",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p31",
+      "tema": "economia",
+      "subtema": "compensação da Lei Kandir",
+      "resumo": "Propõe cobrar da União compensação pelas perdas da Lei Kandir.",
+      "trecho": "Cobrar da União a compensação das perdas de receita tributária decorrentes da Lei Kandir (Lei Complementar nº87, de 13/09/1996);",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "saude",
+      "subtema": "Organizações Sociais / gestão",
+      "resumo": "Propõe transição da gestão privada (OSs) para gestão pública direta da saúde, com concursos, encerrando progressivamente a terceirização.",
+      "trecho": "Implementar um plano de transição do sistema atual, que prioriza a gestão privada, para um sistema de gestão pública e direta com a realização de concursos públicos na área da saúde, evitando a desorganização do serviço e a desassistência, garantindo o progressivo encerramento de todas as formas de privatização e terceirização da Saúde;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "saude",
+      "subtema": "financiamento",
+      "resumo": "Propõe aplicar o mínimo constitucional de 12% da receita estadual em saúde.",
+      "trecho": "Ampliar os recursos destinados à saúde com a aplicação do mínimo constitucional de 12% das verbas estaduais",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "12% das verbas estaduais"
+    },
+    {
+      "id": "p34",
+      "tema": "saude",
+      "subtema": "hospitais regionais",
+      "resumo": "Propõe pelo menos dois novos hospitais regionais estaduais, no Noroeste Fluminense e na Baixada Fluminense.",
+      "trecho": "Implementar pelo menos dois novos hospitais regionais estaduais: Um no Noroeste Fluminense e outro na Baixada Fluminense",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "2 hospitais regionais"
+    },
+    {
+      "id": "p35",
+      "tema": "saude",
+      "subtema": "contratos / auditoria",
+      "resumo": "Propõe revisar e auditar contratos de OSs, OSCIPs, fundações e PPPs na saúde.",
+      "trecho": "Promover a revisão e auditoria de todos os contratos de terceirização de serviços e privatização da gestão celebrados pelo governo anterior: OS’s e OSCIP’s, Fundações Estatais de Direito Privado, Empresas Públicas de Direito Privado e Parcerias Público-Privadas;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p36",
+      "tema": "educacao",
+      "subtema": "CIEPs / tempo integral",
+      "resumo": "Promete colocar 30 CIEPs em funcionamento em tempo integral no primeiro ano de mandato.",
+      "trecho": "Colocar em funcionamento 30 CIEPs no modelo integral, no primeiro ano de mandato, privilegiando as áreas mais vulneráveis do nosso estado;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "30 CIEPs no 1º ano"
+    },
+    {
+      "id": "p37",
+      "tema": "educacao",
+      "subtema": "evasão / renda para estudantes",
+      "resumo": "Propõe renda básica para alunos inscritos no CadÚnico para combater a evasão escolar.",
+      "trecho": "Fornecer uma renda básica para os alunos inscritos no Cadúnico, de forma a mantê-los na escola, combatendo a evasão escolar;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "educacao",
+      "subtema": "piso do magistério",
+      "resumo": "Propõe pagar o piso nacional docente, atualizado anualmente.",
+      "trecho": "Garantir o pagamento do piso nacional docente, atualizado anualmente segundo legislação federal e respeitando o Plano de Cargos, Carreiras e Remuneração",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p39",
+      "tema": "educacao",
+      "subtema": "ensino religioso / laicidade",
+      "resumo": "Propõe projeto de lei para acabar com o ensino religioso na rede estadual e ampliar filosofia e sociologia.",
+      "trecho": "Garantir a laicidade nas escolas da rede estadual de ensino, com envio de projeto à Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ) para modificar o currículo apontando o fim do ensino religioso na rede e a ampliação da carga horária de filosofia e sociologia;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p40",
+      "tema": "educacao",
+      "subtema": "universidades estaduais",
+      "resumo": "Propõe atingir 6% da receita do estado para as universidades estaduais até o último ano do mandato.",
+      "trecho": "Garantir autonomia financeira para as universidades estaduais, com a ampliação progressiva dos recursos públicos reservados ao ensino, à pesquisa e a programas de extensão, com a meta de atingir 6% da receita do Governo do Estado para as universidades estaduais até o último ano do mandato;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "6% da receita até 2030"
+    },
+    {
+      "id": "p41",
+      "tema": "educacao",
+      "subtema": "Uezo / campus em Campo Grande",
+      "resumo": "Em entrevista ao RJ1, prometeu campus próprio da Uezo em Campo Grande, ligado a um complexo de saúde na Zona Oeste.",
+      "trecho": "Eu vou criar o campus próprio da Uezo em Campo Grande para a gente fazer esse complexo da saúde ali na Zona Oeste da cidade do Rio de Janeiro.",
+      "fonte_id": "f5",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p42",
+      "tema": "moradia",
+      "subtema": "programa habitacional / favelas",
+      "resumo": "Propõe o programa Habita Rio, com moradia popular, urbanização de favelas e uma imobiliária pública.",
+      "trecho": "Criar o programa Habita Rio, que será constituído de três pilares: um programa de moradia popular; um programa de urbanização das favelas; e uma imobiliária pública voltada para a construção de moradias de qualidade a preço acessível;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p43",
+      "tema": "moradia",
+      "subtema": "remoções",
+      "resumo": "Propõe extinguir a atual política de remoções.",
+      "trecho": "Extinguir a atual política de remoções, construindo um modelo de política habitacional que respeite os princípios constitucionais no que tange ao direito à integridade e inviolabilidade do domicílio;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p44",
+      "tema": "moradia",
+      "subtema": "mutirões e autogestão",
+      "resumo": "Propõe construção de moradias populares por mutirão e autogestão com as comunidades.",
+      "trecho": "Criar um programa de construção de moradias populares através de multirões e autogestão, em conjunto com as famílias das comunidades locais e entidades da sociedade civil organizada",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p45",
+      "tema": "direitos",
+      "subtema": "assistência social / transferência de renda",
+      "resumo": "Propõe a Renda Básica Fluminense, auxílio permanente às 600 mil famílias mais pobres, com teto de meio salário mínimo por família.",
+      "trecho": "Criar o programa Renda Básica Fluminense para garantir um auxílio financeiro permanente às 600 mil famílias mais pobres do estado (as 10% mais pobres), tendo como objetivo consolidar uma política estrutural de transferência de renda voltada para a erradicação da extrema pobreza e a superação das desigualdades urbanas;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "600 mil famílias; teto de meio salário mínimo por família"
+    },
+    {
+      "id": "p46",
+      "tema": "direitos",
+      "subtema": "população LGBT+",
+      "resumo": "Propõe um Plano Estadual de Políticas LGBTIAPN+ supervisionado pelo conselho estadual.",
+      "trecho": "Instituir um Plano Estadual de Políticas LGBTIAPN+, sob a supervisão do Conselho Estadual dos Direitos da População LGBT (CELGBT)",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p47",
+      "tema": "direitos",
+      "subtema": "racismo / intolerância religiosa",
+      "resumo": "Propõe núcleos regionais da Decradi, delegacia de crimes raciais e de intolerância religiosa.",
+      "trecho": "Criar núcleos regionais da DECRADI, ampliando o enfrentamento aos crimes de racismo e intolerância religiosa.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p48",
+      "tema": "gestao",
+      "subtema": "servidores / reajuste anual",
+      "resumo": "Propõe reajuste salarial anual dos servidores pelo IPCA, com data-base fixa.",
+      "trecho": "Instituir uma política permanente de valorização dos servidores públicos estaduais, assegurando reajuste salarial anual, em mês fixo definido como data-base do funcionalismo, com recomposição das perdas inflacionárias acumuladas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA).",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "Reajuste anual pelo IPCA"
+    },
+    {
+      "id": "p49",
+      "tema": "gestao",
+      "subtema": "servidores / reajuste e comissionados (entrevista)",
+      "resumo": "Em entrevista ao Extra, prometeu reajustes anuais, fim da 'lógica' de contratações e comissionados e piso nacional da educação.",
+      "trecho": "Vamos dar reajustes todos os anos. Também vamos acabar com essa lógica de contratações e comissionados no Estado do Rio de Janeiro. Vamos dar o piso nacional da Educação e reformar os lugares de trabalho",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "gestao",
+      "subtema": "concursos",
+      "resumo": "Propõe convocar todos os aprovados em concursos vigentes antes de abrir novos, e calendário progressivo de concursos.",
+      "trecho": "Convocar todos os candidatos aprovados em concursos públicos ainda vigentes antes da realização de novos concursos;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p51",
+      "tema": "gestao",
+      "subtema": "cargos comissionados / terceirização",
+      "resumo": "Propõe reduzir cargos em comissão e limitar contratações temporárias e terceirização.",
+      "trecho": "Reduzir o número de cargos em comissão criados a partir de postos ociosos de servidores efetivos, reduzindo a relação de dependência do servidor público com a gestão de momento, realizando concursos públicos para o provimento de todas as lacunas de pessoal e a consequente fortalecimento do Fundo RioPrevidência;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p52",
+      "tema": "gestao",
+      "subtema": "máquina pública / secretarias",
+      "resumo": "Propõe reestruturar o organograma com o objetivo de reduzir o número de secretarias.",
+      "trecho": "Reestruturar o organograma das secretarias do Estado para otimizar o uso dos recursos públicos e garantir a integração dos órgãos estatais de forma que a execução das ações de governo nas diferentes regiões do estado seja mais eficaz, eficiente e efetiva, com o objetivo final de reduzir o número de secretarias ;",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p53",
+      "tema": "gestao",
+      "subtema": "Rioprevidência / capitalização",
+      "resumo": "Propõe plano de capitalização do Rioprevidência, incluindo devolução de valores retidos pelo Tesouro, como contribuições patronais.",
+      "trecho": "Garantir, em diálogo com o conjunto dos servidores, um plano de capitalização do Fundo Único de Previdência Social do Estado do Rio de Janeiro (RIOPREVIDÊNCIA), que inclua a devolução de valores indevidamente retidos pelo tesouro, como as contribuições patronais;",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "gestao",
+      "subtema": "Rioprevidência / securitização de royalties",
+      "resumo": "Propõe auditar e renegociar as operações de securitização de royalties do Rioprevidência (Rio Delaware I e II).",
+      "trecho": "Auditar e renegociar os contratos de securitização de royalties do Fundo Único de Previdência Social do Estado do Rio de Janeiro (RIOPREVIDÊNCIA), operações conhecidas como Rio Delaware (I & II);",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "gestao",
+      "subtema": "participação / orçamento participativo",
+      "resumo": "Propõe programa estadual de orçamento participativo.",
+      "trecho": "Desenvolver um Programa Estadual de Orçamento Participativo, sob coordenação da SEPLAG",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "economia: corte de 30% nas renúncias fiscais com arrecadação extra de cerca de R$ 7 bilhões — só em paráfrase (O Globo e CBN, 09/09/2026); não registrado",
+    "economia: ICMS — sem proposta de alteração de alíquotas",
+    "economia: royalties do petróleo — sem proposta sobre partilha/redistribuição; só a diversificação econômica e a auditoria da securitização do Rioprevidência",
+    "seguranca: meta numérica de redução de homicídios/letalidade e de efetivo policial — não encontrada",
+    "seguranca: câmeras corporais — não encontradas no plano",
+    "seguranca: unificar as polícias e acabar com indicações para comandos de batalhões e delegacias — o fim das indicações só aparece em paráfrase (O Globo 09/09/2026); registrada só a extinção das secretarias que está no plano",
+    "transporte: BRT e ônibus intermunicipais — só integração e auditoria de contratos, sem proposta específica",
+    "transporte: valor ou prazo da tarifa zero geral — o plano fala em 'redução progressiva e acelerada' sem cronograma",
+    "saude: filas de cirurgias e exames (Sisreg) — sem meta encontrada",
+    "educacao: escolas cívico-militares — sem posição encontrada",
+    "moradia: meta numérica de unidades habitacionais — não encontrada",
+    "gestao: combate à corrupção — o plano cita um Estatuto de Integridade Pública e auditorias, sem metas; declarações sobre 'ralo da corrupção' só em paráfrase"
+  ]
+}

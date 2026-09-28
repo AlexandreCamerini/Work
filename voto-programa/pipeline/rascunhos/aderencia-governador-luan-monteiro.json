@@ -1,0 +1,472 @@
+{
+  "candidato_id": "luan-monteiro",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 65,
+        "evidencias": [
+          "p38"
+        ],
+        "justificativa": "Defende devolver metrô, trens e ônibus ao controle estatal, sem condicionar a medida ao descumprimento de metas."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p38"
+        ],
+        "justificativa": "Defende devolver os transportes ao controle estatal em vez de manter e fiscalizar as concessões."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Item do programa nacional prevê passe livre para desempregados e trabalhadores informais, sem redução geral das passagens."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p5",
+          "p13"
+        ],
+        "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, mas outro item do programa nacional defende o fim da Lei de Responsabilidade Fiscal."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p38"
+        ],
+        "justificativa": "Defende devolver ônibus, trens e metrô ao controle estatal, sem mencionar a bilhetagem eletrônica."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Item do programa nacional prevê passe livre para desempregados e informais, sem proposta de reduzir a tarifa do metrô para todos."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 5,
+        "evidencias": [
+          "p37"
+        ],
+        "justificativa": "Defende que a saúde seja inteiramente pública e que os serviços passem às mãos do Estado."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p25",
+          "p24"
+        ],
+        "justificativa": "Item do programa nacional propõe plano de emergência para construir hospitais e postos de saúde, sem mencionar centros de especialidades."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro de servidores, sem mencionar médicos ou especialistas."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": 15,
+        "evidencias": [
+          "p18"
+        ],
+        "justificativa": "Item do programa nacional defende eleição direta para todos os cargos de gestão nas escolas, modelo diferente da gestão disciplinar por militares."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p27",
+          "p32"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar, item do programa nacional, e diz não acreditar que as polícias resolvam a segurança."
+      },
+      "b": {
+        "nota": 10,
+        "evidencias": [
+          "p32",
+          "p27"
+        ],
+        "justificativa": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende dissolver a PM, item do programa nacional."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p33",
+          "p32"
+        ],
+        "justificativa": "Defende substituir o controle do Estado pela segurança de bairro e pelo armamento da população."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p27",
+          "p31"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar e o aparato repressivo, item do programa nacional, sem proposta sobre a letalidade das operações."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p27",
+          "p32"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar, item do programa nacional, e diz não acreditar que as polícias resolvam a segurança."
+      },
+      "b": {
+        "nota": 10,
+        "evidencias": [
+          "p32",
+          "p27"
+        ],
+        "justificativa": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende dissolver a PM, item do programa nacional."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p33",
+          "p32"
+        ],
+        "justificativa": "Defende substituir o controle do Estado pela segurança de bairro e pelo armamento da população."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p27",
+          "p31"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar e o aparato repressivo, item do programa nacional, sem proposta sobre a letalidade das operações."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p27",
+          "p32"
+        ],
+        "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+      },
+      "b": {
+        "nota": 0,
+        "evidencias": [
+          "p27",
+          "p31"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Diz não acreditar que a Polícia Militar e a Polícia Civil tenham condições de resolver a segurança."
+      },
+      "d": {
+        "nota": 15,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p27",
+          "p32"
+        ],
+        "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+      },
+      "b": {
+        "nota": 0,
+        "evidencias": [
+          "p27",
+          "p31"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Diz não acreditar que a Polícia Militar e a Polícia Civil tenham condições de resolver a segurança."
+      },
+      "d": {
+        "nota": 15,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": 45,
+        "evidencias": [
+          "p36",
+          "p4"
+        ],
+        "justificativa": "Defende recuperar a Cedae e, em item do programa nacional, proibir cortes de água para desempregados, sem mencionar revisão de tarifas."
+      },
+      "b": {
+        "nota": 20,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Defende recuperar a Cedae e reestatizar os serviços, em vez de fiscalizar as metas da concessão."
+      },
+      "c": {
+        "nota": 70,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Defende recuperar a Cedae, sem condicionar a medida ao descumprimento de metas."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p34",
+          "p35"
+        ],
+        "justificativa": "Aponta a reindustrialização como prioridade e defende explorar o petróleo para gerar empregos, sem mencionar incentivos estaduais."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p35",
+          "p34"
+        ],
+        "justificativa": "Defende que o Estado explore o petróleo para gerar empregos e priorize a reindustrialização."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p1"
+        ],
+        "justificativa": "Item do programa nacional defende repor integralmente as perdas salariais e dar aumento emergencial de 50% a todos os salários, sem periodicidade anual."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Item do programa nacional defende concursos periódicos para repor o quadro, sem mencionar a convocação de excedentes."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 0,
+        "evidencias": [
+          "p27",
+          "p31"
+        ],
+        "justificativa": "Defende dissolver a Polícia Militar, também item do programa nacional."
+      },
+      "b": {
+        "nota": 10,
+        "evidencias": [
+          "p27",
+          "p32"
+        ],
+        "justificativa": "Item do programa nacional defende dissolver todo o aparato repressivo e, em entrevista, defende segurança feita por conselhos de bairro."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p32",
+          "p33"
+        ],
+        "justificativa": "Defende segurança de bairro e armamento da população em lugar da ação das polícias."
+      },
+      "d": {
+        "nota": 15,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Diz não acreditar que as polícias resolvam a segurança, sem proposta sobre videomonitoramento."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 0,
+        "evidencias": [
+          "p13"
+        ],
+        "justificativa": "Item do programa nacional defende o fim do teto de gastos e da Lei de Responsabilidade Fiscal."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p12",
+          "p14",
+          "p15"
+        ],
+        "justificativa": "Itens do programa nacional defendem concursos periódicos, estabilidade dos servidores e fim das terceirizações."
+      }
+    }
+  }
+}

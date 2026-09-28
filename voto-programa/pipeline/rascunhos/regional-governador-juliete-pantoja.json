@@ -1,0 +1,99 @@
+{
+  "candidato_id": "juliete-pantoja",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p52"
+        ],
+        "justificativa": "Propõe garantir a chegada do metrô a Niterói e São Gonçalo, sem citar a Linha 3 pelo nome."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p64"
+        ],
+        "justificativa": "Defende a estatização do transporte do estado em vez de manter e fiscalizar concessionárias."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p64",
+          "p49"
+        ],
+        "justificativa": "Defende a estatização do transporte do estado e a redução de 50% das passagens de todos os transportes, sem citar as barcas nominalmente."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 15,
+        "evidencias": [
+          "p64"
+        ],
+        "justificativa": "Defende a estatização do transporte do estado, sem mencionar rodovias."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p64",
+          "p51"
+        ],
+        "justificativa": "Propõe investir na malha ferroviária e ampliá-la, sem declarar prioridade sobre o transporte rodoviário."
+      },
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p49",
+          "p50"
+        ],
+        "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes, bilhete único intermunicipal e passe livre intermunicipal para estudantes, sem detalhar o subsídio."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p32",
+          "p27"
+        ],
+        "justificativa": "Propõe atenção primária e Saúde da Família em todas as cidades e recomposição do orçamento da saúde, sem mencionar construção de hospitais regionais."
+      },
+      "b": {
+        "nota": 35,
+        "evidencias": [
+          "p32",
+          "p27"
+        ],
+        "justificativa": "Propõe atenção primária em todas as cidades e recomposição do orçamento da saúde, sem mencionar oncologia ou diagnóstico de alta complexidade."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p27",
+          "p26"
+        ],
+        "justificativa": "Propõe recompor o orçamento da saúde e retomar a administração direta, encerrando os contratos com OSs, sem mencionar custeio condicionado a metas."
+      },
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p27",
+          "p62"
+        ],
+        "justificativa": "Propõe abrir concurso público para a saúde como primeira medida da área."
+      }
+    }
+  }
+}

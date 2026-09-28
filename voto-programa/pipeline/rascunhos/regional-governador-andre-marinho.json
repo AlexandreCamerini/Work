@@ -1,0 +1,96 @@
+{
+  "candidato_id": "andre-marinho",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 70,
+        "evidencias": [
+          "p22",
+          "p23"
+        ],
+        "justificativa": "O plano apoia a Linha 3 Praça XV–Niterói–São Gonçalo, e em campanha propôs a Linha Azul, metrô acoplado à Ponte Rio-Niterói."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 70,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe que uma Autoridade Metropolitana de Mobilidade, que inclui as barcas, redesenhe as concessões com metas e fiscalização, sem mencionar sanções."
+      },
+      "d": {
+        "nota": 10,
+        "evidencias": [
+          "p19",
+          "p33"
+        ],
+        "justificativa": "Propõe redesenhar as concessões de transporte com metas e fiscalização e um programa de desestatização de estatais deficitárias."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": 20,
+        "evidencias": [
+          "p26"
+        ],
+        "justificativa": "Propõe conceder cerca de 700 km de rodovias estaduais à iniciativa privada, e não recuperá-las com recursos do estado."
+      },
+      "b": {
+        "nota": 100,
+        "evidencias": [
+          "p26"
+        ],
+        "justificativa": "Propõe conceder cerca de 700 km de rodovias estaduais em lotes, sem criar novos pedágios."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p15",
+          "p21",
+          "p26"
+        ],
+        "justificativa": "Propõe um eixo de VLT na Baixada e renovar a frota de trens, mas também conceder rodovias estaduais, sem priorizar um modo sobre o outro."
+      },
+      "d": {
+        "nota": 35,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Propõe passe livre para jovens em formação técnica, sem subsídio geral às passagens de ônibus intermunicipal."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p42",
+          "p40"
+        ],
+        "justificativa": "Propõe policlínicas regionais de média e alta complexidade e polos de oncologia e diagnóstico no interior, sem construção de hospitais regionais."
+      },
+      "b": {
+        "nota": 100,
+        "evidencias": [
+          "p40",
+          "p42"
+        ],
+        "justificativa": "Propõe ao menos um polo de oncologia ou diagnóstico de alta complexidade em cada região do interior desassistida."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}

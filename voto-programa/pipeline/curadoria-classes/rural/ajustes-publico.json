@@ -1,0 +1,58 @@
+[
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "caminhao-pipa",
+    "publico_antes": {
+      "faixa": [
+        "privado"
+      ]
+    },
+    "publico_depois": {
+      "faixa": [
+        "privado"
+      ],
+      "zona": [
+        "urbana"
+      ]
+    },
+    "motivo": "R2-R4 de R-rural.md: cena de prédio/praia/garagem chega ao rural de faixa média ou alta. Com a regra 'zona pulada = cidade', quem pula continua vendo."
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "correria-praia",
+    "publico_antes": {
+      "faixa": [
+        "privado",
+        "misto"
+      ]
+    },
+    "publico_depois": {
+      "faixa": [
+        "privado",
+        "misto"
+      ],
+      "zona": [
+        "urbana"
+      ]
+    },
+    "motivo": "R2-R4 de R-rural.md: cena de prédio/praia/garagem chega ao rural de faixa média ou alta. Com a regra 'zona pulada = cidade', quem pula continua vendo."
+  },
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "garagem-alagada",
+    "publico_antes": {
+      "faixa": [
+        "privado"
+      ]
+    },
+    "publico_depois": {
+      "faixa": [
+        "privado"
+      ],
+      "zona": [
+        "urbana"
+      ]
+    },
+    "motivo": "R2-R4 de R-rural.md: cena de prédio/praia/garagem chega ao rural de faixa média ou alta. Com a regra 'zona pulada = cidade', quem pula continua vendo."
+  }
+]

@@ -1,0 +1,481 @@
+{
+  "candidato_id": "coronel-busnello",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 30,
+        "evidencias": [
+          "p29"
+        ],
+        "justificativa": "Propõe fiscalizar o cumprimento das metas do contrato de operação dos trens definido em leilão, sem prever rescisão."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p29"
+        ],
+        "justificativa": "Propõe fiscalizar rigorosamente, pela Setram, as metas do contrato de operação dos trens."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p28"
+        ],
+        "justificativa": "Propõe recuperar os trens com nova frota, sinalização e requalificação de estações, sem padrão BRT nem programa de segurança nos trens."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p32"
+        ],
+        "justificativa": "Propõe estender a Linha 2 até Niterói e depois a Linha 3 até São Gonçalo."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p35",
+          "p33"
+        ],
+        "justificativa": "Propõe BRT na Baixada integrado ao BRT da capital."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p34"
+        ],
+        "justificativa": "Propõe integrar a bilhetagem entre sistemas, sem mencionar retirá-la do controle das empresas de ônibus."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p12"
+        ],
+        "justificativa": "Propõe reduzir a fila pela Central de Vagas RJ com regulação unificada, sem mencionar compra de serviços privados."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p12",
+          "p16"
+        ],
+        "justificativa": "Propõe a Central de Vagas RJ e UTIs em hospitais existentes, sem criar centros regionais de especialidades."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p12"
+        ],
+        "justificativa": "Propõe reduzir a fila pela Central de Vagas RJ, sem propor mutirão de cirurgias."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p14"
+        ],
+        "justificativa": "Propõe cofinanciar 1.200 novas equipes de Saúde da Família nos municípios, sem mencionar especialistas na rede estadual."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p24"
+        ],
+        "justificativa": "Propõe expandir escolas cívico-militares até 25 unidades, com consulta pública vinculante e adesão voluntária."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p22",
+          "p26"
+        ],
+        "justificativa": "Propõe o Professor Formador nas regiões de pior Ideb e escolas abertas nos fins de semana com eixo de aprendizagem, sem reforço no contraturno."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe retomada de territórios em três fases como eixo da segurança, com pilotos na Baixada, Capital e São Gonçalo."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p4",
+          "p9"
+        ],
+        "justificativa": "Propõe asfixia financeira e inteligência como primeira fase da retomada, sem definir a prisão como objetivo das operações."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe Unidade de Controle Territorial permanente com policiamento e serviços sociais em cada território retomado."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Diz que sua política não será de tiro, porrada e bomba, sem propor indicador de redução de letalidade."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p4",
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe retomada de territórios em três fases como eixo da segurança, com pilotos na Baixada, Capital e São Gonçalo."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p4",
+          "p9"
+        ],
+        "justificativa": "Propõe asfixia financeira e inteligência como primeira fase da retomada, sem definir a prisão como objetivo das operações."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Propõe Unidade de Controle Territorial permanente com policiamento e serviços sociais em cada território retomado."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Diz que sua política não será de tiro, porrada e bomba, sem propor indicador de redução de letalidade."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p2"
+        ],
+        "justificativa": "Propõe convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p3"
+        ],
+        "justificativa": "Propõe centro de comando unificado com reconhecimento facial, leitura de placas e integração ao monitoramento municipal."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p2"
+        ],
+        "justificativa": "Propõe convocar aprovados da PM e da Polícia Civil e formar ao menos 3.500 novos profissionais por ano."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p3"
+        ],
+        "justificativa": "Propõe centro de comando unificado com leitura automática de placas, câmeras e integração ao monitoramento municipal."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p55"
+        ],
+        "justificativa": "Propõe botão de socorro silencioso no app 190 para mulheres com medida protetiva, e não monitoramento do agressor."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p55"
+        ],
+        "justificativa": "Propõe comando especializado da Patrulha Maria da Penha, sem mencionar delegacias da mulher 24 horas."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p55"
+        ],
+        "justificativa": "Propõe auxílio-moradia emergencial de R$ 1.000 por três meses para mulheres que precisem deixar o lar."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p54"
+        ],
+        "justificativa": "Propõe reflorestamento de encostas, sem mencionar obras de macrodrenagem."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p54"
+        ],
+        "justificativa": "Propõe alertas automáticos por Cell Broadcast apoiados por modelos meteorológicos."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p52"
+        ],
+        "justificativa": "Propõe protocolo com as concessionárias para retomar obras de saneamento paralisadas e conselho de vigilância da água."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p39",
+          "p42",
+          "p43"
+        ],
+        "justificativa": "Propõe reindustrializar o estado com polos industriais e incentivos de ICMS, sem citar a indústria naval."
+      },
+      "c": {
+        "nota": 20,
+        "evidencias": [
+          "p42",
+          "p43"
+        ],
+        "justificativa": "Defende atrair investimentos por renúncias fiscais ou investimento do próprio Estado para reindustrializar."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p21",
+          "p57"
+        ],
+        "justificativa": "Propõe adequar salários de professores ao piso nacional, mas também gatilho de contenção da despesa de pessoal."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p23",
+          "p1"
+        ],
+        "justificativa": "Propõe bonificação por indicadores para professores e gestores escolares e progressão por mérito nas forças de segurança."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p2"
+        ],
+        "justificativa": "Compromete-se a convocar aprovados em concursos da PM e da Polícia Civil."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p41"
+        ],
+        "justificativa": "Propõe portal único digital para regimes especiais e licenças, com prazo máximo de 60 dias."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p41",
+          "p50"
+        ],
+        "justificativa": "Propõe prazo máximo de resposta para licenças e desburocratização da regularização fundiária."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p57",
+          "p39"
+        ],
+        "justificativa": "Propõe revisão periódica das renúncias fiscais e incentivo de ICMS a fertilizantes, sem contrapartida de emprego."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p2",
+          "p8"
+        ],
+        "justificativa": "Propõe formar 3.500 agentes por ano e expandir o Segurança Presente com base fixa e patrulhamento a pé."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p4",
+          "p6"
+        ],
+        "justificativa": "Propõe retomada de territórios dominados por facções em três fases."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p3"
+        ],
+        "justificativa": "Propõe centro de comando unificado com reconhecimento facial e câmeras integradas às polícias."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 70,
+        "evidencias": [
+          "p57"
+        ],
+        "justificativa": "Propõe gatilho automático de contenção quando a despesa de pessoal passar de 49% da receita corrente líquida."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p59",
+          "p58"
+        ],
+        "justificativa": "Propõe política de integridade nas contratações e auditoria cruzada contínua da folha."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p56"
+        ],
+        "justificativa": "Propõe revisão técnica das secretarias com fusão das pastas de missão sobreposta."
+      }
+    }
+  }
+}

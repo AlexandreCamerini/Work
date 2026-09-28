@@ -1,0 +1,105 @@
+/* Só a Proposta — tokens de marca (proposta, não aplicada em src/)
+ * Fontes: npm i @fontsource-variable/fraunces @fontsource-variable/atkinson-hyperlegible-next
+ *   import '@fontsource-variable/fraunces'; import '@fontsource-variable/atkinson-hyperlegible-next';
+ * Contraste WCAG 2.x calculado (AA texto normal >= 4.5:1):
+ *   claro  texto           sobre fundo           15.62:1
+ *   claro  texto           sobre superficie      16.98:1
+ *   claro  texto-suave     sobre fundo            6.97:1
+ *   claro  texto-suave     sobre superficie       7.57:1
+ *   claro  sobre-primaria  sobre primaria         9.11:1
+ *   claro  primaria        sobre fundo            8.39:1
+ *   claro  sobre-destaque  sobre destaque        10.12:1
+ *   claro  destaque-texto  sobre fundo            6.16:1
+ *   claro  sucesso         sobre fundo            5.51:1
+ *   claro  aviso           sobre fundo            5.82:1
+ *   claro  erro            sobre fundo            6.01:1
+ *   claro  texto           sobre destaque-suave  14.20:1
+ *   claro  primaria        sobre superficie       9.11:1
+ *   escuro texto           sobre fundo           16.25:1
+ *   escuro texto           sobre superficie      14.66:1
+ *   escuro texto-suave     sobre fundo            7.98:1
+ *   escuro texto-suave     sobre superficie       7.20:1
+ *   escuro sobre-primaria  sobre primaria         8.42:1
+ *   escuro primaria        sobre fundo            8.42:1
+ *   escuro sobre-destaque  sobre destaque        11.08:1
+ *   escuro destaque-texto  sobre fundo           11.08:1
+ *   escuro sucesso         sobre fundo            9.98:1
+ *   escuro aviso           sobre fundo           10.38:1
+ *   escuro erro            sobre fundo            8.14:1
+ *   escuro texto           sobre destaque-suave  11.84:1
+ *   escuro primaria        sobre superficie       7.60:1
+ */
+:root {
+  --cor-fundo: #F5F5FA;
+  --cor-destaque-suave: #FFE6D8;
+  --cor-superficie: #FFFFFF;
+  --cor-texto: #191A33;
+  --cor-texto-suave: #4F5270;
+  --cor-linha: #DCDCE8;
+  --cor-primaria: #3B34B0;
+  --cor-primaria-forte: #29237F;
+  --cor-sobre-primaria: #FFFFFF;
+  --cor-destaque: #FFB892;
+  --cor-sobre-destaque: #191A33;
+  --cor-destaque-texto: #9C3F14;
+  --cor-sucesso: #1D7148;
+  --cor-aviso: #8A5300;
+  --cor-erro: #B3261E;
+  --cor-foco: var(--cor-primaria);
+  --fonte-titulo: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
+  --fonte-texto: 'Atkinson Hyperlegible Next Variable', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --raio: 14px;
+  --raio-botao: 14px;
+  --sombra-botao: 0 3px 0 var(--cor-primaria-forte);
+  --fonte-titulo-variacoes: "SOFT" 100, "WONK" 0;
+  --t-12: 0.75rem;
+  --t-14: 0.875rem;
+  --t-16: 1rem;
+  --t-18: 1.125rem;
+  --t-20: 1.25rem;
+  --t-24: 1.5rem;
+  --t-32: 2rem;
+  --t-40: 2.5rem;
+  --peso-texto: 400;
+  --peso-forte: 700;
+  --peso-titulo: 800;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cor-fundo: #11121F;
+    --cor-destaque-suave: #3A2A2E;
+    --cor-superficie: #1B1C2E;
+    --cor-texto: #EFEFF7;
+    --cor-texto-suave: #A6A8C4;
+    --cor-linha: #2D2F48;
+    --cor-primaria: #A9A5FF;
+    --cor-primaria-forte: #7F79F0;
+    --cor-sobre-primaria: #11121F;
+    --cor-destaque: #FFB892;
+    --cor-sobre-destaque: #11121F;
+    --cor-destaque-texto: #FFB892;
+    --cor-sucesso: #5FD39B;
+    --cor-aviso: #F2B84B;
+    --cor-erro: #FF8A80;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --cor-fundo: #11121F;
+  --cor-destaque-suave: #3A2A2E;
+  --cor-superficie: #1B1C2E;
+  --cor-texto: #EFEFF7;
+  --cor-texto-suave: #A6A8C4;
+  --cor-linha: #2D2F48;
+  --cor-primaria: #A9A5FF;
+  --cor-primaria-forte: #7F79F0;
+  --cor-sobre-primaria: #11121F;
+  --cor-destaque: #FFB892;
+  --cor-sobre-destaque: #11121F;
+  --cor-destaque-texto: #FFB892;
+  --cor-sucesso: #5FD39B;
+  --cor-aviso: #F2B84B;
+  --cor-erro: #FF8A80;
+  color-scheme: dark;
+}

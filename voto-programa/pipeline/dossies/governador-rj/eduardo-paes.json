@@ -1,0 +1,1726 @@
+{
+  "candidato_id": "eduardo-paes",
+  "nome": "Eduardo Paes",
+  "coletado_em": "2026-09-25",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf",
+    "observacao": "Documento: 'Plano de reconstrução do Estado do Rio de Janeiro – versão preliminar do programa de governo' (8 páginas; juntado ao registro de candidatura em 16/08/2026). O acesso direto ao TSE falhou: o DivulgaCandContas é uma SPA e não renderizou via Exa, e o ZIP proposta_governo_2026_RJ.zip veio como binário ilegível (curl/WebFetch locais bloqueados). O texto foi lido em um espelho de imprensa (ND+) cujo nome de arquivo segue o padrão do TSE (2026RJ + nº de registro 190002543380 + _01.pdf). O conteúdo bate com o resumo do plano 'registrado no TSE' feito por O Tempo e com as análises do blog Rodrigo Luz e do Tempo Real RJ. O texto é uma versão preliminar e não informa custos nem fontes de financiamento. Reportagens do g1 de 19/08 e 30/08 ainda diziam que Paes não havia apresentado plano ao TSE, possivelmente porque o documento só constava nos autos do PJe. Conferir no DivulgaCand se houve versão posterior (_02)."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Plano de reconstrução do Estado do Rio de Janeiro – versão preliminar do programa de governo (Coligação Juntos para Mudar, Coragem para Reconstruir)",
+      "veiculo": "TSE – arquivo 2026RJ190002543380_01.pdf (espelho em static.ndmais.com.br)",
+      "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002543380_01.pdf",
+      "data": "2026-08-16"
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Eduardo Paes no RJ1: propostas para segurança e fim do Riocard",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/rj1-entrevista-eduardo-paes-candidato-do-psd-ao-governo-do-rj.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Paes afirma querer aumentar arrecadação com combate a sonegação e diz que 'não tem problema' em rever concessão (sabatina CBN/O Globo/Extra/Valor)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/11/paes-afirma-que-pretende-aumentar-arrecadacao-do-governo-do-rio-com-combate-a-sonegacao.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Eduardo Paes encerra série de sabatinas ao governo do RJ (sabatina CBN/O Globo/Extra/Valor)",
+      "veiculo": "CBN",
+      "url": "https://cbn.globo.com/coberturas/eleicoes-2026/entrevista/2026/09/11/ao-vivo-eduardo-paes-encerra-serie-de-sabatinas-ao-governo-do-rio.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f5",
+      "tipo": "entrevista",
+      "titulo": "Paes promete fim da influência política na segurança, chama Ruas de ‘filhinho de papai’ e critica ‘dedo podre’ de Bolsonaro no Rio (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/politica/noticia/2026/09/eduardo-paes-encerra-sequencia-de-sabatinas-com-candidatos-ao-governo-do-rio-assista.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f6",
+      "tipo": "entrevista",
+      "titulo": "Eduardo Paes: segurança pública no RJ terá início em São Gonçalo (sabatina O Globo/Extra/Valor/CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/11/eduardo-paes-participa-de-sabatina.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f7",
+      "tipo": "entrevista",
+      "titulo": "Paes defende retomada de territórios e fala em 'autoridade moral para reconstruir o Rio' (sabatina Movimento Rio em Frente/Fecomércio)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301148-paes-defende-retomada-de-territorios-e-fala-em-autoridade-moral-para-reconstruir-o-rio.html",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f8",
+      "tipo": "entrevista",
+      "titulo": "Eleições 2026: veja as propostas de candidatos ao governo estadual do Rio para servidores",
+      "veiculo": "Extra (coluna Servidor Público)",
+      "url": "https://extra.globo.com/economia/servidor-publico/noticia/2026/09/eleicoes-2026-veja-as-propostas-de-candidatos-ao-governo-do-estado-do-rio-para-servidores.ghtml",
+      "data": "2026-09-13"
+    },
+    {
+      "id": "f9",
+      "tipo": "entrevista",
+      "titulo": "Paes à CNN: Limpeza da máquina pública feita por Couto será aprofundada",
+      "veiculo": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/paes-a-cnn-limpeza-da-maquina-publica-feita-por-couto-sera-aprofundada/",
+      "data": "2026-09-10"
+    },
+    {
+      "id": "f10",
+      "tipo": "entrevista",
+      "titulo": "Paes diz que aliados políticos serão vigiados se eleito e justifica elogios a Bacellar e relação com Cabral (RJ1)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/09/16/paes-diz-que-aliados-politicos-serao-vigiados-se-eleito-e-justifica-elogios-a-bacellar-e-relacao-com-cabral.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f11",
+      "tipo": "entrevista",
+      "titulo": "Propag dá alívio, mas governador terá de enfrentar rombo bilionário no Rio",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/31/propag-da-alivio-mas-governador-tera-de-enfrentar-rombo-bilionario-no-rio.ghtml",
+      "data": "2026-08-31"
+    },
+    {
+      "id": "f12",
+      "tipo": "reportagem",
+      "titulo": "Paes promete Supercentros Regionais de Especialidades no RJ",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/25/paes-agenda-supercentros-regionais-de-especialidades.ghtml",
+      "data": "2026-08-25"
+    },
+    {
+      "id": "f13",
+      "tipo": "reportagem",
+      "titulo": "Paes promete concluir Hospital do Câncer de Friburgo",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/18/paes-agenda-friburgo-rj.ghtml",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f14",
+      "tipo": "entrevista",
+      "titulo": "Paes defende 'neutralizar' criminosos armados que enfrentarem forças de segurança (entrevista à Rádio Tupi)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/paes-defende-neutralizar-criminosos-armados-que-enfrentarem-forcas-de-seguranca/",
+      "data": "2026-08-17"
+    },
+    {
+      "id": "f15",
+      "tipo": "reportagem",
+      "titulo": "Paes diz que vai acabar com fila do Sisreg e que não vai aceitar indicações políticas para a Saúde",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/paes-promete-acabar-com-fila-do-sisreg-com-sete-supercentros-de-saude-no-estado/",
+      "data": "2026-09-07"
+    },
+    {
+      "id": "f16",
+      "tipo": "reportagem",
+      "titulo": "Paes pretende subsidiar transporte intermunicipal e reduzir passagem",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/31/paes-pretende-subsidiar-transporte-intermunicipal-para-reduzir-preco-das-passagens-no-rj.ghtml",
+      "data": "2026-08-31"
+    },
+    {
+      "id": "f17",
+      "tipo": "reportagem",
+      "titulo": "Paes promete ampliar Transolímpica da Avenida Brasil até Nova Iguaçu",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/14/paes-promete-ampliar-transolimpica-da-avenida-brasil-ate-nova-iguacu.ghtml",
+      "data": "2026-09-14"
+    },
+    {
+      "id": "f18",
+      "tipo": "reportagem",
+      "titulo": "Em Magé, Eduardo Paes promete duplicar ramal Saracuruna e criar programa Trem Seguro",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/09/15/em-mage-eduardo-paes-promete-duplicar-ramal-saracuruna-e-criar-programa-trem-seguro.html",
+      "data": "2026-09-15"
+    },
+    {
+      "id": "f19",
+      "tipo": "reportagem",
+      "titulo": "Paes promete zerar IPVA de motos de até 180 cilindradas em todo o RJ",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/21/paes-promete-zerar-ipva-de-motos-de-ate-180-cilindradas-em-todo-o-rj.ghtml",
+      "data": "2026-09-21"
+    },
+    {
+      "id": "f20",
+      "tipo": "reportagem",
+      "titulo": "Horas após anúncio de Ruas, Paes também promete isenção de IPVA para motoboys",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/paes-entra-na-disputa-pelo-voto-dos-motoboys-com-ipva-zero-e-promete-novo-batalhao-da-pm-em-araruama/",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "f21",
+      "tipo": "reportagem",
+      "titulo": "Violência contra mulher e saúde: veja as propostas dos candidatos no RJ",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7298453-violencia-contra-mulher-e-saude-veja-as-propostas-dos-candidatos-no-rj.html",
+      "data": "2026-09-03"
+    },
+    {
+      "id": "f22",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes promete cinco Centros de Operações para monitorar chuvas e prevenir tragédias no RJ",
+      "veiculo": "Manchete RJ",
+      "url": "https://mancheterj.com/eduardo-paes-promete-cinco-centros-de-operacoes-para-monitorar-chuvas-e-prevenir-tragedias-no-rj/",
+      "data": "2026-09-02"
+    },
+    {
+      "id": "f23",
+      "tipo": "reportagem",
+      "titulo": "Paes promete levar modelo dos GETs para toda a rede estadual e tirar Rio do último lugar em aprendizagem",
+      "veiculo": "Manchete RJ",
+      "url": "https://mancheterj.com/paes-promete-levar-modelo-dos-gets-para-toda-a-rede-estadual-e-tirar-rio-do-ultimo-lugar-em-aprendizagem/",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f24",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes promete a recuperação da indústria Naval",
+      "veiculo": "Correio da Manhã",
+      "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/09/318337-eduardo-paes-promete-a-recuperacao-da-industria-naval.html",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f25",
+      "tipo": "reportagem",
+      "titulo": "Paes promete expandir sistema de monitoramento para combater o crime",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/04/paes-promete-expandir-sistema-de-monitoramento-e-inteligencia-para-combater-o-crime-no-rj.ghtml",
+      "data": "2026-09-04"
+    },
+    {
+      "id": "f26",
+      "tipo": "reportagem",
+      "titulo": "Paes promete mais policiais e novo modelo de patrulhamento",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/24/paes-promete-mais-policiais-e-novo-modelo-de-patrulhamento-se-for-eleito.ghtml",
+      "data": "2026-08-24"
+    },
+    {
+      "id": "f27",
+      "tipo": "reportagem",
+      "titulo": "Paes promete programa de retomada de territórios",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/22/paes-faz-campanha-em-sao-goncalo-e-promete-programa-de-retomada-de-territorios.ghtml",
+      "data": "2026-09-22"
+    },
+    {
+      "id": "f28",
+      "tipo": "entrevista",
+      "titulo": "As prioriades de Paes: segurança, saúde, economia e educação (sabatina Balanço Geral, Record)",
+      "veiculo": "Correio da Manhã",
+      "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/08/312094-as-prioriades-de-paes-seguranca-saude-economia-e-educacao.html",
+      "data": "2026-08-19"
+    },
+    {
+      "id": "f29",
+      "tipo": "entrevista",
+      "titulo": "Paes promete tirar policias de gabinetes da Alerj e colocar nas ruas (entrevista ao Balanço Geral, Record)",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/08/18/paes-promete-tirar-policias-de-gabinetes-da-alerj-e-colocar-nas-ruas-ninguem-quer-matar-aquela-gente-nem-pra-isso-servem.ghtml",
+      "data": "2026-08-18"
+    },
+    {
+      "id": "f30",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes afirma que vai criar o Sistema Único de Segurança Fluminense para integrar as forças municipais com as forças de segurança do estado",
+      "veiculo": "Folha do Aço",
+      "url": "https://folhadoaco.com.br/2026/09/12/eduardo-paes-afirma-que-vai-criar-o-sistema-unico-de-seguranca-fluminense-para-integrar-as-forcas-municipais-com-as-forcas-de-seguranca-do-estado/",
+      "data": "2026-09-12"
+    },
+    {
+      "id": "f31",
+      "tipo": "reportagem",
+      "titulo": "Economia: veja propostas dos candidatos ao Governo do RJ (declarações de Paes em Instagram e sabatina BandNews TV)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/30/economia-veja-propostas-dos-candidatos-ao-governo-do-rj.ghtml",
+      "data": "2026-08-30"
+    },
+    {
+      "id": "f32",
+      "tipo": "reportagem",
+      "titulo": "Paes promete batalhão da PM funcionando em janeiro",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/28/paes-diz-que-se-eleito-vai-concluir-batalhao-da-pm-em-araruama-e-coloca-lo-em-funcionamento-em-janeiro.ghtml",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "f33",
+      "tipo": "reportagem",
+      "titulo": "Em evento na CDL Campos, Eduardo Paes defende manutenção da regra dos royalties",
+      "veiculo": "Folha1 (Campos)",
+      "url": "https://www.folha1.com.br/politica/2026/04/1315754-em-evento-na-cdl-campos-eduardo-paes-defende-manutencao-da-regra-dos-royalties.html",
+      "data": "2026-04-18"
+    },
+    {
+      "id": "f34",
+      "tipo": "material_de_campanha",
+      "titulo": "Página inicial do site de campanha Eduardo Paes 55 – Governador",
+      "veiculo": "eduardopaes55.com.br",
+      "url": "https://eduardopaes55.com.br/",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "f35",
+      "tipo": "material_de_campanha",
+      "titulo": "‘É preciso autoridade moral para reconstruir o Rio’ (discurso na Firjan)",
+      "veiculo": "PSD – site do partido",
+      "url": "https://psd.org.br/noticias/e-preciso-autoridade-moral-para-reconstruir-o-rio/",
+      "data": "2026-08-24"
+    },
+    {
+      "id": "f36",
+      "tipo": "entrevista",
+      "titulo": "Paes promete priorizar retomada do Complexo do Salgueiro, critica eficácia de megaoperação e anuncia 20 mil vagas em presídios (entrevista ao RJ1)",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/16/eduardo-paes-fala-sobre-seguranca-publica-rj1.ghtml",
+      "data": "2026-09-16"
+    },
+    {
+      "id": "f37",
+      "tipo": "sabatina",
+      "titulo": "Da segurança às acusações contra adversário: veja cinco pontos da sabatina de Eduardo Paes ao GLOBO, Extra, Valor e CBN",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/09/11/da-seguranca-as-acusacoes-contra-adversario-veja-cinco-pontos-da-sabatina-de-eduardo-paes-ao-globo-extra-valor-e-cbn.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f38",
+      "tipo": "reportagem",
+      "titulo": "Paes promete criar centros de reabilitação para autistas em todo RJ",
+      "veiculo": "g1 (RJ2)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/01/paes-centros-de-reabilitacao-para-autistas.ghtml",
+      "data": "2026-09-01"
+    },
+    {
+      "id": "f39",
+      "tipo": "sabatina",
+      "titulo": "Eduardo Paes propõe 30% de ensino em tempo integral na rede estadual (sabatina O Globo, Extra, Valor e CBN)",
+      "veiculo": "g1",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/11/paes-participa-de-entrevista.ghtml",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f40",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes visita GET na Rocinha e promete expandir modelo tecnológico na rede estadual",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/eduardo-paes-visita-get-na-rocinha-e-promete-expandir-modelo-tecnologico-na-rede-estadual/",
+      "data": "2026-09-08"
+    },
+    {
+      "id": "f41",
+      "tipo": "reportagem",
+      "titulo": "Paes promete estender metrô à Baixada Fluminense e condiciona aumento de subsídio a nova bilhetagem",
+      "veiculo": "O Globo",
+      "url": "https://oglobo.globo.com/politica/noticia/2026/09/09/paes-promete-estender-metro-para-baixada-fluminense-e-condiciona-aumentar-subsidio-a-nova-bilhetagem.ghtml",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f42",
+      "tipo": "reportagem",
+      "titulo": "Paes defende licitação da bilhetagem e não descarta criação de estatal para gerir transportes no estado",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/paes-defende-licitacao-da-bilhetagem-e-nao-descarta-criacao-de-estatal-para-gerir-transportes-no-estado/",
+      "data": "2026-09-09"
+    },
+    {
+      "id": "f43",
+      "tipo": "entrevista",
+      "titulo": "O que dizem Paes, Ruas e especialistas sobre soluções para mobilidade urbana do Rio",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/o-que-dizem-paes-ruas-e-especialistas-sobre-solucoes-para-mobilidade-urbana-do-rio/",
+      "data": "2026-09-13"
+    },
+    {
+      "id": "f44",
+      "tipo": "entrevista",
+      "titulo": "Eduardo Paes defende botox e implante capilar, mas promessa para o SUS estadual é outra: 'Vai ter Ozempic para todo mundo' (coluna Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/eduardo-paes-defende-botox-e-implante-capilar-mas-promessa-para-o-sus-estadual-e-outra-vai-ter-ozempic-para-todo-mundo.ghtml",
+      "data": "2026-09-24"
+    },
+    {
+      "id": "f45",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes mira Prolagos e ViaLagos em agenda e promete agir contra tarifas e pedágio",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/eduardo-paes-mira-prolagos-e-vialagos-em-agenda-na-regiao-dos-lagos-e-promete-agir-contra-tarifas-e-pedagio/",
+      "data": "2026-08-19"
+    },
+    {
+      "id": "f46",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes volta a endurecer discurso contra taxas de esgoto da ProLagos em visita à região",
+      "veiculo": "Clique Diário",
+      "url": "https://cliquediario.com.br/politica/eduardo-paes-volta-a-endurecer-discurso-contra-taxas-de-esgoto-da-prolagos-em-visita-a-regiao",
+      "data": "2026-08-20"
+    },
+    {
+      "id": "f47",
+      "tipo": "entrevista",
+      "titulo": "Paes defende diversificação econômica e integração da Região dos Lagos (entrevista exclusiva)",
+      "veiculo": "Agenda do Poder",
+      "url": "https://agendadopoder.com.br/paes-defende-diversificacao-economica-e-integracao-da-regiao-dos-lagos/",
+      "data": "2026-08-19"
+    },
+    {
+      "id": "f48",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes defende simplificação para abertura de empresas no estado do Rio (evento da Firjan; texto com fonte 'Ascom')",
+      "veiculo": "Mensageiro NF",
+      "url": "https://mensageironf.com.br/eduardo-paes-defende-simplificacao-para-abertura-de-empresas-no-estado-do-rio/",
+      "data": "2026-08-21"
+    },
+    {
+      "id": "f49",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes promete priorizar Sul Fluminense para atrair empresas e gerar empregos",
+      "veiculo": "Manchete RJ",
+      "url": "https://mancheterj.com/eduardo-paes-promete-priorizar-sul-fluminense-para-atrair-empresas-e-gerar-empregos/",
+      "data": "2026-08-28"
+    },
+    {
+      "id": "f50",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes promete concluir Hospital de Oncologia de Nova Friburgo e Hospital da Mãe de São Gonçalo",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/09/18/eduardo-paes-promete-concluir-hospital-de-oncologia-de-nova-friburgo-e-hospital-da-mae-de-sao-goncalo.html",
+      "data": "2026-09-18"
+    },
+    {
+      "id": "f51",
+      "tipo": "entrevista",
+      "titulo": "Eduardo Paes sobre chance de ser governador do Rio: 'Se eu sair vivo e não terminar preso, já é uma vitória'",
+      "veiculo": "BBC News Brasil",
+      "url": "https://www.bbc.com/portuguese/articles/cglp64nw82go",
+      "data": "2026-05-19"
+    },
+    {
+      "id": "f52",
+      "tipo": "reportagem",
+      "titulo": "Eduardo Paes promete IPVA zero para motos de até 180 cilindradas e bases de apoio para entregadores em todo o RJ",
+      "veiculo": "Diário do Rio",
+      "url": "https://diariodorio.com/politica/2026/09/21/eduardo-paes-promete-ipva-zero-para-motos-de-ate-180-cilindradas-e-bases-de-apoio-para-entregadores-em-todo-o-rj.html",
+      "data": "2026-09-21"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "seguranca",
+      "subtema": "redução da violência / patrulhamento",
+      "resumo": "Propõe reduzir assaltos, tiroteios e feminicídios no primeiro ano de mandato com novo modelo de patrulhamento territorial, treinamento policial, fortalecimento das patrulhas Maria da Penha e aumento do efetivo conforme indicadores criminais de cada município.",
+      "trecho": "Reduzir a violência no estado, sobretudo os assaltos, tiroteios e feminicídios, de forma significativa já no primeiro ano de mandato, por meio da implantação de um novo modelo de patrulhamento territorial, do treinamento dos policiais, do fortalecimento das patrulhas Maria da Penha e do aumento do efetivo dedicado às operações de vigilância e policiamento ostensivo conforme os indicadores criminais em cada município do estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo: primeiro ano de mandato; sem meta numérica de redução"
+    },
+    {
+      "id": "p2",
+      "tema": "seguranca",
+      "subtema": "crime organizado / retomada de territórios",
+      "resumo": "Propõe conter a expansão territorial do crime organizado e retomar territórios dominados, inclusive com ações conjuntas com as Forças Armadas e investigação financeira dos grupos.",
+      "trecho": "Estancar o crescimento territorial do crime organizado em todo o estado e retomar os territórios que hoje estão sob seu domínio, inclusive por meio de ações conjuntas com as forças armadas e de investigações que rastreiem o caminho do dinheiro desses grupos.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p3",
+      "tema": "seguranca",
+      "subtema": "milícia e facções",
+      "resumo": "Declara como compromisso enfrentar crime organizado, milícia, facções e a corrupção associada a eles, com ênfase em investigação.",
+      "trecho": "Enfrentar o crime organizado, a milícia, as facções e a corrupção que os protege, com coragem, firmeza e muita investigação.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p4",
+      "tema": "seguranca",
+      "subtema": "comando das polícias / indicações políticas",
+      "resumo": "Propõe eliminar indicações de políticos na escolha de comandantes de batalhões da PM e delegados da Polícia Civil, adotando critério técnico.",
+      "trecho": "Eliminar imediatamente as indicações de políticos no processo de escolha dos comandantes dos batalhões da Polícia Militar e dos delegados da Polícia Civil, que será estritamente técnico.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo: imediato"
+    },
+    {
+      "id": "p5",
+      "tema": "saude",
+      "subtema": "hospitais e UPAs estaduais",
+      "resumo": "Propõe recuperar os hospitais e UPAs estaduais para funcionarem com mais eficiência e agilidade.",
+      "trecho": "Recuperar os serviços públicos de saúde do estado, colocando os hospitais e as UPAs estaduais para funcionarem com mais eficiência, agilidade e empatia com a população.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "saude",
+      "subtema": "regionalização e atenção primária",
+      "resumo": "Propõe ampliar a rede de saúde em regiões distantes da capital e garantir repasses para a atenção primária nos municípios.",
+      "trecho": "Ampliar a rede e o atendimento nas regiões distantes da capital e garantir os repasses para fortalecer a atenção primária da saúde em todos os municípios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "saude",
+      "subtema": "médicos e medicamentos",
+      "resumo": "Propõe contratar mais médicos e especialistas e assegurar o fornecimento e a distribuição de remédios no estado.",
+      "trecho": "Contratar mais médicos e especialistas e oferecer um atendimento humanizado para as pessoas, além de assegurar o fornecimento e distribuição de remédios em todo o estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "sem número de contratações"
+    },
+    {
+      "id": "p8",
+      "tema": "educacao",
+      "subtema": "ensino médio profissionalizante em tempo integral",
+      "resumo": "Propõe expandir o ensino médio profissionalizante em tempo integral em todo o estado, alinhado às vocações econômicas regionais.",
+      "trecho": "Expandir o ensino médio profissionalizante em tempo integral em todo o estado e de acordo com as vocações econômicas de cada região, garantindo assim mais oportunidades de trabalho e acesso ao primeiro emprego para os nossos jovens",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "educacao",
+      "subtema": "Faetec / ensino técnico",
+      "resumo": "Propõe ampliar o ensino técnico profissionalizante em tempo integral e recuperar a rede Faetec.",
+      "trecho": "Ampliar o ensino técnico profissionalizante em tempo integral, fazer as Faetecs renascerem e recolocar nossa rede estadual de ensino entre as melhores do Brasil, como já foi no passado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "educacao",
+      "subtema": "educação inclusiva / autismo",
+      "resumo": "Propõe apoiar as prefeituras na educação inclusiva e na assistência a famílias de crianças com autismo.",
+      "trecho": "Apoiar as prefeituras na educação inclusiva e na assistência às famílias de crianças com autismo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p11",
+      "tema": "economia",
+      "subtema": "atração de investimentos / emprego",
+      "resumo": "Propõe atrair empresas e investimentos, com foco em petróleo e gás, turismo, indústria naval, agronegócio e cultura e entretenimento.",
+      "trecho": "Fazer o estado voltar a atrair empresas e investimentos, gerando emprego e renda em todas as regiões de acordo com as suas vocações, sobretudo nos setores de petróleo e gás, turismo, indústria naval, agronegócio e cultura & entretenimento.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "economia",
+      "subtema": "ambiente de negócios / qualificação profissional",
+      "resumo": "Propõe melhorar o ambiente de negócios, reduzir o custo de produzir no estado e manter um programa contínuo de qualificação profissional.",
+      "trecho": "Atrair novos investimentos e empresas para o estado, dinamizar o turismo em todas as regiões, promover um amplo programa de formação e qualificação profissional de forma contínua, melhorar o ambiente de negócios, reduzir o custo de produzir no Rio, para que assim, o setor privado volte a gerar oportunidades, emprego e renda para as pessoas em todo o estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p13",
+      "tema": "transporte",
+      "subtema": "trens, BRT, metrô e ônibus intermunicipais",
+      "resumo": "Propõe colocar a SuperVia no padrão do BRT do Rio, levar o BRT à Baixada, iniciar a Linha 3 do metrô e enfrentar as empresas de ônibus intermunicipais para dar transparência à bilhetagem.",
+      "trecho": "No transporte, vamos colocar a Supervia no padrão do BRT do Rio, recuperar as estradas estaduais, levar o BRT para toda a Baixada, iniciar as obras da Linha 3 do Metrô até São Gonçalo e enfrentar as empresas de ônibus intermunicipais da mesma forma que fizemos na capital, com o objetivo de garantir mais transparência na bilhetagem, e sobretudo, mais qualidade no serviço oferecido à população.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "transporte",
+      "subtema": "metrô Linha 3",
+      "resumo": "Compromete-se a iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
+      "trecho": "Iniciar as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí até o fim do mandato.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "prazo: início das obras até o fim do mandato (2030); a conclusão não é prometida"
+    },
+    {
+      "id": "p15",
+      "tema": "transporte",
+      "subtema": "ônibus intermunicipal / tarifa",
+      "resumo": "Propõe expandir o BRT para mais cidades e dar transparência ao custo das passagens dos ônibus intermunicipais.",
+      "trecho": "Investir na melhoria do transporte metropolitano e intermunicipal, expandindo o BRT para mais cidades, além de garantir mais qualidade no serviço e transparência no custo das passagens dos ônibus intermunicipais.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p16",
+      "tema": "transporte",
+      "subtema": "estradas estaduais",
+      "resumo": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância.",
+      "trecho": "Recuperar as estradas do interior com obras de recapeamento, restauração e módulos de vigilância, atuando nos 32 mil quilômetros por onde passa tudo que é consumido e produzido no nosso estado.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "32 mil km de estradas"
+    },
+    {
+      "id": "p17",
+      "tema": "meio-ambiente",
+      "subtema": "enchentes e deslizamentos",
+      "resumo": "Propõe um plano de obras contra enchentes e deslizamentos, com prioridade para Região Serrana, Costa Verde e Baixada Fluminense.",
+      "trecho": "Implantar um grande plano de obras para combater as enchentes e prevenir deslizamentos em todo o estado, com especial atenção à Região Serrana, Costa Verde e Baixada Fluminense.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "gestao",
+      "subtema": "equilíbrio fiscal / transparência",
+      "resumo": "Propõe reequilibrar as finanças estaduais e recuperar a capacidade de investimento, com gestão por resultados, metas e transparência.",
+      "trecho": "Colocar as contas públicas em ordem, reequilibrar as finanças e devolver ao nosso estado a capacidade de investir, sempre com responsabilidade fiscal, gestão por resultados, metas claras com prestação de contas e transparência em cada área do governo.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "gestao",
+      "subtema": "relação com municípios / Conselho das Cidades",
+      "resumo": "Propõe criar um Conselho das Cidades ligado ao governador para trabalhar com os 92 municípios e reduzir desigualdades entre as oito regiões de planejamento.",
+      "trecho": "Governar em parceria com os prefeitos dos 92 municípios do nosso estado, sem distinção partidária, política ou ideológica, e por meio da criação de um Conselho das Cidades, ligado diretamente ao governador, com o objetivo de promover um maior equilíbrio nos indicadores de desenvolvimento humano nas oito regiões de planejamento do nosso estado - Metropolitana, Serrana, Norte Fluminense, Noroeste Fluminense, Região dos Lagos, Médio Paraíba, Centro-Sul Fluminense e Costa Verde.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "gestao",
+      "subtema": "repasses aos municípios",
+      "resumo": "Compromete-se a fazer sem atraso os repasses estaduais de saúde e educação aos municípios.",
+      "trecho": "Garantir sem atrasos todos os repasses para a saúde e a educação dos municípios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "economia",
+      "subtema": "relação com a União",
+      "resumo": "Declara que, em decisões que dependem do governo federal, buscará diálogo e parceria com Brasília independentemente de ideologia.",
+      "trecho": "Há decisões que dependem de Brasília, e sobre elas o nosso compromisso é outro — o de trabalhar pelo Rio de Janeiro com diálogo permanente e em parceria com o governo federal, independente de ideologias, para que este estado receba o que lhe cabe.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p22",
+      "tema": "seguranca",
+      "subtema": "Sistema Único de Segurança Fluminense",
+      "resumo": "Propõe criar o Sistema Único de Segurança Fluminense, com forças municipais atuando contra roubos e furtos e no policiamento ostensivo.",
+      "trecho": "Nós vamos criar o Sistema Único de Segurança fluminense, em que as forças municipais terão papel de [combater] roubos e furtos e policiamento ostensivo",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "seguranca",
+      "subtema": "integração com guardas municipais",
+      "resumo": "Propõe integrar guardas municipais armadas à PM para liberar a Polícia Militar para o combate ao tráfico e a retomada de territórios.",
+      "trecho": "Um trabalho integrado dessas forças municipais de guardas municipais armadas, atuando de forma integrada com a Polícia Militar, liberando a PM para suas funções de combate ao tráfico de drogas e recuperação de territórios",
+      "fonte_id": "f30",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "seguranca",
+      "subtema": "incentivo financeiro a municípios",
+      "resumo": "Propõe incentivos financeiros, via Sistema Único de Segurança Fluminense, a municípios com mais dificuldades.",
+      "trecho": "Podemos dar incentivos financeiros, por meio desse Sistema Único de Segurança Fluminense, para ajudar os municípios que tenham mais dificuldades.",
+      "fonte_id": "f30",
+      "compromisso_concreto": false,
+      "numeros": "sem valor definido"
+    },
+    {
+      "id": "p25",
+      "tema": "seguranca",
+      "subtema": "Secretaria de Segurança unificada",
+      "resumo": "Propõe recriar a Secretaria de Segurança Pública com comando unificado sobre as polícias Civil e Militar.",
+      "trecho": "Nós vamos retomar a Secretaria de Segurança Pública com o comando unificado, com o planejamento, com ações integradas, porque é assim que devem funcionar as polícias",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p26",
+      "tema": "seguranca",
+      "subtema": "autonomia financeira das polícias",
+      "resumo": "Propõe que as polícias Civil e Militar tenham autonomia financeira sob uma Secretaria de Segurança com comando unificado, sem interferência de políticos.",
+      "trecho": "Vou restabelecer a Secretaria de Segurança Pública, com autonomia financeira para as Polícias Civil e Militar, comando unificado e diretrizes claras. Sem a interferência de políticos, como acontece hoje.",
+      "fonte_id": "f28",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p27",
+      "tema": "seguranca",
+      "subtema": "sistema prisional / asfixia financeira",
+      "resumo": "Propõe criar 20 mil vagas no sistema prisional e combater o financiamento do crime organizado.",
+      "trecho": "Precisamos reformular o sistema prisional, criar 20 mil vagas, ir atrás do dinheiro do crime organizado e fazer a asfixia financeira dessas organizações.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "20 mil vagas no sistema prisional"
+    },
+    {
+      "id": "p28",
+      "tema": "seguranca",
+      "subtema": "presídios de segurança máxima",
+      "resumo": "Defende que o estado tenha presídios de segurança máxima e abra 20 mil vagas prisionais.",
+      "trecho": "O estado do Rio precisa ter presídios de segurança máxima, precisa abrir 20 mil vagas em presídios.",
+      "fonte_id": "f35",
+      "compromisso_concreto": true,
+      "numeros": "20 mil vagas"
+    },
+    {
+      "id": "p29",
+      "tema": "seguranca",
+      "subtema": "Bope / retomada de territórios",
+      "resumo": "Propõe triplicar o Bope, com bases no Complexo do Salgueiro (São Gonçalo) e na Baixada Fluminense.",
+      "trecho": "Vamos triplicar o tamanho do Bope, e um desses Bopes vai ser aqui dentro do Complexo de Salgueiro, pra mostrar bem que essa retomada é uma retomada pra ficar no dia seguinte. Outro Bope nós vamos fazer na Baixada Fluminense, para também retomar territórios lá",
+      "fonte_id": "f27",
+      "compromisso_concreto": true,
+      "numeros": "triplicar o efetivo/tamanho do Bope; 2 novas bases (Salgueiro e Baixada)"
+    },
+    {
+      "id": "p30",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios – ordem de prioridade",
+      "resumo": "Afirma que a retomada de territórios começará pelo Complexo do Salgueiro, em São Gonçalo.",
+      "trecho": "Nós vamos começar a retomada de território pelo Complexo do Salgueiro, em São Gonçalo, ali entre a BR-101 e a Baía de Guanabara",
+      "fonte_id": "f6",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p31",
+      "tema": "seguranca",
+      "subtema": "operações policiais / plano de ocupação",
+      "resumo": "Afirma que o objetivo das operações deve ser prender, com inteligência e plano de ocupação para o dia seguinte.",
+      "trecho": "Isso pressupõe inteligência. Neutralizar bandido, um marginal, não deve ser o objetivo. O objetivo deve ser prender, fazer cumprir a lei. A legítima defesa está no Código Penal, está na Constituição. Só o Estado pode neutralizar, eventualmente. O problema é você ter um plano de ocupação para o dia seguinte.",
+      "fonte_id": "f6",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "seguranca",
+      "subtema": "uso da força em confrontos",
+      "resumo": "Afirma que criminosos que aparecem com fuzil para enfrentar agentes do Estado têm de ser neutralizados, o que diz ser permitido pela lei.",
+      "trecho": "Não adianta você ir retomar um território, neutralizar um monte de bandido, e tem que neutralizar! Delinquentes que aparecem com um fuzil para enfrentar um agente do Estado, a lei permite neutralizá-lo, para não usar a expressão matar aqui, ser mais gentil. Tem que neutralizar, acabou!",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "seguranca",
+      "subtema": "força-tarefa permanente / dados",
+      "resumo": "Defende política de segurança baseada em dados e manchas criminais e força-tarefa permanente.",
+      "trecho": "Outro ponto, segurança pública se faz a partir de dados, evidências, manchas criminais, que é tudo que o governo atual, o governo do PL, há oito anos, não fez. Depois, você tem que ter força-tarefa permanente",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p34",
+      "tema": "seguranca",
+      "subtema": "distribuição do efetivo policial",
+      "resumo": "Propõe redistribuir e ampliar o efetivo policial segundo manchas criminais, com patrulhamento por missão dirigida.",
+      "trecho": "O que nós vamos fazer é redistribuir o nosso efetivo, ampliar efetivo a partir de manchas criminais, é o que tem que estar sendo feito aqui em São Gonçalo, tem que ter mais efetivo para esse cuidado. Desenvolver novos modelos de patrulhamento, por exemplo, com quadro de missão dirigida, o policial sabendo onde é que tá a mancha criminal, onde atuar",
+      "fonte_id": "f26",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "seguranca",
+      "subtema": "videomonitoramento / tecnologia",
+      "resumo": "Propõe distribuir câmeras, câmeras inteligentes e barreiras digitais pelo estado inteiro para auxiliar as forças de segurança.",
+      "trecho": "Distribuir no estado inteiro câmeras, câmeras inteligentes, barreiras digitais, para que possam auxiliar as forças de segurança",
+      "fonte_id": "f25",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p36",
+      "tema": "seguranca",
+      "subtema": "policiais cedidos à Alerj",
+      "resumo": "Afirma que policiais cedidos a gabinetes de deputados estaduais voltarão ao policiamento nas ruas.",
+      "trecho": "Quero avisar os deputados estaduais, todo mundo que tem um monte de PM e de policial civil no gabinete, fique atento. Vai todo mundo voltar para trabalhar nas ruas.",
+      "fonte_id": "f29",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "seguranca",
+      "subtema": "maioridade penal",
+      "resumo": "Declara-se totalmente a favor [da redução da maioridade penal], argumentando que quem pode votar já tem capacidade de tomar as próprias decisões.",
+      "trecho": "Totalmente a favor. Se pode votar para presidente, pode escolher quem vai governar o estado, quem vai ser o prefeito da sua cidade, parto da premissa de que já tem capacidade de tomar suas próprias decisões",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "seguranca",
+      "subtema": "batalhões / efetivo na Região dos Lagos",
+      "resumo": "Promete terminar a obra [do batalhão da PM] com a prefeitura de Araruama e ampliar, dobrando, o efetivo local, sem transferir metade do efetivo de outro batalhão.",
+      "trecho": "Eu quero garantir pra população que a gente vai terminar essa obra com prefeitura de Araruama e colocar um efetivo aqui, ampliar o efetivo e dobrar o efetivo. Não vamos fazer o que fizeram nos últimos tempos, que é quando se criava um novo batalhão, trazia metade de outro batalhão existente",
+      "fonte_id": "f32",
+      "compromisso_concreto": true,
+      "numeros": "g1 relata promessa de funcionamento em janeiro de 2027; trecho cita dobrar o efetivo"
+    },
+    {
+      "id": "p39",
+      "tema": "direitos",
+      "subtema": "mulheres / violência de gênero",
+      "resumo": "Propõe delegacias da mulher 24 horas, triplicar a Ronda Maria da Penha para 150 equipes, trabalhar para que agressores sejam monitorados por tornozeleira e levar as Casas da Mulher a todas as regiões.",
+      "trecho": "E as nossas principais propostas são: criar Delegacias de Atendimento à Mulher, com funcionamento durante 24 horas, triplicar a Ronda Maria da Penha para chegarmos a 150 equipes, trabalhar para que os agressores sejam monitorados por tornozeleira eletrônica e levar o projeto das Casas da Mulher Carioca, que serão Casas da Mulher Fluminense, para todas as regiões do estado",
+      "fonte_id": "f21",
+      "compromisso_concreto": true,
+      "numeros": "150 equipes da Ronda Maria da Penha (o g1 de 03/09 transcreveu '155 equipes'); DEAMs 24h sem número definido"
+    },
+    {
+      "id": "p40",
+      "tema": "transporte",
+      "subtema": "bilhetagem / RioCard",
+      "resumo": "Propõe tirar a bilhetagem (RioCard) do controle das empresas de ônibus.",
+      "trecho": "A 1ª coisa nos transportes é tirar o RioCard das mãos das empresas de ônibus, como nós fizemos na cidade do Rio de Janeiro. Nós vamos acabar com essa caixa-preta. É impossível tratar de subsídio com a raposa cuidando do galinheiro",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p41",
+      "tema": "transporte",
+      "subtema": "tarifa",
+      "resumo": "Declara que o objetivo é reduzir as tarifas, sem definir valor.",
+      "trecho": "Desejos, todos nós temos. Vamos baixar para todos R$ 5, R$ 4,70? É óbvio que o meu objetivo é reduzir as tarifas",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem valor de tarifa definido"
+    },
+    {
+      "id": "p42",
+      "tema": "transporte",
+      "subtema": "subsídio ao ônibus intermunicipal",
+      "resumo": "Propõe subsidiar o transporte intermunicipal para reduzir passagens, com base em dados de origem e destino dos passageiros.",
+      "trecho": "Nós vamos integrar e buscar, sim, através de um subsídio, em que você tenha conhecimento de quantas pessoas são transportadas, de onde para onde, aí sim você pode subsidiar e fazer a redução das passagens",
+      "fonte_id": "f16",
+      "compromisso_concreto": true,
+      "numeros": "sem valor de subsídio ou tarifa"
+    },
+    {
+      "id": "p43",
+      "tema": "transporte",
+      "subtema": "integração tarifária / Bilhete Único",
+      "resumo": "Propõe integrar a bilhetagem em todo o estado por meio de licitação estadual.",
+      "trecho": "Olha só, nós vamos integrar a bilhetagem em todo o Estado. Isso é possível fazer. O Jaé é uma concessão, que a prefeitura do Rio tem o controle. Você tem que fazer uma licitação no governo do Estado, algo que eles nunca fizeram, porque a máfia das empresas de ônibus nunca permitiu, nunca deixou.",
+      "fonte_id": "f16",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p44",
+      "tema": "transporte",
+      "subtema": "metrô Linha 2 e Linha 3",
+      "resumo": "Propõe estender a Linha 2 até a Praça XV e ligá-la à Linha 3 (São Gonçalo–Niterói) por túnel sob a Baía de Guanabara.",
+      "trecho": "A prioridade na verdade é uma só. De um lado, fazer a expansão da linha 2 até a praça 15 e de São Gonçalo e vindo em direção a Niterói com a linha 3. E aí essas duas linhas vão se encontrar com tunel submerso sobre o Bahia de Guanabara",
+      "fonte_id": "f16",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p45",
+      "tema": "transporte",
+      "subtema": "metrô Baixada / integração tarifária",
+      "resumo": "O site de campanha anuncia expansão do metrô para Belford Roxo e São João de Meriti, recuperação da malha ferroviária e integração tarifária.",
+      "trecho": "Eduardo Paes vai expandir o metrô para Belford Roxo e São João de Meriti, recuperar a malha ferroviária e promover a integração tarifária dos transportes",
+      "fonte_id": "f34",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p46",
+      "tema": "transporte",
+      "subtema": "trens / ramal Saracuruna",
+      "resumo": "Compromete-se a duplicar o ramal Saracuruna e colocar trens elétricos até o fim do mandato.",
+      "trecho": "Vamos duplicar o ramal Saracuruna, colocar trens elétricos e esse é um compromisso de mobilidade que vou realizar até o fim do meu mandato.",
+      "fonte_id": "f18",
+      "compromisso_concreto": true,
+      "numeros": "prazo: até o fim do mandato"
+    },
+    {
+      "id": "p47",
+      "tema": "transporte",
+      "subtema": "segurança nos trens",
+      "resumo": "Propõe criar o programa Trem Seguro, nos moldes do BRT Seguro.",
+      "trecho": "Da mesma maneira que implantamos o BRT Seguro, vamos implementar o Trem Seguro, um projeto que já se mostrou eficiente",
+      "fonte_id": "f18",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p48",
+      "tema": "transporte",
+      "subtema": "BRT na Baixada – Transolímpica",
+      "resumo": "Propõe estender a Transolímpica da Avenida Brasil até o Centro de Nova Iguaçu, passando por Nilópolis e Mesquita, com BRT.",
+      "trecho": "Primeiro, fazer com que a TransOlímpica, que eu fiz como prefeito do Rio, saia da onde ela chega na Avenida Brasil, passe por Nilópolis e Mesquita, e chegue no centro de Nova Iguaçu com BRT, conectando toda a rede BRT da cidade do Rio de Janeiro.",
+      "fonte_id": "f17",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p49",
+      "tema": "transporte",
+      "subtema": "BRT na Baixada – Via Light",
+      "resumo": "Propõe estender a Via Light até a Avenida Brasil e até Cabuçu, com BRT.",
+      "trecho": "Uma outra proposta é fazer com que a Via Light chegue a Avenida Brasil, também conectando com o BRT da TransBrasil e vá até Cabuçu, que é uma alternativa, também toda ela com BRT",
+      "fonte_id": "f17",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p50",
+      "tema": "transporte",
+      "subtema": "motociclistas de aplicativo",
+      "resumo": "Propõe bases de apoio a mototaxistas em todos os municípios, em parceria com as prefeituras.",
+      "trecho": "O meu compromisso é trabalhar com diferentes prefeitos, com os diferentes municípios para que a gente possa fazer bases de apoio para mototaxistas em todos os municípios do estado, principalmente as principais cidades",
+      "fonte_id": "f19",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p51",
+      "tema": "economia",
+      "subtema": "impostos / IPVA",
+      "resumo": "Promete zerar o IPVA de motos de até 180 cilindradas em todo o estado.",
+      "trecho": "Eu vou zerar o IPVA de motos até 180 cilindradas por todo o estado do Rio de Janeiro. Vários estados do Brasil já adotaram essa medida e está na hora do Rio pensar em quem mais precisa.",
+      "fonte_id": "f20",
+      "compromisso_concreto": true,
+      "numeros": "motos de até 180 cc; impacto fiscal não informado"
+    },
+    {
+      "id": "p52",
+      "tema": "economia",
+      "subtema": "indústria naval / emprego",
+      "resumo": "Propõe um Refis estadual para dívidas de estaleiros e estima 50 mil empregos diretos e até 250 mil indiretos.",
+      "trecho": "A primeira: o Refis para os estaleiros, com o refinanciamento das dívidas. A Prefeitura de Niterói fez isso com as dívidas que os estaleiros de Niterói tinham com o município. O ideal é que todos os municípios façam isso e o Estado fará também. Estamos falando da possibilidade de criar 50 mil empregos diretos e até 250 mil empregos indiretos.",
+      "fonte_id": "f24",
+      "compromisso_concreto": true,
+      "numeros": "estimativa: 50 mil empregos diretos e até 250 mil indiretos; sem prazo"
+    },
+    {
+      "id": "p53",
+      "tema": "economia",
+      "subtema": "ambiente de negócios / regras estáveis",
+      "resumo": "Defende previsibilidade, regras estáveis e menos burocracia para investidores.",
+      "trecho": "Nosso desafio não é inventar uma nova economia. Fazer funcionar a economia que a gente já tem aqui, que já existe, né? E, a gente pode fazer isso gente com três decisões claras aqui para começar a tratar desse assunto. Primeiro, a gente precisa dar previsibilidade, regra estável, menos burocracia e respeito aqueles que decidem investir no estado do Rio de Janeiro",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p54",
+      "tema": "economia",
+      "subtema": "vocações: energia, turismo, logística, inovação",
+      "resumo": "Defende priorizar energia, turismo, logística e inovação como vocações econômicas do estado.",
+      "trecho": "A gente precisa organizar o Estado, planejamento, prioridade e execução. É uma coisa que parece que o governo do Estado desaprendeu a fazer. Terceiro, ativar as nossas vocações: energia, turismo, logística e inovação. O Rio pode ser o maior hub energético do Brasil, com toda a cadeia produtiva. O Rio pode ser o principal destino turístico da América Latina",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p55",
+      "tema": "economia",
+      "subtema": "indústria automobilística no Sul Fluminense",
+      "resumo": "Aponta o eixo da Dutra no Sul Fluminense como área para expansão da indústria automobilística.",
+      "trecho": "Nós precisamos criar um ambiente econômico, e isso começa pelo poder Executivo, começa pelo governador, pela segurança institucional. Naquela ‘reta’ da Dutra (BR-116), que pega o Sul fluminense todo, pega Resende, Porto Real, Itatiaia e Quatis, você tem uma possibilidade enorme de expansão da indústria automobilística. As oportunidades são muito grandes.",
+      "fonte_id": "f31",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p56",
+      "tema": "economia",
+      "subtema": "arrecadação",
+      "resumo": "Defende aumentar a receita combatendo a sonegação e ampliando a base tributária.",
+      "trecho": "combatendo sonegação, aumentando base tributária",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p57",
+      "tema": "economia",
+      "subtema": "dívida com a União / Propag",
+      "resumo": "Considera o Propag um alívio insuficiente e diz que revisará despesas e contratos um a um.",
+      "trecho": "O Propag representou um alívio na dívida do Estado do Rio, mas não é a solução definitiva. Vou me reunir com o governador interino Ricardo Couto e olhar despesa por despesa, contrato por contrato, para entender o tamanho real do problema",
+      "fonte_id": "f11",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p58",
+      "tema": "economia",
+      "subtema": "royalties do petróleo",
+      "resumo": "Diz que [a mudança na regra de distribuição dos royalties] é um perigo para o estado e para todos os municípios, mas que está otimista.",
+      "trecho": "É um perigo para o Estado e para todos os municípios, mas estou otimista.",
+      "fonte_id": "f33",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p59",
+      "tema": "saude",
+      "subtema": "Supercentros Regionais de Especialidades",
+      "resumo": "Propõe levar Super Centros Regionais de Especialidades a todas as regiões do estado.",
+      "trecho": "Eu quero levar para todo estado, para todas as regiões: Noroeste, Norte, Centro Sul, Sul, Leste Fluminense e Baixada Fluminense, o que nós chamamos de Super Centros Regionais de Especialidades, exemplo do que a gente fez aqui na capital",
+      "fonte_id": "f12",
+      "compromisso_concreto": true,
+      "numeros": "quantidade varia entre fontes: 'sete' (Agenda do Poder, 07/09) e 'oito' (O Dia, 11/09)"
+    },
+    {
+      "id": "p60",
+      "tema": "saude",
+      "subtema": "filas de regulação (Sisreg)",
+      "resumo": "Estabelece como meta reduzir o tempo de espera na regulação (Sisreg) por atendimento especializado.",
+      "trecho": "Então esse é um compromisso nosso na área de saúde: diminuir tempo de fila de regulação de Sisreg, fazer com que as pessoas tenham os atendimentos adequados com especialidade",
+      "fonte_id": "f12",
+      "compromisso_concreto": true,
+      "numeros": "sem meta numérica"
+    },
+    {
+      "id": "p61",
+      "tema": "saude",
+      "subtema": "Supercentros – quantidade",
+      "resumo": "Afirma que fará sete supercentros de especialidades nas regiões do estado para acabar com a fila do Sisreg.",
+      "trecho": "Vamos fazer sete supercentros pelas outras regiões do estado com especialidade para que a gente possa ver o fim da fila desse sistema de regulação, do famoso Sisreg",
+      "fonte_id": "f15",
+      "compromisso_concreto": true,
+      "numeros": "7 supercentros (em 11/09, ao O Dia, falou em 'oito')"
+    },
+    {
+      "id": "p62",
+      "tema": "saude",
+      "subtema": "hospitais regionais",
+      "resumo": "Propõe construir dois hospitais regionais públicos, na Região Serrana e no Noroeste Fluminense.",
+      "trecho": "Quando você olha para Serra Norte, a partir de Friburgo, indo em direção ao Noroeste Fluminense, nós precisamos fazer aqui dois hospitais regionais públicos, aqui e no Noroeste Fluminense.",
+      "fonte_id": "f13",
+      "compromisso_concreto": true,
+      "numeros": "2 hospitais regionais"
+    },
+    {
+      "id": "p63",
+      "tema": "saude",
+      "subtema": "oncologia no interior",
+      "resumo": "Promete inaugurar, abrir e pôr em funcionamento o Hospital do Câncer de Nova Friburgo.",
+      "trecho": "Então vamos inaugurar, abrir e botar pra funcionar o Hospital do Câncer de Friburgo",
+      "fonte_id": "f13",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p64",
+      "tema": "saude",
+      "subtema": "descentralização do tratamento",
+      "resumo": "Defende acabar com o deslocamento de pacientes do interior à Região Metropolitana para tratamentos como quimioterapia.",
+      "trecho": "Vamos parar com esse turismo sanitário, que é o povo do interior ter que viajar assim. Você está fazendo um tratamento de câncer, por exemplo, quimioterapia, os prefeitos têm que alugar a van, que só tem tratamento aqui na Região Metropolitana do Rio",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p65",
+      "tema": "saude",
+      "subtema": "distribuição de recursos aos municípios",
+      "resumo": "Defende que a distribuição [de recursos da saúde] siga critérios técnicos, e não políticos.",
+      "trecho": "Essa distribuição tem que se dar de acordo com critérios técnicos, não políticos",
+      "fonte_id": "f15",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p66",
+      "tema": "educacao",
+      "subtema": "modelo GET (ciência e tecnologia)",
+      "resumo": "Propõe levar o conceito dos GETs, com ciência, tecnologia e matemática, a todas as escolas do Rio de Janeiro.",
+      "trecho": "A ideia é levar esse conceito dos GETs, com muita ciência, tecnologia e matemática, para todas as escolas do Rio de Janeiro",
+      "fonte_id": "f23",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p67",
+      "tema": "educacao",
+      "subtema": "tempo integral – meta",
+      "resumo": "Estabelece meta de ampliar o ensino médio em tempo integral de cerca de 13% para 30%.",
+      "trecho": "Hoje o ensino médio em tempo integral do estado está em torno de 13%. Nossa meta é chegar a 30%.",
+      "fonte_id": "f7",
+      "compromisso_concreto": true,
+      "numeros": "de ~13% para 30% do ensino médio em tempo integral; prazo não informado"
+    },
+    {
+      "id": "p68",
+      "tema": "educacao",
+      "subtema": "Faetec / vocações regionais",
+      "resumo": "Defende que os cursos da Faetec sejam ligados às vocações econômicas de cada região.",
+      "trecho": "Não faz sentido, por exemplo, a Faetec oferecer cursos sem ter relação com as vocações econômicas das regiões.",
+      "fonte_id": "f24",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p69",
+      "tema": "educacao",
+      "subtema": "piso salarial dos professores",
+      "resumo": "Promete respeitar o piso nacional dos professores.",
+      "trecho": "Quero dizer para os professores que eles vão receber um salário mais digno: vamos respeitar o piso nacional.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p70",
+      "tema": "gestao",
+      "subtema": "servidores – metas e bonificação",
+      "resumo": "Promete replicar no estado acordos de resultados com metas e bonificação para servidores.",
+      "trecho": "Que estabeleceu acordo de resultado e metas com todos, e que bonificou aqueles que cumpriram. Eu quero fazer exatamente o mesmo no Estado.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p71",
+      "tema": "gestao",
+      "subtema": "concursos públicos",
+      "resumo": "Compromete-se a convocar excedentes já aprovados em concursos.",
+      "trecho": "Já assumi o compromisso de chamar os excedentes já aprovados nos concursos.",
+      "fonte_id": "f8",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p72",
+      "tema": "gestao",
+      "subtema": "Secretaria de Integridade / nomeações",
+      "resumo": "Afirma que aliados não nomearão comandantes de batalhão nem delegados e serão fiscalizados por uma secretaria de integridade.",
+      "trecho": "Vocês não vão nomear comandante de batalhão, não vão nomear delegado de polícia, não vão exercer funções de Estado, vocês serão vigiados por uma secretaria de integridade.",
+      "fonte_id": "f10",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p73",
+      "tema": "gestao",
+      "subtema": "auditorias / transparência",
+      "resumo": "Defende que as auditorias em todos os contratos continuem e sejam aprofundadas.",
+      "trecho": "Auditorias em todos os contratos são medidas que devem continuar e ser aprofundadas dado o desmando que vivemos nos ultimos 8 anos",
+      "fonte_id": "f9",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p74",
+      "tema": "gestao",
+      "subtema": "concessões – posição contra rompimento",
+      "resumo": "Diz que não ameaçará romper contratos de concessão, mas defende auditá-los.",
+      "trecho": "eu sou mudança com segurança, com estabilidade, então a gente não vai sair ameaçando romper contrato. Agora, contratos pressupõem obrigações de ambas as partes, então você tem que auditar esses contratos",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p75",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento / concessão da Cedae",
+      "resumo": "Afirma que o aumento de tarifas da concessão de água e esgoto (antiga Cedae), sobretudo no interior, terá de ser revisto.",
+      "trecho": "Por exemplo, no caso da Cedae, da concessão de águas do Rio e tal, o que eu estou vendo é um aumento absurdo de tarifa, principalmente no interior do estado, inviabilizando o pequeno negócio na maior parte das cidades do interior do estado, isso vai ter que ser revisto.",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p76",
+      "tema": "meio-ambiente",
+      "subtema": "prevenção de desastres / centros de operações",
+      "resumo": "Propõe cinco Centros de Operações regionais, um na Região Serrana, com sirenes e radares para monitorar riscos de chuva.",
+      "trecho": "Vamos construir cinco Centros de Operações espalhados pelo estado. Um na Região Serrana para que a gente esteja permanentemente monitorando o risco, treinando a comunidade, com sirenes e radares próprios. Precisamos monitorar constantemente, observar e agir",
+      "fonte_id": "f22",
+      "compromisso_concreto": true,
+      "numeros": "5 Centros de Operações regionais"
+    },
+    {
+      "id": "p77",
+      "tema": "meio-ambiente",
+      "subtema": "contenção de encostas e macrodrenagem",
+      "resumo": "Propõe obras de contenção e macrodrenagem na Região Serrana para evitar tragédias com chuvas.",
+      "trecho": "Para que você possa ter a resiliência, para que você possa ter uma previsibilidade maior nas grandes chuvas e muita obra de contenção e macrodrenagem para evitar que tragédias como as que já aconteceram em Friburgo, já aconteceram em Teresópolis, Petrópolis, se repita.",
+      "fonte_id": "f13",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p78",
+      "tema": "meio-ambiente",
+      "subtema": "proteção animal",
+      "resumo": "Propõe núcleos contra maus-tratos a animais nas Delegacias de Meio Ambiente e sete hospitais veterinários regionais.",
+      "trecho": "Vamos enfrentar a questão dos maus-tratos dos animais com a criação de núcleos dentro das Delegacias do Meio Ambiente e espalhá-los pelas sete regiões do estado. E também iremos fazer sete hospitais como esse, com a oferta de cirurgias, exames de imagem e atendimento, em cada uma das sete regiões",
+      "fonte_id": "f15",
+      "compromisso_concreto": true,
+      "numeros": "7 hospitais veterinários"
+    },
+    {
+      "id": "p79",
+      "tema": "moradia",
+      "subtema": "áreas de risco",
+      "resumo": "Defende identificar, em áreas de risco, o que pode permanecer e o que precisa de obra de contenção.",
+      "trecho": "Precisamos saber aquilo que pode ficar e aquilo que precisa de obra de contenção",
+      "fonte_id": "f22",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p80",
+      "tema": "moradia",
+      "subtema": "vítimas de chuvas / aluguel social",
+      "resumo": "Critica a demora na entrega de moradias a vítimas das chuvas de 2011 e 2022 que seguem no aluguel social.",
+      "trecho": "É um absurdo que vítimas das chuvas de 2011 e 2022 ainda estejam recebendo aluguel social e que as suas casas não estejam prontas ainda",
+      "fonte_id": "f22",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p81",
+      "tema": "seguranca",
+      "subtema": "policiamento / eficiência da polícia",
+      "resumo": "Compromete-se a combater o crime em todo o estado com uma polícia mais eficiente, mais preparada e comprometida com o cidadão.",
+      "trecho": "Combater o crime dia e noite, em todos os cantos do estado por meio de uma polícia mais eficiente, mais preparada e com compromisso com o cidadão.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p82",
+      "tema": "saude",
+      "subtema": "filas, remédios e repasses",
+      "resumo": "Propõe recuperar hospitais e UPAs estaduais, contratar médicos e especialistas, reduzir filas, ampliar a distribuição de remédios e garantir repasses aos municípios independentemente de questões políticas.",
+      "trecho": "Recuperar os hospitais e UPAs estaduais, contratar mais médicos e especialistas, reduzir as filas, ampliar a distribuição de remédios, humanizar o atendimento e garantir os repasses aos municípios independentemente de questões políticas, ideológicas ou partidárias.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p83",
+      "tema": "gestao",
+      "subtema": "planejamento / controle de gastos",
+      "resumo": "Propõe reequilibrar as finanças, recuperar a capacidade de investir e de planejar, fiscalizar e entregar, com metas transparentes, sem admitir desperdício nem desvios.",
+      "trecho": "Reequilibrar as finanças estaduais e devolver ao Rio de Janeiro a capacidade de investir. Restaurar a capacidade de planejar, coordenar, fiscalizar e entregar, com metas transparentes e prestação de contas. O bom gestor público não admite desperdício e não tolera desvios.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p84",
+      "tema": "gestao",
+      "subtema": "compromisso de não prometer o que não pode cumprir",
+      "resumo": "Declara como condição de todos os compromissos do plano não prometer o que não puder cumprir.",
+      "trecho": "Assumimos esses compromissos com uma condição que atravessa todos eles: não prometeremos aquilo que não poderemos cumprir.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p85",
+      "tema": "seguranca",
+      "subtema": "responsabilidade pela retomada de territórios",
+      "resumo": "Afirma que não transferirá ao presidente, ao STF ou a prefeitos a responsabilidade pela segurança e que ele próprio conduzirá a retomada de territórios em São Gonçalo, na capital, na Baixada e no interior.",
+      "trecho": "Como governador, não vou ficar empurrando para o presidente da República, para o Supremo ou para o prefeito o problema da segurança pública no estado. Quem vai libertar áreas em São Gonçalo, no Complexo do Salgueiro, serei eu. Quem vai retomar territórios na cidade do Rio de Janeiro será o governador do estado; na Baixada Fluminense, no interior do estado.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p86",
+      "tema": "seguranca",
+      "subtema": "ADPF das Favelas / operações policiais",
+      "resumo": "Relata ter pedido aos ministros do STF que mudassem o tom da ADPF [das Favelas], que diz ter virado desculpa e criado a sensação de que a polícia não age.",
+      "trecho": "O que eu levei ao esclarecimento dos ministros à época? Entramos juntos na ação para dizer: ‘Olha, mudem o tom dessa ADPF, porque virou desculpa e se criou uma sensação no Rio de que a polícia não age. E do outro lado, os bandidos estão achando que isso aqui virou resort.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p87",
+      "tema": "seguranca",
+      "subtema": "inteligência descentralizada / asfixia financeira",
+      "resumo": "Associa inteligência a mais investigação e asfixia financeira e defende que isso não fique centralizado, com mais unidades espalhadas pelo estado.",
+      "trecho": "Quando a gente fala de inteligência, é mais investigação, uma ação mais efetiva, fazer asfixia financeira. Isso não pode estar centralizado nas forças policiais. Você precisa de mais unidades espalhadas pelo estado.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem número de unidades"
+    },
+    {
+      "id": "p88",
+      "tema": "seguranca",
+      "subtema": "operações policiais / plano de ocupação",
+      "resumo": "Afirma que não se pode fazer operação sem plano de ocupação para o dia seguinte.",
+      "trecho": "Não se pode fazer uma operação sem plano de ocupação para o dia seguinte.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p89",
+      "tema": "seguranca",
+      "subtema": "Sistema Único de Segurança Fluminense / limites das forças municipais",
+      "resumo": "Diz que a integração com forças municipais não pode virar bagunça e que o papel [do blindado Caveirão] fica com a PM, e não com prefeitos.",
+      "trecho": "Nós não podemos deixar isso virar uma grande bagunça. Daqui a pouco tem prefeito querendo botar Caveirão. Esse papel fica com a PM.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p90",
+      "tema": "seguranca",
+      "subtema": "avaliação da megaoperação de 2025",
+      "resumo": "Critica [a megaoperação de 2025 nos complexos do Alemão e da Penha] por não ter havido plano algum para depois da ação.",
+      "trecho": "Ou seja, tudo estava como dantes no quartel de Abrantes. Não havia plano nenhum",
+      "fonte_id": "f36",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p91",
+      "tema": "gestao",
+      "subtema": "concessões – revisão de contratos",
+      "resumo": "Diz que, no cargo, verificará se os contratos de concessão estão sendo respeitados e que não terá problema em revê-los.",
+      "trecho": "Agora, está se respeitando o contrato ou não? Isso precisa estar sentado na cadeira, eu não terei problema em rever esses contratos",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p92",
+      "tema": "gestao",
+      "subtema": "recursos da concessão da Cedae",
+      "resumo": "Diz que examinará as despesas em detalhe e questiona o destino dos R$ 20 bilhões recebidos pelo governo Castro na concessão da Cedae.",
+      "trecho": "Eu vou no detalhe das despesas. Onde é que estão os R$ 20 bilhões que o governo Cláudio Castro recebeu na privatização, na concessão da CEDAE? Não tem uma ponte para contar a história",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": "cita R$ 20 bilhões da concessão da Cedae; sem meta"
+    },
+    {
+      "id": "p93",
+      "tema": "gestao",
+      "subtema": "despolitização de áreas técnicas",
+      "resumo": "Afirma que arrecadação, Fazenda, controle e Procuradoria não podem ter influência política.",
+      "trecho": "Arrecadação, Fazenda, Controle, Procuradoria, não pode ter política, é inaceitável que tenha política.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p94",
+      "tema": "seguranca",
+      "subtema": "comando político da segurança",
+      "resumo": "Defende retirar a política da segurança pública e diz que o único agente político na gestão da área será o governador.",
+      "trecho": "É preciso retirar a política da segurança pública. O único agente político na gestão da segurança será o governador.",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p95",
+      "tema": "economia",
+      "subtema": "turismo e rodovias",
+      "resumo": "Vincula o desenvolvimento do turismo a uma política estadual de turismo, a rodovias em condições e ao escoamento da produção.",
+      "trecho": "Você não vai desenvolver o turismo se não houver uma política adequada para o turismo no estado, se as rodovias estiverem destruídas e se não houver possibilidade de escoamento da produção.",
+      "fonte_id": "f7",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p96",
+      "tema": "gestao",
+      "subtema": "servidores – reajuste",
+      "resumo": "Apresenta como credencial ter dado reajuste aos servidores todos os anos como prefeito e ter respeitado seus direitos.",
+      "trecho": "Quem fala é o prefeito de quatro mandatos da cidade do Rio de Janeiro, que todos os anos deu reajuste. Que respeitou, e não tirou, todos os direitos dos servidores.",
+      "fonte_id": "f8",
+      "compromisso_concreto": false,
+      "numeros": "sem índice nem data-base para o estado"
+    },
+    {
+      "id": "p97",
+      "tema": "gestao",
+      "subtema": "concursos / reposição de quadros",
+      "resumo": "Diz que em áreas como Polícia Civil, Polícia Militar e magistério vai preencher os quadros existentes.",
+      "trecho": "Tem áreas que não tem jeito, não é? Vamos colocar todo mundo nos quadros que estão aí da Polícia Civil, da Polícia Militar, professores são permanentemente convocados.",
+      "fonte_id": "f8",
+      "compromisso_concreto": false,
+      "numeros": "sem número de vagas"
+    },
+    {
+      "id": "p98",
+      "tema": "seguranca",
+      "subtema": "retomada de territórios / investigação",
+      "resumo": "Afirma que neutralizar criminosos não adianta se não houver investigação e inteligência para impedir que voltem no dia seguinte.",
+      "trecho": "Não adianta neutralizar e no dia seguinte a turma está de volta, porque não houve trabalho de investigação, não houve trabalho de inteligência",
+      "fonte_id": "f14",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p99",
+      "tema": "seguranca",
+      "subtema": "videomonitoramento – integração com municípios",
+      "resumo": "Defende integrar o sistema de comando e controle do estado às câmeras e muralhas digitais dos municípios, como entre Rio e Caxias.",
+      "trecho": "É preciso uma integração do Sistema de Comando e Controle do governo do estado com as iniciativas de câmeras e muralhas digitais dos municípios, como acontece na integração entre as prefeituras do Rio e de Caxias. É algo fundamental e necessário para que possamos integrar todas as forças",
+      "fonte_id": "f30",
+      "compromisso_concreto": true,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p100",
+      "tema": "seguranca",
+      "subtema": "serviços sociais após ocupação",
+      "resumo": "Questiona o lugar-comum de que áreas pacificadas precisam sobretudo de serviços sociais, afirmando que a Vila Kennedy tem escolas e serviços públicos.",
+      "trecho": "O Rio tem um problema de segurança pública. Quando foi pacificada a Vila Kennedy, o lugar-comum era de que tinha que entrar com serviços sociais, de que o estado tem que entrar. A Vila Kennedy tem escolas, os serviços públicos estão lá.",
+      "fonte_id": "f37",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p101",
+      "tema": "transporte",
+      "subtema": "metas de transporte",
+      "resumo": "Lista como metas iniciar a Linha 3 do metrô, fazer com a SuperVia o que fez com o BRT, acabar com o RioCard, licitar a bilhetagem e reduzir a passagem dos ônibus intermunicipais.",
+      "trecho": "Nós vamos dar início às obras da linha 3 do metrô, vamos fazer com a Supervia o mesmo que fiz com o BRT, vamos acabar com o Riocard e licitar a bilhetagem eletrônica. Vamos reduzir a passagem dos ônibus intermunicipais",
+      "fonte_id": "f37",
+      "compromisso_concreto": true,
+      "numeros": "sem valor de tarifa"
+    },
+    {
+      "id": "p102",
+      "tema": "transporte",
+      "subtema": "tarifa do metrô",
+      "resumo": "Diz que [a tentativa do ex-secretário Washington Reis de baixar a passagem do metrô] mostrou que dava para baixar, sem assumir compromisso de redução.",
+      "trecho": "O que me lembro é que ele foi demitido pelo Bacellar, o que é um ótimo sinal, porque tentou baixar a passagem, mostrando que dava para baixar",
+      "fonte_id": "f37",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p103",
+      "tema": "saude",
+      "subtema": "autismo – centros de diagnóstico e terapia infantil",
+      "resumo": "Propõe centros de diagnóstico e terapia infantil em todos os municípios, financiados pelo estado e executados pelas prefeituras.",
+      "trecho": "Feitos em todos os municípios, financiados pelo Estado e executados pelas prefeituras, os centros de diagnóstico e terapia infantil",
+      "fonte_id": "f38",
+      "compromisso_concreto": true,
+      "numeros": "um centro por município (92); sem custo informado"
+    },
+    {
+      "id": "p104",
+      "tema": "saude",
+      "subtema": "autismo – reabilitação de jovens e adultos",
+      "resumo": "Propõe centros estaduais de reabilitação para jovens acima de 14 anos e adultos, com ressocialização, formação profissional e reinserção no mercado de trabalho.",
+      "trecho": "E nós vamos ter o centro de reabilitação Estadual. Aí você trabalha com a população jovem acima de 14 anos e pra população adulta. É também um trabalho de recuperação, reabilitação, ressocialização, formação profissional e reinserção no mercado de trabalho",
+      "fonte_id": "f38",
+      "compromisso_concreto": true,
+      "numeros": "sem número de centros"
+    },
+    {
+      "id": "p105",
+      "tema": "educacao",
+      "subtema": "educação inclusiva – mediadores",
+      "resumo": "Propõe mediadores em sala de aula na proporção de pelo menos um para cada três casos na rede estadual.",
+      "trecho": "Além disso uma coisa que é fundamental, mediadores em salas de aula pelo menos a proporção de um mediador para cada três casos isso é algo que nós fizemos na prefeitura e vamos fazer no Estado",
+      "fonte_id": "f38",
+      "compromisso_concreto": true,
+      "numeros": "no mínimo 1 mediador para cada 3 casos"
+    },
+    {
+      "id": "p106",
+      "tema": "educacao",
+      "subtema": "ensino fundamental – parceria com prefeituras (modelo do Ceará)",
+      "resumo": "Propõe trabalhar com as prefeituras no ensino fundamental copiando o modelo do Ceará.",
+      "trecho": "Vamos fazer um trabalho com as prefeituras porque boa parte do ensino fundamental é de responsabilidade delas, copiando muito o modelo do Ceará, que é o modelo mais bem-sucedido do Brasil",
+      "fonte_id": "f39",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p107",
+      "tema": "educacao",
+      "subtema": "professores – concurso e piso",
+      "resumo": "Defende contratação de professores por concurso e diz que a prefeitura do Rio sempre pagou acima do piso, classificando como inaceitável a situação do piso no estado.",
+      "trecho": "Contratação por concurso é fundamental. Tem uma coisa no Estado que é inaceitável: pagar o piso dos professores. Numa rede gigante como a da Prefeitura do Rio, nós sempre pagamos acima do piso.",
+      "fonte_id": "f40",
+      "compromisso_concreto": false,
+      "numeros": "sem número de vagas"
+    },
+    {
+      "id": "p108",
+      "tema": "transporte",
+      "subtema": "tarifa do metrô / subsídio condicionado à bilhetagem",
+      "resumo": "Afirma que há como reduzir a tarifa [do metrô], mas só depois de o poder público ter controle da bilhetagem, como o Jaé na capital.",
+      "trecho": "E há como reduzir a tarifa, mas antes é a gente ter controle na bilhetagem, como o Jaé na capital. Hoje as informações são da prefeitura e, portanto, a gente consegue saber que subsídio se paga e como fazer",
+      "fonte_id": "f41",
+      "compromisso_concreto": false,
+      "numeros": "sem valor de tarifa ou subsídio"
+    },
+    {
+      "id": "p109",
+      "tema": "transporte",
+      "subtema": "trens – concessionária ou empresa pública",
+      "resumo": "Diz que, se a nova concessionária dos trens não operar bem, criará uma empresa nos moldes da MobiRio, e que a compra de trens precisa de modelagem.",
+      "trecho": "Se a gente entender que o novo concessionário, que, na verdade, é pago pelo Estado, está operando bem, sem problemas. Mas se for necessário criaremos uma empresa no padrão que foi a MobiRio. Para a compra dos trens é preciso modelar a forma de aquisição.",
+      "fonte_id": "f41",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p110",
+      "tema": "transporte",
+      "subtema": "metrô – Linha 2, Linha 3 e Baixada",
+      "resumo": "Propõe levar a Linha 2 à Praça XV, iniciar a Linha 3 rumo a São Gonçalo e ligar a Pavuna ao ramal de Belford Roxo passando por São João de Meriti.",
+      "trecho": "A gente tem duas frentes para agir no metrô. A Linha 2 até a Praça XV — e conseguir iniciar a Linha 3 em direção a São Gonçalo — e aqui conectando a Pavuna com o ramal de Belford Roxo, passando por São João de Meriti.",
+      "fonte_id": "f41",
+      "compromisso_concreto": true,
+      "numeros": "sem prazo nem custo"
+    },
+    {
+      "id": "p111",
+      "tema": "transporte",
+      "subtema": "empresa pública de transporte",
+      "resumo": "Diz que, se necessário, criará uma empresa [pública] para o transporte público para não ficar nas mãos de empresários.",
+      "trecho": "Se for necessário, nós criaremos uma empresa para o transporte público, senão nós vamos ficar na mão da massa de empresários",
+      "fonte_id": "f42",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p112",
+      "tema": "transporte",
+      "subtema": "trens – modelo BRT e financiamento",
+      "resumo": "Promete aplicar aos trens a lógica usada no BRT e buscar recursos para as obras, apoiado na organização das contas.",
+      "trecho": "Encontrei estações abandonadas, inseguras e ônibus degradados. Vou aplicar a mesma lógica aos trens. Com a capacidade de organizar as contas públicas e estruturar os projetos, como fizemos na Prefeitura do Rio, vamos buscar os recursos necessários para tirar essas obras do papel.",
+      "fonte_id": "f43",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p113",
+      "tema": "saude",
+      "subtema": "medicamentos para obesidade (Ozempic) no SUS",
+      "resumo": "Promete estender [o Ozempic no SUS] a todo o estado, argumentando que isso trará economia ao SUS no médio e longo prazo.",
+      "trecho": "Vai significar, no médio e longo prazo, uma economia para o SUS. Então, estenderei a todo o estado. Vai ter Ozempic para todo mundo!",
+      "fonte_id": "f44",
+      "compromisso_concreto": true,
+      "numeros": "sem custo nem público-alvo definidos"
+    },
+    {
+      "id": "p114",
+      "tema": "transporte",
+      "subtema": "concessões / empresa pública estadual (Mobi-RJ)",
+      "resumo": "Diz não ter problema com concessões se houver empresas com porte e responsabilidade, mas não descarta criar uma Mobi-RJ.",
+      "trecho": "Quando disputei a eleição, não tinha intenção de criar a Mobi-Rio. Não tenho problema com concessão, desde que tenha atores empresariais com tamanho e responsabilidade: não encontrei na cidade do Rio, espero encontrar no estado. Não descarto fazer uma Mobi-RJ.",
+      "fonte_id": "f44",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p115",
+      "tema": "meio-ambiente",
+      "subtema": "saneamento e pedágio – Prolagos e ViaLagos",
+      "resumo": "Adverte a Prolagos e a ViaLagos contra abusos em tarifa e pedágio e diz que em seu governo não haverá agência reguladora mandando.",
+      "trecho": "Eu deixo o recado para a Prolagos: não vão abusar da tarifa do povo. A ViaLagos não vai abusar do pedágio do povo. Aqui não tem essa conversa de agência reguladora mandando, não.",
+      "fonte_id": "f45",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p116",
+      "tema": "transporte",
+      "subtema": "transporte lagunar – Região dos Lagos",
+      "resumo": "Promete implantar transporte lagunar ligando as cidades da Região dos Lagos.",
+      "trecho": "Vamos fazer transporte lagunar aqui, conectando todas as cidades.",
+      "fonte_id": "f46",
+      "compromisso_concreto": true,
+      "numeros": "sem prazo nem custo"
+    },
+    {
+      "id": "p117",
+      "tema": "economia",
+      "subtema": "royalties do petróleo – uso",
+      "resumo": "Defende usar o momento dos royalties para políticas que garantam arrecadação própria no futuro.",
+      "trecho": "Se você não aproveitar o momento dos royalties, esse boom econômico, para fazer política pública com sustentabilidade econômica, que garanta depois uma arrecadação própria, a gente vai ver se repetindo as cenas que nós já vimos no último instante do estado",
+      "fonte_id": "f47",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p118",
+      "tema": "economia",
+      "subtema": "turismo – aeroporto de Cabo Frio",
+      "resumo": "Propõe repetir em Cabo Frio as garantias dadas para atrair voos internacionais ao Galeão, para trazer turistas.",
+      "trecho": "No Galeão, quando era preciso isso, a gente fez uma série de coisas e meio que bancava, garantia para ter voos internacionais. E, como é um mercado, no final a gente não teve que pagar nada. Então, a gente tinha que fazer o mesmo em Cabo Frio, para trazer turista",
+      "fonte_id": "f47",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p119",
+      "tema": "economia",
+      "subtema": "burocracia / processos para empresas",
+      "resumo": "Defende processos mais simples no estado, além de segurança jurídica e institucional.",
+      "trecho": "Em relação à segurança jurídica, segurança institucional, é fundamental e a gente não pode deixar de trazer essas questões, mas é fundamental que nós tenhamos processos mais simples no Estado",
+      "fonte_id": "f48",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p120",
+      "tema": "economia",
+      "subtema": "industrialização do Sul Fluminense",
+      "resumo": "Afirma que o Sul Fluminense será região prioritária em industrialização e geração de empregos em seu governo.",
+      "trecho": "Vamos trabalhar muito para que o Sul Fluminense volte a ter empresas, criando condições para atraí-las. Estamos aqui, no eixo da Via Dutra, entre os maiores mercados consumidores do país. E, por isso, no meu governo, essa será uma região prioritária em termos de industrialização e geração de muitos empregos",
+      "fonte_id": "f49",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p121",
+      "tema": "economia",
+      "subtema": "qualificação e incentivos",
+      "resumo": "Aponta falta de qualificação da mão de obra e diz que o Sul Fluminense, prioritário, precisa de mais incentivos.",
+      "trecho": "Falta preparar mão de obra, qualificação. E o Sul Fluminense será prioridade. Porque a posição geográfica e a infraestrutura existente já são muito boas, mas precisa de mais incentivos",
+      "fonte_id": "f49",
+      "compromisso_concreto": false,
+      "numeros": "sem valor nem tipo de incentivo"
+    },
+    {
+      "id": "p122",
+      "tema": "saude",
+      "subtema": "hospitais inacabados",
+      "resumo": "Promete terminar as obras e pôr profissionais no Hospital do Câncer de Nova Friburgo e no Hospital da Mãe, em São Gonçalo.",
+      "trecho": "Tem dois hospitais que precisam terminar as obras e pôr profissionais para trabalhar. O Hospital do Câncer, em Nova Friburgo, e ainda terminar e inaugurar o Hospital da Mãe, em São Gonçalo",
+      "fonte_id": "f50",
+      "compromisso_concreto": true,
+      "numeros": "2 hospitais; sem prazo"
+    },
+    {
+      "id": "p123",
+      "tema": "seguranca",
+      "subtema": "uso da força / retomada de território",
+      "resumo": "Afirma que, como governador, terá política de retomada de território e que quem desafiar o Estado e puser vidas em risco será neutralizado, o que diz ser previsto em lei.",
+      "trecho": "Se eu for governador, vai ter política pública, clareza e retomada de território. E, se a pergunta é, se alguém ousar desafiar o Estado, colocar em risco a vida de um agente público, de um cidadão, e para isso tiver que ser neutralizado, será neutralizado. Aliás, a lei permite assim, lei prevê assim.",
+      "fonte_id": "f51",
+      "compromisso_concreto": false,
+      "numeros": "sem meta"
+    },
+    {
+      "id": "p124",
+      "tema": "seguranca",
+      "subtema": "letalidade / monopólio da força",
+      "resumo": "Diz que ninguém gosta das mortes [da megaoperação de 2025], mas que o Estado tem, eventualmente, o monopólio do uso da força, inclusive letal.",
+      "trecho": "E é óbvio que ninguém gosta de 117, 122 pessoas mortas, inclusive os cinco agentes da lei. Quem se satisfaz com uma cena dessas não pode ser normal. Mas, eventualmente, o Estado tem o monopólio do uso da força, inclusive da força letal.",
+      "fonte_id": "f51",
+      "compromisso_concreto": false,
+      "numeros": "cita 117 a 122 mortos; sem meta de redução de letalidade"
+    },
+    {
+      "id": "p125",
+      "tema": "transporte",
+      "subtema": "motofaixas",
+      "resumo": "Promete instalar motofaixas em parceria com as prefeituras.",
+      "trecho": "Em parceria com as prefeituras, vamos instalar as motofaixas, que já provaram ser eficientes para aumentar a segurança de motociclistas e motoristas. Além disso, ajudam a melhorar a fluidez do trânsito",
+      "fonte_id": "f52",
+      "compromisso_concreto": true,
+      "numeros": "sem meta de quilometragem"
+    }
+  ],
+  "lacunas": [
+    "seguranca: câmeras corporais — o g1 (19/08) atribui a proposta a material da campanha, mas não há citação literal do candidato",
+    "seguranca: treinamento em uso da força (120→240h), Compstat RJ, metas de elucidação de homicídios — só em paráfrase do g1 a partir de material da campanha, sem trecho literal",
+    "seguranca: letalidade policial e ADPF das Favelas — nenhuma proposta para o governo estadual; só relatos da atuação dele como prefeito no STF",
+    "economia: ICMS e política de incentivos fiscais — apenas paráfrase ('manutenção de incentivos fiscais contratados legalmente', O Dia), sem trecho literal",
+    "economia: Regime de Recuperação Fiscal — o estado já migrou para o Propag; nenhuma posição sobre o RRF além da citação sobre o Propag",
+    "transporte: barcas — o plano cita as barcas só no diagnóstico ('Trens, barcas e ônibus intermunicipais deixaram de funcionar com o mínimo de segurança'); nenhuma proposta para a operação, a fiscalização ou novas linhas na Baía de Guanabara. A única proposta aquaviária é o transporte lagunar na Região dos Lagos (p116)",
+    "transporte: tarifa do metrô — O Globo (13/09) parafraseia que Paes defende subsídio à concessionária sem valor definido; no literal (p108) ele condiciona a redução ao controle público da bilhetagem e, sobre a tentativa de R$ 5 (p102), diz só que 'dava para baixar'. Tarifa social focalizada por renda: nenhuma posição",
+    "transporte: financiamento da Linha 3 por PPP/BNDES — só em paráfrase (g1 24/08; Agenda do Poder 13/09)",
+    "moradia: programas habitacionais, urbanização de favelas e regularização fundiária no âmbito estadual — nenhuma posição encontrada",
+    "meio-ambiente: despoluição da Baía de Guanabara — nenhuma declaração como candidato a governador em 2026",
+    "meio-ambiente: petróleo (além de royalties), transição energética e licenciamento — nenhuma posição encontrada",
+    "direitos: cotas raciais/UERJ, igualdade racial, população negra — nenhuma posição encontrada",
+    "direitos: população LGBT+ — nenhuma posição encontrada",
+    "gestao: previdência estadual (Rioprevidência) — nenhuma posição encontrada",
+    "gestao: reforma administrativa; teto de 5% de comissionados — continua só em paráfrase (CBN 11/09; O Globo 11/09: 'Segundo ele, seu governo limitaria a 5%'); nenhuma posição literal sobre reduzir o número de secretarias. Coluna do Correio da Manhã (16/06) registra que a prefeitura sob Paes passou de 30 para 34 secretarias em 2025",
+    "debates: até 25/09/2026 Paes não participou de nenhum debate televisionado (faltou ao da Band em 09/08 alegando orientação jurídica; nenhum debate com ele em setembro foi localizado; o da Globo está marcado para 29/09). As falas de setembro vêm de sabatinas (CBN/O Globo/Extra/Valor e Fecomércio/O Dia em 11/09; CNN em 10/09; RJ1 em 16/09) e de agendas de rua",
+    "educacao: escola cívico-militar — nenhuma posição como candidato em 2026; em 13/07/2023, como prefeito, limitou-se a dizer que a Escola Cívico-Militar Carioca no Rocha 'será mantida' (O Dia/Diário do Rio), o que não é proposta para a rede estadual",
+    "educacao: diagnóstico de aprendizagem e reforço de português e matemática no contraturno — nenhuma posição; a única fala sobre ensino fundamental é a parceria com prefeituras 'copiando muito o modelo do Ceará' (p106), sem detalhar ações",
+    "educacao: meta de tempo integral — O Dia (11/09) registra 'ensino médio ... em torno de 13%' → 30% (p67); o g1 (11/09) registra 'Vamos passar para 30% (no estado)' sem especificar etapa; Agenda do Poder (08/09) parafraseia '12% para pelo menos 30%'. Base e etapa da meta variam entre fontes",
+    "educacao: frase ambígua em p107 ('Tem uma coisa no Estado que é inaceitável: pagar o piso dos professores') — pela sequência, parece criticar o estado por pagar só o piso (ou não pagá-lo); não foi possível ouvir o áudio para desambiguar",
+    "seguranca: receptação de celulares e bens roubados — nenhuma posição encontrada",
+    "seguranca: câmeras corporais, indicador de letalidade e metas de redução de mortes por intervenção policial — nenhuma proposta; nas falas, critica a ADPF das Favelas (p86) e defende o monopólio da força letal (p124)",
+    "seguranca: força-tarefa com COAF, Receita, PF, PRF e MP — só em paráfrase (Agenda do Poder 17/08; Valor 16/09); incluir a Seap na Secretaria de Segurança — só paráfrase ('não descarta', O Globo 11/09)",
+    "seguranca: ampliar o efetivo nas praias/orla — nenhuma proposta específica; na Região dos Lagos, 'ampliar o efetivo' aparece só em paráfrase (Agenda do Poder 19/08)",
+    "meio-ambiente: limpeza e desobstrução de canais e rios — nenhuma posição; Manchete RJ e Agenda do Poder (02/09) parafraseiam 'construção de canais extravasores'/'canais para melhorar o escoamento' como obras, sem trecho literal",
+    "meio-ambiente: reassentamento de famílias de áreas de risco em habitação de interesse social — nenhuma proposta; só a crítica ao aluguel social (p80) e o levantamento de áreas de risco (p79); 'levantamento imediato' é paráfrase (Manchete RJ 02/09)",
+    "meio-ambiente: concessão de água e esgoto — nenhuma posição sobre fiscalizar as metas de universalização; falas focam tarifas (p75, p115) e o destino da outorga da Cedae (p92); 'cortar as asas' e 'enquadrar' a Prolagos aparecem em reportagens regionais (Clique Diário 20/08)",
+    "economia: incentivos e benefícios fiscais (revisão, corte ou contrapartidas) e teto de gastos — nenhuma posição literal; defende 'mais incentivos' ao Sul Fluminense (p121) e Refis para estaleiros (p52); a CBN (11/09) parafraseia que a perda de receita com IPVA zero 'seria equilibrada de outro lado', sem explicar como",
+    "economia: licenciamento ambiental (Inea) — só a defesa genérica de 'processos mais simples' (p119, texto de assessoria reproduzido pelo Mensageiro NF); nenhuma proposta de balcão único ou descentralização",
+    "trabalho: programa de primeiro emprego / CredJuv (crédito-semente de R$ 5 mil para jovens) — só em paráfrase da campanha (Diário do Rio e GP Baixada News, 27/08), sem trecho literal",
+    "gestao: recomposição salarial anual dos servidores — o Extra (13/09) afirma que os candidatos 'foram unânimes ao prometer recomposição inflacionária anual', mas a fala literal de Paes só cita os reajustes dados como prefeito (p96); não há compromisso literal com índice ou data-base",
+    "gestao: Rioprevidência e aplicações no Banco Master — nenhuma posição de Paes encontrada",
+    "saude: compra de serviços da rede privada, mutirão de cirurgias e modelo de gestão por OS — nenhuma posição encontrada",
+    "saude: Hospital Regional de Itaperuna e unidade oncológica em Duque de Caxias — só em paráfrase (Agenda do Poder 17/08); no literal aparecem o Hospital do Câncer de Friburgo, o Hospital da Mãe (p122) e dois novos hospitais regionais (p62)",
+    "transporte: modelo do Terminal Gentileza para outras cidades — só paráfrase (g1 31/08); concessão ou pedágio em rodovias estaduais — só a crítica ao pedágio da ViaLagos (p115)",
+    "plano de governo: segue disponível apenas a versão preliminar (_01, 8 páginas); nenhuma versão _02 localizada em espelhos; a ausência não pôde ser confirmada no DivulgaCand (SPA não renderiza)",
+    "CONTRADIÇÃO – uso da força: em 19/05 (BBC, p123) e 17/08 (Tupi, p32) diz que quem enfrentar o Estado 'tem que' ser neutralizado; em 11/09 (sabatina, p31) diz que 'Neutralizar bandido ... não deve ser o objetivo. O objetivo deve ser prender'",
+    "CONTRADIÇÃO – concessões: em 11/09 (CBN, p74) 'a gente não vai sair ameaçando romper contrato'; em 09/09 (p109, p111) e 24/09 (p114) admite criar empresa pública ('se for necessário criaremos uma empresa no padrão que foi a MobiRio'; 'Não descarto fazer uma Mobi-RJ'). Também contrasta 'regra estável' e 'previsibilidade' (p53) com 'Aqui não tem essa conversa de agência reguladora mandando' (p115)",
+    "CONTRADIÇÃO – Supercentros: o plano não traz número; em 25/08 listou seis regiões (p59); em 07/09 falou em 'sete' (p61); O Dia (11/09) e Diário do Rio (18/09) registram 'oito' em paráfrase",
+    "CONTRADIÇÃO – servidores: diz ter dado reajuste 'todos os anos' como prefeito (p96); o Sepe (20/12/2025) registra que o reajuste de 4,71% de 2026 veio quase dois anos após o anterior, sem reajuste em 2025",
+    "CONTRADIÇÃO – mediadores: promete 1 mediador para cada 3 casos 'que nós fizemos na prefeitura' (p105); em 2023, como prefeito, vetou emenda que garantia a contratação de mediadores (g1, 23/03/2023)",
+    "CONTRADIÇÃO – promessas x custo: o plano afirma 'não prometeremos aquilo que não poderemos cumprir' (p84) e 'responsabilidade fiscal' (p18), mas nenhuma promessa de custo alto tem custo ou fonte de recursos informados (IPVA zero, subsídio a tarifas, 20 mil vagas prisionais, Linha 3, hospitais, supercentros, Ozempic)",
+    "MUDANÇA DE POSIÇÃO – mandato: na campanha municipal de 2024 prometeu cumprir o mandato de prefeito até 2028 e renunciou em março de 2026; ao Extra (24/09) disse 'Ninguém disputa eleição para sair. Mas é isso, foram as circunstâncias' (BBC 19/05 também registra)",
+    "TENSÃO – ocupação x serviços sociais: defende plano de ocupação para 'o dia seguinte' (p31, p88), mas questiona o 'lugar-comum' de que áreas pacificadas precisam de serviços sociais (p100)"
+  ]
+}

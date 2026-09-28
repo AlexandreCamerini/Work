@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Protótipo do fluxo</title>
+<meta name="description" content="Protótipo navegável da nova interação do quiz: cena sem rolagem, troca de resposta, fato em folha, voltar, progresso e revelação às cegas. Dados fictícios.">
+<style>
+  /* Fontes do app, lidas do node_modules do repositório (caminho relativo, sem rede).
+     Fora do repositório o protótipo cai na fonte do sistema, que costuma ser mais larga. */
+  @font-face { font-family: 'Nunito Sans Variable'; font-weight: 200 1000; font-display: swap;
+    src: url('../../node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-wght-normal.woff2') format('woff2-variations'); }
+  @font-face { font-family: 'Bricolage Grotesque Variable'; font-weight: 200 800; font-display: swap;
+    src: url('../../node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2') format('woff2-variations'); }
+  :root {
+    --tinta: #16213a;
+    --tinta-suave: #4a5572;
+    --papel: #fbf8f1;
+    --linha: #e6e0d2;
+    --borda: #948b79;       /* 3,37:1 sobre branco: contorno de controle (WCAG 1.4.11) */
+    --mar: #0f6e8c;
+    --mar-escuro: #0a5268;
+    --mar-claro: #dff1f6;
+    --sol: #ffc93c;
+    --sol-claro: #fff4d4;
+    --coral: #b83f1a;       /* versão escura: 5,58:1 com branco */
+    --folha: #257a4a;       /* versão escura: 5,3:1 com branco */
+    --display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+    --texto: 'Nunito Sans Variable', 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --dur: 1;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body { background: var(--papel); color: var(--tinta); font-family: var(--texto); -webkit-text-size-adjust: 100%; }
+  button { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--mar); outline-offset: 2px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* ---------- bancada (só em tela larga): simula 360×640 / 390×844 ---------- */
+  .bancada { min-height: 100%; }
+  .controles { display: none; }
+  @media (min-width: 760px) {
+    body { background: #ece6d8; }
+    .bancada { display: flex; gap: 32px; justify-content: center; align-items: flex-start; padding: 32px 16px; }
+    .controles { display: flex; flex-direction: column; gap: 14px; width: 280px; font-size: 14px; line-height: 1.45; }
+    .controles h1 { font-family: var(--display); font-size: 22px; margin: 0; }
+    .controles fieldset { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+    .controles legend { font-weight: 800; margin-bottom: 6px; }
+    .controles button { min-height: 44px; padding: 0 12px; border-radius: 12px; border: 2px solid var(--borda); background: #fff; font-weight: 700; cursor: pointer; }
+    .controles button[aria-pressed="true"] { background: var(--tinta); color: #fff; border-color: var(--tinta); }
+    .controles ol { margin: 0; padding-left: 18px; }
+    .aparelho { box-shadow: 0 0 0 10px var(--tinta), 0 20px 60px rgba(0,0,0,.25); border-radius: 18px; overflow: hidden; flex: none; }
+  }
+
+  /* ---------- app: layout fixo em 3 faixas ---------- */
+  .app {
+    position: relative; overflow: hidden;
+    width: var(--w, 100%); height: var(--h, 100dvh);
+    max-width: 100%; margin: 0 auto; background: var(--papel);
+    display: grid; grid-template-rows: minmax(0, 1fr); grid-template-columns: minmax(0, 1fr);
+  }
+  @supports not (height: 100dvh) { .app { height: var(--h, 100vh); } }
+  .tela { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; grid-template-columns: minmax(0, 1fr); min-height: 0; height: 100%; }
+  .topo { display: flex; align-items: center; gap: 10px; padding: 10px 16px 6px; min-height: 44px; }
+  .meio { overflow-y: auto; overscroll-behavior: contain; padding: 4px 16px 8px; scroll-padding-bottom: 16px; }
+  .doca { padding: 8px 16px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid var(--linha); background: var(--papel); display: flex; flex-direction: column; gap: 6px; }
+  .acoes { display: flex; gap: 8px; }
+
+  .tema { flex: none; max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: var(--mar-claro); color: var(--mar-escuro); font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; }
+  .segmentos { flex: 1; display: flex; gap: 4px; height: 8px; }
+  .segmentos span { flex: 1; border-radius: 999px; background: var(--linha); position: relative; overflow: hidden; }
+  .segmentos span::after { content: ''; position: absolute; inset: 0; background: var(--mar); transform-origin: left; transform: scaleX(0); transition: transform calc(.35s * var(--dur)) ease-out; }
+  .segmentos span.feito::after { transform: scaleX(1); }
+  .segmentos span.atual::after { transform: scaleX(.35); background: var(--mar); opacity: .55; }
+  .contador { flex: none; font-weight: 800; font-size: 14px; color: var(--tinta-suave); font-variant-numeric: tabular-nums; min-width: 34px; text-align: right; }
+
+  /* botões principais */
+  .btn { min-height: 52px; border-radius: 16px; border: 0; font-family: var(--display); font-weight: 800; font-size: 19px; padding: 0 18px; cursor: pointer; flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 8px; touch-action: manipulation; }
+  .btn.pri { background: var(--mar); color: #fff; box-shadow: 0 4px 0 var(--mar-escuro); }
+  .btn.pri:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--mar-escuro); }
+  .btn.sec { background: #fff; color: var(--tinta); border: 2px solid var(--borda); box-shadow: none; }
+  .btn.claro { background: var(--sol); color: var(--tinta); box-shadow: 0 4px 0 #c79a1f; }
+  .btn.voltar { flex: 0 0 52px; padding: 0; background: #fff; border: 2px solid var(--borda); }
+  .link { min-height: 44px; background: none; border: 0; text-decoration: underline; font-weight: 700; color: var(--tinta-suave); cursor: pointer; font-size: 14px; }
+
+  /* ---------- cena ---------- */
+  .cena-texto { font-family: var(--display); font-weight: 650; font-size: 19px; line-height: 1.3; margin: 2px 0 10px; text-wrap: pretty; }
+  fieldset.opcoes { border: 0; margin: 0; padding: 0; min-width: 0; }
+  .pergunta { font-size: 16px; font-weight: 800; line-height: 1.35; margin: 0 0 10px; padding: 0; outline: none; }
+  .lista { display: flex; flex-direction: column; gap: 6px; }
+  .opcao { position: relative; display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 8px 13px; border-radius: 16px; border: 2px solid var(--borda); background: #fff; font-size: 15.5px; line-height: 1.35; font-weight: 650; cursor: pointer; touch-action: manipulation; transition: background calc(.15s * var(--dur)), border-color calc(.15s * var(--dur)), transform calc(.1s * var(--dur)); }
+  .opcao:active { transform: scale(.985); }
+  .opcao input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .opcao:has(input:focus-visible) { outline: 3px solid var(--mar); outline-offset: 2px; }
+  .marca { flex: none; width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--borda); display: grid; place-items: center; background: #fff; }
+  .marca svg { width: 14px; height: 14px; opacity: 0; }
+  .opcao.escolhida { background: var(--mar); border-color: var(--mar-escuro); color: #fff; }
+  .opcao.escolhida .marca { border-color: #fff; background: #fff; animation: pop calc(.22s * var(--dur)) ease-out; }
+  .opcao.escolhida .marca svg { opacity: 1; }
+  @keyframes pop { 0% { transform: scale(.4); } 70% { transform: scale(1.18); } 100% { transform: scale(1); } }
+
+  /* teaser do fato: altura reservada desde o início, nada cresce */
+  .teaser { height: 46px; border-radius: 14px; display: flex; align-items: center; gap: 10px; padding: 0 12px; font-size: 14px; line-height: 1.3; text-align: left; width: 100%; }
+  .teaser.dica { background: transparent; color: var(--tinta-suave); border: 2px dashed var(--linha); font-weight: 650; }
+  .teaser.fato { background: var(--sol-claro); border: 2px solid var(--sol); cursor: pointer; animation: sobe calc(.25s * var(--dur)) ease-out; }
+  .teaser.erro { background: #fdebe5; border: 2px solid var(--coral); color: var(--coral); font-weight: 800; }
+  .teaser .rot { font-size: 11px; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; display: block; }
+  .teaser .fatotxt { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 600; }
+  .teaser .miolo { flex: 1; min-width: 0; }
+  .teaser .seta { flex: none; font-weight: 900; }
+  @keyframes sobe { from { transform: translateY(8px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+  /* transição entre cenas */
+  .entra-frente { animation: dadireita calc(.28s * var(--dur)) ease-out; }
+  .entra-tras { animation: daesquerda calc(.28s * var(--dur)) ease-out; }
+  @keyframes dadireita { from { transform: translateX(28px); opacity: 0; } to { transform: none; opacity: 1; } }
+  @keyframes daesquerda { from { transform: translateX(-28px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+  /* toast de marco */
+  .toast { position: absolute; left: 50%; top: 8px; transform: translate(-50%, -6px); background: var(--tinta); color: #fff; font-weight: 800; font-size: 14px; padding: 8px 14px; border-radius: 999px; opacity: 0; pointer-events: none; transition: opacity calc(.2s * var(--dur)), transform calc(.2s * var(--dur)); z-index: 5; white-space: nowrap; }
+  .toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+  /* folha (bottom sheet) */
+  .veu { position: absolute; inset: 0; background: rgba(22,33,58,.45); z-index: 10; opacity: 0; transition: opacity calc(.2s * var(--dur)); }
+  .folha { position: absolute; left: 0; right: 0; bottom: 0; z-index: 11; background: #fff; border-radius: 22px 22px 0 0; padding: 10px 16px calc(12px + env(safe-area-inset-bottom)); max-height: 78%; display: flex; flex-direction: column; gap: 10px; transform: translateY(100%); transition: transform calc(.26s * var(--dur)) ease-out; box-shadow: 0 -8px 30px rgba(0,0,0,.18); }
+  .folha.on { transform: none; }
+  .veu.on { opacity: 1; }
+  .folha .puxador { width: 40px; height: 5px; border-radius: 3px; background: var(--linha); align-self: center; }
+  .folha h2 { font-family: var(--display); font-size: 20px; margin: 0; outline: none; }
+  .folha .corpo { overflow-y: auto; font-size: 16px; line-height: 1.5; }
+  .folha a { color: var(--mar-escuro); font-weight: 700; }
+  .folha ul { margin: 4px 0 10px; padding-left: 20px; }
+  .folha li { margin: 3px 0; font-size: 15px; }
+  .grupo { font-weight: 800; font-size: 14px; display: flex; align-items: center; gap: 6px; margin-top: 8px; }
+  .bola { width: 20px; height: 20px; border-radius: 50%; display: inline-grid; place-items: center; font-size: 12px; color: #fff; }
+
+  /* ---------- telas de perfil e prioridades ---------- */
+  h1.titulo { font-family: var(--display); font-size: 26px; line-height: 1.15; margin: 8px 0 6px; outline: none; text-wrap: balance; }
+  .sub { color: var(--tinta-suave); margin: 0 0 14px; font-size: 15px; line-height: 1.45; }
+  .escolha { min-height: 52px; width: 100%; text-align: left; border-radius: 16px; border: 2px solid var(--borda); background: #fff; font-weight: 700; font-size: 16px; padding: 10px 14px; cursor: pointer; display: flex; align-items: center; gap: 10px; }
+  .escolha[aria-pressed="true"] { background: var(--mar); border-color: var(--mar-escuro); color: #fff; }
+  .grade { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .grade .escolha { justify-content: center; text-align: center; font-size: 15px; }
+
+  /* ---------- histórias (resumo) ---------- */
+  .historia { background: var(--mar); color: #fff; }
+  .historia .doca { background: var(--mar); border-top-color: rgba(255,255,255,.2); }
+  .historia .segmentos span { background: rgba(255,255,255,.3); }
+  .historia .segmentos span::after { background: #fff; }
+  .historia .contador { color: #fff; }
+  .grande { font-family: var(--display); font-size: 30px; line-height: 1.12; font-weight: 800; margin: 18px 0 12px; outline: none; text-wrap: balance; }
+  .enorme { font-family: var(--display); font-size: 88px; font-weight: 800; line-height: 1; margin: 10px 0; }
+  .pilulas { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 16px; }
+  .pilulas span { background: var(--sol); color: var(--tinta); font-weight: 800; padding: 8px 12px; border-radius: 999px; }
+
+  /* ---------- resultado às cegas ---------- */
+  .cands { display: flex; flex-direction: column; gap: 6px; }
+  .cand { display: grid; grid-template-columns: 40px 1fr auto; grid-template-rows: auto auto; column-gap: 10px; align-items: center; min-height: 58px; padding: 7px 12px; border-radius: 16px; border: 2px solid var(--borda); background: #fff; width: 100%; text-align: left; cursor: pointer; }
+  .cand .letra { grid-row: 1 / 3; width: 40px; height: 40px; border-radius: 50%; background: var(--sol); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .cand .nome { font-weight: 800; font-size: 16px; }
+  .cand .pct { grid-row: 1 / 3; grid-column: 3; font-family: var(--display); font-weight: 800; font-size: 26px; color: var(--mar); font-variant-numeric: tabular-nums; }
+  .barra { display: block; height: 8px; border-radius: 999px; background: var(--linha); overflow: hidden; margin-top: 4px; }
+  .barra i { display: block; height: 100%; width: 0; background: var(--mar); border-radius: 999px; transition: width calc(.7s * var(--dur)) cubic-bezier(.2,.8,.2,1); }
+  .nota { font-size: 13px; color: var(--tinta-suave); line-height: 1.4; margin: 10px 2px 0; }
+  .aviso-empate { background: var(--sol-claro); border: 2px solid var(--sol); border-radius: 12px; padding: 6px 10px; font-size: 13px; font-weight: 700; margin: 0 0 8px; }
+
+  /* ---------- contagem e revelação ---------- */
+  .contagem { display: grid; place-items: center; height: 100%; background: var(--tinta); color: #fff; text-align: center; }
+  .contagem .num { font-family: var(--display); font-size: 140px; font-weight: 800; line-height: 1; animation: pulsa calc(.8s * var(--dur)) ease-out; }
+  @keyframes pulsa { 0% { transform: scale(.5); opacity: 0; } 30% { transform: scale(1.1); opacity: 1; } 100% { transform: scale(1); opacity: 1; } }
+  .cartas { display: flex; flex-direction: column; gap: 8px; }
+  .carta { perspective: 900px; min-height: 64px; }
+  .carta.destaque { min-height: 132px; }
+  .carta-in { position: relative; width: 100%; height: 100%; min-height: inherit; transition: transform calc(.6s * var(--dur)) cubic-bezier(.3,.7,.2,1); transform-style: preserve-3d; }
+  .carta.virada .carta-in { transform: rotateY(180deg); }
+  .face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 16px; display: flex; align-items: center; gap: 12px; padding: 10px 14px; border: 2px solid var(--borda); background: #fff; }
+  .face.verso { transform: rotateY(180deg); background: var(--tinta); color: #fff; border-color: var(--tinta); }
+  .carta.destaque .face.frente { background: var(--sol-claro); border-color: var(--sol); }
+  .face .letra { width: 40px; height: 40px; flex: none; border-radius: 50%; background: var(--sol); color: var(--tinta); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 20px; }
+  .face .qual { flex: 1; min-width: 0; }
+  .face .qual b { display: block; font-family: var(--display); font-size: 18px; }
+  .carta.destaque .face .qual b { font-size: 24px; }
+  .face .qual small { display: block; font-size: 13px; opacity: .85; }
+  .face .pct { font-family: var(--display); font-weight: 800; font-size: 22px; }
+  .rm .carta-in { transition: none; }
+
+  /* ---------- cartão de compartilhar ---------- */
+  .previa { width: 100%; max-width: 240px; display: block; margin: 0 auto 10px; border-radius: 14px; box-shadow: 0 6px 20px rgba(0,0,0,.15); aspect-ratio: 4 / 5; background: #fff; }
+  .alterna { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; width: 100%; background: #fff; border: 2px solid var(--borda); border-radius: 14px; padding: 6px 12px; font-weight: 700; cursor: pointer; text-align: left; }
+  .alterna .trilho { width: 46px; height: 28px; border-radius: 999px; background: var(--borda); position: relative; flex: none; transition: background calc(.15s * var(--dur)); }
+  .alterna .trilho::after { content: ''; position: absolute; top: 3px; left: 3px; width: 22px; height: 22px; border-radius: 50%; background: #fff; transition: transform calc(.15s * var(--dur)); }
+  .alterna[aria-checked="true"] .trilho { background: var(--mar); }
+  .alterna[aria-checked="true"] .trilho::after { transform: translateX(18px); }
+
+  /* movimento reduzido: sistema ou simulado pela bancada */
+  @media (prefers-reduced-motion: reduce) { :root { --dur: 0.001; } *, *::before, *::after { animation-duration: 1ms !important; } }
+  .rm { --dur: 0.001; }
+  .rm *, .rm *::before, .rm *::after { animation-duration: 1ms !important; }
+
+  /* texto ampliado / paisagem baixa: a doca deixa de ser fixa para não cobrir o conteúdo (WCAG 1.4.10) */
+  @media (max-height: 480px) {
+    .app { height: auto; min-height: var(--h, 100dvh); overflow: visible; }
+    .tela { height: auto; }
+    .meio { overflow: visible; }
+  }
+</style>
+</head>
+<body>
+<div class="bancada">
+  <aside class="controles" aria-label="Controles do protótipo">
+    <h1>Protótipo do fluxo</h1>
+    <p>Dados e candidatos <b>fictícios</b>. Serve só para aprovar a interação, não o texto.</p>
+    <fieldset>
+      <legend>Tamanho da tela</legend>
+      <button type="button" data-tam="360x640" aria-pressed="true">360×640</button>
+      <button type="button" data-tam="390x844" aria-pressed="false">390×844</button>
+      <button type="button" data-tam="cheia" aria-pressed="false">Livre</button>
+    </fieldset>
+    <fieldset>
+      <legend>Movimento</legend>
+      <button type="button" id="alternaRM" aria-pressed="false">Simular movimento reduzido</button>
+    </fieldset>
+    <fieldset>
+      <legend>Ir para</legend>
+      <button type="button" data-pular="cena">Cenas</button>
+      <button type="button" data-pular="resultado">Resultado</button>
+      <button type="button" data-pular="intro">Início</button>
+    </fieldset>
+    <div>
+      <b>O que testar</b>
+      <ol>
+        <li>Escolha uma opção e troque. Nada trava.</li>
+        <li>Toque no "Você sabia?": o fato abre por cima, o botão não sai do lugar.</li>
+        <li>Use ← e confira que a resposta anterior continua marcada, na mesma ordem.</li>
+        <li>Na 2ª cena aparece o marco "Metade!". A cena 2 usa o tamanho máximo de texto do quiz real.</li>
+        <li>Vote às cegas e veja a contagem e a revelação em sequência.</li>
+        <li>No fim, gere o cartão: o voto nunca entra nele.</li>
+      </ol>
+    </div>
+  </aside>
+  <div class="aparelho" id="aparelho">
+    <div class="app" id="app">
+      <div class="tela" id="tela"></div>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      <div class="sr" id="aviso" aria-live="polite"></div>
+      <div class="veu" id="veu" hidden></div>
+      <div class="folha" id="folha" role="dialog" aria-modal="true" aria-labelledby="folhaTitulo" hidden></div>
+    </div>
+  </div>
+</div>
+
+<script>
+'use strict'
+/* ================== dados fictícios ================== */
+const DADOS = {
+  eleicao: 'Eleição de exemplo 2026',
+  perfil: [
+    { campo: 'regiao', titulo: 'Onde você mora?', opcoes: ['Na capital', 'Na região metropolitana', 'No interior', 'Fora do estado'] },
+    { campo: 'saude', titulo: 'Quando alguém da casa precisa de médico, normalmente vai…', opcoes: ['Posto, UPA ou hospital público', 'Plano pago pela empresa', 'Plano pago pela família', 'Particular'] },
+  ],
+  temas: [
+    { id: 'transporte', nome: 'Transporte' }, { id: 'saude', nome: 'Saúde' }, { id: 'escola', nome: 'Escola' },
+    { id: 'seguranca', nome: 'Segurança' }, { id: 'emprego', nome: 'Emprego' }, { id: 'moradia', nome: 'Moradia' },
+    { id: 'ambiente', nome: 'Meio ambiente' }, { id: 'contas', nome: 'Contas públicas' },
+  ],
+  candidatos: [
+    { id: 'x', nome: 'Aurora Exemplo', partido: 'Partido Fictício Azul', numero: '91' },
+    { id: 'y', nome: 'Bento Modelo', partido: 'Partido Fictício Verde', numero: '92' },
+    { id: 'z', nome: 'Célia Protótipo', partido: 'Partido Fictício Laranja', numero: '93' },
+  ],
+  cenas: [
+    {
+      id: 'c1', tema: 'transporte',
+      cena: 'O ônibus que você pega pra trabalhar atrasou 40 minutos de novo e chegou lotado.',
+      pergunta: 'O que devia vir primeiro?',
+      opcoes: [
+        { id: 'a', texto: 'Colocar mais ônibus nos horários de pico.', notas: { x: 90, y: 50, z: 30 } },
+        { id: 'b', texto: 'Criar faixa só pra ônibus, pra andar mais rápido.', notas: { x: 60, y: 85, z: 40 } },
+        { id: 'c', texto: 'Baixar a passagem, mesmo que demore pra ter linha nova.', notas: { x: 20, y: 30, z: 90 } },
+        { id: 'd', texto: 'Mostrar no celular a hora certa de cada ônibus.', notas: { x: 50, y: 70, z: 50 } },
+      ],
+      fato: { texto: 'Exemplo fictício: em algumas capitais, faixas exclusivas cortaram o tempo de viagem do ônibus no horário de pico. Texto só para testar o formato.', fonte: 'Fonte de exemplo, 2026' },
+    },
+    {
+      id: 'c2', tema: 'saude',
+      // tamanho máximo do quiz real: cena com ~142 caracteres e opção com ~87
+      cena: 'Sua vizinha sente dor no joelho há meses. O posto mandou pro especialista, mas a consulta só foi marcada pra daqui a quatro meses, em outra cidade.',
+      pergunta: 'O que resolveria mais rápido?',
+      opcoes: [
+        { id: 'a', texto: 'Contratar mais médicos especialistas para a rede pública.', notas: { x: 85, y: 60, z: 70 } },
+        { id: 'b', texto: 'Pagar clínicas particulares pra atender quem está na fila do SUS, com dinheiro público.', notas: { x: 30, y: 90, z: 40 } },
+        { id: 'c', texto: 'Consulta por vídeo com o especialista, direto do posto.', notas: { x: 60, y: 70, z: 55 } },
+        { id: 'd', texto: 'Fila única na internet, pra todo mundo acompanhar a sua vez.', notas: { x: 70, y: 40, z: 85 } },
+      ],
+      fato: { texto: 'Exemplo fictício: a espera média por consulta com especialista varia muito entre regiões do mesmo estado. Texto só para testar o formato da folha, que pode ter até duas ou três linhas a mais sem empurrar nada.', fonte: 'Fonte de exemplo, 2026' },
+    },
+    {
+      id: 'c3', tema: 'escola', consenso: true,
+      cena: 'A escola do seu bairro passou metade do ano sem professor de matemática.',
+      pergunta: 'O que o governo devia fazer?',
+      opcoes: [
+        { id: 'a', texto: 'Aumentar o salário pra atrair professor.', notas: { x: 80, y: 75, z: 80 } },
+        { id: 'b', texto: 'Fazer concurso todo ano, sem deixar vaga aberta.', notas: { x: 75, y: 80, z: 75 } },
+        { id: 'c', texto: 'Aula com professor por vídeo até a vaga ser preenchida.', notas: { x: 40, y: 60, z: 30 } },
+        { id: 'd', texto: 'Dar bônus pra escola que cumprir metas.', notas: { x: 50, y: 70, z: 35 } },
+      ],
+      fato: { texto: 'Exemplo fictício: falta de professor de matemática e física é mais comum no ensino médio do que no fundamental.', fonte: 'Fonte de exemplo, 2026' },
+    },
+  ],
+}
+const REACOES = ['Anotado', 'Registrado', 'Guardado']
+const MAX_PRI = 3
+
+/* ================== estado ================== */
+const S = {
+  tela: 'intro', perfilIdx: 0, perfil: {}, prioridades: [],
+  cenaIdx: 0, respostas: {}, ordem: {}, direcao: 'frente', marcosVistos: {},
+  historia: 0, voto: undefined, votoErro: false, virados: {}, comNomes: false,
+}
+
+/* ================== utilidades ================== */
+const $ = (s, r = document) => r.querySelector(s)
+const $$ = (s, r = document) => [...r.querySelectorAll(s)]
+const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]))
+const app = $('#app')
+const reduzido = () => matchMedia('(prefers-reduced-motion: reduce)').matches || app.classList.contains('rm')
+const espera = (ms) => new Promise((r) => setTimeout(r, reduzido() ? 0 : ms))
+const temaNome = (id) => DADOS.temas.find((t) => t.id === id)?.nome ?? id
+const SETA_ESQ = '<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>'
+const CHECK = '<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="var(--mar)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
+
+function avisar(msg) { const a = $('#aviso'); a.textContent = ''; setTimeout(() => (a.textContent = msg), 30) }
+let toastT
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('on')
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('on'), 2400)
+}
+function segmentos(total, atual, feitos) {
+  return Array.from({ length: total }, (_, i) => `<span class="${feitos(i) ? 'feito' : i === atual ? 'atual' : ''}"></span>`).join('')
+}
+function embaralhar(lista) {
+  const a = [...lista]
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]] }
+  return a
+}
+
+/* ================== cálculo fictício ================== */
+function resultados() {
+  const r = DADOS.candidatos.map((c) => {
+    let soma = 0, peso = 0
+    const atende = [], parte = [], nao = []
+    for (const cena of DADOS.cenas) {
+      const opId = S.respostas[cena.id]
+      if (!opId) continue
+      const op = cena.opcoes.find((o) => o.id === opId)
+      const w = S.prioridades.includes(cena.tema) ? 2 : 1
+      soma += op.notas[c.id] * w; peso += w
+      ;(op.notas[c.id] >= 70 ? atende : op.notas[c.id] >= 45 ? parte : nao).push(op.texto)
+    }
+    return { c, pct: peso ? Math.round(soma / peso) : null, atende, parte, nao }
+  })
+  r.sort((a, b) => (b.pct ?? -1) - (a.pct ?? -1))
+  r.forEach((x, i) => (x.letra = String.fromCharCode(65 + i)))
+  return r
+}
+
+/* ================== render ================== */
+function render(focoSel) {
+  const tela = $('#tela')
+  tela.className = 'tela ' + (S.tela === 'historia' ? 'historia' : '')
+  tela.innerHTML = TELAS[S.tela]()
+  LIGAR[S.tela]?.()
+  const alvo = $(focoSel || '[data-foco]', tela)
+  if (alvo) alvo.focus({ preventScroll: true })
+}
+function ir(tela, focoSel) { fecharFolha(true); S.tela = tela; render(focoSel) }
+
+/* ---------- intro ---------- */
+const TELAS = {}, LIGAR = {}
+TELAS.intro = () => `
+  <header class="topo"><span class="tema">${esc(DADOS.eleicao)}</span></header>
+  <main class="meio">
+    <h1 class="titulo" tabindex="-1" data-foco style="font-size:32px;margin-top:18px">Qual proposta combina com o seu dia a dia?</h1>
+    <p class="sub">Você passa por situações da vida real e escolhe o que faria sentido. No fim, vê quem propõe algo parecido, sem saber os nomes até votar.</p>
+    <div class="pilulas" style="margin-top:4px">
+      <span style="background:#fff;border:2px solid var(--linha)">Uns 4 minutos</span>
+      <span style="background:#fff;border:2px solid var(--linha)">Dá pra voltar e trocar</span>
+      <span style="background:#fff;border:2px solid var(--linha)">Nada sai do seu celular</span>
+    </div>
+    <p class="nota">Não é pesquisa eleitoral nem recomendação de voto.</p>
+  </main>
+  <footer class="doca"><div class="acoes"><button class="btn pri" type="button" data-acao="comecar">Bora começar</button></div></footer>`
+LIGAR.intro = () => { $('[data-acao="comecar"]').onclick = () => { S.perfilIdx = 0; ir('perfil') } }
+
+/* ---------- perfil: 1 por tela, avança ao tocar ---------- */
+TELAS.perfil = () => {
+  const q = DADOS.perfil[S.perfilIdx], n = DADOS.perfil.length
+  return `
+  <header class="topo">
+    <span class="tema">Sobre você</span>
+    <div class="segmentos" role="progressbar" aria-label="Sobre você" aria-valuemin="1" aria-valuemax="${n}" aria-valuenow="${S.perfilIdx + 1}" aria-valuetext="Pergunta ${S.perfilIdx + 1} de ${n}">${segmentos(n, S.perfilIdx, (i) => i < S.perfilIdx)}</div>
+    <span class="contador">${S.perfilIdx + 1}/${n}</span>
+  </header>
+  <main class="meio entra-${S.direcao}">
+    <h1 class="titulo" id="qperfil" tabindex="-1" data-foco>${esc(q.titulo)}</h1>
+    <p class="sub">Toque na resposta para seguir. Só serve para escolher situações parecidas com a sua.</p>
+    <div class="lista" role="group" aria-labelledby="qperfil">
+      ${q.opcoes.map((o, i) => `<button type="button" class="escolha" aria-pressed="${S.perfil[q.campo] === i}" data-i="${i}">${esc(o)}</button>`).join('')}
+    </div>
+  </main>
+  <footer class="doca"><div class="acoes">
+    <button class="btn voltar" type="button" data-acao="voltar" aria-label="Voltar">${SETA_ESQ}</button>
+    <button class="btn sec" type="button" data-acao="pular">Pular</button>
+  </div></footer>`
+}
+LIGAR.perfil = () => {
+  const q = DADOS.perfil[S.perfilIdx]
+  const seguir = () => {
+    S.direcao = 'frente'
+    if (S.perfilIdx + 1 < DADOS.perfil.length) { S.perfilIdx++; render() } else ir('prioridades')
+  }
+  $$('.escolha').forEach((b) => (b.onclick = async () => {
+    S.perfil[q.campo] = +b.dataset.i
+    $$('.escolha').forEach((x) => x.setAttribute('aria-pressed', x === b))
+    await espera(260) // deixa ver a seleção antes de avançar
+    seguir()
+  }))
+  $('[data-acao="pular"]').onclick = () => { delete S.perfil[q.campo]; seguir() }
+  $('[data-acao="voltar"]').onclick = () => {
+    S.direcao = 'tras'
+    if (S.perfilIdx > 0) { S.perfilIdx--; render() } else ir('intro')
+  }
+}
+
+/* ---------- prioridades: tela única ---------- */
+TELAS.prioridades = () => `
+  <header class="topo"><span class="tema">Prioridades</span><div class="segmentos" aria-hidden="true">${segmentos(1, 0, () => false)}</div></header>
+  <main class="meio entra-${S.direcao}">
+    <h1 class="titulo" tabindex="-1" data-foco id="qpri">O que mais pesa no seu dia?</h1>
+    <p class="sub">Marque até ${MAX_PRI}. Esses temas contam em dobro.</p>
+    <div class="grade" role="group" aria-labelledby="qpri">
+      ${DADOS.temas.map((t) => `<button type="button" class="escolha" aria-pressed="${S.prioridades.includes(t.id)}" data-id="${t.id}">${esc(t.nome)}</button>`).join('')}
+    </div>
+  </main>
+  <footer class="doca">
+    <div class="teaser dica" id="contaPri" aria-live="polite"></div>
+    <div class="acoes">
+      <button class="btn voltar" type="button" data-acao="voltar" aria-label="Voltar">${SETA_ESQ}</button>
+      <button class="btn pri" type="button" data-acao="seguir"></button>
+    </div>
+  </footer>`
+LIGAR.prioridades = () => {
+  const atualizar = (erro) => {
+    const n = S.prioridades.length, c = $('#contaPri')
+    c.className = 'teaser ' + (erro ? 'erro' : 'dica')
+    c.textContent = erro ? `Máximo de ${MAX_PRI}. Desmarque um para trocar.` : n ? `${n} de ${MAX_PRI} escolhidos` : 'Nenhum marcado: todos os temas valem igual.'
+    const b = $('[data-acao="seguir"]'); b.textContent = n ? 'Continuar' : 'Pular'; b.className = 'btn ' + (n ? 'pri' : 'sec')
+  }
+  $$('.grade .escolha').forEach((b) => (b.onclick = () => {
+    const id = b.dataset.id, i = S.prioridades.indexOf(id)
+    if (i >= 0) S.prioridades.splice(i, 1)
+    else if (S.prioridades.length >= MAX_PRI) return atualizar(true)
+    else S.prioridades.push(id)
+    b.setAttribute('aria-pressed', S.prioridades.includes(id)); atualizar(false)
+  }))
+  $('[data-acao="seguir"]').onclick = () => { S.direcao = 'frente'; S.cenaIdx = 0; ir('cena') }
+  $('[data-acao="voltar"]').onclick = () => { S.direcao = 'tras'; S.perfilIdx = DADOS.perfil.length - 1; ir('perfil') }
+  atualizar(false)
+}
+
+/* ---------- cena ---------- */
+TELAS.cena = () => {
+  const n = DADOS.cenas.length, i = S.cenaIdx, cena = DADOS.cenas[i]
+  if (!S.ordem[cena.id]) S.ordem[cena.id] = embaralhar(cena.opcoes.map((o) => o.id)) // sorteio 1x por pessoa: Voltar não reembaralha
+  const escolha = S.respostas[cena.id]
+  const opcoes = S.ordem[cena.id].map((id) => cena.opcoes.find((o) => o.id === id))
+  return `
+  <header class="topo">
+    <span class="tema">${esc(temaNome(cena.tema))}</span>
+    <div class="segmentos" role="progressbar" aria-label="Progresso" aria-valuemin="1" aria-valuemax="${n}" aria-valuenow="${i + 1}" aria-valuetext="Situação ${i + 1} de ${n}">${segmentos(n, i, (k) => k < i)}</div>
+    <span class="contador">${i + 1}/${n}</span>
+  </header>
+  <main class="meio entra-${S.direcao}" id="meio">
+    <p class="cena-texto">${esc(cena.cena)}</p>
+    <fieldset class="opcoes">
+      <legend class="pergunta" id="perg" tabindex="-1" data-foco>${esc(cena.pergunta)}</legend>
+      <div class="lista">
+        ${opcoes.map((o) => `
+          <label class="opcao ${escolha === o.id ? 'escolhida' : ''}" data-op="${o.id}">
+            <input type="radio" name="op-${cena.id}" value="${o.id}" ${escolha === o.id ? 'checked' : ''}>
+            <span class="marca">${CHECK}</span><span>${esc(o.texto)}</span>
+          </label>`).join('')}
+      </div>
+    </fieldset>
+  </main>
+  <footer class="doca">
+    <div id="zonaTeaser"></div>
+    <div class="acoes">
+      <button class="btn voltar" type="button" data-acao="voltar" aria-label="${i === 0 ? 'Voltar para as prioridades' : 'Voltar para a situação anterior'}">${SETA_ESQ}</button>
+      <button class="btn" type="button" data-acao="avancar" data-testid="cena-avancar"></button>
+    </div>
+  </footer>`
+}
+function teaserCena(reacao) {
+  const cena = DADOS.cenas[S.cenaIdx], z = $('#zonaTeaser')
+  if (!S.respostas[cena.id]) {
+    z.innerHTML = `<div class="teaser dica">Escolha a que mais combina com você. Dá para trocar.</div>`
+  } else {
+    z.innerHTML = `<button type="button" class="teaser fato" data-acao="fato" aria-haspopup="dialog" data-testid="fato-chip">
+      <span class="miolo"><span class="rot">${esc(reacao || 'Anotado')} · Você sabia?</span><span class="fatotxt">${esc(cena.fato.texto)}</span></span>
+      <span class="seta" aria-hidden="true">Ler ›</span></button>`
+    $('[data-acao="fato"]').onclick = abrirFato
+  }
+  const ultima = S.cenaIdx === DADOS.cenas.length - 1
+  const av = $('[data-acao="avancar"]')
+  av.className = 'btn ' + (S.respostas[cena.id] ? 'pri' : 'sec')
+  av.textContent = S.respostas[cena.id] ? (ultima ? 'Ver meu resultado' : 'Próxima') : 'Nenhuma dessas'
+}
+LIGAR.cena = () => {
+  const cena = DADOS.cenas[S.cenaIdx], n = DADOS.cenas.length
+  teaserCena()
+  // troca livre: o radio nativo dá teclado (setas) e leitura de "selecionado"
+  $$('.opcao input').forEach((inp) => {
+    inp.addEventListener('change', () => {
+      const anterior = S.respostas[cena.id]
+      S.respostas[cena.id] = inp.value
+      $$('.opcao').forEach((l) => l.classList.toggle('escolhida', l.dataset.op === inp.value))
+      const reacao = anterior ? 'Trocado' : REACOES[S.cenaIdx % REACOES.length]
+      teaserCena(reacao)
+      avisar(anterior ? 'Resposta trocada.' : 'Anotado. Dá para trocar. Próxima está no rodapé.')
+    })
+    // tocar de novo na escolhida desmarca (volta a "Nenhuma dessas")
+    inp.addEventListener('click', (e) => {
+      if (inp.dataset.estava === '1') {
+        inp.checked = false; delete S.respostas[cena.id]
+        $$('.opcao').forEach((l) => l.classList.remove('escolhida')); teaserCena(); avisar('Resposta desmarcada.')
+      }
+    })
+    inp.addEventListener('pointerdown', () => (inp.dataset.estava = inp.checked ? '1' : '0'))
+    inp.addEventListener('keydown', () => (inp.dataset.estava = '0'))
+  })
+  $('[data-acao="avancar"]').onclick = () => {
+    S.direcao = 'frente'
+    if (S.cenaIdx + 1 < n) { S.cenaIdx++; render(); anunciarCena() } else ir('calculando')
+  }
+  $('[data-acao="voltar"]').onclick = () => {
+    S.direcao = 'tras'
+    if (S.cenaIdx > 0) { S.cenaIdx--; render(); anunciarCena(true) } else ir('prioridades')
+  }
+}
+function anunciarCena(voltando) {
+  const n = DADOS.cenas.length, i = S.cenaIdx
+  avisar(`Situação ${i + 1} de ${n}. ${temaNome(DADOS.cenas[i].tema)}.`)
+  if (voltando) return
+  // marcos: metade e última. Nunca sobre "acertar" nada.
+  const metade = Math.ceil(n / 2) - 1
+  if (i === n - 1 && !S.marcosVistos.ultima) { S.marcosVistos.ultima = 1; toast('Última! Depois vem o resultado') }
+  else if (i === metade && i > 0 && !S.marcosVistos.metade) { S.marcosVistos.metade = 1; toast(`Metade! Faltam ${n - i}`) }
+}
+
+/* ---------- folha do fato ---------- */
+let focoAntesFolha = null
+function abrirFato() {
+  const cena = DADOS.cenas[S.cenaIdx]
+  const ultima = S.cenaIdx === DADOS.cenas.length - 1
+  abrirFolha(`
+    <div class="puxador" aria-hidden="true"></div>
+    <h2 id="folhaTitulo" tabindex="-1">Você sabia?</h2>
+    <div class="corpo">
+      <p style="margin:0 0 8px">${esc(cena.fato.texto)}</p>
+      <a href="#" onclick="return false">Fonte: ${esc(cena.fato.fonte)}</a>
+      ${cena.consenso ? '<p style="font-weight:700;margin:10px 0 0">Spoiler: aqui os candidatos propõem coisas bem parecidas.</p>' : ''}
+    </div>
+    <div class="acoes">
+      <button class="btn sec" type="button" data-f="fechar">Fechar</button>
+      <button class="btn pri" type="button" data-f="seguir">${ultima ? 'Ver resultado' : 'Próxima'}</button>
+    </div>`)
+  $('[data-f="fechar"]').onclick = () => fecharFolha()
+  $('[data-f="seguir"]').onclick = () => { fecharFolha(true); $('[data-acao="avancar"]').click() }
+}
+function abrirFolha(html) {
+  focoAntesFolha = document.activeElement
+  const f = $('#folha'), v = $('#veu')
+  f.innerHTML = html; f.hidden = false; v.hidden = false
+  $('#tela').inert = true
+  requestAnimationFrame(() => { f.classList.add('on'); v.classList.add('on') })
+  $('#folhaTitulo').focus({ preventScroll: true })
+  v.onclick = () => fecharFolha()
+}
+function fecharFolha(semDevolverFoco) {
+  const f = $('#folha'), v = $('#veu')
+  if (f.hidden) return
+  f.classList.remove('on'); v.classList.remove('on'); $('#tela').inert = false
+  const fim = () => { f.hidden = true; v.hidden = true }
+  reduzido() ? fim() : setTimeout(fim, 260)
+  if (!semDevolverFoco && focoAntesFolha?.isConnected) focoAntesFolha.focus()
+}
+document.addEventListener('keydown', (e) => {
+  const f = $('#folha')
+  if (!f.hidden) {
+    if (e.key === 'Escape') { e.preventDefault(); fecharFolha() }
+    if (e.key === 'Tab') { // prende o foco na folha
+      const alvos = $$('button, a[href]', f); const p = alvos[0], u = alvos[alvos.length - 1]
+      if (e.shiftKey && document.activeElement === p) { e.preventDefault(); u.focus() }
+      else if (!e.shiftKey && document.activeElement === u) { e.preventDefault(); p.focus() }
+    }
+    return
+  }
+  // atalhos de teclado na cena (desktop): 1–4 escolhe
+  if (S.tela === 'cena' && /^[1-9]$/.test(e.key) && !e.altKey && !e.ctrlKey && !e.metaKey) {
+    const inp = $$('.opcao input')[+e.key - 1]
+    if (inp) { inp.checked = true; inp.dispatchEvent(new Event('change')); inp.focus() }
+  }
+})
+
+/* ---------- calculando ---------- */
+TELAS.calculando = () => `
+  <main class="meio" style="grid-row:1/4;display:grid;place-items:center;text-align:center">
+    <div><p class="grande" tabindex="-1" data-foco>Comparando suas escolhas com as propostas…</p>
+    <p class="sub">Tabela fixa, igual para todo mundo. Nada sai do seu celular.</p></div>
+  </main>`
+LIGAR.calculando = async () => { avisar('Comparando suas escolhas.'); await espera(1200); S.historia = 0; ir('historia') }
+
+/* ---------- histórias (tipo Wrapped), sem nomes ---------- */
+const HISTORIAS = [
+  () => {
+    const n = Object.keys(S.respostas).length
+    const pri = S.prioridades.map(temaNome)
+    return `<p style="font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:13px;margin:18px 0 0">Seu jeito</p>
+      <p class="enorme">${n}</p>
+      <p class="grande" style="margin-top:0" tabindex="-1" data-foco>situaç${n === 1 ? 'ão' : 'ões'} do dia a dia com resposta sua</p>
+      ${pri.length ? `<p style="margin:0">O que mais pesa pra você:</p><div class="pilulas">${pri.map((p) => `<span>${esc(p)}</span>`).join('')}</div>` : '<p>Você não marcou prioridades: todos os temas valeram igual.</p>'}`
+  },
+  () => {
+    const cons = DADOS.cenas.filter((c) => c.consenso && S.respostas[c.id])
+    return `<p style="font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:13px;margin:18px 0 0">Antes do resultado</p>
+      <p class="grande" tabindex="-1" data-foco>${cons.length ? `Em ${esc(temaNome(cons[0].tema))}, todos propõem quase a mesma coisa.` : 'Os candidatos discordam em quase tudo que você respondeu.'}</p>
+      <p>Agora você vai ver quem ficou mais perto das suas escolhas, <b>sem os nomes</b>. Depois você vota às cegas, e só aí os nomes aparecem.</p>`
+  },
+]
+TELAS.historia = () => `
+  <header class="topo">
+    <div class="segmentos" role="progressbar" aria-label="Resumo" aria-valuemin="1" aria-valuemax="${HISTORIAS.length}" aria-valuenow="${S.historia + 1}">${segmentos(HISTORIAS.length, S.historia, (i) => i <= S.historia)}</div>
+    <button class="link" style="color:#fff" type="button" data-acao="pularh">Pular</button>
+  </header>
+  <main class="meio entra-frente">${HISTORIAS[S.historia]()}</main>
+  <footer class="doca"><div class="acoes">
+    <button class="btn voltar" type="button" data-acao="voltarh" aria-label="Voltar" style="background:transparent;color:#fff;border-color:#fff">${SETA_ESQ}</button>
+    <button class="btn claro" type="button" data-acao="seguirh">${S.historia + 1 < HISTORIAS.length ? 'Continuar' : 'Ver resultado às cegas'}</button>
+  </div></footer>`
+LIGAR.historia = () => {
+  $('[data-acao="seguirh"]').onclick = () => { if (S.historia + 1 < HISTORIAS.length) { S.historia++; render() } else ir('resultado') }
+  $('[data-acao="voltarh"]').onclick = () => { if (S.historia > 0) { S.historia--; render() } else { S.cenaIdx = DADOS.cenas.length - 1; S.direcao = 'tras'; ir('cena') } }
+  $('[data-acao="pularh"]').onclick = () => ir('resultado')
+}
+
+/* ---------- resultado às cegas (hub) ---------- */
+TELAS.resultado = () => {
+  const r = resultados()
+  const empate = r.length > 1 && r[0].pct !== null && r[1].pct !== null && r[0].pct - r[1].pct < 5
+  return `
+  <header class="topo"><span class="tema">Resultado às cegas</span></header>
+  <main class="meio">
+    <h1 class="titulo" tabindex="-1" data-foco>Quem propõe algo parecido com as suas escolhas</h1>
+    ${empate ? `<p class="aviso-empate">${r[0].letra} e ${r[1].letra} estão quase empatados nas suas escolhas.</p>` : ''}
+    <div class="cands">
+      ${r.map((x) => `
+        <button type="button" class="cand" data-cand="${x.c.id}" aria-haspopup="dialog" aria-label="Candidato ${x.letra}, ${x.pct ?? 'sem'} por cento. ${x.atende.length} atendem, ${x.nao.length} não atendem. Ver detalhes.">
+          <span class="letra" aria-hidden="true">${x.letra}</span>
+          <span aria-hidden="true" style="min-width:0"><span class="nome">Candidato ${x.letra}</span> <small style="color:var(--tinta-suave)">✓${x.atende.length} · ~${x.parte.length} · ✗${x.nao.length}</small>
+            <span class="barra"><i data-w="${x.pct ?? 0}"></i></span></span>
+          <span class="pct" aria-hidden="true" data-pct="${x.pct ?? 0}">${x.pct === null ? '—' : '0%'}</span>
+        </button>`).join('')}
+    </div>
+    <p class="nota">Toque num candidato para ver o que atende e o que não atende. O percentual mostra afinidade com as suas escolhas, não é recomendação de voto.</p>
+  </main>
+  <footer class="doca">
+    <div class="acoes"><button class="btn pri" type="button" data-acao="votar">Votar às cegas</button></div>
+    <button class="link" type="button" data-acao="semvoto" style="align-self:center">Prefiro não votar, só ver os nomes</button>
+  </footer>`
+}
+LIGAR.resultado = () => {
+  const barras = $$('.barra i'), pcts = $$('.pct[data-pct]')
+  // barras e números entram em sequência (0 ms com movimento reduzido)
+  barras.forEach((b, i) => setTimeout(() => (b.style.width = b.dataset.w + '%'), reduzido() ? 0 : 120 + i * 180))
+  pcts.forEach((p, i) => {
+    const alvo = +p.dataset.pct
+    if (p.textContent === '—') return
+    if (reduzido()) { p.textContent = alvo + '%'; return }
+    const t0 = performance.now() + 120 + i * 180
+    const passo = (t) => { const k = Math.min(1, Math.max(0, (t - t0) / 700)); p.textContent = Math.round(alvo * (1 - Math.pow(1 - k, 3))) + '%'; if (k < 1) requestAnimationFrame(passo) }
+    requestAnimationFrame(passo)
+  })
+  $$('.cand').forEach((b) => (b.onclick = () => detalheCandidato(b.dataset.cand)))
+  $('[data-acao="votar"]').onclick = () => { S.votoErro = false; ir('voto') }
+  $('[data-acao="semvoto"]').onclick = () => { S.voto = null; ir('contagem') }
+}
+function detalheCandidato(id, revelado) {
+  const x = resultados().find((k) => k.c.id === id)
+  const lista = (t, cor, marca, itens) => itens.length ? `<p class="grupo"><span class="bola" style="background:${cor}" aria-hidden="true">${marca}</span>${t}</p><ul>${itens.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>` : ''
+  abrirFolha(`
+    <div class="puxador" aria-hidden="true"></div>
+    <h2 id="folhaTitulo" tabindex="-1">${revelado ? esc(x.c.nome) : 'Candidato ' + x.letra} · ${x.pct}%</h2>
+    <div class="corpo">
+      ${lista('Atende', 'var(--folha)', '✓', x.atende)}
+      ${lista('Atende em parte', '#8a6a00', '~', x.parte)}
+      ${lista('Não atende', 'var(--coral)', '✗', x.nao)}
+      ${revelado ? '' : '<p class="nota">Trecho e fonte de cada proposta aparecem depois do voto, porque entregariam quem é.</p>'}
+    </div>
+    <div class="acoes"><button class="btn sec" type="button" data-f="fechar">Fechar</button></div>`)
+  $('[data-f="fechar"]').onclick = () => fecharFolha()
+}
+
+/* ---------- voto às cegas ---------- */
+TELAS.voto = () => {
+  const r = resultados()
+  return `
+  <header class="topo"><span class="tema">Voto às cegas</span></header>
+  <main class="meio">
+    <fieldset class="opcoes">
+      <legend><h1 class="titulo" tabindex="-1" data-foco style="margin-bottom:4px">Só pelas propostas, em quem você votaria?</h1></legend>
+      <p class="sub">Os nomes aparecem logo depois. O voto é anônimo e não vai no cartão de compartilhar.</p>
+      <div class="lista">
+        ${r.map((x) => `<label class="opcao ${S.voto === x.c.id ? 'escolhida' : ''}" data-op="${x.c.id}"><input type="radio" name="voto" value="${x.c.id}" ${S.voto === x.c.id ? 'checked' : ''}><span class="marca">${CHECK}</span><span style="flex:1">Candidato ${x.letra}</span><span style="font-family:var(--display);font-weight:800">${x.pct}%</span></label>`).join('')}
+        <label class="opcao ${S.voto === null ? 'escolhida' : ''}" data-op="nenhum"><input type="radio" name="voto" value="nenhum" ${S.voto === null ? 'checked' : ''}><span class="marca">${CHECK}</span><span>Prefiro não votar</span></label>
+      </div>
+    </fieldset>
+  </main>
+  <footer class="doca">
+    <div id="zonaVoto"></div>
+    <div class="acoes">
+      <button class="btn voltar" type="button" data-acao="voltar" aria-label="Voltar ao resultado">${SETA_ESQ}</button>
+      <button class="btn pri" type="button" data-acao="confirmar">Confirmar e revelar</button>
+    </div>
+  </footer>`
+}
+LIGAR.voto = () => {
+  const z = $('#zonaVoto')
+  const dica = () => (z.innerHTML = S.votoErro
+    ? '<div class="teaser erro" role="alert">Escolha uma opção acima, ou "Prefiro não votar".</div>'
+    : '<div class="teaser dica">Dá para trocar até confirmar.</div>')
+  dica()
+  $$('.opcao input').forEach((inp) => inp.addEventListener('change', () => {
+    S.voto = inp.value === 'nenhum' ? null : inp.value
+    $$('.opcao').forEach((l) => l.classList.toggle('escolhida', l.dataset.op === inp.value))
+    S.votoErro = false; dica()
+  }))
+  $('[data-acao="voltar"]').onclick = () => ir('resultado')
+  $('[data-acao="confirmar"]').onclick = () => {
+    if (S.voto === undefined) { S.votoErro = true; dica(); $('.opcao input').focus(); return }
+    ir('contagem')
+  }
+}
+
+/* ---------- contagem regressiva ---------- */
+TELAS.contagem = () => `<div class="contagem" style="grid-row:1/4"><div><p style="font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px">Revelando em</p><div class="num" id="num" aria-hidden="true">3</div></div></div>`
+LIGAR.contagem = async () => {
+  avisar('Revelando os nomes.')
+  if (!reduzido()) {
+    for (const k of [3, 2, 1]) { const n = $('#num'); if (!n) return; n.textContent = k; n.style.animation = 'none'; void n.offsetWidth; n.style.animation = ''; await espera(800) }
+  }
+  S.virados = {}
+  ir('revelacao')
+}
+
+/* ---------- revelação em sequência ---------- */
+TELAS.revelacao = () => {
+  const r = resultados()
+  const votado = r.find((x) => x.c.id === S.voto)
+  const outros = r.filter((x) => x !== votado)
+  const carta = (x, destaque) => `
+    <div class="carta ${destaque ? 'destaque' : ''} ${S.virados[x.c.id] ? 'virada' : ''}" data-carta="${x.c.id}">
+      <div class="carta-in">
+        <div class="face frente" ${S.virados[x.c.id] ? 'aria-hidden="true"' : ''}><span class="letra">${x.letra}</span><span class="qual">${destaque ? '<small>Seu voto às cegas</small>' : ''}<b>Candidato ${x.letra}</b></span><span class="pct">${x.pct}%</span></div>
+        <div class="face verso" ${S.virados[x.c.id] ? '' : 'aria-hidden="true"'}><span class="letra">${x.letra}</span><span class="qual">${destaque ? '<small>Seu voto às cegas</small>' : ''}<b>${esc(x.c.nome)}</b><small>${esc(x.c.partido)} · ${x.c.numero}</small></span><span class="pct">${x.pct}%</span></div>
+      </div>
+    </div>`
+  const todos = r.every((x) => S.virados[x.c.id])
+  return `
+  <header class="topo"><span class="tema">Quem é quem</span></header>
+  <main class="meio">
+    <h1 class="titulo" tabindex="-1" data-foco>${votado ? 'Você votou no Candidato ' + votado.letra : 'Os nomes'}</h1>
+    <div class="cartas">
+      ${votado ? carta(votado, true) : ''}
+      ${votado && outros.length ? '<p class="nota" style="margin:6px 2px 0">E os outros:</p>' : ''}
+      ${outros.map((x) => carta(x, false)).join('')}
+    </div>
+    ${todos ? '<p class="nota">Toque em um nome no resultado completo para ver o trecho e a fonte de cada proposta.</p>' : ''}
+  </main>
+  <footer class="doca"><div class="acoes">
+    <button class="btn ${todos ? 'claro' : 'pri'}" type="button" data-acao="rev">${todos ? 'Montar meu cartão' : votado && S.virados[votado.c.id] ? 'Revelar os outros' : 'Revelar'}</button>
+  </div></footer>`
+}
+LIGAR.revelacao = () => {
+  const r = resultados(), votado = r.find((x) => x.c.id === S.voto)
+  const virar = (x) => {
+    S.virados[x.c.id] = true
+    const el = $(`[data-carta="${x.c.id}"]`); el.classList.add('virada')
+    $('.frente', el).setAttribute('aria-hidden', 'true'); $('.verso', el).removeAttribute('aria-hidden')
+    avisar(`Candidato ${x.letra} é ${x.c.nome}, ${x.c.partido}, número ${x.c.numero}.`)
+  }
+  // o voto se revela sozinho ao chegar: é o momento de recompensa
+  if (votado && !S.virados[votado.c.id]) setTimeout(() => { virar(votado); $('[data-acao="rev"]').textContent = 'Revelar os outros' }, reduzido() ? 0 : 350)
+  $('[data-acao="rev"]').onclick = async () => {
+    if (r.every((x) => S.virados[x.c.id])) return ir('cartao')
+    const btn = $('[data-acao="rev"]'); btn.disabled = true
+    for (const x of r.filter((k) => !S.virados[k.c.id])) { virar(x); await espera(420) }
+    render('[data-acao="rev"]')
+  }
+}
+
+/* ---------- cartão compartilhável ---------- */
+TELAS.cartao = () => `
+  <header class="topo"><span class="tema">Compartilhar</span></header>
+  <main class="meio">
+    <h1 class="titulo" tabindex="-1" data-foco style="font-size:22px">Seu cartão</h1>
+    <img class="previa" id="previa" alt="">
+    <button type="button" class="alterna" role="switch" aria-checked="${S.comNomes}" id="alternaNomes">
+      <span>Incluir nomes e percentuais</span><span class="trilho" aria-hidden="true"></span></button>
+    <p class="nota">Seu voto nunca entra no cartão.</p>
+  </main>
+  <footer class="doca">
+    <div class="acoes"><button class="btn claro" type="button" data-acao="compartilhar">Compartilhar imagem</button></div>
+    <button class="link" type="button" data-acao="refazer" style="align-self:center">Refazer o teste</button>
+  </footer>`
+LIGAR.cartao = () => {
+  const desenhar = () => {
+    const cv = document.createElement('canvas'); cv.width = 1080; cv.height = 1350
+    const g = cv.getContext('2d'), f = (p, w = 800) => `${w} ${p}px system-ui, -apple-system, Segoe UI, Roboto, sans-serif`
+    g.fillStyle = '#0f6e8c'; g.fillRect(0, 0, 1080, 1350)
+    g.fillStyle = '#ffc93c'; g.fillRect(0, 0, 1080, 18)
+    g.fillStyle = '#fff'; g.font = f(38, 700); g.fillText(DADOS.eleicao.toUpperCase(), 80, 130)
+    g.font = f(76); ['Qual proposta', 'combina com o', 'meu dia a dia?'].forEach((l, i) => g.fillText(l, 80, 250 + i * 88))
+    g.font = f(40, 700); g.fillText('O que mais pesa pra mim:', 80, 590)
+    let x = 80
+    ;(S.prioridades.length ? S.prioridades.map(temaNome) : ['Todos os temas']).forEach((t) => {
+      g.font = f(40); const w = g.measureText(t).width + 56
+      g.fillStyle = '#ffc93c'; g.beginPath(); g.roundRect(x, 620, w, 76, 38); g.fill()
+      g.fillStyle = '#16213a'; g.fillText(t, x + 28, 672); x += w + 16
+    })
+    g.fillStyle = '#fff'; g.font = f(40, 700); g.fillText(S.comNomes ? 'Afinidade com as minhas escolhas:' : 'Meu resultado às cegas:', 80, 790)
+    resultados().forEach((r, i) => {
+      const y = 830 + i * 110
+      g.fillStyle = 'rgba(255,255,255,.25)'; g.beginPath(); g.roundRect(80, y + 56, 920, 22, 11); g.fill()
+      g.fillStyle = '#ffc93c'; g.beginPath(); g.roundRect(80, y + 56, 920 * (r.pct ?? 0) / 100, 22, 11); g.fill()
+      g.fillStyle = '#fff'; g.font = f(40)
+      g.fillText(S.comNomes ? r.c.nome : 'Candidato ' + r.letra, 80, y + 40)
+      g.textAlign = 'right'; g.fillText(S.comNomes ? r.pct + '%' : '??', 1000, y + 40); g.textAlign = 'left'
+    })
+    g.font = f(34, 700); g.fillText('Faça o seu e descubra quem é quem.', 80, 1230)
+    g.font = f(26, 600); g.globalAlpha = .85; g.fillText('Não é pesquisa eleitoral nem recomendação de voto.', 80, 1285); g.globalAlpha = 1
+    return cv
+  }
+  let cv = desenhar()
+  const atualizar = () => {
+    cv = desenhar(); const img = $('#previa'); img.src = cv.toDataURL('image/png')
+    img.alt = S.comNomes ? 'Prévia do cartão com prioridades, nomes e percentuais. Sem o voto.' : 'Prévia do cartão com prioridades e resultado às cegas, sem nomes e sem o voto.'
+  }
+  atualizar()
+  $('#alternaNomes').onclick = (e) => { S.comNomes = !S.comNomes; e.currentTarget.setAttribute('aria-checked', S.comNomes); atualizar() }
+  $('[data-acao="compartilhar"]').onclick = () => cv.toBlob(async (blob) => {
+    const arq = new File([blob], 'meu-resultado.png', { type: 'image/png' })
+    try {
+      if (navigator.canShare?.({ files: [arq] })) { await navigator.share({ files: [arq], text: 'Faça o seu: (link do teste)' }); return }
+    } catch { /* cancelado */ }
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'meu-resultado.png'; a.click()
+    toast('Imagem baixada')
+  })
+  $('[data-acao="refazer"]').onclick = () => {
+    Object.assign(S, { perfilIdx: 0, perfil: {}, prioridades: [], cenaIdx: 0, respostas: {}, ordem: {}, marcosVistos: {}, voto: undefined, virados: {}, comNomes: false, direcao: 'frente' })
+    ir('intro')
+  }
+}
+
+/* ================== bancada ================== */
+const TAMANHOS = { '360x640': ['360px', '640px'], '390x844': ['390px', '844px'], cheia: ['', ''] }
+function tamanho(t) {
+  const [w, h] = TAMANHOS[t]
+  app.style.setProperty('--w', w || '100%'); app.style.setProperty('--h', h || '100dvh')
+  $$('[data-tam]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.tam === t))
+}
+$$('[data-tam]').forEach((b) => (b.onclick = () => tamanho(b.dataset.tam)))
+$('#alternaRM').onclick = (e) => { const on = app.classList.toggle('rm'); e.currentTarget.setAttribute('aria-pressed', on) }
+$$('[data-pular]').forEach((b) => (b.onclick = () => {
+  const d = b.dataset.pular
+  if (d === 'cena') { S.cenaIdx = 0; S.direcao = 'frente'; ir('cena') }
+  if (d === 'resultado') {
+    DADOS.cenas.forEach((c) => (S.respostas[c.id] ??= c.opcoes[0].id))
+    if (!S.prioridades.length) S.prioridades = ['saude', 'transporte']
+    ir('resultado')
+  }
+  if (d === 'intro') ir('intro')
+}))
+// em tela larga começa simulando 360×640; no celular, tela cheia
+tamanho(matchMedia('(min-width: 760px)').matches ? '360x640' : 'cheia')
+// permite abrir direto numa tela para testes automatizados: prototipo-fluxo.html#cena
+const inicio = location.hash.slice(1)
+if (inicio === 'cena') { S.tela = 'cena' } else if (inicio === 'resultado') { DADOS.cenas.forEach((c) => (S.respostas[c.id] = c.opcoes[0].id)); S.tela = 'resultado' }
+render()
+</script>
+</body>
+</html>

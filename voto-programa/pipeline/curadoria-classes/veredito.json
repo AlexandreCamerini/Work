@@ -1,0 +1,559 @@
+{
+  "letramento": [
+    {
+      "pergunta_id": "barca-leste",
+      "eleicao": "governador-rj",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "'Vai até a rua' é literal e cabe no limite (19 palavras). Ok."
+    },
+    {
+      "pergunta_id": "barca-leste",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "ajustar",
+      "depois_corrigido": "Passar a barca pro estado e baixar a passagem.",
+      "motivo": "No quiz de governador as outras opções dizem 'estado' ('Estado paga parte...', 'dinheiro do estado'); 'governo' sozinho pode ser lido como o federal. Resto fiel à preferência (estatizar, tarifa social ou zero). Obs. pré-existente: o contexto de barca-leste diz que o estado já comanda o serviço desde fev/2025, o que torna a própria preferência confusa para o leitor; não é problema desta troca."
+    },
+    {
+      "pergunta_id": "transito-carro",
+      "eleicao": "governador-rj",
+      "campo": "pergunta",
+      "veredito": "ajustar",
+      "depois_corrigido": "O que devia vir primeiro?",
+      "motivo": "A troca corrige um viés e cria o oposto: 'o que faria o trânsito andar melhor?' para quem está parado na Linha Vermelha puxa a opção c (novas pistas, efeito direto no trânsito) e afasta a d (tarifa zero), cujo elo com o trânsito é indireto. 'O que devia vir primeiro?' é neutra e já é usada em estrada-interior, rua-alagada e clima."
+    },
+    {
+      "pergunta_id": "passagem-cara",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Fiel (bilhetagem tirada das empresas de ônibus + transparência de custo); resolve a ambiguidade com a empresa do trabalhador. 'O cartão' sem 'de passagem' fica claro pela cena. Propagar para passagem-moto/interior/leste."
+    },
+    {
+      "pergunta_id": "vale-transporte",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Idem passagem-cara/c; na cena do vale-transporte a ambiguidade era real. Ok."
+    },
+    {
+      "pergunta_id": "saude-interior",
+      "eleicao": "governador-rj",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('alta complexidade'). 'Mais complicados' é comparativo sem referência e soa um pouco coloquial, mas é entendido; opções somadas ficam em 259 (margem de 1), então qualquer ajuste futuro aqui tem de manter o tamanho."
+    },
+    {
+      "pergunta_id": "escola-bagunca",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('levar ensino técnico para o ensino médio estadual') e equilibra o tamanho. Ok."
+    },
+    {
+      "pergunta_id": "falta-tecnico",
+      "eleicao": "governador-rj",
+      "campo": "pergunta",
+      "veredito": "aprovar",
+      "motivo": "Neutra para as quatro opções. Ok."
+    },
+    {
+      "pergunta_id": "falta-tecnico",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Diz quem recebe o incentivo. 'Primeiro emprego, com…' é fragmento, mas lido como nome de programa. 'Aprendizagem' da preferência já faltava antes (pré-existente). Ok."
+    },
+    {
+      "pergunta_id": "operacao-policial",
+      "eleicao": "governador-rj",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "Opção b protegida intocada; cena 7+14 palavras, 168 caracteres com a pergunta (margem 2). Ok."
+    },
+    {
+      "pergunta_id": "celular-roubado",
+      "eleicao": "governador-rj",
+      "campo": "pergunta",
+      "veredito": "aprovar",
+      "motivo": "'O que funcionaria melhor?' é neutra; a antiga favorecia o que se vê na rua. Ok."
+    },
+    {
+      "pergunta_id": "celular-roubado",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "ajustar",
+      "depois_corrigido": "Investigação permanente contra quem compra celular roubado.",
+      "motivo": "'Investigar sem parar' é hipérbole: acrescenta ênfase/energia que as irmãs não têm e não é o que a preferência diz ('investigação permanente' = programa contínuo, não 'sem parar'). A pergunta nova ('O que funcionaria melhor?') está ok."
+    },
+    {
+      "pergunta_id": "medida-protetiva",
+      "eleicao": "governador-rj",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "Explicação correta (medida protetiva de urgência inclui afastamento/proibição de aproximação) e curta. Ok."
+    },
+    {
+      "pergunta_id": "rua-alagada",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "'Casa popular' é o nome do dia a dia de 'habitação de interesse social' (a preferência); não acrescenta tipo de moradia de forma relevante (no uso corrente vale também para apartamento de conjunto). 'Levar' é neutro e não esconde a mudança (o 'área de risco' → 'pra casa popular' deixa claro que a família sai). Tira o adjetivo de valor 'digna'. Ok. Propagar para chuva-interior/d."
+    },
+    {
+      "pergunta_id": "encosta-serra",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Mesmo texto de rua-alagada/d. Sem efeito se encosta-serra sair do quiz."
+    },
+    {
+      "pergunta_id": "garagem-alagada",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Mesmo texto de rua-alagada/d. Ok."
+    },
+    {
+      "pergunta_id": "falta-agua",
+      "eleicao": "governador-rj",
+      "campo": "opcao:a",
+      "veredito": "aprovar",
+      "motivo": "Fiel e tira o apelo emocional exclusivo. Ok."
+    },
+    {
+      "pergunta_id": "caminhao-pipa",
+      "eleicao": "governador-rj",
+      "campo": "opcao:a",
+      "veredito": "aprovar",
+      "motivo": "Idem falta-agua/a. Ok."
+    },
+    {
+      "pergunta_id": "primo-desempregado",
+      "eleicao": "governador-rj",
+      "campo": "opcao:a",
+      "veredito": "aprovar",
+      "motivo": "Fiel (a preferência tem aprendizagem técnica e incentivo à contratação); equilibra o tamanho sem acrescentar nada. Ok."
+    },
+    {
+      "pergunta_id": "primo-desempregado",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "ajustar",
+      "depois_corrigido": "Deixar a criação de emprego com as empresas e investir em segurança.",
+      "motivo": "'Criar emprego fica com as empresas' tem infinitivo como sujeito, construção difícil para quem lê devagar (pior que o ponto e vírgula que tirou). A versão corrigida começa por verbo como as irmãs, não tem a ambiguidade de 'deixar o emprego' e diz as duas metades da preferência. 12 palavras; opções somadas 255."
+    },
+    {
+      "pergunta_id": "licenca-empresa",
+      "eleicao": "governador-rj",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Fiel (previsibilidade + menos burocracia), sem metáfora. Ok."
+    },
+    {
+      "pergunta_id": "licenca-empresa",
+      "eleicao": "governador-rj",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Só a pontuação. Ok."
+    },
+    {
+      "pergunta_id": "dinheiro-publico",
+      "eleicao": "governador-rj",
+      "campo": "opcao:a",
+      "veredito": "aprovar",
+      "motivo": "Fiel (despesa vinculada à receita). Ok."
+    },
+    {
+      "pergunta_id": "dinheiro-publico",
+      "eleicao": "governador-rj",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "'Secretaria' é o que a preferência diz. Ok."
+    },
+    {
+      "pergunta_id": "escala-6x1",
+      "eleicao": "presidente",
+      "campo": "pergunta",
+      "veredito": "aprovar",
+      "motivo": "Neutra para as quatro (todas mudam regra; não há opção de status quo que o 'mudaria' prejudique). Opção b protegida intocada. Usar a mesma pergunta em conta-propria e jornada-familia."
+    },
+    {
+      "pergunta_id": "escala-6x1",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('alterar pontos da legislação'). Propagar para conta-propria/c e jornada-familia/c."
+    },
+    {
+      "pergunta_id": "fila-cirurgia",
+      "eleicao": "presidente",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "Fiel (risco clínico) e evita 'gravidade/gravidez'. A IA da preferência já não aparecia (pré-existente). Propagar para fila-aposentado (presidente)/b."
+    },
+    {
+      "pergunta_id": "especialista-longe",
+      "eleicao": "presidente",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "Idem fila-cirurgia/b. Ok."
+    },
+    {
+      "pergunta_id": "plano-voltou-sus",
+      "eleicao": "presidente",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "Idem fila-cirurgia/b. Ok."
+    },
+    {
+      "pergunta_id": "celular-roubado",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('padrões nacionais'). Opções somadas 259 (margem 1). Ok."
+    },
+    {
+      "pergunta_id": "celular-sinal",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Idem. Ok."
+    },
+    {
+      "pergunta_id": "celular-roubado",
+      "eleicao": "presidente",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('efetivo'). Ok."
+    },
+    {
+      "pergunta_id": "celular-sinal",
+      "eleicao": "presidente",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Idem. Ok."
+    },
+    {
+      "pergunta_id": "celular-sinal",
+      "eleicao": "presidente",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "'Semáforo' é entendido no país todo. Ok."
+    },
+    {
+      "pergunta_id": "largar-escola",
+      "eleicao": "presidente",
+      "campo": "opcao:b",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('ampliar a educação técnica') e tira o argumento de venda exclusivo. Propagar para neto-escola/b."
+    },
+    {
+      "pergunta_id": "largar-escola",
+      "eleicao": "presidente",
+      "campo": "opcao:d",
+      "veredito": "ajustar",
+      "depois_corrigido": "Escola o dia inteiro, em toda escola pública.",
+      "motivo": "'Aula o dia inteiro' estreita a preferência (tempo integral não é só aula) e, na cena de um jovem que quer largar a escola, soa como castigo, deixando a opção menos atraente. 'Escola o dia inteiro' é o glossário do quiz de governador; 'toda escola pública' tira 'rede pública'. Propagar para neto-escola/d."
+    },
+    {
+      "pergunta_id": "conta-luz",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Explicação neutra e correta (fraturamento de rocha para tirar gás); 'fracking' segue como nome da política. Ok."
+    },
+    {
+      "pergunta_id": "enchente-seca",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Fiel (concessão automática no prazo). 'Sai sozinha' é o jeito falado de 'automática' e é entendido; 'atrasar' = perder o prazo, que é a condição da preferência. Não favorece nem caricatura. Opções somadas 257: variantes mais longas ('se o governo não decidir') estouram 260. Ok."
+    },
+    {
+      "pergunta_id": "enchente-sul",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Idem enchente-seca/c. Ok."
+    },
+    {
+      "pergunta_id": "fumaca-queimada",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Idem enchente-seca/c. Ok."
+    },
+    {
+      "pergunta_id": "seca-nordeste",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "Idem enchente-seca/c. Ok."
+    },
+    {
+      "pergunta_id": "video-falso",
+      "eleicao": "presidente",
+      "campo": "opcao:a",
+      "veredito": "ajustar",
+      "depois_corrigido": "Criar regras pras redes sociais combaterem mentira e discurso de ódio.",
+      "motivo": "'Barrar' = impedir de sair (bloqueio prévio); a preferência é 'conter'. Num item onde a opção b fala em censura, a troca desloca o sentido para o lado mais restritivo e pode afastar eleitor. 'Combater' é palavra do dia a dia e fica perto de 'conter'."
+    },
+    {
+      "pergunta_id": "gasto-governo",
+      "eleicao": "presidente",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "Tira o jargão 'máquina'; 20 palavras (no limite). Ok."
+    },
+    {
+      "pergunta_id": "gasto-governo",
+      "eleicao": "presidente",
+      "campo": "opcao:c",
+      "veredito": "aprovar",
+      "motivo": "'Que o governo não precisa ter' preserva o 'caso a caso'. Ok."
+    },
+    {
+      "pergunta_id": "gasto-governo",
+      "eleicao": "presidente",
+      "campo": "opcao:d",
+      "veredito": "aprovar",
+      "motivo": "Fiel ('manter o controle estatal'). Ok."
+    },
+    {
+      "pergunta_id": "agressor-rondando",
+      "eleicao": "presidente",
+      "campo": "cena",
+      "veredito": "aprovar",
+      "motivo": "Idem medida-protetiva. Ok."
+    }
+  ],
+  "variantes": [
+    {
+      "id_novo": "conta-propria",
+      "eleicao": "presidente",
+      "veredito": "ajustar",
+      "correcoes": {
+        "pergunta": "O que você mudaria nas regras do trabalho?",
+        "opcoes.c.texto": "Mudar partes da reforma trabalhista e da lei da terceirização."
+      },
+      "motivo": "Preferências idênticas à origem (script). Fato conferido na fonte (IBGE 14/08/2026: 25,3% conta própria; Maranhão 33,8%; informalidade 37,4%; 74,4% com carteira). Público {trabalho:[autonomo]} correto com o novo perfil (autonomo = conta própria, bico ou MEI; aplicativo separado; trabalho-app vem antes e não conflita, trabalho é valor único). Problema: 'O que faria a carteira assinada valer a pena pra você?' pressupõe que o autônomo quer carteira (MEI e conta-própria por escolha não querem) e a cena já aponta a 6x1 como o problema; junto, as duas puxam a opção a. A pergunta neutra da origem corrigida serve às quatro opções. Propagar c."
+    },
+    {
+      "id_novo": "fila-aposentado",
+      "eleicao": "presidente",
+      "veredito": "ajustar",
+      "correcoes": {
+        "cena": "Você já se aposentou e precisa operar. Pelo SUS, a espera já passa de meses, e plano na sua idade custa caro.",
+        "opcoes.b.texto": "Fila única pela internet, com quem está mais grave na frente."
+      },
+      "motivo": "Preferências idênticas (script). Fato conferido (IBGE, Censo 2022: 32.113.490 pessoas 60+, +56,0% sobre 2010). O perfil diz 'Já me aposentei', não 'tenho 60+': aposentado por tempo de contribuição, invalidez ou regime especial (muito PM e servidor no RJ) tem menos de 60, e 'Você passou dos 60' contradiz a vida dele. 'Você já se aposentou' é garantido pelo perfil e neutro em gênero; 'na sua idade' mantém o custo do plano. Posição (antes de especialista-longe e plano-voltou-sus) ok: aposentado do Norte perde a cena do barco, troca aceitável porque aquela cena fala da mãe. Propagar b."
+    },
+    {
+      "id_novo": "fila-aposentado",
+      "eleicao": "governador-rj",
+      "veredito": "ajustar",
+      "correcoes": {
+        "cena": "Você já se aposentou e precisa de um especialista. No SUS, a espera passa de 5 meses, e plano na sua idade custa caro."
+      },
+      "motivo": "Preferências e textos idênticos à origem (fila-especialista não tem troca de letramento: nada a propagar). Fato conferido (Censo 2022: RS 20,2%, RJ 18,8%, MG 17,8%). Contexto: g1 28/07/2026 confirmado (hérnia: 78 dias em 2024, ~164 em 2026 = 5,4 meses, bate com 'passa de 5 meses'). Mesmo problema de idade da variante do presidente. Posição depois de saude-interior: aposentado do interior vê a tia na van da quimioterapia (plausível); aposentado com plano vê esta antes de plano-voltou-sus (correto)."
+    },
+    {
+      "id_novo": "neto-escola",
+      "eleicao": "presidente",
+      "veredito": "ajustar",
+      "correcoes": {
+        "publico": {
+          "trabalho": [
+            "aposentado"
+          ],
+          "escola": [
+            "nenhuma"
+          ]
+        },
+        "cena": "Seu neto, ou um jovem da família, está no ensino médio público e fala em largar a escola pra trabalhar.",
+        "opcoes.b.texto": "Mais curso técnico dentro do ensino médio.",
+        "opcoes.d.texto": "Escola o dia inteiro, em toda escola pública."
+      },
+      "motivo": "Preferências idênticas (script). Fato conferido (Anuário 2026: 74,3% dos jovens de 19 anos concluíram o EM em 2025 → 25,7% não). Conflito de público: com {trabalho:[aposentado]} só, o aposentado que marcou 'escola particular' vê 'seu neto está no ensino médio PÚBLICO', contradizendo a resposta; o que marcou 'pública' tem filho/neto na escola e já é bem servido pela padrão reescrita ('Seu filho, ou um jovem da família'). A lacuna real é só aposentado + 'não tem criança na escola', que hoje cai em pagar-faculdade: restringir a escola:[nenhuma]. Como essa pessoa não tem neto na escola, a cena precisa abrir para 'um jovem da família' (20 palavras, no limite). Propagar b e d."
+    },
+    {
+      "id_novo": "chuva-interior",
+      "eleicao": "governador-rj",
+      "veredito": "ajustar",
+      "correcoes": {
+        "cena": "Três dias de chuva no interior: o rio subiu, a água entrou nas casas e caiu barreira no morro.",
+        "opcoes.d.texto": "Levar as famílias da área de risco pra casa popular perto dali.",
+        "contexto.paragrafos[1]": "Conter encostas envolve prefeitura e estado. A Defesa Civil municipal vistoria e interdita casas. Rios que ficam só no estado são do Inea. Os que vêm de Minas, como o Pomba e o Muriaé, são da União.",
+        "contexto.paragrafos[3]": "Cadastre seu CEP para alertas: mande SMS para 40199. Celulares compatíveis, com 4G ou 5G, recebem alertas graves sem cadastro. Viu rachadura nova no morro? Chame a Defesa Civil."
+      },
+      "motivo": "Preferências idênticas (script). Opção b difere da origem ('canais e valões'): mesma preferência (desobstrução de canais), e a própria fonte do fato cita valões transbordando em Itaperuna e São Fidélis: aprovar a b. Fato conferido (g1 07/02/2026: 2.600 afetados, 315 desalojados em Itaperuna; a matéria alterna 'pessoas' e 'famílias', o título diz 'pessoas'). Cena: 'a barreira caiu na estrada' troca o risco que mata na Serra (deslizamento sobre casas; 2011 e Petrópolis 2022) por um bloqueio de estrada que nenhuma opção resolve; 'caiu barreira no morro' mantém o gatilho das opções a (segurar os morros) e d (área de risco) e segue valendo na planície. Contexto: 'Os rios são do estado, pelo Inea' está errado para os rios citados no 1º parágrafo; Pomba, Muriaé e Paraíba do Sul vêm de MG e são da União (CF art. 20, III). Recuperar a dica de encosta-serra ('Viu rachadura nova? Chame a Defesa Civil') no 4º parágrafo. Propagar d."
+    },
+    {
+      "id_novo": "passagem-moto",
+      "eleicao": "governador-rj",
+      "veredito": "ajustar",
+      "correcoes": {
+        "publico": {
+          "deslocamento": [
+            "moto",
+            "a_pe"
+          ]
+        },
+        "cena": "Você anda de moto, de bicicleta ou a pé. Quando precisa de ônibus, a passagem pesa.",
+        "pergunta": "Pra passagem pesar menos no seu bolso, o que você prefere?",
+        "opcoes.c.texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+      },
+      "motivo": "Preferências idênticas (script). Fato conferido (Technibus/CNT: 69,6% dos que abandonaram o ônibus voltariam com preço menor). Com o perfil novo, 'moto' é só moto e 'a_pe' virou valor próprio: a cena já fala de bicicleta e caminhada, então o público tem de incluir a_pe (senão quem anda a pé volta a ver Nova Iguaçu–Centro, 'ida e volta todo dia', e a cena lista meios que o público não tem). A cena afirmava a causa ('trocou o ônibus... a passagem pesava demais'), mas a fonte do próprio contexto (Coppe/UFRJ, conferida) diz que na Grande Rio o tempo decidiu a troca e só 14% citam custo; e muita gente de moto/a pé nunca 'trocou' (motoboy, quem mora perto). A cena nova não afirma causa nem troca. A pergunta 'voltar a caber no bolso' pressupunha a troca: volta a da origem. Propagar c."
+    },
+    {
+      "id_novo": "passagem-interior",
+      "eleicao": "governador-rj",
+      "veredito": "aprovar",
+      "correcoes": {
+        "opcoes.c.texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+      },
+      "motivo": "Preferências idênticas (script). Fato conferido (A Voz da Serra 20/02/2026: reajuste de 11,69% no interior; Friburgo–Cordeiro R$ 20; Macuco R$ 30 e Almas R$ 26,40 sustentam 'pode passar de R$ 20'). Posição ok: carro do interior sai de vale-transporte com o ajuste e cai aqui; moto do interior vê passagem-moto (também plausível). Limites conhecidos: opção d (metrô) fora do mundo do eleitor do interior (vira opção morta, 3 escolhas reais); e o eleitor do interior já vê subsídio ao ônibus intermunicipal em estrada-interior/d, então essa preferência pesa em dobro para ele (pré-existente: hoje ele vê passagem-cara). Único ajuste: propagar c."
+    },
+    {
+      "id_novo": "passagem-leste",
+      "eleicao": "governador-rj",
+      "veredito": "ajustar",
+      "correcoes": {
+        "contexto.paragrafos[0]": "Em fevereiro de 2026, as linhas intermunicipais metropolitanas subiram 12,61%. Entre São Gonçalo e Niterói, a maioria passou a custar R$ 7,10. Desde 8 de fevereiro, a barca Arariboia–Praça XV custa R$ 5.",
+        "contexto.fontes": "inserir g1 10/02/2026 'Tarifa das barcas sobe para R$ 5, e passageiros reclamam da qualidade do serviço' https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/02/10/tarifa-das-barcas-sobe-para-r-5-e-passageiros-reclamam-da-qualidade-do-servico.ghtml",
+        "opcoes.c.texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+      },
+      "motivo": "Preferências idênticas (script). Fato conferido (Tempo Real 13/02/2026: São Gonçalo–Niterói R$ 7,10 na maior parte das linhas; +12,61%). ERRO no contexto: 'A barca Arariboia–Praça XV custa R$ 4,70'. Desde 8/02/2026 custa R$ 5,00 (g1 10/02/2026; site da Barcas Rio), e nenhuma fonte listada sustenta o R$ 4,70. Opção d (metrô) é remota para São Gonçalo (limite aceito). Com o ajuste de vale-transporte proposto abaixo (só capital), o dono de carro de Niterói passa a ver esta cena, que fala em terceira pessoa e cabe para ele. Propagar c."
+    },
+    {
+      "id_novo": "jornada-familia",
+      "eleicao": "presidente",
+      "veredito": "ajustar",
+      "correcoes": {
+        "pergunta": "O que você mudaria nas regras do trabalho?",
+        "opcoes.c.texto": "Mudar partes da reforma trabalhista e da lei da terceirização."
+      },
+      "motivo": "Preferências idênticas (script); b literal igual à protegida escala-6x1/b (ok pela regra de proteção). Fato conferido (g1 28/05/2026: 14,8 milhões de celetistas em 6x1; 50,2 mi celetistas; 37,2 mi em 44h; 1,4 mi domésticas). 'O que você defenderia pra jornada de trabalho?' repete o viés que o letramento acabou de tirar de escala-6x1 ('jornada' puxa a e b; c e d ficam deslocadas): usar a pergunta nova da origem. Limite que fica: b diz 'a minha jornada' e o leitor é aposentado. O ganho da variante sobre a padrão ('Você, ou alguém da sua casa') é pequeno (só o avô que não mora com quem trabalha); se o orquestrador quiser menos variantes, esta é a primeira a cortar. Propagar c."
+    }
+  ],
+  "ajustes_publico": [
+    {
+      "pergunta_id": "trabalho-app",
+      "eleicao": "presidente",
+      "veredito": "ajustar",
+      "publico_corrigido": {
+        "trabalho": [
+          "aplicativo"
+        ]
+      },
+      "motivo": "A proposta de B (autonomo E deslocamento moto/carro/app) fica obsoleta com o perfil novo e tinha resíduo conhecido (agricultor, pedreiro e MEI com carro viam 'você roda de aplicativo'). {trabalho:[aplicativo]} é exato. Opção b protegida intocada."
+    },
+    {
+      "pergunta_id": "vale-transporte",
+      "eleicao": "governador-rj",
+      "veredito": "ajustar",
+      "publico_corrigido": {
+        "deslocamento": [
+          "carro",
+          "casa"
+        ],
+        "faixa": [
+          "misto",
+          "privado"
+        ],
+        "regiao": [
+          "capital"
+        ]
+      },
+      "motivo": "Filtrar por faixa e tirar o interior está certo. Mas a cena diz 'quem trabalha com você, ou na sua casa, vem de Nova Iguaçu': para o morador de Niterói/Leste isso é implausível (quem trabalha em Niterói vem de São Gonçalo, não de Nova Iguaçu). Com regiao só capital, o Leste cai em passagem-leste (São Gonçalo–Niterói, terceira pessoa), que cabe no empregador de Niterói. Ressalva: 'casa' ('Fico mais em casa') + faixa mista inclui aposentado ou dona de casa sem empregado, e a cena pressupõe empregar alguém; aceitável porque 'casa' + faixa exige ≥3 respostas e a padrão também é de terceira pessoa."
+    },
+    {
+      "pergunta_id": "via-expressa-fechada",
+      "eleicao": "governador-rj",
+      "veredito": "aprovar",
+      "motivo": "Avenida Brasil é da região metropolitana; interior volta para a padrão (operação no bairro). Leste incluído com razão (quem vem pela Ponte cai na Av. Brasil). Opção b protegida intocada."
+    }
+  ],
+  "cenas_padrao": [
+    {
+      "pergunta_id": "fila-especialista",
+      "eleicao": "governador-rj",
+      "veredito": "aprovar",
+      "motivo": "Inclui quem já perdeu a mãe; 17 palavras, 119 caracteres com a pergunta. Mesmo padrão de escala-6x1."
+    },
+    {
+      "pergunta_id": "fila-cirurgia",
+      "eleicao": "presidente",
+      "veredito": "aprovar",
+      "motivo": "Idem; 100 caracteres com a pergunta."
+    },
+    {
+      "pergunta_id": "largar-escola",
+      "eleicao": "presidente",
+      "veredito": "aprovar",
+      "motivo": "20 palavras (no limite). Com ela, aposentado com 'escola pública' é bem servido pela padrão: por isso neto-escola deve ficar só com escola:[nenhuma] (ver variantes)."
+    }
+  ],
+  "remocao_encosta_serra": {
+    "veredito": "aprovar com condições",
+    "motivo": "chuva-interior (com a cena corrigida) cobre o interior todo; encosta-serra só servia à Serra. Perdas a repor: (1) o deslizamento sobre casas, recuperado pela cena corrigida; (2) a dica 'Viu rachadura nova? Chame a Defesa Civil', recuperada no contexto; (3) a ilustração EncostaSerra fica órfã: mapear 'chuva-interior': EncostaSerra em src/cenas/ilustracoes/index.ts (senão cai em RuaAlagada, que é rua urbana alagada). Limpeza obrigatória: quiz.json, contexto.json, aderencia.json, src/lib/perfil.test.ts:89 (espera encosta-serra no interior), pipeline/ux/golden-baseline.json."
+  },
+  "propagar": [
+    {
+      "eleicao": "presidente",
+      "id_variante": "conta-propria",
+      "opcao": "c",
+      "texto": "Mudar partes da reforma trabalhista e da lei da terceirização."
+    },
+    {
+      "eleicao": "presidente",
+      "id_variante": "jornada-familia",
+      "opcao": "c",
+      "texto": "Mudar partes da reforma trabalhista e da lei da terceirização."
+    },
+    {
+      "eleicao": "presidente",
+      "id_variante": "fila-aposentado",
+      "opcao": "b",
+      "texto": "Fila única pela internet, com quem está mais grave na frente."
+    },
+    {
+      "eleicao": "presidente",
+      "id_variante": "neto-escola",
+      "opcao": "b",
+      "texto": "Mais curso técnico dentro do ensino médio."
+    },
+    {
+      "eleicao": "presidente",
+      "id_variante": "neto-escola",
+      "opcao": "d",
+      "texto": "Escola o dia inteiro, em toda escola pública."
+    },
+    {
+      "eleicao": "governador-rj",
+      "id_variante": "chuva-interior",
+      "opcao": "d",
+      "texto": "Levar as famílias da área de risco pra casa popular perto dali."
+    },
+    {
+      "eleicao": "governador-rj",
+      "id_variante": "passagem-moto",
+      "opcao": "c",
+      "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+    },
+    {
+      "eleicao": "governador-rj",
+      "id_variante": "passagem-interior",
+      "opcao": "c",
+      "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+    },
+    {
+      "eleicao": "governador-rj",
+      "id_variante": "passagem-leste",
+      "opcao": "c",
+      "texto": "Tirar o cartão das empresas de ônibus e mostrar o custo real."
+    }
+  ]
+}

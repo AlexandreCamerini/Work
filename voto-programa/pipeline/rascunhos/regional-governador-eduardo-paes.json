@@ -1,0 +1,105 @@
+{
+  "candidato_id": "eduardo-paes",
+  "versao_quiz": "3.4.0",
+  "itens": {
+    "barca-leste": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p14",
+          "p44"
+        ],
+        "justificativa": "Propõe iniciar até o fim do mandato as obras da Linha 3 do metrô para Niterói, São Gonçalo e Itaboraí, ligada à Linha 2 por túnel sob a Baía."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 55,
+        "evidencias": [
+          "p74",
+          "p73"
+        ],
+        "justificativa": "Defende auditar contratos de concessão e cobrar obrigações das partes, sem citar as barcas nem prever sanções."
+      },
+      "d": {
+        "nota": 10,
+        "evidencias": [
+          "p74"
+        ],
+        "justificativa": "Diz que não vai sair ameaçando romper contratos de concessão, sem tratar especificamente das barcas."
+      }
+    },
+    "estrada-interior": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p16",
+          "p13"
+        ],
+        "justificativa": "Propõe recuperar as estradas do interior com recapeamento, restauração e módulos de vigilância, sem mencionar a fonte dos recursos."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p16"
+        ],
+        "justificativa": "Propõe recuperar as estradas do interior com obras de recapeamento e vigilância, sem mencionar concessão à iniciativa privada."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p45",
+          "p46",
+          "p16"
+        ],
+        "justificativa": "Propõe recuperar a malha ferroviária e duplicar o ramal Saracuruna, mas também recuperar as estradas do interior, sem priorizar um modo sobre o outro."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p42",
+          "p41"
+        ],
+        "justificativa": "Propõe subsidiar o transporte intermunicipal, com base em dados de origem e destino, para reduzir as passagens."
+      }
+    },
+    "saude-interior": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p62",
+          "p64"
+        ],
+        "justificativa": "Propõe dois hospitais regionais públicos, na Região Serrana e no Noroeste Fluminense, e defende acabar com o deslocamento de pacientes do interior para tratamento na capital."
+      },
+      "b": {
+        "nota": 80,
+        "evidencias": [
+          "p63",
+          "p59",
+          "p64"
+        ],
+        "justificativa": "Promete pôr em funcionamento o Hospital do Câncer de Nova Friburgo e levar Super Centros Regionais de Especialidades a todas as regiões, sem citar diagnóstico de alta complexidade."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p20",
+          "p65",
+          "p5"
+        ],
+        "justificativa": "Propõe garantir os repasses de saúde aos municípios com critérios técnicos e recuperar os hospitais estaduais, sem condicionar o custeio de hospitais do interior a metas."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p7"
+        ],
+        "justificativa": "Propõe contratar mais médicos e especialistas."
+      }
+    }
+  }
+}

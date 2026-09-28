@@ -1,0 +1,26 @@
+[
+  {
+    "eleicao": "governador-rj",
+    "pergunta_id": "fila-especialista",
+    "campo": "cena",
+    "antes": "Sua mãe tá há mais de 5 meses na fila pra consultar com especialista.",
+    "depois": "Sua mãe, ou alguém da família, tá há mais de 5 meses na fila pra consultar com especialista.",
+    "motivo": "Quem pula o perfil vê a padrão. \"Sua mãe\" exclui idosos e quem já perdeu a mãe; o padrão \"ou alguém da família\" já é usado em escala-6x1 e salario-minimo."
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "fila-cirurgia",
+    "campo": "cena",
+    "antes": "Sua mãe espera há meses por uma cirurgia pelo SUS.",
+    "depois": "Sua mãe, ou alguém da família, espera há meses por uma cirurgia pelo SUS.",
+    "motivo": "Mesmo motivo da fila do especialista no quiz de governador."
+  },
+  {
+    "eleicao": "presidente",
+    "pergunta_id": "largar-escola",
+    "campo": "cena",
+    "antes": "Seu filho está no ensino médio público e fala em largar a escola pra trabalhar.",
+    "depois": "Seu filho, ou um jovem da família, está no ensino médio público e fala em largar a escola pra trabalhar.",
+    "motivo": "Quem pula o perfil (ou não tem filho) vê esta cena; \"seu filho\" exclui jovens sem filhos e idosos. Mantém \"seu filho\" para quem tem, e abre para sobrinho, neto ou irmão."
+  }
+]

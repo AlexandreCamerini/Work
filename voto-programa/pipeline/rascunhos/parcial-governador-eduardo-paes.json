@@ -1,0 +1,65 @@
+{
+  "candidato_id": "eduardo-paes",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 5,
+        "evidencias": [
+          "p74",
+          "p13"
+        ],
+        "justificativa": "Diz que não vai ameaçar romper contratos de concessão e propõe colocar a SuperVia no padrão do BRT."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 60,
+        "evidencias": [
+          "p41",
+          "p42"
+        ],
+        "justificativa": "Declara o objetivo de reduzir as tarifas com subsídio ao transporte intermunicipal, sem mencionar tarifa zero."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p39",
+          "p1"
+        ],
+        "justificativa": "Propõe triplicar a Ronda Maria da Penha para 150 equipes e fortalecer as patrulhas Maria da Penha."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p79",
+          "p80"
+        ],
+        "justificativa": "Defende identificar o que pode permanecer em áreas de risco e critica a demora na entrega de moradias a vítimas das chuvas, sem propor reassentamento."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 5,
+        "evidencias": [
+          "p74",
+          "p75"
+        ],
+        "justificativa": "Diz que não vai ameaçar romper contratos de concessão e propõe rever o aumento de tarifa da concessão de água e esgoto."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 25,
+        "evidencias": [
+          "p52"
+        ],
+        "justificativa": "Propõe um Refis estadual para dívidas de estaleiros, sem mencionar revisão ou corte de benefícios fiscais a empresas."
+      }
+    }
+  }
+}

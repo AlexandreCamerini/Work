@@ -1,0 +1,452 @@
+{
+  "candidato_id": "anthony-garotinho",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Propõe rever o cálculo das tarifas pelo IPK e critica a agência reguladora, sem tratar das obrigações de serviço."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p12"
+        ],
+        "justificativa": "Propõe substituir o túnel da Linha 3 sob a Baía por linhas de superbarcas."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 60,
+        "evidencias": [
+          "p10",
+          "p11"
+        ],
+        "justificativa": "Promete reduzir as tarifas de transporte pela revisão do cálculo, e não por subsídio."
+      },
+      "b": {
+        "nota": 30,
+        "evidencias": [
+          "p10"
+        ],
+        "justificativa": "Promete reduzir as tarifas de transporte em geral, sem focalização por renda."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Propõe rever o cálculo das tarifas pelo IPK e critica o controle da agência pelos empresários."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p10"
+        ],
+        "justificativa": "Promete reduzir tarifas de transporte, sem citar o metrô nem subsídio."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p16",
+          "p17",
+          "p18"
+        ],
+        "justificativa": "Propõe convênios com hospitais privados pagando complemento à tabela SUS para zerar a fila."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 85,
+        "evidencias": [
+          "p18",
+          "p16"
+        ],
+        "justificativa": "Propõe usar centros cirúrgicos à noite e começar pelas cirurgias eletivas mais atrasadas."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 80,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe escolas com disciplinas tradicionais num turno e atividades de tecnologia no outro."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe escolas com disciplinas tradicionais num turno e atividades de tecnologia no outro."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p4",
+          "p2",
+          "p7"
+        ],
+        "justificativa": "Propõe retomar 20 comunidades que abrigam os comandos de facção, com ocupação permanente."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p2",
+          "p3"
+        ],
+        "justificativa": "Propõe que a Polícia Civil investigue e prenda com apoio da inteligência, dentro de um modelo centrado na ocupação."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p7",
+          "p2",
+          "p3"
+        ],
+        "justificativa": "Defende que as forças entrem e fiquem nas comunidades, com uma tropa social de programas do estado."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 90,
+        "evidencias": [
+          "p4",
+          "p2",
+          "p7"
+        ],
+        "justificativa": "Propõe retomar 20 comunidades que abrigam os comandos de facção, com ocupação permanente."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p2",
+          "p3"
+        ],
+        "justificativa": "Propõe que a Polícia Civil investigue e prenda com apoio da inteligência, dentro de um modelo centrado na ocupação."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p7",
+          "p2",
+          "p3"
+        ],
+        "justificativa": "Defende que as forças entrem e fiquem nas comunidades, com uma tropa social de programas do estado."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Promete convocar os concursados e excedentes da PM, da Polícia Civil e de outras forças."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p5",
+          "p6"
+        ],
+        "justificativa": "Promete convocar os concursados e excedentes da PM, da Polícia Civil e de outras forças."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": 70,
+        "evidencias": [
+          "p14"
+        ],
+        "justificativa": "Considera a tarifa de água alta após a privatização e avalia romper o contrato da Cedae."
+      },
+      "b": {
+        "nota": 25,
+        "evidencias": [
+          "p15",
+          "p14"
+        ],
+        "justificativa": "Propõe anular a venda da Cedae, e não fiscalizar as metas do contrato."
+      },
+      "c": {
+        "nota": 85,
+        "evidencias": [
+          "p15",
+          "p14"
+        ],
+        "justificativa": "Afirma que anulará a venda da Cedae, alegando fraude."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 25,
+        "evidencias": [
+          "p9"
+        ],
+        "justificativa": "Promete cortar metade dos incentivos fiscais concedidos a empresas."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p22"
+        ],
+        "justificativa": "Promete data-base dos servidores em 1º de maio e revisão parcelada das perdas anteriores."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p6",
+          "p5"
+        ],
+        "justificativa": "Promete convocar excedentes de concursos das polícias, do Degase e dos Bombeiros."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 35,
+        "evidencias": [
+          "p9"
+        ],
+        "justificativa": "Promete cortar metade dos incentivos fiscais a empresas, sem propor contrapartidas de emprego."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p5",
+          "p6",
+          "p1"
+        ],
+        "justificativa": "Promete convocar os concursados da PM e criar o Bope 2.0."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p4",
+          "p2",
+          "p7"
+        ],
+        "justificativa": "Propõe retomar e ocupar 20 comunidades que abrigam os comandos de facção."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 40,
+        "evidencias": [
+          "p8",
+          "p26"
+        ],
+        "justificativa": "Propõe encerrar a gestão por OSs e pedir a prisão de autoridades, sem propor auditoria de contratos."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}

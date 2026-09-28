@@ -1,0 +1,58 @@
+{
+  "candidato_id": "juliete-pantoja",
+  "versao_quiz": "3.2.0",
+  "itens": {
+    "trem-parado": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p49",
+          "p64"
+        ],
+        "justificativa": "Propõe administração estatal com controle popular dos trens e do metrô e a estatização do transporte no estado."
+      }
+    },
+    "transito-carro": {
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p49",
+          "p50"
+        ],
+        "justificativa": "Propõe reduzir em 50% as passagens de todos os transportes em janeiro de 2027 e passe livre intermunicipal para estudantes, sem registrar meta de tarifa zero."
+      }
+    },
+    "medida-protetiva": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p2"
+        ],
+        "justificativa": "Propõe auditar e anular a privatização da Cedae."
+      }
+    },
+    "dinheiro-publico": {
+      "d": {
+        "nota": 85,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe rever a política de isenções fiscais a grandes empresas e auditar os grandes devedores de impostos, sem mencionar corte explícito dos benefícios."
+      }
+    }
+  }
+}

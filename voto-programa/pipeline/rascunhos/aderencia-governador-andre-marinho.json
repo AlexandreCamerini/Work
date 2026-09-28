@@ -1,0 +1,507 @@
+{
+  "candidato_id": "andre-marinho",
+  "versao_quiz": "3.1.0",
+  "itens": {
+    "trem-parado": {
+      "a": {
+        "nota": 35,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe redesenhar as concessões com metas e fiscalização por meio de uma Autoridade Metropolitana, sem prever rescisão."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe repactuar as concessões com metas e fiscalização, sem mencionar rompimento de contratos."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p21",
+          "p27"
+        ],
+        "justificativa": "Propõe renovar a frota e requalificar estações de trem, sem padrão BRT nem programa de segurança nos trens."
+      }
+    },
+    "transito-carro": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p22",
+          "p23",
+          "p24"
+        ],
+        "justificativa": "O plano apoia a Linha 3 até Niterói e São Gonçalo, mas em campanha propôs a Linha Azul pela Ponte Rio-Niterói, e não prevê metrô na Baixada."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p15",
+          "p19"
+        ],
+        "justificativa": "Propõe um eixo de VLT/metrô leve atravessando cinco municípios da Baixada, integrado à rede metropolitana, em vez de BRT."
+      },
+      "c": {
+        "nota": 40,
+        "evidencias": [
+          "p26"
+        ],
+        "justificativa": "Propõe conceder rodovias estaduais para melhorar as vias existentes, sem prever novas conexões entre vias expressas."
+      }
+    },
+    "passagem-cara": {
+      "a": {
+        "nota": 35,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio amplo ao ônibus intermunicipal."
+      },
+      "b": {
+        "nota": 50,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Prevê passe livre focalizado em jovens em formação técnica, sem critério de renda."
+      },
+      "c": {
+        "nota": 75,
+        "evidencias": [
+          "p19"
+        ],
+        "justificativa": "Propõe que o estado retome o controle dos dados do sistema de transporte e implante o Bilhete Único Metropolitano."
+      },
+      "d": {
+        "nota": 35,
+        "evidencias": [
+          "p20"
+        ],
+        "justificativa": "Propõe Bilhete Único Metropolitano e passe livre para jovens em formação técnica, sem subsídio para reduzir a tarifa do metrô."
+      }
+    },
+    "fila-especialista": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p37"
+        ],
+        "justificativa": "Propõe mutirões com as redes pública, filantrópica e privada para zerar filas de exames e cirurgias."
+      },
+      "b": {
+        "nota": 85,
+        "evidencias": [
+          "p42",
+          "p40"
+        ],
+        "justificativa": "Propõe policlínicas regionais de média e alta complexidade e polos de diagnóstico em cada região desassistida do interior."
+      },
+      "c": {
+        "nota": 80,
+        "evidencias": [
+          "p37",
+          "p38"
+        ],
+        "justificativa": "Propõe mutirão para zerar filas de cirurgias eletivas no primeiro ano, sem mencionar funcionamento à noite e nos fins de semana."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "escola-bagunca": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Propõe lançar e expandir escolas cívico-militares na rede estadual."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Propõe a Escola 18h com jornada ampliada, sem foco em ciência, tecnologia e matemática."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Inclui reforço acadêmico na jornada ampliada da Escola 18h, sem diagnóstico de aprendizagem nem foco em português e matemática."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p43",
+          "p45"
+        ],
+        "justificativa": "Propõe aprendizagem dual para jovens de 15 a 18 anos e itinerários técnicos integrados ao currículo."
+      }
+    },
+    "falta-tecnico": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p45",
+          "p43"
+        ],
+        "justificativa": "Propõe integrar itinerários técnicos ao currículo das escolas cívico-militares e aprendizagem dual para jovens de 15 a 18 anos."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p43",
+          "p44"
+        ],
+        "justificativa": "Propõe aprendizagem dual em empresas com mais vagas na Baixada, sem mencionar alinhamento às vocações econômicas regionais."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p43",
+          "p44"
+        ],
+        "justificativa": "Propõe o Aprendiz Rio, com contrato de aprendizagem e salário cofinanciado pelo Estado e pela empresa."
+      },
+      "d": {
+        "nota": 70,
+        "evidencias": [
+          "p46"
+        ],
+        "justificativa": "Propõe a Escola 18h com jornada ampliada, sem foco em ciência, tecnologia e matemática."
+      }
+    },
+    "operacao-policial": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p4",
+          "p5",
+          "p1"
+        ],
+        "justificativa": "Propõe retomar territórios dominados pelo crime, mas define a redução da letalidade violenta como meta-âncora do plano."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p6",
+          "p12"
+        ],
+        "justificativa": "Propõe inteligência patrimonial e intercâmbio de inteligência contra facções, sem definir prender como objetivo das operações."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe base policial 24 horas permanente e serviços públicos em cada território retomado."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p1"
+        ],
+        "justificativa": "Fixa meta de reduzir a letalidade violenta em geral, sem proposta específica sobre mortes em intervenções policiais."
+      }
+    },
+    "via-expressa-fechada": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p4",
+          "p5",
+          "p1"
+        ],
+        "justificativa": "Propõe retomar territórios dominados pelo crime, mas define a redução da letalidade violenta como meta-âncora do plano."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p6",
+          "p12"
+        ],
+        "justificativa": "Propõe inteligência patrimonial e intercâmbio de inteligência contra facções, sem definir prender como objetivo das operações."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe base policial 24 horas permanente e serviços públicos em cada território retomado."
+      },
+      "d": {
+        "nota": 40,
+        "evidencias": [
+          "p1"
+        ],
+        "justificativa": "Fixa meta de reduzir a letalidade violenta em geral, sem proposta específica sobre mortes em intervenções policiais."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p13"
+        ],
+        "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico e tirar agentes de escoltas para o patrulhamento, sem mencionar concursos."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+      }
+    },
+    "roubo-carro": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p13"
+        ],
+        "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico e tirar agentes de escoltas para o patrulhamento, sem mencionar concursos."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+      }
+    },
+    "medida-protetiva": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "rua-alagada": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p48"
+        ],
+        "justificativa": "Propõe macroprojetos de drenagem e contenção de encostas associados ao programa habitacional para áreas de risco."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p48",
+          "p49"
+        ],
+        "justificativa": "Propõe desassoreamento de rios e calhas e ecobarreiras em canais, sem cronograma anual e público de limpeza."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "falta-agua": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p50",
+          "p51"
+        ],
+        "justificativa": "Propõe ampliar e fiscalizar as metas de coleta e tratamento de esgoto e fortalecer a fiscalização das concessionárias."
+      },
+      "c": {
+        "nota": 35,
+        "evidencias": [
+          "p50",
+          "p51"
+        ],
+        "justificativa": "Propõe fiscalizar as metas em articulação com a concessionária, sem mencionar rescisão de contratos."
+      }
+    },
+    "primo-desempregado": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p43",
+          "p44"
+        ],
+        "justificativa": "Propõe o Aprendiz Rio, com aprendizagem dual e salário cofinanciado pelo Estado e pela empresa."
+      },
+      "b": {
+        "nota": 60,
+        "evidencias": [
+          "p35",
+          "p36"
+        ],
+        "justificativa": "Propõe áreas econômicas ao longo do Arco Metropolitano e balcão único de investimentos, sem mencionar indústria naval."
+      },
+      "c": {
+        "nota": 30,
+        "evidencias": [
+          "p28",
+          "p35",
+          "p43"
+        ],
+        "justificativa": "Propõe papel ativo do Estado na geração de empregos, com metas de postos de trabalho, polos econômicos e aprendizagem cofinanciada."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "servidor-recomposicao": {
+      "a": {
+        "nota": 45,
+        "evidencias": [
+          "p10"
+        ],
+        "justificativa": "Propõe recomposição salarial em três anos apenas para policiais, sem proposta para os demais servidores."
+      },
+      "b": {
+        "nota": 55,
+        "evidencias": [
+          "p58",
+          "p59"
+        ],
+        "justificativa": "Propõe indicadores públicos por secretaria e avaliação anual de gestores ligada à permanência no cargo, sem bonificação."
+      },
+      "c": {
+        "nota": 45,
+        "evidencias": [
+          "p56",
+          "p57"
+        ],
+        "justificativa": "Propõe sanear o Rioprevidência com combate a fraudes e recadastramento, sem mencionar os ativos aplicados no Banco Master."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "licenca-empresa": {
+      "a": {
+        "nota": 85,
+        "evidencias": [
+          "p36"
+        ],
+        "justificativa": "Promete criar um balcão único de investimentos para empresas e associações de classe."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 65,
+        "evidencias": [
+          "p36",
+          "p58"
+        ],
+        "justificativa": "Propõe balcão único para facilitar investimentos e lei de eficiência na gestão, sem tratar de estabilidade regulatória."
+      },
+      "d": {
+        "nota": 75,
+        "evidencias": [
+          "p30"
+        ],
+        "justificativa": "Propõe auditar todas as renúncias fiscais e cortar as que não têm contrapartida, sem mencionar devolução."
+      }
+    },
+    "correria-praia": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p13",
+          "p5"
+        ],
+        "justificativa": "Propõe ampliar o Batalhão Tático Motociclístico no patrulhamento e bases policiais permanentes nos territórios retomados."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 90,
+        "evidencias": [
+          "p4",
+          "p5"
+        ],
+        "justificativa": "Propõe retomar 20 territórios dominados pelo crime até 2030, com ocupação permanente."
+      },
+      "d": {
+        "nota": 80,
+        "evidencias": [
+          "p5"
+        ],
+        "justificativa": "Propõe videomonitoramento com reconhecimento facial nos territórios retomados."
+      }
+    },
+    "dinheiro-publico": {
+      "a": {
+        "nota": 50,
+        "evidencias": [
+          "p29"
+        ],
+        "justificativa": "Compromete-se a cumprir as metas do Propag, sem propor teto de gastos."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p60",
+          "p61",
+          "p62"
+        ],
+        "justificativa": "Propõe auditoria forense de todas as secretarias e estatais, lei de compliance em contratos e controladoria independente."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p33",
+          "p58"
+        ],
+        "justificativa": "Propõe desestatizar estatais deficitárias e uma lei de eficiência na gestão, sem mencionar corte de cargos."
+      }
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "candidato_id": "luan-monteiro",
+  "nome": "Luan Monteiro",
+  "coletado_em": "2026-09-24",
+  "plano_governo_oficial": {
+    "obtido": true,
+    "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf",
+    "observacao": "Documento 'Programa do PCO – Eleições 2026: Por salário, trabalho e terra – Revolução, governo operário e comunismo', lido via Exa no espelho do ND+. O nome do arquivo segue o padrão do TSE (2026RJ + registro 190002552513, que aparece na ficha do ND+ + _01). O espelho do Nexo retornou 'não encontrado' e o acesso ao TSE e o download local foram bloqueados. É o programa nacional do partido, com 15 pontos, assinado 'PCO São Paulo, agosto de 2026'. O texto lido é igual ao que o PCO registrou para a Presidência (Rui Costa Pimenta; cópia na Agência Brasil) e em outros estados. O Jornal Razão (16/08) diz ter baixado do DivulgaCandContas os planos do PCO para SP, RS, PR, RJ, MG, BA e SC e que são 'idênticos byte a byte'. O Tempo Real RJ (23/08) diz que o documento 'quase não trata de problemas específicos do Rio'. O próprio texto afirma: 'O PCO não participa das eleições para fazer promessas'. Por ser a proposta registrada pelo candidato, os itens foram incluídos, mas o resumo de cada um avisa que é item nacional. Vários (salário mínimo, pisos nacionais, combustíveis, Banco Central, STF) são de competência federal. Itens sem relação com os temas do quiz (STF, Rede Globo, política externa, Amazônia, reforma agrária) não foram registrados. Data de protocolo não verificada."
+  },
+  "fontes": [
+    {
+      "id": "f1",
+      "tipo": "plano_de_governo",
+      "titulo": "Programa do PCO – Eleições 2026: 'Por salário, trabalho e terra' (proposta registrada no TSE; arquivo 2026RJ190002552513_01.pdf)",
+      "veiculo": "TSE / ND+ (espelho)",
+      "url": "https://static.ndmais.com.br/eleicoes/2026/planos-de-governo/RJ/2026RJ190002552513_01.pdf",
+      "data": null
+    },
+    {
+      "id": "f2",
+      "tipo": "entrevista",
+      "titulo": "Ao RJ1, Luan Monteiro defende dissolução da PM, descriminalização das drogas e reestatização de empresas",
+      "veiculo": "g1 / TV Globo (RJ1)",
+      "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/17/ao-rj1-luan-monteiro-defende-dissolucao-da-pm-descriminalizacao-das-drogas-e-reestatizacao-de-empresas.ghtml",
+      "data": "2026-09-17"
+    },
+    {
+      "id": "f3",
+      "tipo": "entrevista",
+      "titulo": "Luan Monteiro defende fim da PM, armamento da população e estatização (sabatina O Dia/Fecomércio RJ)",
+      "veiculo": "O Dia",
+      "url": "https://odia.ig.com.br/rio-de-janeiro/2026/09/7301025-luan-monteiro-defende-fim-da-policia-armamento-da-populacao-e-estatizacao-dos-servicos-publicos.html",
+      "data": "2026-09-11"
+    },
+    {
+      "id": "f4",
+      "tipo": "entrevista",
+      "titulo": "Luan Monteiro, do PCO, defende armar a população e fim da PM (entrevista à coluna Ema Jurema)",
+      "veiculo": "Extra",
+      "url": "https://extra.globo.com/rio/jurema/noticia/2026/09/luan-monteiro-do-pco-defende-armar-a-populacao-e-fim-da-pm-o-trafico-cede-a-pressao-ou-entra-em-guerra.ghtml",
+      "data": "2026-09-14"
+    },
+    {
+      "id": "f5",
+      "tipo": "noticia",
+      "titulo": "Luan Monteiro propõe reindustrialização e retomada da indústria naval no Rio",
+      "veiculo": "O Fluminense",
+      "url": "https://ofluminense.com.br/luan-monteiro-reindustrializacao-industria-naval-rio/",
+      "data": "2026-09-03"
+    }
+  ],
+  "propostas": [
+    {
+      "id": "p1",
+      "tema": "economia",
+      "subtema": "salários",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende repor integralmente as perdas salariais e dar aumento emergencial de 50% a todos os salários.",
+      "trecho": "Reposição integral de 100% das perdas salariais; aumento emergencial de 50% de todos os salários",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "aumento emergencial de 50%"
+    },
+    {
+      "id": "p2",
+      "tema": "economia",
+      "subtema": "salário mínimo",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende salário mínimo vital de pelo menos R$ 7.500. A fixação do salário mínimo nacional é competência federal.",
+      "trecho": "Salário mínimo vital suficiente para atender às necessidades do trabalhador e de sua família (que hoje não poderia ser menor que R$7.500), deliberado pelas organizações operárias",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "mínimo de R$ 7.500"
+    },
+    {
+      "id": "p3",
+      "tema": "economia",
+      "subtema": "jornada de trabalho",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende reduzir a jornada para no máximo 35 horas semanais.",
+      "trecho": "Redução da jornada de trabalho para o máximo de 7 horas por dia, 5 dias por semana (35 horas semanais): trabalhar menos para que todos trabalhem",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "35 horas semanais"
+    },
+    {
+      "id": "p4",
+      "tema": "moradia",
+      "subtema": "despejos e serviços essenciais para desempregados",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende proibir despejos e cortes de água, luz e gás para desempregados.",
+      "trecho": "Proibição de despejos e cortes de serviços essenciais (como água, luz, gás etc.) para todos os desempregados",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p5",
+      "tema": "transporte",
+      "subtema": "passe livre",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende passe livre nos transportes para desempregados e trabalhadores informais.",
+      "trecho": "Passe livre nos transportes para desempregados e trabalhadores da economia informal.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p6",
+      "tema": "gestao",
+      "subtema": "reformas previdenciárias e dos servidores",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende revogar as 'reformas' contra trabalhadores da ativa e aposentados em todos os níveis de governo, incluindo o estadual.",
+      "trecho": "Revogar todas as \"reformas\" contra os trabalhadores da ativa e aposentados, em todos os níveis (federal, estadual e municipal)",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p7",
+      "tema": "gestao",
+      "subtema": "fundos previdenciários",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende que os trabalhadores administrem os fundos previdenciários.",
+      "trecho": "Gestão dos trabalhadores sobre os fundos previdenciários.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p8",
+      "tema": "economia",
+      "subtema": "privatizações",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende cancelar todas as privatizações já feitas, citando Eletrobras, Vale, bancos e telefonia.",
+      "trecho": "Cancelamento de todas as privatizações realizadas (Eletrobrás, Vale, bancos, telefonia etc.)",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p9",
+      "tema": "economia",
+      "subtema": "riqueza do petróleo",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende destinar a riqueza do petróleo a saúde e educação públicas, moradias populares e obras de infraestrutura.",
+      "trecho": "Colocar a riqueza do petróleo a serviço das necessidades do povo brasileiro, destinando-a à saúde e educação públicas, construção de moradias populares, obras de infraestrutura etc.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p10",
+      "tema": "economia",
+      "subtema": "combustíveis",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende reduzir o preço dos combustíveis em 50% e acabar com a paridade com o dólar.",
+      "trecho": "Redução imediata do preço dos combustíveis em 50%. Fim da política de paridade com o dólar",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "redução de 50%"
+    },
+    {
+      "id": "p11",
+      "tema": "economia",
+      "subtema": "tributação",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende acabar com os impostos sobre consumo e salários e tributar só ganhos de capitalistas e grandes fortunas. O ICMS não é citado nominalmente.",
+      "trecho": "Fim dos impostos sobre o consumo e os salários. Imposto somente sobre os ganhos dos capitalistas e grandes fortunas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p12",
+      "tema": "gestao",
+      "subtema": "estabilidade dos servidores",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; opõe-se ao fim da estabilidade dos servidores públicos.",
+      "trecho": "Não ao fim da estabilidade dos servidores públicos",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p13",
+      "tema": "gestao",
+      "subtema": "limites fiscais",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende acabar com o teto de gastos e com a Lei de Responsabilidade Fiscal.",
+      "trecho": "Fim do teto de gastos e da Lei de Responsabilidade Fiscal",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p14",
+      "tema": "gestao",
+      "subtema": "terceirização",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; opõe-se às terceirizações e defende estabilidade imediata, com isonomia de direitos e salários, para servidores contratados precariamente.",
+      "trecho": "Contra as terceirizações; estabilidade imediata para todos os servidores contratados precariamente, com isonomia de direitos e salários",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p15",
+      "tema": "gestao",
+      "subtema": "concursos",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende concursos públicos periódicos para repor o quadro de servidores.",
+      "trecho": "Pela realização de concursos públicos periódicos para repor o quadro de servidores.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "periodicidade não informada"
+    },
+    {
+      "id": "p16",
+      "tema": "moradia",
+      "subtema": "imóveis vagos",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende expropriar imóveis vagos de especuladores do mercado imobiliário.",
+      "trecho": "Expropriação dos imóveis vagos dos especuladores do mercado imobiliário",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p17",
+      "tema": "moradia",
+      "subtema": "despejos",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende proibir despejos e desocupações.",
+      "trecho": "Proibição de despejos e desocupações",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p18",
+      "tema": "educacao",
+      "subtema": "gestão escolar",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende eleição direta para todos os cargos de gestão nas escolas.",
+      "trecho": "Abaixo a ditadura nas escolas e a perseguição aos professores e estudantes; eleição direta de todos os postos de gestão",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p19",
+      "tema": "educacao",
+      "subtema": "financiamento",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende mais verbas para a educação, destinadas só ao ensino público.",
+      "trecho": "Mais verbas para a educação; verbas públicas somente para o ensino público",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p20",
+      "tema": "educacao",
+      "subtema": "acesso ao ensino superior",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende o fim dos vestibulares e o livre ingresso nas universidades.",
+      "trecho": "Fim dos vestibulares. Livre ingresso nas universidades",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p21",
+      "tema": "educacao",
+      "subtema": "piso docente",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende piso salarial nacional de pelo menos R$ 8,5 mil para professores.",
+      "trecho": "Piso salarial nacional dos professores de, pelo menos, R$8,5 mil",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "piso de R$ 8,5 mil"
+    },
+    {
+      "id": "p22",
+      "tema": "educacao",
+      "subtema": "ensino privado",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende estatizar o ensino pago.",
+      "trecho": "Estatização do ensino pago",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p23",
+      "tema": "educacao",
+      "subtema": "celulares nas escolas",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende acabar com a proibição do uso de celulares nas escolas.",
+      "trecho": "Abaixo a censura; fim da proibição do uso de celulares nas escolas.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p24",
+      "tema": "saude",
+      "subtema": "financiamento",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende mais verbas para a saúde pública, sem limite de gastos.",
+      "trecho": "Mais verbas para a saúde pública. Não pode haver limite nos gastos para salvar a vida do povo",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p25",
+      "tema": "saude",
+      "subtema": "construção de unidades",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende um plano de emergência para construir hospitais e postos de saúde.",
+      "trecho": "Plano de emergência para construção de hospitais e postos de saúde em todo o País",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": "quantidade não informada"
+    },
+    {
+      "id": "p26",
+      "tema": "saude",
+      "subtema": "piso dos profissionais",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende piso salarial de R$ 8 mil para profissionais da saúde.",
+      "trecho": "Piso salarial de R$8 mil para os profissionais da saúde.",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": "piso de R$ 8 mil"
+    },
+    {
+      "id": "p27",
+      "tema": "seguranca",
+      "subtema": "dissolução da PM",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende dissolver a Polícia Militar e todo o aparato repressivo.",
+      "trecho": "Dissolução da polícia militar e de todo o aparato repressivo",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p28",
+      "tema": "seguranca",
+      "subtema": "autodefesa",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende o direito de autodefesa dos trabalhadores e a formação de comitês de autodefesa.",
+      "trecho": "Formar comitês de autodefesa dos trabalhadores da cidade, do campo e das comunidades de índios",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p29",
+      "tema": "direitos",
+      "subtema": "direito de greve",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende direito irrestrito de greve, contra intervenção do Estado nos sindicatos.",
+      "trecho": "Direito irrestrito de greve, contra todo tipo de intervenção do Estado nos sindicatos",
+      "fonte_id": "f1",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p30",
+      "tema": "direitos",
+      "subtema": "cultura popular",
+      "resumo": "Item do programa nacional do PCO, registrado sem alteração como proposta de governo para o RJ; defende investimento pesado na cultura popular e patrocínio público de festas populares.",
+      "trecho": "Pesados investimentos na cultura popular, patrocínio público das festas populares, sob o controle das organizações populares e dos trabalhadores do setor.",
+      "fonte_id": "f1",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p31",
+      "tema": "seguranca",
+      "subtema": "PM, drogas e organização popular",
+      "resumo": "Na entrevista ao RJ1, defendeu descriminalizar todas as drogas, dissolver a Polícia Militar e fazer a segurança por meio da organização popular.",
+      "trecho": "A gente acha importante uma luta pela descriminalização total de todas as drogas. A gente também defende a organização popular para fazer a sua própria segurança. A gente defende a dissolução da Polícia Militar",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p32",
+      "tema": "seguranca",
+      "subtema": "armamento da população e conselhos de bairro",
+      "resumo": "Diz não acreditar que a PM e a Polícia Civil resolvam a segurança e defende armar a população e criar conselhos de bairro.",
+      "trecho": "Nós não acreditamos que o Estado e seus órgãos repressivos, como a Polícia Militar e a Polícia Civil, tenham condições de resolver o problema da segurança. A gente defende o armamento da população e que as pessoas possam formar seus próprios conselhos de bairro",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p33",
+      "tema": "seguranca",
+      "subtema": "segurança de bairro",
+      "resumo": "Descreve o fim da PM como primeiro passo de uma reforma da segurança, seguido de 'segurança de bairro' e do direito ao armamento do povo.",
+      "trecho": "E, com o fim do controle do estado, você instaura a segurança de bairro. Uma parte importante do processo é o direito ao armamento do povo.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p34",
+      "tema": "economia",
+      "subtema": "reindustrialização",
+      "resumo": "Aponta a reindustrialização como prioridade econômica, no estado e no país.",
+      "trecho": "Para a economia, a gente acha importante, não só em nível estadual, mas pensando numa coisa que é um problema geral do país, a reindustrialização.",
+      "fonte_id": "f2",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p35",
+      "tema": "economia",
+      "subtema": "petróleo e emprego",
+      "resumo": "Defende explorar ao máximo o petróleo do estado e convertê-lo em empregos para a população.",
+      "trecho": "A gente é um estado muito rico em petróleo, então a gente tem que explorar isso o máximo possível e trazer isso como benefício para a população através de empregos",
+      "fonte_id": "f5",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p36",
+      "tema": "meio-ambiente",
+      "subtema": "Cedae",
+      "resumo": "Defende recuperar a Cedae e reestatizar empresas estratégicas como as de energia e telefonia.",
+      "trecho": "Precisa recuperar a Cedae, a empresa de água. A gente também tem várias outras empresas estratégicas, como luz e telefonia. Todas as empresas precisam passar por um processo de reestatização.",
+      "fonte_id": "f2",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p37",
+      "tema": "saude",
+      "subtema": "gestão pública integral",
+      "resumo": "Defende que a saúde seja totalmente pública e que hospitais geridos por empresas privadas ou organizações contratadas passem ao Estado.",
+      "trecho": "Tem que garantir que seja tudo público. Serviços essenciais devem estar nas mãos do Estado. Se eles saírem do Rio, melhor. Mas nossa ideia é tomar totalmente para as mãos do estado.",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p38",
+      "tema": "transporte",
+      "subtema": "reestatização",
+      "resumo": "Defende devolver metrô, trens e ônibus ao controle estatal (modais citados por O Dia) por serem serviços essenciais.",
+      "trecho": "São serviços essenciais. Não podem ficar nas mãos de empresas privadas que lucram muito oferecendo um serviço ruim para a população",
+      "fonte_id": "f3",
+      "compromisso_concreto": true,
+      "numeros": null
+    },
+    {
+      "id": "p39",
+      "tema": "gestao",
+      "subtema": "relação com a Alerj",
+      "resumo": "Diz que só aprovaria leis na Alerj por pressão popular, e não por negociação política tradicional.",
+      "trecho": "Qualquer legislação que seja aprovada em benefício da população só será aprovada através da pressão popular. Não vai ser numa base de negociação política tradicional",
+      "fonte_id": "f3",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p40",
+      "tema": "educacao",
+      "subtema": "acesso ao ensino superior e cotas",
+      "resumo": "Diz ser a favor do livre ingresso na universidade e que, para democratizar o acesso, as cotas deveriam seguir apenas critério social.",
+      "trecho": "A gente é a favor do livre ingresso na universidade. A cota é um paliativo para tentar resolver um problema de acesso ao ensino superior, que é elitizado. Se é para democratizar, deveria seguir apenas o critério social.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    },
+    {
+      "id": "p41",
+      "tema": "direitos",
+      "subtema": "carnaval e futebol",
+      "resumo": "Perguntado se daria mais subsídio ao carnaval, disse que há recursos e que defende o carnaval e o futebol.",
+      "trecho": "Dinheiro tem. A gente defende a nossa cultura: o carnaval, o futebol.",
+      "fonte_id": "f4",
+      "compromisso_concreto": false,
+      "numeros": null
+    }
+  ],
+  "lacunas": [
+    "cobertura: o plano não traz nenhuma proposta específica para o RJ. As propostas estaduais vêm de poucas entrevistas (RJ1, sabatina O Dia, Extra), e várias falas repetem bandeiras nacionais",
+    "economia/dívida com a União e Propag: sem posição. O plano fala em cancelar dívidas 'com os bancos e grandes credores', sem citar a dívida do estado",
+    "economia/royalties do petróleo: sem proposta; só a fala genérica sobre explorar o petróleo para gerar empregos",
+    "economia/ICMS: não citado nominalmente; o plano defende genericamente o fim dos impostos sobre o consumo",
+    "economia/indústria naval: a retomada aparece só em paráfrase do O Fluminense (03/09), sem trecho literal",
+    "saude/Organizações Sociais: retirar as OSs da gestão aparece só em paráfrase do O Fluminense; a fala literal (O Dia) defende genericamente que tudo seja público",
+    "educacao/ensino técnico e universidades estaduais: a ampliação do ensino técnico gratuito aparece só em paráfrase do O Dia (11/09)",
+    "transporte: sem proposta de tarifa, expansão de metrô ou trens, barcas ou BRT; só a reestatização genérica dos modais e o passe livre para desempregados e informais",
+    "meio-ambiente/enchentes, Baía de Guanabara e saneamento: sem proposta além de recuperar a Cedae",
+    "gestao/Rioprevidência e corrupção: sem proposta específica",
+    "direitos/mulheres, população negra e LGBTI: sem proposta para o estado no plano ou nas entrevistas; no Extra ele critica cotas específicas e defende critério apenas social",
+    "metas: nenhuma meta estadual com prazo ou valor; os números do plano (R$ 7.500, pisos de R$ 8 mil e R$ 8,5 mil, 35 h) são nacionais"
+  ]
+}

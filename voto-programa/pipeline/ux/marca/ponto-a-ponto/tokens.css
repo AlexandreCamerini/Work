@@ -1,0 +1,115 @@
+/* Ponto a Ponto — tokens de marca (proposta, não aplicada em src/)
+ * Fontes: npm i @fontsource-variable/archivo @fontsource-variable/doto
+ *   import '@fontsource-variable/archivo'; import '@fontsource-variable/doto';
+ * Contraste WCAG 2.x calculado (AA texto normal >= 4.5:1):
+ *   claro  texto           sobre fundo           14.94:1
+ *   claro  texto           sobre superficie      16.86:1
+ *   claro  texto-suave     sobre fundo            6.71:1
+ *   claro  texto-suave     sobre superficie       7.58:1
+ *   claro  sobre-primaria  sobre primaria         9.34:1
+ *   claro  primaria        sobre fundo           14.94:1
+ *   claro  sobre-destaque  sobre destaque         9.34:1
+ *   claro  destaque-texto  sobre fundo            5.66:1
+ *   claro  sucesso         sobre fundo            5.43:1
+ *   claro  aviso           sobre fundo            5.61:1
+ *   claro  erro            sobre fundo            5.79:1
+ *   claro  texto           sobre destaque-suave  14.79:1
+ *   claro  primaria        sobre superficie      16.86:1
+ *   claro  ambar           sobre placa            9.34:1
+ *   escuro texto           sobre fundo           17.22:1
+ *   escuro texto           sobre superficie      15.55:1
+ *   escuro texto-suave     sobre fundo            8.16:1
+ *   escuro texto-suave     sobre superficie       7.37:1
+ *   escuro sobre-primaria  sobre primaria        10.77:1
+ *   escuro primaria        sobre fundo           10.77:1
+ *   escuro sobre-destaque  sobre destaque        10.77:1
+ *   escuro destaque-texto  sobre fundo           10.77:1
+ *   escuro sucesso         sobre fundo           10.35:1
+ *   escuro aviso           sobre fundo           10.86:1
+ *   escuro erro            sobre fundo            8.51:1
+ *   escuro texto           sobre destaque-suave  12.70:1
+ *   escuro primaria        sobre superficie       9.72:1
+ *   escuro ambar           sobre placa            8.92:1
+ */
+:root {
+  --cor-fundo: #F3F1EC;
+  --cor-placa: #1B1D22;
+  --cor-ambar: #FFB21A;
+  --cor-destaque-suave: #FFEFC7;
+  --cor-superficie: #FFFFFF;
+  --cor-texto: #1B1D22;
+  --cor-texto-suave: #50545E;
+  --cor-linha: #D8D4CA;
+  --cor-primaria: #1B1D22;
+  --cor-primaria-forte: #000000;
+  --cor-sobre-primaria: #FFB21A;
+  --cor-destaque: #FFB21A;
+  --cor-sobre-destaque: #1B1D22;
+  --cor-destaque-texto: #8A5200;
+  --cor-sucesso: #0F6E62;
+  --cor-aviso: #8A5300;
+  --cor-erro: #B3261E;
+  --cor-foco: var(--cor-primaria);
+  --fonte-titulo: 'Archivo Variable', 'Arial Narrow', ui-sans-serif, system-ui, sans-serif;
+  --fonte-texto: 'Archivo Variable', ui-sans-serif, system-ui, -apple-system, Roboto, sans-serif;
+  --fonte-letreiro: 'Doto Variable', ui-monospace, 'Courier New', monospace;
+  --raio: 8px;
+  --raio-botao: 10px;
+  --sombra-botao: none;
+  --fonte-titulo-variacoes: normal;
+  --titulo-largura: 82%;
+  --t-12: 0.75rem;
+  --t-14: 0.875rem;
+  --t-16: 1rem;
+  --t-18: 1.125rem;
+  --t-20: 1.25rem;
+  --t-24: 1.5rem;
+  --t-32: 2rem;
+  --t-40: 2.5rem;
+  --peso-texto: 400;
+  --peso-forte: 700;
+  --peso-titulo: 800;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --cor-fundo: #0C0D10;
+    --cor-placa: #1F2127;
+    --cor-ambar: #FFB21A;
+    --cor-destaque-suave: #33290F;
+    --cor-superficie: #18191E;
+    --cor-texto: #F3F1EC;
+    --cor-texto-suave: #A4A8B2;
+    --cor-linha: #2A2C33;
+    --cor-primaria: #FFB21A;
+    --cor-primaria-forte: #D98F00;
+    --cor-sobre-primaria: #0C0D10;
+    --cor-destaque: #FFB21A;
+    --cor-sobre-destaque: #0C0D10;
+    --cor-destaque-texto: #FFB21A;
+    --cor-sucesso: #4FD1BD;
+    --cor-aviso: #F2B84B;
+    --cor-erro: #FF8A80;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --cor-fundo: #0C0D10;
+  --cor-placa: #1F2127;
+  --cor-ambar: #FFB21A;
+  --cor-destaque-suave: #33290F;
+  --cor-superficie: #18191E;
+  --cor-texto: #F3F1EC;
+  --cor-texto-suave: #A4A8B2;
+  --cor-linha: #2A2C33;
+  --cor-primaria: #FFB21A;
+  --cor-primaria-forte: #D98F00;
+  --cor-sobre-primaria: #0C0D10;
+  --cor-destaque: #FFB21A;
+  --cor-sobre-destaque: #0C0D10;
+  --cor-destaque-texto: #FFB21A;
+  --cor-sucesso: #4FD1BD;
+  --cor-aviso: #F2B84B;
+  --cor-erro: #FF8A80;
+  color-scheme: dark;
+}

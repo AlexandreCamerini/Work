@@ -1,0 +1,420 @@
+{
+  "360x640": {
+    "viewport": "360x640",
+    "toques": 39,
+    "toquesMinimos": 0,
+    "rolagens": 21,
+    "telas": {
+      "01-home": {
+        "alturaPagina": 796
+      },
+      "02-intro": {
+        "alturaPagina": 836
+      },
+      "03-sobre-voce": {
+        "alturaPagina": 1447
+      },
+      "03b-sobre-voce-preenchido": {
+        "alturaPagina": 1447
+      },
+      "04-prioridades": {
+        "alturaPagina": 731
+      },
+      "04b-prioridades-escolhidas": {
+        "alturaPagina": 731
+      },
+      "05-cena1-antes": {
+        "alturaPagina": 845
+      },
+      "05-cena1-depois": {
+        "alturaPagina": 1090
+      },
+      "05-cena6-antes": {
+        "alturaPagina": 836
+      },
+      "05-cena6-depois": {
+        "alturaPagina": 1075
+      },
+      "06-resultado": {
+        "alturaPagina": 2860
+      },
+      "08-revelacao": {
+        "alturaPagina": 2657
+      }
+    },
+    "cenas": [
+      {
+        "cena": 1,
+        "alturaAntes": 845,
+        "alturaDepois": 1090,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 741,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 966,
+        "proximaFundo": 1026,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 386,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 2,
+        "alturaAntes": 751,
+        "alturaDepois": 1042,
+        "cresceu": 291,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 918,
+        "proximaFundo": 978,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 338,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 3,
+        "alturaAntes": 845,
+        "alturaDepois": 1084,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 741,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 960,
+        "proximaFundo": 1020,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 380,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 4,
+        "alturaAntes": 817,
+        "alturaDepois": 1062,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 713,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 938,
+        "proximaFundo": 998,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 358,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 5,
+        "alturaAntes": 727,
+        "alturaDepois": 946,
+        "cresceu": 219,
+        "ultimaOpcaoFundo": 623,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 822,
+        "proximaFundo": 882,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 242,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 6,
+        "alturaAntes": 836,
+        "alturaDepois": 1075,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 732,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 951,
+        "proximaFundo": 1011,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 371,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 7,
+        "alturaAntes": 784,
+        "alturaDepois": 1023,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 680,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 899,
+        "proximaFundo": 959,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 319,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 8,
+        "alturaAntes": 841,
+        "alturaDepois": 1080,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 737,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 956,
+        "proximaFundo": 1016,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 376,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 9,
+        "alturaAntes": 817,
+        "alturaDepois": 1082,
+        "cresceu": 265,
+        "ultimaOpcaoFundo": 713,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 958,
+        "proximaFundo": 1018,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 378,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 10,
+        "alturaAntes": 803,
+        "alturaDepois": 1048,
+        "cresceu": 245,
+        "ultimaOpcaoFundo": 699,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 924,
+        "proximaFundo": 984,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 344,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 11,
+        "alturaAntes": 751,
+        "alturaDepois": 990,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 866,
+        "proximaFundo": 926,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 286,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 12,
+        "alturaAntes": 817,
+        "alturaDepois": 1056,
+        "cresceu": 239,
+        "ultimaOpcaoFundo": 713,
+        "ultimaOpcaoForaViewport": true,
+        "proximaTopo": 932,
+        "proximaFundo": 992,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 352,
+        "opcoesTravadas": true
+      }
+    ],
+    "resultado": {
+      "alturaPagina": 2860,
+      "blocoVotoTopo": 1835,
+      "telasAteVoto": 2.9
+    },
+    "toquesAteResultado": 37,
+    "numCenas": 12
+  },
+  "390x844": {
+    "viewport": "390x844",
+    "toques": 39,
+    "toquesMinimos": 0,
+    "rolagens": 16,
+    "telas": {
+      "01-home": {
+        "alturaPagina": 844
+      },
+      "02-intro": {
+        "alturaPagina": 844
+      },
+      "03-sobre-voce": {
+        "alturaPagina": 1447
+      },
+      "03b-sobre-voce-preenchido": {
+        "alturaPagina": 1447
+      },
+      "04-prioridades": {
+        "alturaPagina": 844
+      },
+      "04b-prioridades-escolhidas": {
+        "alturaPagina": 844
+      },
+      "05-cena1-antes": {
+        "alturaPagina": 844
+      },
+      "05-cena1-depois": {
+        "alturaPagina": 946
+      },
+      "05-cena6-antes": {
+        "alturaPagina": 844
+      },
+      "05-cena6-depois": {
+        "alturaPagina": 1031
+      },
+      "06-resultado": {
+        "alturaPagina": 2784
+      },
+      "08-revelacao": {
+        "alturaPagina": 2581
+      }
+    },
+    "cenas": [
+      {
+        "cena": 1,
+        "alturaAntes": 844,
+        "alturaDepois": 946,
+        "cresceu": 102,
+        "ultimaOpcaoFundo": 623,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 822,
+        "proximaFundo": 882,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 38,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 2,
+        "alturaAntes": 844,
+        "alturaDepois": 1003,
+        "cresceu": 159,
+        "ultimaOpcaoFundo": 680,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 879,
+        "proximaFundo": 939,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 95,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 3,
+        "alturaAntes": 844,
+        "alturaDepois": 1003,
+        "cresceu": 159,
+        "ultimaOpcaoFundo": 680,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 879,
+        "proximaFundo": 939,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 95,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 4,
+        "alturaAntes": 844,
+        "alturaDepois": 1024,
+        "cresceu": 180,
+        "ultimaOpcaoFundo": 675,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 900,
+        "proximaFundo": 960,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 116,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 5,
+        "alturaAntes": 844,
+        "alturaDepois": 1036,
+        "cresceu": 192,
+        "ultimaOpcaoFundo": 713,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 912,
+        "proximaFundo": 972,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 128,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 6,
+        "alturaAntes": 844,
+        "alturaDepois": 1031,
+        "cresceu": 187,
+        "ultimaOpcaoFundo": 708,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 907,
+        "proximaFundo": 967,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 123,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 7,
+        "alturaAntes": 844,
+        "alturaDepois": 990,
+        "cresceu": 146,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 866,
+        "proximaFundo": 926,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 82,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 8,
+        "alturaAntes": 844,
+        "alturaDepois": 966,
+        "cresceu": 122,
+        "ultimaOpcaoFundo": 623,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 842,
+        "proximaFundo": 902,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 58,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 9,
+        "alturaAntes": 844,
+        "alturaDepois": 1027,
+        "cresceu": 183,
+        "ultimaOpcaoFundo": 704,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 903,
+        "proximaFundo": 963,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 119,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 10,
+        "alturaAntes": 844,
+        "alturaDepois": 1023,
+        "cresceu": 179,
+        "ultimaOpcaoFundo": 680,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 899,
+        "proximaFundo": 959,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 115,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 11,
+        "alturaAntes": 844,
+        "alturaDepois": 1042,
+        "cresceu": 198,
+        "ultimaOpcaoFundo": 647,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 918,
+        "proximaFundo": 978,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 134,
+        "opcoesTravadas": true
+      },
+      {
+        "cena": 12,
+        "alturaAntes": 844,
+        "alturaDepois": 1057,
+        "cresceu": 213,
+        "ultimaOpcaoFundo": 708,
+        "ultimaOpcaoForaViewport": false,
+        "proximaTopo": 933,
+        "proximaFundo": 993,
+        "proximaForaViewport": true,
+        "rolagemNecessariaPx": 149,
+        "opcoesTravadas": true
+      }
+    ],
+    "resultado": {
+      "alturaPagina": 2784,
+      "blocoVotoTopo": 1779,
+      "telasAteVoto": 2.1
+    },
+    "toquesAteResultado": 37,
+    "numCenas": 12
+  }
+}

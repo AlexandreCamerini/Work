@@ -1,0 +1,74 @@
+{
+  "candidato_id": "lula",
+  "versao_quiz": "1.1.0",
+  "itens": {
+    "escala-6x1": {
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "trabalho-app": {
+      "d": {
+        "nota": 5,
+        "evidencias": [
+          "p17",
+          "p59"
+        ],
+        "justificativa": "Propõe um sistema de regras para o trabalho por plataformas, com relação de trabalho, remuneração e direitos."
+      }
+    },
+    "salario-minimo": {
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p7",
+          "p8"
+        ],
+        "justificativa": "Propõe zerar impostos da cesta básica e devolver imposto à baixa renda, sem proposta de redução geral da carga ou da burocracia."
+      }
+    },
+    "juros-altos": {
+      "d": {
+        "nota": 65,
+        "evidencias": [
+          "p14"
+        ],
+        "justificativa": "Critica o modelo de autonomia do Banco Central, sem detalhar proposta de alteração."
+      }
+    },
+    "pagar-faculdade": {
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p43"
+        ],
+        "justificativa": "Propõe novos Institutos Federais com cursos técnicos gratuitos."
+      }
+    },
+    "video-falso": {
+      "d": {
+        "nota": 20,
+        "evidencias": [
+          "p90"
+        ],
+        "justificativa": "Propõe regular as plataformas digitais para conter desinformação, sem tratar de responsabilização judicial individual."
+      }
+    },
+    "agressor-rondando": {
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p76"
+        ],
+        "justificativa": "Propõe monitoramento de agressores com alerta integrado à polícia, sem mencionar botão de emergência no celular."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    }
+  }
+}

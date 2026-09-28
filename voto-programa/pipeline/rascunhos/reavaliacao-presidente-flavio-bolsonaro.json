@@ -1,0 +1,714 @@
+{
+  "candidato_id": "flavio-bolsonaro",
+  "versao_quiz": "1.3.0",
+  "itens": {
+    "escala-6x1": {
+      "a": {
+        "nota": 20,
+        "evidencias": [
+          "p44",
+          "p156",
+          "p157",
+          "p128"
+        ],
+        "justificativa": "Não declara voto na PEC do fim da 6x1, diz que votará na proposta do seu grupo e defende jornada escolhida pelo trabalhador com remuneração por hora."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p43",
+          "p44",
+          "p128",
+          "p156"
+        ],
+        "justificativa": "Defende o negociado sobre o legislado e liberdade para o trabalhador escolher a própria escala e quantas horas trabalhar."
+      },
+      "c": {
+        "nota": 10,
+        "evidencias": [
+          "p43",
+          "p128"
+        ],
+        "justificativa": "Defende o negociado sobre o legislado e critica reabrir pontos já pacificados pela reforma trabalhista."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p40",
+          "p41",
+          "p42"
+        ],
+        "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal e contratos com menor custo na folha para grupos específicos."
+      }
+    },
+    "custo-contratar": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p40",
+          "p44"
+        ],
+        "justificativa": "Propõe reduzir gradualmente o custo do trabalho formal sem retirar direitos."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p41",
+          "p42"
+        ],
+        "justificativa": "Propõe contratos com menor custo para o primeiro emprego e para desempregados com 50 anos ou mais."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p50"
+        ],
+        "justificativa": "Propõe menos burocracia para abrir e formalizar empresas, sem mencionar o teto do MEI."
+      },
+      "d": {
+        "nota": 20,
+        "evidencias": [
+          "p43",
+          "p128"
+        ],
+        "justificativa": "Defende o negociado sobre o legislado e critica reabrir pontos da reforma trabalhista, sem tratar de fiscalização da pejotização."
+      }
+    },
+    "trabalho-app": {
+      "a": {
+        "nota": 40,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Promete proteção social a trabalhadores de app mantendo a flexibilidade, sem citar regras de remuneração."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Propõe proteção social e previdenciária para trabalhadores de app sem protagonismo de dirigentes sindicais."
+      },
+      "c": {
+        "nota": 60,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Promete proteção previdenciária a trabalhadores de app, sem detalhar a forma de contribuição."
+      },
+      "d": {
+        "nota": 50,
+        "evidencias": [
+          "p45"
+        ],
+        "justificativa": "Promete manter as oportunidades do trabalho por aplicativo, mas também proteção social e previdenciária a esses trabalhadores."
+      }
+    },
+    "salario-minimo": {
+      "a": {
+        "nota": 45,
+        "evidencias": [
+          "p48",
+          "p49"
+        ],
+        "justificativa": "Diz que não fará economia com quem ganha o mínimo, sem se comprometer com regra de ganho real."
+      },
+      "b": {
+        "nota": 45,
+        "evidencias": [
+          "p30"
+        ],
+        "justificativa": "Propõe reduzir a carga de impostos sobre consumo de forma geral, sem foco na cesta básica ou na baixa renda."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p39"
+        ],
+        "justificativa": "Propõe o programa Ganha-Ganha, com crédito, juros menores e cashback para quem cumpre metas como curso e contas em dia."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p30",
+          "p36",
+          "p94"
+        ],
+        "justificativa": "Propõe reduzir a carga sobre produção e consumo, o IVA e impostos sobre energia e combustíveis, e cortar burocracia."
+      }
+    },
+    "imposto-renda": {
+      "a": {
+        "nota": 75,
+        "evidencias": [
+          "p33"
+        ],
+        "justificativa": "Declara-se favorável à isenção do IR até R$ 5 mil, sem falar em corrigir a tabela."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p30",
+          "p155",
+          "p165"
+        ],
+        "justificativa": "Propõe revisar a reforma tributária e reduzir o IVA e a carga; em junho falava em suspender a regulamentação, também para reduzir a carga."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p123"
+        ],
+        "justificativa": "Propõe o fim gradual do IOF sobre câmbio como parte da adesão à OCDE."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "juros-altos": {
+      "a": {
+        "nota": 10,
+        "evidencias": [
+          "p31"
+        ],
+        "justificativa": "Propõe substituir as regras fiscais atuais."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p31",
+          "p32"
+        ],
+        "justificativa": "Propõe novas regras fiscais com superávit e redução da dívida para baixar os juros."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p35",
+          "p97"
+        ],
+        "justificativa": "Anuncia fundo com royalties do petróleo e imóveis da União, estimado em R$ 3 trilhões, com parte usada para pagar a dívida."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "fila-cirurgia": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p62"
+        ],
+        "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p61"
+        ],
+        "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p69"
+        ],
+        "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p59"
+        ],
+        "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+      }
+    },
+    "especialista-longe": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p62"
+        ],
+        "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p61"
+        ],
+        "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p69"
+        ],
+        "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p59"
+        ],
+        "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+      }
+    },
+    "plano-voltou-sus": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p62"
+        ],
+        "justificativa": "Propõe contratar serviços e exames da rede privada em horários ociosos."
+      },
+      "b": {
+        "nota": 75,
+        "evidencias": [
+          "p61"
+        ],
+        "justificativa": "Propõe digitalizar o SUS e usar IA no agendamento, sem fila única por gravidade."
+      },
+      "c": {
+        "nota": 50,
+        "evidencias": [
+          "p69"
+        ],
+        "justificativa": "Promete cuidar de quem espera meses por cirurgia, sem detalhar mutirões."
+      },
+      "d": {
+        "nota": 95,
+        "evidencias": [
+          "p59"
+        ],
+        "justificativa": "Propõe garantir condições para a correção efetiva da tabela SUS."
+      }
+    },
+    "faccao-bairro": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p1",
+          "p16",
+          "p124"
+        ],
+        "justificativa": "Propõe classificar facções como narcoterroristas e integrar o Escudo das Américas."
+      },
+      "b": {
+        "nota": 65,
+        "evidencias": [
+          "p3",
+          "p11"
+        ],
+        "justificativa": "Propõe convênios com estados e dobrar o investimento federal em segurança, sem criar ministério."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p6",
+          "p127"
+        ],
+        "justificativa": "Propõe 5 novos presídios federais de segurança máxima e isolar neles chefes de facções, sem celular e com visitas monitoradas."
+      },
+      "d": {
+        "nota": 45,
+        "evidencias": [
+          "p3",
+          "p147"
+        ],
+        "justificativa": "Propõe retomar territórios dominados por facções e convênios com estados, sem tratar de GLO nem de presença policial permanente."
+      }
+    },
+    "celular-roubado": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p12"
+        ],
+        "justificativa": "Propõe o sistema nacional de reconhecimento facial Muralha Brasileira."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p158"
+        ],
+        "justificativa": "Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema."
+      },
+      "d": {
+        "nota": 55,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF."
+      }
+    },
+    "celular-sinal": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p15"
+        ],
+        "justificativa": "Propõe prisão para quem rouba celular e quadruplicar a pena de quem furta ou revende."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p12"
+        ],
+        "justificativa": "Propõe o sistema nacional de reconhecimento facial Muralha Brasileira."
+      },
+      "c": {
+        "nota": 15,
+        "evidencias": [
+          "p158"
+        ],
+        "justificativa": "Em 2024, como senador, criticou a obrigatoriedade de câmeras corporais na PM de São Paulo; o plano não trata do tema."
+      },
+      "d": {
+        "nota": 55,
+        "evidencias": [
+          "p11"
+        ],
+        "justificativa": "Promete dobrar os investimentos federais em segurança, sem citar efetivo da PF e da PRF."
+      }
+    },
+    "largar-escola": {
+      "a": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p76",
+          "p132"
+        ],
+        "justificativa": "Propõe ampliar a educação técnica no ensino médio, em parceria com o setor produtivo."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p74"
+        ],
+        "justificativa": "Propõe ampliar as escolas cívico-militares."
+      },
+      "d": {
+        "nota": 65,
+        "evidencias": [
+          "p130"
+        ],
+        "justificativa": "Declara apoio à escola em tempo integral, sem meta de cobertura da rede pública."
+      }
+    },
+    "pagar-faculdade": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p78"
+        ],
+        "justificativa": "Propõe substituir o financiamento estudantil por empréstimo pago só após emprego, proporcional à renda."
+      },
+      "b": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p75"
+        ],
+        "justificativa": "Propõe voucher educacional onde faltar vaga na rede pública."
+      },
+      "d": {
+        "nota": 75,
+        "evidencias": [
+          "p76",
+          "p132"
+        ],
+        "justificativa": "Propõe ampliar a educação técnica no ensino médio com parceria do setor produtivo, sem mencionar institutos federais ou cursos tecnólogos."
+      }
+    },
+    "conta-luz": {
+      "a": {
+        "nota": 45,
+        "evidencias": [
+          "p93",
+          "p139",
+          "p112",
+          "p162"
+        ],
+        "justificativa": "Propõe estimular a modernização do refino, mas não dá papel à Petrobras na distribuição e admite privatizar partes da estatal, primeiro sem prazo e depois talvez no primeiro ano."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p94"
+        ],
+        "justificativa": "Propõe reduzir a CDE e os subsídios na conta de luz e os impostos sobre energia."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p93"
+        ],
+        "justificativa": "Propõe permitir a exploração de gás não convencional (fracking)."
+      },
+      "d": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      }
+    },
+    "enchente-seca": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p88",
+          "p142",
+          "p96"
+        ],
+        "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p102",
+          "p144"
+        ],
+        "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p92"
+        ],
+        "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p160",
+          "p162",
+          "p164"
+        ],
+        "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
+      }
+    },
+    "enchente-sul": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p88",
+          "p142",
+          "p96"
+        ],
+        "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p102",
+          "p144"
+        ],
+        "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p92"
+        ],
+        "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p160",
+          "p162",
+          "p164"
+        ],
+        "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
+      }
+    },
+    "fumaca-queimada": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p88",
+          "p142",
+          "p96"
+        ],
+        "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p102",
+          "p144"
+        ],
+        "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p92"
+        ],
+        "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p160",
+          "p162",
+          "p164"
+        ],
+        "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
+      }
+    },
+    "seca-nordeste": {
+      "a": {
+        "nota": 55,
+        "evidencias": [
+          "p88",
+          "p142",
+          "p96"
+        ],
+        "justificativa": "Propõe zerar o desmatamento ilegal até 2029 e reforçar a fiscalização, sem metas de emissões, e diz que eventos extremos não se devem só à ação humana."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p102",
+          "p144"
+        ],
+        "justificativa": "Propõe ampliar obras de prevenção a eventos extremos, como diques, reservatórios e drenagem, e obras hídricas no Nordeste."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p92"
+        ],
+        "justificativa": "Propõe licença concedida quando o órgão ambiental não decidir no prazo."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p160",
+          "p162",
+          "p164"
+        ],
+        "justificativa": "Propõe resolver a exploração da Margem Equatorial, voltar ao regime de concessão e diz que a produção de petróleo voltará a crescer."
+      }
+    },
+    "video-falso": {
+      "a": {
+        "nota": 5,
+        "evidencias": [
+          "p27",
+          "p159"
+        ],
+        "justificativa": "Chama de decreto da censura a norma que ampliou a responsabilização das big techs e propõe acabar com estruturas estatais que rotulem ou punam o que as pessoas dizem."
+      },
+      "b": {
+        "nota": 95,
+        "evidencias": [
+          "p27",
+          "p28",
+          "p159"
+        ],
+        "justificativa": "Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, revogar atos que associa a silenciar críticos e chama de censura a regulação das big techs."
+      },
+      "c": {
+        "nota": null,
+        "evidencias": [],
+        "justificativa": "Sem proposta documentada sobre o tema."
+      },
+      "d": {
+        "nota": 70,
+        "evidencias": [
+          "p27",
+          "p28"
+        ],
+        "justificativa": "Propõe acabar com estruturas estatais que vigiem, rotulem ou punam o que as pessoas dizem, sem tratar de responsabilização judicial."
+      }
+    },
+    "gasto-governo": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p106",
+          "p168"
+        ],
+        "justificativa": "Propõe cortar no mínimo 10 ministérios, chegando a 26 ou 27, e reduzir cargos comissionados e supersalários."
+      },
+      "b": {
+        "nota": 70,
+        "evidencias": [
+          "p114"
+        ],
+        "justificativa": "Propõe mais transparência e rastreabilidade às emendas, sem mudar o sistema."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p111",
+          "p167"
+        ],
+        "justificativa": "Propõe retomar o programa de desestatização caso a caso e diz que privatizará onde for possível."
+      },
+      "d": {
+        "nota": 35,
+        "evidencias": [
+          "p112",
+          "p162",
+          "p111",
+          "p167"
+        ],
+        "justificativa": "É contra privatizar a Petrobras como um todo, mas admite vender partes dela, talvez no primeiro ano, e propõe retomar desestatizações."
+      }
+    },
+    "agressor-rondando": {
+      "a": {
+        "nota": 95,
+        "evidencias": [
+          "p9",
+          "p148"
+        ],
+        "justificativa": "Propõe tornozeleira com alerta às autoridades para agressores sob medida protetiva; o plano fala em todos esses agressores numa seção e nos de maior risco em outra."
+      },
+      "b": {
+        "nota": 90,
+        "evidencias": [
+          "p17",
+          "p19"
+        ],
+        "justificativa": "Propõe Centrais da Mulher em todo o país e ampliar os espaços de acolhimento."
+      },
+      "c": {
+        "nota": 95,
+        "evidencias": [
+          "p18"
+        ],
+        "justificativa": "Propõe integrar Ligue 180, botão de emergência e centrais de monitoramento em uma plataforma de resposta rápida."
+      },
+      "d": {
+        "nota": 90,
+        "evidencias": [
+          "p9"
+        ],
+        "justificativa": "Propõe endurecer a lei e obrigar agressores de mulheres a cumprir integralmente as penas."
+      }
+    }
+  }
+}
