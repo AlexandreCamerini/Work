@@ -20,6 +20,10 @@ def get_backend() -> InferenceBackend:
             from photo_app.inference.hf_endpoint_backend import HFEndpointBackend
 
             _INSTANCES[kind] = HFEndpointBackend()
+        elif kind is BackendKind.SELF_HOSTED:
+            from photo_app.inference.self_hosted_backend import SelfHostedBackend
+
+            _INSTANCES[kind] = SelfHostedBackend()
         else:
             raise ValueError(f"Backend desconhecido: {kind}")
     return _INSTANCES[kind]

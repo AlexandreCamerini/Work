@@ -1,0 +1,14 @@
+# Dependências do servidor de inferência standalone. Instalar SÓ na VM que hospeda
+# a inferência (ex.: Oracle Cloud Always Free, Ampere A1 / ARM64) — não precisa do
+# restante do photo_app (api/, pipeline/, storage/).
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pillow>=10.4
+
+# CPU-only. Em ARM64 (Ampere A1) o PyPI já publica wheels aarch64 pra torch >=2.3;
+# confirme com `pip debug --verbose` se a wheel resolvida é cpu/aarch64 antes de rodar
+# em produção — instalar a wheel errada aqui é a causa mais comum de "ModuleNotFoundError"
+# silencioso ou build from source demorando horas numa VM de 4 OCPU.
+torch>=2.3
+transformers>=4.44
