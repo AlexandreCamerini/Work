@@ -110,7 +110,7 @@ A licença controla só o que o app oferece na interface. O helper não conhece 
 - RF-09 Para cada item que executa script: estado (ativo, desativado, órfão), gatilho, caminho, dono, permissões, datas, origem de download, SHA-256, indicadores com a linha que os disparou e o conteúdo (até 150 linhas, só local).
 
 **Permissões e capacidades**
-- RF-10 O app funciona sem Acesso Total ao Disco. Com ele, adiciona a lista de itens em segundo plano e as permissões de privacidade.
+- RF-10 O app funciona sem Acesso Total ao Disco. A lista de itens em segundo plano vem do helper e não depende dele; só as permissões de privacidade dependem (e de D8).
 - RF-11 O app nunca pede Acesso Total ao Disco na primeira execução; oferece quando o usuário abre um recurso que depende dele, explicando o ganho.
 - RF-12 Cada coletor declara uma verificação de capacidade por versão do macOS. Se a leitura das permissões de privacidade falhar, o cartão correspondente vira "não foi possível verificar nesta versão" com botão para o painel de Privacidade.
 
@@ -187,7 +187,7 @@ Regras: `MDRules` e `MDModel` não importam AppKit nem fazem I/O; `MDHelper` nã
 
 ### 6.3 Premissas a validar no M0
 - Um daemon registrado pelo app herda o Acesso Total ao Disco concedido ao app (atribuição de processo responsável). Não é documentado; testar por versão.
-- O arquivo de itens em segundo plano é legível com Acesso Total ao Disco e seu formato é estável o bastante para um leitor tolerante; alternativa é `sfltool dumpbtm` no helper.
+- Itens em segundo plano: **resolvido no M0**. `sfltool dumpbtm` no helper é o caminho; funciona como root sem Acesso Total ao Disco. O leitor direto do arquivo foi descartado (pasta protegida).
 - Leitura das permissões de privacidade nas três versões (D8).
 
 ---
@@ -263,6 +263,8 @@ Identificadores iguais aos do protótipo. "Helper" = precisa do helper para cole
 | `spotlight`, `timemachine`, `uptime`, `pouca_ram`, `pouca_energia`, `bateria`, `travamentos`, `muitos_agentes` | Desempenho | Como no protótipo | App | Abrir Ajustes ou guia |
 
 Saem em relação ao protótipo: liberar cache de memória e refazer o índice do Spotlight (não são reversíveis nem necessários).
+
+Achados do M0 que viram regra (ver `docs/M0-matriz.md`): saída de comando muda com o idioma do sistema (decimal com vírgula) e entre versões (nome da autoridade de assinatura); binário da Apple se reconhece por requisito de assinatura (`anchor apple`), nunca por texto; estado térmico não vem de `pmset` em Apple Silicon.
 
 Os coletores usam APIs do sistema no lugar de comandos sempre que existir API pública (processos, assinatura de código, memória, disco, estado térmico). Onde não existir, o comando roda com caminho absoluto, argumentos fixos e tempo limite.
 

@@ -23,7 +23,7 @@ import getpass, glob, hashlib, hmac, html, ipaddress, json, os, plistlib, pwd, r
 import sqlite3, ssl, subprocess, sys, threading, time, urllib.error, urllib.parse, urllib.request, uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-VERSION = "2.2"
+VERSION = "2.3"
 API_URL = "https://api.anthropic.com/v1/messages"
 MODEL_PADRAO = "claude-opus-5-5"
 KEYCHAIN_SERVICE, KEYCHAIN_ACCOUNT = "mac-doctor", "anthropic-api-key"
@@ -69,7 +69,7 @@ def assinatura(path):
             auth = re.search(r"^Authority=(.+)$", out, re.M)
             team = re.search(r"^TeamIdentifier=(.+)$", out, re.M)
             a = auth.group(1) if auth else ""
-            if a == "Software Signing":
+            if a in ("Software Signing", "macOS Software Signing"):      # o segundo é o nome no macOS 27 (M0)
                 r = ("apple", "Apple (sistema)")
             elif a:
                 r = ("dev", "%s [Team %s]" % (a, team.group(1) if team else "?"))
