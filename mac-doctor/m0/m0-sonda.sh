@@ -20,14 +20,20 @@ TCC_SYS="/Library/Application Support/com.apple.TCC/TCC.db"
 # limite de tempo sem depender de 'timeout' (não existe no macOS)
 T() { local s="$1"; shift; if command -v perl >/dev/null 2>&1; then perl -e 'alarm shift; exec @ARGV' "$s" "$@"; else "$@"; fi; }
 
-# Acesso Total ao Disco do processo responsável: ler o TCC.db do usuário só funciona com ele
-if sqlite3 -readonly "$TCC_USER" "select count(*) from access" >/dev/null 2>&1; then FDA="com-fda"; else FDA="sem-fda"; fi
+# Acesso Total ao Disco: detectado por pastas protegidas que NÃO são o banco de permissões. (A v1/v2 usava o próprio
+# banco como teste; se o macOS bloquear o banco mesmo com o acesso concedido, isso dava "sem-fda" por engano.)
+FDA="sem-fda"; FDA_EVID=""
+for alvo in Safari Mail Messages; do
+  if [ ! -e "$REAL_HOME/Library/$alvo" ]; then FDA_EVID="$FDA_EVID $alvo=ausente"
+  elif ls "$REAL_HOME/Library/$alvo" >/dev/null 2>&1; then FDA="com-fda"; FDA_EVID="$FDA_EVID $alvo=legivel"
+  else FDA_EVID="$FDA_EVID $alvo=negado"; fi
+done
 
 OUT="m0-resultado-macos${VER}-${ARQ}-${NIVEL}-${FDA}.md"
 {
-  echo "# M0 — macOS $VER ($ARQ) · nível: $NIVEL · Acesso Total ao Disco: $FDA"
+  echo "# M0 — macOS $VER ($ARQ) · nível: $NIVEL · Acesso Total ao Disco: $FDA · sonda v3"
   echo
-  echo "Gerado em $(date '+%Y-%m-%d %H:%M') · build $(sw_vers -buildVersion) · chip: $(sysctl -n machdep.cpu.brand_string 2>/dev/null)"
+  echo "Gerado em $(date '+%Y-%m-%d %H:%M') · build $(sw_vers -buildVersion) · chip: $(sysctl -n machdep.cpu.brand_string 2>/dev/null) · idioma do sistema: $(defaults read -g AppleLocale 2>/dev/null) · LANG=${LANG:-vazio} · app de terminal: ${TERM_PROGRAM:-desconhecido}"
   echo
   echo "| Sonda | Resultado | Detalhe |"
   echo "|---|---|---|"
@@ -42,7 +48,7 @@ sonda() {
   local out rc st det err
   out="$(T 45 "$@" 2>&1)"; rc=$?
   if printf '%s' "$out" | grep -Eq "$re"; then st="OK"; else st="FALHA"; fi
-  det="rc=$rc, $(printf '%s' "$out" | wc -l | tr -d ' ') linhas"
+  det="rc=$rc, $(printf '%s\n' "$out" | grep -c '') linhas"
   err="$(classe_erro "$out")"; [ -n "$err" ] && det="$det, erro: $err"
   linha "$id" "$st" "$det"
 }
@@ -68,7 +74,11 @@ linha "launchd.print-disabled gui"    "$([ -n "$fmt" ] && echo OK || echo FALHA)
 out="$(launchctl print-disabled system 2>&1)"
 fmt="$(printf '%s' "$out" | grep -Eo '=> (disabled|enabled|true|false)' | awk '{print $2}' | sort -u | tr '\n' ' ')"
 linha "launchd.print-disabled system" "$([ -n "$fmt" ] && echo OK || echo FALHA)" "valores vistos: ${fmt:-nenhum} $(classe_erro "$out")"
-sonda "launchd.print system/servico" 'state = |program = '          launchctl print system/com.apple.cfprefsd.daemon
+if [ "$NIVEL" = "root" ]; then DOM="system"; else DOM="gui/$REAL_UID"; fi
+ROT="$(launchctl list 2>/dev/null | awk 'NR>1 && $1 ~ /^[0-9]+$/ {print $3; exit}')"     # um serviço em execução
+if [ -n "$ROT" ]; then sonda "launchd.print servico existente" 'state = |program = |path = ' launchctl print "$DOM/$ROT"
+else linha "launchd.print servico existente" "FALHA" "launchctl list não devolveu nenhum serviço em execução"; fi
+sonda "launchd.print servico ausente" 'Could not find service'      launchctl print "$DOM/br.exemplo.inexistente"
 
 # --- itens em segundo plano (BTM)
 if [ "$NIVEL" = "root" ]; then
@@ -80,14 +90,23 @@ if [ "$NIVEL" = "root" ]; then
 else
   linha "btm.sfltool dumpbtm" "N/A" "só testado como root (sem sudo pode abrir diálogo de senha)"
 fi
-btm="$(ls /private/var/db/com.apple.backgroundtaskmanagement/BackgroundItems-v*.btm 2>&1 | head -1)"
+BTMDIR=/private/var/db/com.apple.backgroundtaskmanagement
+out="$(ls -la "$BTMDIR" 2>&1)"; rc=$?
+linha "btm.pasta" "$([ "$rc" -eq 0 ] && echo OK || echo FALHA)" "rc=$rc, $(printf '%s\n' "$out" | grep -c '\.btm') arquivos .btm, nomes: $(printf '%s\n' "$out" | grep -Eo 'BackgroundItems[^ ]*' | tr '\n' ' ') $(classe_erro "$out")"
+btm="$(ls "$BTMDIR"/BackgroundItems-v*.btm 2>&1 | head -1)"
 if [ -f "$btm" ]; then
   linha "btm.arquivo" "$(head -c 8 "$btm" >/dev/null 2>&1 && echo OK || echo FALHA)" "$(basename "$btm"), cabeçalho: $(head -c 8 "$btm" 2>/dev/null | tr -cd '[:print:]')"
 else
   linha "btm.arquivo" "FALHA" "não listado: $(classe_erro "$btm")"
 fi
 
-# --- permissões de privacidade (TCC)
+# --- Acesso Total ao Disco e permissões de privacidade (TCC)
+linha "fda.pastas protegidas" "$([ "$FDA" = com-fda ] && echo OK || echo FALHA)" "$FDA_EVID"
+for par in "usuario:$REAL_HOME/Library/Application Support/com.apple.TCC" "sistema:/Library/Application Support/com.apple.TCC"; do
+  rot="${par%%:*}"; dir="${par#*:}"
+  out="$(ls -la "$dir" 2>&1)"; rc=$?
+  linha "tcc.pasta $rot" "$([ "$rc" -eq 0 ] && echo OK || echo FALHA)" "rc=$rc, arquivos: $(printf '%s\n' "$out" | grep -Eo 'TCC\.db[^ ]*' | tr '\n' ' ') $(classe_erro "$out")"
+done
 for par in "usuario:$TCC_USER" "sistema:$TCC_SYS"; do
   rot="${par%%:*}"; db="${par#*:}"
   out="$(sqlite3 -readonly "$db" "select count(*) from access" 2>&1)"; rc=$?
@@ -99,7 +118,13 @@ sonda "tcc.tccutil existe"     'reset|Usage|usage'                 tccutil
 sonda "spotlight.mdfind bundle" 'Safari'                           mdfind "kMDItemCFBundleIdentifier == 'com.apple.Safari'"
 
 # --- assinatura de código
-sonda "codesign.binario Apple" 'Authority=Software Signing'        codesign -dv --verbose=2 /bin/ls
+sonda "codesign.binario Apple" 'Authority=Software Signing'        codesign -dv --verbose=4 /bin/ls
+out="$(codesign -dv --verbose=4 /bin/ls 2>&1)"
+linha "codesign.campos de /bin/ls" "INFO" "chaves: $(printf '%s\n' "$out" | sed -n 's/=.*//p' | sort -u | tr '\n' ' ')· Authority: $(printf '%s\n' "$out" | sed -n 's/^Authority=//p' | tr '\n' ';') · Signature: $(printf '%s\n' "$out" | sed -n 's/^Signature=//p' | head -1) · TeamIdentifier: $(printf '%s\n' "$out" | sed -n 's/^TeamIdentifier=//p')"
+codesign -v -R="anchor apple" /bin/ls >/dev/null 2>&1; rc=$?
+linha "codesign.requisito anchor apple" "$([ "$rc" -eq 0 ] && echo OK || echo FALHA)" "rc=$rc (0 = binário ancorado na Apple)"
+codesign -v -R="anchor apple" /usr/bin/python3 >/dev/null 2>&1; rc=$?
+linha "codesign.anchor apple em python3" "INFO" "rc=$rc"
 sonda "codesign.app"           'Authority=|TeamIdentifier='        codesign -dv --verbose=2 /System/Applications/Calculator.app
 
 # --- processos e rede
@@ -117,9 +142,19 @@ sonda "cron.usuario"           'no crontab|^[^#]'                  crontab -l
 # --- desempenho
 sonda "perf.top cpu"           '%CPU'                              top -l 2 -s 1 -n 5 -o cpu -stats cpu,mem,pid,command
 sonda "perf.memory_pressure"   'free percentage: [0-9]+%'          memory_pressure
-sonda "perf.swap"              'used = [0-9.]+[MG]'                sysctl -n vm.swapusage
+sonda "perf.swap (idioma do usuario)" 'used = [0-9.]+[MG]'          sysctl -n vm.swapusage
+sonda "perf.swap (locale en_US)"     'used = [0-9.]+[MG]'          env LC_ALL=en_US.UTF-8 sysctl -n vm.swapusage
+out="$(sysctl -n vm.swapusage 2>&1)"
+linha "perf.swap formato" "INFO" "separador decimal: $(printf '%s' "$out" | grep -q '[0-9],[0-9]' && echo virgula || echo ponto) · palavras: $(printf '%s' "$out" | tr -d '0-9.,' | tr -s ' ')"
+for loc in usuario en_US; do
+  if [ "$loc" = usuario ]; then out="$(T 30 top -l 2 -s 1 -n 3 -o cpu -stats cpu,mem,pid,command 2>&1)"; else out="$(LC_ALL=en_US.UTF-8 T 30 top -l 2 -s 1 -n 3 -o cpu -stats cpu,mem,pid,command 2>&1)"; fi
+  col="$(printf '%s\n' "$out" | awk '/%CPU/{f=1; next} f && NF>=4 {print $1; exit}')"
+  linha "perf.top numero ($loc)" "$(printf '%s' "$col" | grep -Eq '^[0-9]+\.[0-9]+$' && echo OK || echo FALHA)" "formato da 1a coluna: $(printf '%s' "$col" | sed 's/[0-9]/9/g')"
+done
 sonda "perf.boottime"          'sec = [0-9]+'                      sysctl -n kern.boottime
-sonda "perf.termico"           'CPU_Speed_Limit'                   pmset -g therm
+sonda "perf.termico (pmset)"   'CPU_Speed_Limit'                   pmset -g therm
+out="$(pmset -g therm 2>&1)"
+linha "perf.termico texto" "INFO" "$(printf '%s' "$out" | tr '\n' ' ' | tr -s ' ' | cut -c1-160)"
 sonda "perf.pouca energia"     'lowpowermode|powermode'            pmset -g
 sonda "perf.bateria"           'Condition:|Cycle Count'            system_profiler SPPowerDataType
 sonda "perf.smart"             'SMART Status'                      diskutil info /

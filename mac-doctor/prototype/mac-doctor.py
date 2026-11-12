@@ -23,7 +23,7 @@ import getpass, glob, hashlib, hmac, html, ipaddress, json, os, plistlib, pwd, r
 import sqlite3, ssl, subprocess, sys, threading, time, urllib.error, urllib.parse, urllib.request, uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-VERSION = "2.1"
+VERSION = "2.2"
 API_URL = "https://api.anthropic.com/v1/messages"
 MODEL_PADRAO = "claude-opus-5-5"
 KEYCHAIN_SERVICE, KEYCHAIN_ACCOUNT = "mac-doctor", "anthropic-api-key"
@@ -33,10 +33,14 @@ MAX_POR_REGRA = 12
 
 # ----------------------------------------------------------------------------- utilidades
 
+# Locale fixo: em Macs configurados em português, sysctl/top imprimem decimais com vírgula e mensagens traduzidas,
+# o que quebrava os parsers (achado do M0 em macOS 27.3). UTF-8 é mantido para caminhos com acento.
+AMBIENTE = dict(os.environ, LC_ALL="en_US.UTF-8", LANG="en_US.UTF-8")
+
 def run(cmd, timeout=40):
     """Executa um comando (lista, sem shell) e devolve stdout+stderr. Nunca levanta exceção."""
     try:
-        p = subprocess.run(cmd, capture_output=True, text=True, errors="replace", timeout=timeout)
+        p = subprocess.run(cmd, capture_output=True, text=True, errors="replace", timeout=timeout, env=AMBIENTE)
         return (p.stdout or "") + (p.stderr or "")
     except Exception:
         return ""
