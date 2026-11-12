@@ -211,12 +211,14 @@ Regras: `MDRules` e `MDModel` não importam AppKit nem fazem I/O; `MDHelper` nã
 | `scanPrivileged` | Leitura | conjunto de coletores pedidos | snapshot com itens identificados e lista do que não pôde ser lido |
 | `disableLaunchItem` | Ação | id do item | registro |
 | `quarantineItem` | Ação | id do item | registro com origem e destino |
-| `terminateProcess` | Ação | id do processo | registro |
+| `terminateProcess` | Ação | identidade do processo: PID, caminho do executável e hora de início (só conferência, ver 7.1 item 3 e ADR 0002) | registro |
 | `removeLoginHook` | Ação | — | registro com valor anterior |
-| `setGatekeeper` / `setFirewall` | Ação | ligado | estado resultante |
+| `setGatekeeper` / `setFirewall` | Ação | — (só liga; desligar é pelos Ajustes, catálogo 10.1) | estado resultante |
 | `undo` | Ação | id do registro | resultado |
 | `history` | Leitura | — | registros |
 | `uninstall` | Controle | — | resultado |
+
+Contrato em código: `app-nativo/MDHelperProtocol` (ADR 0002). Alvos de ação de item carregam o id do snapshot em que o helper os coletou.
 
 Coletores privilegiados: itens em segundo plano, tarefas agendadas do administrador, regras de `sudo`, perfis de configuração, conexões de rede de todos os processos, scripts ilegíveis para o usuário.
 
